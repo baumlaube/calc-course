@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projekt Klassenfahrt · Calc-Kurs Klasse 8</title>
+<meta name="description" content="Abschlussprojekt Klasse 8: Eine Klassenfahrt mit LibreOffice Calc planen – Kostenplan, Finanzierung, Diagramm und Entscheidung. Mit Bewertungsraster.">
+<link rel="canonical" href="https://calc.herrseibert.de/k8/07-projekt-klassenfahrt.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/k8/07-projekt-klassenfahrt.html">
+<meta property="og:title" content="Projekt Klassenfahrt · Calc-Kurs Klasse 8">
+<meta property="og:description" content="Abschlussprojekt Klasse 8: Eine Klassenfahrt mit LibreOffice Calc planen – Kostenplan, Finanzierung, Diagramm und Entscheidung. Mit Bewertungsraster.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="k8-07-projekt-klassenfahrt" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minichart.js?v=8eed7d4abd" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Lernpfad Klasse 8">
+    <strong class="t">Klasse 8:</strong>
+    <ol>
+      <li class="done"><a href="01-erste-schritte.html" title="1 · Erste Schritte">1</a></li>
+      <li class="done"><a href="02-erste-formeln.html" title="2 · Erste Formeln">2</a></li>
+      <li class="done"><a href="03-funktionen.html" title="3 · Funktionen">3</a></li>
+      <li class="done"><a href="04-ausfuellen.html" title="4 · Ausfüllen">4</a></li>
+      <li class="done"><a href="05-absolute-bezuege.html" title="5 · Absolute Bezüge">5</a></li>
+      <li class="done"><a href="06-diagramme.html" title="6 · Diagramme">6</a></li>
+      <li class="now"><span title="7 · Projekt" aria-current="step">7</span></li>
+      <li class="now"><span title="8 · Projekt">8</span></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>Projekt: Wir planen die Klassenfahrt</h1>
+    <div class="meta">
+      <span class="chip">Klasse 8 · Baustein 7–8</span>
+      <span class="chip">⏱ 2 × 35 Minuten</span>
+      <span class="chip">Vorwissen: Baustein 1–6</span>
+    </div>
+    <ul class="goals">
+      <li>Ich kann alles aus Baustein 1 bis 6 in einem echten Projekt anwenden.</li>
+      <li>Ich kann einen Kostenplan mit Formeln, SUMME und absoluten Bezügen erstellen.</li>
+      <li>Ich kann Ergebnisse mit einem Diagramm zeigen und eine Entscheidung begründen.</li>
+    </ul>
+  </section>
+
+  <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
+  <details class="card woerter" id="woerter">
+    <summary><span class="t">📖 Calc-Wörter für diesen Baustein</span></summary>
+    <p class="note">Die Wörter links bleiben deutsch. So stehen sie in Calc und in den Aufgaben.</p>
+    <table class="plain">
+      <tbody>
+        <tr><th class="wort" lang="de">der Kostenplan</th><td>eine Tabelle: Was kostet wie viel?</td></tr>
+        <tr><th class="wort" lang="de">der Posten <small>die Posten</small></th><td>eine Zeile im Kostenplan, z. B. Bus oder Essen</td></tr>
+        <tr><th class="wort" lang="de">die Gesamtkosten</th><td>alle Kosten zusammen</td></tr>
+        <tr><th class="wort" lang="de">pro Person</th><td>für jede Person einzeln</td></tr>
+        <tr><th class="wort" lang="de">der Zuschuss <small>die Zuschüsse</small></th><td>Geld, das jemand dazugibt, z. B. die Schule</td></tr>
+        <tr><th class="wort" lang="de">das Angebot <small>die Angebote</small></th><td>ein Vorschlag mit Preis. Ihr vergleicht zwei Angebote.</td></tr>
+        <tr><th class="wort" lang="de">begründen</th><td>sagen, warum. Hier: mit Zahlen.</td></tr>
+      </tbody>
+    </table>
+  </details>
+
+  <!-- Auftrag -->
+  <section class="card" id="auftrag">
+    <h2><span class="step-no">🎒</span> Euer Auftrag</h2>
+    <div class="rule">Eure Klasse fährt 3 Tage weg. Ihr seid das <strong>Planungsteam</strong>.<br>Was kostet die Fahrt? Wie viel zahlt jeder selbst? Welches Ziel ist besser?</div>
+    <p class="note">Ihr arbeitet allein oder zu zweit. Die Projektdatei zeigt euch auf dem Startblatt, welche Meilensteine schon geschafft sind.</p>
+    <div class="dl">
+      <a href="../downloads/k8-07-projekt-klassenfahrt.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Projektdatei</strong><small>k8-07-projekt-klassenfahrt.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-07-projekt-klassenfahrt-BEISPIEL.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Beispiel-Lösung</strong><small>zum Vergleichen nach der Abgabe</small></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Fahrplan -->
+  <section class="card" id="fahrplan">
+    <h2><span class="step-no">1</span> Stunde 1 · Was kostet die Fahrt? <span class="chip">35 Min</span></h2>
+    <ul class="tasks">
+      <li><span class="badge basis">Meilenstein 1</span><span><strong>Kostenplan:</strong> Gesamtkosten für jeden Posten, dann Summe und Kosten pro Person.<br><small class="note">Du brauchst: <a href="02-erste-formeln.html">Formeln</a> · <a href="03-funktionen.html">SUMME</a> · <a href="04-ausfuellen.html">Ausfüllen</a> · <a href="05-absolute-bezuege.html">$-Anker</a></small></span></li>
+      <li><span class="badge basis">Meilenstein 2</span><span><strong>Finanzierung:</strong> Was bleibt nach Zuschuss und Klassenkasse? Wie viel zahlt jeder selbst?<br><small class="note">Du brauchst: <a href="02-erste-formeln.html">Formeln</a></small></span></li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2><span class="step-no">2</span> Stunde 2 · Zeigen und entscheiden <span class="chip">35 Min</span></h2>
+    <ul class="tasks">
+      <li><span class="badge basis">Meilenstein 3</span><span><strong>Diagramm &amp; Design:</strong> Den Plan übersichtlich formatieren, ein Kreisdiagramm „Wofür geht das Geld drauf?“ erstellen.<br><small class="note">Du brauchst: <a href="01-erste-schritte.html">Formatieren</a> · <a href="06-diagramme.html">Diagramme</a></small></span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Angebot B:</strong> Ein zweites Ziel durchrechnen, vergleichen und eine Empfehlung begründen.</span></li>
+      <li><span class="badge expedition">★ Expedition</span><span><strong>Was wäre, wenn …</strong> mehr oder weniger mitfahren? Unten kannst du es schon ausprobieren. (<a href="#freiwillig">ganz unten</a>)</span></li>
+    </ul>
+  </section>
+
+  <!-- Spickzettel -->
+  <section class="card" id="spick">
+    <h2><span class="step-no">💡</span> Spickzettel</h2>
+    <div class="tbl-scroll">
+      <table class="plain">
+        <thead><tr><th>Ich will …</th><th>So geht's</th><th>Baustein</th></tr></thead>
+        <tbody>
+          <tr><td>rechnen lassen</td><td><code>=B6*B2</code>, Zellen anklicken statt Zahlen tippen</td><td><a href="02-erste-formeln.html">2</a></td></tr>
+          <tr><td>alles zusammenzählen</td><td><code>=SUMME(C5:C10)</code></td><td><a href="03-funktionen.html">3</a></td></tr>
+          <tr><td>eine Formel für viele Zeilen</td><td>Ausfüllkästchen nach unten ziehen</td><td><a href="04-ausfuellen.html">4</a></td></tr>
+          <tr><td>eine feste Zelle benutzen</td><td><code>$B$2</code> mit <kbd>Umschalt</kbd>+<kbd>F4</kbd></td><td><a href="05-absolute-bezuege.html">5</a></td></tr>
+          <tr><td>Beträge mit €</td><td>Rechtsklick → Zellen formatieren … → Währung</td><td><a href="01-erste-schritte.html">1</a></td></tr>
+          <tr><td>ein Diagramm</td><td>Bereich markieren → Einfügen → Diagramm …</td><td><a href="06-diagramme.html">6</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Expedition-Vorschau -->
+  <!-- Bewertung -->
+  <section class="card print-keep" id="bewertung">
+    <h2><span class="step-no">✓</span> So wird bewertet</h2>
+    <p class="lead">Schau vorher, was zählt. Kreuze am Ende selbst an, wo du stehst.</p>
+    <div class="tbl-scroll">
+      <table class="plain">
+        <thead><tr><th>Kriterium</th><th>★ Anfänger</th><th>★★ Könner</th><th>★★★ Profi</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Formeln</strong></td><td>einige Ergebnisse stimmen</td><td>alle Ergebnisse stimmen</td><td>überall Zellbezüge, keine getippten Zahlen</td></tr>
+          <tr><td><strong>SUMME &amp; Ausfüllen</strong></td><td>Summe per Hand addiert</td><td>SUMME benutzt</td><td>eine Formel geschrieben und ausgefüllt</td></tr>
+          <tr><td><strong>$-Anker</strong></td><td>Teilnehmerzahl als Zahl getippt</td><td>Bezug auf B2</td><td><code>$B$2</code>, der Test „23 Teilnehmende“ klappt</td></tr>
+          <tr><td><strong>Gestaltung</strong></td><td>kaum formatiert</td><td>Währung und Überschrift</td><td>übersichtlich wie eine Präsentation</td></tr>
+          <tr><td><strong>Diagramm</strong></td><td>Diagramm vorhanden</td><td>passender Typ und Titel</td><td>mit Prozenten, richtig abgelesen</td></tr>
+          <tr><td><strong>Entscheidung</strong> <span class="badge plus">Plus</span></td><td>Ziel genannt</td><td>mit Zahlen begründet</td><td>Zahlen und weitere Gründe abgewogen</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Für Lehrkräfte: ★ = 1, ★★ = 2, ★★★ = 3 Punkte je Zeile. Ohne Plus sind es 15 Punkte, mit Plus 18.</p>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Raster drucken</button></div>
+  </section>
+
+  <!-- Ich kann -->
+  <section class="card" id="ichkann">
+    <h2>Rückblick auf Klasse 8</h2>
+    <p class="lead">Hak ab, was du jetzt kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
+    <ul class="checklist" id="checklist">
+      <li><label><input type="checkbox"> <span class="t">Ich kann einen Kostenplan mit Formeln aufbauen.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich setze SUMME, Ausfüllen und <code>$</code> sinnvoll ein.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich gestalte Tabellen so, dass andere sie gut lesen können.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich wähle das passende Diagramm und lese es richtig.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich kann zwei Angebote vergleichen und meine Entscheidung begründen.</span></label></li>
+    </ul>
+  </section>
+
+  <!-- Freiwillig: Üben + ★ Expedition -->
+  <section class="card frei" id="freiwillig">
+    <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
+    <h3 class="sub"><span class="badge expedition">★ Expedition</span> Was wäre, wenn …?</h3>
+    <p class="lead">Der Bus kostet immer <strong>1.450 €</strong>, egal wie viele mitfahren. Alles andere kostet <strong>186,50 € pro Person</strong>. Was heißt das für den Preis pro Kopf?</p>
+    <div class="slider">
+      <label for="anzahl"><strong class="t">Teilnehmende:</strong> <span id="anzahlval">25</span></label>
+      <input type="range" id="anzahl" min="15" max="30" step="1" value="25">
+    </div>
+    <div class="rule" id="preis">244,50 € pro Person</div>
+    <div class="chart-box" id="chartx"></div>
+    <p class="note">In der Projektdatei rechnest du diese Tabelle selbst aus, mit einer einzigen Formel und dem $-Anker.</p>
+  </section>
+
+  <nav class="pager" aria-label="Weiter im Lernpfad">
+    <a href="06-diagramme.html">← 6 · Diagramme</a>
+    <a href="../k9/01-fehlerdetektiv.html">Klasse 9 · Fehlerdetektiv →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const T = (x) => (window.T ? window.T(x) : x);
+  const BUS = 1450, PP = 186.5;
+  const eur = (x) => x.toLocaleString("de-DE", { style: "currency", currency: "EUR" });
+  const ns = Array.from({ length: 16 }, (_, i) => 15 + i);
+  const slider = document.getElementById("anzahl");
+  const draw = () => {
+    const n = Number(slider.value);
+    document.getElementById("anzahlval").textContent = n;
+    const p = (BUS + PP * n) / n;
+    document.getElementById("preis").innerHTML = T(`<strong>${eur(p)}</strong> pro Person`) +
+      (p < 250 ? T(" · unter 250 € 🎉") : "");
+    MiniChart.render(document.getElementById("chartx"), {
+      type: "line", title: T("Preis pro Person"), yMin: 0, yTitle: "€", valueLabels: false,
+      labels: ns.map((x) => (x % 5 === 0 || x === n ? String(x) : "")),
+      values: ns.map((x) => Math.round((BUS + PP * x) / x)),
+    });
+    const dots = document.querySelectorAll("#chartx circle");
+    if (dots[n - 15]) { dots[n - 15].setAttribute("r", 9); dots[n - 15].setAttribute("fill", "var(--ch2)"); }
+  };
+  slider.addEventListener("input", draw);
+  draw();
+  document.addEventListener("i18n-ready", draw);
+  window.Kurs.checklist(document.getElementById("checklist"), "k8-07");
+});
+</script>
+</body>
+</html>

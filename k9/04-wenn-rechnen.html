@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WENN 2 · Calc-Kurs Klasse 9</title>
+<meta name="description" content="Klasse 9, Baustein 4: WENN 2 – statt Ja und Nein gibt WENN Zahlen aus oder rechnet im Dann- und Sonst-Teil.">
+<link rel="canonical" href="https://calc.herrseibert.de/k9/04-wenn-rechnen.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/k9/04-wenn-rechnen.html">
+<meta property="og:title" content="WENN 2 · Calc-Kurs Klasse 9">
+<meta property="og:description" content="Klasse 9, Baustein 4: WENN 2 – statt Ja und Nein gibt WENN Zahlen aus oder rechnet im Dann- und Sonst-Teil.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="k9-04-wenn-rechnen" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+<script src="../assets/stufen.js?v=67a7f8cf98" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Lernpfad Klasse 9">
+    <strong class="t">Klasse 9:</strong>
+    <ol>
+      <li class="done"><a href="01-fehlerdetektiv.html" title="1 · Fehlerdetektiv">1</a></li>
+      <li class="done"><a href="02-prozentrechnung.html" title="2 · Prozentrechnung">2</a></li>
+      <li class="done"><a href="03-wenn.html" title="3 · WENN 1">3</a></li>
+      <li class="now"><span title="4 · WENN 2" aria-current="step">4</span></li>
+      <li class="done"><a href="05-wenn-grenzen.html" title="5 · WENN 3">5</a></li>
+      <li class="done"><a href="06-bedingte-formatierung.html" title="6 · Bedingte Formatierung 1">6</a></li>
+      <li class="done"><a href="07-bedingte-formatierung-2.html" title="7 · Bedingte Formatierung 2">7</a></li>
+      <li class="done"><a href="08-fit-fuer-die-probe.html" title="8 · Fit für die Probe">8</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>WENN 2 – Dann und Sonst rechnen</h1>
+    <div class="meta">
+      <span class="chip">Klasse 9 · Baustein 4</span>
+      <span class="chip">⏱ ca. 37 Minuten</span>
+      <span class="chip">Teil 2 von 3 zu WENN</span>
+    </div>
+    <ul class="goals">
+      <li>Ich kann WENN statt Ja und Nein eine Zahl ausgeben lassen.</li>
+      <li>Ich kann im Dann- und Sonst-Teil rechnen.</li>
+      <li>Ich weiß, wann Anführungszeichen hingehören und wann nicht.</li>
+    </ul>
+  </section>
+
+  <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
+  <details class="card woerter" id="woerter">
+    <summary><span class="t">📖 Calc-Wörter für diesen Baustein</span></summary>
+    <p class="note">Die Wörter links bleiben deutsch. So stehen sie in Calc und in den Aufgaben.</p>
+    <table class="plain">
+      <tbody>
+        <tr><th class="wort" lang="de">der Dann-Teil</th><td>das macht Calc, wenn die Antwort Ja ist</td></tr>
+        <tr><th class="wort" lang="de">der Sonst-Teil</th><td>das macht Calc, wenn die Antwort Nein ist</td></tr>
+        <tr><th class="wort" lang="de">sonst</th><td>in allen anderen Fällen</td></tr>
+        <tr><th class="wort" lang="de">die Rechnung <small>die Rechnungen</small></th><td>hier: etwas zum Ausrechnen, z. B. <code>A6+4,95</code></td></tr>
+        <tr><th class="wort" lang="de">ab</th><td>„ab 15“: 15 zählt mit, also <code>&gt;=15</code></td></tr>
+        <tr><th class="wort" lang="de">der Versand</th><td>das Schicken von einem Paket. Das kostet oft Geld.</td></tr>
+        <tr><th class="wort" lang="de">das Anführungszeichen <small>die Anführungszeichen</small></th><td>das Zeichen <code>"</code>. Text in Formeln steht dazwischen: <code>"Ja"</code></td></tr>
+      </tbody>
+    </table>
+  </details>
+
+  <!-- 0 · Weißt du noch? -->
+  <section class="card wdh" id="wdh">
+    <h2><span class="step-no">↺</span> Weißt du noch? <span class="chip">2 Min</span></h2>
+    <p class="lead">Zwei Aufgaben zu früheren Bausteinen. Ohne Nachschauen!</p>
+    <div id="wdh-box"></div>
+  </section>
+
+  <!-- 1 · Vorhersage -->
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <div id="calc1"></div>
+    <p class="lead">💡 <strong>Du kennst schon:</strong> <code class="long">=WENN(B5&lt;18;"Ja";"Nein")</code> – Ist Lisa jünger als 18?<br>Im Kino steht in C5 aber: <code class="long">=WENN(B5&lt;18;8;10)</code></p>
+    <p><strong>Jetzt du:</strong> Lisa ist 16. Was zeigt C5?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="ja">Ja</button>
+      <button type="button" class="choice" data-v="8">8</button>
+      <button type="button" class="choice" data-v="10">10</button>
+    </div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <!-- 2 · Erklärung -->
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> Statt Ja und Nein: rechnen <span class="chip">7 Min</span></h2>
+    <div class="rule">Statt <code>"Ja"</code> und <code>"Nein"</code> darf eine <strong>Zahl</strong> oder eine <strong>Rechnung</strong> stehen.<br>Zahlen und Rechnungen <strong>ohne</strong> Anführungszeichen.</div>
+
+    <h3 class="sub">Beispiel: Gesamtpreis im Online-Shop</h3>
+    <div id="calcBsp"></div>
+    <p><strong>Klick B5 und B6 an.</strong> Ändere auch mal einen Warenwert in Spalte A.</p>
+    <p class="fb" id="fbBsp" aria-live="polite"></p>
+    <p class="note">⚠ <code>"4,95"</code> in Anführungszeichen wäre Text. Damit kann Calc nicht weiterrechnen.</p>
+
+    <div class="video-ph">
+      <span class="play" aria-hidden="true">▶</span>
+      <span class="t"><strong>Kurzvideo (folgt):</strong> Rechnen mit WENN</span>
+    </div>
+  </section>
+
+  <!-- 3 · Ausprobieren -->
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Rechen-Training in 3 Stufen <span class="chip">8 Min</span></h2>
+    <div id="calc2"></div>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <!-- 4 · In Calc -->
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">12 Min</span></h2>
+    <p class="lead">Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Die Spalte <strong>Kontrolle</strong> zeigt dir, was noch fehlt.</p>
+    <div class="dl">
+      <a href="../downloads/k9-04-wenn-rechnen.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>k9-04-wenn-rechnen.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-04-wenn-rechnen-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Zahlen als Antwort:</strong> Versandkosten und Kinopreise.</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Rechnen:</strong> Gesamtpreis mit Versand und Handy-Guthaben aufladen.</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Klassenkasse:</strong> Wer muss noch zahlen – und wie viel fehlt insgesamt?</span></li>
+      <li><span class="badge expedition">Freiwillig</span><span>Üben und ★ Expedition – jeweils mit eigener Datei und Lösung: <a href="#freiwillig">ganz unten auf dieser Seite</a>.</span></li>
+    </ul>
+  </section>
+
+  <!-- 5 · Kurz-Check -->
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">3 Min</span></h2>
+    <p class="lead">Vier Fragen. Hast du es verstanden?</p>
+    <div id="quiz"></div>
+  </section>
+
+  <!-- Merke -->
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li>Statt <code>"Ja"</code> und <code>"Nein"</code> darf eine Zahl oder eine Rechnung stehen.</li>
+      <li>Zahl als Antwort: <code class="long">=WENN(A6&gt;=29;0;4,95)</code></li>
+      <li>Rechnung als Antwort: <code class="long">=WENN(A6&lt;29;A6+4,95;A6)</code></li>
+      <li>Text in <code>"Anführungszeichen"</code> – Zahlen und Rechnungen ohne!</li>
+      <li>Lies jede Formel als Satz: Wenn …, dann …, sonst …</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <!-- Ich kann -->
+  <section class="card" id="ichkann">
+    <h2>Das kann ich jetzt</h2>
+    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
+    <ul class="checklist" id="checklist">
+      <li><label><input type="checkbox"> <span class="t">Ich lasse WENN eine Zahl ausgeben, z. B. Versandkosten.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich rechne im Dann-Teil, z. B. <code>A6+4,95</code>.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich setze Anführungszeichen nur um Text.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich vergleiche Text und gebe eine Zahl aus.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich verbinde WENN mit Prozentrechnung.</span></label></li>
+    </ul>
+  </section>
+
+  <!-- Freiwillig: Üben + ★ Expedition -->
+  <section class="card frei" id="freiwillig">
+    <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
+    <p class="lead"><span class="badge ueben">Üben</span> heißt: dasselbe wie oben, nur mehr davon. <span class="badge expedition">★ Expedition</span> heißt: etwas Neues für Profis.</p>
+    <h3 class="sub"><span class="badge ueben">Üben</span> Zinsen bei der Bank</h3>
+    <p>Wer mehr als 10.000 € auf dem Konto hat, bekommt 2,5 % Zinsen, alle anderen 1,75 %.
+      WENN liefert den Zinssatz. Mit ihm rechnest du die Zinsen und das neue Guthaben aus.</p>
+    <p><code class="long">=WENN(B5&gt;10000;2,5%;1,75%)</code></p>
+    <p class="note"><strong>Achtung:</strong> Prozent mit %-Zeichen schreiben. <code>2,5</code> ohne % wären 250 %!
+      Und Frau Huber hat <em>genau</em> 10.000 € – bekommt sie 2,5 %?</p>
+    <div class="dl">
+      <a href="../downloads/k9-04-wenn-rechnen-mehr-zinsen.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Üben: Zinsen bei der Bank</strong><small>k9-04-wenn-rechnen-mehr-zinsen.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-04-wenn-rechnen-mehr-zinsen-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <h3 class="sub"><span class="badge expedition">★ Expedition</span> Rabatt ab 50 €</h3>
+    <div id="calc3"></div>
+    <p class="fb" id="fb3" aria-live="polite"></p>
+    <div class="dl">
+      <a href="../downloads/k9-04-wenn-rechnen-expedition.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>★ Expedition: Rabatt ab 50 €</strong><small>k9-04-wenn-rechnen-expedition.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-04-wenn-rechnen-expedition-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter im Lernpfad">
+    <a href="03-wenn.html">← 3 · WENN 1</a>
+    <a href="05-wenn-grenzen.html">5 · WENN 3 →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz, checklist } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+
+  /* ---------- 1 · Vorhersage ---------- */
+  const fb1 = document.getElementById("fb1");
+  const calc1 = new MiniCalc(document.getElementById("calc1"), {
+    cols: 3, rows: 6, decimal: "comma",
+    cells: { A4: "Name", B4: "Alter", C4: "Preis", A5: "Lisa", B5: 16, A6: "Tom", B6: 18 },
+    styles: { A4: "head", B4: "head", C4: "head" }, formats: { C: "eur" }, select: "B5",
+  });
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    predict.querySelector('[data-v="8"]').classList.add("right");
+    if (b.dataset.v !== "8") b.classList.add("wrong");
+    calc1.set("C5", "=WENN(B5<18;8;10)");
+    calc1.set("C6", "=WENN(B6<18;8;10)");
+    calc1.select("C5");
+    feedback(fb1, (b.dataset.v === "8" ? T("✔ Genau!") + " " : "") +
+      T("Die Frage ist dieselbe wie bei WENN 1: <strong>Ist Lisa jünger als 18?</strong> Ja – aber statt „Ja“ steht im Dann-Teil die Zahl <strong>8</strong>.") + " " +
+      T("Tom ist 18, nicht jünger. Für ihn kommt der Sonst-Teil: 10 €."), b.dataset.v === "8" ? "ok" : "hint");
+  });
+
+  /* ---------- 2 · Beispiel Versand ---------- */
+  const fbBsp = document.getElementById("fbBsp");
+  const explain = (c, a) => {
+    const m = /^([AB])([56])$/.exec(a);
+    if (!m) return;
+    const r = m[2], w = c.get("A" + r);
+    if (typeof w !== "number") { feedback(fbBsp, T(`In A${r} steht kein Warenwert.`), "info"); return; }
+    const f = (x) => c.format("B5", x);
+    feedback(fbBsp, `<code class="long">=WENN(A${r}&lt;29;A${r}+4,95;A${r})</code><br>` + (w < 29
+      ? T(`Frage: Ist ${f(w)} unter 29 €? <strong>Ja</strong> → Dann-Teil: A${r}+4,95 = ${f(w)} + 4,95 € = <strong>${f(w + 4.95)}</strong>`)
+      : T(`Frage: Ist ${f(w)} unter 29 €? <strong>Nein</strong> → Sonst-Teil: A${r} = <strong>${f(w)}</strong> (versandkostenfrei)`)), "info");
+  };
+  const calcBsp = new MiniCalc(document.getElementById("calcBsp"), {
+    cols: 2, rows: 6, decimal: "comma",
+    cells: { A4: "Warenwert", B4: "Gesamt", A5: 12.5, B5: "=WENN(A5<29;A5+4,95;A5)", A6: 34.9, B6: "=WENN(A6<29;A6+4,95;A6)" },
+    styles: { A4: "head", B4: "head" }, formats: { A: "eur", B: "eur" }, editable: ["A5", "A6"], select: "B5",
+    onSelect: explain,
+  });
+  calcBsp.on((c, src) => { if (src === "edit") explain(c, "B" + c.sel.slice(1)); });
+  explain(calcBsp, "B5");
+
+  /* ---------- 3 · Rechen-Training ---------- */
+  Stufen(document.getElementById("calc2"), document.getElementById("fb2"), [
+    { title: "Stufe 1 · Zahl statt Ja", head: "Warenwert", vals: [34.9, 12.5], fmt: "eur", ansFmt: "eur", textOnly: false,
+      q: "Ab 29 € kostet der Versand <strong>0 €</strong>, sonst <strong>4,95 €</strong>. Schreib in B2: <code class=\"long\">=WENN(A2&gt;=29;0;4,95)</code>",
+      want: (v) => (v >= 29 ? 0 : 4.95),
+      hint2: () => T("34,90 € ist mindestens 29 € – also 0. Schreib die Zahlen ohne Anführungszeichen."),
+      hint3: () => T("12,50 € ist unter 29 € – also 4,95 €."),
+      done: T("✔ Stufe 1 geschafft! Statt „Ja“ steht 0, statt „Nein“ steht 4,95.") },
+    { title: "Stufe 2 · Rechnung im Dann-Teil", head: "Warenwert", vals: [12.5, 34.9], fmt: "eur", ansFmt: "eur", textOnly: false,
+      q: "Jetzt der <strong>Gesamtpreis</strong>: Unter 29 € kommen 4,95 € dazu, sonst bleibt der Warenwert. Tipp: Dann-Teil <code>A2+4,95</code>, Sonst-Teil <code>A2</code>.",
+      want: (v) => (v < 29 ? v + 4.95 : v),
+      hint2: () => T("12,50 € ist unter 29 €. Dann soll 12,50 € + 4,95 € = 17,45 € herauskommen: <code>A2+4,95</code>."),
+      hint3: () => T("34,90 € ist nicht unter 29 €. Im Sonst-Teil steht einfach <code>A2</code> – dann bleibt der Wert."),
+      done: T("✔ Stufe 2 geschafft! WENN kann rechnen.") },
+    { title: "Stufe 3 · Ohne Vorlage", head: "Guthaben", vals: [3.2, 12], fmt: "eur", ansFmt: "eur", textOnly: false,
+      q: "Handy-Guthaben: <strong>Unter 5 €</strong> werden <strong>15 € aufgeladen</strong>, sonst bleibt es gleich.",
+      want: (v) => (v < 5 ? v + 15 : v),
+      hint2: () => T("3,20 € ist unter 5 € – dann 3,20 € + 15 € = 18,20 €. Lies deine Formel als Satz: Wenn …, dann …, sonst …"),
+      hint3: () => T("12 € ist nicht unter 5 € – das Guthaben bleibt 12 €."),
+      done: T("🏆 Alle 3 Stufen geschafft! Du kannst mit WENN rechnen.") },
+  ]);
+
+  /* ---------- 5 · Quiz ---------- */
+  quiz(document.getElementById("quiz"), [
+    { q: "In A5 stehen 34,90 €. Was zeigt <code>=WENN(A5&gt;=29;0;4,95)</code>?",
+      options: ["Ja", "0", "4,95"], right: 1,
+      why: "34,90 € ist mindestens 29 €. Die Frage stimmt, also kommt der Dann-Teil: 0.",
+      miss: ["WENN zeigt, was im Dann-Teil steht. Hier ist das 0, nicht Ja.", null, "4,95 ist der Sonst-Teil. Er kommt nur, wenn die Frage nicht stimmt."] },
+    { q: "Ab 29 € ist der Versand gratis. Was ist an <code>=WENN(A5&gt;=29;\"0\";\"4,95\")</code> ungünstig?",
+      options: ["Es fehlt ein $ vor A5", "Es muss &gt; statt &gt;= heißen", "Die Zahlen sind Text"], right: 2,
+      why: "In Anführungszeichen ist alles Text, auch \"4,95\". Zahlen schreibst du ohne.",
+      miss: ["A5 soll beim Ziehen mitwandern. Ein $ wäre hier falsch.", "„Ab 29 €“ heißt: 29 € gehört dazu. Also <code>&gt;=</code>.", null] },
+    { q: "In A5 stehen 3 €. Was zeigt <code>=WENN(A5&lt;5;A5+15;A5)</code>?",
+      options: ["3 €", "15 €", "18 €"], right: 2,
+      why: "3 € ist unter 5 €. Dann-Teil: A5+15 = 3 + 15 = 18.",
+      miss: ["3 € ist der Sonst-Teil. Aber 3 ist kleiner als 5, die Frage stimmt.", "Der Dann-Teil heißt A5+15. A5 gehört dazu.", null] },
+    { q: "WENN soll „gratis“ oder den Preis aus A5 zeigen. Welche Formel stimmt?",
+      options: ["<code>=WENN(A5&lt;1;gratis;\"A5\")</code>", "<code>=WENN(A5&lt;1;\"gratis\";A5)</code>", "<code>=WENN(A5&lt;1;\"gratis\";\"A5\")</code>"], right: 1,
+      why: "Text in Anführungszeichen, Zellen ohne. \"A5\" wäre nur der Text A5.",
+      miss: ["Genau verdreht: Der Text braucht Anführungszeichen, die Zelle nicht.", null, "<code>\"A5\"</code> zeigt nur die Buchstaben A5, nicht den Preis."] },
+  ]);
+
+  /* ---------- Expedition: Rabatt ---------- */
+  Stufen(document.getElementById("calc3"), document.getElementById("fb3"), [
+    { title: "Rabatt ab 50 €", head: "Einkauf", vals: [64, 38.5], fmt: "eur", ansFmt: "eur", textOnly: false,
+      q: "Ab 50 € gibt es <strong>10 % Rabatt</strong>, sonst zahlt man den vollen Betrag. Aus Baustein 2 weißt du: 10 % weniger heißt <code>*(1-10%)</code>.",
+      want: (v) => (v >= 50 ? v * 0.9 : v),
+      hint2: () => T("64 € ist mindestens 50 €. Dann-Teil: <code>A2*(1-10%)</code> = 57,60 €."),
+      hint3: () => T("38,50 € ist unter 50 € – Sonst-Teil: einfach <code>A2</code>."),
+      done: T("🏆 Expedition geschafft! WENN und Prozentrechnung zusammen – das kommt in der Übungsdatei noch einmal.") },
+  ]);
+
+  checklist(document.getElementById("checklist"), "k9-04");
+});
+</script>
+<script>
+/* Weißt du noch? – Aufgaben zu früheren Bausteinen */
+document.addEventListener("DOMContentLoaded", () => {
+  Wdh(document.getElementById("wdh-box"), [
+    { type: "tippen", from: "aus Baustein 3", href: "03-wenn.html",
+      q: "Steht in A2 das Wort Regen? Dann soll in B2 <strong>Ja</strong> stehen, sonst <strong>Nein</strong>. Schreib die WENN-Formel.",
+      table: { cols: 2, rows: 2, cells: { A1: "Wetter", B1: "Jacke?", A2: "Regen" }, styles: { A1: "head", B1: "head" } },
+      cell: "B2", solution: `=WENN(A2="Regen";"Ja";"Nein")`,
+      check: Wdh.checks.wenn({ cell: "A2", at: "B2", cases: [["Regen", "Ja"], ["Sonne", "Nein"]] }),
+      why: "Erst die Frage, dann die Antwort für Ja, dann die Antwort für Nein." },
+    { type: "wahl", from: "aus Baustein 2", href: "02-prozentrechnung.html",
+      q: "In B2 steht 20 % Rabatt. Ein Pulli kostet 40 € (B5). Welche Formel rechnet den <strong>neuen Preis</strong>?",
+      options: ["<code>=B5*(1-$B$2)</code>", "<code>=B5*$B$2</code>", "<code>=B5-$B$2</code>"], right: 0,
+      why: "1 − 0,2 = 0,8. Der Pulli kostet noch 80 % vom Preis: 32 €.",
+      miss: [null, "Das ist nur der Rabatt: 8 €. Der neue Preis fehlt noch.", "20 % ist für Calc 0,2. Du ziehst nur 0,20 € ab."] }
+  ]);
+});
+</script>
+</body>
+</html>

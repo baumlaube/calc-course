@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Erste Formeln · Calc-Kurs Klasse 8</title>
+<meta name="description" content="Baustein 2 im Calc-Lernpfad: Formeln mit = beginnen, mit + − * / rechnen und Zellen statt Zahlen verwenden.">
+<link rel="canonical" href="https://calc.herrseibert.de/k8/02-erste-formeln.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/k8/02-erste-formeln.html">
+<meta property="og:title" content="Erste Formeln · Calc-Kurs Klasse 8">
+<meta property="og:description" content="Baustein 2 im Calc-Lernpfad: Formeln mit = beginnen, mit + − * / rechnen und Zellen statt Zahlen verwenden.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="k8-02-erste-formeln" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Lernpfad Klasse 8">
+    <strong class="t">Klasse 8:</strong>
+    <ol>
+      <li class="done"><a href="01-erste-schritte.html" title="1 · Erste Schritte">1</a></li>
+      <li class="now"><span title="2 · Erste Formeln" aria-current="step">2</span></li>
+      <li class="done"><a href="03-funktionen.html" title="3 · Funktionen">3</a></li>
+      <li class="done"><a href="04-ausfuellen.html" title="4 · Ausfüllen">4</a></li>
+      <li class="done"><a href="05-absolute-bezuege.html" title="5 · Absolute Bezüge">5</a></li>
+      <li class="done"><a href="06-diagramme.html" title="6 · Diagramme">6</a></li>
+      <li class="done"><a href="07-projekt-klassenfahrt.html" title="7 · Projekt">7</a></li>
+      <li class="done"><a href="07-projekt-klassenfahrt.html" title="8 · Projekt">8</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>Erste Formeln – Calc rechnet für dich</h1>
+    <div class="meta">
+      <span class="chip">Klasse 8 · Baustein 2</span>
+      <span class="chip">⏱ ca. 37 Minuten</span>
+      <span class="chip">Vorwissen: Zellen und Eingeben</span>
+    </div>
+    <ul class="goals">
+      <li>Ich kann eine Formel mit <code>=</code> beginnen und mit + − * / rechnen.</li>
+      <li>Ich kann in Formeln Zellen statt Zahlen verwenden.</li>
+      <li>Ich kann erklären, warum Calc dann von selbst neu rechnet.</li>
+    </ul>
+  </section>
+
+  <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
+  <details class="card woerter" id="woerter">
+    <summary><span class="t">📖 Calc-Wörter für diesen Baustein</span></summary>
+    <p class="note">Die Wörter links bleiben deutsch. So stehen sie in Calc und in den Aufgaben.</p>
+    <table class="plain">
+      <tbody>
+        <tr><th class="wort" lang="de">die Formel <small>die Formeln</small></th><td>eine Rechnung in einer Zelle. Sie beginnt mit <code>=</code></td></tr>
+        <tr><th class="wort" lang="de">das Rechenzeichen <small>die Rechenzeichen</small></th><td><code>+</code> plus · <code>-</code> minus · <code>*</code> mal · <code>/</code> geteilt</td></tr>
+        <tr><th class="wort" lang="de">das Ergebnis <small>die Ergebnisse</small></th><td>das, was bei einer Rechnung herauskommt</td></tr>
+        <tr><th class="wort" lang="de">der Zellbezug <small>die Zellbezüge</small></th><td>der Name einer Zelle in einer Formel, z. B. <code>B5</code></td></tr>
+        <tr><th class="wort" lang="de">die Eingabezeile</th><td>die lange Zeile über der Tabelle. Dort siehst du die Formel.</td></tr>
+        <tr><th class="wort" lang="de">neu rechnen</th><td>Calc rechnet noch einmal, wenn sich eine Zahl ändert</td></tr>
+      </tbody>
+    </table>
+  </details>
+
+  <!-- 0 · Weißt du noch? -->
+  <section class="card wdh" id="wdh">
+    <h2><span class="step-no">↺</span> Weißt du noch? <span class="chip">2 Min</span></h2>
+    <p class="lead">Zwei Aufgaben zu früheren Bausteinen. Ohne Nachschauen!</p>
+    <div id="wdh-box"></div>
+  </section>
+
+  <!-- 1 · Vorhersage -->
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <div id="calc1"></div>
+    <p class="lead">Mia kauft Schulsachen. Bei den <strong>Heften</strong> hat sie im Kopf gerechnet und in D5 einfach <code>4,50</code> eingetippt. Bei den <strong>Stiften</strong> steht in D6 eine Formel.</p>
+    <p><strong>Jetzt du:</strong> Beides wird teurer. Was zeigt <strong>D5</strong> danach?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="neu">Den neuen, höheren Betrag</button>
+      <button type="button" class="choice" data-v="alt">Immer noch 4,50 €</button>
+      <button type="button" class="choice" data-v="err">Eine Fehlermeldung</button>
+    </div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <!-- 2 · Erklärung -->
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> So baust du eine Formel <span class="chip">5 Min</span></h2>
+    <div class="rule">Eine Formel beginnt immer mit <code>=</code>.<br>Statt Zahlen schreibst du <strong>Zellen</strong> hinein.</div>
+
+    <div class="tbl-scroll">
+      <table class="plain">
+        <thead><tr><th>Rechenart</th><th>Zeichen</th><th>Beispiel</th></tr></thead>
+        <tbody>
+          <tr><td>plus</td><td><kbd>+</kbd></td><td><code>=B5+B6</code></td></tr>
+          <tr><td>minus</td><td><kbd>-</kbd></td><td><code>=B9-B8</code></td></tr>
+          <tr><td>mal</td><td><kbd>*</kbd></td><td><code>=B5*C5</code></td></tr>
+          <tr><td>geteilt</td><td><kbd>/</kbd></td><td><code>=B8/C8</code></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub">Schritt für Schritt</h3>
+    <ol class="howto">
+      <li>Ergebniszelle anklicken, z. B. D5.</li>
+      <li><kbd>=</kbd> tippen.</li>
+      <li>Zelle B5 <strong>anklicken</strong>, nicht abtippen.</li>
+      <li><kbd>*</kbd> tippen, dann C5 anklicken.</li>
+      <li><kbd>Enter</kbd>.</li>
+    </ol>
+
+    <div class="compare">
+      <div>
+        <h3>So rechnet Calc beim Schulbedarf</h3>
+        <ol class="rows">
+          <li><span class="cell">D5</span><span class="day">Hefte</span><code>=B5*C5</code>
+              <span class="calc">B5 ist 3 Stück, C5 ist 1,50 € → 4,50 €</span></li>
+          <li><span class="cell">D8</span><span class="day">Summe</span><code>=D5+D6+D7</code>
+              <span class="calc">4,50 € + 3,20 € + 2,20 € → 9,90 €</span></li>
+          <li><span class="cell">D10</span><span class="day">Rest vom Budget</span><code>=D9-D8</code>
+              <span class="calc">D9 ist 30,00 €, D8 ist 9,90 € → 20,10 €</span></li>
+        </ol>
+        <p class="note">Ändert sich eine Zahl, rechnet Calc alles von selbst neu.</p>
+      </div>
+    </div>
+
+    <div class="video-ph">
+      <span class="play" aria-hidden="true">▶</span>
+      <span class="t"><strong>Kurzvideo (folgt):</strong> Eine Formel mit Klicks bauen</span>
+    </div>
+  </section>
+
+  <!-- 3 · Ausprobieren -->
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Selbst ausprobieren <span class="chip">5 Min</span></h2>
+    <div id="calc2"></div>
+    <p class="lead">Fülle die gelben Zellen von oben nach unten: D5, dann D8, dann D10.<br><strong>Tipp:</strong> Nach dem <code>=</code> kannst du die Zellen einfach in der Tabelle anklicken, wie in Calc.</p>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <!-- 4 · In Calc -->
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">15 Min</span></h2>
+    <p class="lead">Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Die Spalte <strong>Kontrolle</strong> merkt auch, wenn du Zahlen statt Zellen in die Formel tippst.</p>
+    <div class="dl">
+      <a href="../downloads/k8-02-erste-formeln.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>k8-02-erste-formeln.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-02-erste-formeln-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Rechenzeichen:</strong> Fünf Rechnungen rund um die Klassenfahrt.</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Klassenkasse:</strong> Einnahmen, Ausgaben und Kassenstand berechnen.</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Smoothie-Bar:</strong> Formeln, die aufeinander aufbauen. Lohnt sich der Verkauf?</span></li>
+      <li><span class="badge expedition">Freiwillig</span><span>Üben und ★ Expedition – jeweils mit eigener Datei und Lösung: <a href="#freiwillig">ganz unten auf dieser Seite</a>.</span></li>
+    </ul>
+  </section>
+
+  <!-- 5 · Kurz-Check -->
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">5 Min</span></h2>
+    <p class="lead">Vier Fragen. Hast du es verstanden?</p>
+    <div id="quiz"></div>
+  </section>
+
+  <!-- Merke -->
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li>Eine Formel beginnt immer mit <code>=</code>.</li>
+      <li>Rechenzeichen: <code>+</code> plus · <code>-</code> minus · <code>*</code> mal · <code>/</code> geteilt.</li>
+      <li><strong>Zellen statt Zahlen:</strong> <code>=B5*C5</code> statt <code>=3*1,5</code>. Ändert sich eine Zahl, rechnet Calc von selbst neu.</li>
+      <li>Zellen einfügen: Beim Tippen der Formel die Zelle einfach <strong>anklicken</strong>.</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <!-- Ich kann -->
+  <section class="card" id="ichkann">
+    <h2>Das kann ich jetzt</h2>
+    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
+    <ul class="checklist" id="checklist">
+      <li><label><input type="checkbox"> <span class="t">Ich beginne jede Formel mit <code>=</code>.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich kenne die Rechenzeichen + − * /.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich klicke Zellen an, statt Zahlen in die Formel zu tippen.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich kann Formeln bauen, die auf anderen Formeln aufbauen.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich setze Klammern richtig.</span></label></li>
+    </ul>
+  </section>
+
+  <!-- Freiwillig: Üben + ★ Expedition -->
+  <section class="card frei" id="freiwillig">
+    <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
+    <p class="lead"><span class="badge ueben">Üben</span> heißt: dasselbe wie oben, nur mehr davon. <span class="badge expedition">★ Expedition</span> heißt: etwas Neues für Profis.</p>
+    <h3 class="sub"><span class="badge ueben">Üben</span> Farbfelder</h3>
+    <div id="calcFarb"></div>
+    <p class="lead">Zähl alle Felder mit derselben Farbe zusammen. Tipp in B8 <code>=</code>, klick das erste gelbe Feld an, tipp <code>+</code>, klick das nächste an … und drück <kbd>Enter</kbd>.</p>
+    <p><strong>Keine Zahlen abtippen!</strong> Nur Zellen anklicken. Dann rechnet die Summe mit, wenn sich eine Zahl ändert.</p>
+    <p class="fb" id="fbFarb" aria-live="polite"></p>
+    <div class="dl">
+      <a href="../downloads/k8-02-erste-formeln-mehr-farbfelder.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Üben: Farbfelder</strong><small>k8-02-erste-formeln-mehr-farbfelder.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-02-erste-formeln-mehr-farbfelder-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <h3 class="sub"><span class="badge expedition">★ Expedition</span> Punkt vor Strich</h3>
+    <div id="calc3"></div>
+    <div class="rule">Auch Calc rechnet <strong>Punkt vor Strich</strong>.<br>Was in <strong>Klammern</strong> steht, kommt zuerst.</div>
+    <p>Berechne in B6 deinen Notendurchschnitt: alle Noten zusammenzählen, dann durch 3 teilen.</p>
+    <p class="fb" id="fb3" aria-live="polite"></p>
+    <div class="dl">
+      <a href="../downloads/k8-02-erste-formeln-expedition.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>★ Expedition: Punkt vor Strich</strong><small>k8-02-erste-formeln-expedition.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-02-erste-formeln-expedition-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter im Lernpfad">
+    <a href="01-erste-schritte.html">← 1 · Erste Schritte</a>
+    <a href="03-funktionen.html">3 · Funktionen →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz, checklist } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+  const near = (a, b) => typeof a === "number" && Math.abs(a - b) < 0.005;
+  const onlyNumbers = (raw) => /\d/.test(raw.replace(/\$?[A-Za-z]\$?\d+/g, ""));
+
+  /* ---------- 1 · Vorhersage ---------- */
+  const fb1 = document.getElementById("fb1");
+  const calc1 = new MiniCalc(document.getElementById("calc1"), {
+    cols: 4, rows: 6,
+    cells: { A4: "Artikel", B4: "Anzahl", C4: "Preis", D4: "Gesamt",
+             A5: "Hefte", B5: 3, C5: 1.5, D5: 4.5, A6: "Stifte", B6: 4, C6: 0.8, D6: "=B6*C6" },
+    styles: { A4: "head", B4: "head", C4: "head", D4: "head" },
+    formats: { C: "eur", D: "eur" }, select: "D5",
+  });
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", async (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    b.classList.add("picked");
+    feedback(fb1, "Die Preise steigen … schau auf Spalte C und D!", "info");
+    await new Promise((r) => setTimeout(r, 500));
+    calc1.select("C5"); calc1.set("C5", 2);
+    await new Promise((r) => setTimeout(r, 700));
+    calc1.select("C6"); calc1.set("C6", 1);
+    await new Promise((r) => setTimeout(r, 700));
+    calc1.select("D5");
+    predict.querySelector('[data-v="alt"]').classList.add("right");
+    if (b.dataset.v !== "alt") b.classList.add("wrong");
+    feedback(fb1, (b.dataset.v === "alt" ? T("✔ Genau!") + " " : "") +
+      T("D5 zeigt immer noch <strong>4,50 €</strong>, obwohl Hefte jetzt 3 × 2,00 € = 6,00 € kosten.") + " " +
+      T("In D5 steht nur eine getippte Zahl. Calc weiß nicht, woher sie kommt.") + " " +
+      T("In D6 steht die Formel <code>=B6*C6</code>. Sie hat von selbst neu gerechnet: 4,00 €. Klick D5 und D6 an und vergleiche die Eingabezeile."),
+      b.dataset.v === "alt" ? "ok" : "hint");
+  });
+
+  /* ---------- 3 · Ausprobieren ---------- */
+  const fb2 = document.getElementById("fb2");
+  let stage = 0;
+  const calc2 = new MiniCalc(document.getElementById("calc2"), {
+    cols: 4, rows: 10,
+    cells: { A1: "Schulbedarf", A4: "Artikel", B4: "Anzahl", C4: "Preis", D4: "Gesamt",
+             A5: "Hefte", B5: 3, C5: 1.5, A6: "Stifte", B6: 4, C6: 0.8, D6: "=B6*C6",
+             A7: "Lineal", B7: 1, C7: 2.2, D7: "=B7*C7",
+             A8: "Summe", A9: "Budget", D9: 30, A10: "Rest" },
+    styles: { A1: "label", A4: "head", B4: "head", C4: "head", D4: "head", A8: "label", A9: "label", D9: "fix", A10: "label" },
+    formats: { C: "eur", D: "eur" },
+    editable: ["D5", "D8", "D10", "C5"], select: "D5",
+    actions: [{ label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { stage = 0; c.reset(); fb2.className = "fb"; } }],
+  });
+  const check = (c, cell, want, hintWrong) => {
+    const raw = c.getRaw(cell).replace(/\s/g, "");
+    if (!raw) return { ok: false, msg: null };
+    if (!raw.startsWith("=")) return { ok: false, msg: `In ${cell} steht nur eine getippte Zahl. Was passiert, wenn sich ein Preis ändert? Beginne mit <code>=</code>.` };
+    const v = c.get(cell);
+    if (v instanceof MiniCalc.CalcError) return { ok: false, msg: `In ${cell} steht der Fehler <strong>${v.code}</strong>. Prüfe die Schreibweise.` };
+    if (onlyNumbers(raw)) return { ok: false, msg: `In deiner Formel in ${cell} steht eine <strong>Zahl</strong>. Klick lieber die Zellen an, dann rechnet Calc bei Änderungen neu.` };
+    if (!near(v, want)) return { ok: false, msg: hintWrong };
+    return { ok: true };
+  };
+  calc2.on((c, src) => {
+    if (src === "reset") return;
+    if (stage === 3 && c.sel === "C5") {
+      feedback(fb2, `🎉 Siehst du? D5, die Summe und der Rest haben sich von selbst geändert. Jetzt bleiben noch <strong>${c.format("D10", c.get("D10"))}</strong> übrig.`, "ok");
+      return;
+    }
+    const d5 = check(c, "D5", c.get("B5") * c.get("C5"), "D5 stimmt noch nicht. Gesucht: Anzahl (B5) × Preis (C5).");
+    if (!d5.ok) { feedback(fb2, d5.msg || "Fang mit D5 an: Anzahl × Preis.", d5.msg ? "hint" : "info"); stage = 0; return; }
+    const sum = c.get("D5") + c.get("D6") + c.get("D7");
+    const d8 = check(c, "D8", sum, "Die Summe stimmt noch nicht: D5 + D6 + D7.");
+    if (!d8.ok) { feedback(fb2, d8.msg || "✔ D5 stimmt! Jetzt D8: die Summe von D5, D6 und D7.", d8.msg ? "hint" : "ok"); stage = 1; return; }
+    const d10 = check(c, "D10", c.get("D9") - sum, "Der Rest stimmt noch nicht: Budget (D9) − Summe (D8).");
+    if (!d10.ok) { feedback(fb2, d10.msg || "✔ Summe stimmt! Jetzt D10: Was bleibt vom Budget übrig?", d10.msg ? "hint" : "ok"); stage = 2; return; }
+    stage = 3;
+    feedback(fb2, "✔ Alles richtig! <strong>Bonus:</strong> Die Hefte werden teurer. Ändere den Preis in C5 auf 2. Was passiert?", "ok");
+  });
+
+  /* ---------- 5 · Quiz ---------- */
+  quiz(document.getElementById("quiz"), [
+    { q: "Du tippst in eine Zelle <code>B5*C5</code>, aber ohne <code>=</code>. Was passiert?",
+      options: ["Calc rechnet trotzdem", "Calc meldet einen Fehler", "Calc zeigt den Text B5*C5"], right: 2,
+      why: "Ohne = weiß Calc nicht, dass es rechnen soll. Es speichert den Text.",
+      miss: ["Es sieht aus wie eine Rechnung. Für Calc ist es aber nur Text.", "Calc meldet nichts. Es schreibt hin, was du getippt hast.", null] },
+    { q: "Welches Zeichen bedeutet in Calc <strong>mal</strong>?",
+      options: ["<kbd>*</kbd>", "<kbd>x</kbd>", "<kbd>·</kbd>"], right: 0,
+      why: "Calc nimmt den Stern * für mal und den Schrägstrich / für geteilt.",
+      miss: [null, "Für Calc ist x ein Buchstabe, kein Rechenzeichen.", "Den Malpunkt aus Mathe gibt es auf der Tastatur nicht."] },
+    { q: "In D5 steht <code>=3*1,5</code>. Der Preis in C5 ändert sich. Was passiert mit D5?",
+      options: ["D5 rechnet neu", "D5 bleibt 4,50", "D5 zeigt einen Fehler"], right: 1,
+      why: "In der Formel stehen nur Zahlen, keine Zellen. Darum weiß Calc nicht, dass C5 dazugehört.",
+      miss: ["C5 steht gar nicht in der Formel.", null, "Die Formel ist nicht kaputt. Sie rechnet nur weiter mit den alten Zahlen."] },
+    { q: "Wie kommt B5 am sichersten in eine Formel?",
+      options: ["Die Zahl aus B5 abtippen", "Das Ergebnis im Kopf rechnen und eintippen", "Die Zelle B5 anklicken"], right: 2,
+      why: "Anklicken geht schnell und du vertippst dich nicht. Und die Formel rechnet mit, wenn sich B5 ändert.",
+      miss: ["Dann steht eine feste Zahl in der Formel. Ändert sich B5, rechnet sie nicht mit.", "Dann steht gar keine Formel in der Zelle. Calc kann nichts neu rechnen.", null] },
+  ]);
+
+  /* ---------- Expedition: Notendurchschnitt ---------- */
+  const fb3 = document.getElementById("fb3");
+  const calc3 = new MiniCalc(document.getElementById("calc3"), {
+    cols: 2, rows: 6,
+    cells: { A1: "Mathe", B1: "Note", A2: "Schulaufgabe 1", B2: 2, A3: "Schulaufgabe 2", B3: 3, A4: "Schulaufgabe 3", B4: 1, A6: "Durchschnitt" },
+    styles: { A1: "head", B1: "head", B2: "fix", B3: "fix", B4: "fix", A6: "label" },
+    editable: ["B6"], select: "B6",
+    actions: [{ label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fb3.className = "fb"; } }],
+  });
+  calc3.on((c, src) => {
+    if (src === "reset") return;
+    const raw = c.getRaw("B6").replace(/\s/g, "").toUpperCase();
+    const v = c.get("B6");
+    if (!raw.startsWith("=")) { feedback(fb3, "Lass Calc rechnen: Beginne mit <code>=</code>.", "hint"); return; }
+    if (/^=B2\+B3\+B4\/3$/.test(raw)) { feedback(fb3, `Calc zeigt ${typeof v === "number" ? v.toLocaleString("de-DE", { maximumFractionDigits: 2 }) : v}. Das wäre eine schlimme Note! Punkt vor Strich: Calc teilt nur B4 durch 3. Setz Klammern um die Summe.`, "hint"); return; }
+    if (near(v, 2) && /^=MITTELWERT/.test(raw)) { feedback(fb3, "✔ Stark, du kennst schon MITTELWERT! Das kommt in Baustein 3. Probier es trotzdem einmal mit Klammern.", "ok"); return; }
+    if (near(v, 2) && /\(/.test(raw)) { feedback(fb3, "🏆 <strong>Expedition geschafft!</strong> Erst die Klammer, dann geteilt: (2 + 3 + 1) / 3 = 2.", "ok"); return; }
+    if (near(v, 2)) { feedback(fb3, "Das Ergebnis stimmt, aber nimm die Zellen B2, B3 und B4 und Klammern.", "info"); return; }
+    feedback(fb3, "Noch nicht. Alle drei Noten zusammenzählen, dann durch 3 teilen. Was muss zuerst passieren?", "hint");
+  });
+
+  /* ---------- Mehr üben · Farbfelder ---------- */
+  const fbFarb = document.getElementById("fbFarb");
+  const farben = [
+    ["gelb", "gelben", { B2: 23, E3: 12, D5: 28 }],
+    ["gruen", "grünen", { A4: 6, F2: 9, C6: 17 }],
+    ["blau", "blauen", { C1: 14, F5: 26, A6: 5, D3: 19 }],
+  ];
+  const fCells = {}, fStyles = {};
+  farben.forEach(([k, , felder], i) => {
+    Object.assign(fCells, felder);
+    Object.keys(felder).forEach((a) => { fStyles[a] = "c-" + k; });
+    fCells["A" + (8 + i)] = "Summe " + ["gelb", "grün", "blau"][i];
+    fStyles["A" + (8 + i)] = "c-" + k;
+  });
+  const calcFarb = new MiniCalc(document.getElementById("calcFarb"), {
+    cols: 6, rows: 10, cells: fCells, styles: fStyles, decimal: "comma",
+    editable: ["B8", "B9", "B10"], select: "B8",
+    actions: [{ label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fbFarb.className = "fb"; } }],
+  });
+  calcFarb.on((c, src) => {
+    if (src === "reset") return;
+    let ok = 0;
+    for (let i = 0; i < 3; i++) {
+      const a = "B" + (8 + i), [, wort, felder] = farben[i];
+      const raw = c.getRaw(a).replace(/\s/g, "").toUpperCase();
+      if (!raw) continue;
+      const want = Object.values(felder).reduce((x, y) => x + y, 0);
+      if (!raw.startsWith("=")) { feedback(fbFarb, T(`${a}: Eine Formel beginnt mit <code>=</code>.`), "hint"); return; }
+      if (/\d/.test(raw.replace(/[A-Z]+\d+/g, ""))) { feedback(fbFarb, T(`${a}: In der Formel steht eine abgetippte Zahl. Klick lieber die Zellen an!`), "hint"); return; }
+      if (c.get(a) !== want) {
+        const n = Object.keys(felder).length;
+        feedback(fbFarb, T(`${a}: Das Ergebnis stimmt noch nicht. Hast du alle ${n} ${wort} Felder?`), "hint");
+        return;
+      }
+      ok++;
+    }
+    feedback(fbFarb, ok === 3 ? T("🏆 Alle Farben richtig! Ändere zum Spaß eine Zahl im Spielfeld: Die Summe rechnet sofort neu.")
+      : T(`${ok} von 3 Farben geschafft.`), ok === 3 ? "ok" : "info");
+  });
+  feedback(fbFarb, T("Klick B8 an und fang mit Gelb an."), "info");
+
+  checklist(document.getElementById("checklist"), "k8-02");
+});
+</script>
+<script>
+/* Weißt du noch? – Aufgaben zu früheren Bausteinen */
+document.addEventListener("DOMContentLoaded", () => {
+  Wdh(document.getElementById("wdh-box"), [
+    { type: "zelle", from: "aus Baustein 1", href: "01-erste-schritte.html",
+      q: "Welche Zelle ist in der <strong>2. Spalte</strong> und in der <strong>3. Zeile</strong>? Klick sie an.",
+      table: { cols: 3, rows: 4, cells: { A1: "Tier", B1: "Alter", C1: "Futter", A2: "Hund", B2: 3, C2: "Dose", A3: "Katze", B3: 5, C3: "Fisch", A4: "Hase", B4: 2, C4: "Möhre" }, styles: { A1: "head", B1: "head", C1: "head" } },
+      cell: "B3",
+      miss: (a) => (a === "C2" ? "Das ist C2: 3. Spalte und 2. Zeile. Erst kommt die Spalte (Buchstabe), dann die Zeile (Zahl)." : `Das ist ${a}. Die 2. Spalte heißt B. Such dort die Zeile 3.`),
+      why: "2. Spalte ist B, 3. Zeile ist 3. Die Zelle heißt B3." },
+    { type: "tippen", from: "aus Baustein 1", href: "01-erste-schritte.html",
+      q: "Ein Eis kostet 3 Euro 50. Tippe den Preis in B2 – so, dass Calc eine <strong>Zahl</strong> erkennt.",
+      table: { cols: 2, rows: 2, cells: { A1: "Was", B1: "Preis", A2: "Eis" }, styles: { A1: "head", B1: "head" } },
+      cell: "B2", solution: "3,50",
+      check: (c, raw, v) => {
+        if (typeof v === "number" && Math.abs(v - 3.5) < 0.005) return true;
+        if (raw.includes(".")) return "Mit Punkt bleibt es Text und steht links. Im deutschen Calc tippst du ein Komma.";
+        if (/[A-Z]/.test(raw)) return "Ein Wort in der Zelle macht alles zu Text. Tippe nur die Zahl.";
+        return "Das ist nicht der Preis. Tippe ihn als Kommazahl.";
+      },
+      why: "Die Zahl steht rechts. Damit kann Calc rechnen." }
+  ]);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datum &amp; Zeit · Calc-Kurs Zusatzmodul</title>
+<meta name="description" content="Zusatzmodul: Datum und Zeit – mit Daten rechnen, HEUTE(), Tage bis zu den Ferien, Alter in Tagen, Projektplan, Rückgabe in der Bücherei.">
+<link rel="canonical" href="https://calc.herrseibert.de/extra/08-datum.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/extra/08-datum.html">
+<meta property="og:title" content="Datum &amp; Zeit · Calc-Kurs Zusatzmodul">
+<meta property="og:description" content="Zusatzmodul: Datum und Zeit – mit Daten rechnen, HEUTE(), Tage bis zu den Ferien, Alter in Tagen, Projektplan, Rückgabe in der Bücherei.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="extra-08-datum" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/fragen.js?v=19f0445020" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Zusatzmodule">
+    <strong class="t">Zusatzmodule:</strong>
+    <ol>
+      <li class="done"><a href="01-zaehlenwenn.html" title="1 · ZÄHLENWENN">1</a></li>
+      <li class="done"><a href="02-haushaltsbuch.html" title="2 · Haushaltsbuch">2</a></li>
+      <li class="done"><a href="03-sortieren-filtern.html" title="3 · Sortieren &amp; Filtern">3</a></li>
+      <li class="done"><a href="04-drucken.html" title="4 · Drucken wie ein Profi">4</a></li>
+      <li class="done"><a href="05-brutto-netto.html" title="5 · Brutto und Netto">5</a></li>
+      <li class="done"><a href="06-handyvertrag.html" title="6 · Handyvertrag-Vergleich">6</a></li>
+      <li class="done"><a href="07-sverweis.html" title="7 · SVERWEIS">7</a></li>
+      <li class="now"><span title="8 · Datum &amp; Zeit" aria-current="step">8</span></li>
+      <li class="done"><a href="09-text.html" title="9 · Text-Tricks">9</a></li>
+      <li class="done"><a href="10-zufall.html" title="10 · Zufall &amp; Spiele">10</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>Datum &amp; Zeit – wie viele Tage noch?</h1>
+    <div class="meta">
+      <span class="chip">Zusatzmodul · freiwillig</span>
+      <span class="chip">⏱ ca. 35 Minuten</span>
+      <span class="chip">Vorwissen: Formeln, $-Anker</span>
+    </div>
+    <ul class="goals">
+      <li>Ich weiß: Ein Datum ist für Calc eine Zahl.</li>
+      <li>Ich rechne mit <code>HEUTE()</code> aus, wie viele Tage es noch dauert.</li>
+      <li>Ich addiere Tage zu einem Datum.</li>
+    </ul>
+  </section>
+
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <div id="calc1"></div>
+    <p class="lead">💡 In A2 steht der 10.11.2026, in B2 der Ferienbeginn 24.12.2026. In C2 kommt <code>=B2-A2</code>.</p>
+    <p><strong>Jetzt du:</strong> Was zeigt C2?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="44">44</button>
+      <button type="button" class="choice" data-v="datum">14.01.</button>
+      <button type="button" class="choice" data-v="err">#WERT!</button>
+    </div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> Ein Datum ist eine Zahl <span class="chip">7 Min</span></h2>
+    <div class="rule">Für Calc ist ein Datum die Zahl der Tage seit dem <strong>30.12.1899</strong>.<br>Darum kann man mit Daten rechnen.</div>
+    <div id="calcBsp"></div>
+    <p><strong>Klick B2, B3, B4 und B5 an.</strong></p>
+    <p class="fb" id="fbBsp" aria-live="polite"></p>
+    <p class="note">Steht plötzlich eine Zahl wie 46380 da? Dann fehlt nur das Datumsformat: Rechtsklick → Zellen formatieren … → Datum.</p>
+  </section>
+
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Kalender-Labor <span class="chip">8 Min</span></h2>
+    <div id="calc2"></div>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">12 Min</span></h2>
+    <div class="dl">
+      <a href="../downloads/x08-datum.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>x08-datum.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/x08-datum-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Countdown:</strong> Wie viele Tage noch bis zu den Ferien?</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Wie alt?</strong> Alter in Tagen und Jahren.</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Projektplan:</strong> Start, Ende und Wochentag für jeden Schritt.</span></li>
+      <li><span class="badge expedition">Expedition</span><span><strong>Freiwillig:</strong> Bücherei – ist das Buch überfällig?</span></li>
+    </ul>
+  </section>
+
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">3 Min</span></h2>
+    <div id="quiz"></div>
+  </section>
+
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li>Ein Datum ist für Calc eine Zahl – Tage seit dem 30.12.1899.</li>
+      <li>Datum eintippen: <code>24.12.2026</code> – Calc erkennt es selbst.</li>
+      <li><code>=HEUTE()</code> ist das heutige Datum. Tage bis zu einem Termin: <code>=B5-HEUTE()</code></li>
+      <li>Datum + Zahl = neues Datum: <code>=B5+14</code></li>
+      <li>Zahl statt Datum? Rechtsklick → Zellen formatieren … → Datum.</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter">
+    <a href="07-sverweis.html">← SVERWEIS</a>
+    <a href="09-text.html">Text-Tricks →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+
+  /* 1 · Vorhersage */
+  const fb1 = document.getElementById("fb1");
+  const calc1 = new MiniCalc(document.getElementById("calc1"), {
+    cols: 3, rows: 2, decimal: "comma", cells: { A1: "heute", B1: "Ferien", C1: "?", A2: "10.11.2026", B2: "24.12.2026" },
+    styles: { A1: "head", B1: "head", C1: "head" }, select: "B2",
+  });
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    predict.querySelector('[data-v="44"]').classList.add("right");
+    if (b.dataset.v !== "44") b.classList.add("wrong");
+    calc1.set("C2", "=B2-A2"); calc1.select("C2");
+    feedback(fb1, (b.dataset.v === "44" ? T("✔ Genau!") + " " : "") +
+      T("Datum minus Datum ergibt die <strong>Anzahl der Tage</strong> dazwischen: 44 Tage bis zu den Ferien."), b.dataset.v === "44" ? "ok" : "hint");
+  });
+
+  /* 2 · Beispiel */
+  const fbBsp = document.getElementById("fbBsp");
+  const texts = {
+    B2: "<code>=HEUTE()</code> – das Datum von heute. Morgen steht hier automatisch ein anderes.",
+    B3: "<code>24.12.2026</code> – eingetippt. Hinter den Kulissen ist das die Zahl 46380.",
+    B4: "<code>=B3-B2</code> – so viele Tage noch bis Weihnachten.",
+    B5: "<code>=B3+14</code> – zwei Wochen nach Ferienbeginn.",
+  };
+  new MiniCalc(document.getElementById("calcBsp"), {
+    cols: 2, rows: 5, decimal: "comma",
+    cells: { A1: "", B1: "Wert", A2: "heute", B2: "=HEUTE()", A3: "Ferien", B3: "24.12.2026", A4: "Tage noch", B4: "=B3-B2", A5: "+ 2 Wochen", B5: "=B3+14" },
+    styles: { B1: "head", A2: "label", A3: "label", A4: "label", A5: "label" }, formats: { B2: "date", B3: "date", B5: "date" },
+    select: "B2", onSelect: (c, a) => { if (texts[a]) feedback(fbBsp, T(texts[a]), "info"); },
+  });
+  feedback(fbBsp, T(texts.B2), "info");
+
+  /* 3 · Labor */
+  const d = (c, a) => c.get(a);
+  Fragen(document.getElementById("calc2"), document.getElementById("fb2"), {
+    cols: 2, rows: 6, formats: { B4: "date" },
+    cells: { A1: "ausgeliehen", B1: "02.11.2026", A2: "zurück am", B2: "27.11.2026", A3: "Tage geliehen", A4: "Rückgabe (+28)", A5: "Tage bis Sommerferien", A6: "Sommerferien", B6: "02.08.2027" },
+    styles: { A1: "label", A2: "label", A3: "label", A4: "label", A5: "label", A6: "label", B1: "fix", B2: "fix", B6: "fix" },
+    tasks: [
+      { cell: "B3", q: "Wie viele Tage war das Buch ausgeliehen?", want: (c) => d(c, "B2") - d(c, "B1"), hint: () => T("Späteres Datum minus früheres: <code>=B2-B1</code>") },
+      { cell: "B4", q: "Wann muss es spätestens zurück sein? (28 Tage)", want: (c) => d(c, "B1") + 28, hint: () => T("<code>=B1+28</code>") },
+      { cell: "B5", q: "Wie viele Tage noch bis zu den Sommerferien (ab heute)?", fn: /(HEUTE|TODAY)\(\)/, fnName: "HEUTE()",
+        want: (c) => d(c, "B6") - Math.floor((Date.now() - Date.UTC(1899, 11, 30)) / 86400000), hint: () => T("<code>=B6-HEUTE()</code>") },
+    ],
+    done: "🏆 Du rechnest mit Daten! 25 Tage geliehen, Rückgabe am 30.11.2026.",
+  });
+
+  quiz(document.getElementById("quiz"), [
+    { q: "Was ist ein Datum für Calc?", options: ["Ein Text", "Eine Zahl (Tage seit 1899)", "Eine Formel"], right: 1, why: "Darum kann man Daten addieren und abziehen." },
+    { q: "In B5 steht der Ferienbeginn. Wie viele Tage noch?", options: ["<code>=B5-HEUTE()</code>", "<code>=HEUTE()-B5</code>", "<code>=B5+HEUTE()</code>"], right: 0, why: "Späteres Datum minus heute = Tage, die noch fehlen." },
+    { q: "Was zeigt <code>=A2+7</code>, wenn in A2 Montag, der 11.01.2027 steht?", options: ["18.01.2027", "11.01.2034", "#WERT!"], right: 0, why: "Plus 7 Tage – eine Woche später, wieder ein Montag." },
+    { q: "Calc zeigt 46380 statt eines Datums. Was tun?", options: ["Neu tippen", "Als Datum formatieren", "Löschen"], right: 1, why: "Die Zahl stimmt – nur das Format fehlt." },
+  ]);
+});
+</script>
+</body>
+</html>

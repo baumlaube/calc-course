@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projekt Handyvertrag · Calc-Kurs Zusatzmodul</title>
+<meta name="description" content="Zusatzmodul-Projekt: Welcher Handyvertrag passt zu mir? Tarife mit WENN, MIN und $ vergleichen, Diagramm erstellen, Entscheidung begründen.">
+<link rel="canonical" href="https://calc.herrseibert.de/extra/06-handyvertrag.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/extra/06-handyvertrag.html">
+<meta property="og:title" content="Projekt Handyvertrag · Calc-Kurs Zusatzmodul">
+<meta property="og:description" content="Zusatzmodul-Projekt: Welcher Handyvertrag passt zu mir? Tarife mit WENN, MIN und $ vergleichen, Diagramm erstellen, Entscheidung begründen.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="extra-06-handyvertrag" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minichart.js?v=8eed7d4abd" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Zusatzmodule">
+    <strong class="t">Zusatzmodule:</strong>
+    <ol>
+      <li class="done"><a href="01-zaehlenwenn.html" title="1 · ZÄHLENWENN">1</a></li>
+      <li class="done"><a href="02-haushaltsbuch.html" title="2 · Haushaltsbuch">2</a></li>
+      <li class="done"><a href="03-sortieren-filtern.html" title="3 · Sortieren &amp; Filtern">3</a></li>
+      <li class="done"><a href="04-drucken.html" title="4 · Drucken wie ein Profi">4</a></li>
+      <li class="done"><a href="05-brutto-netto.html" title="5 · Brutto und Netto">5</a></li>
+      <li class="now"><span title="6 · Handyvertrag-Vergleich" aria-current="step">6</span></li>
+      <li class="done"><a href="07-sverweis.html" title="7 · SVERWEIS">7</a></li>
+      <li class="done"><a href="08-datum.html" title="8 · Datum &amp; Zeit">8</a></li>
+      <li class="done"><a href="09-text.html" title="9 · Text-Tricks">9</a></li>
+      <li class="done"><a href="10-zufall.html" title="10 · Zufall &amp; Spiele">10</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>Projekt: Welcher Handyvertrag passt zu mir?</h1>
+    <div class="meta">
+      <span class="chip">Zusatzmodul · Projekt</span>
+      <span class="chip">⏱ 2 × 35 Minuten</span>
+      <span class="chip">Vorwissen: WENN, $-Anker, Diagramme</span>
+    </div>
+    <ul class="goals">
+      <li>Ich kann Tarife mit WENN und MIN vergleichen.</li>
+      <li>Ich kann Kosten über zwei Jahre berechnen.</li>
+      <li>Ich kann meine Entscheidung mit Zahlen und einem Diagramm begründen.</li>
+    </ul>
+  </section>
+
+  <section class="card" id="auftrag">
+    <h2><span class="step-no">📱</span> Euer Auftrag</h2>
+    <p class="lead">Vier Tarife, ein Ziel: Welcher ist <strong>für euren Datenbedarf</strong> über zwei Jahre am günstigsten? Die Tarife sind ausgedacht – die Rechnung ist echt.</p>
+    <div class="dl">
+      <a href="../downloads/x06-handyvertrag.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Projektdatei</strong><small>x06-handyvertrag.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/x06-handyvertrag-BEISPIEL.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Beispiel-Lösung</strong><small>zum Vergleichen nach der Abgabe</small></span>
+      </a>
+    </div>
+  </section>
+
+  <section class="card" id="stunden">
+    <h2><span class="step-no">1</span> Stunde 1 · Rechnen <span class="chip">35 Min</span></h2>
+    <ul class="tasks">
+      <li><span class="badge basis">Meilenstein 1</span><span><strong>Kosten pro Monat und in 2 Jahren:</strong> Grundpreis + WENN(Bedarf &gt; inklusive; Zusatzpaket; 0) – dann · 24 + Anschluss.</span></li>
+      <li><span class="badge basis">Meilenstein 2</span><span><strong>Günstigster Tarif:</strong> <code>=MIN(G7:G10)</code> – und welcher Tarif ist das?</span></li>
+    </ul>
+    <h2 style="margin-top:22px"><span class="step-no">2</span> Stunde 2 · Zeigen und entscheiden <span class="chip">35 Min</span></h2>
+    <ul class="tasks">
+      <li><span class="badge plus">Meilenstein 3</span><span><strong>Diagramm und Begründung:</strong> Balkendiagramm der 2-Jahres-Kosten, Empfehlung mit zwei Gründen.</span></li>
+      <li><span class="badge expedition">Expedition</span><span><strong>Was wäre, wenn …</strong> du mehr oder weniger Daten brauchst? Probier es unten aus.</span></li>
+    </ul>
+  </section>
+
+  <section class="card expedition" id="waswaere">
+    <h2><span class="step-no">★</span> Was wäre, wenn …? <span class="badge expedition">freiwillig</span></h2>
+    <div class="chart-box" id="chart"></div>
+    <div class="slider"><label for="gb">Datenbedarf pro Monat:</label> <input type="range" id="gb" min="1" max="40" value="12"> <strong id="gbv">12 GB</strong></div>
+    <p class="fb show info" id="fb"></p>
+    <p class="note">Probier 4 GB, 12 GB und 40 GB. Gewinnt immer derselbe Tarif?</p>
+  </section>
+
+  <section class="card merke print-keep" id="merke">
+    <h2>Spickzettel</h2>
+    <ul>
+      <li>Monatskosten: <code class="long">=B7+WENN($B$3&gt;C7;D7;0)</code> – Bedarf mit <code>$</code> festhalten.</li>
+      <li>Kosten in 2 Jahren: <code>=F7*$B$4+E7</code> – die Anschlussgebühr nur einmal.</li>
+      <li>Günstigster Preis: <code>=MIN(G7:G10)</code></li>
+      <li>Diagramm: A6:A10 und G6:G10 mit <kbd>Strg</kbd> markieren → Einfügen → Diagramm → Balken.</li>
+      <li>Begründung: eine Zahl und ein weiterer Grund (Anschlussgebühr, Datenmenge, Flexibilität).</li>
+    </ul>
+  </section>
+
+  <section class="card" id="raster">
+    <h2><span class="step-no">✓</span> So wird bewertet</h2>
+    <div class="tbl-scroll">
+      <table class="plain">
+        <thead><tr><th>Kriterium</th><th>★</th><th>★★</th><th>★★★</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Monatskosten</strong></td><td>einige stimmen</td><td>alle stimmen</td><td>mit WENN und $, ausgefüllt</td></tr>
+          <tr><td><strong>2-Jahres-Kosten</strong></td><td>einige stimmen</td><td>alle stimmen</td><td>Anschluss richtig nur einmal</td></tr>
+          <tr><td><strong>Vergleich</strong></td><td>Tarif genannt</td><td>MIN benutzt</td><td>klappt auch bei anderem Bedarf</td></tr>
+          <tr><td><strong>Diagramm</strong></td><td>vorhanden</td><td>passender Typ, Titel</td><td>übersichtlich, beschriftet</td></tr>
+          <tr><td><strong>Begründung</strong></td><td>Tarif genannt</td><td>mit Zahlen</td><td>Zahlen und weitere Gründe</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Raster drucken</button></div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter">
+    <a href="05-brutto-netto.html">← Brutto und Netto</a>
+    <a href="07-sverweis.html">SVERWEIS →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const T = (x) => (window.T ? window.T(x) : x);
+  const TARIFE = [["SparFunk Basic", 7.99, 5, 4.00, 0], ["NetzPlus M", 12.99, 15, 3.00, 19.99], ["Giga Max", 19.99, 50, 0, 29.99], ["Prepaid Flex", 9.99, 10, 5.00, 0]];
+  const eur = (x) => x.toLocaleString("de-DE", { style: "currency", currency: "EUR" });
+  const gb = document.getElementById("gb"), gbv = document.getElementById("gbv"), fb = document.getElementById("fb");
+  const draw = () => {
+    const g = +gb.value;
+    gbv.textContent = `${g} GB`;
+    // Mehr als inklusive + 10 GB Zusatz? Dann reicht der Tarif nicht.
+    const cost = TARIFE.map(([, gp, inkl, zus, ans]) => (g > inkl + 10 ? null : (gp + (g > inkl ? zus : 0)) * 24 + ans));
+    const vals = cost.map((c) => (c === null ? 0 : Math.round(c * 100) / 100));
+    MiniChart.render(document.getElementById("chart"), { type: "bar", labels: TARIFE.map((t) => t[0]), values: vals,
+      title: T(`Kosten in 2 Jahren bei ${g} GB`), yTitle: "€", yMin: 0, valueLabels: true });
+    const ok = cost.map((c, i) => [c, i]).filter(([c]) => c !== null).sort((a, b) => a[0] - b[0]);
+    const best = TARIFE[ok[0][1]][0];
+    const zu = TARIFE.filter((t, i) => cost[i] === null).map((t) => t[0]);
+    fb.innerHTML = T(`Am günstigsten: <strong>${best}</strong> mit ${eur(ok[0][0])}.`) +
+      (zu.length ? " " + T(`Zu wenig Daten (auch mit Zusatzpaket): ${zu.join(", ")}.`) : "");
+  };
+  gb.addEventListener("input", draw);
+  draw();
+});
+</script>
+</body>
+</html>

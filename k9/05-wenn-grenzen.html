@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WENN 3 · Calc-Kurs Klasse 9</title>
+<meta name="description" content="Klasse 9, Baustein 5: WENN 3 – Grenzwerte in eigene Zellen mit $, Probe-Training, Expedition mit UND und Notenrechner.">
+<link rel="canonical" href="https://calc.herrseibert.de/k9/05-wenn-grenzen.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/k9/05-wenn-grenzen.html">
+<meta property="og:title" content="WENN 3 · Calc-Kurs Klasse 9">
+<meta property="og:description" content="Klasse 9, Baustein 5: WENN 3 – Grenzwerte in eigene Zellen mit $, Probe-Training, Expedition mit UND und Notenrechner.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="k9-05-wenn-grenzen" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Lernpfad Klasse 9">
+    <strong class="t">Klasse 9:</strong>
+    <ol>
+      <li class="done"><a href="01-fehlerdetektiv.html" title="1 · Fehlerdetektiv">1</a></li>
+      <li class="done"><a href="02-prozentrechnung.html" title="2 · Prozentrechnung">2</a></li>
+      <li class="done"><a href="03-wenn.html" title="3 · WENN 1">3</a></li>
+      <li class="done"><a href="04-wenn-rechnen.html" title="4 · WENN 2">4</a></li>
+      <li class="now"><span title="5 · WENN 3" aria-current="step">5</span></li>
+      <li class="done"><a href="06-bedingte-formatierung.html" title="6 · Bedingte Formatierung 1">6</a></li>
+      <li class="done"><a href="07-bedingte-formatierung-2.html" title="7 · Bedingte Formatierung 2">7</a></li>
+      <li class="done"><a href="08-fit-fuer-die-probe.html" title="8 · Fit für die Probe">8</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>WENN 3 – Grenzen in eigenen Zellen</h1>
+    <div class="meta">
+      <span class="chip">Klasse 9 · Baustein 5</span>
+      <span class="chip">⏱ ca. 37 Minuten</span>
+      <span class="chip">Teil 3 von 3 zu WENN</span>
+    </div>
+    <ul class="goals">
+      <li>Ich kann Grenzwerte in eine eigene Zelle schreiben und mit <code>$</code> festhalten.</li>
+      <li>Ich kann WENN-Formeln mit Text, Zahlen und Rechnungen sicher schreiben.</li>
+      <li>Ich kann eine Probe-Aufgabe zu WENN allein lösen.</li>
+    </ul>
+  </section>
+
+  <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
+  <details class="card woerter" id="woerter">
+    <summary><span class="t">📖 Calc-Wörter für diesen Baustein</span></summary>
+    <p class="note">Die Wörter links bleiben deutsch. So stehen sie in Calc und in den Aufgaben.</p>
+    <table class="plain">
+      <tbody>
+        <tr><th class="wort" lang="de">die Grenze <small>die Grenzen</small></th><td>die Zahl, bei der sich die Antwort ändert</td></tr>
+        <tr><th class="wort" lang="de">ab</th><td>„ab 15“: 15 zählt mit, also <code>&gt;=15</code></td></tr>
+        <tr><th class="wort" lang="de">über</th><td>„über 15“: 15 zählt nicht mit, also <code>&gt;15</code></td></tr>
+        <tr><th class="wort" lang="de">bis</th><td>„bis 10“: 10 zählt mit, also <code>&lt;=10</code></td></tr>
+        <tr><th class="wort" lang="de">unter</th><td>„unter 14“: 14 zählt nicht mit, also <code>&lt;14</code></td></tr>
+        <tr><th class="wort" lang="de">festhalten</th><td>dafür sorgen, dass etwas gleich bleibt. Das <code>$</code> hält eine Zelle fest.</td></tr>
+        <tr><th class="wort" lang="de">bestanden</th><td>geschafft, z. B. eine Prüfung</td></tr>
+      </tbody>
+    </table>
+  </details>
+
+  <!-- 0 · Weißt du noch? -->
+  <section class="card wdh" id="wdh">
+    <h2><span class="step-no">↺</span> Weißt du noch? <span class="chip">2 Min</span></h2>
+    <p class="lead">Zwei Aufgaben zu früheren Bausteinen. Ohne Nachschauen!</p>
+    <div id="wdh-box"></div>
+  </section>
+
+  <!-- 1 · Vorhersage -->
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <div id="calc1"></div>
+    <p class="lead">💡 Beim Erste-Hilfe-Quiz hat bestanden, wer mindestens 15 Punkte hat. In Spalte C steht überall so eine Formel: <code class="long">=WENN(B5&gt;=15;"bestanden";"durchgefallen")</code></p>
+    <p><strong>Jetzt du:</strong> Neue Regel – bestanden erst ab <strong>16</strong> Punkten. Wie viele Zellen musst du ändern?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="1">nur eine</button>
+      <button type="button" class="choice" data-v="3">alle drei Formeln</button>
+      <button type="button" class="choice" data-v="0">keine</button>
+    </div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <!-- 2 · Erklärung -->
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> Grenzen in eigene Zellen <span class="chip">7 Min</span></h2>
+    <div class="rule">Grenzen und Preise gehören in eine <strong>eigene Zelle</strong>.<br>In der Formel steht dann <code>$B$2</code> statt der Zahl – wie in Klasse 8.</div>
+
+    <h3 class="sub">Beispiel: Kinokarte</h3>
+    <div id="calcBsp"></div>
+    <p><strong>Klick C6 und C7 an.</strong> Ändere auch mal ein Alter in Spalte B.</p>
+    <p class="fb" id="fbBsp" aria-live="polite"></p>
+
+    <h3 class="sub">Wiederholung: Vergleichen</h3>
+    <div class="tbl-scroll">
+      <table class="plain">
+        <thead><tr><th>Zeichen</th><th>heißt</th><th>Beispiel</th></tr></thead>
+        <tbody>
+          <tr><td><code>&gt;=</code></td><td>mindestens, ab</td><td><code>B5&gt;=15</code></td></tr>
+          <tr><td><code>&lt;=</code></td><td>höchstens, bis</td><td><code>B5&lt;=10</code></td></tr>
+          <tr><td><code>&gt;</code> / <code>&lt;</code></td><td>über / unter</td><td><code>B5&lt;14</code></td></tr>
+          <tr><td><code>=</code> / <code>&lt;&gt;</code></td><td>gleich / ungleich</td><td><code>B5="ja"</code></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Text steht in <code>"Anführungszeichen"</code>. Zahlen und Zellen ohne.</p>
+
+    <div class="video-ph">
+      <span class="play" aria-hidden="true">▶</span>
+      <span class="t"><strong>Kurzvideo (folgt):</strong> Grenzen mit $ festhalten</span>
+    </div>
+  </section>
+
+  <!-- 3 · Ausprobieren -->
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Akku-Check <span class="chip">5 Min</span></h2>
+    <div id="calc2"></div>
+    <p class="lead">Unter 20 % soll in Spalte C <strong>laden!</strong> stehen, sonst <strong>ok</strong>. Schreib die Formel in C5 und füll sie nach unten aus.</p>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <!-- 4 · In Calc -->
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">15 Min</span></h2>
+    <p class="lead">Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Die Spalte <strong>Kontrolle</strong> zeigt dir, was noch fehlt.</p>
+    <div class="dl">
+      <a href="../downloads/k9-05-wenn-grenzen.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>k9-05-wenn-grenzen.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-05-wenn-grenzen-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Bestanden?</strong> Die Grenze steht in B2. Ändere sie – alles rechnet mit.</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Versandkosten:</strong> Kennst du aus WENN 2 – jetzt mit Grenze und Preis in blauen Zellen.</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Probe-Training:</strong> Drei Aufgaben wie in der Probe – ohne Vorlage.</span></li>
+      <li><span class="badge expedition">Freiwillig</span><span>Üben und ★ Expedition – jeweils mit eigener Datei und Lösung: <a href="#freiwillig">ganz unten auf dieser Seite</a>.</span></li>
+    </ul>
+  </section>
+
+  <!-- 5 · Kurz-Check -->
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">3 Min</span></h2>
+    <p class="lead">Vier Fragen. Hast du es verstanden?</p>
+    <div id="quiz"></div>
+  </section>
+
+  <!-- Merke -->
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li><code>=WENN(Frage; Dann; Sonst)</code> – z. B. <code class="long">=WENN(B5&gt;=$B$2;"bestanden";"nicht bestanden")</code></li>
+      <li>Vergleiche: <code>&gt;</code> größer · <code>&lt;</code> kleiner · <code>&gt;=</code> mindestens · <code>&lt;=</code> höchstens · <code>=</code> gleich · <code>&lt;&gt;</code> ungleich</li>
+      <li>„ab 15“ heißt <code>&gt;=15</code>, „über 15“ heißt <code>&gt;15</code>.</li>
+      <li>Text steht in <code>"Anführungszeichen"</code>. Zahlen und Zellen ohne.</li>
+      <li>Grenzwerte in eine eigene Zelle schreiben und mit <code>$</code> festhalten.</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <!-- Ich kann -->
+  <section class="card" id="ichkann">
+    <h2>Das kann ich jetzt</h2>
+    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
+    <ul class="checklist" id="checklist">
+      <li><label><input type="checkbox"> <span class="t">Ich schreibe Grenzen in eine eigene Zelle und nehme sie mit <code>$</code>.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich wähle das richtige Vergleichszeichen, z. B. <code>&gt;=</code> für „ab“.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich setze Text in Anführungszeichen und Zahlen ohne.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich löse Probe-Aufgaben zu WENN ohne Vorlage.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich kann WENN mit UND kombinieren.</span></label></li>
+    </ul>
+  </section>
+
+  <!-- Freiwillig: Üben + ★ Expedition -->
+  <section class="card frei" id="freiwillig">
+    <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
+    <p class="lead"><span class="badge ueben">Üben</span> heißt: dasselbe wie oben, nur mehr davon. <span class="badge expedition">★ Expedition</span> heißt: etwas Neues für Profis.</p>
+    <h3 class="sub"><span class="badge ueben">Üben</span> Wochenlohn mit Überstunden</h3>
+    <p>Bis 38,5 Stunden gibt es den normalen Stundenlohn. Jede Stunde mehr ist eine Überstunde mit 30 % Zuschlag.
+      Tarif und Zuschlag stehen in blauen Zellen.</p>
+    <p><code class="long">=WENN(B6&gt;=$B$2;$B$2*C6;B6*C6)</code> – hier wird in <strong>Dann</strong> und <strong>Sonst</strong> gerechnet.</p>
+    <p class="note"><strong>Test:</strong> Tipp in B2 eine neue Arbeitszeit ein. Rechnet die ganze Tabelle mit? Dann hast du überall <code>$B$2</code> benutzt.</p>
+    <div class="dl">
+      <a href="../downloads/k9-05-wenn-grenzen-mehr-wochenlohn.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Üben: Wochenlohn</strong><small>k9-05-wenn-grenzen-mehr-wochenlohn.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-05-wenn-grenzen-mehr-wochenlohn-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <h3 class="sub"><span class="badge expedition">★ Expedition</span> UND</h3>
+    <div id="calc3"></div>
+    <div class="rule"><code>UND(Prüfung1; Prüfung2)</code> stimmt nur, wenn <strong>beide</strong> stimmen.<br><code>ODER(…; …)</code> reicht eine.</div>
+    <p>Freibad-Tag ist, wenn es <strong>mindestens 25 °C</strong> hat <strong>und</strong> nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.</p>
+    <p class="fb" id="fb3" aria-live="polite"></p>
+    <p class="note"><strong>In der Datei:</strong> der Notenrechner. WENN in WENN macht aus Punkten die Note, UND entscheidet, wer einen Lob-Brief bekommt.</p>
+    <div class="dl">
+      <a href="../downloads/k9-05-wenn-grenzen-expedition.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>★ Expedition: UND</strong><small>k9-05-wenn-grenzen-expedition.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-05-wenn-grenzen-expedition-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter im Lernpfad">
+    <a href="04-wenn-rechnen.html">← 4 · WENN 2</a>
+    <a href="06-bedingte-formatierung.html">6 · Bedingte Formatierung 1 →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz, checklist } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+  const isErr = (v) => v instanceof MiniCalc.CalcError;
+  const clean = (s) => s.replace(/\s/g, "").toUpperCase();
+  // Zahlen außerhalb von Zellbezügen und "Text"
+  const hasNumber = (raw) => /\d/.test(raw.replace(/"[^"]*"/g, "").replace(/\$?[A-Z]\$?\d+/gi, ""));
+
+  /* ---------- 1 · Vorhersage ---------- */
+  const fb1 = document.getElementById("fb1");
+  const rows1 = ["5", "6", "7"];
+  const calc1 = new MiniCalc(document.getElementById("calc1"), {
+    cols: 3, rows: 7,
+    cells: { A4: "Name", B4: "Punkte", C4: "Ergebnis", A5: "Ben", B5: 15, A6: "Clara", B6: 12, A7: "Dana", B7: 16,
+             C5: '=WENN(B5>=15;"bestanden";"durchgefallen")', C6: '=WENN(B6>=15;"bestanden";"durchgefallen")',
+             C7: '=WENN(B7>=15;"bestanden";"durchgefallen")' },
+    styles: { A2: "label", B2: "fix", A4: "head", B4: "head", C4: "head" }, select: "C5",
+  });
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    predict.querySelector('[data-v="3"]').classList.add("right");
+    if (b.dataset.v !== "3") b.classList.add("wrong");
+    // Umbau: Grenze in B2, Formeln mit $B$2
+    calc1.set("A2", "ab Punkten:");
+    calc1.set("B2", 16);
+    rows1.forEach((r) => calc1.set("C" + r, `=WENN(B${r}>=$B$2;"bestanden";"durchgefallen")`));
+    calc1.editable.add("B2");
+    calc1.tds.B2.classList.add("input");
+    calc1.select("C5");
+    feedback(fb1, (b.dataset.v === "3" ? T("✔ Genau – alle drei!") + " " : "") +
+      T("Die 15 steckt in <strong>jeder</strong> Formel. Bei 30 Schülern wären es 30 Änderungen.") + "<br>" +
+      T("<strong>Besser:</strong> Die Grenze steht jetzt in <strong>B2</strong>, die Formeln benutzen <code>$B$2</code>. Klick B2 an und ändere die Grenze – alle Ergebnisse ändern sich auf einmal."),
+      b.dataset.v === "3" ? "ok" : "hint");
+  });
+  calc1.on((c, src) => {
+    if (src === "edit" && c.sel === "B2") {
+      const n = rows1.filter((r) => c.get("C" + r) === "bestanden").length;
+      feedback(fb1, T(`🎉 Eine Zelle geändert – alles rechnet neu. Bei Grenze ${c.format("B2", c.get("B2"))} haben ${n} von 3 bestanden.`), "ok");
+    }
+  });
+
+  /* ---------- 2 · Beispiel Kino ---------- */
+  const fbBsp = document.getElementById("fbBsp");
+  const explain = (c, a) => {
+    const m = /^C([67])$/.exec(a);
+    if (!m) {
+      if (/^B[67]$/.test(a)) feedback(fbBsp, T("Tippe ein anderes Alter ein und klick dann die Zelle in Spalte C daneben an."), "info");
+      return;
+    }
+    const r = m[1], alter = c.get("B" + r);
+    if (typeof alter !== "number") { feedback(fbBsp, T(`In B${r} steht kein Alter.`), "info"); return; }
+    const ja = alter < 14;
+    feedback(fbBsp, T(`<code>=WENN(B${r}&lt;14;$B$2;$B$3)</code>`) + "<br>" +
+      (ja ? T(`Prüfung: ${alter} &lt; 14 <strong>stimmt</strong> → Dann-Teil: $B$2 = <strong>${c.format("B2", c.get("B2"))}</strong>`)
+          : T(`Prüfung: ${alter} &lt; 14 <strong>stimmt nicht</strong> → Sonst-Teil: $B$3 = <strong>${c.format("B3", c.get("B3"))}</strong>`)),
+      "info");
+  };
+  const calcBsp = new MiniCalc(document.getElementById("calcBsp"), {
+    cols: 3, rows: 7, decimal: "comma",
+    cells: { A2: "unter 14:", B2: 6, A3: "sonst:", B3: 9, A5: "Name", B5: "Alter", C5: "Preis",
+             A6: "Lea", B6: 12, C6: "=WENN(B6<14;$B$2;$B$3)", A7: "Tom", B7: 15, C7: "=WENN(B7<14;$B$2;$B$3)" },
+    styles: { A2: "label", A3: "label", B2: "fix", B3: "fix", A5: "head", B5: "head", C5: "head" },
+    formats: { B2: "eur", B3: "eur", C: "eur" }, editable: ["B6", "B7"], select: "C6",
+    onSelect: explain,
+  });
+  calcBsp.on((c, src) => { if (src === "edit") explain(c, "C" + c.sel.slice(1)); });
+  explain(calcBsp, "C6");
+
+  /* ---------- 3 · Akku-Check ---------- */
+  const fb2 = document.getElementById("fb2");
+  const rows = ["6", "7", "8"];
+  let filled = false, solved = false;
+  const want = (c, r) => (c.get("B" + r) < c.get("B2") ? "laden!" : "ok");
+  const calc2 = new MiniCalc(document.getElementById("calc2"), {
+    cols: 3, rows: 8, decimal: "comma",
+    cells: { A2: "Laden unter:", B2: "20 %", A4: "Handy", B4: "Akku", C4: "Status",
+             A5: "Lea", B5: "15 %", A6: "Tom", B6: "64 %", A7: "Mia", B7: "20 %", A8: "Ali", B8: "8 %" },
+    styles: { A2: "label", B2: "fix", A4: "head", B4: "head", C4: "head" },
+    formats: { B: "pct" }, editable: ["C5", "B2"], select: "C5",
+    actions: [
+      { label: "■ C5 nach unten ausfüllen (bis C8)", onClick: async (c) => {
+          if (!c.getRaw("C5")) { feedback(fb2, T("Erst eine Formel in C5 eintippen!"), "hint"); return; }
+          filled = true; await c.fill("C5", rows.map((r) => "C" + r), 200);
+        } },
+      { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { filled = false; solved = false; c.reset(); fb2.className = "fb"; } },
+    ],
+  });
+  const akku = (c, src) => {
+    if (src === "reset") return;
+    if (solved && c.sel === "B2") {
+      const n = ["5", ...rows].filter((r) => c.get("C" + r) === "laden!").length;
+      feedback(fb2, T(`🎉 Alles entscheidet neu! Bei ${c.format("B2", c.get("B2"))} müssen ${n} Handys an die Steckdose.`), "ok");
+      return;
+    }
+    const raw = clean(c.getRaw("C5"));
+    if (!raw) { feedback(fb2, T("Tippe in C5 eine WENN-Formel. Tipp: <code>=WENN(B5&lt;$B$2;…;…)</code>"), "info"); return; }
+    if (!raw.startsWith("=")) { feedback(fb2, T("Eine Formel beginnt <strong>immer</strong> mit <code>=</code>. Lass WENN entscheiden!"), "hint"); return; }
+    const v = c.get("C5");
+    if (isErr(v)) {
+      feedback(fb2, v.code === "#NAME?"
+        ? T("C5 zeigt #NAME?: Text steht in Anführungszeichen: <code>\"laden!\"</code> und <code>\"ok\"</code>. Und die Funktion heißt WENN.")
+        : T(`C5 zeigt ${v.code}. Prüfe: Text in Anführungszeichen (<code>"laden!"</code>), Klammern und Semikolons: <code>=WENN(Prüfung;Dann;Sonst)</code>.`), "hint");
+      return;
+    }
+    if (!/^=(WENN|IF)\(/.test(raw)) { feedback(fb2, T("Nimm die Funktion WENN: <code>=WENN(Prüfung;Dann;Sonst)</code>."), "hint"); return; }
+    if (hasNumber(raw)) { feedback(fb2, T("In der Formel steht eine Zahl. Nimm die Grenze aus <code>$B$2</code> – dann kannst du sie später ändern."), "hint"); return; }
+    if (v !== want(c, "5")) { feedback(fb2, T("Lea hat 15 %. Das ist unter 20 %, also soll „laden!“ erscheinen. Prüfe Vergleichszeichen und Reihenfolge von Dann und Sonst."), "hint"); return; }
+    if (!filled) { feedback(fb2, T("✔ C5 stimmt! Jetzt auf <strong>■ C5 nach unten ausfüllen</strong> klicken."), "info"); return; }
+    if (src === "edit" && clean(c.getRaw("C6")) !== clean(MiniCalc.shiftFormula(c.getRaw("C5"), 1, 0))) {
+      feedback(fb2, T("Du hast C5 geändert. Fülle noch einmal nach unten aus!"), "info"); return;
+    }
+    const wrong = rows.find((r) => c.get("C" + r) !== want(c, r));
+    if (wrong) {
+      if (!/\$B\$2/.test(raw)) { feedback(fb2, T("Klick C6 an: Aus B2 wurde B3 – und B3 ist leer. Setz den Anker: <code>$B$2</code>"), "hint"); return; }
+      if (wrong === "7") { feedback(fb2, T("Mia hat genau 20 %. „Unter 20 %“ heißt <code>&lt;</code>, nicht <code>&lt;=</code>. Mia ist also ok."), "hint"); return; }
+      feedback(fb2, T(`Zeile ${wrong} stimmt noch nicht. Lies die Formel als Satz.`), "hint"); return;
+    }
+    solved = true;
+    feedback(fb2, T("✔ Perfekt! Lea und Ali müssen laden.") + " " + T("<strong>Bonus:</strong> Klick B2 an und tippe <code>70%</code>. Was passiert?"), "ok");
+  };
+  calc2.on(akku);
+  akku(calc2, "start");
+
+  /* ---------- 5 · Quiz ---------- */
+  quiz(document.getElementById("quiz"), [
+    { q: "In B5 steht 10. Was zeigt <code>=WENN(B5&gt;10;\"viel\";\"wenig\")</code>?",
+      options: ["viel", "wenig", "eine Fehlermeldung"], right: 1,
+      why: "10 ist nicht größer als 10. Die Prüfung stimmt nicht, also kommt der Sonst-Teil.",
+      miss: ["Bei <code>&gt;</code> gehört die Grenze nicht dazu.", null, "Die Formel ist richtig geschrieben. Calc prüft nur, ob die Frage stimmt."] },
+    { q: "Welche Prüfung passt zu „ab 18 Jahren“?",
+      options: ["<code>B5&gt;=18</code>", "<code>B5&gt;18</code>", "<code>B5=18</code>"], right: 0,
+      why: "„Ab 18“ heißt: 18 zählt schon mit. Darum mindestens: >=.",
+      miss: [null, "Mit <code>&gt;</code> zählt 18 nicht mit. Wer genau 18 ist, wäre nicht dabei.", "<code>=</code> trifft nur genau 18. Wer 19 ist, wäre nicht dabei."] },
+    { q: "Die Altersgrenze steht in B2. Welche Formel in C5 kannst du nach unten ziehen?",
+      options: ["<code>=WENN(B5&gt;=18;\"ok\";\"zu jung\")</code>", "<code>=WENN(B5&gt;=B2;\"ok\";\"zu jung\")</code>", "<code>=WENN(B5&gt;=$B$2;\"ok\";\"zu jung\")</code>"], right: 2,
+      why: "B5 soll mitwandern, die Grenze in B2 nicht. Darum $B$2 – wie in Klasse 8.",
+      miss: ["Die 18 steht fest in der Formel. Ändert jemand B2, rechnet sie nicht mit.", "Ohne $ rutscht B2 beim Ziehen zu B3, B4 … Dort steht keine Grenze.", null] },
+    { q: "WENN soll 0 € oder den Betrag aus B3 ausgeben. Welche Formel ist richtig?",
+      options: ["<code>=WENN(B6&gt;=B2;\"0\";\"B3\")</code>", "<code>=WENN(B6&gt;=B2;0;B3)</code>", "<code>=WENN(B6&gt;=B2;0;\"B3\")</code>"], right: 1,
+      why: "Zahlen und Zellen stehen ohne Anführungszeichen. \"B3\" wäre nur der Text B3.",
+      miss: ["In Anführungszeichen wird alles Text, auch die 0.", null, "<code>\"B3\"</code> zeigt nur die Buchstaben B3, nicht den Betrag."] },
+  ]);
+
+  /* ---------- Expedition: UND ---------- */
+  const fb3 = document.getElementById("fb3");
+  const days = ["6", "7"];
+  let filled3 = false;
+  const ok3 = (c, r) => (c.get("B" + r) >= c.get("B2") && String(c.get("C" + r)).toLowerCase() === "nein" ? "Freibad!" : "daheim");
+  const calc3 = new MiniCalc(document.getElementById("calc3"), {
+    cols: 4, rows: 7, decimal: "comma",
+    cells: { A2: "ab Grad:", B2: 25, A4: "Tag", B4: "Grad", C4: "Regen?", D4: "Plan",
+             A5: "Mo", B5: 28, C5: "nein", A6: "Di", B6: 31, C6: "ja", A7: "Mi", B7: 24, C7: "nein" },
+    styles: { A2: "label", B2: "fix", A4: "head", B4: "head", C4: "head", D4: "head" },
+    editable: ["D5"], select: "D5",
+    actions: [
+      { label: "■ D5 nach unten ausfüllen (bis D7)", onClick: async (c) => {
+          if (!c.getRaw("D5")) { feedback(fb3, T("Erst eine Formel in D5 eintippen!"), "hint"); return; }
+          filled3 = true; await c.fill("D5", days.map((r) => "D" + r), 200);
+        } },
+      { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { filled3 = false; c.reset(); fb3.className = "fb"; } },
+    ],
+  });
+  calc3.on((c, src) => {
+    if (src === "reset") return;
+    const raw = clean(c.getRaw("D5"));
+    if (!raw) { feedback(fb3, T("Tipp: <code>=WENN(UND(B5&gt;=$B$2;C5=\"nein\");\"Freibad!\";\"daheim\")</code>"), "info"); return; }
+    const v = c.get("D5");
+    if (isErr(v)) { feedback(fb3, T(`D5 zeigt ${v.code}. Prüfe Anführungszeichen, Klammern und Semikolons.`), "hint"); return; }
+    if (!/(UND|AND)\(/.test(raw)) { feedback(fb3, T("Nimm UND für die zwei Bedingungen: <code>UND(B5&gt;=$B$2;C5=\"nein\")</code>"), "hint"); return; }
+    if (v !== ok3(c, "5")) { feedback(fb3, T("Montag: 28 °C und kein Regen – das ist ein Freibad-Tag! Prüfe deine Formel."), "hint"); return; }
+    if (!filled3) { feedback(fb3, T("✔ Montag stimmt! Jetzt nach unten ausfüllen."), "info"); return; }
+    const wrong = days.find((r) => c.get("D" + r) !== ok3(c, r));
+    if (wrong === "6") { feedback(fb3, T("Dienstag ist heiß, aber es regnet. Mit UND müssen <strong>beide</strong> Bedingungen stimmen."), "hint"); return; }
+    if (wrong) { feedback(fb3, T("Mittwoch hat nur 24 °C. Ist der Anker <code>$B$2</code> da?"), "hint"); return; }
+    feedback(fb3, T("🏆 Expedition geschafft! Nur am Montag passt beides. In der Übungsdatei wartet noch der Notenrechner: WENN in WENN."), "ok");
+  });
+
+  checklist(document.getElementById("checklist"), "k9-05");
+});
+</script>
+<script>
+/* Weißt du noch? – Aufgaben zu früheren Bausteinen */
+document.addEventListener("DOMContentLoaded", () => {
+  Wdh(document.getElementById("wdh-box"), [
+    { type: "tippen", from: "aus Baustein 4", href: "04-wenn-rechnen.html",
+      q: "<strong>Ab 29 €</strong> kostet der Versand 0 €. Sonst kostet er 4,95 €. Schreib die Formel in B2.",
+      table: { cols: 2, rows: 2, cells: { A1: "Einkauf", B1: "Versand", A2: 35 }, styles: { A1: "head", B1: "head" }, formats: { A2: "eur", B2: "eur" } },
+      cell: "B2", solution: "=WENN(A2>=29;0;4,95)",
+      check: Wdh.checks.wenn({ cell: "A2", at: "B2", number: true, cases: [[35, 0], [10, 4.95], [29, 0]],
+        edge: [29, "„Ab 29 €“ heißt: Auch 29 € zählt. Nimm <code>&gt;=</code>."] }),
+      why: "Zahlen stehen ohne Anführungszeichen. So kann Calc weiterrechnen." },
+    { type: "tippen", from: "aus Klasse 8", href: "../k8/05-absolute-bezuege.html",
+      q: "Was verdient Ali? Schreib die Formel in C4 so, dass du sie <strong>nach unten ziehen</strong> kannst.",
+      table: { cols: 3, rows: 6, cells: { A1: "Lohn pro Stunde", B1: 13, A3: "Name", B3: "Stunden", C3: "Lohn", A4: "Ali", B4: 6, A5: "Mia", B5: 4, A6: "Tom", B6: 9 }, styles: { A1: "label", A3: "head", B3: "head", C3: "head" }, formats: { B1: "eur", C: "eur" } },
+      cell: "C4", solution: "=B4*$B$1", check: Wdh.checks.dollar({ fix: "B1", move: "B4", value: 78 }),
+      why: "B4 wandert beim Ziehen mit. <code>$B$1</code> bleibt fest." }
+  ]);
+});
+</script>
+</body>
+</html>

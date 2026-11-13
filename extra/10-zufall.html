@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zufall &amp; Spiele · Calc-Kurs Zusatzmodul</title>
+<meta name="description" content="Zusatzmodul: Zufall und Spiele – würfeln mit ZUFALLSBEREICH, Münzwurf mit ZUFALLSZAHL und WENN, Glücksrad, Gesetz der großen Zahl.">
+<link rel="canonical" href="https://calc.herrseibert.de/extra/10-zufall.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/extra/10-zufall.html">
+<meta property="og:title" content="Zufall &amp; Spiele · Calc-Kurs Zusatzmodul">
+<meta property="og:description" content="Zusatzmodul: Zufall und Spiele – würfeln mit ZUFALLSBEREICH, Münzwurf mit ZUFALLSZAHL und WENN, Glücksrad, Gesetz der großen Zahl.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="extra-10-zufall" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/minichart.js?v=8eed7d4abd" defer></script>
+<script src="../assets/fragen.js?v=19f0445020" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Zusatzmodule">
+    <strong class="t">Zusatzmodule:</strong>
+    <ol>
+      <li class="done"><a href="01-zaehlenwenn.html" title="1 · ZÄHLENWENN">1</a></li>
+      <li class="done"><a href="02-haushaltsbuch.html" title="2 · Haushaltsbuch">2</a></li>
+      <li class="done"><a href="03-sortieren-filtern.html" title="3 · Sortieren &amp; Filtern">3</a></li>
+      <li class="done"><a href="04-drucken.html" title="4 · Drucken wie ein Profi">4</a></li>
+      <li class="done"><a href="05-brutto-netto.html" title="5 · Brutto und Netto">5</a></li>
+      <li class="done"><a href="06-handyvertrag.html" title="6 · Handyvertrag-Vergleich">6</a></li>
+      <li class="done"><a href="07-sverweis.html" title="7 · SVERWEIS">7</a></li>
+      <li class="done"><a href="08-datum.html" title="8 · Datum &amp; Zeit">8</a></li>
+      <li class="done"><a href="09-text.html" title="9 · Text-Tricks">9</a></li>
+      <li class="now"><span title="10 · Zufall &amp; Spiele" aria-current="step">10</span></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>Zufall &amp; Spiele – würfeln, werfen, drehen</h1>
+    <div class="meta">
+      <span class="chip">Zusatzmodul · freiwillig</span>
+      <span class="chip">⏱ ca. 35 Minuten</span>
+      <span class="chip">Vorwissen: WENN, ZÄHLENWENN hilft</span>
+    </div>
+    <ul class="goals">
+      <li>Ich würfle mit <code>ZUFALLSBEREICH</code> und würfle mit <kbd>F9</kbd> neu.</li>
+      <li>Ich werfe eine Münze mit <code>ZUFALLSZAHL</code> und WENN.</li>
+      <li>Ich probiere aus: Wie oft kommt die 6 wirklich?</li>
+    </ul>
+  </section>
+
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <div class="chart-box" id="chart1"></div>
+    <p class="lead">💡 Du würfelst <strong>60-mal</strong>. Im Schnitt kommt jede Zahl 10-mal.</p>
+    <p><strong>Jetzt du:</strong> Wie oft kommt die 6 wirklich?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="genau">Genau 10-mal.</button>
+      <button type="button" class="choice" data-v="ca">Ungefähr 10-mal – mal mehr, mal weniger.</button>
+      <button type="button" class="choice" data-v="nie">Fast nie, die 6 ist selten.</button>
+    </div>
+    <div class="btn-row"><button class="btn" type="button" id="roll1" hidden>🎲 60-mal würfeln</button></div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> Zufall in Calc <span class="chip">7 Min</span></h2>
+    <div id="calcBsp"></div>
+    <p><strong>Klick B2, B3 und B4 an.</strong> Dann: <strong>🎲 Neu würfeln</strong> – wie <kbd>F9</kbd> in Calc.</p>
+    <p class="fb" id="fbBsp" aria-live="polite"></p>
+  </section>
+
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Spiele-Labor <span class="chip">8 Min</span></h2>
+    <div id="calc2"></div>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">12 Min</span></h2>
+    <div class="dl">
+      <a href="../downloads/x10-zufall.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>x10-zufall.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/x10-zufall-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Würfel:</strong> 20-mal würfeln und zählen.</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Münze:</strong> Kopf oder Zahl – wie oft Kopf?</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Glücksrad:</strong> Hauptgewinn, Lutscher oder Niete?</span></li>
+      <li><span class="badge expedition">Expedition</span><span><strong>Freiwillig:</strong> 600 Würfe – das Gesetz der großen Zahl.</span></li>
+    </ul>
+  </section>
+
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">3 Min</span></h2>
+    <div id="quiz"></div>
+  </section>
+
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li><code>=ZUFALLSBEREICH(1;6)</code> würfelt eine ganze Zahl von 1 bis 6.</li>
+      <li><kbd>F9</kbd> (oder jede Eingabe) würfelt alle Zufallszahlen neu.</li>
+      <li><code>=ZUFALLSZAHL()</code> gibt eine Kommazahl zwischen 0 und 1.</li>
+      <li>Münzwurf: <code class="long">=WENN(ZUFALLSZAHL()&lt;0,5;"Kopf";"Zahl")</code></li>
+      <li>Je öfter man würfelt, desto näher kommt jede Zahl an 1/6 ≈ 16,7 %.</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter">
+    <a href="09-text.html">← Text-Tricks</a>
+    <a href="../index.html#zusatz">Übersicht →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+
+  /* 1 · Vorhersage mit Diagramm */
+  const fb1 = document.getElementById("fb1"), roll1 = document.getElementById("roll1");
+  const chart = (vals, title) => MiniChart.render(document.getElementById("chart1"), { type: "bar", labels: ["1", "2", "3", "4", "5", "6"], values: vals, title, yMin: 0 });
+  chart([10, 10, 10, 10, 10, 10], T("So wäre es „gerecht“: jede Zahl 10-mal"));
+  let rolls = 0;
+  const roll = () => {
+    const c = [0, 0, 0, 0, 0, 0];
+    for (let i = 0; i < 60; i++) c[Math.floor(Math.random() * 6)]++;
+    rolls++;
+    chart(c, T(`60 Würfe – Versuch ${rolls}`));
+    feedback(fb1, T(`Diesmal kam die 6 <strong>${c[5]}-mal</strong>. Würfle nochmal – es ist fast nie genau 10!`), c[5] === 10 ? "ok" : "info");
+  };
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    predict.querySelector('[data-v="ca"]').classList.add("right");
+    if (b.dataset.v !== "ca") b.classList.add("wrong");
+    roll1.hidden = false;
+    roll();
+  });
+  roll1.addEventListener("click", roll);
+
+  /* 2 · Beispiel */
+  const fbBsp = document.getElementById("fbBsp");
+  const texts = {
+    B2: "<code>=ZUFALLSBEREICH(1;6)</code> – eine ganze Zahl von 1 bis 6.",
+    B3: "<code>=ZUFALLSZAHL()</code> – eine Kommazahl zwischen 0 und 1.",
+    B4: "<code>=WENN(B3&lt;0,5;\"Kopf\";\"Zahl\")</code> – die Hälfte der Zahlen ist unter 0,5.",
+  };
+  new MiniCalc(document.getElementById("calcBsp"), {
+    cols: 2, rows: 4, decimal: "comma",
+    cells: { A1: "", B1: "Zufall", A2: "Würfel", B2: "=ZUFALLSBEREICH(1;6)", A3: "Zufallszahl", B3: "=ZUFALLSZAHL()", A4: "Münze", B4: '=WENN(B3<0,5;"Kopf";"Zahl")' },
+    styles: { B1: "head", A2: "label", A3: "label", A4: "label" }, formats: { B3: "dec3" }, select: "B2",
+    onSelect: (c, a) => { if (texts[a]) feedback(fbBsp, T(texts[a]), "info"); },
+    actions: [{ label: "🎲 Neu würfeln (F9)", onClick: (c) => { c.render(); feedback(fbBsp, T(`Neu gewürfelt: ${c.tds.B2.textContent} · ${c.tds.B3.textContent} · ${c.tds.B4.textContent}`), "info"); } }],
+  });
+  feedback(fbBsp, T(texts.B2), "info");
+
+  /* 3 · Labor */
+  const isFormula = (c, a, re) => re.test(String(c.getRaw(a)).replace(/\s/g, "").toUpperCase());
+  const calc2 = Fragen(document.getElementById("calc2"), document.getElementById("fb2"), {
+    cols: 2, rows: 4, decimal: "comma",
+    cells: { A1: "Würfel", A2: "Münze", A3: "Glücksrad (1–10)", A4: "Gewinn?" },
+    styles: { A1: "label", A2: "label", A3: "label", A4: "label" },
+    tasks: [
+      { cell: "B1", q: "Würfle eine Zahl von 1 bis 6.", fn: /(ZUFALLSBEREICH|RANDBETWEEN)\(1;6\)/, fnName: "ZUFALLSBEREICH(1;6)",
+        want: (c) => c.get("B1"), hint: () => T("<code>=ZUFALLSBEREICH(1;6)</code>") },
+      { cell: "B2", q: "Wirf eine Münze: Kopf oder Zahl.", fn: /(ZUFALLSZAHL|RAND)\(\)/, fnName: "ZUFALLSZAHL()",
+        want: (c) => (["Kopf", "Zahl"].includes(c.get("B2")) && /^=(WENN|IF)\(/.test(String(c.getRaw("B2")).replace(/\s/g, "").toUpperCase()) ? c.get("B2") : "?"),
+        hint: () => T("<code>=WENN(ZUFALLSZAHL()&lt;0,5;\"Kopf\";\"Zahl\")</code>") },
+      { cell: "B3", q: "Dreh das Glücksrad: 1 bis 10.", fn: /(ZUFALLSBEREICH|RANDBETWEEN)\(1;10\)/, fnName: "ZUFALLSBEREICH(1;10)",
+        want: (c) => c.get("B3"), hint: () => T("<code>=ZUFALLSBEREICH(1;10)</code>") },
+      { cell: "B4", q: "Feld 1 ist der Hauptgewinn, sonst „Niete“.", fn: /(WENN|IF)\(/, fnName: "WENN",
+        want: (c) => (c.get("B3") === 1 ? "Hauptgewinn" : "Niete"), hint: () => T("<code>=WENN(B3=1;\"Hauptgewinn\";\"Niete\")</code>") },
+    ],
+    done: "🏆 Alle Spiele laufen! Klick auf eine Zelle und drück Enter – dann wird neu gewürfelt.",
+  });
+
+  quiz(document.getElementById("quiz"), [
+    { q: "Welche Formel würfelt wie ein normaler Würfel?", options: ["<code>=ZUFALLSBEREICH(1;6)</code>", "<code>=ZUFALLSZAHL()*6</code>", "<code>=ZUFALLSBEREICH(0;6)</code>"], right: 0, why: "Ganze Zahlen von 1 bis 6." },
+    { q: "Was macht <kbd>F9</kbd>?", options: ["Speichern", "Alle Zufallszahlen neu würfeln", "Drucken"], right: 1, why: "F9 rechnet neu – Zufallszahlen ändern sich dabei." },
+    { q: "Was zeigt <code>=WENN(ZUFALLSZAHL()&lt;0,5;\"Kopf\";\"Zahl\")</code>?", options: ["Immer Kopf", "Etwa in der Hälfte der Fälle Kopf", "Eine Zahl"], right: 1, why: "Die Zufallszahl ist in etwa der Hälfte der Fälle unter 0,5." },
+    { q: "Du würfelst 600-mal. Wie oft kommt etwa die 6?", options: ["Genau 100-mal", "Ungefähr 100-mal", "60-mal"], right: 1, why: "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas." },
+  ]);
+});
+</script>
+</body>
+</html>

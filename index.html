@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calc-Kurs · Tabellenkalkulation lernen</title>
+<meta name="description" content="Freier Lernpfad (OER) für LibreOffice Calc – Schritt für Schritt, mit Übungsdateien, Selbstkontrolle und Sprachhilfe in 13 Sprachen. Entwickelt für Klasse 8 und 9, geeignet für alle.">
+<link rel="canonical" href="https://calc.herrseibert.de/">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/">
+<meta property="og:title" content="Calc-Kurs · Tabellenkalkulation lernen">
+<meta property="og:description" content="Freier Lernpfad (OER) für LibreOffice Calc – Schritt für Schritt, mit Übungsdateien, Selbstkontrolle und Sprachhilfe in 13 Sprachen. Entwickelt für Klasse 8 und 9, geeignet für alle.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="assets/kurs.css?v=5ff8f830bc">
+<script src="assets/i18n.js?v=1b30a9d559" data-page="index" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="assets/kurs.js?v=4f7b2fcf93"></script>
+<style>
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin-top: 10px; }
+  .unit { display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--text); text-decoration: none; }
+  a.unit:hover { border-color: var(--accent); }
+  .unit .no { width: 34px; height: 34px; border-radius: 10px; background: var(--surface-2); display: grid; place-items: center; font-weight: 800; flex: none; }
+  a.unit .no { background: var(--basis); color: #fff; }
+  .unit small { display: block; color: var(--muted); }
+  .unit.soon { opacity: .6; }
+  /* Zusatzmodule: lila wie die Expeditionen */
+  #zusatz .unit { border-color: color-mix(in srgb, var(--expedition) 45%, var(--line)); }
+  #zusatz a.unit:hover { border-color: var(--expedition); }
+  #zusatz a.unit .no { background: var(--expedition); }
+  .exp { font-size: 14.5px; color: var(--expedition); margin-top: 2px; }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img class="logo" src="favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+<main class="wrap">
+  <section class="hero" style="padding-top:24px">
+    <h1>Tabellenkalkulation lernen – Schritt für Schritt</h1>
+    <p class="lead">Ein freier Lernpfad für LibreOffice Calc in der Mittelschule. Jeder Baustein bietet eine Erklärung, eine Übung im Browser und eine Übungsdatei mit Selbstkontrolle. Lösungen zum Üben zu Hause gibt es auch.</p>
+    <div class="meta">
+      <span class="badge basis">Basis</span> <span class="chip">für alle</span>
+      <span class="badge plus">Plus</span> <span class="chip">für Schnelle</span>
+      <span class="badge expedition">Freiwillig</span> <span class="chip">für Neugierige</span>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Klasse 8 · Grundlagen</h2>
+    <div class="grid">
+      <a class="unit" href="k8/01-erste-schritte.html"><span class="no">1</span><span><strong>Erste Schritte</strong><small>Zellen, Eingeben, Formatieren</small><span class="exp">★ Schatzsuche mit Tastatur-Tricks</span></span></a>
+      <a class="unit" href="k8/02-erste-formeln.html"><span class="no">2</span><span><strong>Erste Formeln</strong><small>=, Grundrechenarten, Zellbezug statt Zahl</small><span class="exp">★ Punkt vor Strich</span></span></a>
+      <a class="unit" href="k8/03-funktionen.html"><span class="no">3</span><span><strong>Funktionen</strong><small>SUMME, MITTELWERT, MIN, MAX</small><span class="exp">★ 100 Mal würfeln</span></span></a>
+      <a class="unit" href="k8/04-ausfuellen.html"><span class="no">4</span><span><strong>Ausfüllen</strong><small>Formeln ziehen, relative Bezüge</small><span class="exp">★ Laufender Kontostand</span></span></a>
+      <a class="unit" href="k8/05-absolute-bezuege.html"><span class="no">5</span><span><strong>Absolute Bezüge</strong><small>Das $ als Anker</small><span class="exp">★ Gemischte Bezüge</span></span></a>
+      <a class="unit" href="k8/06-diagramme.html"><span class="no">6</span><span><strong>Diagramme</strong><small>Das passende Diagramm wählen</small><span class="exp">★ Lügen mit Diagrammen</span></span></a>
+      <a class="unit" href="k8/07-projekt-klassenfahrt.html"><span class="no">7–8</span><span><strong>Projekt</strong><small>Klassenfahrt planen</small><span class="exp">★ Was wäre, wenn …?</span></span></a>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Klasse 9 · Vertiefung</h2>
+    <div class="grid">
+      <a class="unit" href="k9/01-fehlerdetektiv.html"><span class="no">1</span><span class="t"><strong>Fehlerdetektiv</strong><small>Wiederholung Klasse 8</small><span class="exp">★ WENNFEHLER</span></span></a>
+      <a class="unit" href="k9/02-prozentrechnung.html"><span class="no">2</span><span class="t"><strong>Prozentrechnung</strong><small>Rabatt, Mehrwertsteuer</small><span class="exp">★ Rabatt auf Rabatt</span></span></a>
+      <a class="unit" href="k9/03-wenn.html"><span class="no">3</span><span class="t"><strong>WENN 1</strong><small>Calc stellt eine Ja/Nein-Frage</small><span class="exp">★ Quiz-Maker</span></span></a>
+      <a class="unit" href="k9/04-wenn-rechnen.html"><span class="no">4</span><span class="t"><strong>WENN 2</strong><small>Dann und Sonst rechnen</small><span class="exp">★ Rabatt ab 50 €</span></span></a>
+      <a class="unit" href="k9/05-wenn-grenzen.html"><span class="no">5</span><span class="t"><strong>WENN 3</strong><small>Grenzen in Zellen, Probe-Training</small><span class="exp">★ UND, Notenrechner</span></span></a>
+      <a class="unit" href="k9/06-bedingte-formatierung.html"><span class="no">6</span><span class="t"><strong>Bedingte Formatierung 1</strong><small>Calc färbt selbst</small><span class="exp">★ Datenbalken, Farbskala</span></span></a>
+      <a class="unit" href="k9/07-bedingte-formatierung-2.html"><span class="no">7</span><span class="t"><strong>Bedingte Formatierung 2</strong><small>Ampel, Text, Grenzen</small><span class="exp">★ Ganze Zeile färben</span></span></a>
+      <a class="unit" href="k9/08-fit-fuer-die-probe.html"><span class="no">8</span><span class="t"><strong>Fit für die Probe</strong><small>Übungsprobe, Aufgaben-Würfel</small></span></a>
+    </div>
+  </section>
+
+  <!-- Zusatzmodule: neue Module einfach als weitere Karte in .grid ergänzen (Seiten liegen in extra/) -->
+  <section class="card" id="zusatz">
+    <h2>Zusatzmodule · freiwillig</h2>
+    <p class="lead">Für alle, die mehr wollen – nach Klasse 9 oder zwischendurch. Jedes Modul steht für sich.</p>
+    <div class="grid">
+      <a class="unit" href="extra/01-zaehlenwenn.html"><span class="no">★</span><span class="t"><strong>ZÄHLENWENN</strong><small>Zählen, was passt</small></span></a>
+      <a class="unit" href="extra/02-haushaltsbuch.html"><span class="no">★</span><span class="t"><strong>Haushaltsbuch</strong><small>Mein Geld im Griff</small></span></a>
+      <a class="unit" href="extra/03-sortieren-filtern.html"><span class="no">★</span><span class="t"><strong>Sortieren &amp; Filtern</strong><small>Große Tabellen bändigen</small></span></a>
+      <a class="unit" href="extra/04-drucken.html"><span class="no">★</span><span class="t"><strong>Drucken wie ein Profi</strong><small>Alles auf eine Seite</small></span></a>
+      <a class="unit" href="extra/05-brutto-netto.html"><span class="no">★</span><span class="t"><strong>Brutto und Netto</strong><small>Was bleibt vom Ausbildungsgehalt?</small></span></a>
+      <a class="unit" href="extra/06-handyvertrag.html"><span class="no">★</span><span class="t"><strong>Handyvertrag-Vergleich</strong><small>Projekt: Welcher Tarif passt?</small></span></a>
+      <a class="unit" href="extra/07-sverweis.html"><span class="no">★</span><span class="t"><strong>SVERWEIS</strong><small>Calc schlägt nach</small></span></a>
+      <a class="unit" href="extra/08-datum.html"><span class="no">★</span><span class="t"><strong>Datum &amp; Zeit</strong><small>Wie viele Tage bis zu den Ferien?</small></span></a>
+      <a class="unit" href="extra/09-text.html"><span class="no">★</span><span class="t"><strong>Text-Tricks</strong><small>Namen und E-Mail-Adressen bauen</small></span></a>
+      <a class="unit" href="extra/10-zufall.html"><span class="no">★</span><span class="t"><strong>Zufall &amp; Spiele</strong><small>Würfel, Glücksrad, Lotto</small></span></a>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></div>
+</footer>
+</body>
+</html>

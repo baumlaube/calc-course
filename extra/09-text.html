@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Text-Tricks · Calc-Kurs Zusatzmodul</title>
+<meta name="description" content="Zusatzmodul: Text-Tricks – Texte mit &amp; zusammenkleben, LINKS, KLEIN, LÄNGE, WECHSELN. Benutzernamen und E-Mail-Adressen automatisch bauen.">
+<link rel="canonical" href="https://calc.herrseibert.de/extra/09-text.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/extra/09-text.html">
+<meta property="og:title" content="Text-Tricks · Calc-Kurs Zusatzmodul">
+<meta property="og:description" content="Zusatzmodul: Text-Tricks – Texte mit &amp; zusammenkleben, LINKS, KLEIN, LÄNGE, WECHSELN. Benutzernamen und E-Mail-Adressen automatisch bauen.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="extra-09-text" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/fragen.js?v=19f0445020" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Zusatzmodule">
+    <strong class="t">Zusatzmodule:</strong>
+    <ol>
+      <li class="done"><a href="01-zaehlenwenn.html" title="1 · ZÄHLENWENN">1</a></li>
+      <li class="done"><a href="02-haushaltsbuch.html" title="2 · Haushaltsbuch">2</a></li>
+      <li class="done"><a href="03-sortieren-filtern.html" title="3 · Sortieren &amp; Filtern">3</a></li>
+      <li class="done"><a href="04-drucken.html" title="4 · Drucken wie ein Profi">4</a></li>
+      <li class="done"><a href="05-brutto-netto.html" title="5 · Brutto und Netto">5</a></li>
+      <li class="done"><a href="06-handyvertrag.html" title="6 · Handyvertrag-Vergleich">6</a></li>
+      <li class="done"><a href="07-sverweis.html" title="7 · SVERWEIS">7</a></li>
+      <li class="done"><a href="08-datum.html" title="8 · Datum &amp; Zeit">8</a></li>
+      <li class="now"><span title="9 · Text-Tricks" aria-current="step">9</span></li>
+      <li class="done"><a href="10-zufall.html" title="10 · Zufall &amp; Spiele">10</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>Text-Tricks – Namen und E-Mail-Adressen bauen</h1>
+    <div class="meta">
+      <span class="chip">Zusatzmodul · freiwillig</span>
+      <span class="chip">⏱ ca. 35 Minuten</span>
+      <span class="chip">Vorwissen: Formeln, WENN</span>
+    </div>
+    <ul class="goals">
+      <li>Ich klebe Texte mit <code>&amp;</code> zusammen.</li>
+      <li>Ich zerlege und prüfe Texte mit LINKS, KLEIN und LÄNGE.</li>
+      <li>Ich baue automatisch Benutzernamen und E-Mail-Adressen.</li>
+    </ul>
+  </section>
+
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <div id="calc1"></div>
+    <p class="lead">💡 In C2 kommt: <code>=A2&amp;B2</code></p>
+    <p><strong>Jetzt du:</strong> Was zeigt C2?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="mit">Lea Müller</button>
+      <button type="button" class="choice" data-v="ohne">LeaMüller</button>
+      <button type="button" class="choice" data-v="err">#WERT!</button>
+    </div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> Text-Werkzeuge <span class="chip">7 Min</span></h2>
+    <div class="rule"><code>&amp;</code> ist der Klebstoff für Texte. Eigener Text steht in Anführungszeichen: <code>" "</code>, <code>"@schule.de"</code></div>
+    <div id="calcBsp"></div>
+    <p><strong>Klick die Zellen in Spalte B an.</strong></p>
+    <p class="fb" id="fbBsp" aria-live="polite"></p>
+  </section>
+
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Adress-Labor <span class="chip">8 Min</span></h2>
+    <div id="calc2"></div>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">12 Min</span></h2>
+    <div class="dl">
+      <a href="../downloads/x09-text.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>x09-text.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/x09-text-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Namen:</strong> „Lea Müller“ und „Müller, Lea“.</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Benutzernamen:</strong> lmueller? lmüller? Plus E-Mail-Adresse.</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Umlaute:</strong> ä, ö, ü, ß ersetzen mit WECHSELN.</span></li>
+      <li><span class="badge expedition">Expedition</span><span><strong>Freiwillig:</strong> Passwort-Check mit LÄNGE und WENN.</span></li>
+    </ul>
+  </section>
+
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">3 Min</span></h2>
+    <div id="quiz"></div>
+  </section>
+
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li><code>&amp;</code> klebt Texte zusammen: <code>=A5&amp;" "&amp;B5</code> → Lea Müller</li>
+      <li><code>=LINKS(A5;1)</code> erster Buchstabe · <code>=RECHTS(A5;3)</code> die letzten 3 · <code>=LÄNGE(A5)</code> Anzahl Zeichen</li>
+      <li><code>=KLEIN(…)</code> alles klein · <code>=GROSS(…)</code> alles groß</li>
+      <li><code>=WECHSELN(Text;"ü";"ue")</code> ersetzt Zeichen.</li>
+      <li>Funktionen ineinander: <code class="long">=KLEIN(LINKS(A5;1)&amp;B5)</code> – von innen nach außen lesen.</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter">
+    <a href="08-datum.html">← Datum &amp; Zeit</a>
+    <a href="10-zufall.html">Zufall &amp; Spiele →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+
+  const fb1 = document.getElementById("fb1");
+  const calc1 = new MiniCalc(document.getElementById("calc1"), {
+    cols: 3, rows: 2, cells: { A1: "Vorname", B1: "Nachname", C1: "?", A2: "Lea", B2: "Müller" },
+    styles: { A1: "head", B1: "head", C1: "head" }, select: "A2",
+  });
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    predict.querySelector('[data-v="ohne"]').classList.add("right");
+    if (b.dataset.v !== "ohne") b.classList.add("wrong");
+    calc1.set("C2", "=A2&B2"); calc1.select("C2");
+    feedback(fb1, (b.dataset.v === "ohne" ? T("✔ Genau!") + " " : "") +
+      T("&amp; klebt genau das zusammen, was da steht – ohne Leerzeichen. Das Leerzeichen musst du selbst dazukleben: <code>=A2&amp;\" \"&amp;B2</code>"),
+      b.dataset.v === "ohne" ? "ok" : "hint");
+  });
+
+  const fbBsp = document.getElementById("fbBsp");
+  const texts = {
+    B2: "<code>=A2&amp;\" \"&amp;A3</code> – Vorname, Leerzeichen, Nachname.",
+    B3: "<code>=LINKS(A2;1)</code> – der erste Buchstabe.",
+    B4: "<code>=KLEIN(A3)</code> – alles klein.",
+    B5: "<code>=LÄNGE(A3)</code> – so viele Zeichen hat der Text.",
+    B6: "<code>=WECHSELN(A3;\"ü\";\"ue\")</code> – ü wird ue.",
+  };
+  new MiniCalc(document.getElementById("calcBsp"), {
+    cols: 2, rows: 6,
+    cells: { A1: "Text", B1: "Ergebnis", A2: "Lea", A3: "Müller", B2: '=A2&" "&A3', B3: "=LINKS(A2;1)", B4: "=KLEIN(A3)", B5: "=LÄNGE(A3)", B6: '=WECHSELN(A3;"ü";"ue")' },
+    styles: { A1: "head", B1: "head" }, select: "B2", onSelect: (c, a) => { if (texts[a]) feedback(fbBsp, T(texts[a]), "info"); },
+  });
+  feedback(fbBsp, T(texts.B2), "info");
+
+  Fragen(document.getElementById("calc2"), document.getElementById("fb2"), {
+    cols: 2, rows: 6,
+    cells: { A1: "Vorname", B1: "Tom", A2: "Nachname", B2: "Schäfer", A3: "ganzer Name", A4: "Benutzername", A5: "E-Mail", A6: "ohne ä" },
+    styles: { A1: "label", A2: "label", A3: "label", A4: "label", A5: "label", A6: "label", B1: "fix", B2: "fix" },
+    tasks: [
+      { cell: "B3", q: "Tom Schäfer (mit Leerzeichen)", want: (c) => `${c.get("B1")} ${c.get("B2")}`, hint: () => T("<code>=B1&amp;\" \"&amp;B2</code>") },
+      { cell: "B4", q: "Benutzername: tschäfer (klein!)", fn: /(KLEIN|LOWER)\(/, fnName: "KLEIN",
+        want: (c) => (String(c.get("B1"))[0] + c.get("B2")).toLowerCase(), hint: () => T("<code>=KLEIN(LINKS(B1;1)&amp;B2)</code>") },
+      { cell: "B5", q: "E-Mail: Benutzername@schule.de", want: (c) => (String(c.get("B1"))[0] + c.get("B2")).toLowerCase() + "@schule.de",
+        hint: () => T("<code>=B4&amp;\"@schule.de\"</code>") },
+      { cell: "B6", q: "E-Mail ohne ä (ä → ae)", fn: /(WECHSELN|SUBSTITUTE)\(/, fnName: "WECHSELN",
+        want: (c) => ((String(c.get("B1"))[0] + c.get("B2")).toLowerCase() + "@schule.de").replace(/ä/g, "ae"), hint: () => T("<code>=WECHSELN(B5;\"ä\";\"ae\")</code>") },
+    ],
+    done: "🏆 tschaefer@schule.de – und das für jeden Namen mit einer einzigen Formel!",
+  });
+
+  quiz(document.getElementById("quiz"), [
+    { q: "Was zeigt <code>=A2&amp;\" \"&amp;B2</code> mit Lea und Müller?", options: ["LeaMüller", "Lea Müller", "Lea & Müller"], right: 1, why: "Das Leerzeichen in Anführungszeichen wird mit dazugeklebt." },
+    { q: "Welche Funktion liefert den ersten Buchstaben?", options: ["<code>=LINKS(A2;1)</code>", "<code>=RECHTS(A2;1)</code>", "<code>=LÄNGE(A2)</code>"], right: 0, why: "LINKS nimmt Zeichen von links." },
+    { q: "Was zeigt <code>=LÄNGE(\"Calc\")</code>?", options: ["4", "Calc", "1"], right: 0, why: "LÄNGE zählt die Zeichen." },
+    { q: "Wie liest man <code>=KLEIN(LINKS(A5;1)&amp;B5)</code>?", options: ["Von innen nach außen", "Von rechts nach links", "Gar nicht"], right: 0, why: "Erst LINKS, dann &amp;, zum Schluss KLEIN." },
+  ]);
+});
+</script>
+</body>
+</html>

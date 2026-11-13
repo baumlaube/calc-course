@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Absolute Bezüge · Calc-Kurs Klasse 8</title>
+<meta name="description" content="Baustein 5 im Calc-Lernpfad: Warum Zellbezüge beim Ausfüllen wandern und wie das $-Zeichen sie festhält. Mit Übungen, Selbstkontrolle und Lösungen.">
+<link rel="canonical" href="https://calc.herrseibert.de/k8/05-absolute-bezuege.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/k8/05-absolute-bezuege.html">
+<meta property="og:title" content="Absolute Bezüge · Calc-Kurs Klasse 8">
+<meta property="og:description" content="Baustein 5 im Calc-Lernpfad: Warum Zellbezüge beim Ausfüllen wandern und wie das $-Zeichen sie festhält. Mit Übungen, Selbstkontrolle und Lösungen.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="k8-05-absolute-bezuege" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Lernpfad Klasse 8">
+    <strong class="t">Klasse 8:</strong>
+    <ol>
+      <li class="done"><a href="01-erste-schritte.html" title="1 · Erste Schritte">1</a></li>
+      <li class="done"><a href="02-erste-formeln.html" title="2 · Erste Formeln">2</a></li>
+      <li class="done"><a href="03-funktionen.html" title="3 · Funktionen">3</a></li>
+      <li class="done"><a href="04-ausfuellen.html" title="4 · Ausfüllen">4</a></li>
+      <li class="now"><span title="5 · Absolute Bezüge" aria-current="step">5</span></li>
+      <li class="done"><a href="06-diagramme.html" title="6 · Diagramme">6</a></li>
+      <li class="done"><a href="07-projekt-klassenfahrt.html" title="7 · Projekt">7</a></li>
+      <li class="done"><a href="07-projekt-klassenfahrt.html" title="8 · Projekt">8</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>Absolute Bezüge – das $ als Anker</h1>
+    <div class="meta">
+      <span class="chip">Klasse 8 · Baustein 5</span>
+      <span class="chip">⏱ ca. 37 Minuten</span>
+      <span class="chip">Vorwissen: Formeln ausfüllen</span>
+    </div>
+    <ul class="goals">
+      <li>Ich kann erklären, warum ein Zellbezug beim Ausfüllen „wandert“.</li>
+      <li>Ich kann mit dem <code>$</code>-Zeichen einen Bezug festhalten.</li>
+      <li>Ich kann entscheiden, wann ich ein <code>$</code> brauche – und wann nicht.</li>
+    </ul>
+  </section>
+
+  <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
+  <details class="card woerter" id="woerter">
+    <summary><span class="t">📖 Calc-Wörter für diesen Baustein</span></summary>
+    <p class="note">Die Wörter links bleiben deutsch. So stehen sie in Calc und in den Aufgaben.</p>
+    <table class="plain">
+      <tbody>
+        <tr><th class="wort" lang="de">der Bezug <small>die Bezüge</small></th><td>kurz für Zellbezug: der Name einer Zelle in einer Formel, z. B. <code>B2</code></td></tr>
+        <tr><th class="wort" lang="de">wandern</th><td>sich beim Ausfüllen ändern: <code>B5</code> → <code>B6</code> → <code>B7</code></td></tr>
+        <tr><th class="wort" lang="de">festhalten</th><td>dafür sorgen, dass etwas gleich bleibt. Das <code>$</code> hält eine Zelle fest.</td></tr>
+        <tr><th class="wort" lang="de">der Anker</th><td>Ein Anker hält ein Schiff fest. Das <code>$</code> hält eine Zelle fest.</td></tr>
+        <tr><th class="wort" lang="de">der relative Bezug</th><td>ein Bezug ohne <code>$</code>. Er wandert beim Ausfüllen mit: aus <code>B5</code> wird <code>B6</code></td></tr>
+        <tr><th class="wort" lang="de">der absolute Bezug</th><td>ein Bezug mit <code>$</code>. <code>$B$2</code> bleibt immer B2.</td></tr>
+        <tr><th class="wort" lang="de">die Faustregel <small>die Faustregeln</small></th><td>eine einfache Regel, die fast immer stimmt</td></tr>
+      </tbody>
+    </table>
+  </details>
+
+  <!-- 0 · Weißt du noch? -->
+  <section class="card wdh" id="wdh">
+    <h2><span class="step-no">↺</span> Weißt du noch? <span class="chip">2 Min</span></h2>
+    <p class="lead">Zwei Aufgaben zu früheren Bausteinen. Ohne Nachschauen!</p>
+    <div id="wdh-box"></div>
+  </section>
+
+  <!-- 1 · Vorhersage -->
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <div id="calc1"></div>
+    <p class="lead">Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: <code>=B5*B2</code> → 4 × 11 € = 44 €.</p>
+    <p><strong>Jetzt du:</strong> Lena zieht die Formel nach unten bis C9. Was steht dann in <strong>C6</strong> (Dienstag)?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="66">66,00 € (6 × 11 €)</button>
+      <button type="button" class="choice" data-v="0">0,00 €</button>
+      <button type="button" class="choice" data-v="err">#WERT!</button>
+      <button type="button" class="choice" data-v="?">Keine Ahnung – zeig's mir!</button>
+    </div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <!-- 2 · Erklärung -->
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> Die Lösung: das $-Zeichen <span class="chip">5 Min</span></h2>
+    <div class="rule">⚓ Das <code>$</code> ist ein <strong>Anker</strong>.<br><code>$B$2</code> bleibt beim Ausfüllen immer <code>B2</code>.</div>
+
+    <p class="recall">💡 <strong>Du kennst das schon:</strong> Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.<br>Für die Stunden passt das. Für den Lohn in <strong>B2</strong> passt es <strong>nicht</strong>.</p>
+
+    <div class="compare">
+      <div>
+        <h3>Ohne $ <span class="bad">✘</span></h3>
+        <ol class="rows">
+          <li><span class="cell">C5</span><span class="day">Montag</span><code>=B5*<span class="ref-move">B2</span></code>
+              <span class="calc">4 Std × <b>11 €</b> = 44 €</span></li>
+          <li><span class="cell">C6</span><span class="day">Dienstag</span><code>=B6*<span class="ref-move">B3</span></code>
+              <span class="calc">6 Std × <b>B3 ist leer</b> = <span class="bad">0 €</span></span></li>
+          <li><span class="cell">C7</span><span class="day">Mittwoch</span><code>=B7*<span class="ref-move">B4</span></code>
+              <span class="calc">5 Std × <b>B4 ist das Wort „Stunden“</b> =<span class="bad">#WERT!</span></span></li>
+        </ol>
+        <p class="note">Aus B2 wird B3, B4 … Dort steht aber kein Lohn!</p>
+      </div>
+      <div>
+        <h3>Mit $ <span class="good">✔</span></h3>
+        <ol class="rows">
+          <li><span class="cell">C5</span><span class="day">Montag</span><code>=B5*<span class="ref-fix">$B$2</span></code>
+              <span class="calc">4 Std × <b>11 €</b> = <span class="good">44 €</span></span></li>
+          <li><span class="cell">C6</span><span class="day">Dienstag</span><code>=B6*<span class="ref-fix">$B$2</span></code>
+              <span class="calc">6 Std × <b>11 €</b> = <span class="good">66 €</span></span></li>
+          <li><span class="cell">C7</span><span class="day">Mittwoch</span><code>=B7*<span class="ref-fix">$B$2</span></code>
+              <span class="calc">5 Std × <b>11 €</b> = <span class="good">55 €</span></span></li>
+        </ol>
+        <p class="note">B5, B6, B7 zählen weiter. $B$2 bleibt immer beim Lohn.</p>
+      </div>
+    </div>
+
+    <h3 class="sub">So setzt du das $</h3>
+    <ol class="howto">
+      <li>Klick in der Formel auf <code>B2</code>.</li>
+      <li>Drück <kbd>Umschalt</kbd> + <kbd>F4</kbd>.</li>
+    </ol>
+    <p class="note">Auf manchen Laptops: zusätzlich <kbd>Fn</kbd> drücken.</p>
+    <p class="note"><strong>Profi-Trick: ein Name statt $.</strong> Klick B2 an, tipp oben links ins <strong>Namenfeld</strong> <code>Lohn</code> und drück <kbd>Enter</kbd>. Jetzt geht auch <code>=B5*Lohn</code>. Ein Name bleibt beim Ausfüllen immer fest.</p>
+
+    <div class="video-ph">
+      <span class="play" aria-hidden="true">▶</span>
+      <span class="t"><strong>Kurzvideo (folgt):</strong> Das $ in 30 Sekunden</span>
+    </div>
+  </section>
+
+  <!-- 3 · Ausprobieren -->
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Selbst ausprobieren <span class="chip">5 Min</span></h2>
+    <div id="calc2"></div>
+    <p class="lead">Klick auf die gelbe Zelle C5 und tippe oben in die Eingabezeile eine Formel, die du nach unten ziehen kannst. Mit <kbd>Enter</kbd> bestätigst du.</p>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <!-- 4 · In Calc -->
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">15 Min</span></h2>
+    <p class="lead">Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Alles Weitere steht in der Datei. Die Spalte <strong>Kontrolle</strong> zeigt dir sofort, ob du richtig liegst.</p>
+    <div class="dl">
+      <a href="../downloads/k8-05-absolute-bezuege.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>k8-05-absolute-bezuege.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-05-absolute-bezuege-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Ferienjob:</strong> Lenas Formel reparieren und den Wochenlohn berechnen.</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Klassenfahrt:</strong> Kosten pro Person berechnen, wenn 24 Kinder mitfahren.</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Fehlerdetektiv:</strong> In Max' Pausenverkauf-Tabelle stecken 3 versteckte Fehler.</span></li>
+      <li><span class="badge expedition">Freiwillig</span><span>Üben und ★ Expedition – jeweils mit eigener Datei und Lösung: <a href="#freiwillig">ganz unten auf dieser Seite</a>.</span></li>
+    </ul>
+  </section>
+
+  <!-- 5 · Kurz-Check -->
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">5 Min</span></h2>
+    <p class="lead">Vier Fragen. Hast du es verstanden?</p>
+    <div id="quiz"></div>
+  </section>
+
+  <!-- Merke -->
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li>Beim Ausfüllen wandern Zellbezüge mit: Aus <code>B5</code> wird <code>B6</code>, <code>B7</code>, … Das ist ein <strong>relativer Bezug</strong>.</li>
+      <li>Ein <code>$</code> hält fest: <code>$B$2</code> bleibt beim Ausfüllen immer B2. Das ist ein <strong>absoluter Bezug</strong>.</li>
+      <li>Schnell gesetzt: In der Formel auf den Bezug klicken und <kbd>Umschalt</kbd> + <kbd>F4</kbd> drücken.</li>
+      <li>Profi-Trick: Eine Zelle im <strong>Namenfeld</strong> benennen, z. B. <code>Lohn</code>. Ein Name bleibt beim Ausfüllen fest.</li>
+      <li><strong>Faustregel:</strong> Zeigt die Formel auf EINE feste Zelle (Preis, Lohn, Anzahl …), braucht sie ein <code>$</code>.</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <!-- Ich kann -->
+  <section class="card" id="ichkann">
+    <h2>Das kann ich jetzt</h2>
+    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
+    <ul class="checklist" id="checklist">
+      <li><label><input type="checkbox"> <span class="t">Ich kann erklären, warum <code>=B5*B2</code> beim Ausfüllen kaputtgeht.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich kann mit <code>$</code> (oder <kbd>Umschalt</kbd>+<kbd>F4</kbd>) einen Bezug festhalten.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich erkenne, wann eine Formel ein <code>$</code> braucht.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich finde versteckte Fehler in fremden Tabellen.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich kann gemischte Bezüge wie <code>$A2</code> und <code>B$1</code> benutzen.</span></label></li>
+    </ul>
+  </section>
+
+  <!-- Freiwillig: Üben + ★ Expedition -->
+  <section class="card frei" id="freiwillig">
+    <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
+    <p class="lead"><span class="badge ueben">Üben</span> heißt: dasselbe wie oben, nur mehr davon. <span class="badge expedition">★ Expedition</span> heißt: etwas Neues für Profis.</p>
+    <h3 class="sub"><span class="badge ueben">Üben</span> Der Steuer-Schalter</h3>
+    <div id="calcSteuer"></div>
+    <p class="lead">Der Steuersatz steht nur einmal, in B1. Alle Formeln holen ihn sich von dort.</p>
+    <ol class="howto">
+      <li>C4: Steuer = Netto × Steuersatz, mit <code>$</code>.</li>
+      <li>D4: Brutto = Netto + Steuer.</li>
+      <li>Beides nach unten ausfüllen.</li>
+      <li>Dann leg den Schalter um: B1 auf <code>7%</code>.</li>
+    </ol>
+    <p class="fb" id="fbSteuer" aria-live="polite"></p>
+    <div class="dl">
+      <a href="../downloads/k8-05-absolute-bezuege-mehr-steuer-schalter.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Üben: Steuer-Schalter</strong><small>k8-05-absolute-bezuege-mehr-steuer-schalter.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-05-absolute-bezuege-mehr-steuer-schalter-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <h3 class="sub"><span class="badge ueben">Üben</span> Die Prämie verteilen</h3>
+    <p>Das Fahrradwerk verteilt 20.000 € Prämie auf vier Abteilungen, je nachdem, wie viele Leute dort arbeiten. Zwei Zellen bekommen einen <strong>Namen</strong>: <code>Gesamt</code> und <code>Topf</code>.</p>
+    <div class="dl">
+      <a href="../downloads/k8-05-absolute-bezuege-mehr-praemie.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Üben: Prämie verteilen</strong><small>k8-05-absolute-bezuege-mehr-praemie.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-05-absolute-bezuege-mehr-praemie-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <h3 class="sub"><span class="badge expedition">★ Expedition</span> Gemischte Bezüge</h3>
+    <div id="calc3"></div>
+    <p class="lead">Für alle, die mehr können wollen. Baue das Einmaleins mit <strong>einer einzigen Formel</strong> in B2, die du nach rechts <em>und</em> nach unten ausfüllst.</p>
+    <p>Diesmal brauchst du zwei <strong>halbe Anker</strong>. Probier zuerst <code>=A2*B1</code> und schau, was schiefgeht.</p>
+    <div class="tbl-scroll">
+      <table class="plain">
+        <thead><tr><th>Schreibweise</th><th>Was bleibt fest?</th></tr></thead>
+        <tbody>
+          <tr><td><code>B2</code></td><td>nichts – wandert mit</td></tr>
+          <tr><td><code>$B$2</code></td><td>Spalte und Zeile</td></tr>
+          <tr><td><code>$A2</code></td><td>nur die Spalte A</td></tr>
+          <tr><td><code>B$1</code></td><td>nur die Zeile 1</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Tipp: Drück <kbd>Umschalt</kbd> + <kbd>F4</kbd> mehrmals hintereinander – so springst du durch alle Varianten.</p>
+    <p class="fb" id="fb3" aria-live="polite"></p>
+
+    <h3 class="sub">Teil 2: Opas Radverleih</h3>
+    <div id="calcRad"></div>
+    <p>Oben steht, wie oft jeder Tarif ausgeliehen wurde. Unten soll der Umsatz hin: <strong>Ausleihen × Preis</strong>.</p>
+    <p>Tipp in C7 eine Formel und füll sie nach rechts und nach unten aus. Der Preis steht in Spalte B. Welche Teile der Adresse müssen festgehalten werden?</p>
+    <p class="fb" id="fbRad" aria-live="polite"></p>
+    <div class="dl">
+      <a href="../downloads/k8-05-absolute-bezuege-expedition.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>★ Expedition: Gemischte Bezüge</strong><small>k8-05-absolute-bezuege-expedition.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-05-absolute-bezuege-expedition-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter im Lernpfad">
+    <a href="04-ausfuellen.html">← 4 · Ausfüllen</a>
+    <a href="06-diagramme.html">6 · Diagramme →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz, checklist } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+
+  /* Gemeinsame Daten: Lenas Ferienjob */
+  const ferienjob = (c5) => ({
+    cols: 3, rows: 10,
+    cells: {
+      A1: "Ferienjob Eisdiele", A2: "Stundenlohn:", B2: 11,
+      A4: "Tag", B4: "Stunden", C4: "Verdienst",
+      A5: "Montag", B5: 4, A6: "Dienstag", B6: 6, A7: "Mittwoch", B7: 5,
+      A8: "Donnerstag", B8: 3, A9: "Freitag", B9: 7, C5: c5,
+    },
+    styles: { A1: "label", A2: "label", B2: "fix", A4: "head", B4: "head", C4: "head" },
+    formats: { C: "eur", B2: "eur" },
+  });
+  const down = ["C6", "C7", "C8", "C9"];
+
+  /* ---------- 1 · Vorhersage ---------- */
+  const fb1 = document.getElementById("fb1");
+  const calc1 = new MiniCalc(document.getElementById("calc1"),
+    Object.assign(ferienjob("=B5*B2"), { select: "C5" }));
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", async (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    b.classList.add("picked");
+    feedback(fb1, "Calc füllt aus … schau auf Spalte C!", "info");
+    await calc1.fill("C5", down, 450);
+    predict.querySelector('[data-v="0"]').classList.add("right");
+    if (b.dataset.v !== "0" && b.dataset.v !== "?") b.classList.add("wrong");
+    calc1.select("C6");
+    const start = b.dataset.v === "0"
+      ? T("✔ Stark vorhergesagt!") + " "
+      : b.dataset.v === "66" ? T("Das hätte Lena auch gedacht, aber:") + " " : "";
+    feedback(fb1, start +
+      T("In C6 steht <strong>0,00 €</strong>. Schau dir die farbigen Rahmen an: Aus <code>=B5*B2</code> wurde <code>=B6*<strong>B3</strong></code>.") + " " +
+      T("Der Bezug auf den Stundenlohn ist mit nach unten gewandert, und <strong>B3 ist leer</strong>.") + " " +
+      T("Klick auch C7 bis C9 an: Dort wird mit dem Text „Stunden“ gerechnet (#WERT!) oder mit Stunden statt Lohn."),
+      b.dataset.v === "0" ? "ok" : "hint");
+  });
+
+  /* ---------- 3 · Ausprobieren ---------- */
+  const fb2 = document.getElementById("fb2");
+  let filled = false, solved = false;
+  const calc2 = new MiniCalc(document.getElementById("calc2"), Object.assign(ferienjob(""), {
+    editable: ["C5", "B2"], select: "C5",
+    actions: [
+      { label: "■ C5 nach unten ausfüllen (bis C9)", onClick: async (c) => {
+          if (!c.getRaw("C5")) { feedback(fb2, "Erst eine Formel in C5 eintippen!", "hint"); return; }
+          filled = true; await c.fill("C5", down, 200);
+        } },
+      { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { filled = false; solved = false; c.reset(); fb2.className = "fb"; } },
+    ],
+  }));
+  const near = (a, b) => typeof a === "number" && Math.abs(a - b) < 0.005;
+  calc2.on((c, src) => {
+    if (src === "reset") return;
+    const raw = c.getRaw("C5").replace(/\s/g, "");
+    const lohn = c.get("B2");
+    if (solved && src === "edit" && c.sel === "B2") {
+      const sum = ["C5", ...down].reduce((s, a) => s + (c.get(a) || 0), 0);
+      feedback(fb2, `🎉 Siehst du? Alles rechnet sofort neu. Bei ${c.format("B2", lohn)} pro Stunde verdient Lena diese Woche ${c.format("C5", sum)}. <strong>Genau dafür steht der Lohn in einer eigenen Zelle.</strong>`, "ok");
+      return;
+    }
+    if (!raw) { feedback(fb2, "Tippe in C5 eine Formel.", "info"); return; }
+    if (!raw.startsWith("=")) {
+      feedback(fb2, /^-?\d/.test(raw)
+        ? "Du hast eine <strong>Zahl</strong> getippt. Die Tabelle soll aber selbst rechnen! Eine Formel beginnt mit <code>=</code>."
+        : "Eine Formel beginnt <strong>immer</strong> mit <code>=</code>.", "hint");
+      return;
+    }
+    const v = c.get("C5");
+    if (v instanceof MiniCalc.CalcError) { feedback(fb2, `In C5 steht der Fehler <strong>${v.code}</strong>. Prüfe die Schreibweise, z. B. ob ein Rechenzeichen fehlt.`, "hint"); return; }
+    if (/\d/.test(raw.replace(/\$?[A-Za-z]\$?\d+/g, ""))) {
+      feedback(fb2, "In deiner Formel steht eine <strong>feste Zahl</strong>. Was passiert, wenn Lena eine Lohnerhöhung bekommt? Nimm statt der Zahl die Zelle <code>B2</code>.", "hint");
+      return;
+    }
+    if (!near(v, c.get("B5") * lohn)) { feedback(fb2, "C5 rechnet noch nicht richtig. Gesucht ist: Stunden (B5) × Stundenlohn (B2).", "hint"); return; }
+    if (!filled) { feedback(fb2, "✔ C5 stimmt! Jetzt der spannende Teil: Klick auf <strong>■ C5 nach unten ausfüllen</strong>.", "info"); return; }
+    if (src === "edit" && c.getRaw("C6").replace(/\s/g, "") !== MiniCalc.shiftFormula(raw, 1, 0)) {
+      feedback(fb2, "Du hast C5 geändert. Fülle noch einmal nach unten aus!", "info"); return;
+    }
+    const allOk = ["C5", ...down].every((a, i) => near(c.get(a), c.get("B" + (5 + i)) * lohn));
+    if (allOk) {
+      solved = true;
+      const mixed = !/\$B\$2/i.test(raw);
+      feedback(fb2, (mixed
+        ? T("✔ Funktioniert! <code>B$2</code> hält die Zeile fest, und das reicht, wenn du nur nach unten ziehst. Mit <code>$B$2</code> bist du aber immer auf der sicheren Seite.")
+        : T("✔ Perfekt! Der Anker <code>$B$2</code> hält, alle fünf Tage sind richtig.")) +
+        T("<br><strong>Bonus:</strong> Klick B2 an und ändere den Stundenlohn auf 12,50. Was passiert?"), "ok");
+      return;
+    }
+    if (/\$B2(?!\d)/i.test(raw) && !/\$B\$2/i.test(raw)) {
+      feedback(fb2, "Fast! <code>$B2</code> hält nur die <strong>Spalte</strong> B fest. Beim Ziehen nach unten wandert aber die <strong>Zeile</strong>: Aus <code>$B2</code> wird <code>$B3</code>. Du brauchst das $ vor der 2.", "hint");
+      return;
+    }
+    feedback(fb2, `Klick mal C6 an: Da steht <code>${c.getRaw("C6")}</code>. Der Bezug auf den Stundenlohn ist mitgewandert! Setze in C5 das Anker-Zeichen, z. B. <code>=B5*$B$2</code>, und fülle neu aus.`, "hint");
+  });
+
+  /* ---------- 5 · Quiz ---------- */
+  quiz(document.getElementById("quiz"), [
+    { q: "Der Preis für ein Kinoticket steht in <code>D2</code>. Welche Formel in E5 kannst du für alle Zeilen nach unten ziehen?",
+      options: ["<code>=C5*D2</code>", "<code>=C5*$D$2</code>", "<code>=$C$5*$D$2</code>"], right: 1,
+      why: "Der Ticketpreis steht nur einmal in D2, also braucht er den Anker. C5 muss aber mitwandern, sonst rechnet jede Zeile mit der Anzahl aus Zeile 5.",
+      miss: ["Ohne $ rutscht D2 beim Ziehen mit: D3, D4 … Dort steht kein Preis.", null, "Jetzt hältst du zu viel fest."] },
+    { q: "Die Formel <code>=A7*$B$1</code> wird eine Zeile nach unten gezogen. Was entsteht?",
+      options: ["<code>=A8*$B$1</code>", "<code>=A8*$B$2</code>", "<code>=A7*$B$1</code>"], right: 0,
+      why: "A7 ist relativ und wandert zu A8. $B$1 ist absolut und bleibt stehen.",
+      miss: [null, "Das $ hält B1 fest. Es wandert nicht mit.", "A7 hat kein $. Darum wandert es mit."] },
+    { q: "Welche Formel in D5 kannst du <strong>ohne</strong> $ nach unten ziehen?",
+      options: ["<code>=B5*C2</code> (der Preis steht nur in C2)", "Keine – beim Ziehen braucht man immer $", "<code>=B5*C5</code> (der Preis steht in jeder Zeile)"], right: 2,
+      why: "Wenn alle Bezüge in derselben Zeile mitwandern sollen, ist der relative Bezug genau richtig.",
+      miss: ["C2 rutscht beim Ziehen zu C3, C4 … Der eine Preis braucht ein $.", "Ein $ brauchst du nur für eine feste Zelle.", null] },
+    { q: "Mit welcher Tastenkombination setzt LibreOffice Calc die $-Zeichen?",
+      options: ["<kbd>F4</kbd>", "<kbd>Umschalt</kbd> + <kbd>F4</kbd>", "<kbd>Strg</kbd> + <kbd>$</kbd>"], right: 1,
+      why: "In LibreOffice Calc ist es Umschalt+F4. (F4 allein ist der Trick in Excel.)",
+      miss: ["Fast! Es fehlt eine Taste.", null, "Diese Kombination gibt es nicht."] },
+  ]);
+
+  /* ---------- Expedition: Einmaleins ---------- */
+  const fb3 = document.getElementById("fb3");
+  const cells3 = { A1: "×" }, styles3 = { A1: "head" }, editable3 = ["B2"];
+  for (let i = 1; i <= 5; i++) {
+    const col = String.fromCharCode(65 + i);
+    cells3[col + "1"] = i; styles3[col + "1"] = "fix";
+    cells3["A" + (i + 1)] = i; styles3["A" + (i + 1)] = "fix";
+  }
+  const calc3 = new MiniCalc(document.getElementById("calc3"), {
+    cols: 6, rows: 6, cells: cells3, styles: styles3, editable: editable3, select: "B2",
+    actions: [
+      { label: "■ B2 nach rechts und unten ausfüllen (bis F6)", onClick: (c) => {
+          if (!c.getRaw("B2")) { feedback(fb3, "Erst eine Formel in B2 eintippen!", "hint"); return; }
+          c.fill("B2", c.range("B2", "F6").filter((a) => a !== "B2"), 70);
+        } },
+      { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fb3.className = "fb"; } },
+    ],
+  });
+  calc3.on((c, src) => {
+    if (src !== "fill") return;
+    let ok = 0;
+    c.range("B2", "F6").forEach((a) => {
+      const r = +a.slice(1), col = a.charCodeAt(0) - 65;
+      if (c.get(a) === (r - 1) * col) ok++;
+    });
+    const raw = c.getRaw("B2").replace(/\s/g, "").toUpperCase();
+    if (ok === 25) feedback(fb3, "🏆 <strong>Expedition geschafft!</strong> 25 von 25 richtig mit einer einzigen Formel. In der Übungsdatei wartet das große 10×10-Einmaleins auf dich.", "ok");
+    else if (raw === "=A2*B1") feedback(fb3, `${ok} von 25 richtig. Klick mal D4 an: Da steht <code>${c.getRaw("D4")}</code>. Beide Bezüge sind gewandert! Welcher Teil muss jeweils stehen bleiben?`, "hint");
+    else if (raw === "=$A$2*$B$1") feedback(fb3, `${ok} von 25 richtig. Jetzt hältst du <em>zu viel</em> fest: Überall wird 1 × 1 gerechnet. Halte bei A nur die Spalte fest (<code>$A2</code>) und bei B1 nur die Zeile (<code>B$1</code>).`, "hint");
+    else feedback(fb3, `${ok} von 25 richtig. Tipp: Beim Ziehen nach rechts darf die Spalte A nicht wandern, beim Ziehen nach unten nicht die Zeile 1.`, "hint");
+  });
+
+  /* ---------- Expedition Teil 2 · Radverleih ---------- */
+  const fbRad = document.getElementById("fbRad");
+  const radCells = { A1: "Ausleihen", C1: "Jun", D1: "Jul", E1: "Aug", A2: "5 Stunden", C2: 296, D2: 412, E2: 287,
+    A3: "1 Tag", C3: 418, D3: 536, E3: 471, A4: "1 Woche", C4: 31, D4: 44, E4: 39,
+    A6: "Umsatz", B6: "Preis", C6: "Jun", D6: "Jul", E6: "Aug", A7: "5 Stunden", B7: 10, A8: "1 Tag", B8: 18, A9: "1 Woche", B9: 75 };
+  const blk = ["C", "D", "E"].flatMap((k) => [7, 8, 9].map((r) => k + r));
+  const calcRad = new MiniCalc(document.getElementById("calcRad"), {
+    cols: 5, rows: 9, cells: radCells,
+    styles: { A1: "head", B1: "head", C1: "head", D1: "head", E1: "head", A6: "head", B6: "head", C6: "head", D6: "head", E6: "head",
+              B7: "fix", B8: "fix", B9: "fix" },
+    formats: { B7: "eur", B8: "eur", B9: "eur", C7: "eur", D7: "eur", E7: "eur", C8: "eur", D8: "eur", E8: "eur", C9: "eur", D9: "eur", E9: "eur" },
+    editable: blk, select: "C7",
+    actions: [
+      { label: "■ C7 nach rechts und unten ausfüllen", onClick: async (c) => {
+          if (!c.getRaw("C7")) { feedback(fbRad, T("Erst eine Formel in C7 eintippen!"), "hint"); return; }
+          await c.fill("C7", blk.filter((a) => a !== "C7"), 90);
+        } },
+      { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fbRad.className = "fb"; } },
+    ],
+  });
+  calcRad.on((c, src) => {
+    if (src === "reset") return;
+    const raw = c.getRaw("C7").replace(/\s/g, "").toUpperCase();
+    if (!raw) return;
+    const want = (a) => c.get(a[0] + (+a.slice(1) - 5)) * c.get("B" + a.slice(1));
+    if (!near(c.get("C7"), want("C7"))) { feedback(fbRad, T("C7: Ausleihen (C2) × Preis (B7)."), "hint"); return; }
+    if (!blk.every((a) => c.getRaw(a))) { feedback(fbRad, T("✔ C7 stimmt. Jetzt ausfüllen und schauen, ob alle Zellen stimmen."), "info"); return; }
+    const right = blk.filter((a) => near(c.get(a), want(a))).length;
+    if (right === 9) { feedback(fbRad, T(`🏆 Alle 9 Umsätze stimmen! Mit <code>${c.getRaw("C7")}</code>: Das <code>$</code> vor dem B hält die Spalte fest, die Zeile darf mitwandern.`), "ok"); return; }
+    if (/\$B\$7/.test(raw)) { feedback(fbRad, T("Mit <code>$B$7</code> nehmen alle Zeilen den Preis von 5 Stunden. Die Zeile muss mitwandern dürfen. Nur die <strong>Spalte</strong> festhalten: <code>$B7</code>."), "hint"); return; }
+    if (/[^$]B7/.test(raw)) { feedback(fbRad, T("Ohne <code>$</code> wandert der Preis beim Ausfüllen nach rechts weg, auf C7, D7 … Halt die Spalte B fest: <code>$B7</code>."), "hint"); return; }
+    feedback(fbRad, T(`${right} von 9 Umsätzen stimmen. Prüf die <code>$</code>-Zeichen.`), "hint");
+  });
+  feedback(fbRad, T("Klick C7 an und tipp die Formel."), "info");
+
+  /* ---------- Mehr üben · Steuer-Schalter ---------- */
+  const fbSteuer = document.getElementById("fbSteuer");
+  const calcSteuer = new MiniCalc(document.getElementById("calcSteuer"), {
+    cols: 4, rows: 6, decimal: "comma",
+    cells: { A1: "Steuersatz", B1: 0.19, A3: "Artikel", B3: "Netto", C3: "Steuer", D3: "Brutto",
+             A4: "Fahrrad", B4: 699, A5: "Kopfhörer", B5: 89, A6: "Heft", B6: 0.89 },
+    styles: { A1: "label", A3: "head", B3: "head", C3: "head", D3: "head" },
+    formats: { B1: "pct", B: "eur", C: "eur", D: "eur" },
+    editable: ["B1", "C4", "D4", "C5", "D5", "C6", "D6"], select: "C4",
+    actions: [
+      { label: "■ C4 und D4 nach unten ausfüllen", onClick: async (c) => {
+          if (!c.getRaw("C4") || !c.getRaw("D4")) { feedback(fbSteuer, T("Erst die Formeln in C4 und D4 eintippen!"), "hint"); return; }
+          await c.fill("C4", ["C5", "C6"], 150); await c.fill("D4", ["D5", "D6"], 150);
+        } },
+      { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fbSteuer.className = "fb"; } },
+    ],
+  });
+  calcSteuer.on((c, src) => {
+    if (src === "reset") return;
+    const satz = c.get("B1");
+    const rows = [4, 5, 6];
+    const filled = rows.every((r) => c.getRaw("C" + r) && c.getRaw("D" + r));
+    const okRow = (r) => near(c.get("C" + r), c.get("B" + r) * satz) && near(c.get("D" + r), c.get("B" + r) * (1 + satz));
+    if (!c.getRaw("C4")) { feedback(fbSteuer, T("Klick C4 an: Steuer = Netto × Steuersatz."), "info"); return; }
+    if (!near(c.get("C4"), c.get("B4") * satz)) { feedback(fbSteuer, T("C4: Netto (B4) × Steuersatz (B1)."), "hint"); return; }
+    if (!c.getRaw("D4")) { feedback(fbSteuer, T("✔ C4 stimmt. Jetzt D4: Brutto = Netto + Steuer."), "info"); return; }
+    if (!near(c.get("D4"), c.get("B4") + c.get("C4"))) { feedback(fbSteuer, T("D4: Netto + Steuer, also <code>=B4+C4</code>."), "hint"); return; }
+    if (!filled) { feedback(fbSteuer, T("✔ Zeile 4 stimmt. Jetzt nach unten ausfüllen."), "info"); return; }
+    if (!rows.every(okRow)) { feedback(fbSteuer, T("Weiter unten stimmt die Steuer nicht. Ohne <code>$</code> rutscht der Steuersatz beim Ausfüllen weg, auf B2, B3 … Schreib in C4 <code>$B$1</code>."), "hint"); return; }
+    if (Math.abs(satz - 0.07) > 0.0001) { feedback(fbSteuer, T("✔ Alles stimmt! Jetzt leg den Schalter um: Ändere B1 auf <code>7%</code>."), "info"); return; }
+    feedback(fbSteuer, T("🏆 Schalter umgelegt! Eine Zelle geändert, alle Preise rechnen neu. So machen es Firmen, wenn sich die Steuer ändert."), "ok");
+  });
+  feedback(fbSteuer, T("Klick C4 an: Steuer = Netto × Steuersatz."), "info");
+
+  checklist(document.getElementById("checklist"), "k8-05");
+});
+</script>
+<script>
+/* Weißt du noch? – Aufgaben zu früheren Bausteinen */
+document.addEventListener("DOMContentLoaded", () => {
+  Wdh(document.getElementById("wdh-box"), [
+    { type: "wahl", from: "aus Baustein 4", href: "04-ausfuellen.html",
+      q: "In D5 steht <code>=B5*C5</code>. Du ziehst die Formel nach unten bis D7. Was steht in D7?",
+      options: ["<code>=B5*C5</code>", "<code>=D7*E7</code>", "<code>=B7*C7</code>"], right: 2,
+      why: "Zwei Zeilen tiefer wird aus der 5 eine 7.",
+      miss: ["Beim Ziehen wandert die Formel mit. Sie bleibt nicht gleich.", "Nach unten ändern sich die Zahlen, nicht die Buchstaben.", null] },
+    { type: "tippen", from: "aus Baustein 3", href: "03-funktionen.html",
+      q: "100-Meter-Lauf: Finde in B6 die <strong>schnellste</strong> Zeit. Nimm eine Funktion.",
+      table: { cols: 2, rows: 6, cells: { A1: "Lauf", B1: "Sekunden", A2: 1, B2: 14.2, A3: 2, B3: 13.8, A4: 3, B4: 15.1, A5: 4, B5: 13.5, A6: "Bestzeit" },
+        styles: { A1: "head", B1: "head", A6: "label" } },
+      cell: "B6", solution: "=MIN(B2:B5)",
+      check: Wdh.checks.funktion({ fn: "MIN", en: "MIN", value: 13.5, wrong: {
+        MAX: "MAX findet den größten Wert. Die schnellste Zeit ist die kleinste Zahl.",
+        MITTELWERT: "Das ist der Durchschnitt. Gesucht ist die kleinste Zahl.",
+        SUMME: "SUMME zählt alles zusammen. Gesucht ist die kleinste Zahl." } }),
+      why: "Die schnellste Zeit ist der kleinste Wert, also MIN." }
+  ]);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Haushaltsbuch · Calc-Kurs Zusatzmodul</title>
+<meta name="description" content="Zusatzmodul: Haushaltsbuch – Einnahmen und Ausgaben, Rest und Status mit WENN, Sparziel planen, Azubi-Budget mit der 50-30-20-Regel.">
+<link rel="canonical" href="https://calc.herrseibert.de/extra/02-haushaltsbuch.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/extra/02-haushaltsbuch.html">
+<meta property="og:title" content="Haushaltsbuch · Calc-Kurs Zusatzmodul">
+<meta property="og:description" content="Zusatzmodul: Haushaltsbuch – Einnahmen und Ausgaben, Rest und Status mit WENN, Sparziel planen, Azubi-Budget mit der 50-30-20-Regel.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="extra-02-haushaltsbuch" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/fragen.js?v=19f0445020" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Zusatzmodule">
+    <strong class="t">Zusatzmodule:</strong>
+    <ol>
+      <li class="done"><a href="01-zaehlenwenn.html" title="1 · ZÄHLENWENN">1</a></li>
+      <li class="now"><span title="2 · Haushaltsbuch" aria-current="step">2</span></li>
+      <li class="done"><a href="03-sortieren-filtern.html" title="3 · Sortieren &amp; Filtern">3</a></li>
+      <li class="done"><a href="04-drucken.html" title="4 · Drucken wie ein Profi">4</a></li>
+      <li class="done"><a href="05-brutto-netto.html" title="5 · Brutto und Netto">5</a></li>
+      <li class="done"><a href="06-handyvertrag.html" title="6 · Handyvertrag-Vergleich">6</a></li>
+      <li class="done"><a href="07-sverweis.html" title="7 · SVERWEIS">7</a></li>
+      <li class="done"><a href="08-datum.html" title="8 · Datum &amp; Zeit">8</a></li>
+      <li class="done"><a href="09-text.html" title="9 · Text-Tricks">9</a></li>
+      <li class="done"><a href="10-zufall.html" title="10 · Zufall &amp; Spiele">10</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>Haushaltsbuch – mein Geld im Griff</h1>
+    <div class="meta">
+      <span class="chip">Zusatzmodul · freiwillig</span>
+      <span class="chip">⏱ ca. 35 Minuten</span>
+      <span class="chip">Vorwissen: SUMME, WENN, Prozent</span>
+    </div>
+    <ul class="goals">
+      <li>Ich kann Einnahmen und Ausgaben übersichtlich aufschreiben.</li>
+      <li>Ich kann mit SUMME und WENN prüfen, ob das Geld reicht.</li>
+      <li>Ich kann ein Sparziel planen und ein Budget aufteilen.</li>
+    </ul>
+  </section>
+
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <div id="calc1"></div>
+    <p class="lead">💡 Lena bekommt <strong>60 € Taschengeld</strong> im Monat. Das hat sie diesen Monat ausgegeben.</p>
+    <p><strong>Jetzt du:</strong> Reicht ihr Geld?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="plus">Ja, es bleibt etwas übrig.</button>
+      <button type="button" class="choice" data-v="null">Genau aufgebraucht.</button>
+      <button type="button" class="choice" data-v="minus">Nein, es fehlt Geld.</button>
+    </div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> So ist ein Haushaltsbuch aufgebaut <span class="chip">7 Min</span></h2>
+    <div class="rule"><strong>Einnahmen − Ausgaben = Rest</strong><br>Ist der Rest negativ, reicht das Geld nicht.</div>
+    <div id="calcBsp"></div>
+    <p><strong>Klick B4, B9, B10 und B11 an.</strong> Ändere auch mal eine Ausgabe.</p>
+    <p class="fb" id="fbBsp" aria-live="polite"></p>
+  </section>
+
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Dein Monat <span class="chip">8 Min</span></h2>
+    <div id="calc2"></div>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">12 Min</span></h2>
+    <div class="dl">
+      <a href="../downloads/x02-haushaltsbuch.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>x02-haushaltsbuch.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/x02-haushaltsbuch-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Mein Monat:</strong> Summen, Rest und Status.</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Sparziel:</strong> Wann reicht es für die Kopfhörer?</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Azubi-Budget:</strong> 850 € nach der 50-30-20-Regel aufteilen.</span></li>
+      <li><span class="badge expedition">Expedition</span><span><strong>Freiwillig:</strong> Wohin geht mein Geld? Kreisdiagramm.</span></li>
+    </ul>
+  </section>
+
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">3 Min</span></h2>
+    <div id="quiz"></div>
+  </section>
+
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li>Einnahmen − Ausgaben = Rest. Ist der Rest negativ, reicht das Geld nicht.</li>
+      <li>Summen mit <code>=SUMME(…)</code>, Rest mit <code>=B4-B9</code>.</li>
+      <li>Status mit WENN: <code class="long">=WENN(B10&lt;0;"Minus!";"im Plus")</code></li>
+      <li>Sparplan: Sparstand = Vormonat + Sparrate – <code>=B5+$B$3</code> nach unten ausfüllen.</li>
+      <li>50-30-20-Regel: 50 % Bedürfnisse · 30 % Wünsche · 20 % Sparen.</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter">
+    <a href="01-zaehlenwenn.html">← ZÄHLENWENN</a>
+    <a href="03-sortieren-filtern.html">Sortieren &amp; Filtern →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+
+  /* 1 · Vorhersage */
+  const fb1 = document.getElementById("fb1");
+  const calc1 = new MiniCalc(document.getElementById("calc1"), {
+    cols: 2, rows: 7, decimal: "comma",
+    cells: { A1: "Ausgabe", B1: "Betrag", A2: "Handy", B2: 15, A3: "Snacks", B3: 22, A4: "Kino", B4: 12, A5: "T-Shirt", B5: 18 },
+    styles: { A1: "head", B1: "head" }, formats: { B: "eur" }, select: "B2",
+  });
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    predict.querySelector('[data-v="minus"]').classList.add("right");
+    if (b.dataset.v !== "minus") b.classList.add("wrong");
+    calc1.set("A6", "Summe"); calc1.set("B6", "=SUMME(B2:B5)");
+    calc1.set("A7", "Rest"); calc1.set("B7", "=60-B6");
+    calc1.select("B7");
+    feedback(fb1, (b.dataset.v === "minus" ? T("✔ Genau!") + " " : "") +
+      T("Zusammen sind es <strong>67 €</strong> – 7 € mehr als das Taschengeld. Im Kopf merkt man das leicht nicht. Ein Haushaltsbuch zeigt es sofort."),
+      b.dataset.v === "minus" ? "ok" : "hint");
+  });
+
+  /* 2 · Beispiel */
+  const fbBsp = document.getElementById("fbBsp");
+  const texts = {
+    B4: "<code>=SUMME(B2:B3)</code> – alle Einnahmen zusammen.",
+    B9: "<code>=SUMME(B6:B8)</code> – alle Ausgaben zusammen.",
+    B10: "<code>=B4-B9</code> – Einnahmen minus Ausgaben = Rest.",
+    B11: "<code>=WENN(B10&lt;0;\"Minus!\";\"im Plus\")</code> – WENN schaut, ob der Rest unter 0 ist.",
+  };
+  const show = (c, a) => { if (texts[a]) feedback(fbBsp, T(texts[a]) + "<br>" + T(`Ergebnis: <strong>${c.format(a, c.get(a))}</strong>`), "info"); };
+  const cb = new MiniCalc(document.getElementById("calcBsp"), {
+    cols: 2, rows: 11, decimal: "comma",
+    cells: { A1: "Einnahmen", B1: "Betrag", A2: "Taschengeld", B2: 60, A3: "Rasen mähen", B3: 15, A4: "Summe", B4: "=SUMME(B2:B3)",
+             A5: "Ausgaben", B5: "Betrag", A6: "Handy", B6: 15, A7: "Snacks", B7: 30, A8: "Kino", B8: 24, A9: "Summe", B9: "=SUMME(B6:B8)",
+             A10: "Rest", B10: "=B4-B9", A11: "Status", B11: '=WENN(B10<0;"Minus!";"im Plus")' },
+    styles: { A1: "head", B1: "head", A5: "head", B5: "head", A4: "label", A9: "label", A10: "label", A11: "label" },
+    formats: { B: "eur" }, editable: ["B2", "B3", "B6", "B7", "B8"], select: "B10", onSelect: show,
+  });
+  cb.on((c, src) => { if (src === "edit") show(c, "B10"); });
+  show(cb, "B10");
+
+  /* 3 · Labor */
+  Fragen(document.getElementById("calc2"), document.getElementById("fb2"), {
+    cols: 2, rows: 12,
+    cells: { A1: "Einnahmen", B1: "Betrag", A2: "Taschengeld", B2: 50, A3: "Babysitten", B3: 30, A4: "Summe",
+             A6: "Ausgaben", B6: "Betrag", A7: "Handy", B7: 15, A8: "Essen", B8: 40, A9: "Kino", B9: 20, A10: "Summe", A11: "Rest", A12: "Status" },
+    styles: { A1: "head", B1: "head", A6: "head", B6: "head", A4: "label", A10: "label", A11: "label", A12: "label" },
+    formats: { B: "eur" },
+    tasks: [
+      { cell: "B4", q: "Summe der Einnahmen", fn: /(SUMME|SUM)\(/, fnName: "SUMME", want: (c) => c.get("B2") + c.get("B3"),
+        hint: () => T("<code>=SUMME(B2:B3)</code>") },
+      { cell: "B10", q: "Summe der Ausgaben", fn: /(SUMME|SUM)\(/, fnName: "SUMME", want: (c) => c.get("B7") + c.get("B8") + c.get("B9"),
+        hint: () => T("Alle Ausgaben B7 bis B9.") },
+      { cell: "B11", q: "Rest = Einnahmen − Ausgaben", want: (c) => (c.get("B2") + c.get("B3")) - (c.get("B7") + c.get("B8") + c.get("B9")),
+        hint: () => T("<code>=B4-B10</code>") },
+      { cell: "B12", q: "Status: „Minus!“ oder „im Plus“", fn: /(WENN|IF)\(/, fnName: "WENN",
+        want: (c) => ((c.get("B2") + c.get("B3")) - (c.get("B7") + c.get("B8") + c.get("B9")) < 0 ? "Minus!" : "im Plus"),
+        hint: () => T("<code>=WENN(B11&lt;0;\"Minus!\";\"im Plus\")</code>") },
+    ],
+    done: "🏆 Dein Haushaltsbuch rechnet! 5 € bleiben übrig – noch im Plus.",
+  });
+
+  quiz(document.getElementById("quiz"), [
+    { q: "Einnahmen 120 €, Ausgaben 135 €. Was zeigt der Rest?",
+      options: ["15 €", "−15 €", "255 €"], right: 1, why: "120 − 135 = −15. Es fehlt Geld." },
+    { q: "Welche Formel zeigt „Minus!“, wenn der Rest in B10 negativ ist?",
+      options: ["<code>=WENN(B10&lt;0;\"Minus!\";\"im Plus\")</code>", "<code>=WENN(B10&gt;0;\"Minus!\";\"im Plus\")</code>", "<code>=B10-\"Minus!\"</code>"], right: 0,
+      why: "Negativ heißt: kleiner als 0." },
+    { q: "Sparplan: In B5 steht der Start, in B3 die Sparrate. Was kommt in B6?",
+      options: ["<code>=B5+$B$3</code>", "<code>=B5+B3</code>", "<code>=$B$5+B3</code>"], right: 0,
+      why: "Der Vormonat soll mitwandern, die Sparrate bleibt fest." },
+    { q: "Nach der 50-30-20-Regel: Wie viel sparst du von 850 €?",
+      options: ["85 €", "170 €", "255 €"], right: 1, why: "20 % von 850 € = 170 €." },
+  ]);
+});
+</script>
+</body>
+</html>

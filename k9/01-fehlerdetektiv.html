@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fehlerdetektiv · Calc-Kurs Klasse 9</title>
+<meta name="description" content="Klasse 9, Baustein 1: Fehlermeldungen wie #WERT!, #DIV/0! und #NAME? verstehen, stille Fehler finden und Formeln reparieren – Wiederholung von Klasse 8.">
+<link rel="canonical" href="https://calc.herrseibert.de/k9/01-fehlerdetektiv.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/k9/01-fehlerdetektiv.html">
+<meta property="og:title" content="Fehlerdetektiv · Calc-Kurs Klasse 9">
+<meta property="og:description" content="Klasse 9, Baustein 1: Fehlermeldungen wie #WERT!, #DIV/0! und #NAME? verstehen, stille Fehler finden und Formeln reparieren – Wiederholung von Klasse 8.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="k9-01-fehlerdetektiv" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Lernpfad Klasse 9">
+    <strong class="t">Klasse 9:</strong>
+    <ol>
+      <li class="now"><span title="1 · Fehlerdetektiv" aria-current="step">1</span></li>
+      <li class="done"><a href="02-prozentrechnung.html" title="2 · Prozentrechnung">2</a></li>
+      <li class="done"><a href="03-wenn.html" title="3 · WENN 1">3</a></li>
+      <li class="done"><a href="04-wenn-rechnen.html" title="4 · WENN 2">4</a></li>
+      <li class="done"><a href="05-wenn-grenzen.html" title="5 · WENN 3">5</a></li>
+      <li class="done"><a href="06-bedingte-formatierung.html" title="6 · Bedingte Formatierung 1">6</a></li>
+      <li class="done"><a href="07-bedingte-formatierung-2.html" title="7 · Bedingte Formatierung 2">7</a></li>
+      <li class="done"><a href="08-fit-fuer-die-probe.html" title="8 · Fit für die Probe">8</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>Fehlerdetektiv – Fehler finden und reparieren</h1>
+    <div class="meta">
+      <span class="chip">Klasse 9 · Baustein 1</span>
+      <span class="chip">⏱ ca. 40 Minuten</span>
+      <span class="chip">Vorwissen: Klasse 8</span>
+    </div>
+    <ul class="goals">
+      <li>Ich kann Fehlermeldungen wie <code>#WERT!</code>, <code>#DIV/0!</code> und <code>#NAME?</code> deuten und beheben.</li>
+      <li>Ich kann stille Fehler finden, die Calc nicht anzeigt.</li>
+      <li>Ich kann Formeln mit allem aus Klasse 8 reparieren.</li>
+    </ul>
+  </section>
+
+  <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
+  <details class="card woerter" id="woerter">
+    <summary><span class="t">📖 Calc-Wörter für diesen Baustein</span></summary>
+    <p class="note">Die Wörter links bleiben deutsch. So stehen sie in Calc und in den Aufgaben.</p>
+    <table class="plain">
+      <tbody>
+        <tr><th class="wort" lang="de">die Fehlermeldung <small>die Fehlermeldungen</small></th><td>Calc zeigt einen Fehler an, z. B. <code>#WERT!</code></td></tr>
+        <tr><th class="wort" lang="de">der laute Fehler <small>die lauten Fehler</small></th><td>ein Fehler, den Calc anzeigt</td></tr>
+        <tr><th class="wort" lang="de">der stille Fehler <small>die stillen Fehler</small></th><td>ein Fehler, den Calc nicht anzeigt. Das Ergebnis ist trotzdem falsch.</td></tr>
+        <tr><th class="wort" lang="de">der Tippfehler <small>die Tippfehler</small></th><td>falsch getippt, z. B. <code>SUMNE</code> statt <code>SUMME</code></td></tr>
+        <tr><th class="wort" lang="de">schmal</th><td>nicht breit. <code>###</code> heißt: Die Spalte ist zu schmal.</td></tr>
+        <tr><th class="wort" lang="de">deuten</th><td>verstehen, was etwas bedeutet</td></tr>
+        <tr><th class="wort" lang="de">beheben</th><td>einen Fehler wieder richtig machen</td></tr>
+      </tbody>
+    </table>
+  </details>
+
+  <!-- 0 · Weißt du noch? -->
+  <section class="card wdh" id="wdh">
+    <h2><span class="step-no">↺</span> Start-Check: Klasse 8 <span class="chip">5 Min</span></h2>
+    <p class="lead">Sechs Aufgaben aus Klasse 8. Pro Aufgabe hast du <strong>einen</strong> Versuch. Am Ende siehst du, was du wiederholen sollst. Es gibt keine Note.</p>
+    <div id="wdh-box"></div>
+  </section>
+
+  <!-- 1 · Vorhersage -->
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <div id="calc1"></div>
+    <p class="lead">💡 <strong>Du kennst das schon:</strong> <code>=C5/B5</code> teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich <code>#DIV/0!</code>.</p>
+    <p><strong>Jetzt du:</strong> Warum?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="hoch">Die Punktzahl ist zu hoch.</button>
+      <button type="button" class="choice" data-v="leer">B6 ist leer – Calc teilt durch 0.</button>
+      <button type="button" class="choice" data-v="tipp">Die Formel ist falsch geschrieben.</button>
+    </div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <!-- 2 · Erklärung -->
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> Laute und stille Fehler <span class="chip">5 Min</span></h2>
+    <div class="rule"><strong>Laute Fehler</strong> zeigt Calc an.<br><strong>Stille Fehler</strong> musst du selbst finden.</div>
+
+    <h3 class="sub">Steckbriefe: laute Fehler</h3>
+    <div class="tbl-scroll">
+      <table class="plain">
+        <thead><tr><th>Meldung</th><th>Was ist los?</th><th>So reparierst du</th></tr></thead>
+        <tbody>
+          <tr><td><code>###</code></td><td>Die Spalte ist zu schmal.</td><td>Doppelklick auf die Linie zwischen den Spaltenköpfen.</td></tr>
+          <tr><td><code>#WERT!</code></td><td>Calc rechnet mit Text, z. B. „25 Stück“.</td><td>Nur die Zahl in die Zelle tippen.</td></tr>
+          <tr><td><code>#DIV/0!</code></td><td>Es wird durch 0 oder eine leere Zelle geteilt.</td><td>Fehlende Zahl eintragen.</td></tr>
+          <tr><td><code>#NAME?</code></td><td>Calc kennt ein Wort nicht: Tippfehler wie <code>=SUMM(…)</code> oder ein fehlendes Rechenzeichen.</td><td>Funktionsnamen und Rechenzeichen prüfen.</td></tr>
+          <tr><td><code>#BEZUG!</code></td><td>Die Zelle, auf die die Formel zeigt, wurde gelöscht.</td><td>Formel neu schreiben.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub">Detektiv-Tricks für stille Fehler</h3>
+    <ol class="howto">
+      <li>Zelle anklicken und die Formel lesen.</li>
+      <li>Einen Wert testweise ändern. Rechnet alles mit?</li>
+      <li><strong>Ansicht → Formel anzeigen</strong> zeigt alle Formeln auf einmal.</li>
+    </ol>
+
+    <h3 class="sub">Steckbriefe: stille Fehler aus der Probe</h3>
+    <div class="tbl-scroll">
+      <table class="plain">
+        <thead><tr><th>Formel</th><th>Was ist los?</th><th>Richtig</th></tr></thead>
+        <tbody>
+          <tr><td><code>=SUMME(B5:F5)</code></td><td>Bereich zu groß: Der Preis in B5 wird mitgezählt.</td><td><code>=SUMME(C5:F5)</code></td></tr>
+          <tr><td><code>=SUMME(G5:G10)</code></td><td>Bereich zu kurz: Die letzte Zeile fehlt.</td><td><code>=SUMME(G5:G11)</code></td></tr>
+          <tr><td><code>=MAX(G5)</code></td><td>Nur eine Zelle. MAX, MIN und MITTELWERT brauchen einen Bereich.</td><td><code>=MAX(G5:G10)</code></td></tr>
+          <tr><td><code>=C8+D8+D8</code></td><td>Eine Zelle doppelt, E8 fehlt.</td><td><code>=SUMME(C8:E8)</code></td></tr>
+          <tr><td><code>54</code> oder <code>=45*1,2</code></td><td>Ergebnis oder Zahl getippt. Ändert sich etwas, stimmt es nicht mehr.</td><td><code>=F7*B7</code></td></tr>
+          <tr><td><code>=B23/B19</code></td><td><code>$</code> fehlt. Beim Ziehen wandert B19 nach unten.</td><td><code>=B23/$B$19</code></td></tr>
+          <tr><td>0,90 → 1,90 → 2,90</td><td>Eine Zahl wurde gezogen. Calc zählt dann hoch.</td><td>Nur Formeln ziehen. Zahlen kopieren.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note"><strong>Aus still wird laut:</strong> Wandert ein Bezug ohne <code>$</code> auf eine leere Zelle oder auf Text, zeigt Calc weiter unten <code>#DIV/0!</code> oder <code>#WERT!</code>. Der Fehler steckt dann oben in der ersten Formel.</p>
+
+    <div class="video-ph">
+      <span class="play" aria-hidden="true">▶</span>
+      <span class="t"><strong>Kurzvideo (folgt):</strong> Fehler finden in 60 Sekunden</span>
+    </div>
+  </section>
+
+  <!-- 3 · Ausprobieren -->
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Das Fehler-Labor <span class="chip">5 Min</span></h2>
+    <div id="calc2"></div>
+    <p class="lead">Die Kiosk-Abrechnung ist voller Fehler. Repariere die gelben Zellen, bis nichts mehr rot leuchtet. Verkauft wurde an <strong>2 Tagen</strong>.</p>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <!-- 4 · In Calc -->
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">15 Min</span></h2>
+    <p class="lead">Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Die Spalte <strong>Kontrolle</strong> und der Detektiv-Status zeigen dir, was noch fehlt.</p>
+    <div class="dl">
+      <a href="../downloads/k9-01-fehlerdetektiv.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>k9-01-fehlerdetektiv.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-01-fehlerdetektiv-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Laute Fehler:</strong> Die Sporttag-Auswertung leuchtet rot. Repariere sie.</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Stille Fehler:</strong> Vier Fehler, die Calc nicht anzeigt.</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Fehler-Fabrik:</strong> Bau jeden Fehler absichtlich.</span></li>
+      <li><span class="badge expedition">Freiwillig</span><span>Üben und ★ Expedition – jeweils mit eigener Datei und Lösung: <a href="#freiwillig">ganz unten auf dieser Seite</a>.</span></li>
+    </ul>
+  </section>
+
+  <!-- 5 · Kurz-Check -->
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">5 Min</span></h2>
+    <p class="lead">Vier Fragen. Hast du es verstanden?</p>
+    <div id="quiz"></div>
+  </section>
+
+  <!-- Merke -->
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li><strong>Laute Fehler</strong> zeigt Calc an: <code>###</code> Spalte zu schmal · <code>#WERT!</code> mit Text gerechnet · <code>#DIV/0!</code> durch 0 geteilt · <code>#NAME?</code> Tippfehler.</li>
+      <li><strong>Stille Fehler</strong> zeigt Calc nicht an: getippte Zahlen, fehlendes <code>$</code>, Bereich zu kurz oder zu groß.</li>
+      <li><code>MAX</code>, <code>MIN</code> und <code>MITTELWERT</code> brauchen einen Bereich mit Doppelpunkt: <code>=MAX(G5:G10)</code>.</li>
+      <li>Detektiv-Tricks: Formel lesen · Wert testweise ändern · <strong>Ansicht → Formel anzeigen</strong>.</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <!-- Ich kann -->
+  <section class="card" id="ichkann">
+    <h2>Das kann ich jetzt</h2>
+    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
+    <ul class="checklist" id="checklist">
+      <li><label><input type="checkbox"> <span class="t">Ich weiß, was <code>#WERT!</code>, <code>#DIV/0!</code> und <code>#NAME?</code> bedeuten.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich kann laute Fehler reparieren.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich finde stille Fehler mit den Detektiv-Tricks.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich kann Fehler absichtlich erzeugen und erklären.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich kann Fehler mit WENNFEHLER abfangen.</span></label></li>
+    </ul>
+  </section>
+
+  <!-- Freiwillig: Üben + ★ Expedition -->
+  <section class="card frei" id="freiwillig">
+    <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
+    <p class="lead"><span class="badge ueben">Üben</span> heißt: dasselbe wie oben, nur mehr davon. <span class="badge expedition">★ Expedition</span> heißt: etwas Neues für Profis.</p>
+    <h3 class="sub"><span class="badge ueben">Üben</span> Aufwärmen: Waffelverkauf</h3>
+    <p>Stückzahl und Umsatz für sechs Waffelsorten, dazu MAX, MIN und MITTELWERT. Die Kontrolle merkt, wenn der Preis mit in der Summe steckt.</p>
+    <div class="dl">
+      <a href="../downloads/k9-01-fehlerdetektiv-mehr-waffelverkauf.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Üben: Waffelverkauf</strong><small>k9-01-fehlerdetektiv-mehr-waffelverkauf.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-01-fehlerdetektiv-mehr-waffelverkauf-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <h3 class="sub"><span class="badge ueben">Üben</span> So hat Max gerechnet</h3>
+    <p>Pausenverkauf und Wandertag mit <strong>8 Fehlern</strong>, alle aus einer echten Probe. Repariere sie und schreib dazu, was falsch war.</p>
+    <p class="note"><strong>Tipp:</strong> Fang bei <code>#DIV/0!</code> nicht unten an. Klick die erste Formel der Spalte an.</p>
+    <div class="dl">
+      <a href="../downloads/k9-01-fehlerdetektiv-mehr-fehlersuche.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Üben: Fehlersuche bei Max</strong><small>k9-01-fehlerdetektiv-mehr-fehlersuche.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-01-fehlerdetektiv-mehr-fehlersuche-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <h3 class="sub"><span class="badge expedition">★ Expedition</span> WENNFEHLER</h3>
+    <div id="calc3"></div>
+    <p class="lead">In Englisch gibt es noch keine Noten, darum zeigt der Durchschnitt <code>#DIV/0!</code>. Das sieht im Zeugnis nicht gut aus.</p>
+    <div class="rule"><code>=WENNFEHLER(Formel; "Ersatz")</code><br>Klappt die Formel, kommt ihr Ergebnis. Sonst kommt der Ersatz.</div>
+    <p>Ändere E3 so, dass statt des Fehlers <code>keine Noten</code> erscheint. Text steht in Anführungszeichen.</p>
+    <p class="fb" id="fb3" aria-live="polite"></p>
+    <div class="dl">
+      <a href="../downloads/k9-01-fehlerdetektiv-expedition.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>★ Expedition: WENNFEHLER</strong><small>k9-01-fehlerdetektiv-expedition.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-01-fehlerdetektiv-expedition-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter im Lernpfad">
+    <a href="../k8/07-projekt-klassenfahrt.html">← Klasse 8 · Projekt</a>
+    <a href="02-prozentrechnung.html">2 · Prozentrechnung →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz, checklist } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+  const isErr = (v) => v instanceof MiniCalc.CalcError;
+  const near = (a, b) => typeof a === "number" && Math.abs(a - b) < 0.005;
+
+  /* ---------- 1 · Vorhersage ---------- */
+  const fb1 = document.getElementById("fb1");
+  const calc1 = new MiniCalc(document.getElementById("calc1"), {
+    cols: 4, rows: 6,
+    cells: { A4: "Klasse", B4: "Teilnehmer", C4: "Punkte", D4: "pro Kopf",
+             A5: "8a", B5: 24, C5: 1872, D5: "=C5/B5", A6: "8c", C6: 1782, D6: "=C6/B6" },
+    styles: { A4: "head", B4: "head", C4: "head", D4: "head" }, select: "A5",
+  });
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    predict.querySelector('[data-v="leer"]').classList.add("right");
+    if (b.dataset.v !== "leer") b.classList.add("wrong");
+    calc1.select("D6");
+    feedback(fb1, (b.dataset.v === "leer" ? T("✔ Genau!") + " " : "") +
+      T("Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.") + " " +
+      T("Die Formel selbst ist richtig – es fehlt nur eine Zahl."), b.dataset.v === "leer" ? "ok" : "hint");
+  });
+
+  /* ---------- 3 · Fehler-Labor ---------- */
+  const fb2 = document.getElementById("fb2");
+  const calc2 = new MiniCalc(document.getElementById("calc2"), {
+    cols: 4, rows: 12, decimal: "comma",
+    cells: { A4: "Artikel", B4: "Preis", C4: "verkauft", D4: "Einnahmen",
+             A5: "Brezel", B5: 0.85, C5: 40, D5: "=B5*C5",
+             A6: "Kakao", B6: 1.2, C6: "25 Stück", D6: "=B6*C6",
+             A7: "Muffin", B7: 1.5, C7: 18, D7: "=B7C7",
+             A8: "Apfel", B8: 0.5, C8: 30, D8: "=B8*C8",
+             A9: "Summe", D9: "=SUMM(D5:D8)",
+             A11: "Verkaufstage", A12: "pro Tag", D12: "=D9/B11" },
+    styles: { A4: "head", B4: "head", C4: "head", D4: "head", A9: "label", A11: "label", A12: "label" },
+    formats: { B: "eur", D: "eur", B11: "num" },
+    editable: ["C6", "D7", "D9", "B11", "D12"], select: "C6",
+    actions: [{ label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fb2.className = "fb"; } }],
+  });
+  const lab = (c, src) => {
+    if (src === "reset") return;
+    const checks = [
+      { cell: "D6", ok: near(c.get("D6"), 30), hint: T("D6 zeigt #WERT!: In C6 steht „25 Stück“. Das ist Text. Tippe nur die Zahl.") },
+      { cell: "D7", ok: near(c.get("D7"), 27) && /^=B7\*C7$/i.test(c.getRaw("D7").replace(/\s/g, "")), hint: T("D7 zeigt #NAME?: Zwischen B7 und C7 fehlt das Rechenzeichen. Schreib =B7*C7.") },
+      { cell: "D9", ok: near(c.get("D9"), 34 + 30 + 27 + 15) && /^=(SUMME|SUM)\(D5:D8\)$/i.test(c.getRaw("D9").replace(/\s/g, "")), hint: T("D9 zeigt #NAME?: Die Funktion heißt SUMME, nicht SUMM.") },
+      { cell: "D12", ok: near(c.get("D12"), (34 + 30 + 27 + 15) / 2), hint: T("D12 zeigt #DIV/0!: B11 ist leer. Wie viele Verkaufstage waren es? Steht oben im Text.") },
+    ];
+    const open = checks.filter((x) => !x.ok);
+    if (!open.length) { feedback(fb2, T("🏆 Alle vier Fehler repariert! Der Kiosk hat 106,00 € eingenommen, also 53,00 € pro Tag."), "ok"); return; }
+    feedback(fb2, `${T(`Noch ${open.length} von 4 Fehlern.`)} ${open[0].hint}`, open.length === 4 ? "info" : "hint");
+  };
+  calc2.on(lab);
+  lab(calc2, "start");
+
+  /* ---------- 5 · Quiz ---------- */
+  quiz(document.getElementById("quiz"), [
+    { q: "Eine Zelle zeigt <code>#DIV/0!</code>. Was ist passiert?",
+      options: ["Die Zahl ist zu groß für die Spalte", "Es wurde durch 0 oder eine leere Zelle geteilt", "In der Formel steht Text statt einer Zahl"], right: 1,
+      why: "DIV heißt dividieren, also teilen. Teilen durch 0 geht nicht.",
+      miss: ["Eine zu große Zahl zeigt Calc als <code>###</code>.", null, "Text in einer Rechnung meldet Calc mit <code>#WERT!</code>."] },
+    { q: "Was zeigt Calc bei <code>=SUMM(B2:B5)</code>?",
+      options: ["<code>#WERT!</code>", "<code>#NAME?</code>", "<code>###</code>"], right: 1,
+      why: "SUMM gibt es nicht. Unbekannte Namen meldet Calc mit #NAME?.",
+      miss: ["<code>#WERT!</code> kommt, wenn Calc mit Text rechnen soll. Hier ist der Name falsch.", null, "<code>###</code> heißt nur: Die Spalte ist zu schmal."] },
+    { q: "In einer Zelle steht <code>###</code>. Was tust du?",
+      options: ["Die Formel löschen", "Die Zahl neu tippen", "Die Spalte breiter machen"], right: 2,
+      why: "### heißt nur: Die Zahl passt nicht in die Spalte. Doppelklick auf die Linie zwischen den Spaltenköpfen.",
+      miss: ["Die Formel ist in Ordnung. Nur die Spalte ist zu schmal.", "Die Zahl ist in Ordnung. Sie passt nur nicht in die Spalte.", null] },
+    { q: "Welcher Fehler ist ein <strong>stiller</strong> Fehler?",
+      options: ["Eine getippte Zahl statt einer Formel", "<code>#WERT!</code>", "Eine Zahl passt nicht in die Spalte (<code>###</code>)"], right: 0,
+      why: "Eine getippte Zahl sieht richtig aus, rechnet aber bei Änderungen nicht mit. Calc warnt nicht davor.",
+      miss: [null, "<code>#WERT!</code> sieht man sofort. Ein stiller Fehler zeigt keine Meldung.", "<code>###</code> sieht man sofort. Und die Zahl dahinter stimmt."] },
+  ]);
+
+  /* ---------- Expedition: WENNFEHLER ---------- */
+  const fb3 = document.getElementById("fb3");
+  const calc3 = new MiniCalc(document.getElementById("calc3"), {
+    cols: 5, rows: 3,
+    cells: { A1: "Fach", B1: "Note 1", C1: "Note 2", D1: "Note 3", E1: "Schnitt",
+             A2: "Mathe", B2: 2, C2: 3, D2: 2, E2: "=MITTELWERT(B2:D2)",
+             A3: "Englisch", E3: "=MITTELWERT(B3:D3)" },
+    styles: { A1: "head", B1: "head", C1: "head", D1: "head", E1: "head" },
+    formats: { E2: "dec2" }, editable: ["E3"], select: "E3",
+    actions: [{ label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fb3.className = "fb"; } }],
+  });
+  calc3.on((c, src) => {
+    if (src === "reset") return;
+    const raw = c.getRaw("E3").replace(/\s/g, "").toUpperCase();
+    const v = c.get("E3");
+    if (isErr(v)) { feedback(fb3, T("Noch ein Fehler. Pack die MITTELWERT-Formel in WENNFEHLER: =WENNFEHLER(MITTELWERT(B3:D3);\"keine Noten\")"), "hint"); return; }
+    if (!/^=(WENNFEHLER|IFERROR)\(/.test(raw)) { feedback(fb3, T("Der Fehler ist weg, aber nimm WENNFEHLER – dann rechnet die Formel weiter, sobald Noten da sind."), "info"); return; }
+    feedback(fb3, T("🏆 Expedition geschafft! Kein Fehler mehr. Sobald in Englisch Noten stehen, rechnet die Formel ganz normal weiter."), "ok");
+  });
+
+  checklist(document.getElementById("checklist"), "k9-01");
+});
+</script>
+<script>
+/* Weißt du noch? – Aufgaben zu früheren Bausteinen */
+document.addEventListener("DOMContentLoaded", () => {
+  Wdh(document.getElementById("wdh-box"), [
+    { type: "tippen", href: "../k8/01-erste-schritte.html", title: "Baustein 1 · Erste Schritte",
+      q: "Ein Brot kostet 2 Euro 80. Tippe den Preis in B2 – so, dass Calc eine <strong>Zahl</strong> erkennt.",
+      table: { cols: 2, rows: 2, cells: { A1: "Was", B1: "Preis", A2: "Brot" }, styles: { A1: "head", B1: "head" } },
+      cell: "B2", solution: "2,80",
+      check: (c, raw, v) => {
+        if (typeof v === "number" && Math.abs(v - 2.8) < 0.005) return true;
+        if (raw.includes(".")) return "Mit Punkt bleibt es Text und steht links. Im deutschen Calc tippst du ein Komma.";
+        if (/[A-Z]/.test(raw)) return "Ein Wort in der Zelle macht alles zu Text. Tippe nur die Zahl.";
+        return "Das ist nicht der Preis. Tippe ihn als Kommazahl.";
+      },
+      why: "Die Zahl steht rechts. Damit kann Calc rechnen." },
+    { type: "tippen", href: "../k8/02-erste-formeln.html", title: "Baustein 2 · Erste Formeln",
+      q: "6 Stifte: Was kosten sie zusammen? Lass Calc in D2 rechnen.",
+      table: { cols: 4, rows: 2, cells: { A1: "Was", B1: "Menge", C1: "Preis", D1: "Gesamt", A2: "Stift", B2: 6, C2: 0.5 },
+        styles: { A1: "head", B1: "head", C1: "head", D1: "head" }, formats: { C: "eur", D: "eur" } },
+      cell: "D2", solution: "=B2*C2", check: Wdh.checks.formel({ refs: ["B2", "C2"], value: 3.0 }),
+      why: "Menge mal Preis. Ändert sich eine Zahl, rechnet Calc neu." },
+    { type: "tippen", href: "../k8/03-funktionen.html", title: "Baustein 3 · Funktionen",
+      q: "Berechne in B6 den <strong>Durchschnitt</strong> der vier Noten. Nimm eine Funktion.",
+      table: { cols: 2, rows: 6, cells: { A1: "Fach", B1: "Note", A2: "Mathe", B2: 3, A3: "Deutsch", B3: 2, A4: "Englisch", B4: 4, A5: "Sport", B5: 1, A6: "Durchschnitt" },
+        styles: { A1: "head", B1: "head", A6: "label" } },
+      cell: "B6", solution: "=MITTELWERT(B2:B5)",
+      check: Wdh.checks.funktion({ fn: "MITTELWERT", en: "AVERAGE", value: 2.5, wrong: { SUMME: "SUMME zählt nur zusammen. Für den Durchschnitt gibt es eine eigene Funktion." } }),
+      why: "MITTELWERT zählt alles zusammen und teilt durch die Anzahl." },
+    { type: "wahl", href: "../k8/04-ausfuellen.html", title: "Baustein 4 · Ausfüllen",
+      q: "In D5 steht <code>=B5*C5</code>. Du ziehst die Formel nach unten bis D7. Was steht in D7?",
+      options: ["<code>=B5*C5</code>", "<code>=D7*E7</code>", "<code>=B7*C7</code>"], right: 2,
+      why: "Zwei Zeilen tiefer wird aus der 5 eine 7.",
+      miss: ["Beim Ziehen wandert die Formel mit. Sie bleibt nicht gleich.", "Nach unten ändern sich die Zahlen, nicht die Buchstaben.", null] },
+    { type: "tippen", href: "../k8/05-absolute-bezuege.html", title: "Baustein 5 · Absolute Bezüge ($)",
+      q: "Was zahlt Ali? Schreib die Formel in C4 so, dass du sie <strong>nach unten ziehen</strong> kannst.",
+      table: { cols: 3, rows: 6, cells: { A1: "Preis pro Karte", B1: 4, A3: "Name", B3: "Karten", C3: "Kosten", A4: "Ali", B4: 3, A5: "Mia", B5: 2, A6: "Tom", B6: 6 }, styles: { A1: "label", A3: "head", B3: "head", C3: "head" }, formats: { B1: "eur", C: "eur" } },
+      cell: "C4", solution: "=B4*$B$1", check: Wdh.checks.dollar({ fix: "B1", move: "B4", value: 12 }),
+      why: "B4 wandert beim Ziehen mit. <code>$B$1</code> bleibt fest." },
+    { type: "wahl", href: "../k8/06-diagramme.html", title: "Baustein 6 · Diagramme",
+      q: "Klassensprecherwahl: Du willst zeigen, wer welchen <strong>Anteil</strong> von allen Stimmen hat. Welches Diagramm passt am besten?",
+      options: ["Liniendiagramm", "Kreisdiagramm", "Säulendiagramm"], right: 1,
+      why: "Ein Kreis zeigt Teile von einem Ganzen.",
+      miss: ["Eine Linie zeigt einen Verlauf über die Zeit. Hier gibt es keine Zeit.", null, "Säulen vergleichen Werte. Den Anteil am Ganzen sieht man im Kreis besser."] }
+  ], { mode: "diagnose", key: "k9-start", allGood: "🏆 Klasse 8 sitzt. Weiter mit Schritt 1!" });
+});
+</script>
+</body>
+</html>

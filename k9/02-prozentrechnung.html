@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prozentrechnung · Calc-Kurs Klasse 9</title>
+<meta name="description" content="Klasse 9, Baustein 2: Prozente in LibreOffice Calc eingeben und formatieren, Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.">
+<link rel="canonical" href="https://calc.herrseibert.de/k9/02-prozentrechnung.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/k9/02-prozentrechnung.html">
+<meta property="og:title" content="Prozentrechnung · Calc-Kurs Klasse 9">
+<meta property="og:description" content="Klasse 9, Baustein 2: Prozente in LibreOffice Calc eingeben und formatieren, Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="k9-02-prozentrechnung" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Lernpfad Klasse 9">
+    <strong class="t">Klasse 9:</strong>
+    <ol>
+      <li class="done"><a href="01-fehlerdetektiv.html" title="1 · Fehlerdetektiv">1</a></li>
+      <li class="now"><span title="2 · Prozentrechnung" aria-current="step">2</span></li>
+      <li class="done"><a href="03-wenn.html" title="3 · WENN 1">3</a></li>
+      <li class="done"><a href="04-wenn-rechnen.html" title="4 · WENN 2">4</a></li>
+      <li class="done"><a href="05-wenn-grenzen.html" title="5 · WENN 3">5</a></li>
+      <li class="done"><a href="06-bedingte-formatierung.html" title="6 · Bedingte Formatierung 1">6</a></li>
+      <li class="done"><a href="07-bedingte-formatierung-2.html" title="7 · Bedingte Formatierung 2">7</a></li>
+      <li class="done"><a href="08-fit-fuer-die-probe.html" title="8 · Fit für die Probe">8</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>Prozentrechnung – Rabatt, Anteile, Mehrwertsteuer</h1>
+    <div class="meta">
+      <span class="chip">Klasse 9 · Baustein 2</span>
+      <span class="chip">⏱ ca. 37 Minuten</span>
+      <span class="chip">Vorwissen: Prozente aus Mathe, $-Anker</span>
+    </div>
+    <ul class="goals">
+      <li>Ich kann Prozente in Calc richtig eingeben und als % formatieren.</li>
+      <li>Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.</li>
+      <li>Ich kann einen Prozentsatz mit dem <code>$</code>-Anker für viele Zeilen benutzen.</li>
+    </ul>
+  </section>
+
+  <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
+  <details class="card woerter" id="woerter">
+    <summary><span class="t">📖 Calc-Wörter für diesen Baustein</span></summary>
+    <p class="note">Die Wörter links bleiben deutsch. So stehen sie in Calc und in den Aufgaben.</p>
+    <table class="plain">
+      <tbody>
+        <tr><th class="wort" lang="de">das Prozent <small>die Prozente</small></th><td>ein Teil von 100. 20 % sind 20 von 100.</td></tr>
+        <tr><th class="wort" lang="de">der Prozentsatz</th><td>die Zahl mit dem %-Zeichen, z. B. 20 %</td></tr>
+        <tr><th class="wort" lang="de">der Rabatt <small>die Rabatte</small></th><td>der Preis wird kleiner, z. B. 20 % weniger</td></tr>
+        <tr><th class="wort" lang="de">der Anteil <small>die Anteile</small></th><td>ein Teil vom Ganzen, z. B. 12 von 48</td></tr>
+        <tr><th class="wort" lang="de">das Ganze</th><td>alles zusammen. Das sind 100 %.</td></tr>
+        <tr><th class="wort" lang="de">die Mehrwertsteuer</th><td>Geld für den Staat. Es kommt auf den Preis oben drauf.</td></tr>
+        <tr><th class="wort" lang="de">netto · brutto</th><td>netto: der Preis ohne Steuer · brutto: der Preis mit Steuer</td></tr>
+      </tbody>
+    </table>
+  </details>
+
+  <!-- 0 · Weißt du noch? -->
+  <section class="card wdh" id="wdh">
+    <h2><span class="step-no">↺</span> Weißt du noch? <span class="chip">2 Min</span></h2>
+    <p class="lead">Zwei Aufgaben zu früheren Bausteinen. Ohne Nachschauen!</p>
+    <div id="wdh-box"></div>
+  </section>
+
+  <!-- 1 · Vorhersage -->
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <div id="calc1"></div>
+    <p class="lead">💡 <strong>Aus Mathe kennst du:</strong> 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 <strong>20 %</strong>.</p>
+    <p><strong>Jetzt du:</strong> Welche Zahl steht für Calc wirklich in B2?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="20">20</button>
+      <button type="button" class="choice" data-v="0.2">0,2</button>
+      <button type="button" class="choice" data-v="text">Gar keine Zahl, sondern der Text „20 %“</button>
+    </div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <!-- 2 · Erklärung -->
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> So rechnet Calc mit Prozent <span class="chip">7 Min</span></h2>
+    <div class="rule"><strong>20 % = 0,2.</strong> Darum gilt in Calc: Wert · Prozentsatz – <strong>ohne /100</strong>.</div>
+
+    <h3 class="sub">Beispiel: Rabatt</h3>
+    <div id="calcBsp"></div>
+    <p><strong>Klick C5 und D5 an.</strong> Hier unter der Tabelle steht dann, was Calc rechnet.</p>
+    <p class="fb" id="fbBsp" aria-live="polite"></p>
+
+    <h3 class="sub">Beispiel: Anteil und der %-Knopf</h3>
+    <div id="calcPct"></div>
+    <p><strong>Klick auf % Als Prozent formatieren.</strong> In Calc: Symbolleiste <strong>%</strong> oder <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>5</kbd>.</p>
+    <p class="fb" id="fbPct" aria-live="polite"></p>
+
+    <div class="video-ph">
+      <span class="play" aria-hidden="true">▶</span>
+      <span class="t"><strong>Kurzvideo (folgt):</strong> Rabatt berechnen in 60 Sekunden</span>
+    </div>
+  </section>
+
+  <!-- 3 · Ausprobieren -->
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Sale-Labor <span class="chip">5 Min</span></h2>
+    <div id="calc2"></div>
+    <p class="lead">Alles 20 % billiger! Schreib in <strong>C5</strong> den Rabatt in € und in <strong>D5</strong> den neuen Preis. Dann füll beide nach unten aus.</p>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <!-- 4 · In Calc -->
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">15 Min</span></h2>
+    <p class="lead">Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Die Spalte <strong>Kontrolle</strong> zeigt dir, was noch fehlt. Sie merkt auch, ob dein Ergebnis schon als % formatiert ist.</p>
+    <div class="dl">
+      <a href="../downloads/k9-02-prozentrechnung.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>k9-02-prozentrechnung.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-02-prozentrechnung-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Rabatt:</strong> Sale im Sportgeschäft – Rabatt und neue Preise.</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Umfrage:</strong> Wie kommt die 9b zur Schule? Anteile in %.</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Mehrwertsteuer:</strong> Einkauf für die Klassenparty mit 7 % und 19 %.</span></li>
+      <li><span class="badge expedition">Freiwillig</span><span>Üben und ★ Expedition – jeweils mit eigener Datei und Lösung: <a href="#freiwillig">ganz unten auf dieser Seite</a>.</span></li>
+    </ul>
+  </section>
+
+  <!-- 5 · Kurz-Check -->
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">3 Min</span></h2>
+    <p class="lead">Vier Fragen. Hast du es verstanden?</p>
+    <div id="quiz"></div>
+  </section>
+
+  <!-- Merke -->
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li><strong>20 % ist für Calc die Zahl 0,2.</strong> Prozente immer mit %-Zeichen eintippen: <code>20%</code></li>
+      <li>Prozentwert: <code>=B5*$B$2</code> – kein <code>/100</code> nötig.</li>
+      <li>Neuer Preis nach Rabatt: <code>=B5-C5</code> oder <code>=B5*(1-$B$2)</code></li>
+      <li>Mit Mehrwertsteuer: <code>=Netto*(1+Steuersatz)</code></li>
+      <li>Anteil: <code>=Teil/Ganzes</code>, dann %-Knopf. Erst rechnen, dann formatieren!</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <!-- Ich kann -->
+  <section class="card" id="ichkann">
+    <h2>Das kann ich jetzt</h2>
+    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
+    <ul class="checklist" id="checklist">
+      <li><label><input type="checkbox"> <span class="t">Ich tippe Prozente richtig ein und formatiere Zahlen als %.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich berechne Rabatt und neuen Preis mit Formeln.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich berechne Anteile mit <code>=Teil/Ganzes</code>.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich berechne Brutto-Preise mit der Mehrwertsteuer.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich weiß, warum 20 % + 10 % Rabatt keine 30 % sind.</span></label></li>
+    </ul>
+  </section>
+
+  <!-- Freiwillig: Üben + ★ Expedition -->
+  <section class="card frei" id="freiwillig">
+    <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
+    <p class="lead"><span class="badge ueben">Üben</span> heißt: dasselbe wie oben, nur mehr davon. <span class="badge expedition">★ Expedition</span> heißt: etwas Neues für Profis.</p>
+    <h3 class="sub"><span class="badge expedition">★ Expedition</span> Rabatt auf Rabatt</h3>
+    <div id="calc3"></div>
+    <p class="lead">Die Jacke kostet 80 €. Im Sale gibt es 20 %, an der Kasse nochmal 10 % extra. Die Werbung sagt: „30 % sparen!“</p>
+    <p>Berechne in <strong>B5</strong> den Endpreis und in <strong>B6</strong>, wie viel Prozent du wirklich sparst.</p>
+    <p class="fb" id="fb3" aria-live="polite"></p>
+    <div class="dl">
+      <a href="../downloads/k9-02-prozentrechnung-expedition.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>★ Expedition: Rabatt auf Rabatt</strong><small>k9-02-prozentrechnung-expedition.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-02-prozentrechnung-expedition-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter im Lernpfad">
+    <a href="01-fehlerdetektiv.html">← 1 · Fehlerdetektiv</a>
+    <a href="03-wenn.html">3 · WENN 1 →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz, checklist } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+  const isErr = (v) => v instanceof MiniCalc.CalcError;
+  const near = (a, b) => typeof a === "number" && Math.abs(a - b) < 0.005;
+  const clean = (s) => s.replace(/\s/g, "").toUpperCase();
+  const hasNumber = (raw) => /\d/.test(raw.replace(/\$?[A-Z]\$?\d+/gi, ""));
+
+  /* ---------- 1 · Vorhersage ---------- */
+  const fb1 = document.getElementById("fb1");
+  const box1 = document.getElementById("calc1");
+  const calc1 = new MiniCalc(box1, {
+    cols: 3, rows: 3,
+    cells: { A2: "Rabatt", B2: "20 %", B1: "mit %-Format" },
+    styles: { B1: "head", C1: "head", A2: "label" }, formats: { C2: "dec1" }, select: "B2",
+  });
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    predict.querySelector('[data-v="0.2"]').classList.add("right");
+    if (b.dataset.v !== "0.2") b.classList.add("wrong");
+    calc1.set("C1", "ohne %-Format");
+    calc1.set("C2", "=B2");
+    calc1.select("C2");
+    feedback(fb1, (b.dataset.v === "0.2" ? T("✔ Genau!") + " " : "") +
+      T("C2 zeigt dieselbe Zahl ohne %-Format: <strong>0,2</strong>. Das %-Format zeigt die Zahl nur mal 100 an und hängt ein % an.") + " " +
+      T("Darum rechnest du in Calc einfach <code>=B5*B2</code>. Das /100 steckt schon im Prozent."), b.dataset.v === "0.2" ? "ok" : "hint");
+  });
+
+  /* ---------- 2 · Beispiel Rabatt ---------- */
+  const fbBsp = document.getElementById("fbBsp");
+  const explain = (c, a) => {
+    const f = (x) => c.format(x, c.get(x));
+    const p = f("B2"), b5 = f("B5"), c5 = f("C5"), d5 = f("D5");
+    const text = {
+      B2: T(`B2 zeigt <strong>${p}</strong>. Für Calc ist das die Zahl ${Number(c.get("B2")).toLocaleString("de-DE")}. Ändere B2 ruhig, z. B. auf <code>30%</code>.`),
+      B5: T(`B5 ist der Preis: <strong>${b5}</strong>.`),
+      C5: T(`<code>=B5*$B$2</code> → ${b5} · ${p} = <strong>${c5}</strong> Rabatt.<br>Das <code>$</code> hält B2 fest, wenn du nach unten ausfüllst.`),
+      D5: T(`<code>=B5-C5</code> → ${b5} − ${c5} = <strong>${d5}</strong>.<br>Profi-Variante: <code>=B5*(1-$B$2)</code>. Die 1 steht für 100 %: Du zahlst 100 % − ${p}.`),
+    }[a];
+    if (text) feedback(fbBsp, text, "info");
+  };
+  const calcBsp = new MiniCalc(document.getElementById("calcBsp"), {
+    cols: 4, rows: 5, decimal: "comma",
+    cells: { A2: "Rabatt:", B2: "20 %", A4: "Artikel", B4: "Preis", C4: "Rabatt (€)", D4: "Neuer Preis",
+             A5: "Jacke", B5: 50, C5: "=B5*$B$2", D5: "=B5-C5" },
+    styles: { A2: "label", B2: "fix", A4: "head", B4: "head", C4: "head", D4: "head" },
+    formats: { B: "eur", C: "eur", D: "eur", B2: "pct" }, editable: ["B2"], select: "C5",
+    onSelect: explain,
+  });
+  calcBsp.on((c, src) => { if (src !== "reset") explain(c, c.sel); });
+  explain(calcBsp, "C5");
+
+  /* ---------- 2 · %-Knopf ---------- */
+  const fbPct = document.getElementById("fbPct");
+  let pctOn = false;
+  const calcPct = new MiniCalc(document.getElementById("calcPct"), {
+    cols: 3, rows: 3, decimal: "comma",
+    cells: { A1: "Schulweg", B1: "Stimmen", C1: "Anteil", A2: "Bus", B2: 10, C2: "=B2/B3", A3: "alle", B3: 25 },
+    styles: { A1: "head", B1: "head", C1: "head", A3: "label" }, editable: ["C2"], select: "C2",
+    actions: [
+      { label: "% Als Prozent formatieren", onClick: (c) => { pctOn = !pctOn; c.setFormat("C2", pctOn ? "pct" : null); c.emit("format"); } },
+      { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { pctOn = false; c.setFormat("C2", null); c.reset(); } },
+    ],
+  });
+  const pctFb = (c, src) => {
+    const v = c.get("C2");
+    if (typeof v !== "number") { feedback(fbPct, T("Tippe in C2 eine Zahl oder die Formel <code>=B2/B3</code>."), "info"); return; }
+    if (!pctOn) { feedback(fbPct, T(`<code>=B2/B3</code> → 10 von 25 = <strong>${c.format("C2", v)}</strong>. Klick jetzt auf <strong>% Als Prozent formatieren</strong>.`), "info"); return; }
+    if (v > 1) {
+      feedback(fbPct, T("Aha! Aus 40 wird <strong>4.000 %</strong>, weil Calc 40 · 100 rechnet. Merke: <strong>Erst rechnen, dann formatieren</strong> – oder gleich <code>40%</code> mit Zeichen tippen."), "hint");
+      return;
+    }
+    if (near(v, 0.4)) {
+      feedback(fbPct, T("✔ Aus 0,4 wird <strong>40 %</strong>. Die Zahl bleibt gleich, nur die Anzeige ändert sich.") + " " +
+        T("Und jetzt ein Experiment: Tipp in C2 einfach <code>40</code> ein."), "ok");
+      return;
+    }
+    feedback(fbPct, T("Das %-Format zeigt jede Zahl mal 100 an."), "info");
+  };
+  calcPct.on(pctFb);
+  pctFb(calcPct, "start");
+
+  /* ---------- 3 · Sale-Labor ---------- */
+  const fb2 = document.getElementById("fb2");
+  const rows = ["6", "7"];
+  let filled = false, solved = false;
+  const calc2 = new MiniCalc(document.getElementById("calc2"), {
+    cols: 4, rows: 7, decimal: "comma",
+    cells: { A2: "Rabatt:", B2: "20 %",
+             A4: "Artikel", B4: "Preis", C4: "Rabatt (€)", D4: "Neuer Preis",
+             A5: "Sneaker", B5: 89.9, A6: "Trikot", B6: 59.95, A7: "Fußball", B7: 24.99 },
+    styles: { A2: "label", B2: "fix", A4: "head", B4: "head", C4: "head", D4: "head" },
+    formats: { B: "eur", C: "eur", D: "eur", B2: "pct" },
+    editable: ["C5", "D5", "B2"], select: "C5",
+    actions: [
+      { label: "■ C5 und D5 nach unten ausfüllen (bis Zeile 7)", onClick: async (c) => {
+          if (!c.getRaw("C5") || !c.getRaw("D5")) { feedback(fb2, T("Erst Formeln in C5 und D5 eintippen!"), "hint"); return; }
+          filled = true;
+          await c.fill("C5", rows.map((r) => "C" + r), 180);
+          await c.fill("D5", rows.map((r) => "D" + r), 180);
+        } },
+      { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { filled = false; solved = false; c.reset(); fb2.className = "fb"; } },
+    ],
+  });
+  const sale = (c, src) => {
+    if (src === "reset") return;
+    const p = c.get("B2");
+    if (typeof p === "number" && p > 1) {
+      feedback(fb2, T(`B2 zeigt jetzt ${c.format("B2", p)}. Tipp den Rabatt mit %-Zeichen ein, z. B. <code>30%</code>.`), "hint");
+      return;
+    }
+    if (solved && c.sel === "B2") {
+      feedback(fb2, T(`🎉 Alles rechnet neu! Bei ${c.format("B2", p)} kosten die Sneaker nur noch ${c.format("D5", c.get("D5"))}. Genau dafür steht der Rabatt in einer eigenen Zelle.`), "ok");
+      return;
+    }
+    const rc = clean(c.getRaw("C5")), rd = clean(c.getRaw("D5"));
+    if (!rc) { feedback(fb2, T("Tippe in C5 eine Formel für den Rabatt in €."), "info"); return; }
+    if (!rc.startsWith("=")) { feedback(fb2, T("Eine Formel beginnt <strong>immer</strong> mit <code>=</code>. Lass Calc rechnen!"), "hint"); return; }
+    if (isErr(c.get("C5"))) { feedback(fb2, T(`C5 zeigt ${c.get("C5").code}. Prüfe die Schreibweise.`), "hint"); return; }
+    if (/\/100/.test(rc)) { feedback(fb2, T("Das <code>/100</code> ist zu viel! B2 enthält schon 0,2. Rechne einfach Preis · B2."), "hint"); return; }
+    if (hasNumber(rc)) { feedback(fb2, T("In der Formel steht eine Zahl. Nimm die Zelle <code>B2</code> – dann kannst du den Rabatt später ändern."), "hint"); return; }
+    if (!near(c.get("C5"), c.get("B5") * p)) { feedback(fb2, T("C5 stimmt noch nicht. Rabatt = Preis (B5) · Prozentsatz (B2)."), "hint"); return; }
+    if (!rd) { feedback(fb2, T("✔ C5 stimmt! Jetzt D5: neuer Preis = Preis − Rabatt."), "info"); return; }
+    if (!rd.startsWith("=") || isErr(c.get("D5")) || !near(c.get("D5"), c.get("B5") * (1 - p))) {
+      feedback(fb2, T("D5 stimmt noch nicht. Neuer Preis = <code>=B5-C5</code>."), "hint"); return;
+    }
+    if (!filled) { feedback(fb2, T("✔ Zeile 5 stimmt! Jetzt auf <strong>■ C5 und D5 nach unten ausfüllen</strong> klicken."), "info"); return; }
+    if (src === "edit" && (c.getRaw("C6").replace(/\s/g, "") !== MiniCalc.shiftFormula(c.getRaw("C5"), 1, 0).replace(/\s/g, "") ||
+        c.getRaw("D6").replace(/\s/g, "") !== MiniCalc.shiftFormula(c.getRaw("D5"), 1, 0).replace(/\s/g, ""))) {
+      feedback(fb2, T("Du hast Zeile 5 geändert. Fülle noch einmal nach unten aus!"), "info"); return;
+    }
+    const ok = ["5", ...rows].every((r) => near(c.get("C" + r), c.get("B" + r) * p) && near(c.get("D" + r), c.get("B" + r) * (1 - p)));
+    if (!ok) {
+      feedback(fb2, T("In Zeile 6 und 7 kommt kein Rabatt heraus. Klick C6 an: Aus B2 wurde B3 – und B3 ist leer. Setz in C5 den Anker: <code>=B5*$B$2</code>"), "hint");
+      return;
+    }
+    solved = true;
+    feedback(fb2, T("✔ Perfekt! Alle Preise stimmen.") + " " + T("<strong>Bonus:</strong> Klick B2 an und tippe <code>30%</code>. Was passiert?"), "ok");
+  };
+  calc2.on(sale);
+  sale(calc2, "start");
+
+  /* ---------- 5 · Quiz ---------- */
+  quiz(document.getElementById("quiz"), [
+    { q: "In B2 steht 25 %. Welche Formel berechnet 25 % vom Preis in B5?",
+      options: ["<code>=B5*25</code>", "<code>=B5*B2/100</code>", "<code>=B5*B2</code>"], right: 2,
+      why: "25 % ist für Calc schon 0,25. Ein /100 wäre zu viel.",
+      miss: ["Mal 25 heißt 2500 %. Und ändert sich B2, rechnet die Formel nicht mit.", "Du teilst zweimal durch 100.", null] },
+    { q: "Du tippst <code>15</code> in eine Zelle und klickst dann auf %. Was zeigt Calc?",
+      options: ["0,15 %", "15 %", "1.500 %"], right: 2,
+      why: "Das %-Format zeigt die Zahl mal 100 an. Tipp lieber gleich 15% mit Zeichen.",
+      miss: ["Calc teilt nicht durch 100.", "Das %-Format hängt nicht nur das Zeichen an.", null] },
+    { q: "Der Netto-Preis steht in B5, die Mehrwertsteuer (19 %) in B2. Welche Formel ergibt den Brutto-Preis?",
+      options: ["<code>=B5*(1+B2)</code>", "<code>=B5*B2</code>", "<code>=B5+B2</code>"], right: 0,
+      why: "1 + 19 % = 119 %. B5*B2 wäre nur die Steuer, B5+B2 addiert 0,19 €.",
+      miss: [null, "Das ist nur die Steuer. Der Netto-Preis fehlt noch.", "B2 ist 19 % = 0,19. Du addierst also nur 0,19 €."] },
+    { q: "In B5 steht 10, in B10 steht 25. Was zeigt <code>=B5/B10</code> im %-Format?",
+      options: ["0,4 %", "40 %", "250 %"], right: 1,
+      why: "10 : 25 = 0,4. Im %-Format wird daraus 40 %.",
+      miss: ["Das %-Format zeigt die Zahl mal 100.", null, "Das wäre falsch herum: 25 : 10. Die Formel teilt B5 durch B10."] },
+  ]);
+
+  /* ---------- Expedition: Rabatt auf Rabatt ---------- */
+  const fb3 = document.getElementById("fb3");
+  const calc3 = new MiniCalc(document.getElementById("calc3"), {
+    cols: 2, rows: 6, decimal: "comma",
+    cells: { A1: "Jacke", B1: 80, A2: "Sale", B2: "20 %", A3: "Extra an der Kasse", B3: "10 %",
+             A5: "Endpreis", A6: "Gespart in %" },
+    styles: { B1: "fix", B2: "fix", B3: "fix", A5: "label", A6: "label" },
+    formats: { B1: "eur", B5: "eur", B6: "pct" }, editable: ["B5", "B6"], select: "B5",
+    actions: [{ label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fb3.className = "fb"; } }],
+  });
+  calc3.on((c, src) => {
+    if (src === "reset") return;
+    const end = c.get("B5"), spar = c.get("B6");
+    const r5 = clean(c.getRaw("B5"));
+    if (!r5) { feedback(fb3, T("Tippe in B5 eine Formel für den Endpreis."), "info"); return; }
+    if (!r5.startsWith("=") || isErr(end)) { feedback(fb3, T("B5 braucht eine Formel mit Zellbezügen, z. B. mit B1, B2 und B3."), "hint"); return; }
+    if (near(end, 56)) { feedback(fb3, T("56 € wären 30 % weniger. Aber die 10 % gehen vom <strong>Sale-Preis</strong> weg, nicht von 80 €. Erst B1*(1-B2), davon nochmal 10 % weg."), "hint"); return; }
+    if (!near(end, 57.6)) { feedback(fb3, T("Noch nicht. Tipp: <code>=B1*(1-B2)*(1-B3)</code> – erst 80 %, davon nochmal 90 %."), "hint"); return; }
+    if (!c.getRaw("B6")) { feedback(fb3, T("✔ Endpreis 57,60 €! Jetzt B6: Wie viel Prozent sind das gespart? Gespart ÷ alter Preis."), "info"); return; }
+    if (isErr(spar) || typeof spar !== "number") { feedback(fb3, T("B6 braucht eine Formel, z. B. mit B1 und B5."), "hint"); return; }
+    if (near(spar, 0.72)) { feedback(fb3, T("72 % ist der Anteil, den du noch zahlst. Gesucht ist, was du sparst: <code>=(B1-B5)/B1</code>"), "hint"); return; }
+    if (!near(spar, 0.28)) { feedback(fb3, T("Noch nicht. Gespart in % = (alter Preis − neuer Preis) ÷ alter Preis."), "hint"); return; }
+    feedback(fb3, T("🏆 Expedition geschafft! Du sparst nur <strong>28 %</strong>, nicht 30 %. Die 10 % gehen vom schon reduzierten Preis weg. Rabatte darf man nicht einfach addieren."), "ok");
+  });
+
+  checklist(document.getElementById("checklist"), "k9-02");
+});
+</script>
+<script>
+/* Weißt du noch? – Aufgaben zu früheren Bausteinen */
+document.addEventListener("DOMContentLoaded", () => {
+  Wdh(document.getElementById("wdh-box"), [
+    { type: "wahl", from: "aus Baustein 1", href: "01-fehlerdetektiv.html",
+      q: "Eine Zelle zeigt <code>#NAME?</code>. Was ist passiert?",
+      options: ["In der Formel steht Text statt einer Zahl", "Calc kennt ein Wort nicht, zum Beispiel wegen einem Tippfehler", "Die Spalte ist zu schmal"], right: 1,
+      why: "Bei <code>#NAME?</code> kennt Calc ein Wort in der Formel nicht.",
+      miss: ["Text in einer Rechnung meldet Calc mit <code>#WERT!</code>.", null, "Bei einer zu schmalen Spalte zeigt Calc <code>###</code>."] },
+    { type: "tippen", from: "aus Klasse 8", href: "../k8/05-absolute-bezuege.html",
+      q: "Was kostet das Buch mit Versand? Schreib die Formel in C4 so, dass du sie <strong>nach unten ziehen</strong> kannst.",
+      table: { cols: 3, rows: 6, cells: { A1: "Versand", B1: 4, A3: "Artikel", B3: "Preis", C3: "mit Versand", A4: "Buch", B4: 12, A5: "Spiel", B5: 25, A6: "Ball", B6: 9 }, styles: { A1: "label", A3: "head", B3: "head", C3: "head" }, formats: { B: "eur", C: "eur" } },
+      cell: "C4", solution: "=B4+$B$1", check: Wdh.checks.dollar({ fix: "B1", move: "B4", value: 16 }),
+      why: "B4 wandert beim Ziehen mit. <code>$B$1</code> bleibt fest." }
+  ]);
+});
+</script>
+</body>
+</html>

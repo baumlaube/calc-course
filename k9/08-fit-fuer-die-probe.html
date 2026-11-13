@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fit für die Probe · Calc-Kurs Klasse 9</title>
+<meta name="description" content="Klasse 9, Baustein 8: Fit für die Probe – eigener Lernstand, Aufgaben-Würfel mit Zufallsaufgaben, Übungsprobe mit Punkten und Note, große Wiederholung und Spickzettel.">
+<link rel="canonical" href="https://calc.herrseibert.de/k9/08-fit-fuer-die-probe.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/k9/08-fit-fuer-die-probe.html">
+<meta property="og:title" content="Fit für die Probe · Calc-Kurs Klasse 9">
+<meta property="og:description" content="Klasse 9, Baustein 8: Fit für die Probe – eigener Lernstand, Aufgaben-Würfel mit Zufallsaufgaben, Übungsprobe mit Punkten und Note, große Wiederholung und Spickzettel.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="k9-08-fit-fuer-die-probe" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/stufen.js?v=67a7f8cf98" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Lernpfad Klasse 9">
+    <strong class="t">Klasse 9:</strong>
+    <ol>
+      <li class="done"><a href="01-fehlerdetektiv.html" title="1 · Fehlerdetektiv">1</a></li>
+      <li class="done"><a href="02-prozentrechnung.html" title="2 · Prozentrechnung">2</a></li>
+      <li class="done"><a href="03-wenn.html" title="3 · WENN 1">3</a></li>
+      <li class="done"><a href="04-wenn-rechnen.html" title="4 · WENN 2">4</a></li>
+      <li class="done"><a href="05-wenn-grenzen.html" title="5 · WENN 3">5</a></li>
+      <li class="done"><a href="06-bedingte-formatierung.html" title="6 · Bedingte Formatierung 1">6</a></li>
+      <li class="done"><a href="07-bedingte-formatierung-2.html" title="7 · Bedingte Formatierung 2">7</a></li>
+      <li class="now"><span title="8 · Fit für die Probe" aria-current="step">8</span></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>Fit für die Probe</h1>
+    <div class="meta">
+      <span class="chip">Klasse 9 · Baustein 8</span>
+      <span class="chip">⏱ ca. 35 Minuten</span>
+      <span class="chip">Wiederholung: alles aus Klasse 9</span>
+    </div>
+    <ul class="goals">
+      <li>Ich weiß, was ich schon kann – und was ich noch üben muss.</li>
+      <li>Ich löse gemischte Aufgaben ohne Vorlage.</li>
+      <li>Ich schaffe die Übungsprobe in Calc.</li>
+    </ul>
+  </section>
+
+  <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
+  <details class="card woerter" id="woerter">
+    <summary><span class="t">📖 Calc-Wörter für diesen Baustein</span></summary>
+    <p class="note">Die Wörter links bleiben deutsch. So stehen sie in Calc und in den Aufgaben.</p>
+    <table class="plain">
+      <tbody>
+        <tr><th class="wort" lang="de">die Probe <small>die Proben</small></th><td>ein Test in der Schule mit Note</td></tr>
+        <tr><th class="wort" lang="de">die Übungsprobe</th><td>ein Test nur zum Üben, ohne Note</td></tr>
+        <tr><th class="wort" lang="de">der Punkt <small>die Punkte</small></th><td>Für jede richtige Antwort gibt es einen Punkt.</td></tr>
+        <tr><th class="wort" lang="de">der Spickzettel</th><td>ein Zettel mit dem Wichtigsten zum Lernen</td></tr>
+        <tr><th class="wort" lang="de">die Grenze <small>die Grenzen</small></th><td>die Zahl, bei der sich die Antwort ändert</td></tr>
+        <tr><th class="wort" lang="de">mindestens</th><td>diese Zahl oder mehr: <code>&gt;=</code></td></tr>
+        <tr><th class="wort" lang="de">höchstens</th><td>diese Zahl oder weniger: <code>&lt;=</code></td></tr>
+        <tr><th class="wort" lang="de">der stille Fehler <small>die stillen Fehler</small></th><td>ein Fehler, den Calc nicht anzeigt. Das Ergebnis ist trotzdem falsch.</td></tr>
+      </tbody>
+    </table>
+  </details>
+
+  <!-- 1 · Lernstand -->
+  <section class="card" id="stand">
+    <h2><span class="step-no">1</span> Wo stehst du? <span class="chip">3 Min</span></h2>
+    <div id="dash"></div>
+    <p class="lead">Das sind deine Häkchen aus „Das kann ich jetzt“ auf jeder Seite. Wo es noch leer ist: Seite öffnen, Merke lesen, Labor wiederholen.</p>
+    <p class="note">Die Häkchen merkt sich nur dein Gerät. Auf einem anderen Gerät ist die Liste leer.</p>
+  </section>
+
+  <!-- 2 · Aufgaben-Würfel -->
+  <section class="card" id="wuerfel">
+    <h2><span class="step-no">2</span> Aufgaben-Würfel <span class="chip">10 Min</span></h2>
+    <div id="calc2"></div>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+    <div class="btn-row"><button class="btn" type="button" id="neu2">🎲 Neue Aufgaben würfeln</button></div>
+    <p class="note">Jedes Mal andere Zahlen und Fragen – du kannst so lange üben, wie du willst.</p>
+  </section>
+
+  <!-- 3 · Übungsprobe -->
+  <section class="card" id="ueben">
+    <h2><span class="step-no">3</span> Übungsprobe in Calc <span class="chip">15 Min</span></h2>
+    <p class="lead">Arbeite wie in einer echten Probe: allein und ohne Merkzettel. Jedes ✔ ist ein Punkt. Auf dem Startblatt rechnet Calc deine Punkte zusammen – und mit WENN deine Note.</p>
+    <div class="dl">
+      <a href="../downloads/k9-08-uebungsprobe.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsprobe</strong><small>k9-08-uebungsprobe.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-08-uebungsprobe-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst nach der Übungsprobe öffnen!</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">8 P.</span><span><strong>A1 · Kosten:</strong> Formeln, SUMME, Prozent, Kosten pro Person.</span></li>
+      <li><span class="badge basis">3 P.</span><span><strong>A2 · Fehler:</strong> Zwei laute und ein stiller Fehler.</span></li>
+      <li><span class="badge basis">5 P.</span><span><strong>A3 · Sporttest:</strong> WENN mit Text und Grenze in einer Zelle.</span></li>
+      <li><span class="badge basis">4 P.</span><span><strong>A4 · Handytarif:</strong> WENN rechnet im Dann-Teil.</span></li>
+      <li><span class="badge basis">2 P.</span><span><strong>A5 · Farben:</strong> Bedingte Formatierung mit Detektiv-Fragen.</span></li>
+      <li><span class="badge expedition">Freiwillig</span><span>Üben mit eigener Datei und Lösung, dazu eine ★ Expedition: <a href="#freiwillig">ganz unten auf dieser Seite</a>.</span></li>
+    </ul>
+  </section>
+
+  <!-- 4 · Große Wiederholung -->
+  <section class="card" id="check">
+    <h2><span class="step-no">4</span> Große Wiederholung <span class="chip">5 Min</span></h2>
+    <p class="lead">Acht Fragen quer durch Klasse 9.</p>
+    <div id="quiz"></div>
+  </section>
+
+  <!-- Spickzettel -->
+  <section class="card merke print-keep" id="merke">
+    <h2>Spickzettel zum Lernen</h2>
+    <ul>
+      <li><strong>Fehler:</strong> <code>#WERT!</code> Text statt Zahl · <code>#DIV/0!</code> durch 0 geteilt · <code>#NAME?</code> Tippfehler oder Anführungszeichen vergessen · stille Fehler: getippte Zahlen, fehlendes <code>$</code></li>
+      <li><strong>Prozent:</strong> 20 % ist 0,2 – <code>=B5*$B$2</code> ohne /100 · neuer Preis <code>=B5*(1-$B$2)</code> · Anteil <code>=Teil/Ganzes</code>, dann %-Knopf</li>
+      <li><strong>WENN 1:</strong> <code class="long">=WENN(Frage;"Ja";"Nein")</code> · Text in Anführungszeichen, Zahlen ohne</li>
+      <li><strong>Vergleiche:</strong> <code>=</code> <code>&lt;&gt;</code> <code>&lt;</code> <code>&gt;</code> <code>&lt;=</code> höchstens <code>&gt;=</code> mindestens / ab</li>
+      <li><strong>WENN 2:</strong> Dann und Sonst können rechnen: <code class="long">=WENN(A6&lt;29;A6+4,95;A6)</code></li>
+      <li><strong>WENN 3:</strong> Grenzen in eine eigene Zelle und mit <code>$</code> festhalten: <code class="long">=WENN(B5&gt;=$B$2;"bestanden";"durchgefallen")</code></li>
+      <li><strong>Bedingte Formatierung:</strong> markieren → Format → Bedingt → Bedingung … · erste passende Bedingung gewinnt · Text <code>"fehlt"</code> · Grenze <code>$B$2</code></li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Spickzettel drucken</button></div>
+  </section>
+
+  <!-- Freiwillig: Üben + ★ Expedition -->
+  <section class="card frei" id="freiwillig">
+    <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
+    <p class="lead"><span class="badge ueben">Üben</span> heißt: dasselbe wie oben, nur mehr davon. <span class="badge expedition">★ Expedition</span> heißt: etwas Neues für Profis.</p>
+    <h3 class="sub"><span class="badge ueben">Üben</span> Spielzeuglager</h3>
+    <p>Reicht das Lager für alle Bestellungen?
+      Wie viel muss nachproduziert werden? Was mehr als 50 ist, wird rot. Das ist eine Probe-Aufgabe mit allem aus WENN 1 bis 3 und den Farben.</p>
+    <p class="note"><strong>Falle:</strong> Bei einem Spielzeug ist genau so viel im Lager wie bestellt. Ist es lieferbar?
+      <strong>Profi:</strong> Nur der größte Wert soll rot sein – mit <code>MAX($E$5:$E$16)</code> im Dialog.</p>
+    <div class="dl">
+      <a href="../downloads/k9-08-uebungsprobe-mehr-spielzeuglager.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Üben: Spielzeuglager</strong><small>k9-08-uebungsprobe-mehr-spielzeuglager.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-08-uebungsprobe-mehr-spielzeuglager-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <h3 class="sub"><span class="badge expedition">★ Expedition</span> Werde Aufgaben-Erfinder</h3>
+    <p class="lead">Erfinde eine eigene Probe-Aufgabe zu WENN für deine Banknachbarin oder deinen Banknachbarn – mit Tabelle, blauer Grenz-Zelle und Lösung.</p>
+    <ol class="howto">
+      <li>Denk dir eine Situation aus: Kino, Handy, Sport, Taschengeld …</li>
+      <li>Lege in Calc die Tabelle an, die Grenze kommt in eine eigene Zelle.</li>
+      <li>Schreib die Aufgabe als Satz: Wenn …, dann …, sonst …</li>
+      <li>Tauscht die Dateien und löst die Aufgabe des anderen.</li>
+      <li>Profi: Baue eine Kontrolle mit WENN ein, die „✔ richtig“ zeigt – wie in unseren Übungsdateien.</li>
+    </ol>
+  </section>
+
+  <nav class="pager" aria-label="Weiter im Lernpfad">
+    <a href="07-bedingte-formatierung-2.html">← 7 · Bedingte Formatierung 2</a>
+    <a href="../index.html">Übersicht →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz, store } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+
+  /* ---------- 1 · Lernstand aus den Ich-kann-Listen ---------- */
+  const units = [
+    ["01-fehlerdetektiv.html", "k9-01", "1 · Fehlerdetektiv"], ["02-prozentrechnung.html", "k9-02", "2 · Prozentrechnung"],
+    ["03-wenn.html", "k9-03", "3 · WENN 1"], ["04-wenn-rechnen.html", "k9-04", "4 · WENN 2"],
+    ["05-wenn-grenzen.html", "k9-05", "5 · WENN 3"], ["06-bedingte-formatierung.html", "k9-06", "6 · Bedingte Formatierung 1"],
+    ["07-bedingte-formatierung-2.html", "k9-07", "7 · Bedingte Formatierung 2"],
+  ];
+  document.getElementById("dash").innerHTML = '<ul class="dash">' + units.map(([href, key, title]) => {
+    let n = 0;
+    for (let i = 0; i < 5; i++) if (store.get(`calc-${key}-${i}`) === "1") n++;
+    const cls = n >= 3 ? "ok" : n > 0 ? "half" : "open";
+    return `<li class="${cls}"><a href="${href}">${T(title)}</a><span class="dash-bar"><span style="width:${n * 20}%"></span></span><span class="dash-n">${n}/5</span></li>`;
+  }).join("") + "</ul>";
+
+  /* ---------- 2 · Aufgaben-Würfel ---------- */
+  const rnd = (a, b) => a + Math.floor(Math.random() * (b - a + 1));
+  const pick = (arr) => arr[rnd(0, arr.length - 1)];
+  const eur = (x) => x.toLocaleString("de-DE", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const gens = [
+    () => { const g = rnd(10, 20), ctx = pick([["Punkte", "Quiz"], ["Punkte", "Test"], ["Treffer", "Basketball"]]);
+      return { title: "WENN mit Text", head: ctx[0], vals: [g, g - rnd(1, 4)],
+        q: `${ctx[1]}: Wer <strong>mindestens ${g} ${ctx[0]}</strong> hat, hat „bestanden“, sonst „nochmal“.`,
+        want: (v) => (v >= g ? "bestanden" : "nochmal"),
+        hint2: () => T(`A2 hat genau ${g}. „mindestens“ heißt <code>&gt;=</code> – die Grenze zählt mit.`) }; },
+    () => { const g = rnd(2, 6);
+      return { title: "Ja/Nein-Frage", head: "Preis", vals: [g - 0.5, g + 1], fmt: "eur",
+        q: `Kostet der Snack <strong>weniger als ${g} €</strong>? Antwort Ja oder Nein.`,
+        want: (v) => (v < g ? "Ja" : "Nein"),
+        hint2: () => T(`„weniger als“ heißt <code>&lt;</code>. Schreib die Zahl ${g} ohne Anführungszeichen.`) }; },
+    () => { const g = pick([25, 29, 30, 39, 50]), x = pick([3.95, 4.95, 5.90]);
+      return { title: "Zahl als Antwort", head: "Warenwert", vals: [g + rnd(1, 20), g - rnd(1, 9)], fmt: "eur", ansFmt: "eur", textOnly: false,
+        q: `Ab <strong>${g} €</strong> ist der Versand kostenlos (0), sonst kostet er <strong>${eur(x)} €</strong>.`,
+        want: (v) => (v >= g ? 0 : x),
+        hint2: () => T(`Zahlen ohne Anführungszeichen: <code>=WENN(A2&gt;=${g};0;${eur(x)})</code>`) }; },
+    () => { const g = pick([5, 10, 15]), x = pick([10, 15, 20]);
+      return { title: "Rechnung im Dann-Teil", head: "Guthaben", vals: [g - rnd(1, 4), g + rnd(2, 10)], fmt: "eur", ansFmt: "eur", textOnly: false,
+        q: `Unter <strong>${g} €</strong> Guthaben werden <strong>${x} €</strong> aufgeladen, sonst bleibt es gleich.`,
+        want: (v) => (v < g ? v + x : v),
+        hint2: () => T(`Dann-Teil: <code>A2+${x}</code>, Sonst-Teil: <code>A2</code>.`) }; },
+    () => { const p = pick([10, 20, 25, 30]);
+      return { title: "Prozent", head: "Preis", vals: [rnd(2, 9) * 10, rnd(2, 9) * 10 + 5], fmt: "eur", ansFmt: "eur", textOnly: false, wenn: false,
+        q: `Alles <strong>${p} % billiger</strong>! Was kostet es dann? (Ohne WENN)`,
+        want: (v) => v * (1 - p / 100),
+        tip: T(`Tipp: <code>=A2*(1-${p}%)</code>`),
+        hint2: () => T(`Neuer Preis = Preis · (100 % − ${p} %): <code>=A2*(1-${p}%)</code>`) }; },
+  ];
+  const box2 = document.getElementById("calc2");
+  const roll = () => {
+    box2.innerHTML = "";
+    const order = [0, 1, 2, 3, 4].sort(() => Math.random() - 0.5);
+    Stufen(box2, document.getElementById("fb2"), order.map((i) => gens[i]()).map((L, j, all) =>
+      Object.assign(L, { done: j === all.length - 1 ? T("🏆 Alle 5 Aufgaben geschafft! Würfel neue – oder ab in die Übungsprobe.") : T("✔ Richtig!") })));
+  };
+  document.getElementById("neu2").addEventListener("click", roll);
+  roll();
+
+  /* ---------- 4 · Große Wiederholung ---------- */
+  quiz(document.getElementById("quiz"), [
+    { q: "Eine Zelle zeigt <code>#DIV/0!</code>. Was ist los?",
+      options: ["Es wird durch 0 oder eine leere Zelle geteilt", "Die Zahl ist zu groß", "Text in einer Formel"], right: 0,
+      why: "DIV = dividieren. Durch 0 kann man nicht teilen." },
+    { q: "In B2 steht 20 %. Welche Formel berechnet 20 % von B5?",
+      options: ["<code>=B5*B2/100</code>", "<code>=B5*B2</code>", "<code>=B5+B2</code>"], right: 1,
+      why: "20 % ist schon 0,2 – kein /100." },
+    { q: "Was zeigt <code>=WENN(A5=\"Hund\";\"Ja\";\"Nein\")</code>, wenn in A5 Katze steht?",
+      options: ["Ja", "Nein", "#NAME?"], right: 1,
+      why: "Die Frage „Steht in A5 Hund?“ wird mit Nein beantwortet." },
+    { q: "„Ab 50 Punkten“ – welches Zeichen?",
+      options: ["<code>&gt;</code>", "<code>&gt;=</code>", "<code>=</code>"], right: 1,
+      why: "Ab 50 heißt: 50 zählt schon mit." },
+    { q: "In A5 stehen 3 €. Was zeigt <code>=WENN(A5&lt;5;A5+15;A5)</code>?",
+      options: ["3 €", "15 €", "18 €"], right: 2,
+      why: "3 ist kleiner als 5 → Dann-Teil: 3 + 15 = 18." },
+    { q: "Warum schreibt man die Grenze in eine eigene Zelle mit <code>$</code>?",
+      options: ["Damit man sie an einer Stelle für alle Formeln ändern kann", "Weil WENN sonst nicht geht", "Damit die Zelle blau wird"], right: 0,
+      why: "Eine Zelle ändern – alles rechnet neu. Das $ hält den Bezug beim Ausfüllen fest." },
+    { q: "Eine Note ändert sich von 5 auf 2. Die Zelle war rot (bedingte Formatierung). Was passiert?",
+      options: ["Sie bleibt rot", "Die Farbe passt sich von selbst an", "Calc meldet einen Fehler"], right: 1,
+      why: "Bedingte Formatierung prüft bei jeder Änderung neu." },
+    { q: "Ampel: Bedingung 1 kleiner als 50 → gelb, Bedingung 2 kleiner als 20 → rot. Welche Farbe hat 10?",
+      options: ["gelb", "rot"], right: 0,
+      why: "Die erste passende Bedingung gewinnt. Darum gehört die strengste nach oben." },
+  ]);
+});
+</script>
+</body>
+</html>

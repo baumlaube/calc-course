@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SVERWEIS · Calc-Kurs Zusatzmodul</title>
+<meta name="description" content="Zusatzmodul: SVERWEIS – Calc schlägt in einer Liste nach. Preisliste, Postleitzahlen, Notenschlüssel, WENNFEHLER bei unbekannten Nummern.">
+<link rel="canonical" href="https://calc.herrseibert.de/extra/07-sverweis.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/extra/07-sverweis.html">
+<meta property="og:title" content="SVERWEIS · Calc-Kurs Zusatzmodul">
+<meta property="og:description" content="Zusatzmodul: SVERWEIS – Calc schlägt in einer Liste nach. Preisliste, Postleitzahlen, Notenschlüssel, WENNFEHLER bei unbekannten Nummern.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="extra-07-sverweis" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/fragen.js?v=19f0445020" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Zusatzmodule">
+    <strong class="t">Zusatzmodule:</strong>
+    <ol>
+      <li class="done"><a href="01-zaehlenwenn.html" title="1 · ZÄHLENWENN">1</a></li>
+      <li class="done"><a href="02-haushaltsbuch.html" title="2 · Haushaltsbuch">2</a></li>
+      <li class="done"><a href="03-sortieren-filtern.html" title="3 · Sortieren &amp; Filtern">3</a></li>
+      <li class="done"><a href="04-drucken.html" title="4 · Drucken wie ein Profi">4</a></li>
+      <li class="done"><a href="05-brutto-netto.html" title="5 · Brutto und Netto">5</a></li>
+      <li class="done"><a href="06-handyvertrag.html" title="6 · Handyvertrag-Vergleich">6</a></li>
+      <li class="now"><span title="7 · SVERWEIS" aria-current="step">7</span></li>
+      <li class="done"><a href="08-datum.html" title="8 · Datum &amp; Zeit">8</a></li>
+      <li class="done"><a href="09-text.html" title="9 · Text-Tricks">9</a></li>
+      <li class="done"><a href="10-zufall.html" title="10 · Zufall &amp; Spiele">10</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>SVERWEIS – Calc schlägt nach</h1>
+    <div class="meta">
+      <span class="chip">Zusatzmodul · freiwillig</span>
+      <span class="chip">⏱ ca. 35 Minuten</span>
+      <span class="chip">Profi-Niveau (Klasse 10)</span>
+    </div>
+    <ul class="goals">
+      <li>Ich kann mit SVERWEIS einen Wert in einer Liste nachschlagen.</li>
+      <li>Ich kann die vier Teile von SVERWEIS erklären.</li>
+      <li>Ich halte die Liste mit <code>$</code> fest und fülle die Formel aus.</li>
+    </ul>
+  </section>
+
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <div id="calc1"></div>
+    <p class="lead">💡 Am Kiosk wird mit Nummern bestellt. In F2 steht die Nummer <strong>103</strong>. In G2 kommt:<br><code class="long">=SVERWEIS(F2;A2:C7;3;0)</code></p>
+    <p><strong>Jetzt du:</strong> Was zeigt G2?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="kakao">Kakao</button>
+      <button type="button" class="choice" data-v="preis">1,20 €</button>
+      <button type="button" class="choice" data-v="drei">3</button>
+    </div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> Die vier Teile <span class="chip">7 Min</span></h2>
+    <div class="rule"><code class="long">=SVERWEIS(Suchwert; Liste; Spalte; 0)</code></div>
+    <div class="tbl-scroll">
+      <table class="plain">
+        <thead><tr><th>Teil</th><th>Frage</th><th>Beispiel</th></tr></thead>
+        <tbody>
+          <tr><td>Suchwert</td><td>Was suche ich?</td><td><code>F2</code> – die Nummer 103</td></tr>
+          <tr><td>Liste</td><td>Wo suche ich? Gesucht wird in der <strong>ersten</strong> Spalte.</td><td><code>$A$2:$C$7</code> – mit $!</td></tr>
+          <tr><td>Spalte</td><td>Die wievielte Spalte der Liste will ich zurück?</td><td><code>2</code> = Artikel, <code>3</code> = Preis</td></tr>
+          <tr><td>0</td><td>Genau suchen</td><td><code>0</code> – sonst wird es ungefähr</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note"><code>#NV</code> heißt: nicht gefunden. Meist fehlt das <code>$</code> bei der Liste, oder die Nummer gibt es nicht.</p>
+  </section>
+
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Nachschlag-Labor <span class="chip">8 Min</span></h2>
+    <div id="calc2"></div>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">12 Min</span></h2>
+    <div class="dl">
+      <a href="../downloads/x07-sverweis.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>x07-sverweis.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/x07-sverweis-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Kiosk:</strong> Artikel und Preis zur Nummer nachschlagen.</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Postleitzahlen:</strong> Welcher Ort gehört dazu?</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Notenschlüssel:</strong> Ungefähr suchen – ohne 0.</span></li>
+      <li><span class="badge expedition">Expedition</span><span><strong>Freiwillig:</strong> Unbekannte Nummern mit WENNFEHLER abfangen.</span></li>
+    </ul>
+  </section>
+
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">3 Min</span></h2>
+    <div id="quiz"></div>
+  </section>
+
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li><code class="long">=SVERWEIS(Suchwert; Liste; Spalte; 0)</code></li>
+      <li>Der Suchwert muss in der <strong>ersten</strong> Spalte der Liste stehen.</li>
+      <li>Liste mit <code>$</code> festhalten: <code>$A$4:$C$9</code></li>
+      <li>Spalte: die wievielte Spalte der Liste – nicht der Buchstabe!</li>
+      <li><code>0</code> = genau suchen. <code>#NV</code> = nicht gefunden.</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter">
+    <a href="06-handyvertrag.html">← Handyvertrag</a>
+    <a href="08-datum.html">Datum &amp; Zeit →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+  const PREISE = [[101, "Brezel", 0.8], [102, "Semmel", 1.6], [103, "Kakao", 1.2], [104, "Apfel", 0.5], [105, "Muffin", 1.5], [106, "Wasser", 0.9]];
+  const liste = (c) => { c.A1 = "Nr."; c.B1 = "Artikel"; c.C1 = "Preis"; PREISE.forEach((p, i) => { c["A" + (i + 2)] = p[0]; c["B" + (i + 2)] = p[1]; c["C" + (i + 2)] = p[2]; }); return c; };
+
+  /* 1 · Vorhersage */
+  const fb1 = document.getElementById("fb1");
+  const calc1 = new MiniCalc(document.getElementById("calc1"), {
+    cols: 7, rows: 7, decimal: "comma", cells: liste({ F1: "Nr.", G1: "?", F2: 103 }),
+    styles: { A1: "head", B1: "head", C1: "head", F1: "head", G1: "head", F2: "fix" }, formats: { C: "eur", G: "eur" }, select: "F2",
+  });
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    predict.querySelector('[data-v="preis"]').classList.add("right");
+    if (b.dataset.v !== "preis") b.classList.add("wrong");
+    calc1.set("G2", "=SVERWEIS(F2;A2:C7;3;0)"); calc1.select("G2");
+    feedback(fb1, (b.dataset.v === "preis" ? T("✔ Genau!") + " " : "") +
+      T("SVERWEIS sucht 103 in der ersten Spalte (A), findet sie in Zeile 4 und gibt Spalte <strong>3</strong> der Liste zurück: den Preis <strong>1,20 €</strong>.") + " " +
+      T("Mit 2 statt 3 käme „Kakao“ heraus."), b.dataset.v === "preis" ? "ok" : "hint");
+  });
+
+  /* 3 · Labor */
+  const look = (c, nr, col) => { const p = PREISE.find((x) => x[0] === c.get(nr)); return p ? p[col - 1] : null; };
+  Fragen(document.getElementById("calc2"), document.getElementById("fb2"), {
+    cols: 7, rows: 7, cells: liste({ E1: "Nr.", F1: "Artikel", G1: "Preis", E2: 105, E3: 102 }),
+    styles: { A1: "head", B1: "head", C1: "head", E1: "head", F1: "head", G1: "head", E2: "fix", E3: "fix" },
+    formats: { C: "eur", G: "eur" },
+    tasks: [
+      { cell: "F2", q: "Artikel zur Nummer in E2", fn: /(SVERWEIS|VLOOKUP)\(/, fnName: "SVERWEIS", want: (c) => look(c, "E2", 2),
+        hint: (c, v) => T(typeof v === "number" ? "Das ist der Preis. Der Artikel steht in Spalte <strong>2</strong> der Liste." : "<code>=SVERWEIS(E2;$A$2:$C$7;2;0)</code>") },
+      { cell: "G2", q: "Preis zur Nummer in E2", fn: /(SVERWEIS|VLOOKUP)\(/, fnName: "SVERWEIS", want: (c) => look(c, "E2", 3),
+        hint: () => T("Gleiche Formel, aber Spalte 3.") },
+      { cell: "F3", q: "Artikel zur Nummer in E3", fn: /(SVERWEIS|VLOOKUP)\(/, fnName: "SVERWEIS", want: (c) => look(c, "E3", 2),
+        hint: () => T("Such E3 in der Liste, Spalte 2, genau (0).") },
+    ],
+    done: "🏆 Nachgeschlagen! 105 ist ein Muffin für 1,50 €, 102 eine Semmel.",
+  });
+
+  quiz(document.getElementById("quiz"), [
+    { q: "Wo muss der Suchwert in der Liste stehen?",
+      options: ["In der ersten Spalte der Liste", "Irgendwo", "In der letzten Spalte"], right: 0, why: "SVERWEIS sucht immer nur in der ersten Spalte." },
+    { q: "Die Liste ist B4:E20. Welche Zahl brauchst du für Spalte D?",
+      options: ["4", "3", "D"], right: 1, why: "Gezählt wird ab dem Anfang der Liste: B = 1, C = 2, D = 3." },
+    { q: "Nach dem Ausfüllen zeigt Calc <code>#NV</code>. Was ist oft schuld?",
+      options: ["Das $ bei der Liste fehlt", "Die Schrift ist zu klein", "Das = fehlt"], right: 0, why: "Ohne $ rutscht die Liste beim Ausfüllen nach unten – oben fehlen dann Zeilen." },
+    { q: "Was heißt die 0 am Ende?",
+      options: ["Genau suchen", "Null zurückgeben", "Ab Zeile 0 suchen"], right: 0, why: "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel." },
+  ]);
+});
+</script>
+</body>
+</html>

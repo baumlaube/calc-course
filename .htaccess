@@ -1,0 +1,9 @@
+# Impressum und Datenschutz nicht in Suchmaschinen aufnehmen.
+# Steht zusätzlich als <meta name="robots"> in den Seiten; der Header gilt auch für Dienste,
+# die das HTML nicht auswerten. robots.txt sperrt die Seiten absichtlich NICHT –
+# sonst sähen Suchmaschinen das noindex gar nicht.
+<IfModule mod_headers.c>
+  <FilesMatch "^(impressum|datenschutz)\.html$">
+    Header set X-Robots-Tag "noindex, noarchive"
+  </FilesMatch>
+</IfModule>

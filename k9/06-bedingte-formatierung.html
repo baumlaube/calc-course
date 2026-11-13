@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bedingte Formatierung 1 · Calc-Kurs Klasse 9</title>
+<meta name="description" content="Klasse 9, Baustein 6: Bedingte Formatierung 1 – Calc färbt Zellen selbst: größer als, kleiner als, zwischen. Expedition: Datenbalken und Farbskala.">
+<link rel="canonical" href="https://calc.herrseibert.de/k9/06-bedingte-formatierung.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/k9/06-bedingte-formatierung.html">
+<meta property="og:title" content="Bedingte Formatierung 1 · Calc-Kurs Klasse 9">
+<meta property="og:description" content="Klasse 9, Baustein 6: Bedingte Formatierung 1 – Calc färbt Zellen selbst: größer als, kleiner als, zwischen. Expedition: Datenbalken und Farbskala.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="k9-06-bedingte-formatierung" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+<script src="../assets/regeln.js?v=3fdc897ab9" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Lernpfad Klasse 9">
+    <strong class="t">Klasse 9:</strong>
+    <ol>
+      <li class="done"><a href="01-fehlerdetektiv.html" title="1 · Fehlerdetektiv">1</a></li>
+      <li class="done"><a href="02-prozentrechnung.html" title="2 · Prozentrechnung">2</a></li>
+      <li class="done"><a href="03-wenn.html" title="3 · WENN 1">3</a></li>
+      <li class="done"><a href="04-wenn-rechnen.html" title="4 · WENN 2">4</a></li>
+      <li class="done"><a href="05-wenn-grenzen.html" title="5 · WENN 3">5</a></li>
+      <li class="now"><span title="6 · Bedingte Formatierung 1" aria-current="step">6</span></li>
+      <li class="done"><a href="07-bedingte-formatierung-2.html" title="7 · Bedingte Formatierung 2">7</a></li>
+      <li class="done"><a href="08-fit-fuer-die-probe.html" title="8 · Fit für die Probe">8</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>Bedingte Formatierung 1 – Calc färbt selbst</h1>
+    <div class="meta">
+      <span class="chip">Klasse 9 · Baustein 6</span>
+      <span class="chip">⏱ ca. 37 Minuten</span>
+      <span class="chip">Vorwissen: WENN</span>
+    </div>
+    <ul class="goals">
+      <li>Ich kann Zellen mit <strong>Format → Bedingt → Bedingung …</strong> automatisch färben.</li>
+      <li>Ich kann Bedingungen wie größer als, kleiner als und zwischen benutzen.</li>
+      <li>Ich kann mit Farben Fragen zu großen Tabellen schnell beantworten.</li>
+    </ul>
+  </section>
+
+  <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
+  <details class="card woerter" id="woerter">
+    <summary><span class="t">📖 Calc-Wörter für diesen Baustein</span></summary>
+    <p class="note">Die Wörter links bleiben deutsch. So stehen sie in Calc und in den Aufgaben.</p>
+    <table class="plain">
+      <tbody>
+        <tr><th class="wort" lang="de">die Bedingung <small>die Bedingungen</small></th><td>eine Regel: Nur wenn sie stimmt, färbt Calc die Zelle.</td></tr>
+        <tr><th class="wort" lang="de">bedingt</th><td>nur, wenn eine Bedingung stimmt</td></tr>
+        <tr><th class="wort" lang="de">färben</th><td>eine Farbe geben</td></tr>
+        <tr><th class="wort" lang="de">der Zellwert</th><td>das, was in der Zelle steht</td></tr>
+        <tr><th class="wort" lang="de">die Vorlage <small>die Vorlagen</small></th><td>ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot</td></tr>
+        <tr><th class="wort" lang="de">zwischen</th><td>von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.</td></tr>
+        <tr><th class="wort" lang="de">größer als · kleiner als</th><td>größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. Die 30 zählt nicht mit.</td></tr>
+      </tbody>
+    </table>
+  </details>
+
+  <!-- 0 · Weißt du noch? -->
+  <section class="card wdh" id="wdh">
+    <h2><span class="step-no">↺</span> Weißt du noch? <span class="chip">2 Min</span></h2>
+    <p class="lead">Zwei Aufgaben zu früheren Bausteinen. Ohne Nachschauen!</p>
+    <div id="wdh-box"></div>
+  </section>
+
+  <!-- 1 · Vorhersage -->
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <div id="calc1"></div>
+    <p class="lead">💡 Lea hat die Hitzetage über 30 °C mit dem <strong>Farbeimer</strong> rot gefärbt. Dann merkt sie: Am Mittwoch waren es nur 27 °C. Sie tippt in B4 die 27 ein.</p>
+    <p><strong>Jetzt du:</strong> Was passiert mit der roten Farbe in B4?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="weg">Sie verschwindet von selbst.</button>
+      <button type="button" class="choice" data-v="bleibt">Sie bleibt rot.</button>
+      <button type="button" class="choice" data-v="err">Calc zeigt einen Fehler.</button>
+    </div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <!-- 2 · Erklärung -->
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> WENN für Farben <span class="chip">7 Min</span></h2>
+    <div class="rule"><strong>Bedingte Formatierung</strong> ist WENN für Farben:<br>Wenn der Zellwert größer als 30 ist, dann färbe die Zelle rot.</div>
+    <ol class="howto">
+      <li>Zellen markieren.</li>
+      <li>Menü <strong>Format → Bedingt → Bedingung …</strong></li>
+      <li>Im Dialog: <strong>Zellwert ist</strong> · <strong>größer als</strong> · <strong>30</strong></li>
+      <li>Bei <strong>Vorlage anwenden</strong> eine Farbe wählen → <strong>OK</strong>.</li>
+    </ol>
+    <p>Die drei wichtigsten Vorlagen:</p>
+    <div class="vorlagen"><span class="cf-good">Gut</span><span class="cf-neutral">Neutral</span><span class="cf-bad">Schlecht</span></div>
+    <p class="note">Weitere Bedingungen für dieselben Zellen: im Dialog auf <strong>Hinzufügen</strong>. Ändern oder löschen: <strong>Format → Bedingt → Verwalten …</strong></p>
+
+    <div class="video-ph">
+      <span class="play" aria-hidden="true">▶</span>
+      <span class="t"><strong>Kurzvideo (folgt):</strong> Bedingte Formatierung in 60 Sekunden</span>
+    </div>
+  </section>
+
+  <!-- 3 · Ausprobieren -->
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Regel-Labor <span class="chip">8 Min</span></h2>
+    <div id="calc2"></div>
+    <div id="dlg2"></div>
+    <p class="lead" id="task2"></p>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <!-- 4 · In Calc -->
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">12 Min</span></h2>
+    <p class="lead">Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Färbe die Tabellen – dann beantworte die <strong>Detektiv-Fragen</strong>. Mit den Farben geht das ganz schnell.</p>
+    <div class="dl">
+      <a href="../downloads/k9-06-bedingte-formatierung.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>k9-06-bedingte-formatierung.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-06-bedingte-formatierung-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>Mit fertigen Regeln zum Vergleichen</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Notenliste:</strong> 5er und 6er rot, 1er grün.</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Wetter im Juli:</strong> 31 Tage – Hitzetage rot, kühle Tage gelb.</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Puls beim Sport:</strong> Trainingsbereich mit „zwischen“.</span></li>
+      <li><span class="badge expedition">Freiwillig</span><span>Üben und ★ Expedition – jeweils mit eigener Datei und Lösung: <a href="#freiwillig">ganz unten auf dieser Seite</a>.</span></li>
+    </ul>
+  </section>
+
+  <!-- 5 · Kurz-Check -->
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">3 Min</span></h2>
+    <p class="lead">Vier Fragen. Hast du es verstanden?</p>
+    <div id="quiz"></div>
+  </section>
+
+  <!-- Merke -->
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li>Bedingte Formatierung ist WENN für Farben: Wenn der Zellwert … ist, dann färbe die Zelle.</li>
+      <li>So geht's: Zellen markieren → <strong>Format → Bedingt → Bedingung …</strong></li>
+      <li>Im Dialog: Zellwert ist · größer als · 30 · Vorlage <strong>Schlecht</strong> (rot) → OK</li>
+      <li>Vorlagen: <strong>Gut</strong> = grün · <strong>Neutral</strong> = gelb · <strong>Schlecht</strong> = rot</li>
+      <li>Ändert sich die Zahl, ändert sich die Farbe – ganz von selbst.</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <!-- Ich kann -->
+  <section class="card" id="ichkann">
+    <h2>Das kann ich jetzt</h2>
+    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
+    <ul class="checklist" id="checklist">
+      <li><label><input type="checkbox"> <span class="t">Ich finde <strong>Format → Bedingt → Bedingung …</strong></span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich lege eine Regel mit größer als oder kleiner als an.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich weiß: Ändert sich die Zahl, ändert sich die Farbe.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich benutze „zwischen“ und mehrere Bedingungen.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich kenne Datenbalken und Farbskala.</span></label></li>
+    </ul>
+  </section>
+
+  <!-- Freiwillig: Üben + ★ Expedition -->
+  <section class="card frei" id="freiwillig">
+    <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
+    <p class="lead"><span class="badge ueben">Üben</span> heißt: dasselbe wie oben, nur mehr davon. <span class="badge expedition">★ Expedition</span> heißt: etwas Neues für Profis.</p>
+    <h3 class="sub"><span class="badge ueben">Üben</span> Ein Preis, viele Grenzen</h3>
+    <p>Ist 500 € viel? Für einen Schokoriegel schon, für ein Haus nicht.
+      Jede Zelle bekommt ihre eigene Regel: rot = zu teuer, grün = verdächtig billig. Dann änderst du den Preis und schaust, was passiert.</p>
+    <div class="dl">
+      <a href="../downloads/k9-06-bedingte-formatierung-mehr-preis-grenzen.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Üben: Ein Preis, viele Grenzen</strong><small>k9-06-bedingte-formatierung-mehr-preis-grenzen.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-06-bedingte-formatierung-mehr-preis-grenzen-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <h3 class="sub"><span class="badge ueben">Üben</span> Blitzer in der 50er-Zone</h3>
+    <p>Wer schneller als 50 km/h fährt, wird rot. Unten steht ein Live-Blitzer.
+      Drück <kbd>Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>F9</kbd>: Calc würfelt neue Autos und die Farben springen mit.</p>
+    <p class="note">Genau 50 km/h ist erlaubt. „schneller als 50“ heißt <strong>größer als</strong> 50.</p>
+    <div class="dl">
+      <a href="../downloads/k9-06-bedingte-formatierung-mehr-blitzer.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Üben: Blitzer</strong><small>k9-06-bedingte-formatierung-mehr-blitzer.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-06-bedingte-formatierung-mehr-blitzer-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <h3 class="sub"><span class="badge expedition">★ Expedition</span> Balken und Farbskala</h3>
+    <div id="calc3"></div>
+    <p>Beim Spendenlauf zählt jede Runde. Probier beide Knöpfe aus: <strong>Datenbalken</strong> malt einen Balken in die Zelle, die <strong>Farbskala</strong> färbt von rot (wenig) bis grün (viel). In Calc: <strong>Format → Bedingt → Datenbalken …</strong> bzw. <strong>Farbskala …</strong></p>
+    <p><strong>Wer ist am weitesten gelaufen?</strong></p>
+    <div class="choices" id="predict3">
+      <button type="button" class="choice" data-v="Bea">Bea</button>
+      <button type="button" class="choice" data-v="Emre">Emre</button>
+      <button type="button" class="choice" data-v="Hakan">Hakan</button>
+    </div>
+    <p class="fb" id="fb3" aria-live="polite"></p>
+    <div class="dl">
+      <a href="../downloads/k9-06-bedingte-formatierung-expedition.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>★ Expedition: Balken und Farbskala</strong><small>k9-06-bedingte-formatierung-expedition.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-06-bedingte-formatierung-expedition-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter im Lernpfad">
+    <a href="05-wenn-grenzen.html">← 5 · WENN 3</a>
+    <a href="07-bedingte-formatierung-2.html">7 · Bedingte Formatierung 2 →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz, checklist } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+
+  /* ---------- 1 · Vorhersage: Farbeimer vs. Regel ---------- */
+  const fb1 = document.getElementById("fb1");
+  const days = ["B2", "B3", "B4", "B5", "B6"];
+  let ruleOn = false;
+  const calc1 = new MiniCalc(document.getElementById("calc1"), {
+    cols: 2, rows: 6,
+    cells: { A1: "Tag", B1: "°C", A2: "Mo", B2: 28, A3: "Di", B3: 32, A4: "Mi", B4: 32, A5: "Do", B5: 29, A6: "Fr", B6: 31 },
+    styles: { A1: "head", B1: "head" }, select: "B4",
+    actions: [{ label: "✨ Bedingte Formatierung: größer als 30 → Schlecht", onClick: (c) => {
+      if (!c.getRaw("B4").startsWith("27")) { feedback(fb1, T("Erst oben eine Antwort wählen."), "info"); return; }
+      ruleOn = true;
+      days.forEach((a) => c.tds[a].classList.remove("paint-red"));
+      Regeln.apply(c, days, [{ op: ">", a: 30, style: "bad" }]);
+      c.editable.add("B4"); c.select("B4");
+      feedback(fb1, T("✨ Jetzt färbt <strong>Calc</strong>: Mittwoch ist weiß, Freitag (31 °C) ist dazugekommen – Lea hatte ihn übersehen!") + " " +
+        T("Tipp in B4 eine andere Temperatur ein. Die Farbe passt sich an."), "ok");
+    } }],
+  });
+  ["B3", "B4"].forEach((a) => calc1.tds[a].classList.add("paint-red"));
+  calc1.on((c, src) => { if (ruleOn) Regeln.apply(c, days, [{ op: ">", a: 30, style: "bad" }]); });
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    predict.querySelector('[data-v="bleibt"]').classList.add("right");
+    if (b.dataset.v !== "bleibt") b.classList.add("wrong");
+    calc1.set("B4", 27);
+    feedback(fb1, (b.dataset.v === "bleibt" ? T("✔ Genau!") + " " : "") +
+      T("27 °C – und trotzdem rot. Die Farbe vom Farbeimer ist <strong>fest</strong>, Calc weiß nichts von der Regel „über 30“.") + " " +
+      T("Klick jetzt auf <strong>✨ Bedingte Formatierung</strong>."), b.dataset.v === "bleibt" ? "ok" : "hint");
+  });
+
+  /* ---------- 3 · Regel-Labor ---------- */
+  const fb2 = document.getElementById("fb2"), task2 = document.getElementById("task2");
+  const names = ["Ali", "Bea", "Can", "Dila", "Emre", "Fiona", "Gabi", "Hakan"];
+  const notes = [3, 5, 1, 2, 6, 4, 2, 5];
+  const cells2 = notes.map((_, i) => "B" + (i + 2));
+  const init = { A1: "Name", B1: "Note" };
+  names.forEach((n, i) => { init["A" + (i + 2)] = n; init["B" + (i + 2)] = notes[i]; });
+  const calc2 = new MiniCalc(document.getElementById("calc2"), {
+    cols: 2, rows: 9, cells: init, styles: { A1: "head", B1: "head" }, editable: cells2, select: "B2",
+  });
+  const tasks = [
+    { text: "Aufgabe 1: Färbe alle Noten <strong>5 und 6</strong> rot (Vorlage <strong>Schlecht</strong>). Dann <strong>OK</strong>.",
+      target: (v) => (v >= 5 ? "bad" : null),
+      hint: (res, c) => {
+        const five = cells2.find((a) => c.get(a) === 5 && res[a] !== "bad");
+        if (five) return T("Die 5er sind noch nicht rot. „5 und 6“ heißt: größer oder gleich 5 – oder größer als 4.");
+        return T("Nur die 5er und 6er sollen rot sein. Prüfe Bedingung, Zahl und Vorlage.");
+      } },
+    { text: "Aufgabe 2: Die 5er und 6er bleiben rot. Färbe zusätzlich die <strong>1er grün</strong> (Vorlage <strong>Gut</strong>). Tipp: <strong>Hinzufügen</strong>.",
+      target: (v) => (v >= 5 ? "bad" : v === 1 ? "good" : null),
+      hint: () => T("Klick auf <strong>Hinzufügen</strong>. Bedingung 2: gleich 1 → Gut. Bedingung 1 bleibt.") },
+    { text: "Aufgabe 3: Fiona schreibt eine Nachprüfung und bekommt eine <strong>6</strong>. Klick B7 an und tippe 6 ein.",
+      target: (v) => (v >= 5 ? "bad" : v === 1 ? "good" : null), needFiona: true,
+      hint: () => T("Tippe in B7 (Fiona) eine 6 ein.") },
+  ];
+  let t = 0;
+  const showTask = () => { task2.innerHTML = T(tasks[t].text); };
+  const judge = (rules, res, src) => {
+    const L = tasks[t];
+    const ok = cells2.every((a) => (res[a] || null) === L.target(calc2.get(a)));
+    if (L.needFiona && calc2.get("B7") !== 6) { feedback(fb2, L.hint(res, calc2), "info"); return; }
+    if (!rules.length) return;
+    if (!ok) { feedback(fb2, L.hint(res, calc2), "hint"); return; }
+    if (t === 0) { feedback(fb2, T("✔ Alle 5er und 6er sind rot. Weiter mit Aufgabe 2!"), "ok"); t = 1; showTask(); return; }
+    if (t === 1) { feedback(fb2, T("✔ Rot und grün – die Lehrkraft sieht sofort, wer Hilfe braucht. Weiter mit Aufgabe 3!"), "ok"); t = 2; showTask(); return; }
+    feedback(fb2, T("🏆 Fiona ist von selbst rot geworden – du musstest nichts neu färben. Genau das ist der Vorteil der bedingten Formatierung!"), "ok");
+  };
+  Regeln.dialog(document.getElementById("dlg2"), { calc: calc2, cells: cells2, range: "B2:B9", max: 3,
+    onOk: (rules, res) => judge(rules, res, "ok"),
+    onChange: (rules, res, src) => { if (t === 2 && src === "edit") judge(rules, res, src); } });
+  showTask();
+
+  /* ---------- 5 · Quiz ---------- */
+  quiz(document.getElementById("quiz"), [
+    { q: "Welche Bedingung färbt alle Noten 5 und 6?",
+      options: ["größer als 5", "größer oder gleich 5", "gleich 5"], right: 1,
+      why: "„größer als 5“ würde nur die 6er treffen. 5 gehört dazu: größer oder gleich.",
+      miss: ["Bei „größer als“ gehört die Grenze nicht dazu.", null, "„gleich 5“ trifft nur die 5er. Die 6er fehlen."] },
+    { q: "Eine rote Zahl wird geändert und passt nicht mehr zur Bedingung. Was passiert?",
+      options: ["Die Farbe verschwindet von selbst", "Die Farbe bleibt", "Calc meldet einen Fehler"], right: 0,
+      why: "Bedingte Formatierung prüft bei jeder Änderung neu – wie WENN.",
+      miss: [null, "Bedingte Formatierung ist keine feste Farbe.", "Calc meldet nichts. Es färbt einfach neu."] },
+    { q: "Wo findest du die bedingte Formatierung?",
+      options: ["Format → Zellen … → Hintergrund", "Format → Bedingt", "Daten → Sortieren"], right: 1,
+      why: "Format → Bedingt → Bedingung … öffnet den Dialog.",
+      miss: ["Dort färbst du von Hand. Die Farbe bleibt dann immer, egal welche Zahl drinsteht.", null, "Sortieren ändert die Reihenfolge, nicht die Farbe."] },
+    { q: "Grün ist „zwischen 120 und 160“. Welche Pulswerte werden grün?",
+      options: ["121 bis 159", "120 bis 159", "120 bis 160"], right: 2,
+      why: "Bei „zwischen“ gehören beide Grenzen dazu.",
+      miss: ["Hier fehlen beide Grenzen.", "Hier fehlt die obere Grenze.", null] },
+  ]);
+
+  /* ---------- Expedition: Balken und Farbskala ---------- */
+  const fb3 = document.getElementById("fb3");
+  const lauf = [["Ali", 14], ["Bea", 22], ["Can", 9], ["Dila", 18], ["Emre", 25], ["Fiona", 16], ["Gabi", 11], ["Hakan", 20]];
+  const c3 = { A1: "Name", B1: "Runden" };
+  lauf.forEach(([n, r], i) => { c3["A" + (i + 2)] = n; c3["B" + (i + 2)] = r; });
+  const cells3 = lauf.map((_, i) => "B" + (i + 2));
+  const clear3 = (c) => cells3.forEach((a) => { c.tds[a].style.backgroundImage = ""; c.tds[a].style.backgroundColor = ""; c.tds[a].style.color = ""; });
+  new MiniCalc(document.getElementById("calc3"), {
+    cols: 2, rows: 9, cells: c3, styles: { A1: "head", B1: "head" }, select: "B2",
+    actions: [
+      { label: "▬ Datenbalken", onClick: (c) => { clear3(c); Regeln.databar(c, cells3); } },
+      { label: "🌈 Farbskala", onClick: (c) => { clear3(c); Regeln.colorscale(c, cells3); } },
+      { label: "↺ Ohne", secondary: true, onClick: (c) => clear3(c) },
+    ],
+  });
+  const p3 = document.getElementById("predict3");
+  p3.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    p3.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    p3.querySelector('[data-v="Emre"]').classList.add("right");
+    if (b.dataset.v !== "Emre") b.classList.add("wrong");
+    feedback(fb3, b.dataset.v === "Emre"
+      ? T("🏆 Richtig – Emre hat den längsten Balken und das kräftigste Grün. In der Übungsdatei wartet der ganze Spendenlauf.")
+      : T("Schau auf den längsten Balken: Emre ist 25 Runden gelaufen."), b.dataset.v === "Emre" ? "ok" : "hint");
+  });
+
+  checklist(document.getElementById("checklist"), "k9-06");
+});
+</script>
+<script>
+/* Weißt du noch? – Aufgaben zu früheren Bausteinen */
+document.addEventListener("DOMContentLoaded", () => {
+  Wdh(document.getElementById("wdh-box"), [
+    { type: "tippen", from: "aus Baustein 5", href: "05-wenn-grenzen.html",
+      q: "Ab dem Alter in B1 darf man rein. Schreib in C4 eine WENN-Formel mit Ja und Nein – so, dass du sie <strong>nach unten ziehen</strong> kannst.",
+      table: { cols: 3, rows: 6, cells: { A1: "Grenze", B1: 18, A3: "Name", B3: "Alter", C3: "Darf rein?", A4: "Ali", B4: 18, A5: "Mia", B5: 16, A6: "Tom", B6: 21 },
+        styles: { A1: "label", A3: "head", B3: "head", C3: "head" } },
+      cell: "C4", solution: `=WENN(B4>=$B$1;"Ja";"Nein")`,
+      check: Wdh.checks.wenn({ cell: "B4", at: "C4", fix: "B1", cases: [[30, "Ja"], [17, "Nein"], [18, "Ja"]],
+        edge: [18, "Ali ist genau 18. Mit <code>&gt;</code> zählt die Grenze nicht mit. Nimm <code>&gt;=</code>."] }),
+      why: "B4 wandert beim Ziehen mit. Die Grenze <code>$B$1</code> bleibt fest." },
+    { type: "wahl", from: "aus Baustein 2", href: "02-prozentrechnung.html",
+      q: "12 von 48 Schülern kommen mit dem Bus (B5 = 12, B6 = 48). Welche Formel rechnet den <strong>Anteil</strong>?",
+      options: ["<code>=B6/B5</code>", "<code>=B5/B6*100</code>", "<code>=B5/B6</code>"], right: 2,
+      why: "Teil durch Ganzes: 12 : 48 = 0,25. Der %-Knopf zeigt dann 25 %.",
+      miss: ["Das ist verkehrt herum: Ganzes durch Teil ergibt 4.", "Mal 100 macht schon der %-Knopf. Sonst zeigt Calc 2500 %.", null] }
+  ]);
+});
+</script>
+</body>
+</html>

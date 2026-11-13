@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Funktionen · Calc-Kurs Klasse 8</title>
+<meta name="description" content="Baustein 3 im Calc-Lernpfad: SUMME, MITTELWERT, MIN und MAX – ganze Bereiche mit einer Funktion auswerten.">
+<link rel="canonical" href="https://calc.herrseibert.de/k8/03-funktionen.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/k8/03-funktionen.html">
+<meta property="og:title" content="Funktionen · Calc-Kurs Klasse 8">
+<meta property="og:description" content="Baustein 3 im Calc-Lernpfad: SUMME, MITTELWERT, MIN und MAX – ganze Bereiche mit einer Funktion auswerten.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="k8-03-funktionen" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Lernpfad Klasse 8">
+    <strong class="t">Klasse 8:</strong>
+    <ol>
+      <li class="done"><a href="01-erste-schritte.html" title="1 · Erste Schritte">1</a></li>
+      <li class="done"><a href="02-erste-formeln.html" title="2 · Erste Formeln">2</a></li>
+      <li class="now"><span title="3 · Funktionen" aria-current="step">3</span></li>
+      <li class="done"><a href="04-ausfuellen.html" title="4 · Ausfüllen">4</a></li>
+      <li class="done"><a href="05-absolute-bezuege.html" title="5 · Absolute Bezüge">5</a></li>
+      <li class="done"><a href="06-diagramme.html" title="6 · Diagramme">6</a></li>
+      <li class="done"><a href="07-projekt-klassenfahrt.html" title="7 · Projekt">7</a></li>
+      <li class="done"><a href="07-projekt-klassenfahrt.html" title="8 · Projekt">8</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>Funktionen – ganze Bereiche auf einmal</h1>
+    <div class="meta">
+      <span class="chip">Klasse 8 · Baustein 3</span>
+      <span class="chip">⏱ ca. 37 Minuten</span>
+      <span class="chip">Vorwissen: Formeln mit Zellen</span>
+    </div>
+    <ul class="goals">
+      <li>Ich kann mit SUMME einen ganzen Bereich zusammenzählen.</li>
+      <li>Ich kann MITTELWERT, MIN und MAX benutzen.</li>
+      <li>Ich kann einen Bereich wie <code>B5:B9</code> schreiben oder mit der Maus markieren.</li>
+    </ul>
+  </section>
+
+  <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
+  <details class="card woerter" id="woerter">
+    <summary><span class="t">📖 Calc-Wörter für diesen Baustein</span></summary>
+    <p class="note">Die Wörter links bleiben deutsch. So stehen sie in Calc und in den Aufgaben.</p>
+    <table class="plain">
+      <tbody>
+        <tr><th class="wort" lang="de">die Funktion <small>die Funktionen</small></th><td>eine fertige Rechnung mit einem Namen, z. B. <code>SUMME</code></td></tr>
+        <tr><th class="wort" lang="de">der Bereich <small>die Bereiche</small></th><td>mehrere Zellen zusammen, z. B. <code>B5:B9</code></td></tr>
+        <tr><th class="wort" lang="de">der Doppelpunkt</th><td>das Zeichen <code>:</code>. In Calc heißt es „bis“.</td></tr>
+        <tr><th class="wort" lang="de">zusammenzählen</th><td>plus rechnen, bis alle Zahlen dabei sind</td></tr>
+        <tr><th class="wort" lang="de">der Durchschnitt</th><td>alles zusammenzählen und durch die Anzahl teilen. In Calc: <code>MITTELWERT</code></td></tr>
+        <tr><th class="wort" lang="de">der Wert <small>die Werte</small></th><td>das, was in einer Zelle steht, meistens eine Zahl</td></tr>
+        <tr><th class="wort" lang="de">markieren</th><td>Zellen mit der Maus auswählen</td></tr>
+      </tbody>
+    </table>
+  </details>
+
+  <!-- 0 · Weißt du noch? -->
+  <section class="card wdh" id="wdh">
+    <h2><span class="step-no">↺</span> Weißt du noch? <span class="chip">2 Min</span></h2>
+    <p class="lead">Zwei Aufgaben zu früheren Bausteinen. Ohne Nachschauen!</p>
+    <div id="wdh-box"></div>
+  </section>
+
+  <!-- 1 · Vorhersage -->
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <div id="calc1"></div>
+    <p class="lead">💡 <strong>Du kennst das schon:</strong> <code>=B5+B6+B7+B8+B9</code> zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es <strong>Funktionen</strong>.<br>In B10 steht: <code>=SUMME(B5:B9)</code></p>
+    <p><strong>Jetzt du:</strong> Was bedeutet <code>B5:B9</code>?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="und">Nur B5 und B9</button>
+      <button type="button" class="choice" data-v="bis">B5 bis B9, also alle dazwischen</button>
+      <button type="button" class="choice" data-v="geteilt">B5 geteilt durch B9</button>
+    </div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <!-- 2 · Erklärung -->
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> Die vier wichtigsten Funktionen <span class="chip">5 Min</span></h2>
+    <div class="rule"><code>=SUMME(B5:B9)</code><br>Name · Klammer · Bereich. Der Doppelpunkt heißt <strong>„bis“</strong>.</div>
+
+    <div class="compare">
+      <div>
+        <h3>Meine Schritte von Montag bis Freitag (B5 bis B9)</h3>
+        <ol class="rows">
+          <li><span class="cell">B10</span><span class="day">ganze Woche</span><code>=SUMME(B5:B9)</code>
+              <span class="calc">alle 5 Tage zusammen → 37.000</span></li>
+          <li><span class="cell">B11</span><span class="day">Durchschnitt</span><code>=MITTELWERT(B5:B9)</code>
+              <span class="calc">37.000 ÷ 5 Tage → 7.400</span></li>
+          <li><span class="cell">B12</span><span class="day">wenigste</span><code>=MIN(B5:B9)</code>
+              <span class="calc">kleinster Wert → 4.900 (Mittwoch)</span></li>
+          <li><span class="cell">B13</span><span class="day">meiste</span><code>=MAX(B5:B9)</code>
+              <span class="calc">größter Wert → 10.300 (Donnerstag)</span></li>
+        </ol>
+      </div>
+    </div>
+
+    <h3 class="sub">So markierst du den Bereich</h3>
+    <ol class="howto">
+      <li><code>=SUMME(</code> tippen.</li>
+      <li>Mit gedrückter Maustaste von B5 bis B9 ziehen.</li>
+      <li><code>)</code> tippen und <kbd>Enter</kbd>.</li>
+    </ol>
+    <p class="note"><strong>Lange Liste, z. B. 365 Tage?</strong> Nach <code>=SUMME(</code> die erste Zahl anklicken, dann <kbd>Strg</kbd> + <kbd>⇧</kbd> + <kbd>↓</kbd>: Alles bis zum Ende der Liste ist markiert.</p>
+    <p class="note">Abkürzung in Calc: der Knopf <strong>Σ</strong> links neben der Eingabezeile.</p>
+
+    <h3 class="sub">Vorsicht: Σ rät nur</h3>
+    <div id="calcSigma"></div>
+    <p>Der Σ-Knopf <strong>rät</strong> den Bereich. Meistens stimmt er. Hier sind zwei Fallen versteckt!</p>
+    <p>Klick B8 an und dann auf <strong>Σ Summe</strong>. Schau dir den farbigen Rahmen an, <strong>bevor</strong> du <kbd>Enter</kbd> drückst. Stimmt der Bereich nicht, verbessere ihn in der Eingabezeile. Dann dasselbe für C8.</p>
+    <p class="fb" id="fbSigma" aria-live="polite"></p>
+
+    <div class="video-ph">
+      <span class="play" aria-hidden="true">▶</span>
+      <span class="t"><strong>Kurzvideo (folgt):</strong> SUMME mit der Maus</span>
+    </div>
+  </section>
+
+  <!-- 3 · Ausprobieren -->
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Selbst ausprobieren <span class="chip">5 Min</span></h2>
+    <div id="calc2"></div>
+    <p class="lead">Fülle die vier gelben Zellen B10 bis B13. Nach <code>=SUMME(</code> kannst du hier mit gedrückter Maus von B5 bis B9 ziehen, wie in Calc.</p>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <!-- 4 · In Calc -->
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">15 Min</span></h2>
+    <p class="lead">Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Die Spalte <strong>Kontrolle</strong> merkt auch, ob du die richtige Funktion benutzt hast.</p>
+    <div class="dl">
+      <a href="../downloads/k8-03-funktionen.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>k8-03-funktionen.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-03-funktionen-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Schrittzähler:</strong> Summe, Durchschnitt, Minimum und Maximum einer Woche.</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1b · Ein ganzes Jahr:</strong> 365 Tage mit <kbd>Strg</kbd> + <kbd>⇧</kbd> + <kbd>↓</kbd> markieren.</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 1c · Summen-Fallen:</strong> Wann der Σ-Knopf danebenliegt.</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Weitsprung:</strong> Die Ergebnisse der Klasse auswerten. Wer hat gewonnen?</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Datenvolumen:</strong> Was passiert mit leeren Zellen? Dazu ANZAHL und zwei Funktionen in einer Formel.</span></li>
+      <li><span class="badge expedition">Freiwillig</span><span>Üben und ★ Expedition – jeweils mit eigener Datei und Lösung: <a href="#freiwillig">ganz unten auf dieser Seite</a>.</span></li>
+    </ul>
+  </section>
+
+  <!-- 5 · Kurz-Check -->
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">5 Min</span></h2>
+    <p class="lead">Vier Fragen. Hast du es verstanden?</p>
+    <div id="quiz"></div>
+  </section>
+
+  <!-- Merke -->
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li>Eine Funktion schreibst du so: <code>=NAME(Bereich)</code>, zum Beispiel <code>=SUMME(B5:B9)</code>.</li>
+      <li>Der Doppelpunkt heißt <strong>„bis“</strong>: <code>B5:B9</code> heißt B5 bis B9.</li>
+      <li><strong>SUMME</strong> zählt zusammen · <strong>MITTELWERT</strong> = Durchschnitt · <strong>MIN</strong> = kleinster Wert · <strong>MAX</strong> = größter Wert.</li>
+      <li>Bereich markieren: Nach <code>=SUMME(</code> mit gedrückter Maustaste von B5 bis B9 ziehen. Lange Liste: erste Zahl anklicken, dann <kbd>Strg</kbd> + <kbd>⇧</kbd> + <kbd>↓</kbd>.</li>
+      <li>Der Σ-Knopf rät den Bereich. <strong>Rahmen prüfen</strong>, dann erst <kbd>Enter</kbd>.</li>
+      <li>Leere Zellen zählen nicht mit.</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <!-- Ich kann -->
+  <section class="card" id="ichkann">
+    <h2>Das kann ich jetzt</h2>
+    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
+    <ul class="checklist" id="checklist">
+      <li><label><input type="checkbox"> <span class="t">Ich kann einen Bereich wie <code>B5:B9</code> lesen und markieren, auch eine lange Liste.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich prüfe den Vorschlag vom Σ-Knopf, bevor ich <kbd>Enter</kbd> drücke.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich kann SUMME, MITTELWERT, MIN und MAX benutzen.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich weiß, wann ich welche Funktion brauche.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich kann ANZAHL benutzen und zwei Funktionen in einer Formel verbinden.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich kann Rechteck-Bereiche wie <code>B2:F5</code> auswerten.</span></label></li>
+    </ul>
+  </section>
+
+  <!-- Freiwillig: Üben + ★ Expedition -->
+  <section class="card frei" id="freiwillig">
+    <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
+    <p class="lead"><span class="badge ueben">Üben</span> heißt: dasselbe wie oben, nur mehr davon. <span class="badge expedition">★ Expedition</span> heißt: etwas Neues für Profis.</p>
+    <h3 class="sub"><span class="badge ueben">Üben</span> Mein Zeugnis-Schnitt</h3>
+    <div id="calcZeugnis"></div>
+    <p>In Bayern zählen die Schulaufgaben (SA) <strong>doppelt</strong>. Spalte J zeigt den normalen Durchschnitt. Was steht im Zeugnis?</p>
+    <div class="rule"><code>=(2*SUMME(B2:D2)+SUMME(E2:I2))/11</code><br>3 SA doppelt = 6, dazu 5 andere Noten = 11</div>
+    <p>Tipp die Formel in K2 und K3. Vergleiche dann J und K: Wem helfen die doppelten Schulaufgaben?</p>
+    <p class="fb" id="fbZeugnis" aria-live="polite"></p>
+    <div class="dl">
+      <a href="../downloads/k8-03-funktionen-mehr-zeugnis-schnitt.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Üben: Zeugnis-Schnitt</strong><small>k8-03-funktionen-mehr-zeugnis-schnitt.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-03-funktionen-mehr-zeugnis-schnitt-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <h3 class="sub"><span class="badge expedition">★ Expedition</span> Würfeln mit Calc</h3>
+    <div id="calc3"></div>
+    <p class="lead">Jeder Würfel oben ist eine Formel: <code>=ZUFALLSBEREICH(1;6)</code>. Berechne in B7 den Durchschnitt aller 20 Würfe. Dann würfle ein paar Mal neu.</p>
+    <p class="note">Neu: Ein Bereich kann auch ein Rechteck sein: <code>B2:F5</code> heißt von B2 oben links bis F5 unten rechts.</p>
+    <p class="fb" id="fb3" aria-live="polite"></p>
+    <div class="dl">
+      <a href="../downloads/k8-03-funktionen-expedition.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>★ Expedition: Würfeln mit Calc</strong><small>k8-03-funktionen-expedition.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-03-funktionen-expedition-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter im Lernpfad">
+    <a href="02-erste-formeln.html">← 2 · Erste Formeln</a>
+    <a href="04-ausfuellen.html">4 · Ausfüllen →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz, checklist } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+  const near = (a, b) => typeof a === "number" && Math.abs(a - b) < 0.005;
+  const nf = (x) => x.toLocaleString("de-DE", { maximumFractionDigits: 2 });
+
+  const woche = {
+    A4: "Tag", B4: "Schritte",
+    A5: "Montag", B5: 6200, A6: "Dienstag", B6: 8450, A7: "Mittwoch", B7: 4900,
+    A8: "Donnerstag", B8: 10300, A9: "Freitag", B9: 7150,
+  };
+  const wocheStyles = { A4: "head", B4: "head" };
+
+  /* ---------- 1 · Vorhersage ---------- */
+  const fb1 = document.getElementById("fb1");
+  const calc1 = new MiniCalc(document.getElementById("calc1"), {
+    cols: 2, rows: 10, cells: Object.assign({ A10: "ganze Woche", B10: "=SUMME(B5:B9)" }, woche),
+    styles: Object.assign({ A10: "label" }, wocheStyles), select: "A4",
+  });
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    predict.querySelector('[data-v="bis"]').classList.add("right");
+    if (b.dataset.v !== "bis") b.classList.add("wrong");
+    calc1.select("B10");
+    feedback(fb1, (b.dataset.v === "bis" ? T("✔ Richtig!") + " " : "") +
+      T("Der Doppelpunkt heißt <strong>„bis“</strong>. Schau auf den farbigen Rahmen: <code>B5:B9</code> umfasst alle fünf Zellen von B5 bis B9.") + " " +
+      T("SUMME zählt sie zusammen: <strong>37.000</strong> Schritte. Egal ob 5 oder 365 Zellen, die Formel bleibt kurz."),
+      b.dataset.v === "bis" ? "ok" : "hint");
+  });
+
+  /* ---------- 3 · Ausprobieren ---------- */
+  const fb2 = document.getElementById("fb2");
+  let done = false;
+  const calc2 = new MiniCalc(document.getElementById("calc2"), {
+    cols: 2, rows: 13,
+    cells: Object.assign({ A10: "ganze Woche", A11: "Durchschnitt", A12: "wenigste", A13: "meiste" }, woche),
+    styles: Object.assign({ A10: "label", A11: "label", A12: "label", A13: "label" }, wocheStyles),
+    editable: ["B10", "B11", "B12", "B13"], select: "B10",
+    actions: [{ label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { done = false; c.editable.delete("B7"); c.tds.B7.classList.remove("input"); c.reset(); fb2.className = "fb"; } }],
+  });
+  const tasks = [
+    { cell: "B10", fn: /^=(SUMME|SUM)\(/, name: "SUMME", calc: (v) => v.reduce((a, b) => a + b, 0), what: "die ganze Woche" },
+    { cell: "B11", fn: /^=(MITTELWERT|AVERAGE)\(/, name: "MITTELWERT", calc: (v) => v.reduce((a, b) => a + b, 0) / v.length, what: "den Durchschnitt" },
+    { cell: "B12", fn: /^=MIN\(/, name: "MIN", calc: (v) => Math.min(...v), what: "den kleinsten Wert" },
+    { cell: "B13", fn: /^=MAX\(/, name: "MAX", calc: (v) => Math.max(...v), what: "den größten Wert" },
+  ];
+  calc2.on((c, src) => {
+    if (src === "reset") return;
+    const vals = ["B5", "B6", "B7", "B8", "B9"].map((a) => c.get(a));
+    if (done && c.sel === "B7") {
+      feedback(fb2, `🎉 Alle vier Ergebnisse haben sich von selbst angepasst! Durchschnitt jetzt: <strong>${nf(c.get("B11"))}</strong> Schritte.`, "ok");
+      return;
+    }
+    for (const t of tasks) {
+      const raw = c.getRaw(t.cell).replace(/\s/g, "").toUpperCase();
+      if (!raw) { feedback(fb2, `Weiter mit <strong>${t.cell}</strong>: Berechne ${T(t.what)} mit <code>=${t.name}(</code>…<code>)</code>.`, "info"); return; }
+      if (!raw.startsWith("=")) { feedback(fb2, `In ${t.cell} steht eine getippte Zahl. Lass Calc rechnen: <code>=${t.name}(B5:B9)</code>`, "hint"); return; }
+      if (/^=B5\+B6\+B7\+B8\+B9$/.test(raw)) { feedback(fb2, `Das stimmt, aber es geht kürzer: <code>=SUMME(B5:B9)</code>. Stell dir 365 Tage vor!`, "hint"); return; }
+      if (/;/.test(raw) && !/:/.test(raw)) { feedback(fb2, `Mit <code>;</code> nimmt Calc nur die einzelnen Zellen, also nur B5 und B9. Für „bis“ brauchst du den Doppelpunkt: <code>B5:B9</code>.`, "hint"); return; }
+      if (!t.fn.test(raw)) { feedback(fb2, `Für ${T(t.what)} in ${t.cell} brauchst du die Funktion <strong>${t.name}</strong>.`, "hint"); return; }
+      const v = c.get(t.cell);
+      if (v instanceof MiniCalc.CalcError) { feedback(fb2, `In ${t.cell} steht der Fehler <strong>${v.code}</strong>. Fehlt eine Klammer?`, "hint"); return; }
+      if (!near(v, t.calc(vals))) { feedback(fb2, `${t.cell} stimmt noch nicht. Hast du alle Tage von <strong>B5 bis B9</strong> markiert?`, "hint"); return; }
+    }
+    done = true;
+    c.editable.add("B7"); c.tds.B7.classList.add("input");
+    feedback(fb2, "✔ Alle vier richtig! <strong>Bonus:</strong> Am Mittwoch warst du doch fleißiger. Ändere B7 auf 9000. Was passiert?", "ok");
+  });
+
+  /* ---------- 5 · Quiz ---------- */
+  quiz(document.getElementById("quiz"), [
+    { q: "<code>B5:B9</code> bedeutet …",
+      options: ["B5 bis B9", "B5 und B9", "B5 geteilt durch B9"], right: 0,
+      why: "Der Doppelpunkt heißt „bis“: B5, B6, B7, B8 und B9.",
+      miss: [null, "Nur B5 und B9 wäre <code>B5;B9</code> mit Semikolon.", "In Mathe heißt <code>:</code> geteilt. In Calc heißt er „bis“. Geteilt ist <code>/</code>."] },
+    { q: "Welche Funktion findet die <strong>Bestweite</strong> beim Weitsprung?",
+      options: ["MIN", "SUMME", "MAX"], right: 2,
+      why: "Die Bestweite ist der größte Wert, also MAX.",
+      miss: ["MIN findet den kleinsten Wert. Beim Laufen wäre das die Bestzeit, beim Springen nicht.", "SUMME zählt alle Sprünge zusammen. Gesucht ist nur der weiteste.", null] },
+    { q: "In B5 bis B9 stehen 1, 2, 3, 4 und 10. Was ergibt <code>=MITTELWERT(B5:B9)</code>?",
+      options: ["3", "4", "5", "20"], right: 1,
+      why: "1 + 2 + 3 + 4 + 10 = 20, geteilt durch 5 Zahlen = 4.",
+      miss: ["3 ist nur die Zahl in der Mitte. MITTELWERT zählt alles zusammen und teilt dann.", null, "5 ist die Anzahl der Zahlen. Durch sie teilst du am Ende.", "20 ist die Summe. Du musst noch durch 5 teilen."] },
+    { q: "Welche Formel ist gleich wie <code>=B5+B6+B7+B8+B9</code>?",
+      options: ["<code>=SUMME(B5;B9)</code>", "<code>=SUMME(B5+B9)</code>", "<code>=SUMME(B5:B9)</code>"], right: 2,
+      why: "Nur der Doppelpunkt nimmt alle Zellen dazwischen. Mit ; oder + wären es nur B5 und B9.",
+      miss: ["Das Semikolon trennt einzelne Zellen. Das sind nur B5 und B9.", "<code>B5+B9</code> rechnet nur zwei Zellen zusammen.", null] },
+  ]);
+
+  /* ---------- Expedition: Würfeln ---------- */
+  const fb3 = document.getElementById("fb3");
+  const dice = { A1: "Würfe", A7: "Durchschnitt" }, diceStyles = { A1: "head", A7: "label" };
+  ["B", "C", "D", "E", "F"].forEach((col) => { for (let r = 2; r <= 5; r++) { dice[col + r] = "=ZUFALLSBEREICH(1;6)"; diceStyles[col + r] = "fix"; } });
+  let rolls = 0;
+  const calc3 = new MiniCalc(document.getElementById("calc3"), {
+    cols: 6, rows: 7, cells: dice, styles: diceStyles, editable: ["B7"], select: "B7",
+    formats: {},
+    actions: [
+      { label: "🎲 Neu würfeln (in Calc: F9)", onClick: (c) => { rolls++; c.render(); c.emit("roll"); } },
+      { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { rolls = 0; c.reset(); fb3.className = "fb"; } },
+    ],
+  });
+  calc3.on((c, src) => {
+    if (src === "reset") return;
+    const raw = c.getRaw("B7").replace(/\s/g, "").toUpperCase();
+    if (!raw) { feedback(fb3, "Tipp zuerst in B7 eine Formel für den Durchschnitt.", "info"); return; }
+    if (!/^=(MITTELWERT|AVERAGE)\(/.test(raw)) { feedback(fb3, "Für den Durchschnitt brauchst du <code>=MITTELWERT(</code>…<code>)</code>.", "hint"); return; }
+    if (!raw.includes("B2:F5")) { feedback(fb3, "Markiere das ganze Rechteck: von B2 oben links bis F5 unten rechts, also <code>B2:F5</code>.", "hint"); return; }
+    const v = c.get("B7");
+    if (rolls < 3) { feedback(fb3, `✔ Dein Durchschnitt: <strong>${nf(v)}</strong>. Klick jetzt ein paar Mal auf <strong>🎲 Neu würfeln</strong> und beobachte B7.`, "ok"); return; }
+    feedback(fb3, `🏆 <strong>Expedition geschafft!</strong> Gerade: ${nf(v)}. Der Durchschnitt pendelt immer um <strong>3,5</strong>, denn (1+2+3+4+5+6) ÷ 6 = 3,5. In der Übungsdatei würfelst du 100 Mal, dann kommst du noch näher dran.`, "ok");
+  });
+
+  /* ---------- 2 · Vorsicht: Σ rät nur ---------- */
+  const fbSigma = document.getElementById("fbSigma");
+  const regen24 = [48, 35, 52, 61, 74, 88], regen25 = [41, 29, null, 66, 70, 92];
+  const sCells = { A1: "Regen in mm", B1: 2024, C1: 2025, A8: "Summe" };
+  ["Januar", "Februar", "März", "April", "Mai", "Juni"].forEach((m, i) => {
+    sCells["A" + (i + 2)] = m;
+    sCells["B" + (i + 2)] = regen24[i];
+    if (regen25[i] !== null) sCells["C" + (i + 2)] = regen25[i];
+  });
+  const calcSigma = new MiniCalc(document.getElementById("calcSigma"), {
+    cols: 3, rows: 8, cells: sCells, styles: { A1: "head", B1: "head", C1: "head", A8: "label" },
+    formats: { B1: "plain", C1: "plain" },
+    editable: ["B8", "C8"], select: "B8",
+    actions: [
+      { label: "Σ Summe", onClick: (c) => {
+        if (!c.editable.has(c.sel)) { feedback(fbSigma, T("Klick zuerst eine gelbe Zelle an."), "hint"); return; }
+        // Wie Calc: alle Zahlen direkt darüber, bis zur ersten leeren Zelle oder zu Text
+        const col = c.sel[0], row = +c.sel.slice(1);
+        let top = row;
+        while (top > 1 && typeof c.get(col + (top - 1)) === "number") top--;
+        if (top === row) { feedback(fbSigma, T("Über dieser Zelle stehen keine Zahlen."), "hint"); return; }
+        c.input.value = `=SUMME(${col}${top}:${col}${row - 1})`;
+        c.input.focus();
+        c.showRefs(c.input.value);
+        feedback(fbSigma, T(`Calc schlägt <code>${col}${top}:${col}${row - 1}</code> vor. Schau dir den Rahmen genau an! Passt er? Dann <kbd>Enter</kbd>. Sonst verbessere ihn in der Eingabezeile.`), "info");
+      } },
+      { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fbSigma.className = "fb"; } },
+    ],
+  });
+  calcSigma.on((c, src) => {
+    if (src === "reset") return;
+    const want = { B8: regen24.reduce((a, b) => a + b, 0), C8: regen25.reduce((a, b) => a + (b || 0), 0) };
+    let ok = 0;
+    // Erst die Zelle prüfen, an der gerade gearbeitet wurde
+    for (const a of c.sel === "C8" ? ["C8", "B8"] : ["B8", "C8"]) {
+      const raw = c.getRaw(a).replace(/\s/g, "").toUpperCase();
+      if (!raw) continue;
+      const v = c.get(a);
+      if (!/^=(SUMME|SUM)\(/.test(raw)) { feedback(fbSigma, T(`${a}: Nimm die Funktion SUMME, am schnellsten mit dem Σ-Knopf.`), "hint"); return; }
+      if (a === "B8" && near(v, want.B8 + 2024)) { feedback(fbSigma, T("Falle 1 zugeschnappt! In B8 ist die <strong>Jahreszahl 2024</strong> mitgezählt. Richtig ist <code>=SUMME(B2:B7)</code>."), "hint"); return; }
+      if (a === "C8" && near(v, 66 + 70 + 92)) { feedback(fbSigma, T("Falle 2 zugeschnappt! Calc hat in C8 nur <strong>bis zur Lücke</strong> im März markiert. Richtig ist <code>=SUMME(C2:C7)</code>."), "hint"); return; }
+      if (!near(v, want[a])) { feedback(fbSigma, T(`${a}: Prüf den Bereich. Alle sechs Monate, ohne Überschrift.`), "hint"); return; }
+      ok++;
+    }
+    feedback(fbSigma, ok === 2 ? T("🏆 Beide Fallen entschärft! Merke: Σ ist schnell, aber <strong>prüf immer den Rahmen</strong>.")
+      : T(`${ok} von 2 Summen richtig.`), ok === 2 ? "ok" : "info");
+  });
+  feedback(fbSigma, T("Klick B8 an und dann auf „Σ Summe“."), "info");
+
+  /* ---------- Mehr üben · Zeugnis-Schnitt ---------- */
+  const fbZeugnis = document.getElementById("fbZeugnis");
+  const zKopf = ["SA 1", "SA 2", "SA 3", "Ex 1", "Ex 2", "Ex 3", "mdl. 1", "mdl. 2"];
+  const zNoten = [["Mathe", [2, 2, 3, 4, 4, 3, 5, 4]], ["Deutsch", [4, 3, 5, 2, 1, 2, 2, 2]]];
+  const zCells = { A1: "Fach", J1: "ohne doppelt", K1: "SA doppelt" }, zStyles = { A1: "head", J1: "head", K1: "head" };
+  "BCDEFGHI".split("").forEach((col, i) => { zCells[col + "1"] = zKopf[i]; zStyles[col + "1"] = "head"; });
+  zNoten.forEach(([fach, n], i) => {
+    const r = i + 2;
+    zCells["A" + r] = fach;
+    "BCDEFGHI".split("").forEach((col, j) => { zCells[col + r] = n[j]; });
+    zCells["J" + r] = `=MITTELWERT(B${r}:I${r})`; zStyles["J" + r] = "fix";
+  });
+  const calcZeugnis = new MiniCalc(document.getElementById("calcZeugnis"), {
+    cols: 11, rows: 3, cells: zCells, styles: zStyles, decimal: "comma",
+    formats: { J: "dec2", K: "dec2" },
+    editable: ["K2", "K3"], select: "K2",
+    actions: [{ label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fbZeugnis.className = "fb"; } }],
+  });
+  calcZeugnis.on((c, src) => {
+    if (src === "reset") return;
+    let ok = 0;
+    for (const [i, [fach, n]] of zNoten.entries()) {
+      const a = "K" + (i + 2), raw = c.getRaw(a).replace(/\s/g, "");
+      if (!raw) continue;
+      const v = c.get(a), want = (2 * (n[0] + n[1] + n[2]) + n.slice(3).reduce((x, y) => x + y, 0)) / 11;
+      if (!raw.startsWith("=")) { feedback(fbZeugnis, T(`${a}: Eine Formel beginnt mit <code>=</code>.`), "hint"); return; }
+      if (near(v, c.get("J" + (i + 2)))) { feedback(fbZeugnis, T(`${a}: Das ist der normale Durchschnitt. Die Schulaufgaben zählen doppelt!`), "hint"); return; }
+      if (!near(v, want)) { feedback(fbZeugnis, T(`${a}: Noch nicht. Klammer um alles vor dem <code>/11</code>, sonst wird nur ein Teil geteilt.`), "hint"); return; }
+      ok++;
+    }
+    feedback(fbZeugnis, ok === 2 ? T("🏆 Richtig! In Mathe wird der Schnitt besser (3,09 statt 3,38), in Deutsch schlechter (3,00 statt 2,63). Die Schulaufgaben waren in Mathe gut, in Deutsch nicht.")
+      : T(`${ok} von 2 Fächern richtig.`), ok === 2 ? "ok" : "info");
+  });
+  feedback(fbZeugnis, T("Klick K2 an und tipp die Formel für Mathe."), "info");
+
+  checklist(document.getElementById("checklist"), "k8-03");
+});
+</script>
+<script>
+/* Weißt du noch? – Aufgaben zu früheren Bausteinen */
+document.addEventListener("DOMContentLoaded", () => {
+  Wdh(document.getElementById("wdh-box"), [
+    { type: "tippen", from: "aus Baustein 2", href: "02-erste-formeln.html",
+      q: "4 Hefte: Was kosten sie zusammen? Lass Calc in D2 rechnen.",
+      table: { cols: 4, rows: 2, cells: { A1: "Was", B1: "Menge", C1: "Preis", D1: "Gesamt", A2: "Heft", B2: 4, C2: 1.2 },
+        styles: { A1: "head", B1: "head", C1: "head", D1: "head" }, formats: { C: "eur", D: "eur" } },
+      cell: "D2", solution: "=B2*C2", check: Wdh.checks.formel({ refs: ["B2", "C2"], value: 4.8 }),
+      why: "Menge mal Preis. Ändert sich eine Zahl, rechnet Calc neu." },
+    { type: "wahl", from: "aus Baustein 1", href: "01-erste-schritte.html",
+      q: "In einer Zelle steht <strong>12 Stück</strong> ganz links. Was heißt das?",
+      options: ["Calc hat eine Zahl erkannt", "Calc hat Text erkannt", "Die Spalte ist zu schmal"], right: 1,
+      why: "Text steht links, Zahlen stehen rechts. Mit Text kann Calc nicht rechnen.",
+      miss: ["Zahlen stehen rechts. Das Wort Stück macht alles zu Text.", null, "Bei einer zu schmalen Spalte zeigt Calc <code>###</code>."] }
+  ]);
+});
+</script>
+</body>
+</html>

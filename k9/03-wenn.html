@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WENN 1 · Calc-Kurs Klasse 9</title>
+<meta name="description" content="Klasse 9, Baustein 3: WENN 1 – Calc stellt eine Ja/Nein-Frage. Ganz langsam von =WENN(Frage;&quot;Ja&quot;;&quot;Nein&quot;) zu eigenen Antworten.">
+<link rel="canonical" href="https://calc.herrseibert.de/k9/03-wenn.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/k9/03-wenn.html">
+<meta property="og:title" content="WENN 1 · Calc-Kurs Klasse 9">
+<meta property="og:description" content="Klasse 9, Baustein 3: WENN 1 – Calc stellt eine Ja/Nein-Frage. Ganz langsam von =WENN(Frage;&quot;Ja&quot;;&quot;Nein&quot;) zu eigenen Antworten.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="k9-03-wenn" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+<script src="../assets/stufen.js?v=67a7f8cf98" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Lernpfad Klasse 9">
+    <strong class="t">Klasse 9:</strong>
+    <ol>
+      <li class="done"><a href="01-fehlerdetektiv.html" title="1 · Fehlerdetektiv">1</a></li>
+      <li class="done"><a href="02-prozentrechnung.html" title="2 · Prozentrechnung">2</a></li>
+      <li class="now"><span title="3 · WENN 1" aria-current="step">3</span></li>
+      <li class="done"><a href="04-wenn-rechnen.html" title="4 · WENN 2">4</a></li>
+      <li class="done"><a href="05-wenn-grenzen.html" title="5 · WENN 3">5</a></li>
+      <li class="done"><a href="06-bedingte-formatierung.html" title="6 · Bedingte Formatierung 1">6</a></li>
+      <li class="done"><a href="07-bedingte-formatierung-2.html" title="7 · Bedingte Formatierung 2">7</a></li>
+      <li class="done"><a href="08-fit-fuer-die-probe.html" title="8 · Fit für die Probe">8</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>WENN 1 – Calc stellt eine Frage</h1>
+    <div class="meta">
+      <span class="chip">Klasse 9 · Baustein 3</span>
+      <span class="chip">⏱ ca. 37 Minuten</span>
+      <span class="chip">Teil 1 von 3 zu WENN</span>
+    </div>
+    <ul class="goals">
+      <li>Ich kann eine WENN-Formel als Ja/Nein-Frage lesen.</li>
+      <li>Ich kann <code class="long">=WENN(Frage;"Ja";"Nein")</code> selbst schreiben.</li>
+      <li>Ich kann statt Ja und Nein eigene Antworten ausgeben.</li>
+    </ul>
+  </section>
+
+  <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
+  <details class="card woerter" id="woerter">
+    <summary><span class="t">📖 Calc-Wörter für diesen Baustein</span></summary>
+    <p class="note">Die Wörter links bleiben deutsch. So stehen sie in Calc und in den Aufgaben.</p>
+    <table class="plain">
+      <tbody>
+        <tr><th class="wort" lang="de">vergleichen</th><td>prüfen: Ist etwas gleich, größer oder kleiner?</td></tr>
+        <tr><th class="wort" lang="de">gleich · ungleich</th><td>gleich: <code>=</code> · ungleich (nicht gleich): <code>&lt;&gt;</code></td></tr>
+        <tr><th class="wort" lang="de">mindestens</th><td>diese Zahl oder mehr: <code>&gt;=</code></td></tr>
+        <tr><th class="wort" lang="de">höchstens</th><td>diese Zahl oder weniger: <code>&lt;=</code></td></tr>
+        <tr><th class="wort" lang="de">das Anführungszeichen <small>die Anführungszeichen</small></th><td>das Zeichen <code>"</code>. Text in Formeln steht dazwischen: <code>"Ja"</code></td></tr>
+        <tr><th class="wort" lang="de">das Semikolon</th><td>das Zeichen <code>;</code>. Es trennt die drei Teile von WENN.</td></tr>
+        <tr><th class="wort" lang="de">ausgeben</th><td>anzeigen. WENN gibt eine Antwort aus.</td></tr>
+      </tbody>
+    </table>
+  </details>
+
+  <!-- 0 · Weißt du noch? -->
+  <section class="card wdh" id="wdh">
+    <h2><span class="step-no">↺</span> Weißt du noch? <span class="chip">2 Min</span></h2>
+    <p class="lead">Zwei Aufgaben zu früheren Bausteinen. Ohne Nachschauen!</p>
+    <div id="wdh-box"></div>
+  </section>
+
+  <!-- 1 · Vorhersage -->
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <div id="calc1"></div>
+    <p class="lead">💡 In B5 kommt diese Formel: <code class="long">=WENN(A5="Bus";"Ja";"Nein")</code></p>
+    <p><strong>Jetzt du:</strong> Was zeigt B5?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="ja">Ja</button>
+      <button type="button" class="choice" data-v="nein">Nein</button>
+      <button type="button" class="choice" data-v="bus">Bus</button>
+    </div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <!-- 2 · Erklärung -->
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> WENN ist eine Ja/Nein-Frage <span class="chip">7 Min</span></h2>
+    <div class="rule"><code class="long">=WENN(Frage;"Ja";"Nein")</code><br>Calc stellt eine Frage. Die Antwort ist nur <strong>Ja</strong> oder <strong>Nein</strong>.</div>
+
+    <h3 class="sub">Formel-Baukasten</h3>
+    <div id="calcBau"></div>
+    <div class="builder">
+      <span>Ist das Alter</span>
+      <select id="bauOp" aria-label="Vergleichszeichen">
+        <option value="&lt;">kleiner als (&lt;)</option>
+        <option value="&gt;">größer als (&gt;)</option>
+        <option value="&lt;=">höchstens (&lt;=)</option>
+        <option value="&gt;=">mindestens (&gt;=)</option>
+        <option value="=">gleich (=)</option>
+        <option value="&lt;&gt;">nicht gleich (&lt;&gt;)</option>
+      </select>
+      <select id="bauNum" aria-label="Zahl">
+        <option>12</option><option>14</option><option>15</option>
+      </select>
+      <span>?</span>
+    </div>
+    <p class="builder-out" id="bauOut"></p>
+    <p class="note">Stell verschiedene Fragen. Welche Zeilen bekommen Ja?</p>
+
+    <h3 class="sub">Die Vergleichszeichen</h3>
+    <div class="tbl-scroll">
+      <table class="plain">
+        <thead><tr><th>Zeichen</th><th>Frage</th><th>für Zahlen</th><th>für Text</th></tr></thead>
+        <tbody>
+          <tr><td><code>=</code></td><td>gleich?</td><td>✔</td><td>✔ <code>A5="Bus"</code></td></tr>
+          <tr><td><code>&lt;&gt;</code></td><td>nicht gleich?</td><td>✔</td><td>✔ <code>A5&lt;&gt;"Bus"</code></td></tr>
+          <tr><td><code>&lt;</code> · <code>&gt;</code></td><td>kleiner? größer?</td><td>✔</td><td></td></tr>
+          <tr><td><code>&lt;=</code> · <code>&gt;=</code></td><td>höchstens? mindestens?</td><td>✔</td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Text steht immer in <code>"Anführungszeichen"</code>. Zahlen ohne.</p>
+    <p class="note"><strong>Gegenfrage:</strong> Dreh die Frage um und tausch die Antworten. Das Ergebnis bleibt gleich.
+      <code class="long">=WENN(A5&gt;=12;"Ja";"Nein")</code> ist dasselbe wie <code class="long">=WENN(A5&lt;12;"Nein";"Ja")</code>.
+      Aus <code>&gt;=</code> wird <code>&lt;</code>, aus <code>&lt;=</code> wird <code>&gt;</code>.</p>
+
+    <div class="video-ph">
+      <span class="play" aria-hidden="true">▶</span>
+      <span class="t"><strong>Kurzvideo (folgt):</strong> Die erste WENN-Formel</span>
+    </div>
+  </section>
+
+  <!-- 3 · Ausprobieren -->
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Frage-Training in 4 Stufen <span class="chip">8 Min</span></h2>
+    <div id="calc2"></div>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <!-- 4 · In Calc -->
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">12 Min</span></h2>
+    <p class="lead">Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Die Spalte <strong>Kontrolle</strong> zeigt dir, was noch fehlt.</p>
+    <div class="dl">
+      <a href="../downloads/k9-03-wenn.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>k9-03-wenn.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-03-wenn-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Ja-Nein-Fragen:</strong> Vier kleine Fragen – Calc antwortet mit Ja oder Nein.</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Eigene Antworten:</strong> „bestanden“, „gratis“, „Hitzefrei!“ statt Ja und Nein.</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Finde die Frage:</strong> Die Antworten stehen schon da. Welche Frage passt?</span></li>
+      <li><span class="badge expedition">Freiwillig</span><span>Üben und ★ Expedition – jeweils mit eigener Datei und Lösung: <a href="#freiwillig">ganz unten auf dieser Seite</a>.</span></li>
+    </ul>
+  </section>
+
+  <!-- 5 · Kurz-Check -->
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">3 Min</span></h2>
+    <p class="lead">Vier Fragen. Hast du es verstanden?</p>
+    <div id="quiz"></div>
+  </section>
+
+  <!-- Merke -->
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li>WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: <code class="long">=WENN(Frage;"Ja";"Nein")</code></li>
+      <li>Beispiel: <code class="long">=WENN(A6="Katze";"Ja";"Nein")</code> – Steht in A6 Katze?</li>
+      <li>Vergleichen: <code>=</code> gleich · <code>&lt;&gt;</code> ungleich · <code>&lt;</code> kleiner · <code>&gt;</code> größer · <code>&lt;=</code> höchstens · <code>&gt;=</code> mindestens</li>
+      <li>Text steht immer in <code>"Anführungszeichen"</code>. Zahlen ohne.</li>
+      <li>Statt <code>"Ja"</code> und <code>"Nein"</code> darf jeder Text stehen, z. B. <code>"bestanden"</code>.</li>
+      <li>Gegenfrage: Frage umdrehen und Antworten tauschen – das Ergebnis bleibt gleich. Aus <code>&lt;=</code> wird <code>&gt;</code>.</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <!-- Ich kann -->
+  <section class="card" id="ichkann">
+    <h2>Das kann ich jetzt</h2>
+    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
+    <ul class="checklist" id="checklist">
+      <li><label><input type="checkbox"> <span class="t">Ich lese eine WENN-Formel als Frage.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich schreibe <code class="long">=WENN(Frage;"Ja";"Nein")</code> ohne Vorlage.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich kenne die Vergleichszeichen, besonders <code>&gt;=</code> und <code>&lt;&gt;</code>.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich finde zu fertigen Antworten die passende Frage.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich baue ein Quiz, das sich selbst auswertet.</span></label></li>
+    </ul>
+  </section>
+
+  <!-- Freiwillig: Üben + ★ Expedition -->
+  <section class="card frei" id="freiwillig">
+    <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
+    <p class="lead"><span class="badge ueben">Üben</span> heißt: dasselbe wie oben, nur mehr davon. <span class="badge expedition">★ Expedition</span> heißt: etwas Neues für Profis.</p>
+    <h3 class="sub"><span class="badge ueben">Üben</span> Wer fährt Bus?</h3>
+    <p>Wer höchstens 5 km weit weg wohnt, fährt Fahrrad. Alle anderen fahren Bus.
+      Du schreibst zwei Fragen. Die zweite ist die Gegenfrage zur ersten.</p>
+    <p class="note"><strong>Probe:</strong> In jeder Zeile steht genau einmal Ja. Schau besonders auf die Kinder mit genau 5 km.</p>
+    <div class="dl">
+      <a href="../downloads/k9-03-wenn-mehr-buskinder.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Üben: Wer fährt Bus?</strong><small>k9-03-wenn-mehr-buskinder.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-03-wenn-mehr-buskinder-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <h3 class="sub"><span class="badge expedition">★ Expedition</span> Quiz-Maker</h3>
+    <div id="calc3"></div>
+    <p>Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll <strong>richtig</strong> stehen, wenn in B2 Paris steht, sonst <strong>falsch</strong>.</p>
+    <p class="fb" id="fb3" aria-live="polite"></p>
+    <div class="dl">
+      <a href="../downloads/k9-03-wenn-expedition.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>★ Expedition: Quiz-Maker</strong><small>k9-03-wenn-expedition.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-03-wenn-expedition-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter im Lernpfad">
+    <a href="02-prozentrechnung.html">← 2 · Prozentrechnung</a>
+    <a href="04-wenn-rechnen.html">4 · WENN 2 →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz, checklist } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+  const isErr = (v) => v instanceof MiniCalc.CalcError;
+  const clean = (s) => s.replace(/\s/g, "").toUpperCase();
+  const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+  /* ---------- 1 · Vorhersage ---------- */
+  const fb1 = document.getElementById("fb1");
+  const calc1 = new MiniCalc(document.getElementById("calc1"), {
+    cols: 2, rows: 6,
+    cells: { A4: "Schulweg", B4: "Antwort", A5: "Bus", A6: "Fahrrad" },
+    styles: { A4: "head", B4: "head" }, select: "A5",
+  });
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    predict.querySelector('[data-v="ja"]').classList.add("right");
+    if (b.dataset.v !== "ja") b.classList.add("wrong");
+    calc1.set("B5", '=WENN(A5="Bus";"Ja";"Nein")');
+    calc1.set("B6", '=WENN(A6="Bus";"Ja";"Nein")');
+    calc1.select("B5");
+    feedback(fb1, (b.dataset.v === "ja" ? T("✔ Genau!") + " " : "") +
+      T("WENN stellt eine Frage: <strong>Steht in A5 „Bus“?</strong> Ja! Darum zeigt B5 <strong>Ja</strong>.") + " " +
+      T("In Zeile 6 steht Fahrrad – da ist die Antwort Nein."), b.dataset.v === "ja" ? "ok" : "hint");
+  });
+
+  /* ---------- 2 · Formel-Baukasten ---------- */
+  const calcBau = new MiniCalc(document.getElementById("calcBau"), {
+    cols: 2, rows: 4,
+    cells: { A1: "Alter", B1: "Antwort", A2: 11, A3: 12, A4: 15 },
+    styles: { A1: "head", B1: "head" }, select: "B2",
+  });
+  const opEl = document.getElementById("bauOp"), numEl = document.getElementById("bauNum"), outEl = document.getElementById("bauOut");
+  const words = { "<": "kleiner als", ">": "größer als", "<=": "höchstens", ">=": "mindestens", "=": "gleich", "<>": "nicht gleich" };
+  const build = () => {
+    const op = opEl.value, n = numEl.value;
+    ["2", "3", "4"].forEach((r) => calcBau.set("B" + r, `=WENN(A${r}${op}${n};"Ja";"Nein")`));
+    calcBau.select("B2");
+    const ja = ["2", "3", "4"].filter((r) => calcBau.get("B" + r) === "Ja").map((r) => calcBau.get("A" + r));
+    outEl.innerHTML = `<code class="long">=WENN(A2${esc(op)}${n};"Ja";"Nein")</code><br>` +
+      T(`Frage: Ist das Alter in A2 <strong>${T(words[op])} ${n}</strong>?`) + " " +
+      (ja.length ? T(`Ja bei: ${ja.join(", ")}.`) : T("Bei keiner Zeile Ja."));
+  };
+  opEl.addEventListener("change", build);
+  numEl.addEventListener("change", build);
+  build();
+
+  /* ---------- 3 · Frage-Training ---------- */
+  const yn = (b) => (b ? "Ja" : "Nein");
+  Stufen(document.getElementById("calc2"), document.getElementById("fb2"), [
+    { title: "Stufe 1 · Text vergleichen", head: "Schulweg", vals: ["Bus", "Fahrrad"],
+      q: "Frage: <strong>Steht in A2 Bus?</strong> Schreib in B2: <code class=\"long\">=WENN(A2=\"Bus\";\"Ja\";\"Nein\")</code>",
+      want: (v) => yn(String(v).toLowerCase() === "bus"),
+      hint2: () => T("In A2 steht Bus, also soll Ja herauskommen. Vergleiche mit <code>A2=\"Bus\"</code>."),
+      done: T("✔ Stufe 1 geschafft! Bus → Ja, Fahrrad → Nein.") },
+    { title: "Stufe 2 · Zahlen vergleichen", head: "Alter", vals: [12, 15],
+      q: "Frage: <strong>Ist das Alter kleiner als 14?</strong> Jetzt ohne Vorlage. Tipp: kleiner heißt <code>&lt;</code>.",
+      want: (v) => yn(v < 14),
+      hint2: () => T("12 ist kleiner als 14 – also Ja. Zahlen stehen <strong>ohne</strong> Anführungszeichen: <code>A2&lt;14</code>."),
+      hint3: () => T("15 ist nicht kleiner als 14 – also Nein. Prüfe dein Zeichen."),
+      done: T("✔ Stufe 2 geschafft!") },
+    { title: "Stufe 3 · Achtung, Grenze!", head: "Punkte", vals: [50, 47],
+      q: "Frage: <strong>Hat jemand mindestens 50 Punkte?</strong>",
+      want: (v) => yn(v >= 50),
+      hint2: () => T("In A2 stehen genau 50 Punkte. „Mindestens 50“ heißt: 50 zählt mit! Darum <code>&gt;=</code> und nicht <code>&gt;</code>."),
+      hint3: () => T("47 ist weniger als 50 – also Nein."),
+      done: T("✔ Stufe 3 geschafft! Bei „mindestens“ gehört die Grenze dazu: <code>&gt;=</code>.") },
+    { title: "Stufe 4 · Eigene Antworten", head: "Punkte", vals: [62, 49],
+      q: "Gleiche Frage wie in Stufe 3. Aber die Antworten heißen jetzt <strong>bestanden</strong> und <strong>durchgefallen</strong>.",
+      want: (v) => (v >= 50 ? "bestanden" : "durchgefallen"),
+      hint2: () => T("Statt <code>\"Ja\"</code> schreibst du <code>\"bestanden\"</code>, statt <code>\"Nein\"</code> schreibst du <code>\"durchgefallen\"</code>."),
+      hint3: () => T("49 Punkte – durchgefallen. Prüfe die Sonst-Antwort."),
+      done: T("🏆 Alle 4 Stufen geschafft! Du kannst jetzt WENN-Formeln schreiben.") },
+  ]);
+
+  /* ---------- 5 · Quiz ---------- */
+  quiz(document.getElementById("quiz"), [
+    { q: "In A5 steht Katze. Was zeigt <code>=WENN(A5=\"Hund\";\"Ja\";\"Nein\")</code>?",
+      options: ["Ja", "Nein", "Katze"], right: 1,
+      why: "Die Frage ist: Steht in A5 Hund? Nein – dort steht Katze.",
+      miss: ["Ja kommt nur, wenn die Frage stimmt.", null, "WENN zeigt nie einfach den Inhalt von A5. Es zeigt den Dann- oder den Sonst-Teil."] },
+    { q: "Welches Zeichen heißt „mindestens“?",
+      options: ["<code>&gt;</code>", "<code>&lt;=</code>", "<code>&gt;=</code>"], right: 2,
+      why: "Mindestens 50 heißt: 50 oder mehr. Die Grenze zählt mit: >=.",
+      miss: ["Mit <code>&gt;</code> zählt die Grenze nicht mit.", "<code>&lt;=</code> heißt höchstens.", null] },
+    { q: "Calc zeigt bei <code>=WENN(A5=Hund;\"Ja\";\"Nein\")</code> den Fehler #NAME?. Was fehlt?",
+      options: ["Anführungszeichen um Hund", "Ein Semikolon", "Ein $ vor A5"], right: 0,
+      why: "Text steht immer in Anführungszeichen: \"Hund\".",
+      miss: [null, "Die beiden Semikolons sind da.", "Ein $ ist nur beim Ziehen wichtig. #NAME? heißt: Calc kennt ein Wort nicht."] },
+    { q: "Welche Frage stellt <code>=WENN(A5&lt;&gt;\"Regen\";\"Ja\";\"Nein\")</code>?",
+      options: ["Regnet es?", "Ist A5 leer?", "Ist das Wetter NICHT Regen?"], right: 2,
+      why: "<> heißt ungleich. Bei Sonne kommt also Ja, bei Regen Nein.",
+      miss: ["Genau umgedreht.", "Leer heißt <code>A5=\"\"</code>.", null] },
+  ]);
+
+  /* ---------- Expedition: Quiz-Maker ---------- */
+  const fb3 = document.getElementById("fb3");
+  const seen = { richtig: false, falsch: false };
+  const calc3 = new MiniCalc(document.getElementById("calc3"), {
+    cols: 3, rows: 2,
+    cells: { A1: "Frage", B1: "Antwort", C1: "Auswertung", A2: "Hauptstadt von Frankreich?" },
+    styles: { A1: "head", B1: "head", C1: "head" }, editable: ["B2", "C2"], select: "B2",
+    actions: [{ label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { seen.richtig = seen.falsch = false; c.reset(); fb3.className = "fb"; } }],
+  });
+  calc3.on((c, src) => {
+    if (src === "reset") return;
+    const raw = clean(c.getRaw("C2"));
+    if (!raw) { feedback(fb3, T("Tippe in B2 eine Antwort und in C2 die WENN-Formel."), "info"); return; }
+    const v = c.get("C2");
+    if (!raw.startsWith("=") || isErr(v)) { feedback(fb3, T("C2 braucht eine WENN-Formel. Tipp: <code class=\"long\">=WENN(B2=\"Paris\";\"richtig\";\"falsch\")</code>"), "hint"); return; }
+    if (!/^=(WENN|IF)\(/.test(raw) || !raw.includes('"PARIS"')) { feedback(fb3, T("Die Frage in der Formel lautet: Steht in B2 „Paris“? Also <code>B2=\"Paris\"</code>."), "hint"); return; }
+    const want = String(c.get("B2") || "").trim().toLowerCase() === "paris" ? "richtig" : "falsch";
+    if (String(v).toLowerCase() !== want) { feedback(fb3, T("Die Auswertung passt nicht. Erst \"richtig\", dann \"falsch\"."), "hint"); return; }
+    seen[want] = true;
+    if (seen.richtig && seen.falsch) { feedback(fb3, T("🏆 Expedition geschafft! Dein Quiz wertet sich selbst aus – genau wie die Kontrolle in den Übungsdateien."), "ok"); return; }
+    feedback(fb3, want === "richtig"
+      ? T("✔ Es klappt! Teste jetzt mit einer <strong>falschen</strong> Antwort in B2, z. B. Berlin.")
+      : T("✔ Bei einer falschen Antwort kommt „falsch“. Teste jetzt auch die richtige Antwort Paris."), "info");
+  });
+
+  checklist(document.getElementById("checklist"), "k9-03");
+});
+</script>
+<script>
+/* Weißt du noch? – Aufgaben zu früheren Bausteinen */
+document.addEventListener("DOMContentLoaded", () => {
+  Wdh(document.getElementById("wdh-box"), [
+    { type: "tippen", from: "aus Baustein 2", href: "02-prozentrechnung.html",
+      q: "Wie viel Euro Rabatt gibt es auf die Jacke? Rechne in C4.",
+      table: { cols: 3, rows: 4, cells: { A1: "Rabatt", B1: "20 %", A3: "Artikel", B3: "Preis", C3: "Rabatt in €", A4: "Jacke", B4: 80 },
+        styles: { A1: "label", A3: "head", B3: "head", C3: "head" }, formats: { B4: "eur", C: "eur" } },
+      cell: "C4", solution: "=B4*B1",
+      check: Wdh.checks.formel({ refs: ["B4", "B1"], value: 16, bad: { "/100": "20 % ist für Calc schon 0,2. Teile nicht noch einmal durch 100." } }),
+      why: "80 € mal 20 % sind 16 €. Calc rechnet mit 0,2." },
+    { type: "wahl", from: "aus Baustein 1", href: "01-fehlerdetektiv.html",
+      q: "D5 zeigt 12,00 €. In der Eingabezeile steht nur <code>12</code>. Was ist das Problem?",
+      options: ["Kein Problem, das Ergebnis stimmt", "Calc zeigt gleich <code>#WERT!</code>", "Die Zahl ist getippt. Ändert sich der Preis, bleibt 12 stehen."], right: 2,
+      why: "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht mit.",
+      miss: ["Heute stimmt es. Aber wenn sich etwas ändert, rechnet Calc nicht neu.", "Calc meldet hier nichts. Darum heißt es stiller Fehler.", null] }
+  ]);
+});
+</script>
+</body>
+</html>

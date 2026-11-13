@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diagramme · Calc-Kurs Klasse 8</title>
+<meta name="description" content="Baustein 6 im Calc-Lernpfad: Diagramme erstellen, das passende Diagramm wählen – und Tricks mit der y-Achse durchschauen.">
+<link rel="canonical" href="https://calc.herrseibert.de/k8/06-diagramme.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/k8/06-diagramme.html">
+<meta property="og:title" content="Diagramme · Calc-Kurs Klasse 8">
+<meta property="og:description" content="Baustein 6 im Calc-Lernpfad: Diagramme erstellen, das passende Diagramm wählen – und Tricks mit der y-Achse durchschauen.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="k8-06-diagramme" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+<script src="../assets/minichart.js?v=8eed7d4abd" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Lernpfad Klasse 8">
+    <strong class="t">Klasse 8:</strong>
+    <ol>
+      <li class="done"><a href="01-erste-schritte.html" title="1 · Erste Schritte">1</a></li>
+      <li class="done"><a href="02-erste-formeln.html" title="2 · Erste Formeln">2</a></li>
+      <li class="done"><a href="03-funktionen.html" title="3 · Funktionen">3</a></li>
+      <li class="done"><a href="04-ausfuellen.html" title="4 · Ausfüllen">4</a></li>
+      <li class="done"><a href="05-absolute-bezuege.html" title="5 · Absolute Bezüge">5</a></li>
+      <li class="now"><span title="6 · Diagramme" aria-current="step">6</span></li>
+      <li class="done"><a href="07-projekt-klassenfahrt.html" title="7 · Projekt">7</a></li>
+      <li class="done"><a href="07-projekt-klassenfahrt.html" title="8 · Projekt">8</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>Diagramme – Zahlen auf einen Blick</h1>
+    <div class="meta">
+      <span class="chip">Klasse 8 · Baustein 6</span>
+      <span class="chip">⏱ ca. 37 Minuten</span>
+      <span class="chip">Vorwissen: Tabellen markieren</span>
+    </div>
+    <ul class="goals">
+      <li>Ich kann aus einer Tabelle ein Diagramm erstellen.</li>
+      <li>Ich kann das passende Diagramm wählen: Säule, Kreis oder Linie.</li>
+      <li>Ich kann ein Diagramm beschriften und richtig lesen.</li>
+    </ul>
+  </section>
+
+  <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
+  <details class="card woerter" id="woerter">
+    <summary><span class="t">📖 Calc-Wörter für diesen Baustein</span></summary>
+    <p class="note">Die Wörter links bleiben deutsch. So stehen sie in Calc und in den Aufgaben.</p>
+    <table class="plain">
+      <tbody>
+        <tr><th class="wort" lang="de">das Diagramm <small>die Diagramme</small></th><td>ein Bild aus Zahlen</td></tr>
+        <tr><th class="wort" lang="de">die Säule <small>die Säulen</small></th><td>ein Balken, der nach oben geht. Säulen vergleichen Werte.</td></tr>
+        <tr><th class="wort" lang="de">der Anteil <small>die Anteile</small></th><td>ein Teil vom Ganzen, z. B. 12 von 48</td></tr>
+        <tr><th class="wort" lang="de">der Verlauf</th><td>wie sich etwas mit der Zeit ändert, z. B. die Temperatur</td></tr>
+        <tr><th class="wort" lang="de">die Achse <small>die Achsen</small></th><td>die Linie unten und die Linie links am Diagramm</td></tr>
+        <tr><th class="wort" lang="de">beschriften</th><td>dazuschreiben, was man sieht, z. B. °C</td></tr>
+        <tr><th class="wort" lang="de">der Titel</th><td>die Überschrift vom Diagramm</td></tr>
+      </tbody>
+    </table>
+  </details>
+
+  <!-- 0 · Weißt du noch? -->
+  <section class="card wdh" id="wdh">
+    <h2><span class="step-no">↺</span> Weißt du noch? <span class="chip">2 Min</span></h2>
+    <p class="lead">Zwei Aufgaben zu früheren Bausteinen. Ohne Nachschauen!</p>
+    <div id="wdh-box"></div>
+  </section>
+
+  <!-- 1 · Vorhersage -->
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <p class="lead">Jonas hat die Temperaturen einer Woche in ein Diagramm verwandelt. Irgendwas stimmt da nicht …</p>
+    <div class="side">
+      <div class="chart-box" id="chart1a"></div>
+      <div class="chart-box" id="chart1b" hidden></div>
+    </div>
+    <p><strong>Jetzt du:</strong> Was ist das Problem?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="legende">Die Legende ist zu lang.</button>
+      <button type="button" class="choice" data-v="kreis">Ein Kreis zeigt Teile von einem Ganzen. Temperaturen sind aber kein Ganzes.</button>
+      <button type="button" class="choice" data-v="farben">Die Farben passen nicht zum Wetter.</button>
+    </div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <!-- 2 · Erklärung -->
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> Welches Diagramm passt? <span class="chip">5 Min</span></h2>
+    <div class="types">
+      <div>
+        <svg viewBox="0 0 64 48" aria-hidden="true"><rect x="6" y="20" width="12" height="26" rx="2" fill="var(--ch1)"/><rect x="26" y="8" width="12" height="38" rx="2" fill="var(--ch1)"/><rect x="46" y="28" width="12" height="18" rx="2" fill="var(--ch1)"/></svg>
+        <strong>Säule</strong><span>vergleicht Werte</span>
+      </div>
+      <div>
+        <svg viewBox="0 0 64 48" aria-hidden="true"><circle cx="32" cy="24" r="21" fill="var(--ch2)"/><path d="M32,24 L32,3 A21,21 0 0 1 52,30 Z" fill="var(--ch1)"/><path d="M32,24 L52,30 A21,21 0 0 1 20,41 Z" fill="var(--ch3)"/></svg>
+        <strong>Kreis</strong><span>zeigt Anteile vom Ganzen</span>
+      </div>
+      <div>
+        <svg viewBox="0 0 64 48" aria-hidden="true"><polyline points="4,38 18,28 32,32 46,14 60,8" fill="none" stroke="var(--ch1)" stroke-width="3.5" stroke-linejoin="round"/></svg>
+        <strong>Linie</strong><span>zeigt einen Verlauf über die Zeit</span>
+      </div>
+    </div>
+
+    <h3 class="sub">So erstellst du ein Diagramm in Calc</h3>
+    <ol class="howto">
+      <li>Tabelle <strong>mit Überschriften</strong> markieren.</li>
+      <li>Menü <strong>Einfügen → Diagramm …</strong></li>
+      <li>Diagrammtyp wählen → <strong>Weiter</strong>.</li>
+      <li>Bei „Diagrammelemente“ einen Titel eintippen → <strong>Fertigstellen</strong>.</li>
+    </ol>
+    <p class="note">Später ändern: Doppelklick auf das Diagramm.</p>
+
+    <div class="video-ph">
+      <span class="play" aria-hidden="true">▶</span>
+      <span class="t"><strong>Kurzvideo (folgt):</strong> In 4 Schritten zum Diagramm</span>
+    </div>
+  </section>
+
+  <!-- 3 · Ausprobieren -->
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Selbst ausprobieren <span class="chip">5 Min</span></h2>
+    <div id="calc2"></div>
+    <p class="lead">Umfrage in der 8b: Wie kommst du zur Schule? Probier alle drei Diagrammarten aus. Welche passen, welche nicht?</p>
+    <div class="seg" id="types2">
+      <button type="button" class="btn secondary" data-t="bar">Säule</button>
+      <button type="button" class="btn secondary" data-t="pie">Kreis</button>
+      <button type="button" class="btn secondary" data-t="line">Linie</button>
+    </div>
+    <div class="side">
+      <div class="chart-box" id="chart2"><p class="note" style="padding:20px">Wähle oben eine Diagrammart.</p></div>
+    </div>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <!-- 4 · In Calc -->
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">15 Min</span></h2>
+    <p class="lead">Lade die Übungsdatei herunter. Du erstellst selbst Diagramme und liest sie ab. In der Lösungsdatei findest du die fertigen Diagramme zum Vergleichen.</p>
+    <div class="dl">
+      <a href="../downloads/k8-06-diagramme.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>k8-06-diagramme.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-06-diagramme-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>mit fertigen Diagrammen</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Schulweg:</strong> Ein Säulendiagramm erstellen und ablesen.</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Wetterwoche:</strong> Ein Liniendiagramm erstellen und ablesen.</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Welches Diagramm?</strong> Die richtige Art wählen und ein Kreisdiagramm mit Prozenten bauen.</span></li>
+      <li><span class="badge expedition">Freiwillig</span><span>Üben und ★ Expedition – jeweils mit eigener Datei und Lösung: <a href="#freiwillig">ganz unten auf dieser Seite</a>.</span></li>
+    </ul>
+  </section>
+
+  <!-- 5 · Kurz-Check -->
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">5 Min</span></h2>
+    <p class="lead">Vier Fragen. Hast du es verstanden?</p>
+    <div id="quiz"></div>
+  </section>
+
+  <!-- Merke -->
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li><strong>Säule</strong> vergleicht · <strong>Kreis</strong> zeigt Anteile vom Ganzen · <strong>Linie</strong> zeigt einen Verlauf über die Zeit.</li>
+      <li>Erstellen: Tabelle mit Überschriften markieren → <strong>Einfügen → Diagramm …</strong></li>
+      <li>Jedes Diagramm braucht einen <strong>Titel</strong>. Achsen bekommen eine Beschriftung (z. B. °C).</li>
+      <li>Ändern sich die Zahlen in der Tabelle, ändert sich das Diagramm mit.</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <!-- Ich kann -->
+  <section class="card" id="ichkann">
+    <h2>Das kann ich jetzt</h2>
+    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
+    <ul class="checklist" id="checklist">
+      <li><label><input type="checkbox"> <span class="t">Ich kann aus einer Tabelle ein Diagramm erstellen.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich weiß, wann Säule, Kreis oder Linie passt.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t">Ich gebe jedem Diagramm einen Titel und beschrifte die Achsen.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich kann Prozente im Kreisdiagramm anzeigen.</span></label></li>
+      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich erkenne getrickste Diagramme an der y-Achse.</span></label></li>
+    </ul>
+  </section>
+
+  <!-- Freiwillig: Üben + ★ Expedition -->
+  <section class="card frei" id="freiwillig">
+    <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
+    <p class="lead"><span class="badge ueben">Üben</span> heißt: dasselbe wie oben, nur mehr davon. <span class="badge expedition">★ Expedition</span> heißt: etwas Neues für Profis.</p>
+    <h3 class="sub"><span class="badge ueben">Üben</span> Das Stromtarif-Duell</h3>
+    <div id="calcStrom"></div>
+    <div id="chartStrom"></div>
+    <p class="lead">Strom kostet zweimal: einen <strong>Grundpreis</strong> jeden Monat und einen Preis für jede <strong>kWh</strong>.</p>
+    <p><strong>Jahreskosten = 12 × Grundpreis + kWh × Cent ÷ 100</strong>. Tipp die Formel in B6 und füll sie aus. Das Diagramm zeichnet sich von selbst.</p>
+    <p class="fb" id="fbStrom" aria-live="polite"></p>
+    <div id="quizStrom"></div>
+    <div class="dl">
+      <a href="../downloads/k8-06-diagramme-mehr-stromtarif-duell.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Üben: Stromtarif-Duell</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-06-diagramme-mehr-stromtarif-duell-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <h3 class="sub"><span class="badge expedition">★ Expedition</span> Lügen mit Diagrammen</h3>
+    <p class="lead">Abstimmung über die Klassenfahrt: Berlin 48 Stimmen, München 52 Stimmen. Verschieb den Regler. Wo fängt die y-Achse an?</p>
+    <div class="slider">
+      <label for="ymin"><strong class="t">y-Achse beginnt bei:</strong> <span id="yminval">0</span></label>
+      <input type="range" id="ymin" min="0" max="47" step="1" value="0">
+    </div>
+    <div class="chart-box" id="chart3"></div>
+    <p class="fb show info" id="fb3" aria-live="polite"></p>
+    <div id="quiz3"></div>
+    <div class="dl">
+      <a href="../downloads/k8-06-diagramme-expedition.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>★ Expedition: Lügen mit Diagrammen</strong><small>k8-06-diagramme-expedition.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-06-diagramme-expedition-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter im Lernpfad">
+    <a href="05-absolute-bezuege.html">← 5 · Absolute Bezüge</a>
+    <a href="07-projekt-klassenfahrt.html">7 · Projekt →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz, checklist } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+  const C = window.MiniChart;
+
+  /* ---------- 1 · Vorhersage ---------- */
+  const tage = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"];
+  const temp = [14, 17, 19, 16, 21, 23, 20];
+  const renderA = () => C.render(document.getElementById("chart1a"), { type: "pie", title: T("Wetterwoche (°C)"), labels: tage, values: temp });
+  renderA();
+  const fb1 = document.getElementById("fb1");
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    predict.querySelector('[data-v="kreis"]').classList.add("right");
+    if (b.dataset.v !== "kreis") b.classList.add("wrong");
+    const box = document.getElementById("chart1b");
+    box.hidden = false;
+    C.render(box, { type: "line", title: T("Wetterwoche – besser so"), labels: tage, values: temp, yTitle: "°C" });
+    feedback(fb1, (b.dataset.v === "kreis" ? T("✔ Genau!") + " " : "") +
+      T("Was sollen „11 % Montag“ bedeuten? Die Temperaturen ändern sich von Tag zu Tag. Das ist ein <strong>Verlauf</strong>, und dafür passt eine <strong>Linie</strong>.") + " " +
+      T("Rechts siehst du sofort: Am Samstag war es am wärmsten."), b.dataset.v === "kreis" ? "ok" : "hint");
+  });
+
+  /* ---------- 3 · Ausprobieren ---------- */
+  const fb2 = document.getElementById("fb2");
+  const chart2 = document.getElementById("chart2");
+  let type = null;
+  const tried = new Set();
+  const calc2 = new MiniCalc(document.getElementById("calc2"), {
+    cols: 2, rows: 9,
+    cells: { A4: "Schulweg", B4: "Anzahl", A5: "Bus", B5: 9, A6: "Fahrrad", B6: 7, A7: "zu Fuß", B7: 5, A8: "Auto", B8: 3, A9: "Zug", B9: 2 },
+    styles: { A4: "head", B4: "head" },
+    editable: ["B5", "B6", "B7", "B8", "B9"], select: "B5",
+  });
+  const draw = () => {
+    if (!type) return;
+    const rows = [5, 6, 7, 8, 9];
+    C.render(chart2, { type, title: T("Wie kommst du zur Schule?"), labels: rows.map((r) => calc2.get("A" + r)),
+      values: rows.map((r) => Number(calc2.get("B" + r)) || 0), yTitle: T("Anzahl") });
+  };
+  const msg = {
+    bar: "✔ <strong>Säule</strong> passt: Du kannst die Schulwege gut miteinander vergleichen.",
+    pie: "✔ <strong>Kreis</strong> passt auch: Alle 26 Kinder zusammen sind das Ganze. Jedes Stück zeigt einen Anteil davon.",
+    line: "✘ <strong>Linie</strong> passt nicht. Eine Linie verbindet Punkte und zeigt einen Verlauf. Aber zwischen „Bus“ und „Fahrrad“ verläuft nichts!",
+  };
+  document.getElementById("types2").addEventListener("click", (ev) => {
+    const b = ev.target.closest("button[data-t]");
+    if (!b) return;
+    type = b.dataset.t;
+    document.querySelectorAll("#types2 button").forEach((x) => x.classList.toggle("on", x === b));
+    tried.add(type);
+    draw();
+    const all = tried.has("bar") && tried.has("pie") && tried.has("line");
+    feedback(fb2, msg[type] + (all ? "<br><strong>Jetzt:</strong> Ändere eine Zahl in der Tabelle. Was macht das Diagramm?" : ""), type === "line" ? "hint" : "ok");
+  });
+  calc2.on((c, src) => {
+    if (src === "reset") return;
+    draw();
+    if (type) feedback(fb2, "🎉 Das Diagramm hat sich sofort angepasst. So ist es in Calc auch: Tabelle ändern, Diagramm zieht mit.", "ok");
+  });
+
+  /* ---------- 5 · Quiz ---------- */
+  quiz(document.getElementById("quiz"), [
+    { q: "Du misst 6 Wochen lang, wie groß deine Bohnenpflanze ist. Welches Diagramm passt?",
+      options: ["Kreis", "Linie", "gar keins"], right: 1,
+      why: "Die Größe ändert sich über die Zeit. Das ist ein Verlauf, also eine Linie.",
+      miss: ["Ein Kreis zeigt Teile von einem Ganzen. Die Größen der Bohne ergeben kein Ganzes.", null, "Ein Diagramm zeigt hier auf einen Blick, wie schnell die Bohne wächst."] },
+    { q: "Welcher Anteil der Klasse hat ein Haustier und welcher nicht?",
+      options: ["Kreis", "Linie", "gar keins"], right: 0,
+      why: "Ja und Nein ergeben zusammen die ganze Klasse. Anteile vom Ganzen zeigt der Kreis.",
+      miss: [null, "Eine Linie zeigt einen Verlauf über die Zeit. Hier gibt es keine Zeit.", "Mit einem Kreis sieht man sofort, ob es mehr oder weniger als die Hälfte ist."] },
+    { q: "Wie startest du in Calc ein Diagramm?",
+      options: ["Format → Diagramm", "Ansicht → Diagramm", "Einfügen → Diagramm …"], right: 2,
+      why: "Vorher die Tabelle mit Überschriften markieren, dann Einfügen → Diagramm …",
+      miss: ["Ein Diagramm ist etwas Neues. Neues holst du über Einfügen.", "Ein Diagramm ist etwas Neues. Neues holst du über Einfügen.", null] },
+    { q: "Was markierst du, bevor du ein Diagramm erstellst?",
+      options: ["Die Tabelle mit den Überschriften", "Nur die Zahlen", "Gar nichts"], right: 0,
+      why: "Aus den Überschriften macht Calc die Beschriftungen, z. B. Bus, Fahrrad …",
+      miss: [null, "Ohne Überschriften fehlen im Diagramm die Beschriftungen.", "Dann muss Calc raten, welche Daten du meinst. Das geht oft schief."] },
+  ]);
+
+  /* ---------- Expedition: Achse ---------- */
+  const slider = document.getElementById("ymin"), val = document.getElementById("yminval"), fb3 = document.getElementById("fb3");
+  const drawLie = () => {
+    const m = Number(slider.value);
+    val.textContent = m;
+    C.render(document.getElementById("chart3"), { type: "bar", title: T("Wohin geht die Klassenfahrt?"), labels: ["Berlin", "München"], values: [48, 52], yMin: m, yTitle: T("Stimmen") });
+    const factor = (52 - m) / (48 - m);
+    const f = factor.toLocaleString("de-DE", { maximumFractionDigits: 1 });
+    fb3.innerHTML = T(m === 0
+      ? "Ehrlich: Die Säulen sind fast gleich hoch. Der Unterschied ist ja auch nur <strong>4 Stimmen</strong>."
+      : `Die München-Säule sieht jetzt <strong>${f}-mal</strong> so hoch aus wie Berlin. Dabei sind es immer noch nur 4 Stimmen Unterschied!`);
+  };
+  slider.addEventListener("input", drawLie);
+  drawLie();
+  document.addEventListener("i18n-ready", () => { renderA(); drawLie(); draw(); });
+  quiz(document.getElementById("quiz3"), [
+    { q: "Eine Zeitung zeigt ein Diagramm mit riesigem Unterschied. Was prüfst du zuerst?",
+      options: ["Die Farben", "Wo die y-Achse anfängt", "Wie groß das Bild ist"], right: 1,
+      why: "Fängt die y-Achse nicht bei 0 an, wirken kleine Unterschiede riesig. Das ist ein beliebter Trick!" },
+  ]);
+
+  /* ---------- Mehr üben · Stromtarif-Duell ---------- */
+  const fbStrom = document.getElementById("fbStrom");
+  const anbieter = ["Stadtwerke", "Blitzstrom", "Ökostrom"];
+  const stromCells = { A1: "Anbieter", A2: "Grundpreis/Monat", B2: 12, C2: 0, D2: 6, A3: "Cent pro kWh", B3: 26, C3: 33, D3: 29,
+    A5: "kWh pro Jahr", A6: 1000, A7: 3000, A8: 5000 };
+  ["B", "C", "D"].forEach((k, i) => { stromCells[k + "1"] = anbieter[i]; stromCells[k + "5"] = anbieter[i]; });
+  const sBlk = ["B", "C", "D"].flatMap((k) => [6, 7, 8].map((r) => k + r));
+  const calcStrom = new MiniCalc(document.getElementById("calcStrom"), {
+    cols: 4, rows: 8, decimal: "comma", cells: stromCells,
+    styles: { A1: "head", B1: "head", C1: "head", D1: "head", A5: "head", B5: "head", C5: "head", D5: "head",
+              B2: "fix", C2: "fix", D2: "fix", B3: "fix", C3: "fix", D3: "fix" },
+    formats: { B2: "eur", C2: "eur", D2: "eur", A6: "plain", A7: "plain", A8: "plain",
+               B6: "eur", C6: "eur", D6: "eur", B7: "eur", C7: "eur", D7: "eur", B8: "eur", C8: "eur", D8: "eur" },
+    editable: sBlk, select: "B6",
+    actions: [
+      { label: "■ B6 nach rechts und unten ausfüllen", onClick: async (c) => {
+          if (!c.getRaw("B6")) { feedback(fbStrom, T("Erst eine Formel in B6 eintippen!"), "hint"); return; }
+          await c.fill("B6", sBlk.filter((a) => a !== "B6"), 90);
+        } },
+      { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fbStrom.className = "fb"; drawStrom(c); } },
+    ],
+  });
+  const drawStrom = (c) => C.render(document.getElementById("chartStrom"), {
+    type: "line", title: T("Jahreskosten in €"), labels: ["1000", "3000", "5000"],
+    series: ["B", "C", "D"].map((k, i) => ({ name: anbieter[i], values: [6, 7, 8].map((r) => {
+      const v = c.get(k + r); return typeof v === "number" ? v : null; }) })),
+  });
+  drawStrom(calcStrom);
+  const kosten = (c, a) => 12 * c.get(a[0] + "2") + c.get("A" + a.slice(1)) * c.get(a[0] + "3") / 100;
+  calcStrom.on((c, src) => {
+    drawStrom(c);
+    if (src === "reset") return;
+    if (!c.getRaw("B6")) return;
+    const b6 = c.get("B6");
+    if (typeof b6 === "number" && Math.abs(b6 - (12 * 12 + 1000 * 26)) < 0.01) { feedback(fbStrom, T("B6 ist viel zu groß: Die Cent musst du noch durch 100 teilen, dann sind es Euro."), "hint"); return; }
+    if (!(typeof b6 === "number" && Math.abs(b6 - kosten(c, "B6")) < 0.005)) { feedback(fbStrom, T("B6: <code>=12*B2+A6*B3/100</code>"), "hint"); return; }
+    if (!sBlk.every((a) => c.getRaw(a))) { feedback(fbStrom, T("✔ B6 stimmt: 404 € im Jahr. Jetzt ausfüllen. Tipp für eine Formel für alles: <code>=12*B$2+$A6*B$3/100</code>"), "info"); return; }
+    const right = sBlk.filter((a) => typeof c.get(a) === "number" && Math.abs(c.get(a) - kosten(c, a)) < 0.005).length;
+    if (right < 9) { feedback(fbStrom, T(`${right} von 9 stimmen. Beim Ausfüllen wandern die Bezüge weg. Halt Zeile 2 und 3 fest (<code>B$2</code>, <code>B$3</code>) und die Spalte A (<code>$A6</code>).`), "hint"); return; }
+    feedback(fbStrom, T("🏆 Alle Kosten stimmen! Schau aufs Diagramm: Wo sich Linien kreuzen, wechselt der billigste Anbieter. Jetzt die Fragen unten."), "ok");
+  });
+  feedback(fbStrom, T("Klick B6 an und tipp die Formel für die Stadtwerke bei 1000 kWh."), "info");
+  quiz(document.getElementById("quizStrom"), [
+    { q: "Single-Wohnung, 1000 kWh im Jahr: Welcher Anbieter ist am billigsten?",
+      options: ["Stadtwerke", "Blitzstrom", "Ökostrom"], right: 1,
+      why: "Bei wenig Verbrauch gewinnt Blitzstrom: kein Grundpreis. Die hohen Cent pro kWh fallen kaum ins Gewicht." },
+    { q: "Familie mit 4 Personen, 5000 kWh: Welcher Anbieter ist am billigsten?",
+      options: ["Stadtwerke", "Blitzstrom", "Ökostrom"], right: 0,
+      why: "Bei viel Verbrauch gewinnen die Stadtwerke. Der Grundpreis ist hoch, aber jede kWh ist billig." },
+  ]);
+
+  checklist(document.getElementById("checklist"), "k8-06");
+});
+</script>
+<script>
+/* Weißt du noch? – Aufgaben zu früheren Bausteinen */
+document.addEventListener("DOMContentLoaded", () => {
+  Wdh(document.getElementById("wdh-box"), [
+    { type: "tippen", from: "aus Baustein 5", href: "05-absolute-bezuege.html",
+      q: "Was zahlt Ali? Schreib die Formel in C4 so, dass du sie <strong>nach unten ziehen</strong> kannst.",
+      table: { cols: 3, rows: 6, cells: { A1: "Preis pro Karte", B1: 6, A3: "Name", B3: "Karten", C3: "Kosten", A4: "Ali", B4: 2, A5: "Mia", B5: 3, A6: "Tom", B6: 5 }, styles: { A1: "label", A3: "head", B3: "head", C3: "head" }, formats: { B1: "eur", C: "eur" } },
+      cell: "C4", solution: "=B4*$B$1", check: Wdh.checks.dollar({ fix: "B1", move: "B4", value: 12 }),
+      why: "B4 wandert beim Ziehen mit. <code>$B$1</code> bleibt fest." },
+    { type: "wahl", from: "aus Baustein 4", href: "04-ausfuellen.html",
+      q: "In D5 steht <code>=B5*C5</code>. Du ziehst die Formel nach <strong>rechts</strong> in E5. Was steht in E5?",
+      options: ["<code>=C5*D5</code>", "<code>=B6*C6</code>", "<code>=B5*C5</code>"], right: 0,
+      why: "Eine Spalte weiter rechts wird aus B ein C und aus C ein D.",
+      miss: [null, "Nach rechts ändern sich die Buchstaben, nicht die Zahlen.", "Beim Ziehen wandert die Formel mit. Sie bleibt nicht gleich."] }
+  ]);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sortieren &amp; Filtern · Calc-Kurs Zusatzmodul</title>
+<meta name="description" content="Zusatzmodul: Sortieren und Filtern – Tabellen auf- und absteigend sortieren, mit AutoFilter nur bestimmte Zeilen zeigen, nach zwei Spalten sortieren.">
+<link rel="canonical" href="https://calc.herrseibert.de/extra/03-sortieren-filtern.html">
+<!-- vorschau -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Calc-Kurs">
+<meta property="og:locale" content="de_DE">
+<meta property="og:url" content="https://calc.herrseibert.de/extra/03-sortieren-filtern.html">
+<meta property="og:title" content="Sortieren &amp; Filtern · Calc-Kurs Zusatzmodul">
+<meta property="og:description" content="Zusatzmodul: Sortieren und Filtern – Tabellen auf- und absteigend sortieren, mit AutoFilter nur bestimmte Zeilen zeigen, nach zwei Spalten sortieren.">
+<meta property="og:image" content="https://calc.herrseibert.de/vorschau.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Calc-Kurs – LibreOffice Calc lernen, mit Sprachhilfe in 13 Sprachen">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /vorschau -->
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/kurs.css?v=5ff8f830bc">
+<script src="../assets/i18n.js?v=1b30a9d559" data-page="extra-03-sortieren-filtern" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
+<script src="../assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="../assets/minicalc.js?v=0d98215f9b" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img class="logo" src="../favicon.svg" alt="" width="34" height="34"> Calc-Kurs <span>· LibreOffice Calc</span></a>
+    <span class="spacer"></span>
+    <button class="theme-btn" type="button" aria-label="Hell oder dunkel umschalten">◐ Hell/Dunkel</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="path" aria-label="Zusatzmodule">
+    <strong class="t">Zusatzmodule:</strong>
+    <ol>
+      <li class="done"><a href="01-zaehlenwenn.html" title="1 · ZÄHLENWENN">1</a></li>
+      <li class="done"><a href="02-haushaltsbuch.html" title="2 · Haushaltsbuch">2</a></li>
+      <li class="now"><span title="3 · Sortieren &amp; Filtern" aria-current="step">3</span></li>
+      <li class="done"><a href="04-drucken.html" title="4 · Drucken wie ein Profi">4</a></li>
+      <li class="done"><a href="05-brutto-netto.html" title="5 · Brutto und Netto">5</a></li>
+      <li class="done"><a href="06-handyvertrag.html" title="6 · Handyvertrag-Vergleich">6</a></li>
+      <li class="done"><a href="07-sverweis.html" title="7 · SVERWEIS">7</a></li>
+      <li class="done"><a href="08-datum.html" title="8 · Datum &amp; Zeit">8</a></li>
+      <li class="done"><a href="09-text.html" title="9 · Text-Tricks">9</a></li>
+      <li class="done"><a href="10-zufall.html" title="10 · Zufall &amp; Spiele">10</a></li>
+    </ol>
+  </nav>
+
+  <section class="hero">
+    <h1>Sortieren &amp; Filtern – große Tabellen bändigen</h1>
+    <div class="meta">
+      <span class="chip">Zusatzmodul · freiwillig</span>
+      <span class="chip">⏱ ca. 35 Minuten</span>
+      <span class="chip">Vorwissen: Klasse 8</span>
+    </div>
+    <ul class="goals">
+      <li>Ich kann eine Tabelle auf- oder absteigend sortieren.</li>
+      <li>Ich kann mit dem AutoFilter nur bestimmte Zeilen anzeigen.</li>
+      <li>Ich weiß, warum man nie nur eine Spalte sortiert.</li>
+    </ul>
+  </section>
+
+  <section class="card" id="problem">
+    <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
+    <div id="calc1"></div>
+    <p class="lead">💡 Tom will die Besten oben haben. Er markiert <strong>nur die Spalte C</strong> und sortiert sie absteigend.</p>
+    <p><strong>Jetzt du:</strong> Was passiert?</p>
+    <div class="choices" id="predict">
+      <button type="button" class="choice" data-v="ok">Alles richtig – die Besten stehen oben.</button>
+      <button type="button" class="choice" data-v="kaputt">Die Punkte passen nicht mehr zu den Namen.</button>
+      <button type="button" class="choice" data-v="err">Calc meldet einen Fehler.</button>
+    </div>
+    <p class="fb" id="fb1" aria-live="polite"></p>
+  </section>
+
+  <section class="card" id="erklaerung">
+    <h2><span class="step-no">2</span> So geht's in Calc <span class="chip">5 Min</span></h2>
+    <div class="rule"><strong>Sortieren:</strong> Nur <strong>eine Zelle</strong> in der Spalte anklicken → <strong>Daten → Aufsteigend / Absteigend sortieren</strong>.<br>Calc nimmt die ganze Tabelle mit.</div>
+    <ul class="note">
+      <li><strong>Aufsteigend:</strong> kleinste Zahl oben, bei Text A bis Z.</li>
+      <li><strong>Absteigend:</strong> größte Zahl oben, bei Text Z bis A.</li>
+    </ul>
+    <div class="rule"><strong>Filtern:</strong> In die Tabelle klicken → <strong>Daten → AutoFilter</strong> → Pfeil in der Überschrift → Häkchen setzen.<br>Die anderen Zeilen sind nur <strong>versteckt</strong>, nicht gelöscht.</div>
+    <p class="note">Vertan? <kbd>Strg</kbd>+<kbd>Z</kbd> macht das Sortieren rückgängig.</p>
+  </section>
+
+  <section class="card" id="ausprobieren">
+    <h2><span class="step-no">3</span> Sortier-Labor <span class="chip">8 Min</span></h2>
+    <div class="builder"><span>AutoFilter Klasse:</span>
+      <select id="filter2" aria-label="Filter Klasse"><option value="">(alle)</option><option>9a</option><option>9b</option><option>9c</option></select>
+    </div>
+    <div id="calc2"></div>
+    <ol class="fragen" id="tasks2"></ol>
+    <p class="fb" id="fb2" aria-live="polite"></p>
+  </section>
+
+  <section class="card" id="ueben">
+    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">12 Min</span></h2>
+    <p class="lead">Hier sortierst und filterst du eine Tabelle mit 24 Schülern. Die Kontrolle merkt, ob richtig sortiert ist – und ob die Zeilen zusammengeblieben sind.</p>
+    <div class="dl">
+      <a href="../downloads/x03-sortieren-filtern.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Übungsdatei</strong><small>x03-sortieren-filtern.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/x03-sortieren-filtern-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <ul class="tasks">
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 1 · Sportfest:</strong> Absteigend sortieren – wer hat gewonnen?</span></li>
+      <li><span class="badge basis">Basis</span><span><strong>Aufgabe 2 · Nur die 9b:</strong> AutoFilter – wer ist der Beste der 9b?</span></li>
+      <li><span class="badge plus">Plus</span><span><strong>Aufgabe 3 · Zwei Spalten:</strong> Erst nach Klasse, dann nach Punkten.</span></li>
+      <li><span class="badge expedition">Expedition</span><span><strong>Freiwillig:</strong> Standardfilter mit zwei Bedingungen.</span></li>
+    </ul>
+  </section>
+
+  <section class="card" id="check">
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">3 Min</span></h2>
+    <div id="quiz"></div>
+  </section>
+
+  <section class="card merke print-keep" id="merke">
+    <h2>Merke (Hefteintrag)</h2>
+    <ul>
+      <li>Sortieren: eine Zelle in der Spalte anklicken → <strong>Daten → Aufsteigend / Absteigend sortieren</strong>.</li>
+      <li><strong>Nie nur eine Spalte</strong> markieren und sortieren – sonst passen die Zeilen nicht mehr zusammen.</li>
+      <li>Nach zwei Spalten: <strong>Daten → Sortieren …</strong> → Sortierschlüssel 1 und 2.</li>
+      <li>Filtern: <strong>Daten → AutoFilter</strong> → Pfeil in der Überschrift → Häkchen setzen.</li>
+      <li>Gefilterte Zeilen sind nur versteckt. Filter aus: noch einmal <strong>Daten → AutoFilter</strong>.</li>
+    </ul>
+    <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
+  </section>
+
+  <nav class="pager" aria-label="Weiter">
+    <a href="02-haushaltsbuch.html">← Haushaltsbuch</a>
+    <a href="04-drucken.html">Drucken wie ein Profi →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap t">Lernmaterial von <a href="https://herrseibert.de">herrseibert.de</a> · Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> · ohne Tracking, ohne Cookies<br>Erstellt von der KI Claude von Anthropic.</div>
+  <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
+  <div class="wrap legal"><a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const { feedback, quiz } = window.Kurs;
+  const T = (x) => (window.T ? window.T(x) : x);
+  const DATA = [["Ali", "9a", 90], ["Bea", "9b", 78], ["Can", "9c", 65], ["Dila", "9b", 48], ["Emre", "9a", 42], ["Fiona", "9b", 86], ["Gabi", "9c", 74]];
+  const fill = (rows) => { const c = { A1: "Name", B1: "Klasse", C1: "Punkte" }; rows.forEach((r, i) => { c["A" + (i + 2)] = r[0]; c["B" + (i + 2)] = r[1]; c["C" + (i + 2)] = r[2]; }); return c; };
+  const read = (c) => DATA.map((_, i) => ["A", "B", "C"].map((col) => c.get(col + (i + 2))));
+  const write = (c, rows) => { rows.forEach((r, i) => ["A", "B", "C"].forEach((col, j) => { c.raw[col + (i + 2)] = r[j]; })); c.render(); };
+  const ok = (rows) => rows.every((r) => DATA.some((d) => d[0] === r[0] && d[1] === r[1] && d[2] === r[2]));
+
+  /* 1 · Vorhersage */
+  const fb1 = document.getElementById("fb1");
+  const calc1 = new MiniCalc(document.getElementById("calc1"), { cols: 3, rows: 8, cells: fill(DATA), styles: { A1: "head", B1: "head", C1: "head" }, select: "C2" });
+  const predict = document.getElementById("predict");
+  predict.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || b.disabled) return;
+    predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
+    predict.querySelector('[data-v="kaputt"]').classList.add("right");
+    if (b.dataset.v !== "kaputt") b.classList.add("wrong");
+    const pts = DATA.map((d) => d[2]).sort((x, y) => y - x);
+    write(calc1, DATA.map((d, i) => [d[0], d[1], pts[i]]));
+    DATA.forEach((d, i) => { if (d[2] !== pts[i]) calc1.tds["C" + (i + 2)].classList.add("cf-bad"); });
+    feedback(fb1, (b.dataset.v === "kaputt" ? T("✔ Genau!") + " " : "") +
+      T("Die Punkte sind sortiert – aber die Namen sind an ihrem Platz geblieben. Ali hat jetzt 90, Bea 86 … <strong>Die roten Zeilen stimmen nicht mehr!</strong>") + " " +
+      T("Calc fragt in so einem Fall nach: Wähle dann immer <strong>„Markierung erweitern“</strong>."), b.dataset.v === "kaputt" ? "ok" : "hint");
+  });
+
+  /* 3 · Labor */
+  const fb2 = document.getElementById("fb2"), list = document.getElementById("tasks2"), sel = document.getElementById("filter2");
+  const tasks = [
+    { q: "Sortiere nach <strong>Punkten absteigend</strong>: Klick eine Zelle in Spalte C an → ↓ Absteigend.",
+      test: (rows) => ok(rows) && rows.every((r, i) => i === 0 || rows[i - 1][2] >= r[2]) },
+    { q: "Sortiere nach <strong>Namen von A bis Z</strong>.",
+      test: (rows) => ok(rows) && rows.every((r, i) => i === 0 || rows[i - 1][0] <= r[0]) },
+    { q: "Filtere: Zeig nur die <strong>9b</strong>. Wer ist dort am besten?", choice: ["Bea", "Dila", "Fiona"], right: "Fiona",
+      test: () => sel.value === "9b" },
+  ];
+  let t = 0, picked = false;
+  const paint = () => {
+    list.innerHTML = tasks.map((x, i) => `<li class="${i < t ? "ok" : ""}"><span class="fr-st">${i < t ? "✔" : "○"}</span> <span class="t">${T(x.q)}</span>` +
+      (i === 2 && t === 2 && sel.value === "9b" ? `<div class="choices" style="margin:6px 0 0">${x.choice.map((n) => `<button type="button" class="choice" data-n="${n}">${n}</button>`).join("")}</div>` : "") + "</li>").join("");
+  };
+  const hide = (c) => { for (let i = 0; i < DATA.length; i++) c.tds["A" + (i + 2)].parentElement.style.display = sel.value && c.get("B" + (i + 2)) !== sel.value ? "none" : ""; };
+  const sortBy = (c, dir) => {
+    const col = (c.sel || "C2")[0], idx = { A: 0, B: 1, C: 2 }[col];
+    const rows = read(c).sort((x, y) => (x[idx] > y[idx] ? 1 : x[idx] < y[idx] ? -1 : 0) * dir);
+    write(c, rows); hide(c); judge(c);
+  };
+  const calc2 = new MiniCalc(document.getElementById("calc2"), {
+    cols: 3, rows: 8, cells: fill(DATA), styles: { A1: "head", B1: "head", C1: "head" }, select: "C2",
+    actions: [
+      { label: "↑ Aufsteigend sortieren", onClick: (c) => sortBy(c, 1) },
+      { label: "↓ Absteigend sortieren", onClick: (c) => sortBy(c, -1) },
+      { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { t = 0; sel.value = ""; write(c, DATA); hide(c); paint(); fb2.className = "fb"; } },
+    ],
+  });
+  const judge = (c) => {
+    if (t < 2 && tasks[t].test(read(c))) {
+      t++;
+      feedback(fb2, t === 1 ? T("✔ Die Besten stehen oben – und alle Namen passen noch zu ihren Punkten.") : T("✔ Von A bis Z. Bei Text heißt aufsteigend: alphabetisch."), "ok");
+    } else if (t < 2) {
+      const col = (c.sel || "C2")[0];
+      feedback(fb2, T(t === 0 ? (col !== "C" ? "Klick zuerst eine Zelle in Spalte <strong>C</strong> (Punkte) an." : "Absteigend heißt: größte Zahl oben.")
+        : (col !== "A" ? "Klick eine Zelle in Spalte <strong>A</strong> (Name) an." : "A bis Z ist <strong>aufsteigend</strong>.")), "hint");
+    }
+    paint();
+  };
+  sel.addEventListener("change", () => {
+    hide(calc2);
+    if (t === 2 && sel.value === "9b") feedback(fb2, T("✔ Nur noch 9b – die anderen Zeilen sind versteckt. Schau auf die Zeilennummern: Es fehlen welche!"), "info");
+    else if (t === 2) feedback(fb2, T("Wähle im Filter <strong>9b</strong>."), "hint");
+    paint();
+  });
+  list.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".choice");
+    if (!b || picked) return;
+    if (b.dataset.n === "Fiona") { picked = true; t = 3; paint(); feedback(fb2, T("🏆 Richtig: Fiona mit 86 Punkten. Sortieren und Filtern – geschafft! Filter wieder auf „(alle)“ stellen nicht vergessen."), "ok"); }
+    else feedback(fb2, T("Schau genau: Wer hat in der 9b die meisten Punkte? Tipp: erst filtern, dann absteigend sortieren."), "hint");
+  });
+  paint();
+
+  quiz(document.getElementById("quiz"), [
+    { q: "Was musst du vor dem Sortieren markieren?",
+      options: ["Eine Zelle in der Spalte, nach der sortiert wird", "Nur die eine Spalte", "Nichts – Calc weiß es"], right: 0,
+      why: "Eine Zelle reicht. Calc erkennt die ganze Tabelle und nimmt alle Spalten mit." },
+    { q: "„Absteigend“ bei Punkten heißt …",
+      options: ["kleinste oben", "größte oben", "alphabetisch"], right: 1, why: "Absteigend: von groß nach klein." },
+    { q: "Nach dem Filtern fehlen Zeilennummern. Sind die Zeilen gelöscht?",
+      options: ["Ja", "Nein, nur versteckt"], right: 1, why: "Filter verstecken nur. Filter aus – alles ist wieder da." },
+    { q: "Erst Klasse, dann innerhalb der Klasse nach Punkten. Wo geht das?",
+      options: ["Daten → Sortieren … mit zwei Sortierschlüsseln", "Zweimal auf Absteigend klicken", "Gar nicht"], right: 0,
+      why: "Im Dialog Daten → Sortieren … gibt es Sortierschlüssel 1, 2, 3 …" },
+  ]);
+});
+</script>
+</body>
+</html>
