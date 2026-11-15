@@ -28,7 +28,6 @@
  "Die Spaltenbuchstaben zählen mit. Jede Spalte rechnet mit ihren eigenen Zahlen.": "<strong>حرف‌های ستون</strong> با آن جلو می‌روند. هر ستون با عددهای خودش حساب می‌کند.",
  "Fachwort: So ein mitzählender Bezug heißt relativer Bezug.": "اصطلاح فنی: ارجاعی که با آن جلو می‌رود <strong>relativer Bezug</strong> (ارجاع نسبی) نام دارد.",
  "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>ویدیوی کوتاه (به زودی):</strong> دستگیرهٔ پر کردن در 30 ثانیه",
- "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann füllst du aus.": "روی خانهٔ زرد D5 کلیک کن و بالا یک فرمول بنویس. برای تأیید <kbd>Enter</kbd> را بزن. بعد به پایین پر کن.",
  "ODS Übungsdateik8-04-ausfuellen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (فایل تمرین)<small>k8-04-ausfuellen.ods</small></span>",
  "BasisAufgabe 1 · Partyeinkauf: Eine Formel nach unten ziehen und die Summe bilden.": "<span class=\"badge basis\">Basis</span><span><strong>تمرین 1 · خرید جشن:</strong> یک فرمول را به پایین بکش و جمع را حساب کن.</span>",
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen.": "<span class=\"badge basis\">Basis</span><span><strong>تمرین 2 · پول توجیبی:</strong> جمع‌ها را به راست <em>و</em> پایین پر کن.</span>",
@@ -63,7 +62,6 @@
  "Tippe in D5 eine Formel.": "در D5 یک فرمول بنویس.",
  "In D5 steht der Fehler {}. Prüfe die Schreibweise.": "D5 خطای <strong>{}</strong> را نشان می‌دهد. ببین چطور نوشتی.",
  "D5 rechnet noch nicht richtig. Gesucht ist: Anzahl (B5) × Preis (C5).": "D5 هنوز درست حساب نمی‌کند. لازم است: تعداد (B5) × قیمت (C5).",
- "D5 zeigt 6,00 €. Jetzt klick auf ■ D5 nach unten ausfüllen!": "D5 مقدار 6,00 € نشان می‌دهد. حالا روی <strong>■ D5 را به پایین پر کن</strong> کلیک کن!",
  "Du hast D5 geändert. Fülle noch einmal nach unten aus!": "D5 را تغییر دادی. دوباره به پایین پر کن!",
  "Überall steht 6,00 €! In deiner Formel stehen feste Zahlen. Die zählen beim Ausfüllen nicht mit. Nimm die Zellen: =B5*C5.": "هر ردیف 6,00 € نشان می‌دهد! فرمولت <strong>عددهای ثابت</strong> دارد. موقع پر کردن جلو نمی‌روند. از خانه‌ها استفاده کن: <code>=B5*C5</code>.",
  "✔ Perfekt! Jede Zeile rechnet mit ihren eigenen Zahlen. Klick D7 an und schau dir die Formel an.Weiter: Berechne in D10 die Summe.": "✔ عالی! هر ردیف با عددهای خودش حساب می‌کند. روی D7 کلیک کن و فرمول را ببین.<br><strong>بعدی:</strong> در D10 جمع را حساب کن.",
@@ -139,8 +137,13 @@
  "Hier ist der Preis fest getippt. Ändert sich B5, merkt die Formel nichts.": "اینجا قیمت ثابت نوشته شده. اگر B5 عوض شود، فرمول نمی‌فهمد.",
  "Das ist nur eine getippte Zahl. Calc rechnet nichts.": "این فقط یک عدد نوشته‌شده است. Calc چیزی حساب نمی‌کند.",
  "eine Formel in viele Zellen kopieren": "<strong>پر کردن</strong> – یک فرمول را در خانه‌های زیاد کپی کردن",
- "die Maustaste gedrückt halten und die Maus bewegen": "<strong>کشیدن</strong> – دکمهٔ ماوس را نگه داشتن و ماوس را حرکت دادن",
  "das kleine Quadrat unten rechts an der markierten Zelle": "<strong>مربع پر کردن</strong> – مربع کوچک پایین سمت راست خانهٔ انتخاب‌شده",
  "etwas, das immer weitergeht: Montag, Dienstag, Mittwoch …": "<strong>دنباله</strong> – چیزی که همیشه ادامه دارد: Montag, Dienstag, Mittwoch …",
- "nachrechnen, ob das Ergebnis stimmt": "<strong>امتحان کردن نتیجه</strong> – دوباره حساب کنی که آیا نتیجه درست است"
+ "nachrechnen, ob das Ergebnis stimmt": "<strong>امتحان کردن نتیجه</strong> – دوباره حساب کنی که آیا نتیجه درست است",
+ "die Maustaste gedrückt halten und die Maus bewegen (am Handy: mit dem Finger)": "<strong>کشیدن</strong> – دکمهٔ ماوس را نگه داشتن و ماوس را حرکت دادن (در گوشی: با انگشت)",
+ "Ohne Ziehen: Markier die Formel und die leeren Zellen darunter, z. B. D5 bis D9. Dann Strg + D.": "<strong>بدون کشیدن:</strong> فرمول و خانه‌های خالی زیر آن را انتخاب کن، مثلاً از D5 تا D9. بعد <kbd>Strg</kbd> + <kbd>D</kbd> (Ctrl + D).",
+ "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "روی خانهٔ زرد D5 کلیک کن و بالا یک فرمول بنویس. با <kbd>Enter</kbd> تأیید کن. بعد <strong>Ausfüllkästchen</strong> (دستگیرهٔ پر کردن) را از D5 به پایین تا D9 بکش، درست مثل Calc.",
+ "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 مقدار 6,00 € نشان می‌دهد. حالا پر کن: مربع کوچک پایین سمت راست D5 را به پایین تا D9 بکش.",
+ "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "کمی زیادی کشیدی: حالا در D10 هم فرمول هست. اما آنجا باید جمع بیاید. روی D10 کلیک کن و آنجا <code>=SUMME(D5:D9)</code> بنویس.",
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "هنوز تا پایین نرسیده. هنوز خالی: {}. از D5 تا D9 بکش."
 }

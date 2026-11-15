@@ -31,7 +31,6 @@
  "Calc zählt auch Wörter und Daten": "Calc broji i riječi i datume",
  "Das Ausfüllkästchen kann mehr als Formeln kopieren. Rate, was Calc daraus macht:": "Kvadratić za popunjavanje (Ausfüllkästchen) može više nego kopirati formule. Pogodi šta Calc od toga napravi:",
  "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>Kratki video (uskoro):</strong> Kvadratić za popunjavanje za 30 sekundi",
- "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann füllst du aus.": "Klikni na žutu ćeliju D5 i gore upiši formulu. Sa <kbd>Enter</kbd> potvrđuješ. Onda popunjavaš.",
  "ODS Übungsdateik8-04-ausfuellen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Datoteka s vježbama</strong><small>k8-04-ausfuellen.ods</small></span>",
  "BasisAufgabe 1 · Partyeinkauf: Eine Formel nach unten ziehen und die Summe bilden.": "<span class=\"badge basis\">Basis</span><span><strong>Zadatak 1 · Kupovina za žurku:</strong> povuci formulu nadolje i izračunaj zbir.</span>",
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen. Mit Probe: Kommt auf beiden Wegen dasselbe heraus?": "<span class=\"badge basis\">Basis</span><span><strong>Zadatak 2 · Džeparac:</strong> popuni zbirove udesno <em>i</em> nadolje. S provjerom: izlazi li na oba načina isto?</span>",
@@ -78,7 +77,6 @@
  "Tippe in D5 eine Formel.": "Upiši formulu u D5.",
  "In D5 steht der Fehler {}. Prüfe die Schreibweise.": "U D5 stoji greška <strong>{}</strong>. Provjeri kako si napisao/la.",
  "D5 rechnet noch nicht richtig. Gesucht ist: Anzahl (B5) × Preis (C5).": "D5 još ne računa tačno. Traži se: količina (B5) × cijena (C5).",
- "D5 zeigt 6,00 €. Jetzt klick auf ■ D5 nach unten ausfüllen!": "D5 pokazuje 6,00 €. Sada klikni na <strong>■ D5 nach unten ausfüllen</strong> (popuni nadolje)!",
  "Du hast D5 geändert. Fülle noch einmal nach unten aus!": "Promijenio/la si D5. Popuni još jednom nadolje!",
  "Überall steht 6,00 €! In deiner Formel stehen feste Zahlen. Die zählen beim Ausfüllen nicht mit. Nimm die Zellen: =B5*C5.": "Svuda stoji 6,00 €! U tvojoj formuli stoje <strong>fiksni brojevi</strong>. Oni pri popunjavanju ne broje dalje. Uzmi ćelije: <code>=B5*C5</code>.",
  "✔ Perfekt! Jede Zeile rechnet mit ihren eigenen Zahlen. Klick D7 an und schau dir die Formel an.Weiter: Berechne in D10 die Summe.": "✔ Savršeno! Svaki red računa sa svojim brojevima. Klikni na D7 i pogledaj formulu.<br><strong>Dalje:</strong> izračunaj zbir u D10.",
@@ -135,8 +133,13 @@
  "Hier ist der Preis fest getippt. Ändert sich B5, merkt die Formel nichts.": "Ovdje je cijena čvrsto ukucana. Ako se B5 promijeni, formula to ne primijeti.",
  "Das ist nur eine getippte Zahl. Calc rechnet nichts.": "To je samo ukucan broj. Calc ništa ne računa.",
  "eine Formel in viele Zellen kopieren": "<strong>popuniti</strong> – kopirati formulu u mnogo ćelija",
- "die Maustaste gedrückt halten und die Maus bewegen": "<strong>povlačiti</strong> – držati tipku miša pritisnutu i pomjerati miš",
  "das kleine Quadrat unten rechts an der markierten Zelle": "<strong>kvadratić za popunjavanje</strong> – mali kvadrat dolje desno na označenoj ćeliji",
  "etwas, das immer weitergeht: Montag, Dienstag, Mittwoch …": "<strong>niz</strong> – nešto što se stalno nastavlja: Montag, Dienstag, Mittwoch …",
- "nachrechnen, ob das Ergebnis stimmt": "<strong>provjera</strong> – izračunati ponovo da li je rezultat tačan"
+ "nachrechnen, ob das Ergebnis stimmt": "<strong>provjera</strong> – izračunati ponovo da li je rezultat tačan",
+ "die Maustaste gedrückt halten und die Maus bewegen (am Handy: mit dem Finger)": "<strong>povlačiti</strong> – držati tipku miša pritisnutu i pomjerati miš (na mobitelu: prstom)",
+ "Ohne Ziehen: Markier die Formel und die leeren Zellen darunter, z. B. D5 bis D9. Dann Strg + D.": "<strong>Bez povlačenja:</strong> Označi formulu i prazne ćelije ispod nje, npr. od D5 do D9. Onda <kbd>Strg</kbd> + <kbd>D</kbd> (Ctrl + D).",
+ "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "Klikni na žutu ćeliju D5 i gore upiši formulu. Potvrdi sa <kbd>Enter</kbd>. Onda povuci kvadratić za popunjavanje (<strong>Ausfüllkästchen</strong>) od D5 nadolje do D9, baš kao u Calcu.",
+ "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 pokazuje 6,00 €. Sada popuni: povuci mali kvadratić dolje desno na D5 nadolje do D9.",
+ "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Malo predaleko: sada i u D10 stoji formula. Ali tu treba doći zbir. Klikni D10 i upiši tu <code>=SUMME(D5:D9)</code>.",
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Još nije skroz dolje. Još su prazne: {}. Povuci od D5 do D9."
 }

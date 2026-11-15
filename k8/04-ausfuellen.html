@@ -25,7 +25,7 @@
 <link rel="stylesheet" href="../assets/kurs.css?v=b27cf01f29">
 <script src="../assets/i18n.js?v=1b30a9d559" data-page="k8-04-ausfuellen" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=4f7b2fcf93"></script>
-<script src="../assets/minicalc.js?v=58106a0df5" defer></script>
+<script src="../assets/minicalc.js?v=0f549e77c9" defer></script>
 <script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
 </head>
 <body>
@@ -74,7 +74,7 @@
     <table class="plain">
       <tbody>
         <tr><th class="wort" lang="de">ausfüllen</th><td>eine Formel in viele Zellen kopieren</td></tr>
-        <tr><th class="wort" lang="de">ziehen</th><td>die Maustaste gedrückt halten und die Maus bewegen</td></tr>
+        <tr><th class="wort" lang="de">ziehen</th><td>die Maustaste gedrückt halten und die Maus bewegen (am Handy: mit dem Finger)</td></tr>
         <tr><th class="wort" lang="de">das Ausfüllkästchen</th><td>das kleine Quadrat unten rechts an der markierten Zelle</td></tr>
         <tr><th class="wort" lang="de">der Zellbezug <small>die Zellbezüge</small></th><td>der Name einer Zelle in einer Formel, z. B. <code>B5</code></td></tr>
         <tr><th class="wort" lang="de">der relative Bezug</th><td>ein Bezug ohne <code>$</code>. Er wandert beim Ausfüllen mit: aus <code>B5</code> wird <code>B6</code></td></tr>
@@ -117,6 +117,7 @@
       <li>Zeig auf das kleine Quadrat unten rechts. Der Mauszeiger wird zum <strong>+</strong>.</li>
       <li>Zieh mit gedrückter Maustaste und lass los.</li>
     </ol>
+    <p class="note"><strong>Ohne Ziehen:</strong> Markier die Formel und die leeren Zellen darunter, z. B. D5 bis D9. Dann <kbd>Strg</kbd> + <kbd>D</kbd>.</p>
 
     <div class="compare">
       <div>
@@ -161,7 +162,7 @@
   <section class="card" id="ausprobieren">
     <h2><span class="step-no">3</span> Selbst ausprobieren <span class="chip">5 Min</span></h2>
     <div id="calc2"></div>
-    <p class="lead">Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit <kbd>Enter</kbd> bestätigst du. Dann füllst du aus.</p>
+    <p class="lead">Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit <kbd>Enter</kbd> bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.</p>
     <p class="fb" id="fb2" aria-live="polite"></p>
   </section>
 
@@ -347,11 +348,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const fb2 = document.getElementById("fb2");
   let filled = false, solved = false, summed = false;
   const calc2 = new MiniCalc(document.getElementById("calc2"), Object.assign(party(""), {
-    editable: ["D5", "D10", "B5", "B6", "B7", "B8", "B9"], select: "D5",
+    editable: ["D5", "D10", "B5", "B6", "B7", "B8", "B9"], fillable: down, select: "D5", drag: true,
     actions: [
-      { label: "■ D5 nach unten ausfüllen (bis D9)", onClick: async (c) => {
+      { label: "■ D5 nach unten ausfüllen (bis D9)", touch: true, onClick: async (c) => {
           if (!c.getRaw("D5")) { feedback(fb2, "Erst eine Formel in D5 eintippen!", "hint"); return; }
-          filled = true; await c.fill("D5", down, 200);
+          await c.fill("D5", down, 200);
         } },
       { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => {
           filled = solved = summed = false; c.reset(); fb2.className = "fb";
@@ -362,6 +363,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const rowsOk = (c) => ["D5", ...down].every((a, i) => near(c.get(a), c.get("B" + (5 + i)) * c.get("C" + (5 + i))));
   calc2.on((c, src) => {
     if (src === "reset") return;
+    if (src === "fill") filled = true;
     const raw = c.getRaw("D5").replace(/\s/g, "");
     if (summed && src === "edit" && c.sel.startsWith("B")) {
       feedback(fb2, `🎉 Alles rechnet sofort neu! Der Einkauf kostet jetzt <strong>${c.format("D10", c.get("D10"))}</strong>. Genau dafür schreibt man Zellen statt Zahlen in die Formel.`, "ok");
@@ -389,7 +391,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const hasNumbers = /\d/.test(raw.replace(/\$?[A-Za-z]\$?\d+/g, ""));
     if (!near(v, 6)) { feedback(fb2, "D5 rechnet noch nicht richtig. Gesucht ist: Anzahl (B5) × Preis (C5).", "hint"); return; }
     if (!filled) {
-      feedback(fb2, "D5 zeigt 6,00 €. Jetzt klick auf <strong>■ D5 nach unten ausfüllen</strong>!", "info");
+      feedback(fb2, "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.", "info");
+      return;
+    }
+    if (src === "fill" && c.getRaw("D10").replace(/\s/g, "") === MiniCalc.shiftFormula(raw, 5, 0)) {
+      feedback(fb2, "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort <code>=SUMME(D5:D9)</code>.", "hint");
+      return;
+    }
+    const empty = down.filter((a) => !c.getRaw(a));
+    if (empty.length) {
+      feedback(fb2, `Noch nicht ganz unten. Leer sind noch: ${empty.join(", ")}. Zieh von D5 aus bis D9.`, "info");
       return;
     }
     if (src === "edit" && c.getRaw("D6").replace(/\s/g, "") !== MiniCalc.shiftFormula(raw, 1, 0)) {
@@ -437,9 +448,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const target = ["C7", "C8", "C9", "C10", "C11", "C12"];
   const calc3 = new MiniCalc(document.getElementById("calc3"), {
     cols: 3, rows: 12, cells: cells3, styles: styles3, formats: { B: "eur", C: "eur" },
-    editable: ["C6"], select: "C6",
+    editable: ["C6"], fillable: target, select: "C6", drag: true,
     actions: [
-      { label: "■ C6 nach unten ausfüllen (bis C12)", onClick: (c) => {
+      { label: "■ C6 nach unten ausfüllen (bis C12)", touch: true, onClick: (c) => {
           if (!c.getRaw("C6")) { feedback(fb3, "Erst eine Formel in C6 eintippen!", "hint"); return; }
           c.fill("C6", target, 150);
         } },
@@ -489,9 +500,9 @@ document.addEventListener("DOMContentLoaded", () => {
              A4: "Jeans", B4: 20, C4: 14.5, A5: "Jacken", A6: "Winterjacke", B6: 5, C6: 59.9, A7: "Regenjacke", B7: 6, C7: 34.5 },
     styles: { A1: "head", B1: "head", C1: "head", D1: "head", A2: "label", A5: "label" },
     formats: { C: "eur", D: "eur" },
-    editable: ["D3", "D4", "D5", "D6", "D7"], select: "D3",
+    editable: ["D3", "D4", "D5", "D6", "D7"], select: "D3", drag: true,
     actions: [
-      { label: "■ D3 nach unten ausfüllen (bis D7)", onClick: (c) => {
+      { label: "■ D3 nach unten ausfüllen (bis D7)", touch: true, onClick: (c) => {
           if (!c.getRaw("D3")) { feedback(fbZw, T("Erst eine Formel in D3 eintippen!"), "hint"); return; }
           c.fill("D3", ["D4", "D5", "D6", "D7"], 200);
         } },

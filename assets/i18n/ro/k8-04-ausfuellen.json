@@ -28,7 +28,6 @@
  "Die Spaltenbuchstaben zählen mit. Jede Spalte rechnet mit ihren eigenen Zahlen.": "<strong>Literele coloanelor</strong> se mută odată cu ea. Fiecare coloană calculează cu numerele ei.",
  "Fachwort: So ein mitzählender Bezug heißt relativer Bezug.": "Termen tehnic: o referință care se mută se numește <strong>relativer Bezug</strong> (referință relativă).",
  "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>Video scurt (în curând):</strong> Mânerul de umplere în 30 de secunde",
- "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann füllst du aus.": "Dă clic pe celula galbenă D5 și scrie sus o formulă. Apasă <kbd>Enter</kbd> ca să confirmi. Apoi umple în jos.",
  "ODS Übungsdateik8-04-ausfuellen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (fișier de exerciții)<small>k8-04-ausfuellen.ods</small></span>",
  "BasisAufgabe 1 · Partyeinkauf: Eine Formel nach unten ziehen und die Summe bilden.": "<span class=\"badge basis\">Basis</span><span><strong>Sarcina 1 · Cumpărături pentru petrecere:</strong> Trage o formulă în jos și calculează totalul.</span>",
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen.": "<span class=\"badge basis\">Basis</span><span><strong>Sarcina 2 · Bani de buzunar:</strong> Umple totalurile la dreapta <em>și</em> în jos.</span>",
@@ -63,7 +62,6 @@
  "Tippe in D5 eine Formel.": "Scrie o formulă în D5.",
  "In D5 steht der Fehler {}. Prüfe die Schreibweise.": "D5 arată eroarea <strong>{}</strong>. Verifică ce ai scris.",
  "D5 rechnet noch nicht richtig. Gesucht ist: Anzahl (B5) × Preis (C5).": "D5 nu calculează încă corect. Ne trebuie: cantitatea (B5) × prețul (C5).",
- "D5 zeigt 6,00 €. Jetzt klick auf ■ D5 nach unten ausfüllen!": "D5 arată 6,00 €. Acum dă clic pe <strong>■ Umple D5 în jos</strong>!",
  "Du hast D5 geändert. Fülle noch einmal nach unten aus!": "Ai schimbat D5. Umple din nou în jos!",
  "Überall steht 6,00 €! In deiner Formel stehen feste Zahlen. Die zählen beim Ausfüllen nicht mit. Nimm die Zellen: =B5*C5.": "Fiecare rând arată 6,00 €! Formula ta conține <strong>numere fixe</strong>. Ele nu se mută la umplere. Folosește celulele: <code>=B5*C5</code>.",
  "✔ Perfekt! Jede Zeile rechnet mit ihren eigenen Zahlen. Klick D7 an und schau dir die Formel an.Weiter: Berechne in D10 die Summe.": "✔ Perfect! Fiecare rând calculează cu numerele lui. Dă clic pe D7 și uită-te la formulă.<br><strong>Mai departe:</strong> Calculează totalul în D10.",
@@ -139,8 +137,13 @@
  "Hier ist der Preis fest getippt. Ändert sich B5, merkt die Formel nichts.": "Aici prețul este tastat fix. Dacă B5 se schimbă, formula nu observă.",
  "Das ist nur eine getippte Zahl. Calc rechnet nichts.": "Acesta e doar un număr tastat. Calc nu calculează nimic.",
  "eine Formel in viele Zellen kopieren": "<strong>a umple</strong> – a copia o formulă în multe celule",
- "die Maustaste gedrückt halten und die Maus bewegen": "<strong>a trage</strong> – a ține apăsat butonul mouse-ului și a mișca mouse-ul",
  "das kleine Quadrat unten rechts an der markierten Zelle": "<strong>pătrățelul de umplere</strong> – pătratul mic din dreapta jos al celulei selectate",
  "etwas, das immer weitergeht: Montag, Dienstag, Mittwoch …": "<strong>serie</strong> – ceva care merge mereu mai departe: Montag, Dienstag, Mittwoch …",
- "nachrechnen, ob das Ergebnis stimmt": "<strong>verificare</strong> – a calcula din nou ca să vezi dacă rezultatul e bun"
+ "nachrechnen, ob das Ergebnis stimmt": "<strong>verificare</strong> – a calcula din nou ca să vezi dacă rezultatul e bun",
+ "die Maustaste gedrückt halten und die Maus bewegen (am Handy: mit dem Finger)": "<strong>a trage</strong> – a ține apăsat butonul mouse-ului și a mișca mouse-ul (pe telefon: cu degetul)",
+ "Ohne Ziehen: Markier die Formel und die leeren Zellen darunter, z. B. D5 bis D9. Dann Strg + D.": "<strong>Fără tras:</strong> Selectează formula și celulele goale de sub ea, de ex. de la D5 la D9. Apoi <kbd>Strg</kbd> + <kbd>D</kbd> (Ctrl + D).",
+ "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "Dă clic pe celula galbenă D5 și scrie sus o formulă. Confirmi cu <kbd>Enter</kbd>. Apoi tragi de <strong>Ausfüllkästchen</strong> (mânerul de umplere) de la D5 în jos până la D9, exact ca în Calc.",
+ "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 arată 6,00 €. Acum umple: trage pătrățelul din dreapta jos al lui D5 în jos până la D9.",
+ "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Ai tras puțin prea departe: acum și în D10 e o formulă. Dar acolo trebuie suma. Dă clic pe D10 și scrie acolo <code>=SUMME(D5:D9)</code>.",
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Încă nu ai ajuns jos. Mai sunt goale: {}. Trage de la D5 până la D9."
 }

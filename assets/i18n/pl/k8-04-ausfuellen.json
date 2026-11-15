@@ -28,7 +28,6 @@
  "Die Spaltenbuchstaben zählen mit. Jede Spalte rechnet mit ihren eigenen Zahlen.": "<strong>Litery kolumn</strong> przesuwają się razem. Każda kolumna liczy swoimi liczbami.",
  "Fachwort: So ein mitzählender Bezug heißt relativer Bezug.": "Termin fachowy: odwołanie, które się przesuwa, nazywa się <strong>relativer Bezug</strong> (odwołanie względne).",
  "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>Krótki film (wkrótce):</strong> Uchwyt wypełniania w 30 sekund",
- "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann füllst du aus.": "Kliknij żółtą komórkę D5 i wpisz u góry formułę. Naciśnij <kbd>Enter</kbd>, żeby zatwierdzić. Potem wypełnij w dół.",
  "ODS Übungsdateik8-04-ausfuellen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (plik ćwiczeń)<small>k8-04-ausfuellen.ods</small></span>",
  "BasisAufgabe 1 · Partyeinkauf: Eine Formel nach unten ziehen und die Summe bilden.": "<span class=\"badge basis\">Basis</span><span><strong>Zadanie 1 · Zakupy na imprezę:</strong> Przeciągnij formułę w dół i policz sumę.</span>",
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen.": "<span class=\"badge basis\">Basis</span><span><strong>Zadanie 2 · Kieszonkowe:</strong> Wypełnij sumy w prawo <em>i</em> w dół.</span>",
@@ -63,7 +62,6 @@
  "Tippe in D5 eine Formel.": "Wpisz formułę w D5.",
  "In D5 steht der Fehler {}. Prüfe die Schreibweise.": "D5 pokazuje błąd <strong>{}</strong>. Sprawdź, jak to jest napisane.",
  "D5 rechnet noch nicht richtig. Gesucht ist: Anzahl (B5) × Preis (C5).": "D5 jeszcze nie liczy dobrze. Potrzeba: ilość (B5) × cena (C5).",
- "D5 zeigt 6,00 €. Jetzt klick auf ■ D5 nach unten ausfüllen!": "D5 pokazuje 6,00 €. Teraz kliknij <strong>■ Wypełnij D5 w dół</strong>!",
  "Du hast D5 geändert. Fülle noch einmal nach unten aus!": "D5 jest zmienione. Wypełnij jeszcze raz w dół!",
  "Überall steht 6,00 €! In deiner Formel stehen feste Zahlen. Die zählen beim Ausfüllen nicht mit. Nimm die Zellen: =B5*C5.": "Każdy wiersz pokazuje 6,00 €! Twoja formuła zawiera <strong>stałe liczby</strong>. Przy wypełnianiu się nie przesuwają. Użyj komórek: <code>=B5*C5</code>.",
  "✔ Perfekt! Jede Zeile rechnet mit ihren eigenen Zahlen. Klick D7 an und schau dir die Formel an.Weiter: Berechne in D10 die Summe.": "✔ Idealnie! Każdy wiersz liczy swoimi liczbami. Kliknij D7 i spójrz na formułę.<br><strong>Dalej:</strong> Policz sumę w D10.",
@@ -139,8 +137,13 @@
  "Hier ist der Preis fest getippt. Ändert sich B5, merkt die Formel nichts.": "Tu cena jest wpisana na stałe. Gdy B5 się zmieni, formuła tego nie zauważy.",
  "Das ist nur eine getippte Zahl. Calc rechnet nichts.": "To tylko wpisana liczba. Calc nic nie liczy.",
  "eine Formel in viele Zellen kopieren": "<strong>wypełnić</strong> – skopiować formułę do wielu komórek",
- "die Maustaste gedrückt halten und die Maus bewegen": "<strong>przeciągać</strong> – trzymać wciśnięty przycisk myszy i ruszać myszą",
  "das kleine Quadrat unten rechts an der markierten Zelle": "<strong>uchwyt wypełniania</strong> – mały kwadrat na dole po prawej przy zaznaczonej komórce",
  "etwas, das immer weitergeht: Montag, Dienstag, Mittwoch …": "<strong>seria</strong> – coś, co ciągle idzie dalej: Montag, Dienstag, Mittwoch …",
- "nachrechnen, ob das Ergebnis stimmt": "<strong>sprawdzenie</strong> – policzyć jeszcze raz, czy wynik jest dobry"
+ "nachrechnen, ob das Ergebnis stimmt": "<strong>sprawdzenie</strong> – policzyć jeszcze raz, czy wynik jest dobry",
+ "die Maustaste gedrückt halten und die Maus bewegen (am Handy: mit dem Finger)": "<strong>przeciągać</strong> – trzymać wciśnięty przycisk myszy i ruszać myszą (na telefonie: palcem)",
+ "Ohne Ziehen: Markier die Formel und die leeren Zellen darunter, z. B. D5 bis D9. Dann Strg + D.": "<strong>Bez przeciągania:</strong> Zaznacz formułę i puste komórki pod nią, np. od D5 do D9. Potem <kbd>Strg</kbd> + <kbd>D</kbd> (Ctrl + D).",
+ "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "Kliknij żółtą komórkę D5 i wpisz u góry formułę. Zatwierdź klawiszem <kbd>Enter</kbd>. Potem przeciągnij <strong>Ausfüllkästchen</strong> (uchwyt wypełniania) od D5 w dół do D9, tak jak w Calc.",
+ "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 pokazuje 6,00 €. Teraz wypełnij: przeciągnij mały kwadrat w prawym dolnym rogu D5 w dół do D9.",
+ "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Trochę za daleko: teraz także w D10 jest formuła. A tam ma być suma. Kliknij D10 i wpisz tam <code>=SUMME(D5:D9)</code>.",
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Jeszcze nie do końca. Puste są jeszcze: {}. Przeciągnij od D5 do D9."
 }

@@ -200,5 +200,7 @@
  "die Zahl, bei der sich die Antwort ändert": "<strong>межа</strong> – число, на якому відповідь змінюється",
  "eine Regel: Nur wenn sie stimmt, färbt Calc die Zelle.": "<strong>умова</strong> – правило: Calc фарбує клітинку, тільки якщо воно правильне.",
  "Impressum": "Impressum (Вихідні дані)",
- "Datenschutz": "Datenschutz (Захист даних)"
+ "Datenschutz": "Datenschutz (Захист даних)",
+ "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Потягни пальцем маленький квадратик унизу праворуч у клітинці. Або натисни кнопку <strong>■</strong>. У LibreOffice Calc ти тягнеш за <strong>Ausfüllkästchen</strong> (маркер заповнення).",
+ "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (маркер заповнення): тягни, щоб заповнити"
 }

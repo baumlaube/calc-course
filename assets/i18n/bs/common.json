@@ -200,5 +200,7 @@
  "die Zahl, bei der sich die Antwort ändert": "<strong>granica</strong> – broj kod kojeg se odgovor mijenja",
  "eine Regel: Nur wenn sie stimmt, färbt Calc die Zelle.": "<strong>uslov</strong> – pravilo: Calc boji ćeliju samo ako je ono tačno.",
  "Impressum": "Impresum",
- "Datenschutz": "Datenschutz (Zaštita podataka)"
+ "Datenschutz": "Datenschutz (Zaštita podataka)",
+ "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Povuci prstom mali kvadratić dolje desno na ćeliji. Ili koristi dugme <strong>■</strong>. U LibreOffice Calcu povlačiš kvadratić za popunjavanje (Ausfüllkästchen).",
+ "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (kvadratić za popunjavanje): povuci da popuniš"
 }

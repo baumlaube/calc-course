@@ -200,5 +200,7 @@
  "die Zahl, bei der sich die Antwort ändert": "<strong>sınır</strong> – cevabın değiştiği sayı",
  "eine Regel: Nur wenn sie stimmt, färbt Calc die Zelle.": "<strong>koşul</strong> – bir kural: Calc hücreyi sadece kural doğruysa boyar.",
  "Impressum": "Impressum (Künye)",
- "Datenschutz": "Datenschutz (Gizlilik)"
+ "Datenschutz": "Datenschutz (Gizlilik)",
+ "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Hücrenin sağ altındaki küçük kareyi parmağınla sürükle. Ya da <strong>■</strong> düğmesini kullan. LibreOffice Calc'ta <strong>Ausfüllkästchen</strong>'i (doldurma tutamacı) sürüklersin.",
+ "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (doldurma tutamacı): doldurmak için sürükle"
 }

@@ -28,7 +28,6 @@
  "Die Spaltenbuchstaben zählen mit. Jede Spalte rechnet mit ihren eigenen Zahlen.": "<strong>حروف الأعمدة</strong> تتغيّر معها. كل عمود يحسب بأرقامه الخاصة.",
  "Fachwort: So ein mitzählender Bezug heißt relativer Bezug.": "المصطلح: المرجع الذي يتغيّر معها يسمّى <strong>relativer Bezug</strong> (مرجع نسبي).",
  "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>فيديو قصير (قريبًا):</strong> مقبض التعبئة في 30 ثانية",
- "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann füllst du aus.": "انقر على الخلية الصفراء D5 واكتب في الأعلى صيغة. أكّد بـ <kbd>Enter</kbd>. ثم عبّئها إلى الأسفل.",
  "ODS Übungsdateik8-04-ausfuellen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (ملف التمارين)<small>k8-04-ausfuellen.ods</small></span>",
  "BasisAufgabe 1 · Partyeinkauf: Eine Formel nach unten ziehen und die Summe bilden.": "<span class=\"badge basis\">Basis</span><span><strong>المهمة 1 · مشتريات الحفلة:</strong> اسحب صيغة إلى الأسفل واحسب المجموع.</span>",
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen.": "<span class=\"badge basis\">Basis</span><span><strong>المهمة 2 · المصروف:</strong> عبّئ المجاميع إلى اليمين <em>و</em>إلى الأسفل.</span>",
@@ -63,7 +62,6 @@
  "Tippe in D5 eine Formel.": "اكتب صيغة في D5.",
  "In D5 steht der Fehler {}. Prüfe die Schreibweise.": "D5 تُظهر الخطأ <strong>{}</strong>. تحقّق من الكتابة.",
  "D5 rechnet noch nicht richtig. Gesucht ist: Anzahl (B5) × Preis (C5).": "D5 لا تحسب بشكل صحيح بعد. نحتاج: الكمية (B5) × السعر (C5).",
- "D5 zeigt 6,00 €. Jetzt klick auf ■ D5 nach unten ausfüllen!": "D5 تُظهر 6,00 €. الآن انقر على <strong>■ D5 nach unten ausfüllen</strong> (تعبئة إلى الأسفل)!",
  "Du hast D5 geändert. Fülle noch einmal nach unten aus!": "لقد غيّرت D5. عبّئها إلى الأسفل مرة أخرى!",
  "Überall steht 6,00 €! In deiner Formel stehen feste Zahlen. Die zählen beim Ausfüllen nicht mit. Nimm die Zellen: =B5*C5.": "كل صف يُظهر 6,00 €! صيغتك فيها <strong>أرقام ثابتة</strong>. هذه لا تتغيّر معها عند التعبئة. استخدم الخلايا: <code>=B5*C5</code>.",
  "✔ Perfekt! Jede Zeile rechnet mit ihren eigenen Zahlen. Klick D7 an und schau dir die Formel an.Weiter: Berechne in D10 die Summe.": "✔ ممتاز! كل صف يحسب بأرقامه الخاصة. انقر على D7 وانظر إلى الصيغة.<br><strong>التالي:</strong> احسب المجموع في D10.",
@@ -139,8 +137,13 @@
  "Hier ist der Preis fest getippt. Ändert sich B5, merkt die Formel nichts.": "هنا السعر مكتوب بشكل ثابت. إذا تغيرت B5، لا تلاحظ الصيغة ذلك.",
  "Das ist nur eine getippte Zahl. Calc rechnet nichts.": "هذا مجرد رقم مكتوب. Calc لا يحسب شيئًا.",
  "eine Formel in viele Zellen kopieren": "<strong>يعبّئ</strong> – ينسخ صيغة إلى خلايا كثيرة",
- "die Maustaste gedrückt halten und die Maus bewegen": "<strong>يسحب</strong> – يُبقي زر الفأرة مضغوطًا ويحرّك الفأرة",
  "das kleine Quadrat unten rechts an der markierten Zelle": "<strong>مقبض التعبئة</strong> – المربع الصغير أسفل يمين الخلية المحددة",
  "etwas, das immer weitergeht: Montag, Dienstag, Mittwoch …": "<strong>سلسلة</strong> – شيء يستمر دائمًا: Montag, Dienstag, Mittwoch …",
- "nachrechnen, ob das Ergebnis stimmt": "<strong>تحقّق</strong> – يحسب من جديد ليرى هل النتيجة صحيحة"
+ "nachrechnen, ob das Ergebnis stimmt": "<strong>تحقّق</strong> – يحسب من جديد ليرى هل النتيجة صحيحة",
+ "die Maustaste gedrückt halten und die Maus bewegen (am Handy: mit dem Finger)": "<strong>يسحب</strong> – يُبقي زر الفأرة مضغوطًا ويحرّك الفأرة (على الهاتف: بالإصبع)",
+ "Ohne Ziehen: Markier die Formel und die leeren Zellen darunter, z. B. D5 bis D9. Dann Strg + D.": "<strong>بدون سحب:</strong> حدّد الصيغة والخلايا الفارغة تحتها، مثلًا من D5 إلى D9. ثم <kbd>Strg</kbd> + <kbd>D</kbd> (Ctrl + D).",
+ "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "انقر على الخلية الصفراء D5 واكتب صيغة في الأعلى. أكّد بـ <kbd>Enter</kbd>. ثم اسحب <strong>Ausfüllkästchen</strong> (مقبض التعبئة) من D5 إلى الأسفل حتى D9، تمامًا كما في Calc.",
+ "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 تُظهر 6,00 €. الآن قم بالتعبئة: اسحب المربّع الصغير أسفل يمين D5 إلى الأسفل حتى D9.",
+ "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "سحبتَ أبعد قليلًا من اللازم: الآن توجد صيغة في D10 أيضًا. لكن هناك يجب أن يكون المجموع. انقر على D10 واكتب هناك <code>=SUMME(D5:D9)</code>.",
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "لم تصل إلى الأسفل بعد. ما زالت فارغة: {}. اسحب من D5 حتى D9."
 }

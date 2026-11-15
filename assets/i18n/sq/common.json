@@ -200,5 +200,7 @@
  "die Zahl, bei der sich die Antwort ändert": "<strong>kufi</strong> – numri te i cili ndryshon përgjigjja",
  "eine Regel: Nur wenn sie stimmt, färbt Calc die Zelle.": "<strong>kusht</strong> – një rregull: Calc e ngjyros qelizën vetëm nëse ai është i vërtetë.",
  "Impressum": "Impressum (Të dhënat ligjore)",
- "Datenschutz": "Datenschutz (Mbrojtja e të dhënave)"
+ "Datenschutz": "Datenschutz (Mbrojtja e të dhënave)",
+ "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Tërhiq me gisht katrorin e vogël poshtë djathtas te qeliza. Ose përdor butonin <strong>■</strong>. Në LibreOffice Calc tërheq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit).",
+ "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (doreza e plotësimit): tërhiq për të plotësuar"
 }

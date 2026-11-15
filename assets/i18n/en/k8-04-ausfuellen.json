@@ -28,7 +28,6 @@
  "Die Spaltenbuchstaben zählen mit. Jede Spalte rechnet mit ihren eigenen Zahlen.": "The <strong>column letters</strong> count along. Every column calculates with its own numbers.",
  "Fachwort: So ein mitzählender Bezug heißt relativer Bezug.": "Technical term: a reference that counts along is called a <strong>relativer Bezug</strong> (relative reference).",
  "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>Short video (coming soon):</strong> The fill handle in 30 seconds",
- "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann füllst du aus.": "Click the yellow cell D5 and type a formula at the top. Press <kbd>Enter</kbd> to confirm. Then fill it down.",
  "ODS Übungsdateik8-04-ausfuellen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (exercise file)<small>k8-04-ausfuellen.ods</small></span>",
  "BasisAufgabe 1 · Partyeinkauf: Eine Formel nach unten ziehen und die Summe bilden.": "<span class=\"badge basis\">Basis</span><span><strong>Task 1 · Party shopping:</strong> Drag a formula down and make the total.</span>",
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen.": "<span class=\"badge basis\">Basis</span><span><strong>Task 2 · Pocket money:</strong> Fill totals to the right <em>and</em> down.</span>",
@@ -64,7 +63,6 @@
  "Tippe in D5 eine Formel.": "Type a formula into D5.",
  "In D5 steht der Fehler {}. Prüfe die Schreibweise.": "D5 shows the error <strong>{}</strong>. Check how you wrote it.",
  "D5 rechnet noch nicht richtig. Gesucht ist: Anzahl (B5) × Preis (C5).": "D5 doesn't calculate correctly yet. We need: amount (B5) × price (C5).",
- "D5 zeigt 6,00 €. Jetzt klick auf ■ D5 nach unten ausfüllen!": "D5 shows 6,00 €. Now click <strong>■ Fill D5 down</strong>!",
  "Du hast D5 geändert. Fülle noch einmal nach unten aus!": "You changed D5. Fill it down again!",
  "Überall steht 6,00 €! In deiner Formel stehen feste Zahlen. Die zählen beim Ausfüllen nicht mit. Nimm die Zellen: =B5*C5.": "Every row shows 6,00 €! Your formula contains <strong>fixed numbers</strong>. They don't count along when filling. Use the cells: <code>=B5*C5</code>.",
  "✔ Perfekt! Jede Zeile rechnet mit ihren eigenen Zahlen. Klick D7 an und schau dir die Formel an.Weiter: Berechne in D10 die Summe.": "✔ Perfect! Every row calculates with its own numbers. Click D7 and look at the formula.<br><strong>Next:</strong> Calculate the total in D10.",
@@ -140,8 +138,13 @@
  "Hier ist der Preis fest getippt. Ändert sich B5, merkt die Formel nichts.": "Here the price is typed in. If B5 changes, the formula does not notice.",
  "Das ist nur eine getippte Zahl. Calc rechnet nichts.": "That is only a typed number. Calc calculates nothing.",
  "eine Formel in viele Zellen kopieren": "<strong>to fill</strong> – to copy a formula into many cells",
- "die Maustaste gedrückt halten und die Maus bewegen": "<strong>to drag</strong> – to hold the mouse button down and move the mouse",
  "das kleine Quadrat unten rechts an der markierten Zelle": "<strong>fill handle</strong> – the small square at the bottom right of the selected cell",
  "etwas, das immer weitergeht: Montag, Dienstag, Mittwoch …": "<strong>series</strong> – something that always goes on: Montag, Dienstag, Mittwoch …",
- "nachrechnen, ob das Ergebnis stimmt": "<strong>check</strong> – to calculate again to see if the result is right"
+ "nachrechnen, ob das Ergebnis stimmt": "<strong>check</strong> – to calculate again to see if the result is right",
+ "die Maustaste gedrückt halten und die Maus bewegen (am Handy: mit dem Finger)": "<strong>to drag</strong> – to hold the mouse button down and move the mouse (on a phone: with your finger)",
+ "Ohne Ziehen: Markier die Formel und die leeren Zellen darunter, z. B. D5 bis D9. Dann Strg + D.": "<strong>Without dragging:</strong> Select the formula and the empty cells below it, e.g. D5 to D9. Then <kbd>Strg</kbd> + <kbd>D</kbd> (Ctrl + D).",
+ "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "Click the yellow cell D5 and type a formula at the top. Press <kbd>Enter</kbd> to confirm. Then drag the <strong>Ausfüllkästchen</strong> (fill handle) from D5 down to D9, just like in Calc.",
+ "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 shows 6,00 €. Now fill: drag the small square at the bottom right of D5 down to D9.",
+ "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Dragged a bit too far: now D10 has a formula too. But the total belongs there. Click D10 and type <code>=SUMME(D5:D9)</code> there.",
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Not quite at the bottom yet. Still empty: {}. Drag from D5 down to D9."
 }

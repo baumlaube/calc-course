@@ -28,7 +28,6 @@
  "Die Spaltenbuchstaben zählen mit. Jede Spalte rechnet mit ihren eigenen Zahlen.": "<strong>Sütun harfleri</strong> birlikte sayar. Her sütun kendi sayılarıyla hesaplar.",
  "Fachwort: So ein mitzählender Bezug heißt relativer Bezug.": "Teknik terim: birlikte sayan başvuruya <strong>relativer Bezug</strong> (göreli başvuru) denir.",
  "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>Kısa video (yakında):</strong> 30 saniyede doldurma tutamacı",
- "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann füllst du aus.": "Sarı D5 hücresine tıkla ve yukarıya bir formül yaz. Onaylamak için <kbd>Enter</kbd>'a bas. Sonra aşağı doldur.",
  "ODS Übungsdateik8-04-ausfuellen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (alıştırma dosyası)<small>k8-04-ausfuellen.ods</small></span>",
  "BasisAufgabe 1 · Partyeinkauf: Eine Formel nach unten ziehen und die Summe bilden.": "<span class=\"badge basis\">Basis</span><span><strong>Görev 1 · Parti alışverişi:</strong> Bir formülü aşağı sürükle ve toplamı hesapla.</span>",
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen.": "<span class=\"badge basis\">Basis</span><span><strong>Görev 2 · Harçlık:</strong> Toplamları sağa <em>ve</em> aşağı doldur.</span>",
@@ -63,7 +62,6 @@
  "Tippe in D5 eine Formel.": "D5'e bir formül yaz.",
  "In D5 steht der Fehler {}. Prüfe die Schreibweise.": "D5 <strong>{}</strong> hatasını gösteriyor. Nasıl yazdığını kontrol et.",
  "D5 rechnet noch nicht richtig. Gesucht ist: Anzahl (B5) × Preis (C5).": "D5 henüz doğru hesaplamıyor. Gereken: adet (B5) × fiyat (C5).",
- "D5 zeigt 6,00 €. Jetzt klick auf ■ D5 nach unten ausfüllen!": "D5 6,00 € gösteriyor. Şimdi <strong>■ D5'i aşağı doldur</strong> düğmesine tıkla!",
  "Du hast D5 geändert. Fülle noch einmal nach unten aus!": "D5'i değiştirdin. Tekrar aşağı doldur!",
  "Überall steht 6,00 €! In deiner Formel stehen feste Zahlen. Die zählen beim Ausfüllen nicht mit. Nimm die Zellen: =B5*C5.": "Her satır 6,00 € gösteriyor! Formülünde <strong>sabit sayılar</strong> var. Doldururken bunlar birlikte saymaz. Hücreleri kullan: <code>=B5*C5</code>.",
  "✔ Perfekt! Jede Zeile rechnet mit ihren eigenen Zahlen. Klick D7 an und schau dir die Formel an.Weiter: Berechne in D10 die Summe.": "✔ Mükemmel! Her satır kendi sayılarıyla hesaplıyor. D7'ye tıkla ve formüle bak.<br><strong>Sıradaki:</strong> D10'da toplamı hesapla.",
@@ -139,8 +137,13 @@
  "Hier ist der Preis fest getippt. Ändert sich B5, merkt die Formel nichts.": "Burada fiyat sabit yazılmış. B5 değişirse formül fark etmez.",
  "Das ist nur eine getippte Zahl. Calc rechnet nichts.": "Bu sadece yazılmış bir sayı. Calc hiçbir şey hesaplamaz.",
  "eine Formel in viele Zellen kopieren": "<strong>doldurmak</strong> – bir formülü birçok hücreye kopyalamak",
- "die Maustaste gedrückt halten und die Maus bewegen": "<strong>çekmek, sürüklemek</strong> – fare tuşunu basılı tutup fareyi hareket ettirmek",
  "das kleine Quadrat unten rechts an der markierten Zelle": "<strong>doldurma kutucuğu</strong> – seçili hücrenin sağ altındaki küçük kare",
  "etwas, das immer weitergeht: Montag, Dienstag, Mittwoch …": "<strong>dizi</strong> – hep devam eden bir şey: Montag, Dienstag, Mittwoch …",
- "nachrechnen, ob das Ergebnis stimmt": "<strong>sağlama</strong> – sonucun doğru olup olmadığını yeniden hesaplamak"
+ "nachrechnen, ob das Ergebnis stimmt": "<strong>sağlama</strong> – sonucun doğru olup olmadığını yeniden hesaplamak",
+ "die Maustaste gedrückt halten und die Maus bewegen (am Handy: mit dem Finger)": "<strong>çekmek, sürüklemek</strong> – fare tuşunu basılı tutup fareyi hareket ettirmek (telefonda: parmakla)",
+ "Ohne Ziehen: Markier die Formel und die leeren Zellen darunter, z. B. D5 bis D9. Dann Strg + D.": "<strong>Sürüklemeden:</strong> Formülü ve altındaki boş hücreleri seç, örn. D5'ten D9'a kadar. Sonra <kbd>Strg</kbd> + <kbd>D</kbd> (Ctrl + D).",
+ "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "Sarı D5 hücresine tıkla ve yukarıya bir formül yaz. <kbd>Enter</kbd> ile onayla. Sonra <strong>Ausfüllkästchen</strong>'i (doldurma tutamacı) D5'ten aşağı D9'a kadar sürükle, tıpkı Calc'taki gibi.",
+ "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 6,00 € gösteriyor. Şimdi doldur: D5'in sağ altındaki küçük kareyi aşağı D9'a kadar sürükle.",
+ "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Biraz fazla sürükledin: Şimdi D10'da da bir formül var. Ama oraya toplam gelmeli. D10'a tıkla ve oraya <code>=SUMME(D5:D9)</code> yaz.",
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Henüz en alta gelmedin. Hâlâ boş: {}. D5'ten D9'a kadar sürükle."
 }

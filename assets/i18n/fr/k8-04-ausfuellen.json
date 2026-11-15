@@ -28,7 +28,6 @@
  "Die Spaltenbuchstaben zählen mit. Jede Spalte rechnet mit ihren eigenen Zahlen.": "Les <strong>lettres de colonne</strong> suivent. Chaque colonne calcule avec ses propres nombres.",
  "Fachwort: So ein mitzählender Bezug heißt relativer Bezug.": "Terme technique : une référence qui suit s'appelle <strong>relativer Bezug</strong> (référence relative).",
  "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>Courte vidéo (bientôt) :</strong> la poignée de recopie en 30 secondes",
- "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann füllst du aus.": "Clique sur la cellule jaune D5 et tape une formule en haut. Valide avec <kbd>Enter</kbd>. Puis recopie-la vers le bas.",
  "ODS Übungsdateik8-04-ausfuellen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (fichier d'exercices)<small>k8-04-ausfuellen.ods</small></span>",
  "BasisAufgabe 1 · Partyeinkauf: Eine Formel nach unten ziehen und die Summe bilden.": "<span class=\"badge basis\">Basis</span><span><strong>Exercice 1 · Courses pour la fête :</strong> tirer une formule vers le bas et faire le total.</span>",
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen.": "<span class=\"badge basis\">Basis</span><span><strong>Exercice 2 · Argent de poche :</strong> recopier des totaux vers la droite <em>et</em> vers le bas.</span>",
@@ -63,7 +62,6 @@
  "Tippe in D5 eine Formel.": "Tape une formule dans D5.",
  "In D5 steht der Fehler {}. Prüfe die Schreibweise.": "D5 affiche l'erreur <strong>{}</strong>. Vérifie l'orthographe.",
  "D5 rechnet noch nicht richtig. Gesucht ist: Anzahl (B5) × Preis (C5).": "D5 ne calcule pas encore juste. On cherche : quantité (B5) × prix (C5).",
- "D5 zeigt 6,00 €. Jetzt klick auf ■ D5 nach unten ausfüllen!": "D5 affiche 6,00 €. Maintenant clique sur <strong>■ D5 nach unten ausfüllen</strong> (recopier vers le bas) !",
  "Du hast D5 geändert. Fülle noch einmal nach unten aus!": "Tu as modifié D5. Recopie encore une fois vers le bas !",
  "Überall steht 6,00 €! In deiner Formel stehen feste Zahlen. Die zählen beim Ausfüllen nicht mit. Nimm die Zellen: =B5*C5.": "Chaque ligne affiche 6,00 € ! Ta formule contient des <strong>nombres fixes</strong>. Ils ne suivent pas pendant la recopie. Utilise les cellules : <code>=B5*C5</code>.",
  "✔ Perfekt! Jede Zeile rechnet mit ihren eigenen Zahlen. Klick D7 an und schau dir die Formel an.Weiter: Berechne in D10 die Summe.": "✔ Parfait ! Chaque ligne calcule avec ses propres nombres. Clique sur D7 et regarde la formule.<br><strong>Ensuite :</strong> calcule le total dans D10.",
@@ -139,8 +137,13 @@
  "Hier ist der Preis fest getippt. Ändert sich B5, merkt die Formel nichts.": "Ici, le prix est tapé en dur. Si B5 change, la formule ne le remarque pas.",
  "Das ist nur eine getippte Zahl. Calc rechnet nichts.": "C'est seulement un nombre tapé. Calc ne calcule rien.",
  "eine Formel in viele Zellen kopieren": "<strong>recopier, remplir</strong> – copier une formule dans beaucoup de cellules",
- "die Maustaste gedrückt halten und die Maus bewegen": "<strong>tirer</strong> – garder le bouton de la souris appuyé et bouger la souris",
  "das kleine Quadrat unten rechts an der markierten Zelle": "<strong>poignée de recopie</strong> – le petit carré en bas à droite de la cellule sélectionnée",
  "etwas, das immer weitergeht: Montag, Dienstag, Mittwoch …": "<strong>série</strong> – quelque chose qui continue toujours : Montag, Dienstag, Mittwoch …",
- "nachrechnen, ob das Ergebnis stimmt": "<strong>vérification</strong> – recalculer pour voir si le résultat est juste"
+ "nachrechnen, ob das Ergebnis stimmt": "<strong>vérification</strong> – recalculer pour voir si le résultat est juste",
+ "die Maustaste gedrückt halten und die Maus bewegen (am Handy: mit dem Finger)": "<strong>tirer</strong> – garder le bouton de la souris appuyé et bouger la souris (sur le portable : avec le doigt)",
+ "Ohne Ziehen: Markier die Formel und die leeren Zellen darunter, z. B. D5 bis D9. Dann Strg + D.": "<strong>Sans tirer :</strong> Sélectionne la formule et les cellules vides en dessous, par ex. de D5 à D9. Puis <kbd>Strg</kbd> + <kbd>D</kbd> (Ctrl + D).",
+ "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "Clique sur la cellule jaune D5 et tape une formule en haut. Tu valides avec <kbd>Enter</kbd>. Puis tu tires la <strong>Ausfüllkästchen</strong> (poignée de recopie) de D5 vers le bas jusqu'à D9, comme dans Calc.",
+ "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 affiche 6,00 €. Maintenant recopie : tire le petit carré en bas à droite de D5 vers le bas jusqu'à D9.",
+ "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Un peu trop loin : maintenant D10 contient aussi une formule. Mais c'est là que va la somme. Clique sur D10 et tape <code>=SUMME(D5:D9)</code>.",
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Pas encore tout en bas. Encore vides : {}. Tire de D5 jusqu'à D9."
 }

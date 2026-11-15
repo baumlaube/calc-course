@@ -409,6 +409,7 @@
      */
     constructor(el, opts) {
       this.el = el;
+      el.miniCalc = this;   // für die Browser-Tests (tools/browsertest/)
       // decimal: "comma" = wie LibreOffice mit deutscher Einstellung (1.49 bleibt Text), "any" = Komma oder Punkt
       this.o = Object.assign({ cols: 4, rows: 10, cells: {}, styles: {}, formats: {}, editable: [], actions: [], decimal: "any" }, opts);
       // wie LibreOffice (deutsch): "0,85 €" wird als Zahl erkannt, "0.85" bleibt Text

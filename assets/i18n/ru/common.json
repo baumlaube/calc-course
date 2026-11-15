@@ -200,5 +200,7 @@
  "die Zahl, bei der sich die Antwort ändert": "<strong>граница</strong> – число, на котором ответ меняется",
  "eine Regel: Nur wenn sie stimmt, färbt Calc die Zelle.": "<strong>условие</strong> – правило: Calc красит ячейку, только если оно верно.",
  "Impressum": "Impressum (Выходные данные)",
- "Datenschutz": "Datenschutz (Защита данных)"
+ "Datenschutz": "Datenschutz (Защита данных)",
+ "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Потяни пальцем маленький квадратик справа внизу у ячейки. Или нажми кнопку <strong>■</strong>. В LibreOffice Calc ты тянешь за <strong>Ausfüllkästchen</strong> (маркер заполнения).",
+ "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (маркер заполнения): тяни, чтобы заполнить"
 }

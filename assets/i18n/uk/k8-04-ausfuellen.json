@@ -28,7 +28,6 @@
  "Die Spaltenbuchstaben zählen mit. Jede Spalte rechnet mit ihren eigenen Zahlen.": "<strong>Літери стовпців</strong> рахуються далі. Кожен стовпець рахує зі своїми числами.",
  "Fachwort: So ein mitzählender Bezug heißt relativer Bezug.": "Термін: таке посилання, що рахується далі, називається <strong>relativer Bezug</strong> (відносне посилання).",
  "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>Коротке відео (буде пізніше):</strong> маркер заповнення за 30 секунд",
- "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann füllst du aus.": "Клацни на жовту клітинку D5 і введи вгорі формулу. Натисни <kbd>Enter</kbd>, щоб підтвердити. Потім заповни вниз.",
  "ODS Übungsdateik8-04-ausfuellen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (файл із вправами)<small>k8-04-ausfuellen.ods</small></span>",
  "BasisAufgabe 1 · Partyeinkauf: Eine Formel nach unten ziehen und die Summe bilden.": "<span class=\"badge basis\">Basis</span><span><strong>Завдання 1 · Покупки для вечірки:</strong> протягнути формулу вниз і порахувати суму.</span>",
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen.": "<span class=\"badge basis\">Basis</span><span><strong>Завдання 2 · Кишенькові гроші:</strong> заповнити суми вправо <em>і</em> вниз.</span>",
@@ -64,7 +63,6 @@
  "Tippe in D5 eine Formel.": "Введи формулу в D5.",
  "In D5 steht der Fehler {}. Prüfe die Schreibweise.": "У D5 помилка <strong>{}</strong>. Перевір, як ти написав/написала.",
  "D5 rechnet noch nicht richtig. Gesucht ist: Anzahl (B5) × Preis (C5).": "D5 ще рахує неправильно. Потрібно: кількість (B5) × ціна (C5).",
- "D5 zeigt 6,00 €. Jetzt klick auf ■ D5 nach unten ausfüllen!": "D5 показує 6,00 €. Тепер натисни <strong>■ D5 nach unten ausfüllen (заповнити вниз)</strong>!",
  "Du hast D5 geändert. Fülle noch einmal nach unten aus!": "Ти змінив/змінила D5. Заповни вниз ще раз!",
  "Überall steht 6,00 €! In deiner Formel stehen feste Zahlen. Die zählen beim Ausfüllen nicht mit. Nimm die Zellen: =B5*C5.": "Всюди 6,00 €! У твоїй формулі <strong>фіксовані числа</strong>. Вони не змінюються при заповненні. Використай клітинки: <code>=B5*C5</code>.",
  "✔ Perfekt! Jede Zeile rechnet mit ihren eigenen Zahlen. Klick D7 an und schau dir die Formel an.Weiter: Berechne in D10 die Summe.": "✔ Чудово! Кожен рядок рахує зі своїми числами. Клацни на D7 і подивись на формулу.<br><strong>Далі:</strong> порахуй суму в D10.",
@@ -140,8 +138,13 @@
  "Hier ist der Preis fest getippt. Ändert sich B5, merkt die Formel nichts.": "Тут ціну вписано жорстко. Якщо B5 зміниться, формула цього не помітить.",
  "Das ist nur eine getippte Zahl. Calc rechnet nichts.": "Це просто набране число. Calc нічого не рахує.",
  "eine Formel in viele Zellen kopieren": "<strong>заповнити</strong> – скопіювати формулу в багато клітинок",
- "die Maustaste gedrückt halten und die Maus bewegen": "<strong>тягнути, протягувати</strong> – тримати кнопку миші натиснутою й рухати мишу",
  "das kleine Quadrat unten rechts an der markierten Zelle": "<strong>маркер заповнення</strong> – маленький квадрат справа внизу біля виділеної клітинки",
  "etwas, das immer weitergeht: Montag, Dienstag, Mittwoch …": "<strong>ряд</strong> – те, що весь час продовжується: Montag, Dienstag, Mittwoch …",
- "nachrechnen, ob das Ergebnis stimmt": "<strong>перевірка</strong> – перерахувати, чи правильний результат"
+ "nachrechnen, ob das Ergebnis stimmt": "<strong>перевірка</strong> – перерахувати, чи правильний результат",
+ "die Maustaste gedrückt halten und die Maus bewegen (am Handy: mit dem Finger)": "<strong>тягнути, протягувати</strong> – тримати кнопку миші натиснутою й рухати мишу (на телефоні: пальцем)",
+ "Ohne Ziehen: Markier die Formel und die leeren Zellen darunter, z. B. D5 bis D9. Dann Strg + D.": "<strong>Без перетягування:</strong> Виділи формулу й порожні клітинки під нею, напр. від D5 до D9. Потім <kbd>Strg</kbd> + <kbd>D</kbd> (Ctrl + D).",
+ "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "Клацни на жовту клітинку D5 і введи формулу вгорі. Підтверди клавішею <kbd>Enter</kbd>. Потім потягни за <strong>Ausfüllkästchen</strong> (маркер заповнення) від D5 униз до D9, точно як у Calc.",
+ "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 показує 6,00 €. Тепер заповни: потягни маленький квадратик унизу праворуч у D5 вниз до D9.",
+ "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Трохи задалеко: тепер і в D10 є формула. Але там має бути сума. Клацни D10 і введи там <code>=SUMME(D5:D9)</code>.",
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Ще не до кінця. Порожні ще: {}. Тягни від D5 до D9."
 }

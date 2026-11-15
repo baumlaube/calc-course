@@ -28,7 +28,6 @@
  "Die Spaltenbuchstaben zählen mit. Jede Spalte rechnet mit ihren eigenen Zahlen.": "<strong>Буквы столбцов</strong> считают вместе. Каждый столбец считает со своими числами.",
  "Fachwort: So ein mitzählender Bezug heißt relativer Bezug.": "Термин: ссылка, которая считает вместе, называется <strong>relativer Bezug</strong> (относительная ссылка).",
  "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>Короткое видео (скоро):</strong> маркер заполнения за 30 секунд",
- "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann füllst du aus.": "Щёлкни по жёлтой ячейке D5 и введи наверху формулу. Подтверди клавишей <kbd>Enter</kbd>. Потом заполни вниз.",
  "ODS Übungsdateik8-04-ausfuellen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (файл с упражнениями)<small>k8-04-ausfuellen.ods</small></span>",
  "BasisAufgabe 1 · Partyeinkauf: Eine Formel nach unten ziehen und die Summe bilden.": "<span class=\"badge basis\">Basis</span><span><strong>Задание 1 · Покупки для праздника:</strong> протянуть формулу вниз и посчитать сумму.</span>",
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen.": "<span class=\"badge basis\">Basis</span><span><strong>Задание 2 · Карманные деньги:</strong> заполнить суммы вправо <em>и</em> вниз.</span>",
@@ -63,7 +62,6 @@
  "Tippe in D5 eine Formel.": "Введи формулу в D5.",
  "In D5 steht der Fehler {}. Prüfe die Schreibweise.": "D5 показывает ошибку <strong>{}</strong>. Проверь написание.",
  "D5 rechnet noch nicht richtig. Gesucht ist: Anzahl (B5) × Preis (C5).": "D5 ещё считает неправильно. Нам нужно: количество (B5) × цена (C5).",
- "D5 zeigt 6,00 €. Jetzt klick auf ■ D5 nach unten ausfüllen!": "D5 показывает 6,00 €. Теперь нажми <strong>■ D5 nach unten ausfüllen</strong> (заполнить вниз)!",
  "Du hast D5 geändert. Fülle noch einmal nach unten aus!": "Ты изменил(а) D5. Заполни вниз ещё раз!",
  "Überall steht 6,00 €! In deiner Formel stehen feste Zahlen. Die zählen beim Ausfüllen nicht mit. Nimm die Zellen: =B5*C5.": "Каждая строка показывает 6,00 €! В твоей формуле <strong>постоянные числа</strong>. Они не считают вместе при заполнении. Используй ячейки: <code>=B5*C5</code>.",
  "✔ Perfekt! Jede Zeile rechnet mit ihren eigenen Zahlen. Klick D7 an und schau dir die Formel an.Weiter: Berechne in D10 die Summe.": "✔ Отлично! Каждая строка считает со своими числами. Щёлкни по D7 и посмотри на формулу.<br><strong>Дальше:</strong> посчитай сумму в D10.",
@@ -139,8 +137,13 @@
  "Hier ist der Preis fest getippt. Ändert sich B5, merkt die Formel nichts.": "Здесь цена вписана жёстко. Если B5 изменится, формула этого не заметит.",
  "Das ist nur eine getippte Zahl. Calc rechnet nichts.": "Это просто набранное число. Calc ничего не считает.",
  "eine Formel in viele Zellen kopieren": "<strong>заполнить</strong> – скопировать формулу во много ячеек",
- "die Maustaste gedrückt halten und die Maus bewegen": "<strong>тянуть, протягивать</strong> – держать кнопку мыши нажатой и двигать мышь",
  "das kleine Quadrat unten rechts an der markierten Zelle": "<strong>маркер заполнения</strong> – маленький квадрат справа внизу у выделенной ячейки",
  "etwas, das immer weitergeht: Montag, Dienstag, Mittwoch …": "<strong>ряд</strong> – то, что всё время продолжается: Montag, Dienstag, Mittwoch …",
- "nachrechnen, ob das Ergebnis stimmt": "<strong>проверка</strong> – пересчитать, верен ли результат"
+ "nachrechnen, ob das Ergebnis stimmt": "<strong>проверка</strong> – пересчитать, верен ли результат",
+ "die Maustaste gedrückt halten und die Maus bewegen (am Handy: mit dem Finger)": "<strong>тянуть, протягивать</strong> – держать кнопку мыши нажатой и двигать мышь (на телефоне: пальцем)",
+ "Ohne Ziehen: Markier die Formel und die leeren Zellen darunter, z. B. D5 bis D9. Dann Strg + D.": "<strong>Без перетаскивания:</strong> Выдели формулу и пустые ячейки под ней, напр. от D5 до D9. Потом <kbd>Strg</kbd> + <kbd>D</kbd> (Ctrl + D).",
+ "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "Щёлкни на жёлтую ячейку D5 и введи формулу вверху. Подтверди клавишей <kbd>Enter</kbd>. Потом потяни за <strong>Ausfüllkästchen</strong> (маркер заполнения) от D5 вниз до D9, точно как в Calc.",
+ "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 показывает 6,00 €. Теперь заполни: потяни маленький квадратик справа внизу у D5 вниз до D9.",
+ "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Чуть-чуть дальше, чем нужно: теперь и в D10 стоит формула. Но там должна быть сумма. Щёлкни D10 и введи там <code>=SUMME(D5:D9)</code>.",
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Ещё не до конца. Пустые ещё: {}. Тяни от D5 до D9."
 }

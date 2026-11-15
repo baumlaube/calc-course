@@ -28,7 +28,6 @@
  "Die Spaltenbuchstaben zählen mit. Jede Spalte rechnet mit ihren eigenen Zahlen.": "Las <strong>letras de columna</strong> avanzan. Cada columna calcula con sus propios números.",
  "Fachwort: So ein mitzählender Bezug heißt relativer Bezug.": "Término técnico: una referencia que avanza se llama <strong>relativer Bezug</strong> (referencia relativa).",
  "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>Vídeo corto (próximamente):</strong> el controlador de relleno en 30 segundos",
- "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann füllst du aus.": "Haz clic en la celda amarilla D5 y escribe arriba una fórmula. Confirma con <kbd>Enter</kbd>. Luego rellénala hacia abajo.",
  "ODS Übungsdateik8-04-ausfuellen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (archivo de ejercicios)<small>k8-04-ausfuellen.ods</small></span>",
  "BasisAufgabe 1 · Partyeinkauf: Eine Formel nach unten ziehen und die Summe bilden.": "<span class=\"badge basis\">Basis</span><span><strong>Tarea 1 · Compra para la fiesta:</strong> arrastrar una fórmula hacia abajo y hacer el total.</span>",
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen.": "<span class=\"badge basis\">Basis</span><span><strong>Tarea 2 · Paga:</strong> rellenar totales hacia la derecha <em>y</em> hacia abajo.</span>",
@@ -63,7 +62,6 @@
  "Tippe in D5 eine Formel.": "Escribe una fórmula en D5.",
  "In D5 steht der Fehler {}. Prüfe die Schreibweise.": "D5 muestra el error <strong>{}</strong>. Comprueba cómo lo has escrito.",
  "D5 rechnet noch nicht richtig. Gesucht ist: Anzahl (B5) × Preis (C5).": "D5 todavía no calcula bien. Buscamos: cantidad (B5) × precio (C5).",
- "D5 zeigt 6,00 €. Jetzt klick auf ■ D5 nach unten ausfüllen!": "D5 muestra 6,00 €. ¡Ahora haz clic en <strong>■ D5 nach unten ausfüllen</strong> (rellenar hacia abajo)!",
  "Du hast D5 geändert. Fülle noch einmal nach unten aus!": "Has cambiado D5. ¡Vuelve a rellenar hacia abajo!",
  "Überall steht 6,00 €! In deiner Formel stehen feste Zahlen. Die zählen beim Ausfüllen nicht mit. Nimm die Zellen: =B5*C5.": "¡Cada fila muestra 6,00 €! Tu fórmula contiene <strong>números fijos</strong>. Esos no avanzan al rellenar. Usa las celdas: <code>=B5*C5</code>.",
  "✔ Perfekt! Jede Zeile rechnet mit ihren eigenen Zahlen. Klick D7 an und schau dir die Formel an.Weiter: Berechne in D10 die Summe.": "✔ ¡Perfecto! Cada fila calcula con sus propios números. Haz clic en D7 y mira la fórmula.<br><strong>Siguiente:</strong> calcula el total en D10.",
@@ -139,8 +137,13 @@
  "Hier ist der Preis fest getippt. Ändert sich B5, merkt die Formel nichts.": "Aquí el precio está escrito fijo. Si B5 cambia, la fórmula no se entera.",
  "Das ist nur eine getippte Zahl. Calc rechnet nichts.": "Eso es solo un número escrito. Calc no calcula nada.",
  "eine Formel in viele Zellen kopieren": "<strong>rellenar</strong> – copiar una fórmula en muchas celdas",
- "die Maustaste gedrückt halten und die Maus bewegen": "<strong>arrastrar</strong> – mantener pulsado el botón del ratón y mover el ratón",
  "das kleine Quadrat unten rechts an der markierten Zelle": "<strong>cuadradito de relleno</strong> – el cuadrado pequeño abajo a la derecha de la celda seleccionada",
  "etwas, das immer weitergeht: Montag, Dienstag, Mittwoch …": "<strong>serie</strong> – algo que siempre sigue: Montag, Dienstag, Mittwoch …",
- "nachrechnen, ob das Ergebnis stimmt": "<strong>comprobación</strong> – calcular otra vez para ver si el resultado está bien"
+ "nachrechnen, ob das Ergebnis stimmt": "<strong>comprobación</strong> – calcular otra vez para ver si el resultado está bien",
+ "die Maustaste gedrückt halten und die Maus bewegen (am Handy: mit dem Finger)": "<strong>arrastrar</strong> – mantener pulsado el botón del ratón y mover el ratón (en el móvil: con el dedo)",
+ "Ohne Ziehen: Markier die Formel und die leeren Zellen darunter, z. B. D5 bis D9. Dann Strg + D.": "<strong>Sin arrastrar:</strong> Selecciona la fórmula y las celdas vacías debajo, p. ej. de D5 a D9. Luego <kbd>Strg</kbd> + <kbd>D</kbd> (Ctrl + D).",
+ "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "Haz clic en la celda amarilla D5 y escribe arriba una fórmula. Confirma con <kbd>Enter</kbd>. Luego arrastra el <strong>Ausfüllkästchen</strong> (controlador de relleno) de D5 hacia abajo hasta D9, igual que en Calc.",
+ "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 muestra 6,00 €. Ahora rellena: arrastra el cuadradito de abajo a la derecha de D5 hacia abajo hasta D9.",
+ "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Has arrastrado un poco de más: ahora también hay una fórmula en D10. Pero ahí va la suma. Haz clic en D10 y escribe ahí <code>=SUMME(D5:D9)</code>.",
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Todavía no llegas abajo. Siguen vacías: {}. Arrastra desde D5 hasta D9."
 }
