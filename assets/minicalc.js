@@ -318,6 +318,45 @@
     });
   }
 
+  /* Reihen wie beim Ziehen in Calc: 1 → 2, 3 · 10, 20 → 30 · Montag → Dienstag · Quartal 3 → Quartal 4 · 24.12. → 25.12. */
+  const LISTS = [
+    ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"],
+    ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"],
+    ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
+    ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"],
+  ];
+  const SER_DATE = /^(\d{1,2})\.(\d{1,2})\.(\d{2,4})$/;
+  /** Wert für den i-ten Schritt (1, 2, …) nach den Startwerten src (Rohwerte, in Ziehrichtung). null = einfach kopieren. */
+  function seriesStep(src, i) {
+    const k = src.length, last = src[k - 1];
+    if (src.some((v) => typeof v === "string" && v.startsWith("="))) return null;
+    if (src.every((v) => typeof v === "number")) {
+      if (k === 1) return last + i;
+      const d = src[1] - src[0];
+      if (!src.every((v, j) => j === 0 || Math.abs(v - src[j - 1] - d) < 1e-9)) return null;
+      return Math.round((last + i * d) * 1e9) / 1e9;
+    }
+    if (k !== 1 || typeof last !== "string") return null;
+    const s = last.trim();
+    let m = SER_DATE.exec(s);
+    if (m) {
+      const y = +m[3] < 100 ? 2000 + +m[3] : +m[3];
+      const d = new Date(Date.UTC(y, +m[2] - 1, +m[1] + i));
+      return [d.getUTCDate(), d.getUTCMonth() + 1].map((x) => String(x).padStart(2, "0")).join(".") + "." + d.getUTCFullYear();
+    }
+    for (const list of LISTS) {
+      const j = list.findIndex((w) => w.toLowerCase() === s.toLowerCase());
+      if (j < 0) continue;
+      const w = list[(((j + i) % list.length) + list.length) % list.length];
+      if (s === s.toUpperCase()) return w.toUpperCase();
+      if (s === s.toLowerCase()) return w.toLowerCase();
+      return w;
+    }
+    m = /^(.*\D)(\d+)$/.exec(s);   // Text mit Zahl am Ende: „Quartal 3“ → „Quartal 4“
+    if (m) return m[1] + Math.max(0, +m[2] + i);
+    return null;
+  }
+
   /** Liefert die Bezüge einer Formel in Reihenfolge (ohne $), für die farbigen Rahmen. */
   function formulaRefs(f) {
     const refs = [];
@@ -342,11 +381,31 @@
   const DATE_RE = /^\d{1,2}\.\d{1,2}\.\d{2,4}$/;   // 24.12.2026 wird wie in Calc ein Datum
   const fmtNum = new Intl.NumberFormat("de-DE", { maximumFractionDigits: 6 });
 
+  /* Touch-Geräte erkennen: Touchscreen vorhanden oder die erste Berührung kam vom Finger.
+     Dann bekommt <html> die Klasse mc-touch und Knöpfe mit touch: true werden sichtbar. */
+  let touch = false;
+  const setTouch = (on) => { if (on && !touch) { touch = true; document.documentElement.classList.add("mc-touch"); } };
+  if (window.matchMedia) {
+    const mq = window.matchMedia("(any-pointer: coarse)");
+    setTouch(mq.matches);
+    if (mq.addEventListener) mq.addEventListener("change", (e) => setTouch(e.matches));
+  }
+  document.addEventListener("pointerdown", (ev) => { if (ev.pointerType === "touch") setTouch(true); }, true);
+  const expand = (list) => (list || []).flatMap((x) => {
+    const m = /^([A-Z]\d+):([A-Z]\d+)$/.exec(x);
+    if (!m) return [x];
+    const A = parseAddr(m[1]), B = parseAddr(m[2]), out = [];
+    for (let r = A.r; r <= B.r; r++) for (let c = A.c; c <= B.c; c++) out.push(addr(c, r));
+    return out;
+  });
+
   /* ---------------- Die Tabelle ---------------- */
   class MiniCalc {
     /**
      * opts: { cols, rows, cells:{A1:"Text"|5|"=B5*B2"}, styles:{A4:"head"|"input"|"fix"|"label"},
-     *         formats:{C:"eur", B2:"eur"}, editable:["C5"], select:"C5", actions:[{label, onClick}], onChange }
+     *         formats:{C:"eur", B2:"eur"}, editable:["C5"], select:"C5", actions:[{label, onClick, touch}], onChange,
+     *         drag: true (Ausfüllkästchen ziehen, Strg+D/Strg+R), fillable:["D6:D9"] (zusätzliche Zielzellen) }
+     * Ausfüllen geht nur in Zellen aus editable oder fillable. actions mit touch: true sieht man nur auf Touch-Geräten.
      */
     constructor(el, opts) {
       this.el = el;
@@ -357,6 +416,8 @@
       this.raw = Object.assign({}, this.o.cells);
       this.initial = Object.assign({}, this.o.cells);
       this.editable = new Set(this.o.editable);
+      this.fillable = new Set(expand(this.o.fillable));
+      this.rng = null;   // markierter Bereich {c1, r1, c2, r2}; sel ist die aktive Zelle darin
       this.listeners = [];
       if (this.o.onChange) this.listeners.push(this.o.onChange);
       this.build();
@@ -464,8 +525,10 @@
       table.innerHTML = html + "</tbody>";
       scroll.appendChild(table);
       this.el.appendChild(scroll);
+      this.table = table;
       this.tds = {};
       table.querySelectorAll("td").forEach((td) => { this.tds[td.dataset.a] = td; });
+      if (o.drag) this.buildDrag(scroll);
 
       // Wie in Calc: Während man eine Formel tippt, fügt ein Klick auf eine Zelle deren Adresse ein.
       table.addEventListener("mousedown", (ev) => {
@@ -496,6 +559,7 @@
       document.addEventListener("mouseup", () => { this._drag = null; });
       table.addEventListener("click", (ev) => {
         if (this._skipClick) { this._skipClick = false; return; }
+        if (this._selDrag) return;
         const td = ev.target.closest("td");
         if (td) this.select(td.dataset.a, true);
       });
@@ -512,13 +576,18 @@
         o.actions.forEach((a) => {
           const b = document.createElement("button");
           b.type = "button";
-          b.className = "btn" + (a.secondary ? " secondary" : "");
+          b.className = "btn" + (a.secondary ? " secondary" : "") + (a.touch ? " mc-touch-only" : "");
           b.textContent = a.label;
           b.addEventListener("click", () => a.onClick(this, b));
           act.appendChild(b);
           a.el = b;
         });
-        if (o.actions.some((a) => a.label.startsWith("■"))) {
+        if (o.actions.some((a) => a.touch)) {
+          const hint = document.createElement("p");
+          hint.className = "mc-hint mc-touch-only";
+          hint.innerHTML = T("📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf <strong>■</strong>. In LibreOffice Calc ziehst du am Ausfüllkästchen.");
+          act.appendChild(hint);
+        } else if (o.actions.some((a) => a.label.startsWith("■"))) {
           const hint = document.createElement("p");
           hint.className = "mc-hint";
           hint.innerHTML = T("ℹ️ Hier im Browser kannst du nicht mit der Maus ziehen. Nimm den Knopf <strong>■ … ausfüllen</strong>. In LibreOffice Calc ziehst du dann richtig am Ausfüllkästchen.");
@@ -541,6 +610,8 @@
 
     select(a, focus) {
       this.sel = a;
+      const p = parseAddr(a);
+      if (p) this.setRange(p, p);
       Object.values(this.tds).forEach((td) => td.classList.remove("sel"));
       if (this.tds[a]) this.tds[a].classList.add("sel");
       this.nameEl.textContent = a;
@@ -601,6 +672,250 @@
         td.classList.toggle("err", v instanceof CalcError);
       }
       if (this.sel) this.showRefs();
+      if (this.handle) this.placeBoxes();
+    }
+
+    /* ---------- Bereich markieren und Ausfüllkästchen ziehen ---------- */
+
+    /** Markiert den Bereich von A bis B ({c, r}); die aktive Zelle (sel) bleibt, wie sie ist. */
+    setRange(A, B) {
+      this.rng = { c1: Math.min(A.c, B.c), r1: Math.min(A.r, B.r), c2: Math.max(A.c, B.c), r2: Math.max(A.r, B.r) };
+      const g = this.rng, multi = g.c1 !== g.c2 || g.r1 !== g.r2;
+      for (const [a, td] of Object.entries(this.tds)) {
+        const q = parseAddr(a);
+        td.classList.toggle("insel", multi && q.c >= g.c1 && q.c <= g.c2 && q.r >= g.r1 && q.r <= g.r2);
+      }
+      if (this.handle) this.placeBoxes();
+    }
+    /** Markierter Bereich als Text, z. B. "C7:E7" (eine Zelle: "C7"). */
+    selection() {
+      const g = this.rng;
+      if (!g) return this.sel;
+      const a = addr(g.c1, g.r1), b = addr(g.c2, g.r2);
+      return a === b ? a : a + ":" + b;
+    }
+    canFill(a) { return this.editable.has(a) || this.fillable.has(a); }
+
+    buildDrag(scroll) {
+      this.el.classList.add("mc-drag");
+      scroll.classList.add("mc-pos");
+      this.selBox = document.createElement("div");
+      this.selBox.className = "mc-selbox";
+      this.fillBox = document.createElement("div");
+      this.fillBox.className = "mc-fillbox";
+      this.handle = document.createElement("div");
+      this.handle.className = "mc-handle";
+      this.handle.title = T("Ausfüllkästchen: ziehen zum Ausfüllen");
+      scroll.append(this.selBox, this.fillBox, this.handle);
+      scroll.tabIndex = -1;   // damit Strg+D auch ankommt, wenn eine feste Zelle markiert ist
+      this.scrollEl = scroll;
+      if (window.ResizeObserver) new ResizeObserver(() => this.placeBoxes()).observe(this.table);
+
+      // Mit der Maus über mehrere Zellen ziehen markiert einen Bereich (am Handy scrollt der Finger die Seite).
+      this.table.addEventListener("pointerdown", (ev) => {
+        const td = ev.target.closest("td");
+        if (!td || ev.pointerType === "touch" || ev.button !== 0 || this.pointing()) return;
+        const p = parseAddr(td.dataset.a);
+        if (ev.shiftKey) {
+          ev.preventDefault();
+          this.setRange(parseAddr(this.sel), p);
+          this._skipClick = true;
+          this.focusGrid();
+          return;
+        }
+        this._selDrag = { start: p, moved: false };
+      });
+      document.addEventListener("pointermove", (ev) => {
+        const d = this._selDrag;
+        if (!d || !(ev.buttons & 1)) return;
+        const p = this.cellAt(ev.clientX, ev.clientY);
+        if (!d.moved && p.c === d.start.c && p.r === d.start.r) return;
+        if (!d.moved) { d.moved = true; this.select(addr(d.start.c, d.start.r), false); }
+        this.setRange(d.start, p);
+      });
+      document.addEventListener("pointerup", () => {
+        const d = this._selDrag;
+        this._selDrag = null;
+        if (d && d.moved) { this._skipClick = true; this.focusGrid(); }
+      });
+
+      // Das Ausfüllkästchen
+      const h = this.handle;
+      h.addEventListener("pointerdown", (ev) => {
+        if (ev.button !== 0) return;
+        ev.preventDefault();
+        ev.stopPropagation();
+        this.commitPending();
+        try { h.setPointerCapture(ev.pointerId); } catch (e) { /* z. B. nachgestellte Ereignisse im Test */ }
+        this._fd = { plan: null };
+        this.el.classList.add("mc-filling");
+      });
+      h.addEventListener("pointermove", (ev) => {
+        if (!this._fd) return;
+        this._fd.plan = this.planFill(this.cellAt(ev.clientX, ev.clientY));
+        this.showFillBox(this._fd.plan);
+      });
+      const end = (ev, cancel) => {
+        const fd = this._fd;
+        if (!fd) return;
+        this._fd = null;
+        this.el.classList.remove("mc-filling");
+        this.showFillBox(null);
+        if (!cancel && fd.plan && fd.plan.n > 0) this.fillBy(fd.plan.dir, fd.plan.n, ev.ctrlKey || ev.metaKey, "drag");
+      };
+      h.addEventListener("pointerup", (ev) => end(ev, false));
+      h.addEventListener("pointercancel", (ev) => end(ev, true));
+      h.addEventListener("click", (ev) => ev.stopPropagation());
+
+      // Tastatur wie in LibreOffice Calc: Strg+D füllt nach unten aus (kopiert die oberste Zeile, zählt nicht hoch;
+      // ist nur eine Zeile markiert, holt es die Zeile darüber). Für „nach rechts“ hat Calc kein Kürzel.
+      // Umschalt+Pfeil markiert einen Bereich.
+      this.el.addEventListener("keydown", (ev) => {
+        const k = ev.key.toLowerCase();
+        if ((ev.ctrlKey || ev.metaKey) && !ev.altKey && !ev.shiftKey && k === "d") {
+          ev.preventDefault();   // sonst setzt der Browser ein Lesezeichen
+          this.commitPending();
+          const g = this.rng, keep = { ...g };
+          if (g.r2 > g.r1) this.fillBy("down", g.r2 - g.r1, true, "key", { c1: g.c1, r1: g.r1, c2: g.c2, r2: g.r1 });
+          else if (g.r1 > 1) {
+            this.fillBy("down", 1, true, "key", { c1: g.c1, r1: g.r1 - 1, c2: g.c2, r2: g.r1 - 1 });
+            this.select(addr(keep.c1, keep.r1), false);
+            this.setRange({ c: keep.c1, r: keep.r1 }, { c: keep.c2, r: keep.r2 });
+          }
+          return;
+        }
+        const dirs = { arrowup: [0, -1], arrowdown: [0, 1], arrowleft: [-1, 0], arrowright: [1, 0] };
+        const mv = dirs[k];
+        if (!mv) return;
+        const inInput = ev.target === this.input;
+        if (inInput && !(ev.shiftKey && mv[0] === 0)) return;   // im Eingabefeld bewegen ← → den Cursor
+        ev.preventDefault();
+        if (inInput) this.commitPending();
+        const g = this.rng, s = parseAddr(this.sel);
+        const clampC = (c) => Math.max(1, Math.min(this.o.cols, c)), clampR = (r) => Math.max(1, Math.min(this.o.rows, r));
+        if (ev.shiftKey) {
+          // das andere Ende des Bereichs verschieben (die aktive Zelle bleibt fest)
+          const far = { c: g.c1 === s.c ? g.c2 : g.c1, r: g.r1 === s.r ? g.r2 : g.r1 };
+          this.setRange(s, { c: clampC(far.c + mv[0]), r: clampR(far.r + mv[1]) });
+          this.focusGrid();
+        } else {
+          this.select(addr(clampC(s.c + mv[0]), clampR(s.r + mv[1])), true);
+          if (!this.editable.has(this.sel)) this.focusGrid();
+        }
+      });
+    }
+
+    focusGrid() { if (this.scrollEl && document.activeElement !== this.scrollEl) this.scrollEl.focus({ preventScroll: true }); }
+    /** Getippte, aber noch nicht mit Enter bestätigte Eingabe übernehmen. */
+    commitPending() { if (this.editable.has(this.sel) && this.input.value !== this.getRaw(this.sel)) this.commit(); }
+
+    /** Zelle unter dem Punkt (x, y); außerhalb der Tabelle die nächstgelegene Randzelle. */
+    cellAt(x, y) {
+      let c = this.o.cols, r = this.o.rows;
+      for (let i = 1; i <= this.o.cols; i++) if (x < this.tds[addr(i, 1)].getBoundingClientRect().right) { c = i; break; }
+      for (let i = 1; i <= this.o.rows; i++) if (y < this.tds[addr(1, i)].getBoundingClientRect().bottom) { r = i; break; }
+      return { c, r };
+    }
+
+    /** Wohin und wie weit würde ausgefüllt, wenn man das Kästchen bei Zelle p loslässt? Bleibt vor gesperrten Zellen stehen. */
+    planFill(p) {
+      const g = this.rng;
+      const dr = p.r > g.r2 ? p.r - g.r2 : p.r < g.r1 ? p.r - g.r1 : 0;
+      const dc = p.c > g.c2 ? p.c - g.c2 : p.c < g.c1 ? p.c - g.c1 : 0;
+      if (!dr && !dc) return null;
+      const vertical = Math.abs(dr) >= Math.abs(dc);
+      const dir = vertical ? (dr > 0 ? "down" : "up") : (dc > 0 ? "right" : "left");
+      const want = Math.abs(vertical ? dr : dc);
+      let n = 0;
+      while (n < want && this.lineCells(dir, n + 1).every((a) => this.canFill(a))) n++;
+      return { dir, n, want };
+    }
+    /** Die Zellen der k-ten neuen Zeile bzw. Spalte neben dem markierten Bereich. */
+    lineCells(dir, k, g = this.rng) {
+      const out = [];
+      if (dir === "down" || dir === "up") {
+        const r = dir === "down" ? g.r2 + k : g.r1 - k;
+        for (let c = g.c1; c <= g.c2; c++) out.push(r >= 1 && r <= this.o.rows ? addr(c, r) : "");
+      } else {
+        const c = dir === "right" ? g.c2 + k : g.c1 - k;
+        for (let r = g.r1; r <= g.r2; r++) out.push(c >= 1 && c <= this.o.cols ? addr(c, r) : "");
+      }
+      return out;
+    }
+
+    /** Rahmen um den Bereich und das Kästchen an die richtige Stelle setzen. */
+    placeBoxes() {
+      const g = this.rng;
+      if (!g || !this.tds[addr(g.c1, g.r1)]) return;
+      const box = (el, A, B) => {
+        const a = this.tds[A], b = this.tds[B];
+        el.style.left = a.offsetLeft + "px";
+        el.style.top = a.offsetTop + "px";
+        el.style.width = b.offsetLeft + b.offsetWidth - a.offsetLeft + "px";
+        el.style.height = b.offsetTop + b.offsetHeight - a.offsetTop + "px";
+      };
+      const A = addr(g.c1, g.r1), B = addr(g.c2, g.r2);
+      box(this.selBox, A, B);
+      this.selBox.hidden = A === B;
+      const b = this.tds[B];
+      this.handle.style.left = b.offsetLeft + b.offsetWidth + "px";
+      this.handle.style.top = b.offsetTop + b.offsetHeight + "px";
+    }
+    showFillBox(plan) {
+      const g = this.rng, fb = this.fillBox;
+      if (!plan || !plan.n) { fb.style.display = "none"; return; }
+      const e = { ...g };
+      if (plan.dir === "down") e.r2 += plan.n; if (plan.dir === "up") e.r1 -= plan.n;
+      if (plan.dir === "right") e.c2 += plan.n; if (plan.dir === "left") e.c1 -= plan.n;
+      const a = this.tds[addr(e.c1, e.r1)], b = this.tds[addr(e.c2, e.r2)];
+      Object.assign(fb.style, { display: "block", left: a.offsetLeft + "px", top: a.offsetTop + "px",
+        width: b.offsetLeft + b.offsetWidth - a.offsetLeft + "px", height: b.offsetTop + b.offsetHeight - a.offsetTop + "px" });
+    }
+
+    /**
+     * Füllt vom Bereich src (Standard: die Markierung) n Zeilen/Spalten in Richtung dir aus – wie in Calc:
+     * Formeln werden angepasst, Zahlen/Wochentage/Monate/Datum/„Text 3“ als Reihe fortgesetzt (copy = true: nur kopieren).
+     * Danach ist der ganze Bereich markiert. via: "drag" | "key" | "button" (steht danach in lastFill).
+     */
+    fillBy(dir, n, copy = false, via = "button", src = this.rng) {
+      const vertical = dir === "down" || dir === "up", sign = dir === "down" || dir === "right" ? 1 : -1;
+      // Startzellen je Spalte (beim Ziehen nach unten/oben) bzw. je Zeile, in Ziehrichtung sortiert
+      const lines = [];
+      if (vertical) for (let c = src.c1; c <= src.c2; c++) { const l = []; for (let r = src.r1; r <= src.r2; r++) l.push(addr(c, r)); lines.push(l); }
+      else for (let r = src.r1; r <= src.r2; r++) { const l = []; for (let c = src.c1; c <= src.c2; c++) l.push(addr(c, r)); lines.push(l); }
+      if (sign < 0) lines.forEach((l) => l.reverse());
+      const targets = [];
+      lines.forEach((line, li) => {
+        const vals = line.map((a) => this.raw[a] ?? "");
+        const k = line.length;
+        for (let i = 1; i <= n; i++) {
+          const t = this.lineCells(dir, i, src)[li];
+          if (!t || !this.canFill(t)) continue;
+          // eine Startzelle: nach oben/links zählt die Reihe rückwärts; mehrere: Reihenfolge ist schon umgedreht
+          const ser = copy ? null : seriesStep(vals, k === 1 ? sign * i : i);
+          let v;
+          if (ser !== null) v = ser;
+          else {
+            const s = line[(i - 1) % k], raw = this.raw[s];
+            const ps = parseAddr(s), pt = parseAddr(t);
+            v = typeof raw === "string" && raw.startsWith("=") ? shiftFormula(raw, pt.r - ps.r, pt.c - ps.c) : raw;
+          }
+          this.raw[t] = v;
+          targets.push(t);
+        }
+      });
+      const e = { ...src };
+      if (dir === "down") e.r2 += n; if (dir === "up") e.r1 -= n;
+      if (dir === "right") e.c2 += n; if (dir === "left") e.c1 -= n;
+      e.c1 = Math.max(1, e.c1); e.r1 = Math.max(1, e.r1); e.c2 = Math.min(this.o.cols, e.c2); e.r2 = Math.min(this.o.rows, e.r2);
+      this.render();
+      this.select(addr(src.c1, src.r1), false);   // wie in Calc: aktive Zelle oben links, der ganze Bereich markiert
+      this.setRange({ c: e.c1, r: e.r1 }, { c: e.c2, r: e.r2 });
+      targets.forEach((t) => { const td = this.tds[t]; if (td) { td.classList.remove("flash"); void td.offsetWidth; td.classList.add("flash"); } });
+      this.lastFill = { source: src, dir, n, targets, via, copy };
+      if (via !== "button") this.focusGrid();
+      this.emit("fill");
+      return targets;
     }
 
     /** Ausfüllen: kopiert die Formel aus src in alle Zielzellen (mit Animation). */

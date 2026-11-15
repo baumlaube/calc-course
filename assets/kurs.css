@@ -294,6 +294,22 @@ footer .legal a { color: inherit; }
 .mc-grid td.fix { background: var(--fix-bg); font-weight: 700; }
 .mc-grid td.sel { outline: 3px solid var(--navy); outline-offset: -2px; z-index: 2; }
 .mc-grid td.sel::after { content: ""; position: absolute; right: 0; bottom: 0; width: 7px; height: 7px; background: var(--navy); border: 1px solid var(--surface); }
+/* Ausfüllkästchen zum Ziehen (MiniCalc mit drag: true) */
+.mc-pos { position: relative; }
+.mc-pos:focus { outline: none; }
+.mc-drag .mc-grid { -webkit-user-select: none; user-select: none; }
+.mc-drag .mc-grid td.sel::after { display: none; }
+.mc-grid td.insel { background-image: linear-gradient(rgba(31, 111, 235, .16), rgba(31, 111, 235, .16)); }
+.mc-selbox, .mc-fillbox { position: absolute; box-sizing: border-box; pointer-events: none; z-index: 3; }
+.mc-selbox { border: 2px solid var(--navy); }
+.mc-fillbox { display: none; border: 2px dashed var(--navy); }
+.mc-handle { position: absolute; z-index: 4; box-sizing: border-box; width: 9px; height: 9px; margin: -9px 0 0 -9px;
+  background: var(--navy); border: 1px solid var(--surface); cursor: crosshair; touch-action: none; }
+.mc-handle::before { content: ""; position: absolute; left: -10px; top: -10px; right: 0; bottom: 0; }
+.mc-touch .mc-handle { width: 16px; height: 16px; margin: -16px 0 0 -16px; border-radius: 3px; border-width: 2px; }
+.mc-touch .mc-handle::before { left: -22px; top: -22px; }
+.mc-filling, .mc-filling * { cursor: crosshair !important; }
+html:not(.mc-touch) .mc-touch-only { display: none !important; }
 .mc-grid td.flash { animation: mcflash .6s ease-out; }
 @keyframes mcflash { from { background: #b9e2ff; } }
 @media (prefers-reduced-motion: reduce) { .mc-grid td.flash { animation: none; } }
