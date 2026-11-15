@@ -7,7 +7,7 @@
  "Ich kann =WENN(Frage;\"Ja\";\"Nein\") selbst schreiben.": "I can write <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code> myself.",
  "Ich kann statt Ja und Nein eigene Antworten ausgeben.": "I can show my own answers instead of Ja and Nein.",
  "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 gets this formula: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Jetzt du: Was zeigt B5?": "<strong>Your turn:</strong> What does B5 show?",
+ "Überleg: Was zeigt B5?": "<strong>Think:</strong> What does B5 show?",
  "Nein": "Nein (no)",
  "Bus": "Bus",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN is a yes/no question <span class=\"chip\">7 min</span>",

@@ -7,7 +7,7 @@
  "Ich kann WENN-Formeln mit Text, Zahlen und Rechnungen sicher schreiben.": "Mogu sigurno pisati WENN formule s tekstom, brojevima i računima.",
  "Ich kann eine Probe-Aufgabe zu WENN allein lösen.": "Mogu sam/a riješiti zadatak za test o WENN.",
  "💡 Beim Erste-Hilfe-Quiz hat bestanden, wer mindestens 15 Punkte hat. In Spalte C steht überall so eine Formel: =WENN(B5>=15;\"bestanden\";\"durchgefallen\")": "💡 Na kvizu prve pomoći položio je ko ima najmanje 15 bodova. U koloni C svuda stoji ovakva formula: <code class=\"long\">=WENN(B5&gt;=15;\"bestanden\";\"durchgefallen\")</code>",
- "Jetzt du: Neue Regel – bestanden erst ab 16 Punkten. Wie viele Zellen musst du ändern?": "<strong>Sada ti:</strong> Novo pravilo – položeno tek od <strong>16</strong> bodova. Koliko ćelija moraš promijeniti?",
+ "Überleg: Neue Regel – bestanden erst ab 16 Punkten. Wie viele Zellen musst du ändern?": "<strong>Razmisli:</strong> Novo pravilo – položeno tek od <strong>16</strong> bodova. Koliko ćelija moraš promijeniti?",
  "nur eine": "samo jednu",
  "alle drei Formeln": "sve tri formule",
  "keine": "nijednu",

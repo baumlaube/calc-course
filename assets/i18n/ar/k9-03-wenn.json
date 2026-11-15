@@ -7,7 +7,7 @@
  "Ich kann =WENN(Frage;\"Ja\";\"Nein\") selbst schreiben.": "أكتب بنفسي <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>.",
  "Ich kann statt Ja und Nein eigene Antworten ausgeben.": "أعرض أجوبتي الخاصة بدل Ja وNein.",
  "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 تحصل على هذه الصيغة: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Jetzt du: Was zeigt B5?": "<strong>دورك:</strong> ماذا تُظهر B5؟",
+ "Überleg: Was zeigt B5?": "<strong>فكّر:</strong> ماذا تُظهر B5؟",
  "Nein": "Nein (لا)",
  "Bus": "Bus (حافلة)",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN سؤال جوابه نعم أو لا <span class=\"chip\">7 د</span>",

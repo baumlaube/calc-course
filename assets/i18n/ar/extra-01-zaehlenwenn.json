@@ -6,7 +6,7 @@
  "Ich kann Kriterien wie \"Sport\", \">=4\" oder eine Zelle benutzen.": "أستخدم معايير مثل <code>\"Sport\"</code> أو <code>\"&gt;=4\"</code> أو خلية.",
  "Ich kann mit SUMMEWENN nur passende Beträge addieren.": "أجمع بـ <code>SUMMEWENN</code> (جمع إذا) المبالغ المناسبة فقط.",
  "💡 Acht Schüler haben ihr Lieblingsfach genannt. In D2 kommt: =ZÄHLENWENN(B2:B9;\"Sport\")": "💡 ثمانية تلاميذ ذكروا مادتهم المفضّلة. في D2 توضع: <code class=\"long\">=ZÄHLENWENN(B2:B9;\"Sport\")</code>",
- "Jetzt du: Was zeigt D2?": "<strong>دورك:</strong> ماذا تُظهر D2؟",
+ "Überleg: Was zeigt D2?": "<strong>فكّر:</strong> ماذا تُظهر D2؟",
  "2 So zählt Calc 7 Min": "<span class=\"step-no\">2</span> هكذا يعدّ Calc <span class=\"chip\">7 د</span>",
  "=ZÄHLENWENN(Bereich; Kriterium)Zählt, wie oft das Kriterium im Bereich passt.": "<code class=\"long\">=ZÄHLENWENN(Bereich; Kriterium)</code> (النطاق؛ المعيار)<br/>تعدّ كم مرة يناسب المعيار في النطاق.",
  "Beispiel: Weitsprung": "مثال: الوثب الطويل",

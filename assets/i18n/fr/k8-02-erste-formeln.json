@@ -7,7 +7,7 @@
  "Ich kann in Formeln Zellen statt Zahlen verwenden.": "J'utilise des cellules au lieu de nombres dans les formules.",
  "Ich kann erklären, warum Calc dann von selbst neu rechnet.": "Je sais expliquer pourquoi Calc recalcule alors tout seul.",
  "Mia kauft Schulsachen. Bei den Heften hat sie im Kopf gerechnet und in D5 einfach 4,50 eingetippt. Bei den Stiften steht in D6 eine Formel.": "Mia achète des fournitures scolaires. Pour les <strong>cahiers</strong>, elle a calculé de tête et a simplement tapé <code>4,50</code> dans D5. Pour les <strong>stylos</strong>, D6 contient une formule.",
- "Jetzt du: Beides wird teurer. Was zeigt D5 danach?": "<strong>À toi :</strong> les deux deviennent plus chers. Qu'affiche <strong>D5</strong> ensuite ?",
+ "Überleg: Beides wird teurer. Was zeigt D5 danach?": "<strong>Réfléchis :</strong> les deux deviennent plus chers. Qu'affiche <strong>D5</strong> ensuite ?",
  "Den neuen, höheren Betrag": "Le nouveau montant, plus élevé",
  "Immer noch 4,50 €": "Toujours 4,50 €",
  "Eine Fehlermeldung": "Un message d'erreur",

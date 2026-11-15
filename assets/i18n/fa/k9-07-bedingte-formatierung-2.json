@@ -6,7 +6,7 @@
  "Ich kann mehrere Bedingungen in der richtigen Reihenfolge anlegen.": "می‌توانم چند شرط را به ترتیب درست بسازم.",
  "Ich kann Text färben lassen, z. B. alles mit „fehlt“.": "می‌توانم متن را رنگ کنم، مثلاً هر چیزی که „fehlt“ (کم است) دارد.",
  "Ich kann eine Grenze aus einer Zelle mit $ benutzen.": "می‌توانم یک مرز را از یک خانه با <code>$</code> به کار ببرم.",
- "Jetzt du: Welche Farbe bekommt der Akku mit 15 %?": "<strong>نوبت توست:</strong> باتری با <strong>15 %</strong> چه رنگی می‌گیرد؟",
+ "Überleg: Welche Farbe bekommt der Akku mit 15 %?": "<strong>فکر کن:</strong> باتری با <strong>15 %</strong> چه رنگی می‌گیرد؟",
  "gelb": "زرد",
  "rot": "قرمز",
  "halb gelb, halb rot": "نیمه زرد، نیمه قرمز",

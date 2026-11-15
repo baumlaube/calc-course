@@ -6,7 +6,7 @@
  "Ich kann die vier Teile von SVERWEIS erklären.": "Mogu objasniti četiri dijela SVERWEIS.",
  "Ich halte die Liste mit $ fest und fülle die Formel aus.": "Listu držim fiksnom sa <code>$</code> i popunjavam formulu.",
  "💡 Am Kiosk wird mit Nummern bestellt. In F2 steht die Nummer 103. In G2 kommt:=SVERWEIS(F2;A2:C7;3;0)": "💡 Na kiosku se naručuje brojevima. U F2 stoji broj <strong>103</strong>. U G2 ide:<br/><code class=\"long\">=SVERWEIS(F2;A2:C7;3;0)</code>",
- "Jetzt du: Was zeigt G2?": "<strong>Sada ti:</strong> Šta pokazuje G2?",
+ "Überleg: Was zeigt G2?": "<strong>Razmisli:</strong> Šta pokazuje G2?",
  "Kakao": "Kakao",
  "2 Die vier Teile 7 Min": "<span class=\"step-no\">2</span> Četiri dijela <span class=\"chip\">7 min</span>",
  "=SVERWEIS(Suchwert; Liste; Spalte; 0)": "<code class=\"long\">=SVERWEIS(Suchwert; Liste; Spalte; 0)</code> (traženo; lista; kolona; 0)",

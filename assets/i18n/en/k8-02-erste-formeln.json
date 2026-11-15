@@ -7,7 +7,7 @@
  "Ich kann in Formeln Zellen statt Zahlen verwenden.": "I can use cells instead of numbers in formulas.",
  "Ich kann erklären, warum Calc dann von selbst neu rechnet.": "I can explain why Calc then recalculates by itself.",
  "Mia kauft Schulsachen. Bei den Heften hat sie im Kopf gerechnet und in D5 einfach 4,50 eingetippt. Bei den Stiften steht in D6 eine Formel.": "Mia buys school things. For the <strong>exercise books</strong> she calculated in her head and simply typed <code>4,50</code> into D5. For the <strong>pens</strong>, D6 contains a formula.",
- "Jetzt du: Beides wird teurer. Was zeigt D5 danach?": "<strong>Your turn:</strong> Both get more expensive. What does <strong>D5</strong> show afterwards?",
+ "Überleg: Beides wird teurer. Was zeigt D5 danach?": "<strong>Think:</strong> Both get more expensive. What does <strong>D5</strong> show afterwards?",
  "Den neuen, höheren Betrag": "The new, higher amount",
  "Immer noch 4,50 €": "Still 4,50 €",
  "Eine Fehlermeldung": "An error message",

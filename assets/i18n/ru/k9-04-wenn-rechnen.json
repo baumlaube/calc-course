@@ -7,7 +7,7 @@
  "Ich kann im Dann- und Sonst-Teil rechnen.": "Я умею считать в части Dann (тогда) и Sonst (иначе).",
  "Ich weiß, wann Anführungszeichen hingehören und wann nicht.": "Я знаю, когда нужны кавычки, а когда нет.",
  "💡 Du kennst schon: =WENN(B5<18;\"Ja\";\"Nein\") – Ist Lisa jünger als 18?Im Kino steht in C5 aber: =WENN(B5<18;8;10)": "💡 <strong>Ты уже знаешь:</strong> <code class=\"long\">=WENN(B5&lt;18;\"Ja\";\"Nein\")</code> – Лиза младше 18?<br/>А в кино в C5 стоит: <code class=\"long\">=WENN(B5&lt;18;8;10)</code>",
- "Jetzt du: Lisa ist 16. Was zeigt C5?": "<strong>Теперь ты:</strong> Лизе 16. Что покажет C5?",
+ "Überleg: Lisa ist 16. Was zeigt C5?": "<strong>Подумай:</strong> Лизе 16. Что покажет C5?",
  "2 Statt Ja und Nein: rechnen 7 Min": "<span class=\"step-no\">2</span> Вместо «да» и «нет»: считать <span class=\"chip\">7 мин</span>",
  "Statt \"Ja\" und \"Nein\" darf eine Zahl oder eine Rechnung stehen.Zahlen und Rechnungen ohne Anführungszeichen.": "Вместо <code>\"Ja\"</code> и <code>\"Nein\"</code> может стоять <strong>число</strong> или <strong>вычисление</strong>.<br/>Числа и вычисления – <strong>без</strong> кавычек.",
  "Beispiel: Gesamtpreis im Online-Shop": "Пример: общая цена в интернет-магазине",

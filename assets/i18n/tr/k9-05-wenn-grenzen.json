@@ -7,7 +7,7 @@
  "Ich kann WENN-Formeln mit Text, Zahlen und Rechnungen sicher schreiben.": "Metin, sayı ve hesaplı WENN formüllerini güvenle yazabilirim.",
  "Ich kann eine Probe-Aufgabe zu WENN allein lösen.": "WENN ile ilgili bir sınav görevini tek başıma çözebilirim.",
  "💡 Beim Erste-Hilfe-Quiz hat bestanden, wer mindestens 15 Punkte hat. In Spalte C steht überall so eine Formel: =WENN(B5>=15;\"bestanden\";\"durchgefallen\")": "💡 İlk yardım quizinde en az 15 puan alan geçti. C sütununda her yerde şöyle bir formül var: <code class=\"long\">=WENN(B5&gt;=15;\"bestanden\";\"durchgefallen\")</code>",
- "Jetzt du: Neue Regel – bestanden erst ab 16 Punkten. Wie viele Zellen musst du ändern?": "<strong>Sıra sende:</strong> Yeni kural – sadece <strong>16</strong> puandan itibaren geçer. Kaç hücreyi değiştirmen gerekir?",
+ "Überleg: Neue Regel – bestanden erst ab 16 Punkten. Wie viele Zellen musst du ändern?": "<strong>Düşün:</strong> Yeni kural – sadece <strong>16</strong> puandan itibaren geçer. Kaç hücreyi değiştirmen gerekir?",
  "nur eine": "sadece birini",
  "alle drei Formeln": "üç formülün hepsini",
  "keine": "hiçbirini",

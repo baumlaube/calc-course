@@ -7,7 +7,7 @@
  "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "İndirim, pay ve KDV'yi formüllerle hesaplayabilirim.",
  "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "Tek bir yüzdeyi <code>$</code> çapasıyla birçok satır için kullanabilirim.",
  "💡 Aus Mathe kennst du: 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 20 %.": "💡 <strong>Matematikten biliyorsun:</strong> 50 €'nun %20'si = 50 € · 20 : 100 = 10 €. Yukarıdaki tabloda B2 <strong>%20</strong> gösteriyor.",
- "Jetzt du: Welche Zahl steht für Calc wirklich in B2?": "<strong>Sıra sende:</strong> Calc için B2'de gerçekte hangi sayı var?",
+ "Überleg: Welche Zahl steht für Calc wirklich in B2?": "<strong>Düşün:</strong> Calc için B2'de gerçekte hangi sayı var?",
  "Gar keine Zahl, sondern der Text „20 %“": "Hiç sayı yok, „20 %“ metni var",
  "2 So rechnet Calc mit Prozent 7 Min": "<span class=\"step-no\">2</span> Calc yüzdeyle nasıl hesaplar <span class=\"chip\">7 dk</span>",
  "20 % = 0,2. Darum gilt in Calc: Wert · Prozentsatz – ohne /100.": "<strong>%20 = 0,2.</strong> Yani Calc'ta: değer · yüzde – <strong>/100 olmadan</strong>.",

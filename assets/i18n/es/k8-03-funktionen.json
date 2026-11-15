@@ -7,7 +7,7 @@
  "Ich kann MITTELWERT, MIN und MAX benutzen.": "Uso <strong>MITTELWERT</strong> (promedio), <strong>MIN</strong> y <strong>MAX</strong>.",
  "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "Escribo un rango como <code>B5:B9</code> o lo selecciono con el ratón.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>Ya lo conoces:</strong> <code>=B5+B6+B7+B8+B9</code> suma cinco días. ¿Pero y con 365 días? Para eso están las <strong>funciones</strong>.<br/>B10 contiene: <code>=SUMME(B5:B9)</code>",
- "Jetzt du: Was bedeutet B5:B9?": "<strong>Tu turno:</strong> ¿qué significa <code>B5:B9</code>?",
+ "Überleg: Was bedeutet B5:B9?": "<strong>Piensa:</strong> ¿qué significa <code>B5:B9</code>?",
  "Nur B5 und B9": "Solo B5 y B9",
  "B5 bis B9, also alle dazwischen": "De B5 a B9, o sea, todo lo de en medio",
  "B5 geteilt durch B9": "B5 entre B9",

@@ -6,7 +6,7 @@
  "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "Mund të gjej gabimet e heshtura që Calc nuk i tregon.",
  "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "Mund të riparoj formula me gjithçka nga klasa 8.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>Këtë e di tashmë:</strong> <code>=C5/B5</code> i pjesëton pikët me numrin e pjesëmarrësve. Në D5 funksionon. Por D6 papritur tregon <code>#DIV/0!</code>.",
- "Jetzt du: Warum?": "<strong>Radha jote:</strong> Pse?",
+ "Überleg: Warum?": "<strong>Mendo:</strong> Pse?",
  "Die Punktzahl ist zu hoch.": "Pikët janë shumë të larta.",
  "B6 ist leer – Calc teilt durch 0.": "B6 është bosh – Calc pjesëton me 0.",
  "Die Formel ist falsch geschrieben.": "Formula është shkruar gabim.",

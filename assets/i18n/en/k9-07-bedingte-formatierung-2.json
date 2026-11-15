@@ -6,7 +6,7 @@
  "Ich kann mehrere Bedingungen in der richtigen Reihenfolge anlegen.": "I can create several conditions in the right order.",
  "Ich kann Text färben lassen, z. B. alles mit „fehlt“.": "I can colour text, e.g. everything with „fehlt“ (missing).",
  "Ich kann eine Grenze aus einer Zelle mit $ benutzen.": "I can use a limit from a cell with <code>$</code>.",
- "Jetzt du: Welche Farbe bekommt der Akku mit 15 %?": "<strong>Your turn:</strong> Which colour does the battery with <strong>15 %</strong> get?",
+ "Überleg: Welche Farbe bekommt der Akku mit 15 %?": "<strong>Think:</strong> Which colour does the battery with <strong>15 %</strong> get?",
  "gelb": "yellow",
  "rot": "red",
  "halb gelb, halb rot": "half yellow, half red",

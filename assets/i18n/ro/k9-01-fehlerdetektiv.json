@@ -6,7 +6,7 @@
  "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "Pot găsi erorile tăcute pe care Calc nu le arată.",
  "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "Pot repara formule cu tot ce știu din clasa a 8-a.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>Știi deja asta:</strong> <code>=C5/B5</code> împarte punctele la numărul de participanți. În D5 merge. Dar D6 arată deodată <code>#DIV/0!</code>.",
- "Jetzt du: Warum?": "<strong>Rândul tău:</strong> De ce?",
+ "Überleg: Warum?": "<strong>Gândește-te:</strong> De ce?",
  "Die Punktzahl ist zu hoch.": "Punctajul e prea mare.",
  "B6 ist leer – Calc teilt durch 0.": "B6 e gol – Calc împarte la 0.",
  "Die Formel ist falsch geschrieben.": "Formula e scrisă greșit.",

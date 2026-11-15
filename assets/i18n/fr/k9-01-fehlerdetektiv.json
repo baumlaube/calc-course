@@ -6,7 +6,7 @@
  "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "Je trouve les erreurs silencieuses que Calc ne montre pas.",
  "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "Je répare des formules avec tout ce que j'ai appris en 8e année.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>Tu connais déjà ça :</strong> <code>=C5/B5</code> divise les points par le nombre de participants. Dans D5, ça marche. Mais D6 affiche soudain <code>#DIV/0!</code>.",
- "Jetzt du: Warum?": "<strong>À toi :</strong> pourquoi ?",
+ "Überleg: Warum?": "<strong>Réfléchis :</strong> pourquoi ?",
  "Die Punktzahl ist zu hoch.": "Le score est trop élevé.",
  "B6 ist leer – Calc teilt durch 0.": "B6 est vide – Calc divise par 0.",
  "Die Formel ist falsch geschrieben.": "La formule est mal écrite.",

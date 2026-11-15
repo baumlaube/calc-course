@@ -7,7 +7,7 @@
  "Ich kann MITTELWERT, MIN und MAX benutzen.": "Mogu koristiti MITTELWERT (prosjek), MIN i MAX.",
  "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "Mogu napisati raspon kao <code>B5:B9</code> ili ga označiti mišem.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>Ovo već znaš:</strong> <code>=B5+B6+B7+B8+B9</code> sabira pet dana. Ali šta je sa 365 dana? Za to postoje <strong>funkcije</strong>.<br/>U B10 stoji: <code>=SUMME(B5:B9)</code>",
- "Jetzt du: Was bedeutet B5:B9?": "<strong>Sada ti:</strong> Šta znači <code>B5:B9</code>?",
+ "Überleg: Was bedeutet B5:B9?": "<strong>Razmisli:</strong> Šta znači <code>B5:B9</code>?",
  "Nur B5 und B9": "Samo B5 i B9",
  "B5 bis B9, also alle dazwischen": "B5 do B9, dakle sve između",
  "B5 geteilt durch B9": "B5 podijeljeno sa B9",

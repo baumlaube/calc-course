@@ -7,7 +7,7 @@
  "Ich kann MITTELWERT, MIN und MAX benutzen.": "می‌توانم از <strong>MITTELWERT</strong> (میانگین)، <strong>MIN</strong> و <strong>MAX</strong> استفاده کنم.",
  "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "می‌توانم محدوده‌ای مثل <code>B5:B9</code> بنویسم یا با موس انتخاب کنم.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>این را بلدی:</strong> <code>=B5+B6+B7+B8+B9</code> پنج روز را جمع می‌زند. ولی 365 روز چه؟ برای همین <strong>تابع‌ها</strong> هستند.<br/>در B10 این است: <code>=SUMME(B5:B9)</code>",
- "Jetzt du: Was bedeutet B5:B9?": "<strong>نوبت توست:</strong> <code>B5:B9</code> یعنی چه؟",
+ "Überleg: Was bedeutet B5:B9?": "<strong>فکر کن:</strong> <code>B5:B9</code> یعنی چه؟",
  "Nur B5 und B9": "فقط B5 و B9",
  "B5 bis B9, also alle dazwischen": "از B5 تا B9 – یعنی همه چیز در این میان",
  "B5 geteilt durch B9": "B5 تقسیم بر B9",

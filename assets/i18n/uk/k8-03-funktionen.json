@@ -7,7 +7,7 @@
  "Ich kann MITTELWERT, MIN und MAX benutzen.": "Я вмію використовувати <strong>MITTELWERT</strong> (середнє), <strong>MIN</strong> і <strong>MAX</strong>.",
  "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "Я вмію написати діапазон, наприклад <code>B5:B9</code>, або виділити його мишкою.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>Ти вже це знаєш:</strong> <code>=B5+B6+B7+B8+B9</code> додає п'ять днів. А якщо днів 365? Для цього є <strong>функції</strong>.<br/>У B10 стоїть: <code>=SUMME(B5:B9)</code>",
- "Jetzt du: Was bedeutet B5:B9?": "<strong>Тепер ти:</strong> що означає <code>B5:B9</code>?",
+ "Überleg: Was bedeutet B5:B9?": "<strong>Подумай:</strong> що означає <code>B5:B9</code>?",
  "Nur B5 und B9": "Лише B5 і B9",
  "B5 bis B9, also alle dazwischen": "Від B5 до B9 – тобто все між ними",
  "B5 geteilt durch B9": "B5 поділити на B9",

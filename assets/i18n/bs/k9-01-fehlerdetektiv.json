@@ -6,7 +6,7 @@
  "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "Mogu pronaći tihe greške koje Calc ne pokazuje.",
  "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "Mogu popraviti formule svime iz 8. razreda.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>Ovo već znaš:</strong> <code>=C5/B5</code> dijeli bodove sa brojem učesnika. U D5 to radi. Ali D6 odjednom pokazuje <code>#DIV/0!</code>.",
- "Jetzt du: Warum?": "<strong>Sada ti:</strong> Zašto?",
+ "Überleg: Warum?": "<strong>Razmisli:</strong> Zašto?",
  "Die Punktzahl ist zu hoch.": "Broj bodova je prevelik.",
  "B6 ist leer – Calc teilt durch 0.": "B6 je prazno – Calc dijeli sa 0.",
  "Die Formel ist falsch geschrieben.": "Formula je pogrešno napisana.",

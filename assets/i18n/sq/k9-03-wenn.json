@@ -7,7 +7,7 @@
  "Ich kann =WENN(Frage;\"Ja\";\"Nein\") selbst schreiben.": "Mund ta shkruaj vetë <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>.",
  "Ich kann statt Ja und Nein eigene Antworten ausgeben.": "Mund të tregoj përgjigjet e mia në vend të Ja dhe Nein.",
  "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 merr këtë formulë: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Jetzt du: Was zeigt B5?": "<strong>Radha jote:</strong> Çfarë tregon B5?",
+ "Überleg: Was zeigt B5?": "<strong>Mendo:</strong> Çfarë tregon B5?",
  "Nein": "Nein (jo)",
  "Bus": "Bus (autobus)",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN është një pyetje po/jo <span class=\"chip\">7 min</span>",

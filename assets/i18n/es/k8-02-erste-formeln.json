@@ -7,7 +7,7 @@
  "Ich kann in Formeln Zellen statt Zahlen verwenden.": "Uso celdas en vez de números en las fórmulas.",
  "Ich kann erklären, warum Calc dann von selbst neu rechnet.": "Sé explicar por qué Calc entonces recalcula solo.",
  "Mia kauft Schulsachen. Bei den Heften hat sie im Kopf gerechnet und in D5 einfach 4,50 eingetippt. Bei den Stiften steht in D6 eine Formel.": "Mia compra material escolar. Para los <strong>cuadernos</strong> calculó de cabeza y escribió simplemente <code>4,50</code> en D5. Para los <strong>bolígrafos</strong>, D6 contiene una fórmula.",
- "Jetzt du: Beides wird teurer. Was zeigt D5 danach?": "<strong>Tu turno:</strong> los dos se encarecen. ¿Qué muestra <strong>D5</strong> después?",
+ "Überleg: Beides wird teurer. Was zeigt D5 danach?": "<strong>Piensa:</strong> los dos se encarecen. ¿Qué muestra <strong>D5</strong> después?",
  "Den neuen, höheren Betrag": "El importe nuevo, más alto",
  "Immer noch 4,50 €": "Sigue siendo 4,50 €",
  "Eine Fehlermeldung": "Un mensaje de error",

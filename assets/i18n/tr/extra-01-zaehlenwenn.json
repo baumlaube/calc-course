@@ -6,7 +6,7 @@
  "Ich kann Kriterien wie \"Sport\", \">=4\" oder eine Zelle benutzen.": "<code>\"Sport\"</code>, <code>\"&gt;=4\"</code> veya bir hücre gibi ölçütler kullanabilirim.",
  "Ich kann mit SUMMEWENN nur passende Beträge addieren.": "<code>SUMMEWENN</code> (ETOPLA) ile sadece uyan tutarları toplayabilirim.",
  "💡 Acht Schüler haben ihr Lieblingsfach genannt. In D2 kommt: =ZÄHLENWENN(B2:B9;\"Sport\")": "💡 Sekiz öğrenci en sevdiği dersi söyledi. D2 şunu alıyor: <code class=\"long\">=ZÄHLENWENN(B2:B9;\"Sport\")</code>",
- "Jetzt du: Was zeigt D2?": "<strong>Sıra sende:</strong> D2 ne gösterir?",
+ "Überleg: Was zeigt D2?": "<strong>Düşün:</strong> D2 ne gösterir?",
  "2 So zählt Calc 7 Min": "<span class=\"step-no\">2</span> Calc nasıl sayar <span class=\"chip\">7 dk</span>",
  "=ZÄHLENWENN(Bereich; Kriterium)Zählt, wie oft das Kriterium im Bereich passt.": "<code class=\"long\">=ZÄHLENWENN(Bereich; Kriterium)</code> (aralık; ölçüt)<br/>Ölçütün aralıkta kaç kez uyduğunu sayar.",
  "Beispiel: Weitsprung": "Örnek: uzun atlama",

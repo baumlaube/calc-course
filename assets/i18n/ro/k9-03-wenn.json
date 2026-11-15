@@ -7,7 +7,7 @@
  "Ich kann =WENN(Frage;\"Ja\";\"Nein\") selbst schreiben.": "Pot scrie singur <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>.",
  "Ich kann statt Ja und Nein eigene Antworten ausgeben.": "Pot afișa răspunsurile mele în loc de Ja și Nein.",
  "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 primește această formulă: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Jetzt du: Was zeigt B5?": "<strong>Rândul tău:</strong> Ce arată B5?",
+ "Überleg: Was zeigt B5?": "<strong>Gândește-te:</strong> Ce arată B5?",
  "Nein": "Nein (nu)",
  "Bus": "Bus (autobuz)",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN e o întrebare cu da/nu <span class=\"chip\">7 min</span>",

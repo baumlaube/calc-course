@@ -7,7 +7,7 @@
  "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "می‌توانم تخفیف، سهم و مالیات را با فرمول حساب کنم.",
  "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "می‌توانم یک درصد را با لنگر <code>$</code> برای ردیف‌های زیاد به کار ببرم.",
  "💡 Aus Mathe kennst du: 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 20 %.": "💡 <strong>از ریاضی می‌دانی:</strong> 20 % از 50 € = 50 € · 20 : 100 = 10 €. در جدول بالا B2 مقدار <strong>20 %</strong> را نشان می‌دهد.",
- "Jetzt du: Welche Zahl steht für Calc wirklich in B2?": "<strong>نوبت توست:</strong> برای Calc واقعاً کدام عدد در B2 است؟",
+ "Überleg: Welche Zahl steht für Calc wirklich in B2?": "<strong>فکر کن:</strong> برای Calc واقعاً کدام عدد در B2 است؟",
  "Gar keine Zahl, sondern der Text „20 %“": "اصلاً عدد نیست، بلکه متن „20 %“",
  "2 So rechnet Calc mit Prozent 7 Min": "<span class=\"step-no\">2</span> Calc با درصد چطور حساب می‌کند <span class=\"chip\">7 دقیقه</span>",
  "20 % = 0,2. Darum gilt in Calc: Wert · Prozentsatz – ohne /100.": "<strong>20 % = 0,2.</strong> پس در Calc: مقدار · درصد – <strong>بدون /100</strong>.",

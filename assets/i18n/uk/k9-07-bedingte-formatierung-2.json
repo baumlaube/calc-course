@@ -6,7 +6,7 @@
  "Ich kann mehrere Bedingungen in der richtigen Reihenfolge anlegen.": "Я створюю кілька умов у правильному порядку.",
  "Ich kann Text färben lassen, z. B. alles mit „fehlt“.": "Я фарбую текст, напр. усе з „fehlt“ (бракує).",
  "Ich kann eine Grenze aus einer Zelle mit $ benutzen.": "Я використовую межу з клітинки зі знаком <code>$</code>.",
- "Jetzt du: Welche Farbe bekommt der Akku mit 15 %?": "<strong>Тепер ти:</strong> якого кольору буде батарея з <strong>15 %</strong>?",
+ "Überleg: Welche Farbe bekommt der Akku mit 15 %?": "<strong>Подумай:</strong> якого кольору буде батарея з <strong>15 %</strong>?",
  "gelb": "жовтого",
  "rot": "червоного",
  "halb gelb, halb rot": "наполовину жовтого, наполовину червоного",

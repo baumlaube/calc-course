@@ -6,7 +6,7 @@
  "Ich kann die vier Teile von SVERWEIS erklären.": "Je sais expliquer les quatre parties de SVERWEIS.",
  "Ich halte die Liste mit $ fest und fülle die Formel aus.": "Je fixe la liste avec <code>$</code> et je recopie la formule vers le bas.",
  "💡 Am Kiosk wird mit Nummern bestellt. In F2 steht die Nummer 103. In G2 kommt:=SVERWEIS(F2;A2:C7;3;0)": "💡 Au kiosque, on commande par numéros. F2 contient le numéro <strong>103</strong>. G2 reçoit :<br/><code class=\"long\">=SVERWEIS(F2;A2:C7;3;0)</code>",
- "Jetzt du: Was zeigt G2?": "<strong>À toi :</strong> qu'affiche G2 ?",
+ "Überleg: Was zeigt G2?": "<strong>Réfléchis :</strong> qu'affiche G2 ?",
  "Kakao": "Kakao (cacao)",
  "2 Die vier Teile 7 Min": "<span class=\"step-no\">2</span> Les quatre parties <span class=\"chip\">7 min</span>",
  "=SVERWEIS(Suchwert; Liste; Spalte; 0)": "<code class=\"long\">=SVERWEIS(Suchwert; Liste; Spalte; 0)</code> (valeur cherchée ; liste ; colonne ; 0)",

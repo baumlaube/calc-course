@@ -7,7 +7,7 @@
  "Ich kann WENN-Formeln mit Text, Zahlen und Rechnungen sicher schreiben.": "أكتب صيغ WENN بالنص والأرقام والعمليات الحسابية بثقة.",
  "Ich kann eine Probe-Aufgabe zu WENN allein lösen.": "أحلّ مهمة اختبار عن WENN بمفردي.",
  "💡 Beim Erste-Hilfe-Quiz hat bestanden, wer mindestens 15 Punkte hat. In Spalte C steht überall so eine Formel: =WENN(B5>=15;\"bestanden\";\"durchgefallen\")": "💡 في مسابقة الإسعافات الأولية ينجح من لديه 15 نقطة على الأقل. في العمود C توجد في كل مكان صيغة مثل هذه: <code class=\"long\">=WENN(B5&gt;=15;\"bestanden\";\"durchgefallen\")</code>",
- "Jetzt du: Neue Regel – bestanden erst ab 16 Punkten. Wie viele Zellen musst du ändern?": "<strong>دورك:</strong> قاعدة جديدة – النجاح فقط ابتداءً من <strong>16</strong> نقطة. كم خلية يجب أن تغيّر؟",
+ "Überleg: Neue Regel – bestanden erst ab 16 Punkten. Wie viele Zellen musst du ändern?": "<strong>فكّر:</strong> قاعدة جديدة – النجاح فقط ابتداءً من <strong>16</strong> نقطة. كم خلية يجب أن تغيّر؟",
  "nur eine": "خلية واحدة فقط",
  "alle drei Formeln": "الصيغ الثلاث كلها",
  "keine": "ولا واحدة",

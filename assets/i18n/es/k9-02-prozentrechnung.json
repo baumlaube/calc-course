@@ -7,7 +7,7 @@
  "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "Calculo descuentos, proporciones e IVA con fórmulas.",
  "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "Uso un porcentaje para muchas filas gracias al ancla <code>$</code>.",
  "💡 Aus Mathe kennst du: 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 20 %.": "💡 <strong>En mates aprendiste:</strong> 20 % de 50 € = 50 € · 20 : 100 = 10 €. En la tabla de arriba, B2 muestra <strong>20 %</strong>.",
- "Jetzt du: Welche Zahl steht für Calc wirklich in B2?": "<strong>Tu turno:</strong> ¿qué número hay realmente en B2 para Calc?",
+ "Überleg: Welche Zahl steht für Calc wirklich in B2?": "<strong>Piensa:</strong> ¿qué número hay realmente en B2 para Calc?",
  "Gar keine Zahl, sondern der Text „20 %“": "Ningún número, sino el texto „20 %“",
  "2 So rechnet Calc mit Prozent 7 Min": "<span class=\"step-no\">2</span> Cómo calcula Calc con porcentajes <span class=\"chip\">7 min</span>",
  "20 % = 0,2. Darum gilt in Calc: Wert · Prozentsatz – ohne /100.": "<strong>20 % = 0,2.</strong> Por eso en Calc: valor · porcentaje – <strong>sin /100</strong>.",

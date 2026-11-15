@@ -6,7 +6,7 @@
  "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "Я нахожу тихие ошибки, которые Calc не показывает.",
  "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "Я исправляю формулы всем, что знаю из 8 класса.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>Ты это уже знаешь:</strong> <code>=C5/B5</code> делит баллы на число участников. В D5 это работает. Но D6 вдруг показывает <code>#DIV/0!</code>.",
- "Jetzt du: Warum?": "<strong>Теперь ты:</strong> почему?",
+ "Überleg: Warum?": "<strong>Подумай:</strong> почему?",
  "Die Punktzahl ist zu hoch.": "Балл слишком большой.",
  "B6 ist leer – Calc teilt durch 0.": "B6 пустая – Calc делит на 0.",
  "Die Formel ist falsch geschrieben.": "Формула написана с ошибкой.",

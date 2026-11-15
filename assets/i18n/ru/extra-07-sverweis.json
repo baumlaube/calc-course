@@ -6,7 +6,7 @@
  "Ich kann die vier Teile von SVERWEIS erklären.": "Я умею объяснить четыре части SVERWEIS.",
  "Ich halte die Liste mit $ fest und fülle die Formel aus.": "Я закрепляю список знаком <code>$</code> и заполняю формулу вниз.",
  "💡 Am Kiosk wird mit Nummern bestellt. In F2 steht die Nummer 103. In G2 kommt:=SVERWEIS(F2;A2:C7;3;0)": "💡 В киоске заказывают по номерам. В F2 стоит номер <strong>103</strong>. G2 получает:<br/><code class=\"long\">=SVERWEIS(F2;A2:C7;3;0)</code>",
- "Jetzt du: Was zeigt G2?": "<strong>Теперь ты:</strong> что покажет G2?",
+ "Überleg: Was zeigt G2?": "<strong>Подумай:</strong> что покажет G2?",
  "Kakao": "Kakao (какао)",
  "2 Die vier Teile 7 Min": "<span class=\"step-no\">2</span> Четыре части <span class=\"chip\">7 мин</span>",
  "=SVERWEIS(Suchwert; Liste; Spalte; 0)": "<code class=\"long\">=SVERWEIS(Suchwert; Liste; Spalte; 0)</code> (искомое значение; список; столбец; 0)",

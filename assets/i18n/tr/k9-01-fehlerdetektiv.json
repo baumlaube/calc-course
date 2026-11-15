@@ -6,7 +6,7 @@
  "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "Calc'ın göstermediği sessiz hataları bulabilirim.",
  "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "Formülleri 8. sınıftan bildiğim her şeyle onarabilirim.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>Bunu zaten biliyorsun:</strong> <code>=C5/B5</code> puanları katılımcı sayısına böler. D5'te çalışıyor. Ama D6 birden <code>#DIV/0!</code> gösteriyor.",
- "Jetzt du: Warum?": "<strong>Sıra sende:</strong> Neden?",
+ "Überleg: Warum?": "<strong>Düşün:</strong> Neden?",
  "Die Punktzahl ist zu hoch.": "Puan çok yüksek.",
  "B6 ist leer – Calc teilt durch 0.": "B6 boş – Calc 0'a bölüyor.",
  "Die Formel ist falsch geschrieben.": "Formül yanlış yazılmış.",

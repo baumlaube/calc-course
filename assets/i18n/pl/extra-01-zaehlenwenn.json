@@ -6,7 +6,7 @@
  "Ich kann Kriterien wie \"Sport\", \">=4\" oder eine Zelle benutzen.": "Umiem używać kryteriów jak <code>\"Sport\"</code>, <code>\"&gt;=4\"</code> albo komórki.",
  "Ich kann mit SUMMEWENN nur passende Beträge addieren.": "Umiem dodać tylko pasujące kwoty za pomocą <code>SUMMEWENN</code> (SUMA.JEŻELI).",
  "💡 Acht Schüler haben ihr Lieblingsfach genannt. In D2 kommt: =ZÄHLENWENN(B2:B9;\"Sport\")": "💡 Ośmioro uczniów podało ulubiony przedmiot. D2 dostaje: <code class=\"long\">=ZÄHLENWENN(B2:B9;\"Sport\")</code>",
- "Jetzt du: Was zeigt D2?": "<strong>Twoja kolej:</strong> Co pokazuje D2?",
+ "Überleg: Was zeigt D2?": "<strong>Pomyśl:</strong> Co pokazuje D2?",
  "2 So zählt Calc 7 Min": "<span class=\"step-no\">2</span> Jak Calc liczy <span class=\"chip\">7 min</span>",
  "=ZÄHLENWENN(Bereich; Kriterium)Zählt, wie oft das Kriterium im Bereich passt.": "<code class=\"long\">=ZÄHLENWENN(Bereich; Kriterium)</code> (zakres; kryterium)<br/>Liczy, ile razy kryterium pasuje w zakresie.",
  "Beispiel: Weitsprung": "Przykład: skok w dal",

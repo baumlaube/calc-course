@@ -7,7 +7,7 @@
  "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "Я считаю скидку, доли и НДС с помощью формул.",
  "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "Я использую один процент для многих строк благодаря якорю <code>$</code>.",
  "💡 Aus Mathe kennst du: 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 20 %.": "💡 <strong>Из математики ты знаешь:</strong> 20 % от 50 € = 50 € · 20 : 100 = 10 €. В таблице выше B2 показывает <strong>20 %</strong>.",
- "Jetzt du: Welche Zahl steht für Calc wirklich in B2?": "<strong>Теперь ты:</strong> какое число на самом деле стоит в B2 для Calc?",
+ "Überleg: Welche Zahl steht für Calc wirklich in B2?": "<strong>Подумай:</strong> какое число на самом деле стоит в B2 для Calc?",
  "Gar keine Zahl, sondern der Text „20 %“": "Вообще не число, а текст „20 %“",
  "2 So rechnet Calc mit Prozent 7 Min": "<span class=\"step-no\">2</span> Как Calc считает с процентами <span class=\"chip\">7 мин</span>",
  "20 % = 0,2. Darum gilt in Calc: Wert · Prozentsatz – ohne /100.": "<strong>20 % = 0,2.</strong> Поэтому в Calc: значение · процент – <strong>без /100</strong>.",

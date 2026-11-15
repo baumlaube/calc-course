@@ -7,7 +7,7 @@
  "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "Mund të llogaris zbritjen, pjesët dhe TVSH-në me formula.",
  "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "Mund të përdor një përqindje për shumë rreshta me spirancën <code>$</code>.",
  "💡 Aus Mathe kennst du: 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 20 %.": "💡 <strong>Nga matematika e di:</strong> 20 % e 50 € = 50 € · 20 : 100 = 10 €. Në tabelën lart, B2 tregon <strong>20 %</strong>.",
- "Jetzt du: Welche Zahl steht für Calc wirklich in B2?": "<strong>Radha jote:</strong> Cili numër është në të vërtetë në B2 për Calc?",
+ "Überleg: Welche Zahl steht für Calc wirklich in B2?": "<strong>Mendo:</strong> Cili numër është në të vërtetë në B2 për Calc?",
  "Gar keine Zahl, sondern der Text „20 %“": "Asnjë numër, por teksti „20 %”",
  "2 So rechnet Calc mit Prozent 7 Min": "<span class=\"step-no\">2</span> Si llogarit Calc me përqindje <span class=\"chip\">7 min</span>",
  "20 % = 0,2. Darum gilt in Calc: Wert · Prozentsatz – ohne /100.": "<strong>20 % = 0,2.</strong> Pra në Calc: vlera · përqindja – <strong>pa /100</strong>.",

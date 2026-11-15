@@ -6,7 +6,7 @@
  "Ich kann Kriterien wie \"Sport\", \">=4\" oder eine Zelle benutzen.": "Uso criterios como <code>\"Sport\"</code>, <code>\"&gt;=4\"</code> o una celda.",
  "Ich kann mit SUMMEWENN nur passende Beträge addieren.": "Sumo solo los importes que encajan con <code>SUMMEWENN</code> (SUMAR.SI).",
  "💡 Acht Schüler haben ihr Lieblingsfach genannt. In D2 kommt: =ZÄHLENWENN(B2:B9;\"Sport\")": "💡 Ocho alumnos han dicho su asignatura favorita. D2 recibe: <code class=\"long\">=ZÄHLENWENN(B2:B9;\"Sport\")</code>",
- "Jetzt du: Was zeigt D2?": "<strong>Tu turno:</strong> ¿qué muestra D2?",
+ "Überleg: Was zeigt D2?": "<strong>Piensa:</strong> ¿qué muestra D2?",
  "2 So zählt Calc 7 Min": "<span class=\"step-no\">2</span> Así cuenta Calc <span class=\"chip\">7 min</span>",
  "=ZÄHLENWENN(Bereich; Kriterium)Zählt, wie oft das Kriterium im Bereich passt.": "<code class=\"long\">=ZÄHLENWENN(Bereich; Kriterium)</code> (rango; criterio)<br/>Cuenta cuántas veces encaja el criterio en el rango.",
  "Beispiel: Weitsprung": "Ejemplo: salto de longitud",

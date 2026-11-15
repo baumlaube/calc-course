@@ -7,7 +7,7 @@
  "Ich kann MITTELWERT, MIN und MAX benutzen.": "أستخدم <strong>MITTELWERT</strong> (المتوسط) و<strong>MIN</strong> و<strong>MAX</strong>.",
  "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "أكتب نطاقًا مثل <code>B5:B9</code> أو أحدّده بالفأرة.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>أنت تعرف هذا:</strong> <code>=B5+B6+B7+B8+B9</code> تجمع خمسة أيام. لكن ماذا عن 365 يومًا؟ لهذا توجد <strong>الدوال</strong>.<br/>في B10 يوجد: <code>=SUMME(B5:B9)</code>",
- "Jetzt du: Was bedeutet B5:B9?": "<strong>دورك:</strong> ماذا تعني <code>B5:B9</code>؟",
+ "Überleg: Was bedeutet B5:B9?": "<strong>فكّر:</strong> ماذا تعني <code>B5:B9</code>؟",
  "Nur B5 und B9": "B5 وB9 فقط",
  "B5 bis B9, also alle dazwischen": "من B5 إلى B9 – أي كل ما بينهما",
  "B5 geteilt durch B9": "B5 مقسومة على B9",

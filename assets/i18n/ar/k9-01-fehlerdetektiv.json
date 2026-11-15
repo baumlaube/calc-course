@@ -6,7 +6,7 @@
  "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "أجد الأخطاء الصامتة التي لا يُظهرها Calc.",
  "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "أصلح الصيغ بكل ما تعلّمته في الصف 8.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>أنت تعرف هذا:</strong> <code>=C5/B5</code> تقسم النقاط على عدد المشاركين. في D5 تعمل. لكن D6 تُظهر فجأة <code>#DIV/0!</code>.",
- "Jetzt du: Warum?": "<strong>دورك:</strong> لماذا؟",
+ "Überleg: Warum?": "<strong>فكّر:</strong> لماذا؟",
  "Die Punktzahl ist zu hoch.": "عدد النقاط كبير جدًا.",
  "B6 ist leer – Calc teilt durch 0.": "B6 فارغة – Calc يقسم على 0.",
  "Die Formel ist falsch geschrieben.": "الصيغة مكتوبة خطأ.",

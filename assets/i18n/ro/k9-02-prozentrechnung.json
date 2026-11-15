@@ -7,7 +7,7 @@
  "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "Pot calcula reducerea, procentajele și TVA-ul cu formule.",
  "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "Pot folosi un procent pentru multe rânduri cu ancora <code>$</code>.",
  "💡 Aus Mathe kennst du: 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 20 %.": "💡 <strong>Știi de la matematică:</strong> 20 % din 50 € = 50 € · 20 : 100 = 10 €. În tabelul de sus, B2 arată <strong>20 %</strong>.",
- "Jetzt du: Welche Zahl steht für Calc wirklich in B2?": "<strong>Rândul tău:</strong> Ce număr e de fapt în B2 pentru Calc?",
+ "Überleg: Welche Zahl steht für Calc wirklich in B2?": "<strong>Gândește-te:</strong> Ce număr e de fapt în B2 pentru Calc?",
  "Gar keine Zahl, sondern der Text „20 %“": "Niciun număr, ci textul „20 %”",
  "2 So rechnet Calc mit Prozent 7 Min": "<span class=\"step-no\">2</span> Cum calculează Calc cu procente <span class=\"chip\">7 min</span>",
  "20 % = 0,2. Darum gilt in Calc: Wert · Prozentsatz – ohne /100.": "<strong>20 % = 0,2.</strong> Deci în Calc: valoare · procent – <strong>fără /100</strong>.",

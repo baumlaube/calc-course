@@ -7,7 +7,7 @@
  "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "Mogu formulama izračunati popust, udjele i PDV.",
  "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "Mogu jedan procenat sa <code>$</code> sidrom koristiti za mnogo redova.",
  "💡 Aus Mathe kennst du: 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 20 %.": "💡 <strong>Iz matematike znaš:</strong> 20 % od 50 € = 50 € · 20 : 100 = 10 €. U tabeli gore B2 pokazuje <strong>20 %</strong>.",
- "Jetzt du: Welche Zahl steht für Calc wirklich in B2?": "<strong>Sada ti:</strong> Koji broj za Calc stvarno stoji u B2?",
+ "Überleg: Welche Zahl steht für Calc wirklich in B2?": "<strong>Razmisli:</strong> Koji broj za Calc stvarno stoji u B2?",
  "Gar keine Zahl, sondern der Text „20 %“": "Nikakav broj, nego tekst „20 %“",
  "2 So rechnet Calc mit Prozent 7 Min": "<span class=\"step-no\">2</span> Ovako Calc računa s procentima <span class=\"chip\">7 min</span>",
  "20 % = 0,2. Darum gilt in Calc: Wert · Prozentsatz – ohne /100.": "<strong>20 % = 0,2.</strong> Zato u Calcu vrijedi: vrijednost · procenat – <strong>bez /100</strong>.",

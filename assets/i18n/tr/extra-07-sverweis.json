@@ -6,7 +6,7 @@
  "Ich kann die vier Teile von SVERWEIS erklären.": "SVERWEIS'in dört kısmını açıklayabilirim.",
  "Ich halte die Liste mit $ fest und fülle die Formel aus.": "Listeyi <code>$</code> ile sabitler ve formülü aşağı doldururum.",
  "💡 Am Kiosk wird mit Nummern bestellt. In F2 steht die Nummer 103. In G2 kommt:=SVERWEIS(F2;A2:C7;3;0)": "💡 Büfede numarayla sipariş veriliyor. F2'de <strong>103</strong> numarası var. G2 şunu alıyor:<br/><code class=\"long\">=SVERWEIS(F2;A2:C7;3;0)</code>",
- "Jetzt du: Was zeigt G2?": "<strong>Sıra sende:</strong> G2 ne gösterir?",
+ "Überleg: Was zeigt G2?": "<strong>Düşün:</strong> G2 ne gösterir?",
  "Kakao": "Kakao (kakao)",
  "2 Die vier Teile 7 Min": "<span class=\"step-no\">2</span> Dört kısım <span class=\"chip\">7 dk</span>",
  "=SVERWEIS(Suchwert; Liste; Spalte; 0)": "<code class=\"long\">=SVERWEIS(Suchwert; Liste; Spalte; 0)</code> (aranan değer; liste; sütun; 0)",

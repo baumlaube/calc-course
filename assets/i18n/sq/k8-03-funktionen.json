@@ -7,7 +7,7 @@
  "Ich kann MITTELWERT, MIN und MAX benutzen.": "Mund të përdor <strong>MITTELWERT</strong> (mesatarja), <strong>MIN</strong> dhe <strong>MAX</strong>.",
  "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "Mund të shkruaj një zonë si <code>B5:B9</code> ose ta zgjedh me maus.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>Këtë e di tashmë:</strong> <code>=B5+B6+B7+B8+B9</code> mbledh pesë ditë. Po 365 ditë? Për këtë ekzistojnë <strong>funksionet</strong>.<br/>Në B10 shkruan: <code>=SUMME(B5:B9)</code>",
- "Jetzt du: Was bedeutet B5:B9?": "<strong>Radha jote:</strong> Çfarë do të thotë <code>B5:B9</code>?",
+ "Überleg: Was bedeutet B5:B9?": "<strong>Mendo:</strong> Çfarë do të thotë <code>B5:B9</code>?",
  "Nur B5 und B9": "Vetëm B5 dhe B9",
  "B5 bis B9, also alle dazwischen": "Nga B5 deri te B9 – pra gjithçka ndërmjet",
  "B5 geteilt durch B9": "B5 pjesëtuar me B9",

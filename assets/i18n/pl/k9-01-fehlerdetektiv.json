@@ -6,7 +6,7 @@
  "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "Umiem znaleźć ciche błędy, których Calc nie pokazuje.",
  "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "Umiem naprawiać formuły wszystkim, co znam z klasy 8.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>To już znasz:</strong> <code>=C5/B5</code> dzieli punkty przez liczbę uczestników. W D5 to działa. Ale D6 nagle pokazuje <code>#DIV/0!</code>.",
- "Jetzt du: Warum?": "<strong>Twoja kolej:</strong> Dlaczego?",
+ "Überleg: Warum?": "<strong>Pomyśl:</strong> Dlaczego?",
  "Die Punktzahl ist zu hoch.": "Wynik jest za wysoki.",
  "B6 ist leer – Calc teilt durch 0.": "B6 jest puste – Calc dzieli przez 0.",
  "Die Formel ist falsch geschrieben.": "Formuła jest źle napisana.",

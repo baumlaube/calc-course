@@ -6,7 +6,7 @@
  "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "Encuentro errores silenciosos que Calc no muestra.",
  "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "Reparo fórmulas con todo lo que aprendí en 8.º.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>Ya lo conoces:</strong> <code>=C5/B5</code> divide los puntos entre el número de participantes. En D5 funciona. Pero D6 de repente muestra <code>#DIV/0!</code>.",
- "Jetzt du: Warum?": "<strong>Tu turno:</strong> ¿por qué?",
+ "Überleg: Warum?": "<strong>Piensa:</strong> ¿por qué?",
  "Die Punktzahl ist zu hoch.": "La puntuación es demasiado alta.",
  "B6 ist leer – Calc teilt durch 0.": "B6 está vacía: Calc divide entre 0.",
  "Die Formel ist falsch geschrieben.": "La fórmula está mal escrita.",

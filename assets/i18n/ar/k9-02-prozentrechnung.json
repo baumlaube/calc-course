@@ -7,7 +7,7 @@
  "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "أحسب الخصم والحصص وضريبة القيمة المضافة بالصيغ.",
  "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "أستخدم نسبة مئوية واحدة لصفوف كثيرة بفضل المرساة <code>$</code>.",
  "💡 Aus Mathe kennst du: 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 20 %.": "💡 <strong>من الرياضيات تعرف:</strong> 20 % من 50 € = 50 € · 20 : 100 = 10 €. في الجدول أعلاه تُظهر B2 <strong>20 %</strong>.",
- "Jetzt du: Welche Zahl steht für Calc wirklich in B2?": "<strong>دورك:</strong> أيّ رقم يوجد فعلًا في B2 بالنسبة لـ Calc؟",
+ "Überleg: Welche Zahl steht für Calc wirklich in B2?": "<strong>فكّر:</strong> أيّ رقم يوجد فعلًا في B2 بالنسبة لـ Calc؟",
  "Gar keine Zahl, sondern der Text „20 %“": "ليس رقمًا أبدًا، بل النص „20 %“",
  "2 So rechnet Calc mit Prozent 7 Min": "<span class=\"step-no\">2</span> هكذا يحسب Calc بالنسبة المئوية <span class=\"chip\">7 د</span>",
  "20 % = 0,2. Darum gilt in Calc: Wert · Prozentsatz – ohne /100.": "<strong>20 % = 0,2.</strong> لذلك في Calc: القيمة · النسبة – <strong>بدون /100</strong>.",

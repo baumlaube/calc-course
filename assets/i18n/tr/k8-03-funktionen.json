@@ -7,7 +7,7 @@
  "Ich kann MITTELWERT, MIN und MAX benutzen.": "<strong>MITTELWERT</strong> (ortalama), <strong>MIN</strong> ve <strong>MAX</strong> kullanabilirim.",
  "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "<code>B5:B9</code> gibi bir aralık yazabilir veya fareyle seçebilirim.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>Bunu zaten biliyorsun:</strong> <code>=B5+B6+B7+B8+B9</code> beş günü toplar. Peki ya 365 gün? İşte bunun için <strong>fonksiyonlar</strong> var.<br/>B10'da şu var: <code>=SUMME(B5:B9)</code>",
- "Jetzt du: Was bedeutet B5:B9?": "<strong>Sıra sende:</strong> <code>B5:B9</code> ne demek?",
+ "Überleg: Was bedeutet B5:B9?": "<strong>Düşün:</strong> <code>B5:B9</code> ne demek?",
  "Nur B5 und B9": "Sadece B5 ve B9",
  "B5 bis B9, also alle dazwischen": "B5'ten B9'a – yani aradaki her şey",
  "B5 geteilt durch B9": "B5 bölü B9",

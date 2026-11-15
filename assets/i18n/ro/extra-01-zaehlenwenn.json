@@ -6,7 +6,7 @@
  "Ich kann Kriterien wie \"Sport\", \">=4\" oder eine Zelle benutzen.": "Pot folosi criterii ca <code>\"Sport\"</code>, <code>\"&gt;=4\"</code> sau o celulă.",
  "Ich kann mit SUMMEWENN nur passende Beträge addieren.": "Pot aduna doar sumele potrivite cu <code>SUMMEWENN</code> (SUMDACĂ).",
  "💡 Acht Schüler haben ihr Lieblingsfach genannt. In D2 kommt: =ZÄHLENWENN(B2:B9;\"Sport\")": "💡 Opt elevi și-au spus materia preferată. D2 primește: <code class=\"long\">=ZÄHLENWENN(B2:B9;\"Sport\")</code>",
- "Jetzt du: Was zeigt D2?": "<strong>Rândul tău:</strong> Ce arată D2?",
+ "Überleg: Was zeigt D2?": "<strong>Gândește-te:</strong> Ce arată D2?",
  "2 So zählt Calc 7 Min": "<span class=\"step-no\">2</span> Cum numără Calc <span class=\"chip\">7 min</span>",
  "=ZÄHLENWENN(Bereich; Kriterium)Zählt, wie oft das Kriterium im Bereich passt.": "<code class=\"long\">=ZÄHLENWENN(Bereich; Kriterium)</code> (zonă; criteriu)<br/>Numără de câte ori se potrivește criteriul în zonă.",
  "Beispiel: Weitsprung": "Exemplu: săritura în lungime",

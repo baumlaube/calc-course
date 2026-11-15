@@ -6,7 +6,7 @@
  "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "I can find silent errors that Calc does not show.",
  "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "I can repair formulas with everything from grade 8.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>You already know this:</strong> <code>=C5/B5</code> divides the points by the number of participants. In D5 it works. But D6 suddenly shows <code>#DIV/0!</code>.",
- "Jetzt du: Warum?": "<strong>Your turn:</strong> Why?",
+ "Überleg: Warum?": "<strong>Think:</strong> Why?",
  "Die Punktzahl ist zu hoch.": "The score is too high.",
  "B6 ist leer – Calc teilt durch 0.": "B6 is empty – Calc divides by 0.",
  "Die Formel ist falsch geschrieben.": "The formula is spelled wrong.",

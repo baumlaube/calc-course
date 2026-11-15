@@ -7,7 +7,7 @@
  "Ich kann MITTELWERT, MIN und MAX benutzen.": "Pot folosi <strong>MITTELWERT</strong> (media), <strong>MIN</strong> și <strong>MAX</strong>.",
  "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "Pot scrie o zonă ca <code>B5:B9</code> sau o pot selecta cu mouse-ul.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>Știi deja asta:</strong> <code>=B5+B6+B7+B8+B9</code> adună cinci zile. Dar 365 de zile? Pentru asta există <strong>funcțiile</strong>.<br/>În B10 scrie: <code>=SUMME(B5:B9)</code>",
- "Jetzt du: Was bedeutet B5:B9?": "<strong>Rândul tău:</strong> Ce înseamnă <code>B5:B9</code>?",
+ "Überleg: Was bedeutet B5:B9?": "<strong>Gândește-te:</strong> Ce înseamnă <code>B5:B9</code>?",
  "Nur B5 und B9": "Doar B5 și B9",
  "B5 bis B9, also alle dazwischen": "De la B5 la B9 – deci tot ce e între ele",
  "B5 geteilt durch B9": "B5 împărțit la B9",
