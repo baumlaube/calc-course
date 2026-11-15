@@ -7,7 +7,6 @@
  "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "Pot explica cum se schimbă referințele la celule.",
  "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "Pot prezice ce formulă ajunge într-o celulă.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "Faci cumpărături pentru petrecerea clasei. În D5 e deja formula <code>=B5*C5</code> → 4 × 1,50 € = 6,00 €.<br/>Pentru celelalte rânduri nu scrii totul din nou – doar <strong>tragi</strong> formula în jos.",
- "Jetzt du: Welche Formel steht danach in D6 (Getränke)?": "<strong>Rândul tău:</strong> Ce formulă e apoi în <strong>D6</strong> (băuturi)?",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – exact aceeași",
  "gar keine – nur die Zahl 6,00 €": "niciuna – doar numărul 6,00 €",
  "2 So funktioniert Ausfüllen 5 Min": "<span class=\"step-no\">2</span> Cum funcționează umplerea <span class=\"chip\">5 min</span>",
@@ -145,5 +144,6 @@
  "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "Dă clic pe celula galbenă D5 și scrie sus o formulă. Confirmi cu <kbd>Enter</kbd>. Apoi tragi de <strong>Ausfüllkästchen</strong> (mânerul de umplere) de la D5 în jos până la D9, exact ca în Calc.",
  "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 arată 6,00 €. Acum umple: trage pătrățelul din dreapta jos al lui D5 în jos până la D9.",
  "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Ai tras puțin prea departe: acum și în D10 e o formulă. Dar acolo trebuie suma. Dă clic pe D10 și scrie acolo <code>=SUMME(D5:D9)</code>.",
- "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Încă nu ai ajuns jos. Mai sunt goale: {}. Trage de la D5 până la D9."
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Încă nu ai ajuns jos. Mai sunt goale: {}. Trage de la D5 până la D9.",
+ "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Gândește-te:</strong> Ce formulă e apoi în <strong>D6</strong> (băuturi)?"
 }

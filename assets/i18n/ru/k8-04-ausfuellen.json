@@ -7,7 +7,6 @@
  "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "Я умею объяснить, как меняются ссылки на ячейки.",
  "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "Я предсказываю, какая формула окажется в ячейке.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "Ты покупаешь всё для классного праздника. В D5 уже стоит формула <code>=B5*C5</code> → 4 × 1,50 € = 6,00 €.<br/>Для остальных строк не нужно всё печатать заново – ты просто <strong>протягиваешь</strong> формулу вниз.",
- "Jetzt du: Welche Formel steht danach in D6 (Getränke)?": "<strong>Теперь ты:</strong> какая формула потом стоит в <strong>D6</strong> (напитки)?",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – точно такая же",
  "gar keine – nur die Zahl 6,00 €": "никакая – только число 6,00 €",
  "2 So funktioniert Ausfüllen 5 Min": "<span class=\"step-no\">2</span> Как работает заполнение <span class=\"chip\">5 мин</span>",
@@ -145,5 +144,6 @@
  "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "Щёлкни на жёлтую ячейку D5 и введи формулу вверху. Подтверди клавишей <kbd>Enter</kbd>. Потом потяни за <strong>Ausfüllkästchen</strong> (маркер заполнения) от D5 вниз до D9, точно как в Calc.",
  "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 показывает 6,00 €. Теперь заполни: потяни маленький квадратик справа внизу у D5 вниз до D9.",
  "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Чуть-чуть дальше, чем нужно: теперь и в D10 стоит формула. Но там должна быть сумма. Щёлкни D10 и введи там <code>=SUMME(D5:D9)</code>.",
- "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Ещё не до конца. Пустые ещё: {}. Тяни от D5 до D9."
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Ещё не до конца. Пустые ещё: {}. Тяни от D5 до D9.",
+ "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Подумай:</strong> какая формула потом стоит в <strong>D6</strong> (напитки)?"
 }

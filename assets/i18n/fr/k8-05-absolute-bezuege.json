@@ -7,7 +7,6 @@
  "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Je fixe une référence avec le signe <code>$</code>.",
  "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Je décide quand il me faut un <code>$</code> – et quand non.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena a un job d'été chez un glacier et gagne 11 € de l'heure. Dans C5, elle a calculé son salaire du lundi : <code>=B5*B2</code> → 4 × 11 € = 44 €.",
- "Jetzt du: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>À toi :</strong> Lena tire la formule vers le bas jusqu'à C9. Qu'y a-t-il alors dans <strong>C6</strong> (mardi) ?",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> La solution : le signe $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ Le <code>$</code> est une <strong>ancre</strong>.<br/><code>$B$2</code> reste toujours <code>B2</code> pendant la recopie.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>Tu connais déjà ça :</strong> quand tu tires une formule vers le bas, Calc fait avancer les numéros de ligne : 5 → 6 → 7.<br/>Pour les heures, c'est bien. Pour le salaire dans <strong>B2</strong>, <strong>non</strong>.",
@@ -152,5 +151,6 @@
  "Erst nach rechts ausfüllen, bis E7!": "D'abord recopier vers la droite, jusqu'à E7 !",
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 est juste. Maintenant recopie : d'abord vers la droite jusqu'à E7, puis vers le bas jusqu'à E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Pas encore fini : {} cellules sont vides. Continue à tirer la plage sélectionnée jusqu'à ce que tout soit rempli jusqu'à E9.",
- "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ La ligne 4 est juste. Maintenant sélectionne C4 et D4 ensemble et tire-les vers le bas jusqu'à la ligne 6."
+ "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ La ligne 4 est juste. Maintenant sélectionne C4 et D4 ensemble et tire-les vers le bas jusqu'à la ligne 6.",
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Réfléchis :</strong> Lena tire la formule vers le bas jusqu'à C9. Qu'y a-t-il alors dans <strong>C6</strong> (mardi) ?"
 }

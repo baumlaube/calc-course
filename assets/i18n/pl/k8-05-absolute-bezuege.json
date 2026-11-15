@@ -7,7 +7,6 @@
  "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Umiem unieruchomić odwołanie znakiem <code>$</code>.",
  "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Umiem zdecydować, kiedy potrzebuję <code>$</code> – a kiedy nie.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena ma wakacyjną pracę w lodziarni i zarabia 11 € na godzinę. W C5 policzyła wypłatę za poniedziałek: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
- "Jetzt du: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Twoja kolej:</strong> Lena przeciąga formułę w dół do C9. Co jest wtedy w <strong>C6</strong> (wtorek)?",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Rozwiązanie: znak $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> to <strong>kotwica</strong>.<br/><code>$B$2</code> przy wypełnianiu zawsze zostaje <code>B2</code>.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>To już znasz:</strong> Gdy przeciągasz formułę w dół, Calc przesuwa numery wierszy: 5 → 6 → 7.<br/>Dla godzin to dobrze. Dla stawki w <strong>B2</strong> <strong>nie</strong>.",
@@ -152,5 +151,6 @@
  "Erst nach rechts ausfüllen, bis E7!": "Najpierw wypełnij w prawo, do E7!",
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 jest dobrze. Teraz wypełnij: najpierw w prawo do E7, potem w dół do E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Jeszcze nie gotowe: {} komórek jest pustych. Przeciągaj zaznaczony obszar dalej, aż wszystko do E9 będzie pełne.",
- "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Wiersz 4 jest dobrze. Teraz zaznacz razem C4 i D4 i przeciągnij w dół do wiersza 6."
+ "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Wiersz 4 jest dobrze. Teraz zaznacz razem C4 i D4 i przeciągnij w dół do wiersza 6.",
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Pomyśl:</strong> Lena przeciąga formułę w dół do C9. Co jest wtedy w <strong>C6</strong> (wtorek)?"
 }

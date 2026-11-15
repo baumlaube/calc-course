@@ -7,7 +7,6 @@
  "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "Sé explicar cómo cambian las referencias de celda.",
  "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "Predigo qué fórmula acabará en una celda.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "Haces la compra para la fiesta de clase. D5 ya contiene la fórmula <code>=B5*C5</code> → 4 × 1,50 € = 6,00 €.<br/>Para las otras filas no lo vuelves a escribir todo: simplemente <strong>arrastras</strong> la fórmula hacia abajo.",
- "Jetzt du: Welche Formel steht danach in D6 (Getränke)?": "<strong>Tu turno:</strong> ¿qué fórmula hay después en <strong>D6</strong> (bebidas)?",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code>, exactamente la misma",
  "gar keine – nur die Zahl 6,00 €": "ninguna, solo el número 6,00 €",
  "2 So funktioniert Ausfüllen 5 Min": "<span class=\"step-no\">2</span> Así funciona rellenar <span class=\"chip\">5 min</span>",
@@ -145,5 +144,6 @@
  "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "Haz clic en la celda amarilla D5 y escribe arriba una fórmula. Confirma con <kbd>Enter</kbd>. Luego arrastra el <strong>Ausfüllkästchen</strong> (controlador de relleno) de D5 hacia abajo hasta D9, igual que en Calc.",
  "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 muestra 6,00 €. Ahora rellena: arrastra el cuadradito de abajo a la derecha de D5 hacia abajo hasta D9.",
  "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Has arrastrado un poco de más: ahora también hay una fórmula en D10. Pero ahí va la suma. Haz clic en D10 y escribe ahí <code>=SUMME(D5:D9)</code>.",
- "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Todavía no llegas abajo. Siguen vacías: {}. Arrastra desde D5 hasta D9."
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Todavía no llegas abajo. Siguen vacías: {}. Arrastra desde D5 hasta D9.",
+ "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Piensa:</strong> ¿qué fórmula hay después en <strong>D6</strong> (bebidas)?"
 }

@@ -7,7 +7,6 @@
  "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "می‌توانم یک ارجاع را با علامت <code>$</code> ثابت کنم.",
  "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "می‌توانم تصمیم بگیرم کِی به <code>$</code> نیاز دارم – و کِی نه.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "لنا در یک بستنی‌فروشی کار تعطیلات دارد و ساعتی 11 € می‌گیرد. در C5 مزد دوشنبه را حساب کرد: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
- "Jetzt du: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>نوبت توست:</strong> لنا فرمول را تا C9 به پایین می‌کشد. آن‌وقت در <strong>C6</strong> (سه‌شنبه) چیست؟",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> راه حل: علامت $ <span class=\"chip\">5 دقیقه</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> یک <strong>لنگر</strong> است.<br/><code>$B$2</code> موقع پر کردن همیشه <code>B2</code> می‌ماند.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>این را بلدی:</strong> وقتی فرمولی را به پایین می‌کشی، Calc شمارهٔ ردیف‌ها را جلو می‌برد: 5 → 6 → 7.<br/>برای ساعت‌ها درست است. برای مزد در <strong>B2</strong> <strong>نه</strong>.",
@@ -152,5 +151,6 @@
  "Erst nach rechts ausfüllen, bis E7!": "اول به راست پر کن، تا E7!",
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 درست است. حالا پر کن: اول به راست تا E7، بعد به پایین تا E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "هنوز تمام نشده: {} خانه خالی است. ناحیهٔ انتخاب‌شده را ادامه بکش تا همه چیز تا E9 پر شود.",
- "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ ردیف 4 درست است. حالا C4 و D4 را با هم انتخاب کن و به پایین تا ردیف 6 بکش."
+ "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ ردیف 4 درست است. حالا C4 و D4 را با هم انتخاب کن و به پایین تا ردیف 6 بکش.",
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>فکر کن:</strong> لنا فرمول را تا C9 به پایین می‌کشد. آن‌وقت در <strong>C6</strong> (سه‌شنبه) چیست؟"
 }

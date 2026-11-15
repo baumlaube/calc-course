@@ -7,7 +7,6 @@
  "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Mund ta fiksoj një referencë me shenjën <code>$</code>.",
  "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Mund të vendos kur më duhet <code>$</code> – dhe kur jo.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena ka një punë verore në një akulloreri dhe fiton 11 € në orë. Në C5 llogariti pagën për të hënën: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
- "Jetzt du: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Radha jote:</strong> Lena e tërheq formulën poshtë deri te C9. Çfarë ka atëherë në <strong>C6</strong> (e martë)?",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Zgjidhja: shenja $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> është një <strong>spirancë</strong>.<br/><code>$B$2</code> mbetet gjithmonë <code>B2</code> gjatë plotësimit.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>Këtë e di tashmë:</strong> Kur tërheq një formulë poshtë, Calc i rrit numrat e rreshtave: 5 → 6 → 7.<br/>Për orët kjo është saktë. Për pagën në <strong>B2</strong> <strong>jo</strong>.",
@@ -152,5 +151,6 @@
  "Erst nach rechts ausfüllen, bis E7!": "Fillimisht plotëso djathtas, deri te E7!",
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 është në rregull. Tani plotëso: fillimisht djathtas deri në E7, pastaj poshtë deri në E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Ende jo gati: {} qeliza janë bosh. Vazhdo të tërheqësh zonën e shënuar derisa gjithçka deri te E9 të jetë plot.",
- "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Rreshti 4 është në rregull. Tani shëno C4 dhe D4 bashkë dhe tërhiqi poshtë deri në rreshtin 6."
+ "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Rreshti 4 është në rregull. Tani shëno C4 dhe D4 bashkë dhe tërhiqi poshtë deri në rreshtin 6.",
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Mendo:</strong> Lena e tërheq formulën poshtë deri te C9. Çfarë ka atëherë në <strong>C6</strong> (e martë)?"
 }

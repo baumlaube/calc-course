@@ -756,18 +756,20 @@
         ev.stopPropagation();
         this.commitPending();
         try { h.setPointerCapture(ev.pointerId); } catch (e) { /* z. B. nachgestellte Ereignisse im Test */ }
-        this._fd = { plan: null };
+        this._fd = { plan: null, x: ev.clientX, y: ev.clientY };
+        this._fd.timer = setInterval(() => this.autoScroll(), 30);
         this.el.classList.add("mc-filling");
       });
       h.addEventListener("pointermove", (ev) => {
         if (!this._fd) return;
-        this._fd.plan = this.planFill(this.cellAt(ev.clientX, ev.clientY));
-        this.showFillBox(this._fd.plan);
+        this._fd.x = ev.clientX; this._fd.y = ev.clientY;
+        this.updateFill();
       });
       const end = (ev, cancel) => {
         const fd = this._fd;
         if (!fd) return;
         this._fd = null;
+        clearInterval(fd.timer);
         this.el.classList.remove("mc-filling");
         this.showFillBox(null);
         if (!cancel && fd.plan && fd.plan.n > 0) this.fillBy(fd.plan.dir, fd.plan.n, ev.ctrlKey || ev.metaKey, "drag");
@@ -812,6 +814,29 @@
           if (!this.editable.has(this.sel)) this.focusGrid();
         }
       });
+    }
+
+    updateFill() {
+      const fd = this._fd;
+      fd.plan = this.planFill(this.cellAt(fd.x, fd.y));
+      this.showFillBox(fd.plan);
+    }
+    /** Beim Ziehen am Rand: Tabelle bzw. Seite mitscrollen (am Handy ist die Tabelle oft breiter als der Bildschirm). */
+    autoScroll() {
+      const fd = this._fd;
+      if (!fd) return;
+      const EDGE = 40, r = this.scrollEl.getBoundingClientRect();
+      const speed = (d) => Math.ceil((EDGE - Math.max(0, d)) / 3);   // je näher am Rand, desto schneller
+      let moved = false;
+      const left0 = this.scrollEl.scrollLeft;
+      if (fd.x > r.right - EDGE) this.scrollEl.scrollLeft += speed(r.right - fd.x);
+      else if (fd.x < r.left + EDGE) this.scrollEl.scrollLeft -= speed(fd.x - r.left);
+      if (this.scrollEl.scrollLeft !== left0) moved = true;
+      const vh = window.innerHeight, top0 = window.scrollY;
+      if (fd.y > vh - EDGE) window.scrollBy(0, speed(vh - fd.y));
+      else if (fd.y < EDGE) window.scrollBy(0, -speed(fd.y));
+      if (window.scrollY !== top0) moved = true;
+      if (moved) this.updateFill();
     }
 
     focusGrid() { if (this.scrollEl && document.activeElement !== this.scrollEl) this.scrollEl.focus({ preventScroll: true }); }

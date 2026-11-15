@@ -7,7 +7,6 @@
  "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "I can fix a reference with the <code>$</code> sign.",
  "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "I can decide when I need a <code>$</code> – and when not.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena has a holiday job in an ice cream shop and earns 11 € per hour. In C5 she calculated her pay for Monday: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
- "Jetzt du: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Your turn:</strong> Lena drags the formula down to C9. What is in <strong>C6</strong> (Tuesday) then?",
  "#WERT!": "#WERT! (#VALUE!)",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> The solution: the $ sign <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ The <code>$</code> is an <strong>anchor</strong>.<br/><code>$B$2</code> always stays <code>B2</code> when filling.",
@@ -156,5 +155,6 @@
  "Erst nach rechts ausfüllen, bis E7!": "First fill to the right, up to E7!",
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 is correct. Now fill: first to the right to E7, then down to E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Not finished yet: {} cells are empty. Keep dragging the selected range until everything up to E9 is full.",
- "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Row 4 is correct. Now select C4 and D4 together and drag them down to row 6."
+ "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Row 4 is correct. Now select C4 and D4 together and drag them down to row 6.",
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Think:</strong> Lena drags the formula down to C9. What is in <strong>C6</strong> (Tuesday) then?"
 }

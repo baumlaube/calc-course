@@ -7,7 +7,6 @@
  "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "أستطيع أن أشرح كيف تتغيّر مراجع الخلايا.",
  "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "أتوقّع أيّ صيغة ستكون في خلية.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "أنت تتسوّق لحفلة الصف. في D5 توجد أصلًا الصيغة <code>=B5*C5</code> → 4 × 1,50 € = 6,00 €.<br/>للصفوف الأخرى لا تكتب كل شيء من جديد – بل <strong>تسحب</strong> الصيغة ببساطة إلى الأسفل.",
- "Jetzt du: Welche Formel steht danach in D6 (Getränke)?": "<strong>دورك:</strong> أيّ صيغة تكون في <strong>D6</strong> (المشروبات) بعد ذلك؟",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – نفسها تمامًا",
  "gar keine – nur die Zahl 6,00 €": "لا صيغة – فقط الرقم 6,00 €",
  "2 So funktioniert Ausfüllen 5 Min": "<span class=\"step-no\">2</span> هكذا تعمل التعبئة <span class=\"chip\">5 د</span>",
@@ -145,5 +144,6 @@
  "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "انقر على الخلية الصفراء D5 واكتب صيغة في الأعلى. أكّد بـ <kbd>Enter</kbd>. ثم اسحب <strong>Ausfüllkästchen</strong> (مقبض التعبئة) من D5 إلى الأسفل حتى D9، تمامًا كما في Calc.",
  "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 تُظهر 6,00 €. الآن قم بالتعبئة: اسحب المربّع الصغير أسفل يمين D5 إلى الأسفل حتى D9.",
  "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "سحبتَ أبعد قليلًا من اللازم: الآن توجد صيغة في D10 أيضًا. لكن هناك يجب أن يكون المجموع. انقر على D10 واكتب هناك <code>=SUMME(D5:D9)</code>.",
- "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "لم تصل إلى الأسفل بعد. ما زالت فارغة: {}. اسحب من D5 حتى D9."
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "لم تصل إلى الأسفل بعد. ما زالت فارغة: {}. اسحب من D5 حتى D9.",
+ "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>فكّر:</strong> أيّ صيغة تكون في <strong>D6</strong> (المشروبات) بعد ذلك؟"
 }

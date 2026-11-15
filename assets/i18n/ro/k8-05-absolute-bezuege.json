@@ -7,7 +7,6 @@
  "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Pot fixa o referință cu semnul <code>$</code>.",
  "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Pot decide când am nevoie de <code>$</code> – și când nu.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena are un job de vacanță la o gelaterie și câștigă 11 € pe oră. În C5 și-a calculat plata pentru luni: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
- "Jetzt du: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Rândul tău:</strong> Lena trage formula în jos până la C9. Ce e atunci în <strong>C6</strong> (marți)?",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Soluția: semnul $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> e o <strong>ancoră</strong>.<br/><code>$B$2</code> rămâne mereu <code>B2</code> la umplere.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>Știi deja asta:</strong> Când tragi o formulă în jos, Calc mută numerele rândurilor: 5 → 6 → 7.<br/>Pentru ore e corect. Pentru salariul din <strong>B2</strong> <strong>nu</strong>.",
@@ -152,5 +151,6 @@
  "Erst nach rechts ausfüllen, bis E7!": "Întâi umple spre dreapta, până la E7!",
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 e corect. Acum umple: întâi la dreapta până la E7, apoi în jos până la E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Încă nu e gata: {} celule sunt goale. Trage mai departe zona selectată, până se umple totul până la E9.",
- "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Rândul 4 e corect. Acum selectează C4 și D4 împreună și trage-le în jos până la rândul 6."
+ "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Rândul 4 e corect. Acum selectează C4 și D4 împreună și trage-le în jos până la rândul 6.",
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Gândește-te:</strong> Lena trage formula în jos până la C9. Ce e atunci în <strong>C6</strong> (marți)?"
 }

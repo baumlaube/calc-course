@@ -7,7 +7,6 @@
  "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "Hücre başvurularının nasıl değiştiğini açıklayabilirim.",
  "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "Bir hücreye hangi formülün geleceğini tahmin edebilirim.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "Sınıf partisi için alışveriş yapıyorsun. D5'te zaten <code>=B5*C5</code> formülü var → 4 × 1,50 € = 6,00 €.<br/>Diğer satırlar için her şeyi yeniden yazmazsın – formülü sadece aşağı <strong>sürüklersin</strong>.",
- "Jetzt du: Welche Formel steht danach in D6 (Getränke)?": "<strong>Sıra sende:</strong> Sonra <strong>D6</strong> (içecekler) hücresinde hangi formül olur?",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – tamamen aynısı",
  "gar keine – nur die Zahl 6,00 €": "hiçbiri – sadece 6,00 € sayısı",
  "2 So funktioniert Ausfüllen 5 Min": "<span class=\"step-no\">2</span> Doldurmak nasıl çalışır <span class=\"chip\">5 dk</span>",
@@ -145,5 +144,6 @@
  "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "Sarı D5 hücresine tıkla ve yukarıya bir formül yaz. <kbd>Enter</kbd> ile onayla. Sonra <strong>Ausfüllkästchen</strong>'i (doldurma tutamacı) D5'ten aşağı D9'a kadar sürükle, tıpkı Calc'taki gibi.",
  "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 6,00 € gösteriyor. Şimdi doldur: D5'in sağ altındaki küçük kareyi aşağı D9'a kadar sürükle.",
  "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Biraz fazla sürükledin: Şimdi D10'da da bir formül var. Ama oraya toplam gelmeli. D10'a tıkla ve oraya <code>=SUMME(D5:D9)</code> yaz.",
- "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Henüz en alta gelmedin. Hâlâ boş: {}. D5'ten D9'a kadar sürükle."
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Henüz en alta gelmedin. Hâlâ boş: {}. D5'ten D9'a kadar sürükle.",
+ "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Düşün:</strong> Sonra <strong>D6</strong> (içecekler) hücresinde hangi formül olur?"
 }

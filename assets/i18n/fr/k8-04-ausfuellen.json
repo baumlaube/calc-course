@@ -7,7 +7,6 @@
  "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "Je sais expliquer comment les références de cellules changent.",
  "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "Je prévois quelle formule se retrouvera dans une cellule.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "Tu fais les courses pour la fête de classe. D5 contient déjà la formule <code>=B5*C5</code> → 4 × 1,50 € = 6,00 €.<br/>Pour les autres lignes, tu ne retapes pas tout – tu <strong>tires</strong> simplement la formule vers le bas.",
- "Jetzt du: Welche Formel steht danach in D6 (Getränke)?": "<strong>À toi :</strong> quelle formule y a-t-il ensuite dans <strong>D6</strong> (boissons) ?",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – exactement la même",
  "gar keine – nur die Zahl 6,00 €": "aucune – seulement le nombre 6,00 €",
  "2 So funktioniert Ausfüllen 5 Min": "<span class=\"step-no\">2</span> Comment marche la recopie <span class=\"chip\">5 min</span>",
@@ -145,5 +144,6 @@
  "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "Clique sur la cellule jaune D5 et tape une formule en haut. Tu valides avec <kbd>Enter</kbd>. Puis tu tires la <strong>Ausfüllkästchen</strong> (poignée de recopie) de D5 vers le bas jusqu'à D9, comme dans Calc.",
  "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 affiche 6,00 €. Maintenant recopie : tire le petit carré en bas à droite de D5 vers le bas jusqu'à D9.",
  "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Un peu trop loin : maintenant D10 contient aussi une formule. Mais c'est là que va la somme. Clique sur D10 et tape <code>=SUMME(D5:D9)</code>.",
- "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Pas encore tout en bas. Encore vides : {}. Tire de D5 jusqu'à D9."
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Pas encore tout en bas. Encore vides : {}. Tire de D5 jusqu'à D9.",
+ "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Réfléchis :</strong> quelle formule y a-t-il ensuite dans <strong>D6</strong> (boissons) ?"
 }

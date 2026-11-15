@@ -7,7 +7,6 @@
  "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "Umiem wyjaśnić, jak zmieniają się odwołania do komórek.",
  "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "Umiem przewidzieć, jaka formuła znajdzie się w komórce.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "Robisz zakupy na imprezę klasową. W D5 jest już formuła <code>=B5*C5</code> → 4 × 1,50 € = 6,00 €.<br/>W pozostałych wierszach nie wpisujesz wszystkiego od nowa – po prostu <strong>przeciągasz</strong> formułę w dół.",
- "Jetzt du: Welche Formel steht danach in D6 (Getränke)?": "<strong>Twoja kolej:</strong> Jaka formuła jest potem w <strong>D6</strong> (napoje)?",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – dokładnie ta sama",
  "gar keine – nur die Zahl 6,00 €": "żadna – tylko liczba 6,00 €",
  "2 So funktioniert Ausfüllen 5 Min": "<span class=\"step-no\">2</span> Jak działa wypełnianie <span class=\"chip\">5 min</span>",
@@ -145,5 +144,6 @@
  "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "Kliknij żółtą komórkę D5 i wpisz u góry formułę. Zatwierdź klawiszem <kbd>Enter</kbd>. Potem przeciągnij <strong>Ausfüllkästchen</strong> (uchwyt wypełniania) od D5 w dół do D9, tak jak w Calc.",
  "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 pokazuje 6,00 €. Teraz wypełnij: przeciągnij mały kwadrat w prawym dolnym rogu D5 w dół do D9.",
  "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Trochę za daleko: teraz także w D10 jest formuła. A tam ma być suma. Kliknij D10 i wpisz tam <code>=SUMME(D5:D9)</code>.",
- "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Jeszcze nie do końca. Puste są jeszcze: {}. Przeciągnij od D5 do D9."
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Jeszcze nie do końca. Puste są jeszcze: {}. Przeciągnij od D5 do D9.",
+ "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Pomyśl:</strong> Jaka formuła jest potem w <strong>D6</strong> (napoje)?"
 }

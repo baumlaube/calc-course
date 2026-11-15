@@ -7,7 +7,6 @@
  "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Mogu znakom <code>$</code> zadržati referencu.",
  "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Mogu odlučiti kada mi treba <code>$</code> – a kada ne.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena za vrijeme raspusta radi u slastičarni i dobija 11 € po satu. U C5 je izračunala svoju zaradu za ponedjeljak: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
- "Jetzt du: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Sada ti:</strong> Lena povlači formulu nadolje do C9. Šta onda stoji u <strong>C6</strong> (utorak)?",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Rješenje: znak $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> je <strong>sidro</strong>.<br/><code>$B$2</code> pri popunjavanju uvijek ostaje <code>B2</code>.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>Ovo već znaš:</strong> Kad povlačiš formulu nadolje, Calc broji brojeve redova dalje: 5 → 6 → 7.<br/>Za sate to odgovara. Za platu u <strong>B2</strong> to <strong>ne</strong> odgovara.",
@@ -148,5 +147,6 @@
  "Erst nach rechts ausfüllen, bis E7!": "Prvo popuni udesno, do E7!",
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 je tačno. Sada popuni: prvo udesno do E7, onda nadolje do E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Još nije gotovo: {} ćelija je prazno. Povlači označeno područje dalje, dok sve do E9 ne bude puno.",
- "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Red 4 je tačan. Sada označi C4 i D4 zajedno i povuci ih nadolje do reda 6."
+ "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Red 4 je tačan. Sada označi C4 i D4 zajedno i povuci ih nadolje do reda 6.",
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Razmisli:</strong> Lena povlači formulu nadolje do C9. Šta onda stoji u <strong>C6</strong> (utorak)?"
 }

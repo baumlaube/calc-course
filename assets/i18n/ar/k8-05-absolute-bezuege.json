@@ -7,7 +7,6 @@
  "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "أثبّت مرجعًا بعلامة <code>$</code>.",
  "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "أقرّر متى أحتاج <code>$</code> – ومتى لا.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "لينا تعمل في عطلتها في محلّ مثلّجات وتكسب 11 € في الساعة. في C5 حسبت أجرها ليوم الإثنين: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
- "Jetzt du: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>دورك:</strong> لينا تسحب الصيغة إلى الأسفل حتى C9. ماذا يوجد عندها في <strong>C6</strong> (الثلاثاء)؟",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> الحل: علامة $ <span class=\"chip\">5 د</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ الـ <code>$</code> هي <strong>مرساة</strong>.<br/><code>$B$2</code> تبقى دائمًا <code>B2</code> عند التعبئة.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>أنت تعرف هذا:</strong> عندما تسحب صيغة إلى الأسفل، يغيّر Calc أرقام الصفوف معها: 5 → 6 → 7.<br/>هذا صحيح للساعات. أما للأجر في <strong>B2</strong> فـ<strong>لا</strong>.",
@@ -152,5 +151,6 @@
  "Erst nach rechts ausfüllen, bis E7!": "عبّئ أولًا إلى اليمين، حتى E7!",
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 صحيحة. الآن عبّئ: أولًا إلى اليمين حتى E7، ثم إلى الأسفل حتى E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "لم تنتهِ بعد: {} خلايا فارغة. واصل سحب المنطقة المحدّدة حتى يمتلئ كل شيء حتى E9.",
- "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ السطر 4 صحيح. الآن حدّد C4 وD4 معًا واسحبهما إلى الأسفل حتى السطر 6."
+ "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ السطر 4 صحيح. الآن حدّد C4 وD4 معًا واسحبهما إلى الأسفل حتى السطر 6.",
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>فكّر:</strong> لينا تسحب الصيغة إلى الأسفل حتى C9. ماذا يوجد عندها في <strong>C6</strong> (الثلاثاء)؟"
 }

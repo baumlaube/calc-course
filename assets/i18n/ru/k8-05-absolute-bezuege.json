@@ -7,7 +7,6 @@
  "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Я закрепляю ссылку знаком <code>$</code>.",
  "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Я решаю, когда мне нужен <code>$</code> – а когда нет.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Лена на каникулах работает в кафе-мороженом и получает 11 € в час. В C5 она посчитала заработок за понедельник: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
- "Jetzt du: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Теперь ты:</strong> Лена протягивает формулу вниз до C9. Что тогда стоит в <strong>C6</strong> (вторник)?",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Решение: знак $ <span class=\"chip\">5 мин</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> – это <strong>якорь</strong>.<br/><code>$B$2</code> при заполнении всегда остаётся <code>B2</code>.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>Ты это уже знаешь:</strong> когда протягиваешь формулу вниз, Calc считает номера строк дальше: 5 → 6 → 7.<br/>Для часов это подходит. Для зарплаты в <strong>B2</strong> – <strong>нет</strong>.",
@@ -152,5 +151,6 @@
  "Erst nach rechts ausfüllen, bis E7!": "Сначала заполни вправо, до E7!",
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 верно. Теперь заполни: сначала вправо до E7, потом вниз до E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Ещё не готово: {} ячеек пустые. Тяни выделенную область дальше, пока всё до E9 не заполнится.",
- "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Строка 4 верна. Теперь выдели C4 и D4 вместе и потяни вниз до строки 6."
+ "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Строка 4 верна. Теперь выдели C4 и D4 вместе и потяни вниз до строки 6.",
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Подумай:</strong> Лена протягивает формулу вниз до C9. Что тогда стоит в <strong>C6</strong> (вторник)?"
 }

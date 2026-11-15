@@ -7,7 +7,6 @@
  "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Fijo una referencia con el signo <code>$</code>.",
  "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Decido cuándo necesito un <code>$</code> y cuándo no.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena trabaja en vacaciones en una heladería y gana 11 € por hora. En C5 calculó lo que ganó el lunes: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
- "Jetzt du: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Tu turno:</strong> Lena arrastra la fórmula hacia abajo hasta C9. ¿Qué hay entonces en <strong>C6</strong> (martes)?",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> La solución: el signo $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ El <code>$</code> es un <strong>ancla</strong>.<br/><code>$B$2</code> siempre sigue siendo <code>B2</code> al rellenar.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>Ya lo conoces:</strong> cuando arrastras una fórmula hacia abajo, Calc avanza los números de fila: 5 → 6 → 7.<br/>Para las horas está bien. Para el sueldo de <strong>B2</strong>, <strong>no</strong>.",
@@ -152,5 +151,6 @@
  "Erst nach rechts ausfüllen, bis E7!": "¡Primero rellena hacia la derecha, hasta E7!",
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 está bien. Ahora rellena: primero hacia la derecha hasta E7, luego hacia abajo hasta E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Todavía no está listo: {} celdas están vacías. Sigue arrastrando el área seleccionada hasta que todo esté lleno hasta E9.",
- "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ La fila 4 está bien. Ahora selecciona C4 y D4 juntas y arrástralas hacia abajo hasta la fila 6."
+ "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ La fila 4 está bien. Ahora selecciona C4 y D4 juntas y arrástralas hacia abajo hasta la fila 6.",
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Piensa:</strong> Lena arrastra la fórmula hacia abajo hasta C9. ¿Qué hay entonces en <strong>C6</strong> (martes)?"
 }

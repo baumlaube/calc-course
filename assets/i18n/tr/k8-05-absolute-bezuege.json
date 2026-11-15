@@ -7,7 +7,6 @@
  "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Bir başvuruyu <code>$</code> işaretiyle sabitleyebilirim.",
  "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Ne zaman <code>$</code> gerektiğine – ve ne zaman gerekmediğine – karar verebilirim.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena bir dondurmacıda tatil işinde çalışıyor ve saatte 11 € kazanıyor. C5'te pazartesi ücretini hesapladı: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
- "Jetzt du: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Sıra sende:</strong> Lena formülü C9'a kadar aşağı sürüklüyor. O zaman <strong>C6</strong> (salı) hücresinde ne olur?",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Çözüm: $ işareti <span class=\"chip\">5 dk</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> bir <strong>çapadır</strong>.<br/><code>$B$2</code> doldururken hep <code>B2</code> kalır.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>Bunu zaten biliyorsun:</strong> Bir formülü aşağı sürüklediğinde Calc satır numaralarını birlikte sayar: 5 → 6 → 7.<br/>Saatler için bu doğru. <strong>B2</strong>'deki ücret için <strong>değil</strong>.",
@@ -152,5 +151,6 @@
  "Erst nach rechts ausfüllen, bis E7!": "Önce sağa doldur, E7'ye kadar!",
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 doğru. Şimdi doldur: önce sağa E7'ye kadar, sonra aşağı E9'a kadar.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Henüz bitmedi: {} hücre boş. Seçili alanı E9'a kadar her yer dolana kadar sürüklemeye devam et.",
- "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ 4. satır doğru. Şimdi C4 ve D4'ü birlikte seç ve aşağı 6. satıra kadar sürükle."
+ "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ 4. satır doğru. Şimdi C4 ve D4'ü birlikte seç ve aşağı 6. satıra kadar sürükle.",
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Düşün:</strong> Lena formülü C9'a kadar aşağı sürüklüyor. O zaman <strong>C6</strong> (salı) hücresinde ne olur?"
 }

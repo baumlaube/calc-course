@@ -7,7 +7,6 @@
  "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "می‌توانم توضیح بدهم که ارجاع‌های خانه چطور تغییر می‌کنند.",
  "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "می‌توانم پیش‌بینی کنم کدام فرمول در یک خانه قرار می‌گیرد.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "برای جشن کلاس خرید می‌کنی. در D5 از قبل فرمول <code>=B5*C5</code> هست → 4 × 1,50 € = 6,00 €.<br/>برای ردیف‌های دیگر همه چیز را دوباره نمی‌نویسی – فقط فرمول را به پایین <strong>می‌کشی</strong>.",
- "Jetzt du: Welche Formel steht danach in D6 (Getränke)?": "<strong>نوبت توست:</strong> بعد در <strong>D6</strong> (نوشیدنی‌ها) کدام فرمول است؟",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – دقیقاً همان",
  "gar keine – nur die Zahl 6,00 €": "هیچ‌کدام – فقط عدد 6,00 €",
  "2 So funktioniert Ausfüllen 5 Min": "<span class=\"step-no\">2</span> پر کردن چطور کار می‌کند <span class=\"chip\">5 دقیقه</span>",
@@ -145,5 +144,6 @@
  "Klick auf die gelbe Zelle D5 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D5 nach unten bis D9, genau wie in Calc.": "روی خانهٔ زرد D5 کلیک کن و بالا یک فرمول بنویس. با <kbd>Enter</kbd> تأیید کن. بعد <strong>Ausfüllkästchen</strong> (دستگیرهٔ پر کردن) را از D5 به پایین تا D9 بکش، درست مثل Calc.",
  "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 مقدار 6,00 € نشان می‌دهد. حالا پر کن: مربع کوچک پایین سمت راست D5 را به پایین تا D9 بکش.",
  "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "کمی زیادی کشیدی: حالا در D10 هم فرمول هست. اما آنجا باید جمع بیاید. روی D10 کلیک کن و آنجا <code>=SUMME(D5:D9)</code> بنویس.",
- "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "هنوز تا پایین نرسیده. هنوز خالی: {}. از D5 تا D9 بکش."
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "هنوز تا پایین نرسیده. هنوز خالی: {}. از D5 تا D9 بکش.",
+ "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>فکر کن:</strong> بعد در <strong>D6</strong> (نوشیدنی‌ها) کدام فرمول است؟"
 }
