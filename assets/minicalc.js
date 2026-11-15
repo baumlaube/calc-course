@@ -737,12 +737,25 @@
         const d = this._selDrag;
         this._selDrag = null;
         if (d && d.moved) { this._skipClick = true; this.focusGrid(); }
+        else if (d && d.nearHandle) this.select(addr(d.start.c, d.start.r), true);   // nur ein Klick neben das Kästchen
       });
 
       // Das Ausfüllkästchen
       const h = this.handle;
       h.addEventListener("pointerdown", (ev) => {
         if (ev.button !== 0) return;
+        // Mit der Maus zählt nur das sichtbare Kästchen (+2 px). Knapp daneben wird ganz normal markiert,
+        // damit man nicht aus Versehen ausfüllt. Für den Finger bleibt die Fläche groß.
+        if (ev.pointerType !== "touch") {
+          const b = h.getBoundingClientRect();
+          if (ev.clientX < b.left - 2 || ev.clientY < b.top - 2) {
+            ev.preventDefault();
+            ev.stopPropagation();
+            this.commitPending();
+            this._selDrag = { start: this.cellAt(ev.clientX, ev.clientY), moved: false, nearHandle: true };
+            return;
+          }
+        }
         ev.preventDefault();
         ev.stopPropagation();
         this.commitPending();
