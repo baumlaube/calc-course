@@ -202,5 +202,6 @@
  "Impressum": "Impressum (Выходные данные)",
  "Datenschutz": "Datenschutz (Защита данных)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Потяни пальцем маленький квадратик справа внизу у ячейки. Или нажми кнопку <strong>■</strong>. В LibreOffice Calc ты тянешь за <strong>Ausfüllkästchen</strong> (маркер заполнения).",
- "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (маркер заполнения): тяни, чтобы заполнить"
+ "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (маркер заполнения): тяни, чтобы заполнить",
+ "Hier kannst du nicht ziehen. Überleg zuerst und wähl eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Здесь нельзя тянуть. Сначала подумай и выбери ответ. Потом таблица покажет тебе, что произойдёт."
 }

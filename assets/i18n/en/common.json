@@ -202,5 +202,6 @@
  "Impressum": "Impressum (Legal notice)",
  "Datenschutz": "Datenschutz (Privacy policy)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Drag the small square at the bottom right of the cell with your finger. Or use the button <strong>■</strong>. In LibreOffice Calc you drag the <strong>Ausfüllkästchen</strong> (fill handle).",
- "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (fill handle): drag to fill"
+ "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (fill handle): drag to fill",
+ "Hier kannst du nicht ziehen. Überleg zuerst und wähl eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "You can't drag here. Think first and choose an answer. Then the table shows you what happens."
 }
