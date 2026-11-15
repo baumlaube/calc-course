@@ -293,12 +293,11 @@ footer .legal a { color: inherit; }
 .mc-grid td.input { background: var(--input-bg); }
 .mc-grid td.fix { background: var(--fix-bg); font-weight: 700; }
 .mc-grid td.sel { outline: 3px solid var(--navy); outline-offset: -2px; z-index: 2; }
-.mc-grid td.sel::after { content: ""; position: absolute; right: 0; bottom: 0; width: 7px; height: 7px; background: var(--navy); border: 1px solid var(--surface); }
 /* Ausfüllkästchen zum Ziehen (MiniCalc mit drag: true) */
 .mc-pos { position: relative; }
 .mc-pos:focus { outline: none; }
 .mc-drag .mc-grid { -webkit-user-select: none; user-select: none; }
-.mc-drag .mc-grid td.sel::after { display: none; }
+/* Ein Ausfüllkästchen gibt es nur, wo man auch ziehen kann (kein Deko-Quadrat, das zum Ziehen verleitet). */
 .mc-grid td.insel { background-image: linear-gradient(rgba(31, 111, 235, .16), rgba(31, 111, 235, .16)); }
 .mc-selbox, .mc-fillbox { position: absolute; box-sizing: border-box; pointer-events: none; z-index: 3; }
 .mc-selbox { border: 2px solid var(--navy); }
