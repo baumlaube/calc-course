@@ -17,7 +17,6 @@
  "Klick auf % Als Prozent formatieren. In Calc: Symbolleiste % oder Strg + Umschalt + 5.": "<strong>Klikni na % Als Prozent formatieren</strong> (formatiraj kao procenat). U Calcu: traka sa alatima <strong>%</strong> ili <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>5</kbd>.",
  "Kurzvideo (folgt): Rabatt berechnen in 60 Sekunden": "<strong>Kratki video (uskoro):</strong> Izračunaj popust za 60 sekundi",
  "3 Sale-Labor 5 Min": "<span class=\"step-no\">3</span> Laboratorija rasprodaje <span class=\"chip\">5 min</span>",
- "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann füll beide nach unten aus.": "Sve 20 % jeftinije! Napiši u <strong>C5</strong> popust u € i u <strong>D5</strong> novu cijenu. Onda oboje popuni nadolje.",
  "Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Die Spalte Kontrolle zeigt dir, was noch fehlt. Sie merkt auch, ob dein Ergebnis schon als % formatiert ist.": "Preuzmi datoteku s vježbama i otvori je u LibreOffice Calcu. Kolona <strong>Kontrolle</strong> (kontrola) ti pokazuje šta još nedostaje. Primijeti i je li tvoj rezultat već formatiran kao %.",
  "ODS Übungsdateik9-02-prozentrechnung.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Datoteka s vježbama</strong><small>k9-02-prozentrechnung.ods</small></span>",
  "BasisAufgabe 1 · Rabatt: Sale im Sportgeschäft – Rabatt und neue Preise.": "<span class=\"badge basis\">Basis</span><span><strong>Zadatak 1 · Popust:</strong> rasprodaja u sportskoj prodavnici – popust i nove cijene.</span>",
@@ -64,7 +63,6 @@
  "C5 stimmt noch nicht. Rabatt = Preis (B5) · Prozentsatz (B2).": "C5 još nije tačno. Popust = cijena (B5) · procenat (B2).",
  "✔ C5 stimmt! Jetzt D5: neuer Preis = Preis − Rabatt.": "✔ C5 je tačno! Sada D5: nova cijena = cijena − popust.",
  "D5 stimmt noch nicht. Neuer Preis = =B5-C5.": "D5 još nije tačno. Nova cijena = <code>=B5-C5</code>.",
- "✔ Zeile 5 stimmt! Jetzt auf ■ C5 und D5 nach unten ausfüllen klicken.": "✔ Red 5 je tačan! Sada klikni na <strong>■ C5 und D5 nach unten ausfüllen</strong> (popuni nadolje).",
  "Du hast Zeile 5 geändert. Fülle noch einmal nach unten aus!": "Promijenio/la si red 5. Popuni još jednom nadolje!",
  "In Zeile 6 und 7 kommt kein Rabatt heraus. Klick C6 an: Aus B2 wurde B3 – und B3 ist leer. Setz in C5 den Anker: =B5*$B$2": "U redovima 6 i 7 ne izlazi popust. Klikni na C6: od B2 je postalo B3 – a B3 je prazno. Stavi u C5 sidro: <code>=B5*$B$2</code>",
  "✔ Perfekt! Alle Preise stimmen.": "✔ Savršeno! Sve cijene su tačne.",
@@ -104,5 +102,8 @@
  "der Preis wird kleiner, z. B. 20 % weniger": "<strong>popust</strong> – cijena postaje manja, npr. 20 % manje",
  "alles zusammen. Das sind 100 %.": "<strong>cjelina</strong> – sve zajedno. To je 100 %.",
  "Geld für den Staat. Es kommt auf den Preis oben drauf.": "<strong>PDV (porez)</strong> – novac za državu. Dodaje se na cijenu.",
- "netto: der Preis ohne Steuer · brutto: der Preis mit Steuer": "<strong>neto · bruto</strong> – netto: cijena bez poreza · brutto: cijena s porezom"
+ "netto: der Preis ohne Steuer · brutto: der Preis mit Steuer": "<strong>neto · bruto</strong> – netto: cijena bez poreza · brutto: cijena s porezom",
+ "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "Sve 20 % jeftinije! Napiši u <strong>C5</strong> popust u € i u <strong>D5</strong> novu cijenu. Onda označi C5 i D5 zajedno i povuci oboje kvadratićem za popunjavanje (<strong>Ausfüllkästchen</strong>) nadolje do reda 7.",
+ "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "Još nije sve popunjeno. Označi C5 i D5 <strong>zajedno</strong> i povuci kvadratić za popunjavanje (<strong>Ausfüllkästchen</strong>) nadolje do reda 7.",
+ "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ Red 5 je tačan! Sada označi C5 i D5 zajedno i povuci oboje kvadratićem za popunjavanje (<strong>Ausfüllkästchen</strong>) nadolje do reda 7."
 }

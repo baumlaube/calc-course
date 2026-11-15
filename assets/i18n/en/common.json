@@ -3,7 +3,6 @@
  "✘ Nicht ganz.": "✘ Not quite.",
  "🏆 {} von {} – stark!": "🏆 {} out of {} – great!",
  "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} out of {} correct. Read the explanations again.",
- "ℹ️ Hier im Browser kannst du nicht mit der Maus ziehen. Nimm den Knopf ■ … ausfüllen. In LibreOffice Calc ziehst du dann richtig am Ausfüllkästchen.": "ℹ️ Here in the browser you can't drag with the mouse. Use the button <strong>■ … ausfüllen</strong> (fill). In LibreOffice Calc you really drag the <strong>Ausfüllkästchen</strong> (fill handle).",
  "Hier tippen und Enter drücken": "Type here and press Enter",
  "← leer!": "← empty!",
  "Sprachhilfe: Die Calc-Begriffe bleiben deutsch, so wie in LibreOffice an der Schule.": "🌐 Language help: The Calc words stay in <strong>German</strong> – just like LibreOffice at school. The English word is in brackets.",
@@ -38,7 +37,6 @@
  "Fang mit =WENN( an.": "Start with <code>=WENN(</code>.",
  "Da kommt Text heraus. Zahlen schreibst du ohne Anführungszeichen.": "That gives text. Write numbers <strong>without</strong> quotation marks.",
  "B2 passt noch nicht. Lies deine Formel als Frage.": "B2 is not right yet. Read your formula as a question.",
- "✔ B2 stimmt! Jetzt auf ■ B2 nach unten ausfüllen klicken.": "✔ B2 is correct! Now click <strong>■ B2 nach unten ausfüllen</strong> (fill down).",
  "Du hast B2 geändert. Fülle noch einmal nach unten aus!": "You changed B2. Fill down again!",
  "Zeile 3 stimmt noch nicht.": "Row 3 is not right yet.",
  "✔ Stufe geschafft!": "✔ Level done!",
@@ -203,5 +201,6 @@
  "Datenschutz": "Datenschutz (Privacy policy)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Drag the small square at the bottom right of the cell with your finger. Or use the button <strong>■</strong>. In LibreOffice Calc you drag the <strong>Ausfüllkästchen</strong> (fill handle).",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (fill handle): drag to fill",
- "Hier kannst du nicht ziehen. Überleg zuerst und wähl eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "You can't drag here. Think first and choose an answer. Then the table shows you what happens."
+ "Hier kannst du nicht ziehen. Überleg zuerst und wähl eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "You can't drag here. Think first and choose an answer. Then the table shows you what happens.",
+ "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 is correct! Now drag the <strong>Ausfüllkästchen</strong> (fill handle) from B2 down to B3."
 }

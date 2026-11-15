@@ -70,7 +70,6 @@
  "C5 zeigt {}. Prüfe: Text in Anführungszeichen (\"laden!\"), Klammern und Semikolons: =WENN(Prüfung;Dann;Sonst).": "C5 pokazuje {}. Provjeri: tekst pod navodnicima (<code>\"laden!\"</code>), zagrade i tačka-zareze: <code>=WENN(Prüfung;Dann;Sonst)</code>.",
  "In der Formel steht eine Zahl. Nimm die Grenze aus $B$2 – dann kannst du sie später ändern.": "U formuli stoji broj. Uzmi granicu iz <code>$B$2</code> – onda je kasnije možeš promijeniti.",
  "Lea hat 15 %. Das ist unter 20 %, also soll „laden!“ erscheinen. Prüfe Vergleichszeichen und Reihenfolge von Dann und Sonst.": "Lea ima 15 %. To je ispod 20 %, dakle treba se pojaviti „laden!“. Provjeri znak za poređenje i redoslijed Dann i Sonst.",
- "✔ C5 stimmt! Jetzt auf ■ C5 nach unten ausfüllen klicken.": "✔ C5 je tačno! Sada klikni na <strong>■ C5 nach unten ausfüllen</strong> (popuni nadolje).",
  "Klick C6 an: Aus B2 wurde B3 – und B3 ist leer. Setz den Anker: $B$2": "Klikni na C6: od B2 je postalo B3 – a B3 je prazno. Stavi sidro: <code>$B$2</code>",
  "Mia hat genau 20 %. „Unter 20 %“ heißt <, nicht <=. Mia ist also ok.": "Mia ima tačno 20 %. „Ispod 20 %“ znači <code>&lt;</code>, ne <code>&lt;=</code>. Mia je dakle ok.",
  "Zeile {} stimmt noch nicht. Lies die Formel als Satz.": "Red {} još nije tačan. Čitaj formulu kao rečenicu.",
@@ -89,7 +88,6 @@
  "D5 zeigt {}. Prüfe Anführungszeichen, Klammern und Semikolons.": "D5 pokazuje {}. Provjeri navodnike, zagrade i tačka-zareze.",
  "Nimm UND für die zwei Bedingungen: UND(B5>=$B$2;C5=\"nein\")": "Uzmi UND za dva uslova: <code>UND(B5&gt;=$B$2;C5=\"nein\")</code>",
  "Montag: 28 °C und kein Regen – das ist ein Freibad-Tag! Prüfe deine Formel.": "Ponedjeljak: 28 °C i nema kiše – to je dan za bazen! Provjeri svoju formulu.",
- "✔ Montag stimmt! Jetzt nach unten ausfüllen.": "✔ Ponedjeljak je tačan! Sada popuni nadolje.",
  "Dienstag ist heiß, aber es regnet. Mit UND müssen beide Bedingungen stimmen.": "Utorak je vruć, ali pada kiša. Sa UND <strong>oba</strong> uslova moraju biti tačna.",
  "Mittwoch hat nur 24 °C. Ist der Anker $B$2 da?": "Srijeda ima samo 24 °C. Postoji li sidro <code>$B$2</code>?",
  "🏆 Expedition geschafft! Nur am Montag passt beides. In der Übungsdatei wartet noch der Notenrechner: WENN in WENN.": "🏆 Ekspedicija uspjela! Samo u ponedjeljak odgovara oboje. U datoteci s vježbama čeka još kalkulator ocjena: WENN u WENN.",
@@ -112,5 +110,9 @@
  "„über 15“: 15 zählt nicht mit, also >15": "<strong>preko, više od</strong> – „über 15“: 15 se ne računa, dakle <code>&gt;15</code>",
  "„bis 10“: 10 zählt mit, also <=10": "<strong>do</strong> – „bis 10“: 10 se računa, dakle <code>&lt;=10</code>",
  "„unter 14“: 14 zählt nicht mit, also <14": "<strong>ispod, manje od</strong> – „unter 14“: 14 se ne računa, dakle <code>&lt;14</code>",
- "geschafft, z. B. eine Prüfung": "<strong>položeno</strong> – uspjelo, npr. ispit"
+ "geschafft, z. B. eine Prüfung": "<strong>položeno</strong> – uspjelo, npr. ispit",
+ "✔ C5 stimmt! Jetzt zieh am Ausfüllkästchen von C5 nach unten bis C8.": "✔ C5 je tačno! Sada povuci kvadratić za popunjavanje (<strong>Ausfüllkästchen</strong>) od C5 nadolje do C8.",
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Još nije skroz dolje. Još su prazne: {}. Povuci od C5 do C8.",
+ "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Ponedjeljak je tačan! Sada povuci kvadratić za popunjavanje (<strong>Ausfüllkästchen</strong>) nadolje do D7.",
+ "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Još nije skroz dolje. Povuci od D5 do D7."
 }

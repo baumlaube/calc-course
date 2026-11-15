@@ -84,13 +84,11 @@
  "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> Je reconnais les diagrammes truqués à l'axe y.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> Le duel des tarifs d'électricité",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "L'électricité coûte deux fois : un <strong>abonnement</strong> chaque mois et un prix pour chaque <strong>kWh</strong>.",
- "Jahreskosten = 12 × Grundpreis + kWh × Cent ÷ 100. Tipp die Formel in B6 und füll sie aus. Das Diagramm zeichnet sich von selbst.": "<strong>Coût annuel = 12 × abonnement + kWh × centimes ÷ 100</strong>. Tape la formule en B6 et recopie-la. Le diagramme se dessine tout seul.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben : Le duel des tarifs</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
  "★ Expedition Lügen mit Diagrammen": "<span class=\"badge expedition\">★ Expedition</span> Mentir avec des diagrammes",
  "ODS ★ Expedition: Lügen mit Diagrammenk8-06-diagramme-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition : Mentir avec des diagrammes</strong><small>k8-06-diagramme-expedition.ods</small></span>",
  "Cent pro kWh": "Centimes par kWh",
  "kWh pro Jahr": "kWh par an",
- "■ B6 nach rechts und unten ausfüllen": "■ Recopier B6 vers la droite et vers le bas",
  "Erst eine Formel in B6 eintippen!": "Tape d'abord une formule en B6 !",
  "B6 ist viel zu groß: Die Cent musst du noch durch 100 teilen, dann sind es Euro.": "B6 est beaucoup trop grand : il faut encore diviser les centimes par 100 pour avoir des euros.",
  "✔ B6 stimmt: 404 € im Jahr. Jetzt ausfüllen. Tipp für eine Formel für alles: =12*B$2+$A6*B$3/100": "✔ B6 est juste : 404 € par an. Maintenant recopie. Astuce pour une seule formule pour tout : <code>=12*B$2+$A6*B$3/100</code>",
@@ -116,5 +114,10 @@
  "wie sich etwas mit der Zeit ändert, z. B. die Temperatur": "<strong>évolution</strong> – comment quelque chose change avec le temps, p. ex. la température",
  "die Linie unten und die Linie links am Diagramm": "<strong>axe</strong> – la ligne en bas et la ligne à gauche du diagramme",
  "dazuschreiben, was man sieht, z. B. °C": "<strong>étiqueter</strong> – écrire à côté ce qu'on voit, p. ex. °C",
- "die Überschrift vom Diagramm": "<strong>titre</strong> – le titre du diagramme"
+ "die Überschrift vom Diagramm": "<strong>titre</strong> – le titre du diagramme",
+ "Jahreskosten = 12 × Grundpreis + kWh × Cent ÷ 100. Tipp die Formel in B6 und füll sie aus: erst nach rechts bis D6, dann die markierte Zeile nach unten bis D8. Das Diagramm zeichnet sich von selbst.": "<strong>Coût annuel = 12 × abonnement + kWh × centimes ÷ 100</strong>. Tape la formule en B6 et recopie-la : d'abord vers la droite jusqu'à D6, puis la ligne sélectionnée vers le bas jusqu'à D8. Le diagramme se dessine tout seul.",
+ "■ B6 nach rechts ausfüllen (bis D6)": "■ B6 nach rechts ausfüllen (recopier B6 vers la droite jusqu'à D6)",
+ "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ B6 bis D6 nach unten ausfüllen (recopier B6:D6 vers le bas jusqu'à D8)",
+ "Erst nach rechts ausfüllen, bis D6!": "D'abord recopier vers la droite, jusqu'à D6 !",
+ "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Pas encore fini : {} cellules sont vides. Continue à tirer la plage sélectionnée jusqu'à ce que tout soit rempli jusqu'à D8."
 }

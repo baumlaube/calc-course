@@ -588,11 +588,6 @@
           hint.className = "mc-hint mc-touch-only";
           hint.innerHTML = T("📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf <strong>■</strong>. In LibreOffice Calc ziehst du am Ausfüllkästchen.");
           act.appendChild(hint);
-        } else if (o.actions.some((a) => a.label.startsWith("■"))) {
-          const hint = document.createElement("p");
-          hint.className = "mc-hint";
-          hint.innerHTML = T("ℹ️ Hier im Browser kannst du nicht mit der Maus ziehen. Nimm den Knopf <strong>■ … ausfüllen</strong>. In LibreOffice Calc ziehst du dann richtig am Ausfüllkästchen.");
-          act.appendChild(hint);
         }
         this.el.appendChild(act);
       }

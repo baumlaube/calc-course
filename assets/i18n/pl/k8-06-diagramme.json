@@ -84,13 +84,11 @@
  "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> Rozpoznaję podchwytliwe wykresy po osi y.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> Pojedynek taryf na prąd",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "Prąd kosztuje dwa razy: <strong>cena podstawowa</strong> co miesiąc i cena za każdą <strong>kWh</strong>.",
- "Jahreskosten = 12 × Grundpreis + kWh × Cent ÷ 100. Tipp die Formel in B6 und füll sie aus. Das Diagramm zeichnet sich von selbst.": "<strong>Koszt roczny = 12 × cena podstawowa + kWh × centy ÷ 100</strong>. Wpisz formułę w B6 i wypełnij. Wykres narysuje się sam.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Pojedynek taryf</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
  "★ Expedition Lügen mit Diagrammen": "<span class=\"badge expedition\">★ Expedition</span> Kłamstwa za pomocą wykresów",
  "ODS ★ Expedition: Lügen mit Diagrammenk8-06-diagramme-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition: Kłamstwa za pomocą wykresów</strong><small>k8-06-diagramme-expedition.ods</small></span>",
  "Cent pro kWh": "Centów za kWh",
  "kWh pro Jahr": "kWh na rok",
- "■ B6 nach rechts und unten ausfüllen": "■ Wypełnij B6 w prawo i w dół",
  "Erst eine Formel in B6 eintippen!": "Najpierw wpisz formułę w B6!",
  "B6 ist viel zu groß: Die Cent musst du noch durch 100 teilen, dann sind es Euro.": "B6 jest o wiele za duże: centy trzeba jeszcze podzielić przez 100, wtedy będą euro.",
  "✔ B6 stimmt: 404 € im Jahr. Jetzt ausfüllen. Tipp für eine Formel für alles: =12*B$2+$A6*B$3/100": "✔ B6 się zgadza: 404 € rocznie. Teraz wypełnij. Wskazówka – jedna formuła na wszystko: <code>=12*B$2+$A6*B$3/100</code>",
@@ -116,5 +114,10 @@
  "wie sich etwas mit der Zeit ändert, z. B. die Temperatur": "<strong>przebieg</strong> – jak coś zmienia się w czasie, np. temperatura",
  "die Linie unten und die Linie links am Diagramm": "<strong>oś</strong> – linia na dole i linia po lewej na wykresie",
  "dazuschreiben, was man sieht, z. B. °C": "<strong>opisać</strong> – dopisać, co widać, np. °C",
- "die Überschrift vom Diagramm": "<strong>tytuł</strong> – nagłówek wykresu"
+ "die Überschrift vom Diagramm": "<strong>tytuł</strong> – nagłówek wykresu",
+ "Jahreskosten = 12 × Grundpreis + kWh × Cent ÷ 100. Tipp die Formel in B6 und füll sie aus: erst nach rechts bis D6, dann die markierte Zeile nach unten bis D8. Das Diagramm zeichnet sich von selbst.": "<strong>Koszt roczny = 12 × cena podstawowa + kWh × centy ÷ 100</strong>. Wpisz formułę w B6 i wypełnij: najpierw w prawo do D6, potem zaznaczony wiersz w dół do D8. Wykres narysuje się sam.",
+ "■ B6 nach rechts ausfüllen (bis D6)": "■ Wypełnij B6 w prawo (do D6)",
+ "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ Wypełnij B6:D6 w dół (do D8)",
+ "Erst nach rechts ausfüllen, bis D6!": "Najpierw wypełnij w prawo, do D6!",
+ "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Jeszcze nie gotowe: {} komórek jest pustych. Przeciągaj zaznaczony obszar dalej, aż wszystko do D8 będzie pełne."
 }

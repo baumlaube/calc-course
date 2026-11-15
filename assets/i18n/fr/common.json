@@ -4,7 +4,6 @@
  "🏆 {} von {} – stark!": "🏆 {} sur {} – super !",
  "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} sur {} justes. Relis les explications.",
  "<>ja": "<>ja",
- "ℹ️ Hier im Browser kannst du nicht mit der Maus ziehen. Nimm den Knopf ■ … ausfüllen. In LibreOffice Calc ziehst du dann richtig am Ausfüllkästchen.": "ℹ️ Ici, dans le navigateur, tu ne peux pas tirer avec la souris. Utilise le bouton <strong>■ … ausfüllen</strong> (remplir). Dans LibreOffice Calc, tu tires vraiment la <strong>Ausfüllkästchen</strong> (poignée de recopie).",
  "Hier tippen und Enter drücken": "Écris ici et appuie sur Entrée",
  "← leer!": "← vide !",
  "Klick in die Eingabezeile oben und tippe.": "Clique dans la <strong>Eingabezeile</strong> (ligne de saisie) en haut et écris.",
@@ -17,7 +16,6 @@
  "Fang mit =WENN( an.": "Commence par <code>=WENN(</code>.",
  "Da kommt Text heraus. Zahlen schreibst du ohne Anführungszeichen.": "Ça donne du texte. Écris les nombres <strong>sans</strong> guillemets.",
  "B2 passt noch nicht. Lies deine Formel als Frage.": "B2 n'est pas encore juste. Lis ta formule comme une question.",
- "✔ B2 stimmt! Jetzt auf ■ B2 nach unten ausfüllen klicken.": "✔ B2 est juste ! Maintenant clique sur <strong>■ B2 nach unten ausfüllen</strong> (recopier vers le bas).",
  "Du hast B2 geändert. Fülle noch einmal nach unten aus!": "Tu as modifié B2. Recopie encore une fois vers le bas !",
  "Zeile 3 stimmt noch nicht.": "La ligne 3 n'est pas encore juste.",
  "✔ Stufe geschafft!": "✔ Niveau réussi !",
@@ -203,5 +201,6 @@
  "Datenschutz": "Datenschutz (Protection des données)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Tire avec le doigt le petit carré en bas à droite de la cellule. Ou utilise le bouton <strong>■</strong>. Dans LibreOffice Calc, tu tires la <strong>Ausfüllkästchen</strong> (poignée de recopie).",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (poignée de recopie) : tirer pour recopier",
- "Hier kannst du nicht ziehen. Überleg zuerst und wähl eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Ici, tu ne peux pas tirer. Réfléchis d'abord et choisis une réponse. Ensuite, le tableau te montre ce qui se passe."
+ "Hier kannst du nicht ziehen. Überleg zuerst und wähl eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Ici, tu ne peux pas tirer. Réfléchis d'abord et choisis une réponse. Ensuite, le tableau te montre ce qui se passe.",
+ "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 est juste ! Maintenant tire la <strong>Ausfüllkästchen</strong> (poignée de recopie) de B2 vers le bas jusqu'à B3."
 }

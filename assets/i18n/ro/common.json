@@ -4,7 +4,6 @@
  "🏆 {} von {} – stark!": "🏆 {} din {} – super!",
  "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} din {} corecte. Citește din nou explicațiile.",
  "<>ja": "<>ja",
- "ℹ️ Hier im Browser kannst du nicht mit der Maus ziehen. Nimm den Knopf ■ … ausfüllen. In LibreOffice Calc ziehst du dann richtig am Ausfüllkästchen.": "ℹ️ Aici, în browser, nu poți trage cu mouse-ul. Folosește butonul <strong>■ … ausfüllen</strong> (umple). În LibreOffice Calc tragi de-adevăratelea de <strong>Ausfüllkästchen</strong> (mânerul de umplere).",
  "Hier tippen und Enter drücken": "Scrie aici și apasă Enter",
  "← leer!": "← gol!",
  "Klick in die Eingabezeile oben und tippe.": "Dă clic sus în <strong>Eingabezeile</strong> (linia de introducere) și scrie.",
@@ -17,7 +16,6 @@
  "Fang mit =WENN( an.": "Începe cu <code>=WENN(</code>.",
  "Da kommt Text heraus. Zahlen schreibst du ohne Anführungszeichen.": "Asta dă text. Scrie numerele <strong>fără</strong> ghilimele.",
  "B2 passt noch nicht. Lies deine Formel als Frage.": "B2 nu e încă corect. Citește formula ca pe o întrebare.",
- "✔ B2 stimmt! Jetzt auf ■ B2 nach unten ausfüllen klicken.": "✔ B2 e corect! Acum dă clic pe <strong>■ B2 nach unten ausfüllen</strong> (umple în jos).",
  "Du hast B2 geändert. Fülle noch einmal nach unten aus!": "Ai schimbat B2. Umple din nou în jos!",
  "Zeile 3 stimmt noch nicht.": "Rândul 3 nu e încă corect.",
  "✔ Stufe geschafft!": "✔ Nivel terminat!",
@@ -203,5 +201,6 @@
  "Datenschutz": "Datenschutz (Protecția datelor)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Trage cu degetul pătrățelul din dreapta jos al celulei. Sau folosește butonul <strong>■</strong>. În LibreOffice Calc tragi de <strong>Ausfüllkästchen</strong> (mânerul de umplere).",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (mânerul de umplere): trage ca să umpli",
- "Hier kannst du nicht ziehen. Überleg zuerst und wähl eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Aici nu poți trage. Gândește-te întâi și alege un răspuns. Apoi tabelul îți arată ce se întâmplă."
+ "Hier kannst du nicht ziehen. Überleg zuerst und wähl eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Aici nu poți trage. Gândește-te întâi și alege un răspuns. Apoi tabelul îți arată ce se întâmplă.",
+ "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 e corect! Acum trage de <strong>Ausfüllkästchen</strong> (mânerul de umplere) de la B2 în jos până la B3."
 }

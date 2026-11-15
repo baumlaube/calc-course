@@ -34,6 +34,7 @@
 
     function check(c, src) {
       if (src === "reset") return;
+      if (src === "fill") filled = !!c.getRaw("B3");
       const L = levels[i];
       const raw = clean(c.getRaw("B2"));
       if (!raw) { feedback(fbEl, L.tip || T("Tippe in B2 deine WENN-Formel."), "info"); return; }
@@ -50,7 +51,7 @@
         feedback(fbEl, T("Da kommt Text heraus. Zahlen schreibst du <strong>ohne</strong> Anführungszeichen."), "hint"); return;
       }
       if (!same(v, L.want(c.get("A2")))) { feedback(fbEl, L.hint2 ? L.hint2(c) : T("B2 passt noch nicht. Lies deine Formel als Frage."), "hint"); return; }
-      if (!filled) { feedback(fbEl, T("✔ B2 stimmt! Jetzt auf <strong>■ B2 nach unten ausfüllen</strong> klicken."), "info"); return; }
+      if (!filled) { feedback(fbEl, T("✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3."), "info"); return; }
       if (src === "edit" && clean(c.getRaw("B3")) !== clean(MiniCalc.shiftFormula(c.getRaw("B2"), 1, 0))) {
         feedback(fbEl, T("Du hast B2 geändert. Fülle noch einmal nach unten aus!"), "info"); return;
       }
@@ -73,11 +74,11 @@
       calc = new MiniCalc(el, {
         cols: 2, rows: 3, decimal: "comma",
         cells: { A1: L.head, B1: "Antwort", A2: L.vals[0], A3: L.vals[1] },
-        styles: { A1: "head", B1: "head" }, formats, editable: ["B2"], select: "B2",
+        styles: { A1: "head", B1: "head" }, formats, editable: ["B2"], fillable: ["B3"], select: "B2", drag: true,
         actions: [
-          { label: T("■ B2 nach unten ausfüllen"), onClick: async (c) => {
+          { label: T("■ B2 nach unten ausfüllen"), touch: true, onClick: async (c) => {
               if (!c.getRaw("B2")) { feedback(fbEl, T("Erst eine Formel in B2 eintippen!"), "hint"); return; }
-              filled = true; await c.fill("B2", ["B3"], 250);
+              await c.fill("B2", ["B3"], 250);
             } },
           { label: T("Nächste Stufe →"), onClick: () => {
               if (!solved) { feedback(fbEl, T("Erst diese Stufe schaffen – dann geht es weiter."), "hint"); return; }

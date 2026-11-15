@@ -64,7 +64,6 @@
  "C5 zeigt {}. Prüfe: Text in Anführungszeichen (\"laden!\"), Klammern und Semikolons: =WENN(Prüfung;Dann;Sonst).": "C5 تُظهر {}. تحقّق: النص بين علامتي تنصيص (<code>\"laden!\"</code>)، الأقواس والفواصل المنقوطة: <code>=WENN(Prüfung;Dann;Sonst)</code>.",
  "In der Formel steht eine Zahl. Nimm die Grenze aus $B$2 – dann kannst du sie später ändern.": "في الصيغة رقم. خذ الحدّ من <code>$B$2</code> – عندها يمكنك تغييره لاحقًا.",
  "Lea hat 15 %. Das ist unter 20 %, also soll „laden!“ erscheinen. Prüfe Vergleichszeichen und Reihenfolge von Dann und Sonst.": "لدى ليا 15 %. هذا أقل من 20 %، إذن يجب أن تظهر „laden!“. تحقّق من علامة المقارنة وترتيب Dann وSonst.",
- "✔ C5 stimmt! Jetzt auf ■ C5 nach unten ausfüllen klicken.": "✔ C5 صحيحة! الآن انقر على <strong>■ C5 nach unten ausfüllen</strong> (تعبئة إلى الأسفل).",
  "Klick C6 an: Aus B2 wurde B3 – und B3 ist leer. Setz den Anker: $B$2": "انقر على C6: صارت B2 هي B3 – وB3 فارغة. ضع المرساة: <code>$B$2</code>",
  "Mia hat genau 20 %. „Unter 20 %“ heißt <, nicht <=. Mia ist also ok.": "لدى ميا بالضبط 20 %. «أقل من 20 %» تعني <code>&lt;</code> وليس <code>&lt;=</code>. إذن ميا ok.",
  "Zeile {} stimmt noch nicht. Lies die Formel als Satz.": "الصف {} ليس صحيحًا بعد. اقرأ الصيغة كجملة.",
@@ -83,7 +82,6 @@
  "D5 zeigt {}. Prüfe Anführungszeichen, Klammern und Semikolons.": "D5 تُظهر {}. تحقّق من علامات التنصيص والأقواس والفواصل المنقوطة.",
  "Nimm UND für die zwei Bedingungen: UND(B5>=$B$2;C5=\"nein\")": "استخدم UND (و) للشرطين: <code>UND(B5&gt;=$B$2;C5=\"nein\")</code>",
  "Montag: 28 °C und kein Regen – das ist ein Freibad-Tag! Prüfe deine Formel.": "الإثنين: 28 °C ولا مطر – هذا يوم مسبح! تحقّق من صيغتك.",
- "✔ Montag stimmt! Jetzt nach unten ausfüllen.": "✔ الإثنين صحيح! الآن عبّئ إلى الأسفل.",
  "Dienstag ist heiß, aber es regnet. Mit UND müssen beide Bedingungen stimmen.": "الثلاثاء حارّ، لكنها تمطر. مع UND يجب أن يكون <strong>الشرطان</strong> صحيحين.",
  "Mittwoch hat nur 24 °C. Ist der Anker $B$2 da?": "الأربعاء 24 °C فقط. هل المرساة <code>$B$2</code> موجودة؟",
  "🏆 Expedition geschafft! Nur am Montag passt beides. In der Übungsdatei wartet noch der Notenrechner: WENN in WENN.": "🏆 أنجزت رحلة الاستكشاف! فقط يوم الإثنين يتحقّق الشرطان. في ملف التمارين تنتظرك حاسبة العلامات: WENN داخل WENN.",
@@ -116,5 +114,9 @@
  "„über 15“: 15 zählt nicht mit, also >15": "<strong>فوق، أكثر من</strong> – „über 15“: العدد 15 لا يُحسب، إذن <code>&gt;15</code>",
  "„bis 10“: 10 zählt mit, also <=10": "<strong>حتى</strong> – „bis 10“: العدد 10 يُحسب، إذن <code>&lt;=10</code>",
  "„unter 14“: 14 zählt nicht mit, also <14": "<strong>تحت، أقل من</strong> – „unter 14“: العدد 14 لا يُحسب، إذن <code>&lt;14</code>",
- "geschafft, z. B. eine Prüfung": "<strong>ناجح</strong> – تمّ بنجاح، مثلًا امتحان"
+ "geschafft, z. B. eine Prüfung": "<strong>ناجح</strong> – تمّ بنجاح، مثلًا امتحان",
+ "✔ C5 stimmt! Jetzt zieh am Ausfüllkästchen von C5 nach unten bis C8.": "✔ C5 صحيحة! الآن اسحب <strong>Ausfüllkästchen</strong> (مقبض التعبئة) من C5 إلى الأسفل حتى C8.",
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "لم تصل إلى الأسفل بعد. ما زالت فارغة: {}. اسحب من C5 حتى C8.",
+ "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ الاثنين صحيح! الآن اسحب <strong>Ausfüllkästchen</strong> (مقبض التعبئة) إلى الأسفل حتى D7.",
+ "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "لم تصل إلى الأسفل بعد. اسحب من D5 حتى D7."
 }

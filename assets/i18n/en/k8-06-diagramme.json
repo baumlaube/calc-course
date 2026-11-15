@@ -84,13 +84,11 @@
  "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> I can spot tricky charts by looking at the y-axis.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> The electricity tariff duel",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "Electricity costs twice: a <strong>basic price</strong> every month and a price for every <strong>kWh</strong>.",
- "Jahreskosten = 12 × Grundpreis + kWh × Cent ÷ 100. Tipp die Formel in B6 und füll sie aus. Das Diagramm zeichnet sich von selbst.": "<strong>Yearly cost = 12 × basic price + kWh × cent ÷ 100</strong>. Type the formula in B6 and fill it. The chart draws itself.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Electricity tariff duel</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
  "★ Expedition Lügen mit Diagrammen": "<span class=\"badge expedition\">★ Expedition</span> Lying with charts",
  "ODS ★ Expedition: Lügen mit Diagrammenk8-06-diagramme-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition: Lying with charts</strong><small>k8-06-diagramme-expedition.ods</small></span>",
  "Cent pro kWh": "Cent per kWh",
  "kWh pro Jahr": "kWh per year",
- "■ B6 nach rechts und unten ausfüllen": "■ Fill B6 to the right and down",
  "Erst eine Formel in B6 eintippen!": "First type a formula in B6!",
  "B6 ist viel zu groß: Die Cent musst du noch durch 100 teilen, dann sind es Euro.": "B6 is much too big: you still have to divide the cents by 100, then it is euros.",
  "✔ B6 stimmt: 404 € im Jahr. Jetzt ausfüllen. Tipp für eine Formel für alles: =12*B$2+$A6*B$3/100": "✔ B6 is correct: 404 € a year. Now fill. Tip for one formula for everything: <code>=12*B$2+$A6*B$3/100</code>",
@@ -116,5 +114,10 @@
  "wie sich etwas mit der Zeit ändert, z. B. die Temperatur": "<strong>course, trend</strong> – how something changes over time, e.g. the temperature",
  "die Linie unten und die Linie links am Diagramm": "<strong>axis</strong> – the line at the bottom and the line on the left of the chart",
  "dazuschreiben, was man sieht, z. B. °C": "<strong>to label</strong> – to write next to it what you can see, e.g. °C",
- "die Überschrift vom Diagramm": "<strong>title</strong> – the heading of the chart"
+ "die Überschrift vom Diagramm": "<strong>title</strong> – the heading of the chart",
+ "Jahreskosten = 12 × Grundpreis + kWh × Cent ÷ 100. Tipp die Formel in B6 und füll sie aus: erst nach rechts bis D6, dann die markierte Zeile nach unten bis D8. Das Diagramm zeichnet sich von selbst.": "<strong>Yearly cost = 12 × basic price + kWh × cent ÷ 100</strong>. Type the formula in B6 and fill it: first to the right to D6, then drag the selected row down to D8. The chart draws itself.",
+ "■ B6 nach rechts ausfüllen (bis D6)": "■ Fill B6 to the right (to D6)",
+ "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ Fill B6 to D6 down (to D8)",
+ "Erst nach rechts ausfüllen, bis D6!": "First fill to the right, up to D6!",
+ "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Not finished yet: {} cells are empty. Keep dragging the selected range until everything up to D8 is full."
 }

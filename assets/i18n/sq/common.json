@@ -4,7 +4,6 @@
  "🏆 {} von {} – stark!": "🏆 {} nga {} – shkëlqyeshëm!",
  "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} nga {} të sakta. Lexoji edhe një herë shpjegimet.",
  "<>ja": "<>ja",
- "ℹ️ Hier im Browser kannst du nicht mit der Maus ziehen. Nimm den Knopf ■ … ausfüllen. In LibreOffice Calc ziehst du dann richtig am Ausfüllkästchen.": "ℹ️ Këtu në shfletues nuk mund të tërheqësh me maus. Përdor butonin <strong>■ … ausfüllen</strong> (plotëso). Në LibreOffice Calc e tërheq vërtet <strong>Ausfüllkästchen</strong> (dorezën e plotësimit).",
  "Hier tippen und Enter drücken": "Shkruaj këtu dhe shtyp Enter",
  "← leer!": "← bosh!",
  "Klick in die Eingabezeile oben und tippe.": "Kliko lart te <strong>Eingabezeile</strong> (rreshti i hyrjes) dhe shkruaj.",
@@ -17,7 +16,6 @@
  "Fang mit =WENN( an.": "Fillo me <code>=WENN(</code>.",
  "Da kommt Text heraus. Zahlen schreibst du ohne Anführungszeichen.": "Kjo jep tekst. Numrat shkruaji <strong>pa</strong> thonjëza.",
  "B2 passt noch nicht. Lies deine Formel als Frage.": "B2 nuk është ende saktë. Lexoje formulën si pyetje.",
- "✔ B2 stimmt! Jetzt auf ■ B2 nach unten ausfüllen klicken.": "✔ B2 është saktë! Tani kliko <strong>■ B2 nach unten ausfüllen</strong> (plotëso poshtë).",
  "Du hast B2 geändert. Fülle noch einmal nach unten aus!": "E ndryshove B2. Plotëso përsëri poshtë!",
  "Zeile 3 stimmt noch nicht.": "Rreshti 3 nuk është ende saktë.",
  "✔ Stufe geschafft!": "✔ Niveli përfundoi!",
@@ -203,5 +201,6 @@
  "Datenschutz": "Datenschutz (Mbrojtja e të dhënave)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Tërhiq me gisht katrorin e vogël poshtë djathtas te qeliza. Ose përdor butonin <strong>■</strong>. Në LibreOffice Calc tërheq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit).",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (doreza e plotësimit): tërhiq për të plotësuar",
- "Hier kannst du nicht ziehen. Überleg zuerst und wähl eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Këtu nuk mund të tërheqësh. Mendo fillimisht dhe zgjidh një përgjigje. Pastaj tabela të tregon çfarë ndodh."
+ "Hier kannst du nicht ziehen. Überleg zuerst und wähl eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Këtu nuk mund të tërheqësh. Mendo fillimisht dhe zgjidh një përgjigje. Pastaj tabela të tregon çfarë ndodh.",
+ "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 është në rregull! Tani tërhiq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) nga B2 poshtë deri në B3."
 }

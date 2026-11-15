@@ -17,7 +17,6 @@
  "Klick auf % Als Prozent formatieren. In Calc: Symbolleiste % oder Strg + Umschalt + 5.": "<strong>Click % Als Prozent formatieren</strong> (format as percent). In Calc: toolbar <strong>%</strong> or <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>5</kbd> (Ctrl + Shift + 5).",
  "Kurzvideo (folgt): Rabatt berechnen in 60 Sekunden": "<strong>Short video (coming soon):</strong> Calculate a discount in 60 seconds",
  "3 Sale-Labor 5 Min": "<span class=\"step-no\">3</span> Sale lab <span class=\"chip\">5 min</span>",
- "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann füll beide nach unten aus.": "Everything 20 % cheaper! In <strong>C5</strong> write the discount in €, in <strong>D5</strong> the new price. Then fill both down.",
  "Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Die Spalte Kontrolle zeigt dir, was noch fehlt. Sie merkt auch, ob dein Ergebnis schon als % formatiert ist.": "Download the exercise file and open it with LibreOffice Calc. The column <strong>Kontrolle</strong> (check) shows you what is still missing. It also notices whether your result is already formatted as %.",
  "ODS Übungsdateik9-02-prozentrechnung.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (exercise file)<small>k9-02-prozentrechnung.ods</small></span>",
  "BasisAufgabe 1 · Rabatt: Sale im Sportgeschäft – Rabatt und neue Preise.": "<span class=\"badge basis\">Basis</span><span><strong>Task 1 · Discount:</strong> Sale in the sports shop – discount and new prices.</span>",
@@ -64,7 +63,6 @@
  "C5 stimmt noch nicht. Rabatt = Preis (B5) · Prozentsatz (B2).": "C5 is not right yet. Discount = price (B5) · percentage (B2).",
  "✔ C5 stimmt! Jetzt D5: neuer Preis = Preis − Rabatt.": "✔ C5 is correct! Now D5: new price = price − discount.",
  "D5 stimmt noch nicht. Neuer Preis = =B5-C5.": "D5 is not right yet. New price = <code>=B5-C5</code>.",
- "✔ Zeile 5 stimmt! Jetzt auf ■ C5 und D5 nach unten ausfüllen klicken.": "✔ Row 5 is correct! Now click <strong>■ C5 und D5 nach unten ausfüllen</strong> (fill down).",
  "Du hast Zeile 5 geändert. Fülle noch einmal nach unten aus!": "You changed row 5. Fill down again!",
  "In Zeile 6 und 7 kommt kein Rabatt heraus. Klick C6 an: Aus B2 wurde B3 – und B3 ist leer. Setz in C5 den Anker: =B5*$B$2": "Rows 6 and 7 give no discount. Click C6: B2 became B3 – and B3 is empty. Set the anchor in C5: <code>=B5*$B$2</code>",
  "✔ Perfekt! Alle Preise stimmen.": "✔ Perfect! All prices are right.",
@@ -107,5 +105,8 @@
  "der Preis wird kleiner, z. B. 20 % weniger": "<strong>discount</strong> – the price gets smaller, e.g. 20 % less",
  "alles zusammen. Das sind 100 %.": "<strong>the whole</strong> – everything together. That is 100 %.",
  "Geld für den Staat. Es kommt auf den Preis oben drauf.": "<strong>VAT (value added tax)</strong> – money for the state. It is added on top of the price.",
- "netto: der Preis ohne Steuer · brutto: der Preis mit Steuer": "<strong>net · gross</strong> – netto: the price without tax · brutto: the price with tax"
+ "netto: der Preis ohne Steuer · brutto: der Preis mit Steuer": "<strong>net · gross</strong> – netto: the price without tax · brutto: the price with tax",
+ "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "Everything 20 % cheaper! In <strong>C5</strong> write the discount in €, in <strong>D5</strong> the new price. Then select C5 and D5 together and drag both down to row 7 with the <strong>Ausfüllkästchen</strong> (fill handle).",
+ "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "Not everything is filled yet. Select C5 and D5 <strong>together</strong> and drag the <strong>Ausfüllkästchen</strong> (fill handle) down to row 7.",
+ "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ Row 5 is correct! Now select C5 and D5 together and drag both down to row 7 with the <strong>Ausfüllkästchen</strong> (fill handle)."
 }

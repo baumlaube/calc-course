@@ -17,7 +17,6 @@
  "Klick auf % Als Prozent formatieren. In Calc: Symbolleiste % oder Strg + Umschalt + 5.": "<strong>% Als Prozent formatieren</strong> (yüzde olarak biçimlendir) düğmesine tıkla. Calc'ta: araç çubuğunda <strong>%</strong> veya <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>5</kbd> (Ctrl + Shift + 5).",
  "Kurzvideo (folgt): Rabatt berechnen in 60 Sekunden": "<strong>Kısa video (yakında):</strong> 60 saniyede indirim hesapla",
  "3 Sale-Labor 5 Min": "<span class=\"step-no\">3</span> İndirim laboratuvarı <span class=\"chip\">5 dk</span>",
- "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann füll beide nach unten aus.": "Her şey %20 daha ucuz! <strong>C5</strong>'e € olarak indirimi, <strong>D5</strong>'e yeni fiyatı yaz. Sonra ikisini de aşağı doldur.",
  "Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Die Spalte Kontrolle zeigt dir, was noch fehlt. Sie merkt auch, ob dein Ergebnis schon als % formatiert ist.": "Alıştırma dosyasını indir ve LibreOffice Calc ile aç. <strong>Kontrolle</strong> (kontrol) sütunu neyin eksik olduğunu gösterir. Sonucunun % olarak biçimlendirilip biçimlendirilmediğini de fark eder.",
  "ODS Übungsdateik9-02-prozentrechnung.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (alıştırma dosyası)<small>k9-02-prozentrechnung.ods</small></span>",
  "BasisAufgabe 1 · Rabatt: Sale im Sportgeschäft – Rabatt und neue Preise.": "<span class=\"badge basis\">Basis</span><span><strong>Görev 1 · İndirim:</strong> Spor mağazasında indirim – indirim ve yeni fiyatlar.</span>",
@@ -64,7 +63,6 @@
  "C5 stimmt noch nicht. Rabatt = Preis (B5) · Prozentsatz (B2).": "C5 henüz doğru değil. İndirim = fiyat (B5) · yüzde (B2).",
  "✔ C5 stimmt! Jetzt D5: neuer Preis = Preis − Rabatt.": "✔ C5 doğru! Şimdi D5: yeni fiyat = fiyat − indirim.",
  "D5 stimmt noch nicht. Neuer Preis = =B5-C5.": "D5 henüz doğru değil. Yeni fiyat = <code>=B5-C5</code>.",
- "✔ Zeile 5 stimmt! Jetzt auf ■ C5 und D5 nach unten ausfüllen klicken.": "✔ 5. satır doğru! Şimdi <strong>■ C5 und D5 nach unten ausfüllen</strong> (aşağı doldur) düğmesine tıkla.",
  "Du hast Zeile 5 geändert. Fülle noch einmal nach unten aus!": "5. satırı değiştirdin. Tekrar aşağı doldur!",
  "In Zeile 6 und 7 kommt kein Rabatt heraus. Klick C6 an: Aus B2 wurde B3 – und B3 ist leer. Setz in C5 den Anker: =B5*$B$2": "6. ve 7. satırlar indirim vermiyor. C6'ya tıkla: B2, B3 olmuş – ve B3 boş. C5'e çapayı koy: <code>=B5*$B$2</code>",
  "✔ Perfekt! Alle Preise stimmen.": "✔ Mükemmel! Bütün fiyatlar doğru.",
@@ -107,5 +105,8 @@
  "der Preis wird kleiner, z. B. 20 % weniger": "<strong>indirim</strong> – fiyat küçülür, örn. %20 daha az",
  "alles zusammen. Das sind 100 %.": "<strong>bütün</strong> – hepsi birlikte. Bu %100'dür.",
  "Geld für den Staat. Es kommt auf den Preis oben drauf.": "<strong>KDV (vergi)</strong> – devlet için para. Fiyatın üstüne eklenir.",
- "netto: der Preis ohne Steuer · brutto: der Preis mit Steuer": "<strong>net · brüt</strong> – netto: vergisiz fiyat · brutto: vergili fiyat"
+ "netto: der Preis ohne Steuer · brutto: der Preis mit Steuer": "<strong>net · brüt</strong> – netto: vergisiz fiyat · brutto: vergili fiyat",
+ "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "Her şey %20 daha ucuz! <strong>C5</strong>'e € olarak indirimi, <strong>D5</strong>'e yeni fiyatı yaz. Sonra C5 ve D5'i birlikte seç ve ikisini de <strong>Ausfüllkästchen</strong> (doldurma tutamacı) ile aşağı 7. satıra kadar sürükle.",
+ "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "Henüz her şey doldurulmadı. C5 ve D5'i <strong>birlikte</strong> seç ve <strong>Ausfüllkästchen</strong>'i (doldurma tutamacı) aşağı 7. satıra kadar sürükle.",
+ "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ 5. satır doğru! Şimdi C5 ve D5'i birlikte seç ve ikisini de <strong>Ausfüllkästchen</strong> (doldurma tutamacı) ile aşağı 7. satıra kadar sürükle."
 }

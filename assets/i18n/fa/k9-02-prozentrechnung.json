@@ -17,7 +17,6 @@
  "Klick auf % Als Prozent formatieren. In Calc: Symbolleiste % oder Strg + Umschalt + 5.": "روی <strong>% Als Prozent formatieren</strong> (قالب‌بندی به صورت درصد) کلیک کن. در Calc: نوار ابزار <strong>%</strong> یا <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>5</kbd> (Ctrl + Shift + 5).",
  "Kurzvideo (folgt): Rabatt berechnen in 60 Sekunden": "<strong>ویدیوی کوتاه (به زودی):</strong> حساب کردن تخفیف در 60 ثانیه",
  "3 Sale-Labor 5 Min": "<span class=\"step-no\">3</span> آزمایشگاه حراج <span class=\"chip\">5 دقیقه</span>",
- "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann füll beide nach unten aus.": "همه چیز 20 % ارزان‌تر! در <strong>C5</strong> تخفیف را به € بنویس، در <strong>D5</strong> قیمت جدید را. بعد هر دو را به پایین پر کن.",
  "Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Die Spalte Kontrolle zeigt dir, was noch fehlt. Sie merkt auch, ob dein Ergebnis schon als % formatiert ist.": "فایل تمرین را دانلود کن و با LibreOffice Calc باز کن. ستون <strong>Kontrolle</strong> (بررسی) نشان می‌دهد چه چیزی هنوز کم است. متوجه می‌شود که نتیجه‌ات به صورت % قالب‌بندی شده یا نه.",
  "ODS Übungsdateik9-02-prozentrechnung.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (فایل تمرین)<small>k9-02-prozentrechnung.ods</small></span>",
  "BasisAufgabe 1 · Rabatt: Sale im Sportgeschäft – Rabatt und neue Preise.": "<span class=\"badge basis\">Basis</span><span><strong>تمرین 1 · تخفیف:</strong> حراج در فروشگاه ورزشی – تخفیف و قیمت‌های جدید.</span>",
@@ -64,7 +63,6 @@
  "C5 stimmt noch nicht. Rabatt = Preis (B5) · Prozentsatz (B2).": "C5 هنوز درست نیست. تخفیف = قیمت (B5) · درصد (B2).",
  "✔ C5 stimmt! Jetzt D5: neuer Preis = Preis − Rabatt.": "✔ C5 درست است! حالا D5: قیمت جدید = قیمت − تخفیف.",
  "D5 stimmt noch nicht. Neuer Preis = =B5-C5.": "D5 هنوز درست نیست. قیمت جدید = <code>=B5-C5</code>.",
- "✔ Zeile 5 stimmt! Jetzt auf ■ C5 und D5 nach unten ausfüllen klicken.": "✔ ردیف 5 درست است! حالا روی <strong>■ C5 und D5 nach unten ausfüllen</strong> (پر کردن به پایین) کلیک کن.",
  "Du hast Zeile 5 geändert. Fülle noch einmal nach unten aus!": "ردیف 5 را تغییر دادی. دوباره به پایین پر کن!",
  "In Zeile 6 und 7 kommt kein Rabatt heraus. Klick C6 an: Aus B2 wurde B3 – und B3 ist leer. Setz in C5 den Anker: =B5*$B$2": "ردیف‌های 6 و 7 تخفیف نمی‌دهند. روی C6 کلیک کن: B2 شد B3 – و B3 خالی است. در C5 لنگر بگذار: <code>=B5*$B$2</code>",
  "✔ Perfekt! Alle Preise stimmen.": "✔ عالی! همهٔ قیمت‌ها درست است.",
@@ -107,5 +105,8 @@
  "der Preis wird kleiner, z. B. 20 % weniger": "<strong>تخفیف</strong> – قیمت کمتر می‌شود، مثلاً 20 % کمتر",
  "alles zusammen. Das sind 100 %.": "<strong>کل</strong> – همه با هم. این 100 % است.",
  "Geld für den Staat. Es kommt auf den Preis oben drauf.": "<strong>مالیات بر ارزش افزوده</strong> – پول برای دولت. روی قیمت اضافه می‌شود.",
- "netto: der Preis ohne Steuer · brutto: der Preis mit Steuer": "<strong>خالص · ناخالص</strong> – netto: قیمت بدون مالیات · brutto: قیمت با مالیات"
+ "netto: der Preis ohne Steuer · brutto: der Preis mit Steuer": "<strong>خالص · ناخالص</strong> – netto: قیمت بدون مالیات · brutto: قیمت با مالیات",
+ "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "همه چیز 20 % ارزان‌تر! در <strong>C5</strong> تخفیف را به € بنویس، در <strong>D5</strong> قیمت جدید را. بعد C5 و D5 را با هم انتخاب کن و هر دو را با <strong>Ausfüllkästchen</strong> (دستگیرهٔ پر کردن) به پایین تا ردیف 7 بکش.",
+ "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "هنوز همه چیز پر نشده. C5 و D5 را <strong>با هم</strong> انتخاب کن و <strong>Ausfüllkästchen</strong> (دستگیرهٔ پر کردن) را به پایین تا ردیف 7 بکش.",
+ "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ ردیف 5 درست است! حالا C5 و D5 را با هم انتخاب کن و هر دو را با <strong>Ausfüllkästchen</strong> (دستگیرهٔ پر کردن) به پایین تا ردیف 7 بکش."
 }

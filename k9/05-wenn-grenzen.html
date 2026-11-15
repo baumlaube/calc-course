@@ -25,7 +25,7 @@
 <link rel="stylesheet" href="../assets/kurs.css?v=f397fc03b3">
 <script src="../assets/i18n.js?v=1b30a9d559" data-page="k9-05-wenn-grenzen" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=4f7b2fcf93"></script>
-<script src="../assets/minicalc.js?v=0f549e77c9" defer></script>
+<script src="../assets/minicalc.js?v=7e15dc4948" defer></script>
 <script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
 </head>
 <body>
@@ -330,17 +330,18 @@ document.addEventListener("DOMContentLoaded", () => {
     cells: { A2: "Laden unter:", B2: "20 %", A4: "Handy", B4: "Akku", C4: "Status",
              A5: "Lea", B5: "15 %", A6: "Tom", B6: "64 %", A7: "Mia", B7: "20 %", A8: "Ali", B8: "8 %" },
     styles: { A2: "label", B2: "fix", A4: "head", B4: "head", C4: "head" },
-    formats: { B: "pct" }, editable: ["C5", "B2"], select: "C5",
+    formats: { B: "pct" }, editable: ["C5", "B2"], fillable: ["C6:C8"], select: "C5", drag: true,
     actions: [
-      { label: "■ C5 nach unten ausfüllen (bis C8)", onClick: async (c) => {
+      { label: "■ C5 nach unten ausfüllen (bis C8)", touch: true, onClick: async (c) => {
           if (!c.getRaw("C5")) { feedback(fb2, T("Erst eine Formel in C5 eintippen!"), "hint"); return; }
-          filled = true; await c.fill("C5", rows.map((r) => "C" + r), 200);
+          await c.fill("C5", rows.map((r) => "C" + r), 200);
         } },
       { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { filled = false; solved = false; c.reset(); fb2.className = "fb"; } },
     ],
   });
   const akku = (c, src) => {
     if (src === "reset") return;
+    if (src === "fill") filled = true;
     if (solved && c.sel === "B2") {
       const n = ["5", ...rows].filter((r) => c.get("C" + r) === "laden!").length;
       feedback(fb2, T(`🎉 Alles entscheidet neu! Bei ${c.format("B2", c.get("B2"))} müssen ${n} Handys an die Steckdose.`), "ok");
@@ -359,7 +360,9 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!/^=(WENN|IF)\(/.test(raw)) { feedback(fb2, T("Nimm die Funktion WENN: <code>=WENN(Prüfung;Dann;Sonst)</code>."), "hint"); return; }
     if (hasNumber(raw)) { feedback(fb2, T("In der Formel steht eine Zahl. Nimm die Grenze aus <code>$B$2</code> – dann kannst du sie später ändern."), "hint"); return; }
     if (v !== want(c, "5")) { feedback(fb2, T("Lea hat 15 %. Das ist unter 20 %, also soll „laden!“ erscheinen. Prüfe Vergleichszeichen und Reihenfolge von Dann und Sonst."), "hint"); return; }
-    if (!filled) { feedback(fb2, T("✔ C5 stimmt! Jetzt auf <strong>■ C5 nach unten ausfüllen</strong> klicken."), "info"); return; }
+    if (!filled) { feedback(fb2, T("✔ C5 stimmt! Jetzt zieh am Ausfüllkästchen von C5 nach unten bis C8."), "info"); return; }
+    const leer = rows.map((r) => "C" + r).filter((a) => !c.getRaw(a));
+    if (leer.length) { feedback(fb2, T(`Noch nicht ganz unten. Leer sind noch: ${leer.join(", ")}. Zieh von C5 aus bis C8.`), "info"); return; }
     if (src === "edit" && clean(c.getRaw("C6")) !== clean(MiniCalc.shiftFormula(c.getRaw("C5"), 1, 0))) {
       feedback(fb2, T("Du hast C5 geändert. Fülle noch einmal nach unten aus!"), "info"); return;
     }
@@ -405,24 +408,26 @@ document.addEventListener("DOMContentLoaded", () => {
     cells: { A2: "ab Grad:", B2: 25, A4: "Tag", B4: "Grad", C4: "Regen?", D4: "Plan",
              A5: "Mo", B5: 28, C5: "nein", A6: "Di", B6: 31, C6: "ja", A7: "Mi", B7: 24, C7: "nein" },
     styles: { A2: "label", B2: "fix", A4: "head", B4: "head", C4: "head", D4: "head" },
-    editable: ["D5"], select: "D5",
+    editable: ["D5"], fillable: ["D6:D7"], select: "D5", drag: true,
     actions: [
-      { label: "■ D5 nach unten ausfüllen (bis D7)", onClick: async (c) => {
+      { label: "■ D5 nach unten ausfüllen (bis D7)", touch: true, onClick: async (c) => {
           if (!c.getRaw("D5")) { feedback(fb3, T("Erst eine Formel in D5 eintippen!"), "hint"); return; }
-          filled3 = true; await c.fill("D5", days.map((r) => "D" + r), 200);
+          await c.fill("D5", days.map((r) => "D" + r), 200);
         } },
       { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { filled3 = false; c.reset(); fb3.className = "fb"; } },
     ],
   });
   calc3.on((c, src) => {
     if (src === "reset") return;
+    if (src === "fill") filled3 = true;
     const raw = clean(c.getRaw("D5"));
     if (!raw) { feedback(fb3, T("Tipp: <code>=WENN(UND(B5&gt;=$B$2;C5=\"nein\");\"Freibad!\";\"daheim\")</code>"), "info"); return; }
     const v = c.get("D5");
     if (isErr(v)) { feedback(fb3, T(`D5 zeigt ${v.code}. Prüfe Anführungszeichen, Klammern und Semikolons.`), "hint"); return; }
     if (!/(UND|AND)\(/.test(raw)) { feedback(fb3, T("Nimm UND für die zwei Bedingungen: <code>UND(B5&gt;=$B$2;C5=\"nein\")</code>"), "hint"); return; }
     if (v !== ok3(c, "5")) { feedback(fb3, T("Montag: 28 °C und kein Regen – das ist ein Freibad-Tag! Prüfe deine Formel."), "hint"); return; }
-    if (!filled3) { feedback(fb3, T("✔ Montag stimmt! Jetzt nach unten ausfüllen."), "info"); return; }
+    if (!filled3) { feedback(fb3, T("✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7."), "info"); return; }
+    if (!c.getRaw("D7")) { feedback(fb3, T("Noch nicht ganz unten. Zieh von D5 aus bis D7."), "info"); return; }
     const wrong = days.find((r) => c.get("D" + r) !== ok3(c, r));
     if (wrong === "6") { feedback(fb3, T("Dienstag ist heiß, aber es regnet. Mit UND müssen <strong>beide</strong> Bedingungen stimmen."), "hint"); return; }
     if (wrong) { feedback(fb3, T("Mittwoch hat nur 24 °C. Ist der Anker <code>$B$2</code> da?"), "hint"); return; }

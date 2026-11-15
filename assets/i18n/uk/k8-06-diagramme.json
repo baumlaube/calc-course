@@ -84,13 +84,11 @@
  "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> Я розпізнаю підступні діаграми за віссю y.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> Дуель тарифів на електрику",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "Електрика коштує двічі: <strong>базова ціна</strong> щомісяця і ціна за кожну <strong>кВт·год</strong>.",
- "Jahreskosten = 12 × Grundpreis + kWh × Cent ÷ 100. Tipp die Formel in B6 und füll sie aus. Das Diagramm zeichnet sich von selbst.": "<strong>Річні витрати = 12 × базова ціна + кВт·год × центи ÷ 100</strong>. Введи формулу в B6 і заповни. Діаграма намалюється сама.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Дуель тарифів</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
  "★ Expedition Lügen mit Diagrammen": "<span class=\"badge expedition\">★ Expedition</span> Як обманюють діаграмами",
  "ODS ★ Expedition: Lügen mit Diagrammenk8-06-diagramme-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition: Як обманюють діаграмами</strong><small>k8-06-diagramme-expedition.ods</small></span>",
  "Cent pro kWh": "Центів за кВт·год",
  "kWh pro Jahr": "кВт·год на рік",
- "■ B6 nach rechts und unten ausfüllen": "■ B6 nach rechts und unten ausfüllen (заповнити B6 вправо і вниз)",
  "Erst eine Formel in B6 eintippen!": "Спочатку введи формулу в B6!",
  "B6 ist viel zu groß: Die Cent musst du noch durch 100 teilen, dann sind es Euro.": "B6 завелике: центи ще треба поділити на 100, тоді будуть євро.",
  "✔ B6 stimmt: 404 € im Jahr. Jetzt ausfüllen. Tipp für eine Formel für alles: =12*B$2+$A6*B$3/100": "✔ B6 правильно: 404 € на рік. Тепер заповни. Порада – одна формула для всього: <code>=12*B$2+$A6*B$3/100</code>",
@@ -116,5 +114,10 @@
  "wie sich etwas mit der Zeit ändert, z. B. die Temperatur": "<strong>перебіг, зміна</strong> – як щось змінюється з часом, наприклад температура",
  "die Linie unten und die Linie links am Diagramm": "<strong>вісь</strong> – лінія внизу й лінія зліва на діаграмі",
  "dazuschreiben, was man sieht, z. B. °C": "<strong>підписати</strong> – написати поруч, що видно, наприклад °C",
- "die Überschrift vom Diagramm": "<strong>заголовок</strong> – назва діаграми"
+ "die Überschrift vom Diagramm": "<strong>заголовок</strong> – назва діаграми",
+ "Jahreskosten = 12 × Grundpreis + kWh × Cent ÷ 100. Tipp die Formel in B6 und füll sie aus: erst nach rechts bis D6, dann die markierte Zeile nach unten bis D8. Das Diagramm zeichnet sich von selbst.": "<strong>Річні витрати = 12 × базова ціна + кВт·год × центи ÷ 100</strong>. Введи формулу в B6 і заповни: спочатку вправо до D6, потім виділений рядок униз до D8. Діаграма намалюється сама.",
+ "■ B6 nach rechts ausfüllen (bis D6)": "■ B6 nach rechts ausfüllen (заповнити B6 вправо до D6)",
+ "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ B6 bis D6 nach unten ausfüllen (заповнити B6:D6 вниз до D8)",
+ "Erst nach rechts ausfüllen, bis D6!": "Спочатку заповни вправо, до D6!",
+ "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Ще не готово: {} клітинок порожні. Тягни виділену область далі, поки все до D8 не заповниться."
 }

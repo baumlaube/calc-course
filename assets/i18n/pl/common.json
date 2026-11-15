@@ -4,7 +4,6 @@
  "🏆 {} von {} – stark!": "🏆 {} z {} – super!",
  "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} z {} dobrze. Przeczytaj jeszcze raz wyjaśnienia.",
  "<>ja": "<>ja",
- "ℹ️ Hier im Browser kannst du nicht mit der Maus ziehen. Nimm den Knopf ■ … ausfüllen. In LibreOffice Calc ziehst du dann richtig am Ausfüllkästchen.": "ℹ️ Tutaj w przeglądarce nie możesz przeciągać myszką. Użyj przycisku <strong>■ … ausfüllen</strong> (wypełnij). W LibreOffice Calc naprawdę przeciągasz <strong>Ausfüllkästchen</strong> (uchwyt wypełniania).",
  "Hier tippen und Enter drücken": "Wpisz tutaj i naciśnij Enter",
  "← leer!": "← puste!",
  "Klick in die Eingabezeile oben und tippe.": "Kliknij u góry w <strong>Eingabezeile</strong> (wiersz wprowadzania) i pisz.",
@@ -17,7 +16,6 @@
  "Fang mit =WENN( an.": "Zacznij od <code>=WENN(</code>.",
  "Da kommt Text heraus. Zahlen schreibst du ohne Anführungszeichen.": "To daje tekst. Liczby pisz <strong>bez</strong> cudzysłowu.",
  "B2 passt noch nicht. Lies deine Formel als Frage.": "B2 jeszcze nie jest dobrze. Przeczytaj formułę jak pytanie.",
- "✔ B2 stimmt! Jetzt auf ■ B2 nach unten ausfüllen klicken.": "✔ B2 jest dobrze! Teraz kliknij <strong>■ B2 nach unten ausfüllen</strong> (wypełnij w dół).",
  "Du hast B2 geändert. Fülle noch einmal nach unten aus!": "B2 jest zmienione. Wypełnij jeszcze raz w dół!",
  "Zeile 3 stimmt noch nicht.": "Wiersz 3 jeszcze nie jest dobrze.",
  "✔ Stufe geschafft!": "✔ Poziom ukończony!",
@@ -203,5 +201,6 @@
  "Datenschutz": "Datenschutz (Ochrona danych)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Przeciągnij palcem mały kwadrat w prawym dolnym rogu komórki. Albo użyj przycisku <strong>■</strong>. W LibreOffice Calc przeciągasz <strong>Ausfüllkästchen</strong> (uchwyt wypełniania).",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (uchwyt wypełniania): przeciągnij, aby wypełnić",
- "Hier kannst du nicht ziehen. Überleg zuerst und wähl eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Tutaj nie możesz przeciągać. Najpierw pomyśl i wybierz odpowiedź. Potem tabela pokaże ci, co się stanie."
+ "Hier kannst du nicht ziehen. Überleg zuerst und wähl eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Tutaj nie możesz przeciągać. Najpierw pomyśl i wybierz odpowiedź. Potem tabela pokaże ci, co się stanie.",
+ "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 jest dobrze! Teraz przeciągnij <strong>Ausfüllkästchen</strong> (uchwyt wypełniania) od B2 w dół do B3."
 }

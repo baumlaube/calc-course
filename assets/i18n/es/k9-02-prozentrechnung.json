@@ -17,7 +17,6 @@
  "Klick auf % Als Prozent formatieren. In Calc: Symbolleiste % oder Strg + Umschalt + 5.": "<strong>Haz clic en % Als Prozent formatieren</strong> (formato de porcentaje). En Calc: barra de herramientas <strong>%</strong> o <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>5</kbd> (Ctrl + Mayús + 5).",
  "Kurzvideo (folgt): Rabatt berechnen in 60 Sekunden": "<strong>Vídeo corto (próximamente):</strong> calcular un descuento en 60 segundos",
  "3 Sale-Labor 5 Min": "<span class=\"step-no\">3</span> El laboratorio de rebajas <span class=\"chip\">5 min</span>",
- "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann füll beide nach unten aus.": "¡Todo un 20 % más barato! En <strong>C5</strong> escribe el descuento en €, en <strong>D5</strong> el precio nuevo. Luego rellena las dos hacia abajo.",
  "Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Die Spalte Kontrolle zeigt dir, was noch fehlt. Sie merkt auch, ob dein Ergebnis schon als % formatiert ist.": "Descarga el archivo de ejercicios y ábrelo con LibreOffice Calc. La columna <strong>Kontrolle</strong> (control) te muestra lo que todavía falta. También se da cuenta de si tu resultado ya tiene formato %.",
  "ODS Übungsdateik9-02-prozentrechnung.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (archivo de ejercicios)<small>k9-02-prozentrechnung.ods</small></span>",
  "BasisAufgabe 1 · Rabatt: Sale im Sportgeschäft – Rabatt und neue Preise.": "<span class=\"badge basis\">Basis</span><span><strong>Tarea 1 · Descuento:</strong> rebajas en la tienda de deportes – descuento y precios nuevos.</span>",
@@ -64,7 +63,6 @@
  "C5 stimmt noch nicht. Rabatt = Preis (B5) · Prozentsatz (B2).": "C5 todavía no está bien. Descuento = precio (B5) · porcentaje (B2).",
  "✔ C5 stimmt! Jetzt D5: neuer Preis = Preis − Rabatt.": "✔ ¡C5 está bien! Ahora D5: precio nuevo = precio − descuento.",
  "D5 stimmt noch nicht. Neuer Preis = =B5-C5.": "D5 todavía no está bien. Precio nuevo = <code>=B5-C5</code>.",
- "✔ Zeile 5 stimmt! Jetzt auf ■ C5 und D5 nach unten ausfüllen klicken.": "✔ ¡La fila 5 está bien! Ahora haz clic en <strong>■ C5 und D5 nach unten ausfüllen</strong> (rellenar hacia abajo).",
  "Du hast Zeile 5 geändert. Fülle noch einmal nach unten aus!": "Has cambiado la fila 5. ¡Vuelve a rellenar hacia abajo!",
  "In Zeile 6 und 7 kommt kein Rabatt heraus. Klick C6 an: Aus B2 wurde B3 – und B3 ist leer. Setz in C5 den Anker: =B5*$B$2": "Las filas 6 y 7 no dan descuento. Haz clic en C6: B2 se ha convertido en B3, y B3 está vacía. Pon el ancla en C5: <code>=B5*$B$2</code>",
  "✔ Perfekt! Alle Preise stimmen.": "✔ ¡Perfecto! Todos los precios están bien.",
@@ -107,5 +105,8 @@
  "der Preis wird kleiner, z. B. 20 % weniger": "<strong>descuento</strong> – el precio se hace más pequeño, p. ej. 20 % menos",
  "alles zusammen. Das sind 100 %.": "<strong>el todo</strong> – todo junto. Es el 100 %.",
  "Geld für den Staat. Es kommt auf den Preis oben drauf.": "<strong>IVA</strong> – dinero para el Estado. Se suma encima del precio.",
- "netto: der Preis ohne Steuer · brutto: der Preis mit Steuer": "<strong>neto · bruto</strong> – netto: el precio sin impuesto · brutto: el precio con impuesto"
+ "netto: der Preis ohne Steuer · brutto: der Preis mit Steuer": "<strong>neto · bruto</strong> – netto: el precio sin impuesto · brutto: el precio con impuesto",
+ "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "¡Todo un 20 % más barato! En <strong>C5</strong> escribe el descuento en €, en <strong>D5</strong> el precio nuevo. Luego selecciona C5 y D5 juntas y arrastra las dos con el <strong>Ausfüllkästchen</strong> (controlador de relleno) hacia abajo hasta la fila 7.",
+ "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "Todavía no está todo relleno. Selecciona C5 y D5 <strong>juntas</strong> y arrastra el <strong>Ausfüllkästchen</strong> (controlador de relleno) hacia abajo hasta la fila 7.",
+ "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ ¡La fila 5 está bien! Ahora selecciona C5 y D5 juntas y arrastra las dos con el <strong>Ausfüllkästchen</strong> (controlador de relleno) hacia abajo hasta la fila 7."
 }

@@ -17,7 +17,6 @@
  "Klick auf % Als Prozent formatieren. In Calc: Symbolleiste % oder Strg + Umschalt + 5.": "Kliknij <strong>% Als Prozent formatieren</strong> (formatuj jako procent). W Calc: pasek narzędzi <strong>%</strong> albo <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>5</kbd> (Ctrl + Shift + 5).",
  "Kurzvideo (folgt): Rabatt berechnen in 60 Sekunden": "<strong>Krótki film (wkrótce):</strong> Policz rabat w 60 sekund",
  "3 Sale-Labor 5 Min": "<span class=\"step-no\">3</span> Laboratorium wyprzedaży <span class=\"chip\">5 min</span>",
- "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann füll beide nach unten aus.": "Wszystko 20 % taniej! W <strong>C5</strong> wpisz rabat w €, w <strong>D5</strong> nową cenę. Potem wypełnij obie w dół.",
  "Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Die Spalte Kontrolle zeigt dir, was noch fehlt. Sie merkt auch, ob dein Ergebnis schon als % formatiert ist.": "Pobierz plik ćwiczeń i otwórz go w LibreOffice Calc. Kolumna <strong>Kontrolle</strong> (sprawdzenie) pokazuje, czego jeszcze brakuje. Zauważa też, czy wynik jest już sformatowany jako %.",
  "ODS Übungsdateik9-02-prozentrechnung.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (plik ćwiczeń)<small>k9-02-prozentrechnung.ods</small></span>",
  "BasisAufgabe 1 · Rabatt: Sale im Sportgeschäft – Rabatt und neue Preise.": "<span class=\"badge basis\">Basis</span><span><strong>Zadanie 1 · Rabat:</strong> Wyprzedaż w sklepie sportowym – rabat i nowe ceny.</span>",
@@ -64,7 +63,6 @@
  "C5 stimmt noch nicht. Rabatt = Preis (B5) · Prozentsatz (B2).": "C5 jeszcze nie jest dobrze. Rabat = cena (B5) · procent (B2).",
  "✔ C5 stimmt! Jetzt D5: neuer Preis = Preis − Rabatt.": "✔ C5 jest dobrze! Teraz D5: nowa cena = cena − rabat.",
  "D5 stimmt noch nicht. Neuer Preis = =B5-C5.": "D5 jeszcze nie jest dobrze. Nowa cena = <code>=B5-C5</code>.",
- "✔ Zeile 5 stimmt! Jetzt auf ■ C5 und D5 nach unten ausfüllen klicken.": "✔ Wiersz 5 jest dobrze! Teraz kliknij <strong>■ C5 und D5 nach unten ausfüllen</strong> (wypełnij w dół).",
  "Du hast Zeile 5 geändert. Fülle noch einmal nach unten aus!": "Wiersz 5 jest zmieniony. Wypełnij jeszcze raz w dół!",
  "In Zeile 6 und 7 kommt kein Rabatt heraus. Klick C6 an: Aus B2 wurde B3 – und B3 ist leer. Setz in C5 den Anker: =B5*$B$2": "Wiersze 6 i 7 nie dają rabatu. Kliknij C6: B2 stało się B3 – a B3 jest puste. Wstaw kotwicę w C5: <code>=B5*$B$2</code>",
  "✔ Perfekt! Alle Preise stimmen.": "✔ Idealnie! Wszystkie ceny są dobrze.",
@@ -107,5 +105,8 @@
  "der Preis wird kleiner, z. B. 20 % weniger": "<strong>rabat</strong> – cena robi się mniejsza, np. o 20 %",
  "alles zusammen. Das sind 100 %.": "<strong>całość</strong> – wszystko razem. To jest 100 %.",
  "Geld für den Staat. Es kommt auf den Preis oben drauf.": "<strong>VAT (podatek)</strong> – pieniądze dla państwa. Dolicza się je do ceny.",
- "netto: der Preis ohne Steuer · brutto: der Preis mit Steuer": "<strong>netto · brutto</strong> – netto: cena bez podatku · brutto: cena z podatkiem"
+ "netto: der Preis ohne Steuer · brutto: der Preis mit Steuer": "<strong>netto · brutto</strong> – netto: cena bez podatku · brutto: cena z podatkiem",
+ "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "Wszystko 20 % taniej! W <strong>C5</strong> wpisz rabat w €, w <strong>D5</strong> nową cenę. Potem zaznacz razem C5 i D5 i przeciągnij obie <strong>Ausfüllkästchen</strong> (uchwytem wypełniania) w dół do wiersza 7.",
+ "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "Jeszcze nie wszystko wypełnione. Zaznacz C5 i D5 <strong>razem</strong> i przeciągnij <strong>Ausfüllkästchen</strong> (uchwyt wypełniania) w dół do wiersza 7.",
+ "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ Wiersz 5 jest dobrze! Teraz zaznacz razem C5 i D5 i przeciągnij obie <strong>Ausfüllkästchen</strong> (uchwytem wypełniania) w dół do wiersza 7."
 }

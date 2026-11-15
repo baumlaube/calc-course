@@ -25,7 +25,7 @@
 <link rel="stylesheet" href="../assets/kurs.css?v=f397fc03b3">
 <script src="../assets/i18n.js?v=1b30a9d559" data-page="k9-02-prozentrechnung" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=4f7b2fcf93"></script>
-<script src="../assets/minicalc.js?v=0f549e77c9" defer></script>
+<script src="../assets/minicalc.js?v=7e15dc4948" defer></script>
 <script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
 </head>
 <body>
@@ -130,7 +130,7 @@
   <section class="card" id="ausprobieren">
     <h2><span class="step-no">3</span> Sale-Labor <span class="chip">5 Min</span></h2>
     <div id="calc2"></div>
-    <p class="lead">Alles 20 % billiger! Schreib in <strong>C5</strong> den Rabatt in € und in <strong>D5</strong> den neuen Preis. Dann füll beide nach unten aus.</p>
+    <p class="lead">Alles 20 % billiger! Schreib in <strong>C5</strong> den Rabatt in € und in <strong>D5</strong> den neuen Preis. Dann markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.</p>
     <p class="fb" id="fb2" aria-live="polite"></p>
   </section>
 
@@ -319,19 +319,18 @@ document.addEventListener("DOMContentLoaded", () => {
              A5: "Sneaker", B5: 89.9, A6: "Trikot", B6: 59.95, A7: "Fußball", B7: 24.99 },
     styles: { A2: "label", B2: "fix", A4: "head", B4: "head", C4: "head", D4: "head" },
     formats: { B: "eur", C: "eur", D: "eur", B2: "pct" },
-    editable: ["C5", "D5", "B2"], select: "C5",
+    editable: ["C5", "D5", "B2"], fillable: ["C6:D7"], select: "C5", drag: true,
     actions: [
-      { label: "■ C5 und D5 nach unten ausfüllen (bis Zeile 7)", onClick: async (c) => {
+      { label: "■ C5 und D5 nach unten ausfüllen (bis Zeile 7)", touch: true, onClick: (c) => {
           if (!c.getRaw("C5") || !c.getRaw("D5")) { feedback(fb2, T("Erst Formeln in C5 und D5 eintippen!"), "hint"); return; }
-          filled = true;
-          await c.fill("C5", rows.map((r) => "C" + r), 180);
-          await c.fill("D5", rows.map((r) => "D" + r), 180);
+          c.fillBy("down", 2, false, "button", { c1: 3, r1: 5, c2: 4, r2: 5 });
         } },
       { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { filled = false; solved = false; c.reset(); fb2.className = "fb"; } },
     ],
   });
   const sale = (c, src) => {
     if (src === "reset") return;
+    if (src === "fill") filled = ["C6", "C7", "D6", "D7"].every((a) => c.getRaw(a));
     const p = c.get("B2");
     if (typeof p === "number" && p > 1) {
       feedback(fb2, T(`B2 zeigt jetzt ${c.format("B2", p)}. Tipp den Rabatt mit %-Zeichen ein, z. B. <code>30%</code>.`), "hint");
@@ -352,7 +351,12 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!rd.startsWith("=") || isErr(c.get("D5")) || !near(c.get("D5"), c.get("B5") * (1 - p))) {
       feedback(fb2, T("D5 stimmt noch nicht. Neuer Preis = <code>=B5-C5</code>."), "hint"); return;
     }
-    if (!filled) { feedback(fb2, T("✔ Zeile 5 stimmt! Jetzt auf <strong>■ C5 und D5 nach unten ausfüllen</strong> klicken."), "info"); return; }
+    if (!filled) {
+      feedback(fb2, src === "fill"
+        ? T("Noch nicht alles ausgefüllt. Markier C5 und D5 <strong>zusammen</strong> und zieh am Ausfüllkästchen nach unten bis Zeile 7.")
+        : T("✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7."), "info");
+      return;
+    }
     if (src === "edit" && (c.getRaw("C6").replace(/\s/g, "") !== MiniCalc.shiftFormula(c.getRaw("C5"), 1, 0).replace(/\s/g, "") ||
         c.getRaw("D6").replace(/\s/g, "") !== MiniCalc.shiftFormula(c.getRaw("D5"), 1, 0).replace(/\s/g, ""))) {
       feedback(fb2, T("Du hast Zeile 5 geändert. Fülle noch einmal nach unten aus!"), "info"); return;

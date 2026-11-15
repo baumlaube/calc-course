@@ -64,7 +64,6 @@
  "C5 zeigt {}. Prüfe: Text in Anführungszeichen (\"laden!\"), Klammern und Semikolons: =WENN(Prüfung;Dann;Sonst).": "C5 tregon {}. Kontrollo: tekst në thonjëza (<code>\"laden!\"</code>), kllapat dhe pikëpresjet: <code>=WENN(Prüfung;Dann;Sonst)</code>.",
  "In der Formel steht eine Zahl. Nimm die Grenze aus $B$2 – dann kannst du sie später ändern.": "Në formulë ka një numër. Merre kufirin nga <code>$B$2</code> – atëherë mund ta ndryshosh më vonë.",
  "Lea hat 15 %. Das ist unter 20 %, also soll „laden!“ erscheinen. Prüfe Vergleichszeichen und Reihenfolge von Dann und Sonst.": "Lea ka 15 %. Kjo është nën 20 %, pra duhet të dalë „laden!”. Kontrollo shenjën e krahasimit dhe radhën e Dann dhe Sonst.",
- "✔ C5 stimmt! Jetzt auf ■ C5 nach unten ausfüllen klicken.": "✔ C5 është saktë! Tani kliko <strong>■ C5 nach unten ausfüllen</strong> (plotëso poshtë).",
  "Klick C6 an: Aus B2 wurde B3 – und B3 ist leer. Setz den Anker: $B$2": "Kliko C6: B2 u bë B3 – dhe B3 është bosh. Vendos spirancën: <code>$B$2</code>",
  "Mia hat genau 20 %. „Unter 20 %“ heißt <, nicht <=. Mia ist also ok.": "Mia ka saktësisht 20 %. „Nën 20 %” do të thotë <code>&lt;</code>, jo <code>&lt;=</code>. Pra Mia është ok.",
  "Zeile {} stimmt noch nicht. Lies die Formel als Satz.": "Rreshti {} nuk është ende saktë. Lexoje formulën si fjali.",
@@ -83,7 +82,6 @@
  "D5 zeigt {}. Prüfe Anführungszeichen, Klammern und Semikolons.": "D5 tregon {}. Kontrollo thonjëzat, kllapat dhe pikëpresjet.",
  "Nimm UND für die zwei Bedingungen: UND(B5>=$B$2;C5=\"nein\")": "Përdor UND (DHE) për dy kushtet: <code>UND(B5&gt;=$B$2;C5=\"nein\")</code>",
  "Montag: 28 °C und kein Regen – das ist ein Freibad-Tag! Prüfe deine Formel.": "E hëna: 28 °C dhe pa shi – kjo është ditë pishine! Kontrollo formulën.",
- "✔ Montag stimmt! Jetzt nach unten ausfüllen.": "✔ E hëna është saktë! Tani plotëso poshtë.",
  "Dienstag ist heiß, aber es regnet. Mit UND müssen beide Bedingungen stimmen.": "E marta është e nxehtë, por bie shi. Me UND <strong>të dy</strong> kushtet duhet të jenë të vërteta.",
  "Mittwoch hat nur 24 °C. Ist der Anker $B$2 da?": "E mërkura ka vetëm 24 °C. A e ke spirancën <code>$B$2</code>?",
  "🏆 Expedition geschafft! Nur am Montag passt beides. In der Übungsdatei wartet noch der Notenrechner: WENN in WENN.": "🏆 Ekspedita përfundoi! Vetëm të hënën përshtaten të dyja. Në skedarin e ushtrimeve të pret llogaritësi i notave: WENN brenda WENN.",
@@ -116,5 +114,9 @@
  "„über 15“: 15 zählt nicht mit, also >15": "<strong>mbi</strong> – „über 15“: 15 nuk numërohet, pra <code>&gt;15</code>",
  "„bis 10“: 10 zählt mit, also <=10": "<strong>deri</strong> – „bis 10“: 10 numërohet, pra <code>&lt;=10</code>",
  "„unter 14“: 14 zählt nicht mit, also <14": "<strong>nën</strong> – „unter 14“: 14 nuk numërohet, pra <code>&lt;14</code>",
- "geschafft, z. B. eine Prüfung": "<strong>kaluar</strong> – ia dola, p.sh. një provim"
+ "geschafft, z. B. eine Prüfung": "<strong>kaluar</strong> – ia dola, p.sh. një provim",
+ "✔ C5 stimmt! Jetzt zieh am Ausfüllkästchen von C5 nach unten bis C8.": "✔ C5 është në rregull! Tani tërhiq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) nga C5 poshtë deri në C8.",
+ "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Ende jo deri në fund. Ende bosh: {}. Tërhiq nga C5 deri në C8.",
+ "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ E hëna është në rregull! Tani tërhiq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) poshtë deri në D7.",
+ "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Ende jo deri në fund. Tërhiq nga D5 deri në D7."
 }

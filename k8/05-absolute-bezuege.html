@@ -25,7 +25,7 @@
 <link rel="stylesheet" href="../assets/kurs.css?v=f397fc03b3">
 <script src="../assets/i18n.js?v=1b30a9d559" data-page="k8-05-absolute-bezuege" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=4f7b2fcf93"></script>
-<script src="../assets/minicalc.js?v=0f549e77c9" defer></script>
+<script src="../assets/minicalc.js?v=7e15dc4948" defer></script>
 <script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
 </head>
 <body>
@@ -159,7 +159,7 @@
   <section class="card" id="ausprobieren">
     <h2><span class="step-no">3</span> Selbst ausprobieren <span class="chip">5 Min</span></h2>
     <div id="calc2"></div>
-    <p class="lead">Klick auf die gelbe Zelle C5 und tippe oben in die Eingabezeile eine Formel, die du nach unten ziehen kannst. Mit <kbd>Enter</kbd> bestätigst du.</p>
+    <p class="lead">Klick auf die gelbe Zelle C5 und tippe oben in die Eingabezeile eine Formel, die du nach unten ziehen kannst. Mit <kbd>Enter</kbd> bestätigst du. Dann ziehst du am Ausfüllkästchen bis C9.</p>
     <p class="fb" id="fb2" aria-live="polite"></p>
   </section>
 
@@ -228,7 +228,7 @@
     <ol class="howto">
       <li>C4: Steuer = Netto × Steuersatz, mit <code>$</code>.</li>
       <li>D4: Brutto = Netto + Steuer.</li>
-      <li>Beides nach unten ausfüllen.</li>
+      <li>C4 und D4 zusammen markieren und am Ausfüllkästchen nach unten bis Zeile 6 ziehen.</li>
       <li>Dann leg den Schalter um: B1 auf <code>7%</code>.</li>
     </ol>
     <p class="fb" id="fbSteuer" aria-live="polite"></p>
@@ -258,7 +258,7 @@
 
     <h3 class="sub"><span class="badge expedition">★ Expedition</span> Gemischte Bezüge</h3>
     <div id="calc3"></div>
-    <p class="lead">Für alle, die mehr können wollen. Baue das Einmaleins mit <strong>einer einzigen Formel</strong> in B2, die du nach rechts <em>und</em> nach unten ausfüllst.</p>
+    <p class="lead">Für alle, die mehr können wollen. Baue das Einmaleins mit <strong>einer einzigen Formel</strong> in B2, die du nach rechts <em>und</em> nach unten ausfüllst. Wie in Calc in zwei Zügen: erst nach rechts bis F2, dann die markierte Zeile nach unten bis F6.</p>
     <p>Diesmal brauchst du zwei <strong>halbe Anker</strong>. Probier zuerst <code>=A2*B1</code> und schau, was schiefgeht.</p>
     <div class="tbl-scroll">
       <table class="plain">
@@ -277,7 +277,7 @@
     <h3 class="sub">Teil 2: Opas Radverleih</h3>
     <div id="calcRad"></div>
     <p>Oben steht, wie oft jeder Tarif ausgeliehen wurde. Unten soll der Umsatz hin: <strong>Ausleihen × Preis</strong>.</p>
-    <p>Tipp in C7 eine Formel und füll sie nach rechts und nach unten aus. Der Preis steht in Spalte B. Welche Teile der Adresse müssen festgehalten werden?</p>
+    <p>Tipp in C7 eine Formel und füll sie aus: erst nach rechts bis E7, dann die markierte Zeile nach unten bis E9. Der Preis steht in Spalte B. Welche Teile der Adresse müssen festgehalten werden?</p>
     <p class="fb" id="fbRad" aria-live="polite"></p>
     <div class="dl">
       <a href="../downloads/k8-05-absolute-bezuege-expedition.ods" download>
@@ -351,11 +351,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const fb2 = document.getElementById("fb2");
   let filled = false, solved = false;
   const calc2 = new MiniCalc(document.getElementById("calc2"), Object.assign(ferienjob(""), {
-    editable: ["C5", "B2"], select: "C5",
+    editable: ["C5", "B2"], fillable: down, select: "C5", drag: true,
     actions: [
-      { label: "■ C5 nach unten ausfüllen (bis C9)", onClick: async (c) => {
+      { label: "■ C5 nach unten ausfüllen (bis C9)", touch: true, onClick: async (c) => {
           if (!c.getRaw("C5")) { feedback(fb2, "Erst eine Formel in C5 eintippen!", "hint"); return; }
-          filled = true; await c.fill("C5", down, 200);
+          await c.fill("C5", down, 200);
         } },
       { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { filled = false; solved = false; c.reset(); fb2.className = "fb"; } },
     ],
@@ -363,6 +363,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const near = (a, b) => typeof a === "number" && Math.abs(a - b) < 0.005;
   calc2.on((c, src) => {
     if (src === "reset") return;
+    if (src === "fill") filled = true;
     const raw = c.getRaw("C5").replace(/\s/g, "");
     const lohn = c.get("B2");
     if (solved && src === "edit" && c.sel === "B2") {
@@ -384,7 +385,9 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
     if (!near(v, c.get("B5") * lohn)) { feedback(fb2, "C5 rechnet noch nicht richtig. Gesucht ist: Stunden (B5) × Stundenlohn (B2).", "hint"); return; }
-    if (!filled) { feedback(fb2, "✔ C5 stimmt! Jetzt der spannende Teil: Klick auf <strong>■ C5 nach unten ausfüllen</strong>.", "info"); return; }
+    if (!filled) { feedback(fb2, "✔ C5 stimmt! Jetzt der spannende Teil: Zieh am Ausfüllkästchen von C5 nach unten bis C9.", "info"); return; }
+    const empty = down.filter((a) => !c.getRaw(a));
+    if (empty.length) { feedback(fb2, `Noch nicht ganz unten. Leer sind noch: ${empty.join(", ")}. Zieh von C5 aus bis C9.`, "info"); return; }
     if (src === "edit" && c.getRaw("C6").replace(/\s/g, "") !== MiniCalc.shiftFormula(raw, 1, 0)) {
       feedback(fb2, "Du hast C5 geändert. Fülle noch einmal nach unten aus!", "info"); return;
     }
@@ -434,17 +437,23 @@ document.addEventListener("DOMContentLoaded", () => {
     cells3["A" + (i + 1)] = i; styles3["A" + (i + 1)] = "fix";
   }
   const calc3 = new MiniCalc(document.getElementById("calc3"), {
-    cols: 6, rows: 6, cells: cells3, styles: styles3, editable: editable3, select: "B2",
+    cols: 6, rows: 6, cells: cells3, styles: styles3, editable: editable3, fillable: ["C2:F2", "B3:F6"], select: "B2", drag: true,
     actions: [
-      { label: "■ B2 nach rechts und unten ausfüllen (bis F6)", onClick: (c) => {
+      { label: "■ B2 nach rechts ausfüllen (bis F2)", touch: true, onClick: (c) => {
           if (!c.getRaw("B2")) { feedback(fb3, "Erst eine Formel in B2 eintippen!", "hint"); return; }
-          c.fill("B2", c.range("B2", "F6").filter((a) => a !== "B2"), 70);
+          c.fillBy("right", 4, false, "button", { c1: 2, r1: 2, c2: 2, r2: 2 });
+        } },
+      { label: "■ B2 bis F2 nach unten ausfüllen (bis F6)", touch: true, onClick: (c) => {
+          if (!c.getRaw("F2")) { feedback(fb3, "Erst nach rechts ausfüllen, bis F2!", "hint"); return; }
+          c.fillBy("down", 4, false, "button", { c1: 2, r1: 2, c2: 6, r2: 2 });
         } },
       { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fb3.className = "fb"; } },
     ],
   });
   calc3.on((c, src) => {
     if (src !== "fill") return;
+    const leer = c.range("B2", "F6").filter((a) => !c.getRaw(a)).length;
+    if (leer) { feedback(fb3, `Noch nicht fertig: ${leer} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis F6 voll ist.`, "info"); return; }
     let ok = 0;
     c.range("B2", "F6").forEach((a) => {
       const r = +a.slice(1), col = a.charCodeAt(0) - 65;
@@ -468,11 +477,15 @@ document.addEventListener("DOMContentLoaded", () => {
     styles: { A1: "head", B1: "head", C1: "head", D1: "head", E1: "head", A6: "head", B6: "head", C6: "head", D6: "head", E6: "head",
               B7: "fix", B8: "fix", B9: "fix" },
     formats: { B7: "eur", B8: "eur", B9: "eur", C7: "eur", D7: "eur", E7: "eur", C8: "eur", D8: "eur", E8: "eur", C9: "eur", D9: "eur", E9: "eur" },
-    editable: blk, select: "C7",
+    editable: blk, select: "C7", drag: true,
     actions: [
-      { label: "■ C7 nach rechts und unten ausfüllen", onClick: async (c) => {
+      { label: "■ C7 nach rechts ausfüllen (bis E7)", touch: true, onClick: (c) => {
           if (!c.getRaw("C7")) { feedback(fbRad, T("Erst eine Formel in C7 eintippen!"), "hint"); return; }
-          await c.fill("C7", blk.filter((a) => a !== "C7"), 90);
+          c.fillBy("right", 2, false, "button", { c1: 3, r1: 7, c2: 3, r2: 7 });
+        } },
+      { label: "■ C7 bis E7 nach unten ausfüllen (bis E9)", touch: true, onClick: (c) => {
+          if (!c.getRaw("E7")) { feedback(fbRad, T("Erst nach rechts ausfüllen, bis E7!"), "hint"); return; }
+          c.fillBy("down", 2, false, "button", { c1: 3, r1: 7, c2: 5, r2: 7 });
         } },
       { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fbRad.className = "fb"; } },
     ],
@@ -483,7 +496,9 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!raw) return;
     const want = (a) => c.get(a[0] + (+a.slice(1) - 5)) * c.get("B" + a.slice(1));
     if (!near(c.get("C7"), want("C7"))) { feedback(fbRad, T("C7: Ausleihen (C2) × Preis (B7)."), "hint"); return; }
-    if (!blk.every((a) => c.getRaw(a))) { feedback(fbRad, T("✔ C7 stimmt. Jetzt ausfüllen und schauen, ob alle Zellen stimmen."), "info"); return; }
+    const leer = blk.filter((a) => !c.getRaw(a)).length;
+    if (leer === 8) { feedback(fbRad, T("✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9."), "info"); return; }
+    if (leer) { feedback(fbRad, T(`Noch nicht fertig: ${leer} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.`), "info"); return; }
     const right = blk.filter((a) => near(c.get(a), want(a))).length;
     if (right === 9) { feedback(fbRad, T(`🏆 Alle 9 Umsätze stimmen! Mit <code>${c.getRaw("C7")}</code>: Das <code>$</code> vor dem B hält die Spalte fest, die Zeile darf mitwandern.`), "ok"); return; }
     if (/\$B\$7/.test(raw)) { feedback(fbRad, T("Mit <code>$B$7</code> nehmen alle Zeilen den Preis von 5 Stunden. Die Zeile muss mitwandern dürfen. Nur die <strong>Spalte</strong> festhalten: <code>$B7</code>."), "hint"); return; }
@@ -500,11 +515,11 @@ document.addEventListener("DOMContentLoaded", () => {
              A4: "Fahrrad", B4: 699, A5: "Kopfhörer", B5: 89, A6: "Heft", B6: 0.89 },
     styles: { A1: "label", A3: "head", B3: "head", C3: "head", D3: "head" },
     formats: { B1: "pct", B: "eur", C: "eur", D: "eur" },
-    editable: ["B1", "C4", "D4", "C5", "D5", "C6", "D6"], select: "C4",
+    editable: ["B1", "C4", "D4", "C5", "D5", "C6", "D6"], select: "C4", drag: true,
     actions: [
-      { label: "■ C4 und D4 nach unten ausfüllen", onClick: async (c) => {
+      { label: "■ C4 und D4 nach unten ausfüllen", touch: true, onClick: (c) => {
           if (!c.getRaw("C4") || !c.getRaw("D4")) { feedback(fbSteuer, T("Erst die Formeln in C4 und D4 eintippen!"), "hint"); return; }
-          await c.fill("C4", ["C5", "C6"], 150); await c.fill("D4", ["D5", "D6"], 150);
+          c.fillBy("down", 2, false, "button", { c1: 3, r1: 4, c2: 4, r2: 4 });
         } },
       { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fbSteuer.className = "fb"; } },
     ],
@@ -519,7 +534,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!near(c.get("C4"), c.get("B4") * satz)) { feedback(fbSteuer, T("C4: Netto (B4) × Steuersatz (B1)."), "hint"); return; }
     if (!c.getRaw("D4")) { feedback(fbSteuer, T("✔ C4 stimmt. Jetzt D4: Brutto = Netto + Steuer."), "info"); return; }
     if (!near(c.get("D4"), c.get("B4") + c.get("C4"))) { feedback(fbSteuer, T("D4: Netto + Steuer, also <code>=B4+C4</code>."), "hint"); return; }
-    if (!filled) { feedback(fbSteuer, T("✔ Zeile 4 stimmt. Jetzt nach unten ausfüllen."), "info"); return; }
+    if (!filled) { feedback(fbSteuer, T("✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen."), "info"); return; }
     if (!rows.every(okRow)) { feedback(fbSteuer, T("Weiter unten stimmt die Steuer nicht. Ohne <code>$</code> rutscht der Steuersatz beim Ausfüllen weg, auf B2, B3 … Schreib in C4 <code>$B$1</code>."), "hint"); return; }
     if (Math.abs(satz - 0.07) > 0.0001) { feedback(fbSteuer, T("✔ Alles stimmt! Jetzt leg den Schalter um: Ändere B1 auf <code>7%</code>."), "info"); return; }
     feedback(fbSteuer, T("🏆 Schalter umgelegt! Eine Zelle geändert, alle Preise rechnen neu. So machen es Firmen, wenn sich die Steuer ändert."), "ok");

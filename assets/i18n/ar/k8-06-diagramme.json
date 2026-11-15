@@ -84,13 +84,11 @@
  "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> أكتشف الرسوم البيانية المخادعة من المحور y.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> مبارزة تعرفات الكهرباء",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "الكهرباء تكلّف مرتين: <strong>سعر أساسي</strong> كل شهر، وسعر لكل <strong>كيلوواط ساعة</strong>.",
- "Jahreskosten = 12 × Grundpreis + kWh × Cent ÷ 100. Tipp die Formel in B6 und füll sie aus. Das Diagramm zeichnet sich von selbst.": "<strong>التكلفة السنوية = 12 × السعر الأساسي + kWh × سنت ÷ 100</strong>. اكتب الصيغة في B6 وعبّئها. الرسم البياني يرسم نفسه.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: مبارزة تعرفات الكهرباء</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
  "★ Expedition Lügen mit Diagrammen": "<span class=\"badge expedition\">★ Expedition</span> الكذب بالرسوم البيانية",
  "ODS ★ Expedition: Lügen mit Diagrammenk8-06-diagramme-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition: الكذب بالرسوم البيانية</strong><small>k8-06-diagramme-expedition.ods</small></span>",
  "Cent pro kWh": "سنت لكل kWh",
  "kWh pro Jahr": "kWh في السنة",
- "■ B6 nach rechts und unten ausfüllen": "■ B6 nach rechts und unten ausfüllen (تعبئة B6 إلى اليمين والأسفل)",
  "Erst eine Formel in B6 eintippen!": "اكتب أولًا صيغة في B6!",
  "B6 ist viel zu groß: Die Cent musst du noch durch 100 teilen, dann sind es Euro.": "B6 كبيرة جدًا: يجب أن تقسم السنتات على 100، فتصبح يورو.",
  "✔ B6 stimmt: 404 € im Jahr. Jetzt ausfüllen. Tipp für eine Formel für alles: =12*B$2+$A6*B$3/100": "✔ B6 صحيحة: 404 € في السنة. الآن عبّئ. نصيحة لصيغة واحدة لكل شيء: <code>=12*B$2+$A6*B$3/100</code>",
@@ -116,5 +114,10 @@
  "wie sich etwas mit der Zeit ändert, z. B. die Temperatur": "<strong>مسار، تطوّر</strong> – كيف يتغير شيء مع الوقت، مثلًا درجة الحرارة",
  "die Linie unten und die Linie links am Diagramm": "<strong>محور</strong> – الخط في الأسفل والخط على اليسار في الرسم البياني",
  "dazuschreiben, was man sieht, z. B. °C": "<strong>يضع تسمية</strong> – يكتب بجانبه ما يُرى، مثلًا °C",
- "die Überschrift vom Diagramm": "<strong>عنوان الرسم البياني</strong> – العنوان فوق الرسم البياني"
+ "die Überschrift vom Diagramm": "<strong>عنوان الرسم البياني</strong> – العنوان فوق الرسم البياني",
+ "Jahreskosten = 12 × Grundpreis + kWh × Cent ÷ 100. Tipp die Formel in B6 und füll sie aus: erst nach rechts bis D6, dann die markierte Zeile nach unten bis D8. Das Diagramm zeichnet sich von selbst.": "<strong>التكلفة السنوية = 12 × السعر الأساسي + kWh × سنت ÷ 100</strong>. اكتب الصيغة في B6 وعبّئها: أولًا إلى اليمين حتى D6، ثم السطر المحدّد إلى الأسفل حتى D8. الرسم البياني يرسم نفسه.",
+ "■ B6 nach rechts ausfüllen (bis D6)": "■ B6 nach rechts ausfüllen (تعبئة B6 إلى اليمين حتى D6)",
+ "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ B6 bis D6 nach unten ausfüllen (تعبئة B6:D6 إلى الأسفل حتى D8)",
+ "Erst nach rechts ausfüllen, bis D6!": "عبّئ أولًا إلى اليمين، حتى D6!",
+ "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "لم تنتهِ بعد: {} خلايا فارغة. واصل سحب المنطقة المحدّدة حتى يمتلئ كل شيء حتى D8."
 }

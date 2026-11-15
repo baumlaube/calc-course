@@ -4,7 +4,6 @@
  "🏆 {} von {} – stark!": "🏆 {} из {} – отлично!",
  "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} из {} правильно. Прочитай объяснения ещё раз.",
  "<>ja": "<>ja",
- "ℹ️ Hier im Browser kannst du nicht mit der Maus ziehen. Nimm den Knopf ■ … ausfüllen. In LibreOffice Calc ziehst du dann richtig am Ausfüllkästchen.": "ℹ️ Здесь, в браузере, нельзя тянуть мышкой. Нажми кнопку <strong>■ … ausfüllen</strong> (заполнить). В LibreOffice Calc ты по-настоящему тянешь за <strong>Ausfüllkästchen</strong> (маркер заполнения).",
  "Hier tippen und Enter drücken": "Пиши здесь и нажми Enter",
  "← leer!": "← пусто!",
  "Klick in die Eingabezeile oben und tippe.": "Щёлкни в <strong>Eingabezeile</strong> (строка ввода) наверху и пиши.",
@@ -17,7 +16,6 @@
  "Fang mit =WENN( an.": "Начни с <code>=WENN(</code>.",
  "Da kommt Text heraus. Zahlen schreibst du ohne Anführungszeichen.": "Так получается текст. Числа пиши <strong>без</strong> кавычек.",
  "B2 passt noch nicht. Lies deine Formel als Frage.": "B2 ещё не правильно. Прочитай свою формулу как вопрос.",
- "✔ B2 stimmt! Jetzt auf ■ B2 nach unten ausfüllen klicken.": "✔ B2 правильно! Теперь нажми <strong>■ B2 nach unten ausfüllen</strong> (заполнить вниз).",
  "Du hast B2 geändert. Fülle noch einmal nach unten aus!": "Ты изменил(а) B2. Заполни вниз ещё раз!",
  "Zeile 3 stimmt noch nicht.": "Строка 3 ещё не правильная.",
  "✔ Stufe geschafft!": "✔ Уровень пройден!",
@@ -203,5 +201,6 @@
  "Datenschutz": "Datenschutz (Защита данных)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Потяни пальцем маленький квадратик справа внизу у ячейки. Или нажми кнопку <strong>■</strong>. В LibreOffice Calc ты тянешь за <strong>Ausfüllkästchen</strong> (маркер заполнения).",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (маркер заполнения): тяни, чтобы заполнить",
- "Hier kannst du nicht ziehen. Überleg zuerst und wähl eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Здесь нельзя тянуть. Сначала подумай и выбери ответ. Потом таблица покажет тебе, что произойдёт."
+ "Hier kannst du nicht ziehen. Überleg zuerst und wähl eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Здесь нельзя тянуть. Сначала подумай и выбери ответ. Потом таблица покажет тебе, что произойдёт.",
+ "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 верно! Теперь потяни за <strong>Ausfüllkästchen</strong> (маркер заполнения) от B2 вниз до B3."
 }

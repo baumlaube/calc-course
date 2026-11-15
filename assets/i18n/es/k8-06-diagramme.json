@@ -84,13 +84,11 @@
  "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> Reconozco gráficos tramposos por el eje y.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> El duelo de tarifas de luz",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "La luz cuesta dos veces: una <strong>cuota fija</strong> cada mes y un precio por cada <strong>kWh</strong>.",
- "Jahreskosten = 12 × Grundpreis + kWh × Cent ÷ 100. Tipp die Formel in B6 und füll sie aus. Das Diagramm zeichnet sich von selbst.": "<strong>Coste anual = 12 × cuota fija + kWh × céntimos ÷ 100</strong>. Escribe la fórmula en B6 y rellénala. El gráfico se dibuja solo.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: El duelo de tarifas</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
  "★ Expedition Lügen mit Diagrammen": "<span class=\"badge expedition\">★ Expedition</span> Mentir con gráficos",
  "ODS ★ Expedition: Lügen mit Diagrammenk8-06-diagramme-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition: Mentir con gráficos</strong><small>k8-06-diagramme-expedition.ods</small></span>",
  "Cent pro kWh": "Céntimos por kWh",
  "kWh pro Jahr": "kWh al año",
- "■ B6 nach rechts und unten ausfüllen": "■ Rellenar B6 hacia la derecha y hacia abajo",
  "Erst eine Formel in B6 eintippen!": "¡Primero escribe una fórmula en B6!",
  "B6 ist viel zu groß: Die Cent musst du noch durch 100 teilen, dann sind es Euro.": "B6 es demasiado grande: todavía tienes que dividir los céntimos entre 100, así son euros.",
  "✔ B6 stimmt: 404 € im Jahr. Jetzt ausfüllen. Tipp für eine Formel für alles: =12*B$2+$A6*B$3/100": "✔ B6 está bien: 404 € al año. Ahora rellena. Truco para una sola fórmula para todo: <code>=12*B$2+$A6*B$3/100</code>",
@@ -116,5 +114,10 @@
  "wie sich etwas mit der Zeit ändert, z. B. die Temperatur": "<strong>evolución</strong> – cómo cambia algo con el tiempo, p. ej. la temperatura",
  "die Linie unten und die Linie links am Diagramm": "<strong>eje</strong> – la línea de abajo y la línea de la izquierda del gráfico",
  "dazuschreiben, was man sieht, z. B. °C": "<strong>rotular</strong> – escribir al lado lo que se ve, p. ej. °C",
- "die Überschrift vom Diagramm": "<strong>título</strong> – el encabezado del gráfico"
+ "die Überschrift vom Diagramm": "<strong>título</strong> – el encabezado del gráfico",
+ "Jahreskosten = 12 × Grundpreis + kWh × Cent ÷ 100. Tipp die Formel in B6 und füll sie aus: erst nach rechts bis D6, dann die markierte Zeile nach unten bis D8. Das Diagramm zeichnet sich von selbst.": "<strong>Coste anual = 12 × cuota fija + kWh × céntimos ÷ 100</strong>. Escribe la fórmula en B6 y rellénala: primero hacia la derecha hasta D6, luego la fila seleccionada hacia abajo hasta D8. El gráfico se dibuja solo.",
+ "■ B6 nach rechts ausfüllen (bis D6)": "■ B6 nach rechts ausfüllen (rellenar B6 hacia la derecha hasta D6)",
+ "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ B6 bis D6 nach unten ausfüllen (rellenar B6:D6 hacia abajo hasta D8)",
+ "Erst nach rechts ausfüllen, bis D6!": "¡Primero rellena hacia la derecha, hasta D6!",
+ "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Todavía no está listo: {} celdas están vacías. Sigue arrastrando el área seleccionada hasta que todo esté lleno hasta D8."
 }
