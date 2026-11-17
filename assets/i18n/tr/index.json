@@ -40,5 +40,9 @@
  "★SVERWEISCalc schlägt nach": "<span class=\"no\">★</span><span class=\"t\"><strong>SVERWEIS (DÜŞEYARA)</strong><small>Calc senin yerine arar</small></span>",
  "★Datum & ZeitWie viele Tage bis zu den Ferien?": "<span class=\"no\">★</span><span class=\"t\"><strong>Tarih ve saat</strong><small>Tatile kaç gün kaldı?</small></span>",
  "★Text-TricksNamen und E-Mail-Adressen bauen": "<span class=\"no\">★</span><span class=\"t\"><strong>Metin hileleri</strong><small>İsim ve e-posta adresi oluştur</small></span>",
- "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>Şans ve oyunlar</strong><small>Zar, çarkıfelek, piyango</small></span>"
+ "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>Şans ve oyunlar</strong><small>Zar, çarkıfelek, piyango</small></span>",
+ "Wähle deine Klasse:": "Sınıfını seç:",
+ "Klasse 8": "8<span class=\"voll\">. Sınıf</span><span class=\"prog\"></span>",
+ "Klasse 9": "9<span class=\"voll\">. Sınıf</span><span class=\"prog\"></span>",
+ "★ Mehr": "★ <span class=\"voll\">Daha fazla</span>"
 }

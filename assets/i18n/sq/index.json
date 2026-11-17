@@ -40,5 +40,9 @@
  "★SVERWEISCalc schlägt nach": "<span class=\"no\">★</span><span class=\"t\"><strong>SVERWEIS (KËRKIMVERTIKAL)</strong><small>Calc kërkon vetë</small></span>",
  "★Datum & ZeitWie viele Tage bis zu den Ferien?": "<span class=\"no\">★</span><span class=\"t\"><strong>Data dhe ora</strong><small>Sa ditë mbeten deri në pushime?</small></span>",
  "★Text-TricksNamen und E-Mail-Adressen bauen": "<span class=\"no\">★</span><span class=\"t\"><strong>Truke me tekst</strong><small>Ndërto emra dhe adresa e-maili</small></span>",
- "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>Rasti dhe lojërat</strong><small>Zar, rrota e fatit, llotari</small></span>"
+ "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>Rasti dhe lojërat</strong><small>Zar, rrota e fatit, llotari</small></span>",
+ "Wähle deine Klasse:": "Zgjidh klasën tënde:",
+ "Klasse 8": "<span class=\"voll\">Klasa </span>8<span class=\"prog\"></span>",
+ "Klasse 9": "<span class=\"voll\">Klasa </span>9<span class=\"prog\"></span>",
+ "★ Mehr": "★ <span class=\"voll\">Më shumë</span>"
 }

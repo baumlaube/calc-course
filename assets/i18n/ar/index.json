@@ -40,5 +40,9 @@
  "★SVERWEISCalc schlägt nach": "<span class=\"no\">★</span><span class=\"t\"><strong>SVERWEIS (بحث عمودي)</strong><small>Calc يبحث بنفسه</small></span>",
  "★Datum & ZeitWie viele Tage bis zu den Ferien?": "<span class=\"no\">★</span><span class=\"t\"><strong>التاريخ والوقت</strong><small>كم يومًا حتى العطلة؟</small></span>",
  "★Text-TricksNamen und E-Mail-Adressen bauen": "<span class=\"no\">★</span><span class=\"t\"><strong>حيل النص</strong><small>تركيب الأسماء وعناوين البريد الإلكتروني</small></span>",
- "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>الصدفة والألعاب</strong><small>النرد، عجلة الحظ، اليانصيب</small></span>"
+ "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>الصدفة والألعاب</strong><small>النرد، عجلة الحظ، اليانصيب</small></span>",
+ "Wähle deine Klasse:": "اختر صفك:",
+ "Klasse 8": "<span class=\"voll\">الصف </span>8<span class=\"prog\"></span>",
+ "Klasse 9": "<span class=\"voll\">الصف </span>9<span class=\"prog\"></span>",
+ "★ Mehr": "★ <span class=\"voll\">المزيد</span>"
 }

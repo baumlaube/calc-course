@@ -40,5 +40,9 @@
  "★SVERWEISCalc schlägt nach": "<span class=\"no\">★</span><span class=\"t\"><strong>SVERWEIS (CĂUTAREV)</strong><small>Calc caută singur</small></span>",
  "★Datum & ZeitWie viele Tage bis zu den Ferien?": "<span class=\"no\">★</span><span class=\"t\"><strong>Dată și oră</strong><small>Câte zile mai sunt până la vacanță?</small></span>",
  "★Text-TricksNamen und E-Mail-Adressen bauen": "<span class=\"no\">★</span><span class=\"t\"><strong>Trucuri cu text</strong><small>Construiește nume și adrese de e-mail</small></span>",
- "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>Noroc și jocuri</strong><small>Zar, roata norocului, loterie</small></span>"
+ "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>Noroc și jocuri</strong><small>Zar, roata norocului, loterie</small></span>",
+ "Wähle deine Klasse:": "Alege clasa ta:",
+ "Klasse 8": "<span class=\"voll\">Clasa </span>8<span class=\"prog\"></span>",
+ "Klasse 9": "<span class=\"voll\">Clasa </span>9<span class=\"prog\"></span>",
+ "★ Mehr": "★ <span class=\"voll\">Mai mult</span>"
 }

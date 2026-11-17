@@ -49,5 +49,9 @@
  "★SVERWEISCalc schlägt nach": "<span class=\"no\">★</span><span class=\"t\"><strong>SVERWEIS (вертикальний пошук)</strong><small>Calc шукає сам</small></span>",
  "★Datum & ZeitWie viele Tage bis zu den Ferien?": "<span class=\"no\">★</span><span class=\"t\"><strong>Дата і час</strong><small>Скільки днів до канікул?</small></span>",
  "★Text-TricksNamen und E-Mail-Adressen bauen": "<span class=\"no\">★</span><span class=\"t\"><strong>Хитрощі з текстом</strong><small>Складати імена й адреси e-mail</small></span>",
- "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>Випадковість та ігри</strong><small>Кубик, колесо фортуни, лотерея</small></span>"
+ "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>Випадковість та ігри</strong><small>Кубик, колесо фортуни, лотерея</small></span>",
+ "Wähle deine Klasse:": "Обери свій клас:",
+ "Klasse 8": "<span class=\"voll\">Клас </span>8<span class=\"prog\"></span>",
+ "Klasse 9": "<span class=\"voll\">Клас </span>9<span class=\"prog\"></span>",
+ "★ Mehr": "★ <span class=\"voll\">Більше</span>"
 }

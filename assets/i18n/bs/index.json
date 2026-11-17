@@ -40,5 +40,9 @@
  "★SVERWEISCalc schlägt nach": "<span class=\"no\">★</span><span class=\"t\"><strong>SVERWEIS (VLOOKUP)</strong><small>Calc traži umjesto tebe</small></span>",
  "★Datum & ZeitWie viele Tage bis zu den Ferien?": "<span class=\"no\">★</span><span class=\"t\"><strong>Datum i vrijeme</strong><small>Koliko dana do raspusta?</small></span>",
  "★Text-TricksNamen und E-Mail-Adressen bauen": "<span class=\"no\">★</span><span class=\"t\"><strong>Trikovi s tekstom</strong><small>Sastavljanje imena i e-mail adresa</small></span>",
- "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>Slučajnost i igre</strong><small>Kocka, točak sreće, lutrija</small></span>"
+ "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>Slučajnost i igre</strong><small>Kocka, točak sreće, lutrija</small></span>",
+ "Wähle deine Klasse:": "Izaberi svoj razred:",
+ "Klasse 8": "8<span class=\"voll\">. Razred</span><span class=\"prog\"></span>",
+ "Klasse 9": "9<span class=\"voll\">. Razred</span><span class=\"prog\"></span>",
+ "★ Mehr": "★ <span class=\"voll\">Više</span>"
 }

@@ -24,7 +24,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="assets/kurs.css?v=f397fc03b3">
 <script src="assets/i18n.js?v=1b30a9d559" data-page="index" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,fr,es,bs"></script>
-<script src="assets/kurs.js?v=4f7b2fcf93"></script>
+<script src="assets/kurs.js?v=4fe431b784"></script>
 <style>
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin-top: 10px; }
   .unit { display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--text); text-decoration: none; }
@@ -38,6 +38,39 @@
   #zusatz a.unit:hover { border-color: var(--expedition); }
   #zusatz a.unit .no { background: var(--expedition); }
   .exp { font-size: 14.5px; color: var(--expedition); margin-top: 2px; }
+  /* Reiter: Klasse 8 · Klasse 9 · ★ Mehr. Ohne JavaScript stehen alle Blöcke untereinander (auch für Suchmaschinen). */
+  .jg-tabs { --band: var(--navy); position: sticky; top: 0; z-index: 20; display: flex; align-items: flex-end; gap: 5px;
+    margin: 26px 0 0; padding: 8px 8px 0; border-radius: 14px 14px 0 0; background: var(--band);
+    box-shadow: 0 -8px 0 var(--bg); overflow-x: auto; scrollbar-width: none; }
+  :root[data-theme="dark"] .jg-tabs { --band: #1f4468; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .jg-tabs { --band: #1f4468; } }
+  .jg-tabs::-webkit-scrollbar { display: none; }
+  html:not(.js-tabs) .jg-tabs { display: none; }
+  .jg-label { flex: none; align-self: center; padding: 0 8px 8px 6px; color: #fff; font-weight: 800; font-size: 15px; white-space: nowrap; }
+  .jg-tab { flex: none; font: inherit; font-weight: 800; font-size: 16px; padding: 10px 16px 11px; border: 0; border-radius: 10px 10px 0 0;
+    cursor: pointer; background: rgba(255, 255, 255, .14); color: #fff; white-space: nowrap; }
+  .jg-tab:hover { background: rgba(255, 255, 255, .26); }
+  .jg-tab:focus-visible { outline: 3px solid #fff36b; outline-offset: -3px; }
+  .jg-tab[aria-selected="true"] { background: var(--surface); color: var(--navy); }
+  .jg-tab.mehr { color: #f0d4ff; }
+  .jg-tab.mehr[aria-selected="true"] { background: var(--surface); color: var(--expedition); }
+  .jg-tab .prog { font-size: 12.5px; font-weight: 800; margin-inline-start: 6px; padding: 1px 7px; border-radius: 999px; background: var(--basis); color: #fff; }
+  .jg-tab .prog:empty { display: none; }
+  /* Die Karte des gewählten Reiters hängt direkt am Reiter */
+  html.js-tabs .jg { margin-top: 0; border-top: 0; border-radius: 0 0 var(--radius) var(--radius); }
+  html.js-tabs .jg[hidden] { display: none; }
+  .jg { scroll-margin-top: 70px; }
+  /* Fertig = alles in „Das kann ich“ abgehakt */
+  .unit .no { position: relative; }
+  a.unit.fertig .no { background: var(--basis); }
+  a.unit.fertig .no::after { content: "✔"; position: absolute; right: -7px; top: -7px; width: 20px; height: 20px; border-radius: 50%;
+    display: grid; place-items: center; font-size: 12px; background: var(--surface); color: var(--basis); border: 2px solid var(--basis); }
+  [dir="rtl"] a.unit.fertig .no::after { right: auto; left: -7px; }
+  @media (max-width: 560px) {
+    .jg-tab { padding: 10px 15px 11px; font-size: 17px; }
+    .jg-tab .voll, .jg-label { display: none; }
+    .jg-tabs { padding: 6px 6px 0; gap: 4px; }
+  }
 </style>
 </head>
 <body>
@@ -60,35 +93,44 @@
     <p class="note">Du brauchst nur LibreOffice – kostenlos für Windows, Mac und Linux auf <a href="https://de.libreoffice.org/download/download/">libreoffice.org</a>.</p>
   </section>
 
-  <section class="card">
+  <nav class="jg-tabs" aria-label="Wähle deine Klasse">
+    <span class="jg-label t" aria-hidden="true">Wähle deine Klasse:</span>
+    <span role="tablist" aria-label="Klassen" style="display:contents">
+    <button class="jg-tab" type="button" role="tab" data-jg="k8"><span class="voll">Klasse </span>8<span class="prog"></span></button>
+    <button class="jg-tab" type="button" role="tab" data-jg="k9"><span class="voll">Klasse </span>9<span class="prog"></span></button>
+    <button class="jg-tab mehr" type="button" role="tab" data-jg="mehr">★ <span class="voll">Mehr</span></button>
+    </span>
+  </nav>
+
+  <section class="card jg" id="jg-k8" role="tabpanel" data-jg="k8">
     <h2>Klasse 8 · Grundlagen</h2>
     <div class="grid">
-      <a class="unit" href="k8/01-erste-schritte.html"><span class="no">1</span><span><strong>Erste Schritte</strong><small>Zellen, Eingeben, Formatieren</small><span class="exp">★ Schatzsuche mit Tastatur-Tricks</span></span></a>
-      <a class="unit" href="k8/02-erste-formeln.html"><span class="no">2</span><span><strong>Erste Formeln</strong><small>=, Grundrechenarten, Zellbezug statt Zahl</small><span class="exp">★ Punkt vor Strich</span></span></a>
-      <a class="unit" href="k8/03-funktionen.html"><span class="no">3</span><span><strong>Funktionen</strong><small>SUMME, MITTELWERT, MIN, MAX</small><span class="exp">★ 100 Mal würfeln</span></span></a>
-      <a class="unit" href="k8/04-ausfuellen.html"><span class="no">4</span><span><strong>Ausfüllen</strong><small>Formeln ziehen, relative Bezüge</small><span class="exp">★ Laufender Kontostand</span></span></a>
-      <a class="unit" href="k8/05-absolute-bezuege.html"><span class="no">5</span><span><strong>Absolute Bezüge</strong><small>Das $ als Anker</small><span class="exp">★ Gemischte Bezüge</span></span></a>
-      <a class="unit" href="k8/06-diagramme.html"><span class="no">6</span><span><strong>Diagramme</strong><small>Das passende Diagramm wählen</small><span class="exp">★ Lügen mit Diagrammen</span></span></a>
-      <a class="unit" href="k8/07-projekt-klassenfahrt.html"><span class="no">7–8</span><span><strong>Projekt</strong><small>Klassenfahrt planen</small><span class="exp">★ Was wäre, wenn …?</span></span></a>
+      <a class="unit" data-key="k8-01" href="k8/01-erste-schritte.html"><span class="no">1</span><span><strong>Erste Schritte</strong><small>Zellen, Eingeben, Formatieren</small><span class="exp">★ Schatzsuche mit Tastatur-Tricks</span></span></a>
+      <a class="unit" data-key="k8-02" href="k8/02-erste-formeln.html"><span class="no">2</span><span><strong>Erste Formeln</strong><small>=, Grundrechenarten, Zellbezug statt Zahl</small><span class="exp">★ Punkt vor Strich</span></span></a>
+      <a class="unit" data-key="k8-03" href="k8/03-funktionen.html"><span class="no">3</span><span><strong>Funktionen</strong><small>SUMME, MITTELWERT, MIN, MAX</small><span class="exp">★ 100 Mal würfeln</span></span></a>
+      <a class="unit" data-key="k8-04" href="k8/04-ausfuellen.html"><span class="no">4</span><span><strong>Ausfüllen</strong><small>Formeln ziehen, relative Bezüge</small><span class="exp">★ Laufender Kontostand</span></span></a>
+      <a class="unit" data-key="k8-05" href="k8/05-absolute-bezuege.html"><span class="no">5</span><span><strong>Absolute Bezüge</strong><small>Das $ als Anker</small><span class="exp">★ Gemischte Bezüge</span></span></a>
+      <a class="unit" data-key="k8-06" href="k8/06-diagramme.html"><span class="no">6</span><span><strong>Diagramme</strong><small>Das passende Diagramm wählen</small><span class="exp">★ Lügen mit Diagrammen</span></span></a>
+      <a class="unit" data-key="k8-07" href="k8/07-projekt-klassenfahrt.html"><span class="no">7–8</span><span><strong>Projekt</strong><small>Klassenfahrt planen</small><span class="exp">★ Was wäre, wenn …?</span></span></a>
     </div>
   </section>
 
-  <section class="card">
+  <section class="card jg" id="jg-k9" role="tabpanel" data-jg="k9">
     <h2>Klasse 9 · Vertiefung</h2>
     <div class="grid">
-      <a class="unit" href="k9/01-fehlerdetektiv.html"><span class="no">1</span><span class="t"><strong>Fehlerdetektiv</strong><small>Wiederholung Klasse 8</small><span class="exp">★ WENNFEHLER</span></span></a>
-      <a class="unit" href="k9/02-prozentrechnung.html"><span class="no">2</span><span class="t"><strong>Prozentrechnung</strong><small>Rabatt, Mehrwertsteuer</small><span class="exp">★ Rabatt auf Rabatt</span></span></a>
-      <a class="unit" href="k9/03-wenn.html"><span class="no">3</span><span class="t"><strong>WENN 1</strong><small>Calc stellt eine Ja/Nein-Frage</small><span class="exp">★ Quiz-Maker</span></span></a>
-      <a class="unit" href="k9/04-wenn-rechnen.html"><span class="no">4</span><span class="t"><strong>WENN 2</strong><small>Dann und Sonst rechnen</small><span class="exp">★ Rabatt ab 50 €</span></span></a>
-      <a class="unit" href="k9/05-wenn-grenzen.html"><span class="no">5</span><span class="t"><strong>WENN 3</strong><small>Grenzen in Zellen, Probe-Training</small><span class="exp">★ UND, Notenrechner</span></span></a>
-      <a class="unit" href="k9/06-bedingte-formatierung.html"><span class="no">6</span><span class="t"><strong>Bedingte Formatierung 1</strong><small>Calc färbt selbst</small><span class="exp">★ Datenbalken, Farbskala</span></span></a>
-      <a class="unit" href="k9/07-bedingte-formatierung-2.html"><span class="no">7</span><span class="t"><strong>Bedingte Formatierung 2</strong><small>Ampel, Text, Grenzen</small><span class="exp">★ Ganze Zeile färben</span></span></a>
+      <a class="unit" data-key="k9-01" href="k9/01-fehlerdetektiv.html"><span class="no">1</span><span class="t"><strong>Fehlerdetektiv</strong><small>Wiederholung Klasse 8</small><span class="exp">★ WENNFEHLER</span></span></a>
+      <a class="unit" data-key="k9-02" href="k9/02-prozentrechnung.html"><span class="no">2</span><span class="t"><strong>Prozentrechnung</strong><small>Rabatt, Mehrwertsteuer</small><span class="exp">★ Rabatt auf Rabatt</span></span></a>
+      <a class="unit" data-key="k9-03" href="k9/03-wenn.html"><span class="no">3</span><span class="t"><strong>WENN 1</strong><small>Calc stellt eine Ja/Nein-Frage</small><span class="exp">★ Quiz-Maker</span></span></a>
+      <a class="unit" data-key="k9-04" href="k9/04-wenn-rechnen.html"><span class="no">4</span><span class="t"><strong>WENN 2</strong><small>Dann und Sonst rechnen</small><span class="exp">★ Rabatt ab 50 €</span></span></a>
+      <a class="unit" data-key="k9-05" href="k9/05-wenn-grenzen.html"><span class="no">5</span><span class="t"><strong>WENN 3</strong><small>Grenzen in Zellen, Probe-Training</small><span class="exp">★ UND, Notenrechner</span></span></a>
+      <a class="unit" data-key="k9-06" href="k9/06-bedingte-formatierung.html"><span class="no">6</span><span class="t"><strong>Bedingte Formatierung 1</strong><small>Calc färbt selbst</small><span class="exp">★ Datenbalken, Farbskala</span></span></a>
+      <a class="unit" data-key="k9-07" href="k9/07-bedingte-formatierung-2.html"><span class="no">7</span><span class="t"><strong>Bedingte Formatierung 2</strong><small>Ampel, Text, Grenzen</small><span class="exp">★ Ganze Zeile färben</span></span></a>
       <a class="unit" href="k9/08-fit-fuer-die-probe.html"><span class="no">8</span><span class="t"><strong>Fit für die Probe</strong><small>Übungsprobe, Aufgaben-Würfel</small></span></a>
     </div>
   </section>
 
   <!-- Zusatzmodule: neue Module einfach als weitere Karte in .grid ergänzen (Seiten liegen in extra/) -->
-  <section class="card" id="zusatz">
+  <section class="card jg" id="zusatz" role="tabpanel" data-jg="mehr">
     <h2>Zusatzmodule · freiwillig</h2>
     <p class="lead">Für alle, die mehr wollen – nach Klasse 9 oder zwischendurch. Jedes Modul steht für sich.</p>
     <div class="grid">
@@ -110,5 +152,60 @@
   <div class="wrap t gh">Fehler gefunden oder eine Idee? → <a href="https://github.com/baumlaube/calc-course">Kurs auf GitHub</a></div>
   <div class="wrap legal"><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></div>
 </footer>
+<script>
+/* Reiter Klasse 8 · Klasse 9 · ★ Mehr. Wahl: Adresse (#k9) → zuletzt besuchte Klasse → Klasse 8.
+   Gemerkt wird nur im Browser (localStorage), nichts wird gesendet. */
+(function () {
+  const S = window.Kurs.store;
+  const tabs = [...document.querySelectorAll(".jg-tab")];
+  const panels = [...document.querySelectorAll(".jg")];
+  const ids = tabs.map((t) => t.dataset.jg);
+  document.documentElement.classList.add("js-tabs");
+
+  /* Fortschritt: Häkchen an fertigen Bausteinen, „✔ 3“ am Reiter.
+     Erst nach der Sprachhilfe, damit die Reiter-Texte noch übersetzt werden können. */
+  function progress() {
+    panels.forEach((p) => {
+      let done = 0;
+      p.querySelectorAll("[data-key]").forEach((a) => { if (S.get("calc-fertig-" + a.dataset.key) === "1") { a.classList.add("fertig"); done++; } });
+      const prog = tabs.find((t) => t.dataset.jg === p.dataset.jg).querySelector(".prog");
+      if (prog && done) { prog.textContent = "✔ " + done; prog.title = done + " ✔"; }
+    });
+  }
+  if (window.I18N && window.I18N.lang !== "de" && !window.I18N.ready) document.addEventListener("i18n-ready", progress);
+  else progress();
+
+  function show(id, push) {
+    if (!ids.includes(id)) id = "k8";
+    tabs.forEach((t) => { const on = t.dataset.jg === id; t.setAttribute("aria-selected", on); t.tabIndex = on ? 0 : -1; });
+    panels.forEach((p) => { p.hidden = p.dataset.jg !== id; });
+    S.set("calc-klasse", id);
+    if (push) history.pushState(null, "", "#" + id);
+  }
+  tabs.forEach((t, i) => {
+    t.id = "tab-" + t.dataset.jg;
+    t.setAttribute("aria-controls", panels.find((p) => p.dataset.jg === t.dataset.jg).id);
+    t.addEventListener("click", () => {
+      show(t.dataset.jg, true);
+      const bar = document.querySelector(".jg-tabs");
+      if (bar.getBoundingClientRect().top <= 1) bar.scrollIntoView({ block: "start" });
+    });
+    t.addEventListener("keydown", (e) => {
+      const rtl = document.documentElement.dir === "rtl";
+      let d = e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0;
+      if (!d) return;
+      if (rtl) d = -d;
+      e.preventDefault();
+      const n = tabs[(i + d + tabs.length) % tabs.length];
+      n.focus(); n.click();
+    });
+  });
+  panels.forEach((p) => p.setAttribute("aria-labelledby", "tab-" + p.dataset.jg));
+  const fromHash = () => { const h = location.hash.slice(1); return h === "zusatz" ? "mehr" : h; };   // alte Links ../index.html#zusatz
+  window.addEventListener("popstate", () => show(fromHash() || S.get("calc-klasse"), false));
+  window.addEventListener("hashchange", () => show(fromHash(), false));
+  show(ids.includes(fromHash()) ? fromHash() : S.get("calc-klasse"), false);
+})();
+</script>
 </body>
 </html>

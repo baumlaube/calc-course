@@ -49,5 +49,9 @@
  "★SVERWEISCalc schlägt nach": "<span class=\"no\">★</span><span class=\"t\"><strong>SVERWEIS (VLOOKUP)</strong><small>Calc looks it up</small></span>",
  "★Datum & ZeitWie viele Tage bis zu den Ferien?": "<span class=\"no\">★</span><span class=\"t\"><strong>Date &amp; time</strong><small>How many days until the holidays?</small></span>",
  "★Text-TricksNamen und E-Mail-Adressen bauen": "<span class=\"no\">★</span><span class=\"t\"><strong>Text tricks</strong><small>Build names and e-mail addresses</small></span>",
- "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>Chance &amp; games</strong><small>Dice, wheel of fortune, lottery</small></span>"
+ "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>Chance &amp; games</strong><small>Dice, wheel of fortune, lottery</small></span>",
+ "Wähle deine Klasse:": "Choose your grade:",
+ "Klasse 8": "<span class=\"voll\">Grade </span>8<span class=\"prog\"></span>",
+ "Klasse 9": "<span class=\"voll\">Grade </span>9<span class=\"prog\"></span>",
+ "★ Mehr": "★ <span class=\"voll\">More</span>"
 }

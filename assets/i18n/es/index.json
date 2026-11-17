@@ -40,5 +40,9 @@
  "★SVERWEISCalc schlägt nach": "<span class=\"no\">★</span><span class=\"t\"><strong>SVERWEIS (BUSCARV)</strong><small>Calc lo busca por ti</small></span>",
  "★Datum & ZeitWie viele Tage bis zu den Ferien?": "<span class=\"no\">★</span><span class=\"t\"><strong>Fecha y hora</strong><small>¿Cuántos días faltan para las vacaciones?</small></span>",
  "★Text-TricksNamen und E-Mail-Adressen bauen": "<span class=\"no\">★</span><span class=\"t\"><strong>Trucos de texto</strong><small>Construir nombres y direcciones de correo</small></span>",
- "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>Azar y juegos</strong><small>Dado, ruleta de la suerte, lotería</small></span>"
+ "★Zufall & SpieleWürfel, Glücksrad, Lotto": "<span class=\"no\">★</span><span class=\"t\"><strong>Azar y juegos</strong><small>Dado, ruleta de la suerte, lotería</small></span>",
+ "Wähle deine Klasse:": "Elige tu curso:",
+ "Klasse 8": "<span class=\"voll\">Curso </span>8<span class=\"prog\"></span>",
+ "Klasse 9": "<span class=\"voll\">Curso </span>9<span class=\"prog\"></span>",
+ "★ Mehr": "★ <span class=\"voll\">Más</span>"
 }
