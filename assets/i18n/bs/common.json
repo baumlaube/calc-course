@@ -6,7 +6,6 @@
  "✔ Richtig!": "✔ Tačno!",
  "✘ Nicht ganz.": "✘ Nije baš.",
  "🏆 {} von {} – stark!": "🏆 {} od {} – super!",
- "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} od {} tačno. Pročitaj još jednom objašnjenja.",
  "<>ja": "<>ja",
  "Hier tippen und Enter drücken": "Ovdje upiši i pritisni Enter",
  "← leer!": "← prazno!",
@@ -201,5 +200,13 @@
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (kvadratić za popunjavanje): povuci da popuniš",
  "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 je tačno! Sada povuci kvadratić za popunjavanje (<strong>Ausfüllkästchen</strong>) od B2 nadolje do B3.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Ovdje ne možeš povlačiti. Prvo izaberi odgovor. Onda ti tabela pokaže šta se desi.",
- "Die Spalte ist zu schmal.": "Kolona je preuska."
+ "Die Spalte ist zu schmal.": "Kolona je preuska.",
+ "Prüfen": "Provjeri",
+ "Nochmal prüfen": "Provjeri ponovo",
+ "Frage {} fehlt noch.": "Pitanje {} još nema odgovor.",
+ "Diese Fragen fehlen noch: {}": "Ova pitanja još nemaju odgovor: {}",
+ "Überleg noch einmal und wähle eine andere Antwort.": "Razmisli još jednom i izaberi drugi odgovor.",
+ "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Sada je sve tačno. Pri prvoj provjeri: {} od {}.",
+ "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} od {} tačno. Promijeni označene odgovore i provjeri ponovo.",
+ "Du kannst es verbessern oder weitergehen.": "Možeš ispraviti ili ići dalje."
 }

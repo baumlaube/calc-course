@@ -91,7 +91,7 @@
  "gelb": "زرد",
  "Nein": "Nein (نه)",
  "Was kannst du schon sicher? Was musst du noch üben? Das findest du hier heraus. Du löst gemischte Aufgaben wie in der Probe. Zum Schluss machst du eine Übungsprobe in Calc.": "چه چیزهایی را مطمئن بلدی؟ چه چیزهایی را هنوز باید تمرین کنی؟ اینجا می‌فهمی. تمرین‌های مختلف را مثل امتحان حل می‌کنی. در پایان یک امتحان آزمایشی در Calc می‌دهی.",
- "Sieben Aufgaben, eine zu jedem Baustein. Pro Aufgabe hast du einen Versuch. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "هفت تمرین، یکی برای هر درس. برای هر تمرین <strong>یک</strong> فرصت داری. در پایان می‌بینی چه چیزی را باید مرور کنی. نمره‌ای در کار نیست.",
+ "Sieben Aufgaben, eine zu jedem Baustein. Es zählt dein erster Versuch. Verbessern darfst du danach trotzdem. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "هفت تمرین، یکی برای هر درس. فقط تلاش <strong>اول</strong> تو حساب می‌شود. ولی بعدش باز هم می‌توانی درستش کنی. در پایان می‌بینی چه چیزی را باید مرور کنی. نمره‌ای در کار نیست.",
  "D5 zeigt #DIV/0!. Was ist los?": "D5 نشان می‌دهد <code>#DIV/0!</code>. مشکل چیست؟",
  "Calc rechnet mit einem Wort.": "Calc با یک کلمه حساب می‌کند.",
  "Es wird durch 0 oder durch eine leere Zelle geteilt.": "بر ۰ یا بر یک سلول خالی تقسیم می‌شود.",

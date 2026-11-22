@@ -2,7 +2,6 @@
  "✔ Richtig!": "✔ Saktë!",
  "✘ Nicht ganz.": "✘ Jo plotësisht.",
  "🏆 {} von {} – stark!": "🏆 {} nga {} – shkëlqyeshëm!",
- "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} nga {} të sakta. Lexoji edhe një herë shpjegimet.",
  "<>ja": "<>ja",
  "Hier tippen und Enter drücken": "Shkruaj këtu dhe shtyp Enter",
  "← leer!": "← bosh!",
@@ -201,5 +200,13 @@
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (doreza e plotësimit): tërhiq për të plotësuar",
  "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 është në rregull! Tani tërhiq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) nga B2 poshtë deri në B3.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Këtu nuk mund të tërheqësh. Zgjidh fillimisht një përgjigje. Pastaj tabela të tregon çfarë ndodh.",
- "Die Spalte ist zu schmal.": "Kolona është shumë e ngushtë."
+ "Die Spalte ist zu schmal.": "Kolona është shumë e ngushtë.",
+ "Prüfen": "Kontrollo",
+ "Nochmal prüfen": "Kontrollo përsëri",
+ "Frage {} fehlt noch.": "Pyetja {} ende nuk ka përgjigje.",
+ "Diese Fragen fehlen noch: {}": "Këto pyetje ende nuk kanë përgjigje: {}",
+ "Überleg noch einmal und wähle eine andere Antwort.": "Mendohu edhe një herë dhe zgjidh një përgjigje tjetër.",
+ "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Tani gjithçka është në rregull. Në kontrollin e parë: {} nga {}.",
+ "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} nga {} të sakta. Ndrysho përgjigjet e shënuara dhe kontrollo përsëri.",
+ "Du kannst es verbessern oder weitergehen.": "Mund ta korrigjosh ose të vazhdosh."
 }

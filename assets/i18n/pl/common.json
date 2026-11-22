@@ -2,7 +2,6 @@
  "✔ Richtig!": "✔ Dobrze!",
  "✘ Nicht ganz.": "✘ Nie do końca.",
  "🏆 {} von {} – stark!": "🏆 {} z {} – super!",
- "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} z {} dobrze. Przeczytaj jeszcze raz wyjaśnienia.",
  "<>ja": "<>ja",
  "Hier tippen und Enter drücken": "Wpisz tutaj i naciśnij Enter",
  "← leer!": "← puste!",
@@ -201,5 +200,13 @@
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (uchwyt wypełniania): przeciągnij, aby wypełnić",
  "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 jest dobrze! Teraz przeciągnij <strong>Ausfüllkästchen</strong> (uchwyt wypełniania) od B2 w dół do B3.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Tutaj nie możesz przeciągać. Najpierw wybierz odpowiedź. Potem tabela pokaże ci, co się stanie.",
- "Die Spalte ist zu schmal.": "Kolumna jest za wąska."
+ "Die Spalte ist zu schmal.": "Kolumna jest za wąska.",
+ "Prüfen": "Sprawdź",
+ "Nochmal prüfen": "Sprawdź jeszcze raz",
+ "Frage {} fehlt noch.": "Brakuje jeszcze odpowiedzi na pytanie {}.",
+ "Diese Fragen fehlen noch: {}": "Brakuje jeszcze odpowiedzi na te pytania: {}",
+ "Überleg noch einmal und wähle eine andere Antwort.": "Zastanów się jeszcze raz i wybierz inną odpowiedź.",
+ "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Teraz wszystko się zgadza. Przy pierwszym sprawdzeniu: {} z {}.",
+ "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} z {} dobrze. Zmień zaznaczone odpowiedzi i sprawdź jeszcze raz.",
+ "Du kannst es verbessern oder weitergehen.": "Możesz poprawić albo iść dalej."
 }

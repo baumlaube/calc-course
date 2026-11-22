@@ -91,7 +91,7 @@
  "gelb": "أصفر",
  "Nein": "Nein (لا)",
  "Was kannst du schon sicher? Was musst du noch üben? Das findest du hier heraus. Du löst gemischte Aufgaben wie in der Probe. Zum Schluss machst du eine Übungsprobe in Calc.": "ما الذي تتقنه بثقة؟ وما الذي يجب أن تتدرب عليه بعد؟ هنا تعرف ذلك. تحل مهامًا متنوعة كما في الاختبار. وفي النهاية تقوم باختبار تجريبي في Calc.",
- "Sieben Aufgaben, eine zu jedem Baustein. Pro Aufgabe hast du einen Versuch. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "سبع مهام، واحدة لكل وحدة. لكل مهمة لديك محاولة <strong>واحدة</strong>. في النهاية ترى ما يجب أن تراجعه. لا توجد علامة.",
+ "Sieben Aufgaben, eine zu jedem Baustein. Es zählt dein erster Versuch. Verbessern darfst du danach trotzdem. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "سبع مهام، واحدة لكل وحدة. تُحسب محاولتك <strong>الأولى</strong>. لكن يمكنك التصحيح بعدها. في النهاية ترى ما يجب أن تراجعه. لا توجد علامة.",
  "D5 zeigt #DIV/0!. Was ist los?": "D5 يُظهر <code>#DIV/0!</code>. ما المشكلة؟",
  "Calc rechnet mit einem Wort.": "Calc يحسب بكلمة.",
  "Es wird durch 0 oder durch eine leere Zelle geteilt.": "القسمة على 0 أو على خلية فارغة.",

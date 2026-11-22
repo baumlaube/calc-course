@@ -26,7 +26,7 @@
  "So setzt du das $": "Cách đặt dấu $",
  "Klick in der Formel auf B2.": "Trong công thức, bấm vào <code>B2</code>.",
  "Drück Umschalt + F4.": "Nhấn <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd>.",
- "Auf manchen Laptops: zusätzlich Fn drücken.": "Trên một số máy tính xách tay: nhấn thêm <kbd>Fn</kbd>.",
+ "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "Trên một số máy tính xách tay: nhấn thêm <kbd>Fn</kbd>. Bạn cũng có thể tự gõ dấu <code>$</code>: <kbd>Umschalt</kbd> (Shift) + <kbd>4</kbd>.",
  "Profi-Trick: ein Name statt $. Klick B2 an, tipp oben links ins Namenfeld Lohn und drück Enter. Jetzt geht auch =B5*Lohn. Ein Name bleibt beim Ausfüllen immer fest.": "<strong>Mẹo của dân chuyên: dùng tên thay vì $.</strong> Bấm vào B2, gõ <code>Lohn</code> (tiền công) vào <strong>Namenfeld</strong> (hộp tên) ở góc trên bên trái rồi nhấn <kbd>Enter</kbd>. Bây giờ <code>=B5*Lohn</code> cũng được. Tên luôn giữ cố định khi điền.",
  "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>Video ngắn (sắp có):</strong> Dấu $ trong 30 giây",
  "Klick auf die gelbe Zelle C5 und tippe oben in die Eingabezeile eine Formel, die du nach unten ziehen kannst. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen bis C9.": "Bấm vào ô màu vàng C5 rồi gõ vào dòng nhập ở trên một công thức mà bạn có thể kéo xuống dưới. Nhấn <kbd>Enter</kbd> để xác nhận. Rồi kéo <strong>Ausfüllkästchen</strong> (ô điền tự động) tới C9.",

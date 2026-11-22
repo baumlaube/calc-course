@@ -91,7 +91,7 @@
  "gelb": "jaune",
  "Nein": "Nein (non)",
  "Was kannst du schon sicher? Was musst du noch üben? Das findest du hier heraus. Du löst gemischte Aufgaben wie in der Probe. Zum Schluss machst du eine Übungsprobe in Calc.": "Qu’est-ce que tu sais déjà bien faire ? Qu’est-ce que tu dois encore t’entraîner à faire ? Tu le découvres ici. Tu résous des exercices mélangés comme à l’interro. À la fin, tu fais une interro d’entraînement dans Calc.",
- "Sieben Aufgaben, eine zu jedem Baustein. Pro Aufgabe hast du einen Versuch. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Sept exercices, un pour chaque chapitre. Pour chaque exercice, tu as <strong>un seul</strong> essai. À la fin, tu vois ce que tu dois revoir. Il n’y a pas de note.",
+ "Sieben Aufgaben, eine zu jedem Baustein. Es zählt dein erster Versuch. Verbessern darfst du danach trotzdem. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Sept exercices, un pour chaque chapitre. C’est ton <strong>premier</strong> essai qui compte. Mais tu peux quand même corriger après. À la fin, tu vois ce que tu dois revoir. Il n’y a pas de note.",
  "D5 zeigt #DIV/0!. Was ist los?": "D5 affiche <code>#DIV/0!</code>. Qu’est-ce qui ne va pas ?",
  "Calc rechnet mit einem Wort.": "Calc calcule avec un mot.",
  "Es wird durch 0 oder durch eine leere Zelle geteilt.": "On divise par 0 ou par une cellule vide.",

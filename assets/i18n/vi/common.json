@@ -2,7 +2,6 @@
  "✔ Richtig!": "✔ Đúng rồi!",
  "✘ Nicht ganz.": "✘ Chưa đúng hẳn.",
  "🏆 {} von {} – stark!": "🏆 {} trên {} – giỏi lắm!",
- "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "Đúng {} trên {}. Hãy đọc lại phần giải thích.",
  "<>ja": "<>ja",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Dùng ngón tay kéo ô vuông nhỏ ở góc dưới bên phải của ô. Hoặc bấm nút <strong>■</strong>. Trong LibreOffice Calc, bạn kéo <strong>Ausfüllkästchen</strong> (ô điền tự động).",
  "Hier tippen und Enter drücken": "Gõ vào đây rồi nhấn Enter",
@@ -201,5 +200,13 @@
  "4, 5 und 6": "4, 5 và 6",
  "5 und 6": "5 và 6",
  "1, 2 und 3": "1, 2 và 3",
- "Die Spalte ist zu schmal.": "Cột quá hẹp."
+ "Die Spalte ist zu schmal.": "Cột quá hẹp.",
+ "Prüfen": "Kiểm tra",
+ "Nochmal prüfen": "Kiểm tra lại",
+ "Frage {} fehlt noch.": "Câu {} chưa được trả lời.",
+ "Diese Fragen fehlen noch: {}": "Các câu này chưa được trả lời: {}",
+ "Überleg noch einmal und wähle eine andere Antwort.": "Hãy nghĩ lại và chọn một đáp án khác.",
+ "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Giờ thì tất cả đều đúng. Lần kiểm tra đầu tiên: {} trên {}.",
+ "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "Đúng {} trên {}. Hãy đổi các đáp án được đánh dấu và kiểm tra lại.",
+ "Du kannst es verbessern oder weitergehen.": "Bạn có thể sửa lại hoặc đi tiếp."
 }

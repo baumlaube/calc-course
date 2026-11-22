@@ -2,7 +2,6 @@
  "✔ Richtig!": "✔ Corect!",
  "✘ Nicht ganz.": "✘ Nu chiar.",
  "🏆 {} von {} – stark!": "🏆 {} din {} – super!",
- "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} din {} corecte. Citește din nou explicațiile.",
  "<>ja": "<>ja",
  "Hier tippen und Enter drücken": "Scrie aici și apasă Enter",
  "← leer!": "← gol!",
@@ -201,5 +200,13 @@
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (mânerul de umplere): trage ca să umpli",
  "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 e corect! Acum trage de <strong>Ausfüllkästchen</strong> (mânerul de umplere) de la B2 în jos până la B3.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Aici nu poți trage. Alege întâi un răspuns. Apoi tabelul îți arată ce se întâmplă.",
- "Die Spalte ist zu schmal.": "Coloana este prea îngustă."
+ "Die Spalte ist zu schmal.": "Coloana este prea îngustă.",
+ "Prüfen": "Verifică",
+ "Nochmal prüfen": "Verifică din nou",
+ "Frage {} fehlt noch.": "Întrebarea {} nu are încă răspuns.",
+ "Diese Fragen fehlen noch: {}": "Aceste întrebări nu au încă răspuns: {}",
+ "Überleg noch einmal und wähle eine andere Antwort.": "Mai gândește-te o dată și alege alt răspuns.",
+ "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Acum totul e corect. La prima verificare: {} din {}.",
+ "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} din {} corecte. Schimbă răspunsurile marcate și verifică din nou.",
+ "Du kannst es verbessern oder weitergehen.": "Poți să corectezi sau să mergi mai departe."
 }

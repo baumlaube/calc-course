@@ -21,7 +21,7 @@
  "So setzt du das $": "How to set the $",
  "Klick in der Formel auf B2.": "In the formula, click on <code>B2</code>.",
  "Drück Umschalt + F4.": "Press <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd>.",
- "Auf manchen Laptops: zusätzlich Fn drücken.": "On some laptops: also press <kbd>Fn</kbd>.",
+ "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "On some laptops: also press <kbd>Fn</kbd>. You can also type the <code>$</code> yourself: <kbd>Umschalt</kbd> (Shift) + <kbd>4</kbd>.",
  "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>Short video (coming soon):</strong> The $ in 30 seconds",
  "Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Alles Weitere steht in der Datei. Die Spalte Kontrolle zeigt dir sofort, ob du richtig liegst.": "Download the exercise file and open it with LibreOffice Calc. Everything else is in the file. The column <strong>Kontrolle</strong> (check) shows you right away if you are correct.",
  "ODS Übungsdateik8-05-absolute-bezuege.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (exercise file)<small>k8-05-absolute-bezuege.ods</small></span>",

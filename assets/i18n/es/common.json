@@ -2,7 +2,6 @@
  "✔ Richtig!": "✔ ¡Correcto!",
  "✘ Nicht ganz.": "✘ No del todo.",
  "🏆 {} von {} – stark!": "🏆 {} de {} – ¡genial!",
- "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} de {} correctas. Vuelve a leer las explicaciones.",
  "<>ja": "<>ja",
  "Hier tippen und Enter drücken": "Escribe aquí y pulsa Intro",
  "← leer!": "← ¡vacía!",
@@ -201,5 +200,13 @@
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (controlador de relleno): arrastra para rellenar",
  "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ ¡B2 está bien! Ahora arrastra el <strong>Ausfüllkästchen</strong> (controlador de relleno) de B2 hacia abajo hasta B3.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Aquí no puedes arrastrar. Elige primero una respuesta. Después la tabla te muestra lo que pasa.",
- "Die Spalte ist zu schmal.": "La columna es demasiado estrecha."
+ "Die Spalte ist zu schmal.": "La columna es demasiado estrecha.",
+ "Prüfen": "Comprobar",
+ "Nochmal prüfen": "Comprobar otra vez",
+ "Frage {} fehlt noch.": "Falta todavía la pregunta {}.",
+ "Diese Fragen fehlen noch: {}": "Faltan todavía estas preguntas: {}",
+ "Überleg noch einmal und wähle eine andere Antwort.": "Piénsalo otra vez y elige otra respuesta.",
+ "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Ahora todo está bien. En la primera comprobación: {} de {}.",
+ "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} de {} correctas. Cambia las respuestas marcadas y comprueba otra vez.",
+ "Du kannst es verbessern oder weitergehen.": "Puedes corregirlo o seguir."
 }

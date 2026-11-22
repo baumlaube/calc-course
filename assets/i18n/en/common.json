@@ -2,7 +2,6 @@
  "✔ Richtig!": "✔ Correct!",
  "✘ Nicht ganz.": "✘ Not quite.",
  "🏆 {} von {} – stark!": "🏆 {} out of {} – great!",
- "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} out of {} correct. Read the explanations again.",
  "Hier tippen und Enter drücken": "Type here and press Enter",
  "← leer!": "← empty!",
  "Sprachhilfe: Die Calc-Begriffe bleiben deutsch, so wie in LibreOffice an der Schule.": "🌐 Language help: The Calc words stay in <strong>German</strong> – just like LibreOffice at school. The English word is in brackets.",
@@ -201,5 +200,13 @@
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (fill handle): drag to fill",
  "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 is correct! Now drag the <strong>Ausfüllkästchen</strong> (fill handle) from B2 down to B3.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "You can't drag here. Choose an answer first. Then the table shows you what happens.",
- "Die Spalte ist zu schmal.": "The column is too narrow."
+ "Die Spalte ist zu schmal.": "The column is too narrow.",
+ "Prüfen": "Check",
+ "Nochmal prüfen": "Check again",
+ "Frage {} fehlt noch.": "Question {} is still missing.",
+ "Diese Fragen fehlen noch: {}": "These questions are still missing: {}",
+ "Überleg noch einmal und wähle eine andere Antwort.": "Think again and choose another answer.",
+ "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Now everything is right. At the first check: {} out of {}.",
+ "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} out of {} correct. Change the marked answers and check again.",
+ "Du kannst es verbessern oder weitergehen.": "You can correct it or go on."
 }

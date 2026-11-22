@@ -91,7 +91,7 @@
  "gelb": "amarillo",
  "Nein": "Nein (no)",
  "Was kannst du schon sicher? Was musst du noch üben? Das findest du hier heraus. Du löst gemischte Aufgaben wie in der Probe. Zum Schluss machst du eine Übungsprobe in Calc.": "¿Qué sabes hacer ya con seguridad? ¿Qué tienes que practicar todavía? Aquí lo descubres. Resuelves tareas mezcladas como en el examen. Al final haces un examen de práctica en Calc.",
- "Sieben Aufgaben, eine zu jedem Baustein. Pro Aufgabe hast du einen Versuch. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Siete tareas, una para cada unidad. En cada tarea tienes <strong>un</strong> intento. Al final ves lo que debes repasar. No hay nota.",
+ "Sieben Aufgaben, eine zu jedem Baustein. Es zählt dein erster Versuch. Verbessern darfst du danach trotzdem. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Siete tareas, una para cada unidad. Cuenta tu <strong>primer</strong> intento. Pero después puedes corregir igualmente. Al final ves lo que debes repasar. No hay nota.",
  "D5 zeigt #DIV/0!. Was ist los?": "D5 muestra <code>#DIV/0!</code>. ¿Qué pasa?",
  "Calc rechnet mit einem Wort.": "Calc calcula con una palabra.",
  "Es wird durch 0 oder durch eine leere Zelle geteilt.": "Se divide entre 0 o entre una celda vacía.",

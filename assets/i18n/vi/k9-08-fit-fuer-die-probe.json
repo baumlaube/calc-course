@@ -91,7 +91,7 @@
  "gelb": "vàng",
  "Nein": "Nein (không)",
  "Was kannst du schon sicher? Was musst du noch üben? Das findest du hier heraus. Du löst gemischte Aufgaben wie in der Probe. Zum Schluss machst du eine Übungsprobe in Calc.": "Bạn đã làm chắc chắn được những gì? Còn phải luyện những gì? Ở đây bạn sẽ biết. Bạn giải các bài tổng hợp giống như trong bài kiểm tra. Cuối cùng bạn làm một bài kiểm tra thử trong Calc.",
- "Sieben Aufgaben, eine zu jedem Baustein. Pro Aufgabe hast du einen Versuch. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Bảy bài, mỗi bài cho một phần đã học. Mỗi bài bạn có <strong>một</strong> lần thử. Cuối cùng bạn thấy mình cần ôn lại gì. Không có điểm.",
+ "Sieben Aufgaben, eine zu jedem Baustein. Es zählt dein erster Versuch. Verbessern darfst du danach trotzdem. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Bảy bài, mỗi bài cho một phần đã học. Chỉ tính lần thử <strong>đầu tiên</strong> của bạn. Nhưng sau đó bạn vẫn được sửa. Cuối cùng bạn thấy mình cần ôn lại gì. Không có điểm.",
  "D5 zeigt #DIV/0!. Was ist los?": "D5 hiện <code>#DIV/0!</code>. Có chuyện gì?",
  "Calc rechnet mit einem Wort.": "Calc tính với một từ.",
  "Es wird durch 0 oder durch eine leere Zelle geteilt.": "Đang chia cho 0 hoặc cho một ô trống.",

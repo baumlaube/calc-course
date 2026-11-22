@@ -2,7 +2,6 @@
  "✔ Richtig!": "✔ Правильно!",
  "✘ Nicht ganz.": "✘ Не совсем.",
  "🏆 {} von {} – stark!": "🏆 {} из {} – отлично!",
- "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} из {} правильно. Прочитай объяснения ещё раз.",
  "<>ja": "<>ja",
  "Hier tippen und Enter drücken": "Пиши здесь и нажми Enter",
  "← leer!": "← пусто!",
@@ -201,5 +200,13 @@
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (маркер заполнения): тяни, чтобы заполнить",
  "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 верно! Теперь потяни за <strong>Ausfüllkästchen</strong> (маркер заполнения) от B2 вниз до B3.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Здесь нельзя тянуть. Сначала выбери ответ. Потом таблица покажет тебе, что произойдёт.",
- "Die Spalte ist zu schmal.": "Столбец слишком узкий."
+ "Die Spalte ist zu schmal.": "Столбец слишком узкий.",
+ "Prüfen": "Проверить",
+ "Nochmal prüfen": "Проверить ещё раз",
+ "Frage {} fehlt noch.": "Вопрос {} ещё без ответа.",
+ "Diese Fragen fehlen noch: {}": "Эти вопросы ещё без ответа: {}",
+ "Überleg noch einmal und wähle eine andere Antwort.": "Подумай ещё раз и выбери другой ответ.",
+ "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Теперь всё правильно. При первой проверке: {} из {}.",
+ "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} из {} правильно. Измени отмеченные ответы и проверь ещё раз.",
+ "Du kannst es verbessern oder weitergehen.": "Ты можешь исправить или идти дальше."
 }

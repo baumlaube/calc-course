@@ -2,7 +2,6 @@
  "✔ Richtig!": "✔ صحيح!",
  "✘ Nicht ganz.": "✘ ليس تمامًا.",
  "🏆 {} von {} – stark!": "🏆 {} من {} – رائع!",
- "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} من {} صحيح. اقرأ الشروح مرة أخرى.",
  "<>ja": "<>ja",
  "Hier tippen und Enter drücken": "اكتب هنا واضغط Enter",
  "← leer!": "← فارغة!",
@@ -201,5 +200,13 @@
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (مقبض التعبئة): اسحب للتعبئة",
  "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 صحيحة! الآن اسحب <strong>Ausfüllkästchen</strong> (مقبض التعبئة) من B2 إلى الأسفل حتى B3.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "لا يمكنك السحب هنا. اختر إجابة أولًا. بعد ذلك يُريك الجدول ماذا يحدث.",
- "Die Spalte ist zu schmal.": "العمود ضيق جدًا."
+ "Die Spalte ist zu schmal.": "العمود ضيق جدًا.",
+ "Prüfen": "تحقّق",
+ "Nochmal prüfen": "تحقّق مرة أخرى",
+ "Frage {} fehlt noch.": "السؤال {} بلا إجابة بعد.",
+ "Diese Fragen fehlen noch: {}": "هذه الأسئلة بلا إجابة بعد: {}",
+ "Überleg noch einmal und wähle eine andere Antwort.": "فكّر مرة أخرى واختر إجابة أخرى.",
+ "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ الآن كل شيء صحيح. في التحقّق الأول: {} من {}.",
+ "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} من {} صحيح. غيّر الإجابات المعلَّمة وتحقّق مرة أخرى.",
+ "Du kannst es verbessern oder weitergehen.": "يمكنك أن تصحّح أو تتابع."
 }

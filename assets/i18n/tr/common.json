@@ -6,7 +6,6 @@
  "✔ Richtig!": "✔ Doğru!",
  "✘ Nicht ganz.": "✘ Tam olmadı.",
  "🏆 {} von {} – stark!": "🏆 {} sorudan {} – harika!",
- "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} sorudan {} doğru. Açıklamaları bir daha oku.",
  "<>ja": "<>ja",
  "Hier tippen und Enter drücken": "Buraya yaz ve Enter'a bas",
  "← leer!": "← boş!",
@@ -201,5 +200,13 @@
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (doldurma tutamacı): doldurmak için sürükle",
  "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 doğru! Şimdi <strong>Ausfüllkästchen</strong>'i (doldurma tutamacı) B2'den aşağı B3'e kadar sürükle.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Burada sürükleyemezsin. Önce bir cevap seç. Sonra tablo sana ne olduğunu gösterir.",
- "Die Spalte ist zu schmal.": "Sütun çok dar."
+ "Die Spalte ist zu schmal.": "Sütun çok dar.",
+ "Prüfen": "Kontrol et",
+ "Nochmal prüfen": "Tekrar kontrol et",
+ "Frage {} fehlt noch.": "{}. soru henüz cevaplanmadı.",
+ "Diese Fragen fehlen noch: {}": "Bu sorular henüz cevaplanmadı: {}",
+ "Überleg noch einmal und wähle eine andere Antwort.": "Bir daha düşün ve başka bir cevap seç.",
+ "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Şimdi hepsi doğru. İlk kontrolde: {} / {} doğru.",
+ "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "Doğru: {} / {}. İşaretli cevapları değiştir ve tekrar kontrol et.",
+ "Du kannst es verbessern oder weitergehen.": "Düzeltebilir ya da devam edebilirsin."
 }

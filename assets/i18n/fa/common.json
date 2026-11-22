@@ -2,7 +2,6 @@
  "✔ Richtig!": "✔ درست است!",
  "✘ Nicht ganz.": "✘ کاملاً درست نیست.",
  "🏆 {} von {} – stark!": "🏆 {} از {} – عالی!",
- "{} von {} richtig. Lies dir die Erklärungen noch einmal durch.": "{} از {} درست. توضیحات را یک بار دیگر بخوان.",
  "<>ja": "<>ja",
  "Hier tippen und Enter drücken": "اینجا بنویس و Enter را بزن",
  "← leer!": "← خالی!",
@@ -201,5 +200,13 @@
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (دستگیرهٔ پر کردن): برای پر کردن بکش",
  "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 درست است! حالا <strong>Ausfüllkästchen</strong> (دستگیرهٔ پر کردن) را از B2 به پایین تا B3 بکش.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "اینجا نمی‌توانی بکشی. اول یک جواب انتخاب کن. بعد جدول به تو نشان می‌دهد چه اتفاقی می‌افتد.",
- "Die Spalte ist zu schmal.": "ستون خیلی باریک است."
+ "Die Spalte ist zu schmal.": "ستون خیلی باریک است.",
+ "Prüfen": "بررسی",
+ "Nochmal prüfen": "دوباره بررسی کن",
+ "Frage {} fehlt noch.": "سؤال {} هنوز جواب ندارد.",
+ "Diese Fragen fehlen noch: {}": "این سؤال‌ها هنوز جواب ندارند: {}",
+ "Überleg noch einmal und wähle eine andere Antwort.": "یک بار دیگر فکر کن و جواب دیگری انتخاب کن.",
+ "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ حالا همه درست است. در بررسی اول: {} از {}.",
+ "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} از {} درست. جواب‌های علامت‌خورده را عوض کن و دوباره بررسی کن.",
+ "Du kannst es verbessern oder weitergehen.": "می‌توانی درستش کنی یا ادامه بدهی."
 }

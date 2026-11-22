@@ -91,7 +91,7 @@
  "gelb": "yellow",
  "Nein": "Nein (no)",
  "Was kannst du schon sicher? Was musst du noch üben? Das findest du hier heraus. Du löst gemischte Aufgaben wie in der Probe. Zum Schluss machst du eine Übungsprobe in Calc.": "What can you already do well? What do you still need to practise? You find out here. You solve mixed tasks like in the test. At the end you do a practice test in Calc.",
- "Sieben Aufgaben, eine zu jedem Baustein. Pro Aufgabe hast du einen Versuch. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Seven tasks, one for each unit. You have <strong>one</strong> try per task. At the end you see what you should revise. There is no grade.",
+ "Sieben Aufgaben, eine zu jedem Baustein. Es zählt dein erster Versuch. Verbessern darfst du danach trotzdem. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Seven tasks, one for each unit. Your <strong>first</strong> try counts. You may still correct it afterwards. At the end you see what you should revise. There is no grade.",
  "D5 zeigt #DIV/0!. Was ist los?": "D5 shows <code>#DIV/0!</code>. What’s wrong?",
  "Calc rechnet mit einem Wort.": "Calc is calculating with a word.",
  "Es wird durch 0 oder durch eine leere Zelle geteilt.": "Something is divided by 0 or by an empty cell.",

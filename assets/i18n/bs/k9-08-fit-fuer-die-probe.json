@@ -90,7 +90,7 @@
  "gelb": "žuta",
  "Nein": "Nein (ne)",
  "Was kannst du schon sicher? Was musst du noch üben? Das findest du hier heraus. Du löst gemischte Aufgaben wie in der Probe. Zum Schluss machst du eine Übungsprobe in Calc.": "Šta već sigurno znaš? Šta još trebaš vježbati? To ovdje saznaješ. Rješavaš miješane zadatke kao na testu. Na kraju radiš probni test u Calcu.",
- "Sieben Aufgaben, eine zu jedem Baustein. Pro Aufgabe hast du einen Versuch. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Sedam zadataka, po jedan za svaku lekciju. Za svaki zadatak imaš <strong>jedan</strong> pokušaj. Na kraju vidiš šta trebaš ponoviti. Nema ocjene.",
+ "Sieben Aufgaben, eine zu jedem Baustein. Es zählt dein erster Versuch. Verbessern darfst du danach trotzdem. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Sedam zadataka, po jedan za svaku lekciju. Računa se tvoj <strong>prvi</strong> pokušaj. Ali poslije ipak smiješ ispraviti. Na kraju vidiš šta trebaš ponoviti. Nema ocjene.",
  "D5 zeigt #DIV/0!. Was ist los?": "D5 pokazuje <code>#DIV/0!</code>. Šta nije u redu?",
  "Calc rechnet mit einem Wort.": "Calc računa s riječju.",
  "Es wird durch 0 oder durch eine leere Zelle geteilt.": "Dijeli se s 0 ili s praznom ćelijom.",

@@ -20,7 +20,7 @@
  "So setzt du das $": "هكذا تضع الـ $",
  "Klick in der Formel auf B2.": "في الصيغة، انقر على <code>B2</code>.",
  "Drück Umschalt + F4.": "اضغط <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd>.",
- "Auf manchen Laptops: zusätzlich Fn drücken.": "في بعض الحواسيب المحمولة: اضغط أيضًا <kbd>Fn</kbd>.",
+ "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "في بعض الحواسيب المحمولة: اضغط أيضًا <kbd>Fn</kbd>. يمكنك أيضًا أن تكتب <code>$</code> بنفسك: <kbd>Umschalt</kbd> (Shift) + <kbd>4</kbd>.",
  "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>فيديو قصير (قريبًا):</strong> الـ $ في 30 ثانية",
  "Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Alles Weitere steht in der Datei. Die Spalte Kontrolle zeigt dir sofort, ob du richtig liegst.": "نزّل ملف التمارين وافتحه في LibreOffice Calc. كل شيء آخر موجود في الملف. العمود <strong>Kontrolle</strong> (تحقّق) يُظهر لك فورًا إن كان حلّك صحيحًا.",
  "ODS Übungsdateik8-05-absolute-bezuege.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (ملف التمارين)<small>k8-05-absolute-bezuege.ods</small></span>",

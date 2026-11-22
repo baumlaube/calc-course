@@ -20,7 +20,7 @@
  "So setzt du das $": "$ nasıl konur",
  "Klick in der Formel auf B2.": "Formülde <code>B2</code>'ye tıkla.",
  "Drück Umschalt + F4.": "<kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd>'e bas.",
- "Auf manchen Laptops: zusätzlich Fn drücken.": "Bazı dizüstü bilgisayarlarda: <kbd>Fn</kbd> tuşuna da bas.",
+ "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "Bazı dizüstü bilgisayarlarda: <kbd>Fn</kbd> tuşuna da bas. <code>$</code> işaretini kendin de yazabilirsin: <kbd>Umschalt</kbd> (Shift) + <kbd>4</kbd>.",
  "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>Kısa video (yakında):</strong> 30 saniyede $",
  "Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Alles Weitere steht in der Datei. Die Spalte Kontrolle zeigt dir sofort, ob du richtig liegst.": "Alıştırma dosyasını indir ve LibreOffice Calc ile aç. Gerisi dosyada. <strong>Kontrolle</strong> (kontrol) sütunu doğru olup olmadığını hemen gösterir.",
  "ODS Übungsdateik8-05-absolute-bezuege.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (alıştırma dosyası)<small>k8-05-absolute-bezuege.ods</small></span>",

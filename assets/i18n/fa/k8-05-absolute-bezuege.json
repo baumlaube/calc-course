@@ -20,7 +20,7 @@
  "So setzt du das $": "$ را چطور بگذاری",
  "Klick in der Formel auf B2.": "در فرمول روی <code>B2</code> کلیک کن.",
  "Drück Umschalt + F4.": "<kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd> را بزن.",
- "Auf manchen Laptops: zusätzlich Fn drücken.": "در بعضی لپ‌تاپ‌ها: <kbd>Fn</kbd> را هم بزن.",
+ "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "در بعضی لپ‌تاپ‌ها: <kbd>Fn</kbd> را هم بزن. علامت <code>$</code> را خودت هم می‌توانی تایپ کنی: <kbd>Umschalt</kbd> (Shift) + <kbd>4</kbd>.",
  "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>ویدیوی کوتاه (به زودی):</strong> $ در 30 ثانیه",
  "Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Alles Weitere steht in der Datei. Die Spalte Kontrolle zeigt dir sofort, ob du richtig liegst.": "فایل تمرین را دانلود کن و با LibreOffice Calc باز کن. بقیه در فایل است. ستون <strong>Kontrolle</strong> (بررسی) فوراً نشان می‌دهد که درست است یا نه.",
  "ODS Übungsdateik8-05-absolute-bezuege.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (فایل تمرین)<small>k8-05-absolute-bezuege.ods</small></span>",

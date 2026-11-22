@@ -20,7 +20,7 @@
  "So setzt du das $": "Ovako postavljaš $",
  "Klick in der Formel auf B2.": "Klikni u formuli na <code>B2</code>.",
  "Drück Umschalt + F4.": "Pritisni <kbd>Umschalt</kbd> + <kbd>F4</kbd> (Shift + F4).",
- "Auf manchen Laptops: zusätzlich Fn drücken.": "Na nekim laptopima: dodatno pritisni <kbd>Fn</kbd>.",
+ "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "Na nekim laptopima: dodatno pritisni <kbd>Fn</kbd>. Znak <code>$</code> možeš i sam otkucati: <kbd>Umschalt</kbd> (Shift) + <kbd>4</kbd>.",
  "Profi-Trick: ein Name statt $. Klick B2 an, tipp oben links ins Namenfeld Lohn und drück Enter. Jetzt geht auch =B5*Lohn. Ein Name bleibt beim Ausfüllen immer fest.": "<strong>Profi trik: ime umjesto $.</strong> Klikni na B2, gore lijevo u <strong>Namenfeld</strong> (polje za ime) upiši <code>Lohn</code> (plata) i pritisni <kbd>Enter</kbd>. Sada radi i <code>=B5*Lohn</code>. Ime pri popunjavanju uvijek ostaje fiksno.",
  "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>Kratki video (uskoro):</strong> $ za 30 sekundi",
  "Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Alles Weitere steht in der Datei. Die Spalte Kontrolle zeigt dir sofort, ob du richtig liegst.": "Preuzmi datoteku s vježbama i otvori je u LibreOffice Calcu. Sve ostalo piše u datoteci. Kolona <strong>Kontrolle</strong> (kontrola) ti odmah pokazuje jesi li u pravu.",

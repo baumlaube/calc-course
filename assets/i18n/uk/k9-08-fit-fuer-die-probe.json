@@ -91,7 +91,7 @@
  "gelb": "жовтий",
  "Nein": "Nein (ні)",
  "Was kannst du schon sicher? Was musst du noch üben? Das findest du hier heraus. Du löst gemischte Aufgaben wie in der Probe. Zum Schluss machst du eine Übungsprobe in Calc.": "Що ти вже вмієш упевнено? Що ще треба потренувати? Тут ти це з’ясуєш. Ти розв’язуєш змішані завдання, як на контрольній. Наприкінці пишеш пробну контрольну в Calc.",
- "Sieben Aufgaben, eine zu jedem Baustein. Pro Aufgabe hast du einen Versuch. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Сім завдань, по одному до кожного розділу. На кожне завдання в тебе <strong>одна</strong> спроба. Наприкінці побачиш, що треба повторити. Оцінки немає.",
+ "Sieben Aufgaben, eine zu jedem Baustein. Es zählt dein erster Versuch. Verbessern darfst du danach trotzdem. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Сім завдань, по одному до кожного розділу. Зараховується твоя <strong>перша</strong> спроба. Але виправити потім усе одно можна. Наприкінці побачиш, що треба повторити. Оцінки немає.",
  "D5 zeigt #DIV/0!. Was ist los?": "D5 показує <code>#DIV/0!</code>. Що сталося?",
  "Calc rechnet mit einem Wort.": "Calc рахує зі словом.",
  "Es wird durch 0 oder durch eine leere Zelle geteilt.": "Ділять на 0 або на порожню клітинку.",

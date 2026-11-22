@@ -91,7 +91,7 @@
  "gelb": "żółty",
  "Nein": "Nein (nie)",
  "Was kannst du schon sicher? Was musst du noch üben? Das findest du hier heraus. Du löst gemischte Aufgaben wie in der Probe. Zum Schluss machst du eine Übungsprobe in Calc.": "Co już umiesz na pewno? Co trzeba jeszcze poćwiczyć? Tu się tego dowiesz. Rozwiązujesz mieszane zadania jak na sprawdzianie. Na końcu piszesz sprawdzian próbny w Calc.",
- "Sieben Aufgaben, eine zu jedem Baustein. Pro Aufgabe hast du einen Versuch. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Siedem zadań, po jednym do każdej jednostki. Na każde zadanie masz <strong>jedną</strong> próbę. Na końcu zobaczysz, co trzeba powtórzyć. Nie ma oceny.",
+ "Sieben Aufgaben, eine zu jedem Baustein. Es zählt dein erster Versuch. Verbessern darfst du danach trotzdem. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Siedem zadań, po jednym do każdej jednostki. Liczy się <strong>pierwsza</strong> próba. Poprawiać możesz potem i tak. Na końcu zobaczysz, co trzeba powtórzyć. Nie ma oceny.",
  "D5 zeigt #DIV/0!. Was ist los?": "D5 pokazuje <code>#DIV/0!</code>. Co się stało?",
  "Calc rechnet mit einem Wort.": "Calc liczy ze słowem.",
  "Es wird durch 0 oder durch eine leere Zelle geteilt.": "Dzielenie przez 0 albo przez pustą komórkę.",

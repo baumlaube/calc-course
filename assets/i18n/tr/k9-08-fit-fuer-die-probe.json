@@ -91,7 +91,7 @@
  "gelb": "sarı",
  "Nein": "Nein (hayır)",
  "Was kannst du schon sicher? Was musst du noch üben? Das findest du hier heraus. Du löst gemischte Aufgaben wie in der Probe. Zum Schluss machst du eine Übungsprobe in Calc.": "Neyi artık güvenle yapabiliyorsun? Neyi hâlâ çalışman gerekiyor? Bunu burada öğrenirsin. Karışık görevleri sınavdaki gibi çözersin. Sonunda Calc’ta bir deneme sınavı yaparsın.",
- "Sieben Aufgaben, eine zu jedem Baustein. Pro Aufgabe hast du einen Versuch. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Yedi görev, her konu için bir tane. Her görev için <strong>bir</strong> hakkın var. Sonunda neyi tekrar etmen gerektiğini görürsün. Not verilmez.",
+ "Sieben Aufgaben, eine zu jedem Baustein. Es zählt dein erster Versuch. Verbessern darfst du danach trotzdem. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Yedi görev, her konu için bir tane. <strong>İlk</strong> denemen sayılır. Sonra yine de düzeltebilirsin. Sonunda neyi tekrar etmen gerektiğini görürsün. Not verilmez.",
  "D5 zeigt #DIV/0!. Was ist los?": "D5 <code>#DIV/0!</code> gösteriyor. Sorun ne?",
  "Calc rechnet mit einem Wort.": "Calc bir kelimeyle hesap yapıyor.",
  "Es wird durch 0 oder durch eine leere Zelle geteilt.": "0’a ya da boş bir hücreye bölünüyor.",

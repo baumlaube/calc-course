@@ -20,7 +20,7 @@
  "So setzt du das $": "Así pones el $",
  "Klick in der Formel auf B2.": "En la fórmula, haz clic en <code>B2</code>.",
  "Drück Umschalt + F4.": "Pulsa <kbd>Umschalt</kbd> (Mayús) + <kbd>F4</kbd>.",
- "Auf manchen Laptops: zusätzlich Fn drücken.": "En algunos portátiles: pulsa también <kbd>Fn</kbd>.",
+ "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "En algunos portátiles: pulsa también <kbd>Fn</kbd>. También puedes escribir el <code>$</code> tú mismo: <kbd>Umschalt</kbd> (Mayús) + <kbd>4</kbd>.",
  "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>Vídeo corto (próximamente):</strong> el $ en 30 segundos",
  "Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Alles Weitere steht in der Datei. Die Spalte Kontrolle zeigt dir sofort, ob du richtig liegst.": "Descarga el archivo de ejercicios y ábrelo con LibreOffice Calc. Todo lo demás está en el archivo. La columna <strong>Kontrolle</strong> (control) te muestra enseguida si está bien.",
  "ODS Übungsdateik8-05-absolute-bezuege.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (archivo de ejercicios)<small>k8-05-absolute-bezuege.ods</small></span>",

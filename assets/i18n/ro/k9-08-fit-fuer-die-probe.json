@@ -91,7 +91,7 @@
  "gelb": "galben",
  "Nein": "Nein (nu)",
  "Was kannst du schon sicher? Was musst du noch üben? Das findest du hier heraus. Du löst gemischte Aufgaben wie in der Probe. Zum Schluss machst du eine Übungsprobe in Calc.": "Ce știi deja sigur? Ce mai trebuie să exersezi? Afli asta aici. Rezolvi sarcini amestecate ca la test. La final dai un test de exersare în Calc.",
- "Sieben Aufgaben, eine zu jedem Baustein. Pro Aufgabe hast du einen Versuch. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Șapte sarcini, câte una pentru fiecare lecție. Pentru fiecare sarcină ai <strong>o singură</strong> încercare. La final vezi ce trebuie să repeți. Nu primești notă.",
+ "Sieben Aufgaben, eine zu jedem Baustein. Es zählt dein erster Versuch. Verbessern darfst du danach trotzdem. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.": "Șapte sarcini, câte una pentru fiecare lecție. Contează <strong>prima</strong> ta încercare. Dar după aceea poți totuși să corectezi. La final vezi ce trebuie să repeți. Nu primești notă.",
  "D5 zeigt #DIV/0!. Was ist los?": "D5 arată <code>#DIV/0!</code>. Ce s-a întâmplat?",
  "Calc rechnet mit einem Wort.": "Calc calculează cu un cuvânt.",
  "Es wird durch 0 oder durch eine leere Zelle geteilt.": "Se împarte la 0 sau la o celulă goală.",
