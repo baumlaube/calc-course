@@ -3,9 +3,6 @@
  "Erste Formeln – Calc rechnet für dich": "Pierwsze formuły – Calc liczy za ciebie",
  "Klasse 8 · Baustein 2": "Klasa 8 · Jednostka 2",
  "Vorwissen: Zellen und Eingeben": "Wiedza wstępna: komórki i wpisywanie",
- "Ich kann eine Formel mit = beginnen und mit + − * / rechnen.": "Umiem zacząć formułę od <code>=</code> i liczyć z + − * /.",
- "Ich kann in Formeln Zellen statt Zahlen verwenden.": "Umiem używać w formułach komórek zamiast liczb.",
- "Ich kann erklären, warum Calc dann von selbst neu rechnet.": "Umiem wyjaśnić, dlaczego Calc potem sam przelicza.",
  "Mia kauft Schulsachen. Bei den Heften hat sie im Kopf gerechnet und in D5 einfach 4,50 eingetippt. Bei den Stiften steht in D6 eine Formel.": "Mia kupuje przybory szkolne. Za <strong>zeszyty</strong> policzyła w głowie i po prostu wpisała <code>4,50</code> w D5. Za <strong>długopisy</strong> w D6 jest formuła.",
  "Überleg: Beides wird teurer. Was zeigt D5 danach?": "<strong>Pomyśl:</strong> Oba drożeją. Co pokazuje potem <strong>D5</strong>?",
  "Den neuen, höheren Betrag": "Nową, wyższą kwotę",
@@ -43,11 +40,6 @@
  "★ Expedition: Punkt vor Strich freiwillig": "<span class=\"step-no\">★</span> Wyprawa: Kolejność działań <span class=\"badge expedition\">nieobowiązkowo</span>",
  "Auch Calc rechnet Punkt vor Strich.Was in Klammern steht, kommt zuerst.": "Calc też wykonuje <strong>mnożenie i dzielenie przed dodawaniem i odejmowaniem</strong>.<br/>To, co w <strong>nawiasie</strong>, jest pierwsze.",
  "Berechne in B6 deinen Notendurchschnitt: alle Noten zusammenzählen, dann durch 3 teilen.": "Policz w B6 swoją średnią ocen: dodaj wszystkie oceny, potem podziel przez 3.",
- "Ich beginne jede Formel mit =.": "Każdą formułę zaczynam od <code>=</code>.",
- "Ich kenne die Rechenzeichen + − * /.": "Znam znaki działań + − * /.",
- "Ich klicke Zellen an, statt Zahlen in die Formel zu tippen.": "Klikam komórki zamiast wpisywać liczby do formuły.",
- "Plus Ich kann Formeln bauen, die auf anderen Formeln aufbauen.": "<span class=\"badge plus\">Plus</span> Umiem budować formuły, które używają innych formuł.",
- "Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">Expedition</span> Poprawnie używam nawiasów.",
  "← 1 · Erste Schritte": "← 1 · Pierwsze kroki",
  "3 · Funktionen →": "3 · Funkcje →",
  "Die Preise steigen … schau auf Spalte C und D!": "Ceny rosną … spójrz na kolumny C i D!",
@@ -86,7 +78,6 @@
  "D5 rechnet neu": "D5 przelicza się",
  "D5 bleibt 4,50": "D5 zostaje 4,50",
  "B5 abtippen": "Przepisać B5",
- "★ Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">★ Expedition</span> Stawiam nawiasy we właściwym miejscu.",
  "Üben Farbfelder": "<span class=\"badge ueben\">Üben</span> Kolorowe pola",
  "Zähl alle Felder mit derselben Farbe zusammen. Tipp in B8 =, klick das erste gelbe Feld an, tipp +, klick das nächste an … und drück Enter.": "Dodaj wszystkie pola tego samego koloru. Wpisz w B8 <code>=</code>, kliknij pierwsze żółte pole, wpisz <code>+</code>, kliknij następne … i naciśnij <kbd>Enter</kbd>.",
  "Keine Zahlen abtippen! Nur Zellen anklicken. Dann rechnet die Summe mit, wenn sich eine Zahl ändert.": "<strong>Nie przepisuj liczb!</strong> Tylko klikaj komórki. Wtedy suma zmieni się, gdy zmieni się liczba.",
@@ -121,5 +112,5 @@
  "das, was bei einer Rechnung herauskommt": "<strong>wynik</strong> – to, co wychodzi z rachunku",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>wiersz wprowadzania</strong> – długi wiersz nad tabelą. Tam widać formułę.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>przeliczyć</strong> – Calc liczy jeszcze raz, gdy zmieni się liczba",
- "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "Do tej pory tylko wpisujesz liczby. Teraz Calc liczy za ciebie: formuła zaczyna się od <code>=</code> i liczy z komórkami. Gdy liczba się zmieni, Calc od razu przelicza. Właśnie dlatego używa się arkusza, a nie kalkulatora."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Teraz Calc liczy za ciebie. Formuła zaczyna się od <code>=</code> i liczy z komórkami. Gdy liczba się zmieni, Calc od razu przelicza. Kalkulator tego nie potrafi."
 }

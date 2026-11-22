@@ -2,9 +2,6 @@
  "Drucken wie ein Profi · Calc-Kurs Zusatzmodul": "چاپ حرفه‌ای · دورهٔ Calc ماژول اضافی",
  "Drucken wie ein Profi": "چاپ حرفه‌ای",
  "brauchst du bei jeder Abgabe": "برای هر تحویل لازم است",
- "Ich prüfe mit der Druckvorschau, wie der Ausdruck aussieht.": "با پیش‌نمایش چاپ بررسی می‌کنم که چاپ چطور می‌شود.",
- "Ich stelle Querformat, „auf eine Seite“ und eine Kopfzeile ein.": "افقی، «جا دادن در یک صفحه» و سرصفحه را تنظیم می‌کنم.",
- "Ich lege fest, was gedruckt wird – und speichere als PDF.": "تصمیم می‌گیرم چه چیزی چاپ شود – و به صورت PDF ذخیره می‌کنم.",
  "💡 Deine Notenliste ist 30 cm breit. Auf ein A4-Blatt hochkant passen nur etwa 17 cm.": "💡 فهرست نمره‌هایت <strong>30 سانتی‌متر پهنا</strong> دارد. در یک صفحهٔ A4 عمودی فقط حدود <strong>17 سانتی‌متر</strong> جا می‌شود.",
  "Überleg: Was passiert, wenn du einfach auf Drucken klickst?": "<strong>فکر کن:</strong> اگر فقط روی چاپ کلیک کنی چه می‌شود؟",
  "Calc macht alles kleiner – passt auf ein Blatt.": "Calc همه چیز را کوچک می‌کند – در یک صفحه جا می‌شود.",
@@ -69,5 +66,5 @@
  "Datei → Druckvorschau": "Datei → Druckvorschau (پرونده → پیش‌نمایش چاپ)",
  "Spalten löschen": "حذف ستون‌ها",
  "Klein schreiben": "کوچک نوشتن",
- "Auf dem Bildschirm sieht die Tabelle gut aus, auf Papier fehlt plötzlich die Hälfte. Hier lernst du, mit Druckvorschau, Querformat und „auf eine Seite“ sauber zu drucken. Und du speicherst die Tabelle als PDF, zum Abgeben oder Verschicken.": "روی صفحهٔ نمایش جدول خوب به نظر می‌رسد، ولی روی کاغذ ناگهان نصفش نیست. اینجا یاد می‌گیری با پیش‌نمایش چاپ، حالت افقی و «روی یک صفحه» تمیز چاپ کنی. و جدول را به شکل PDF ذخیره می‌کنی تا تحویل بدهی یا بفرستی."
+ "Auf dem Bildschirm sieht die Tabelle gut aus. Auf dem Papier fehlt plötzlich die Hälfte. Hier lernst du, die Tabelle richtig auf ein Blatt zu bringen. Du speicherst sie auch als PDF, zum Abgeben oder Verschicken.": "روی صفحهٔ نمایش جدول خوب به نظر می‌رسد. روی کاغذ ناگهان نصفش نیست. اینجا یاد می‌گیری جدول را درست روی یک برگه بیاوری. آن را به شکل PDF هم ذخیره می‌کنی، برای تحویل یا فرستادن."
 }

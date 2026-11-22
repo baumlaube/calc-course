@@ -2,9 +2,6 @@
  "Fehlerdetektiv · Calc-Kurs Klasse 9": "Detektivi i gabimeve · Kursi Calc klasa 9",
  "Fehlerdetektiv – Fehler finden und reparieren": "Detektivi i gabimeve – gjej dhe riparo gabimet",
  "Klasse 9 · Baustein 1": "Klasa 9 · Njësia 1",
- "Ich kann Fehlermeldungen wie #WERT!, #DIV/0! und #NAME? deuten und beheben.": "Mund të kuptoj dhe riparoj mesazhe gabimi si <code>#WERT!</code> (#VLERË!), <code>#DIV/0!</code> dhe <code>#NAME?</code>.",
- "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "Mund të gjej gabimet e heshtura që Calc nuk i tregon.",
- "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "Mund të riparoj formula me gjithçka nga klasa 8.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>Këtë e di tashmë:</strong> <code>=C5/B5</code> i pjesëton pikët me numrin e pjesëmarrësve. Në D5 funksionon. Por D6 papritur tregon <code>#DIV/0!</code>.",
  "Überleg: Warum?": "<strong>Mendo:</strong> Pse?",
  "Die Punktzahl ist zu hoch.": "Pikët janë shumë të larta.",
@@ -47,11 +44,6 @@
  "In Englisch gibt es noch keine Noten, darum zeigt der Durchschnitt #DIV/0!. Das sieht im Zeugnis nicht gut aus.": "Në anglisht nuk ka ende nota, prandaj mesatarja tregon <code>#DIV/0!</code>. Kjo nuk duket mirë në dëftesë.",
  "=WENNFEHLER(Formel; \"Ersatz\")Klappt die Formel, kommt ihr Ergebnis. Sonst kommt der Ersatz.": "<code>=WENNFEHLER(Formel; \"Ersatz\")</code><br/>Nëse formula funksionon, merr rezultatin e saj. Përndryshe merr zëvendësimin.",
  "Ändere E3 so, dass statt des Fehlers keine Noten erscheint. Text steht in Anführungszeichen.": "Ndrysho E3 që në vend të gabimit të shfaqet <code>keine Noten</code> (pa nota). Teksti shkon në thonjëza.",
- "Ich weiß, was #WERT!, #DIV/0! und #NAME? bedeuten.": "E di çfarë do të thonë <code>#WERT!</code>, <code>#DIV/0!</code> dhe <code>#NAME?</code>.",
- "Ich kann laute Fehler reparieren.": "Mund të riparoj gabimet e zhurmshme.",
- "Ich finde stille Fehler mit den Detektiv-Tricks.": "I gjej gabimet e heshtura me truket e detektivit.",
- "Plus Ich kann Fehler absichtlich erzeugen und erklären.": "<span class=\"badge plus\">Plus</span> Mund të bëj gabime me qëllim dhe t'i shpjegoj.",
- "Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">Expedition</span> Mund t'i kap gabimet me WENNFEHLER (NËSEGABIM).",
  "← Klasse 8 · Projekt": "← Klasa 8 · Projekti",
  "2 · Prozentrechnung →": "2 · Përqindjet →",
  "Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.": "Klikimi në D6 e tregon: formula përdor B6, dhe B6 është bosh. Një qelizë bosh llogaritet si 0, dhe me 0 nuk mund të pjesëtosh.",
@@ -92,7 +84,6 @@
  "Aus still wird laut: Wandert ein Bezug ohne $ auf eine leere Zelle oder auf Text, zeigt Calc weiter unten #DIV/0! oder #WERT!. Der Fehler steckt dann oben in der ersten Formel.": "<strong>Nga i heshtur në i zhurmshëm:</strong> nëse një referencë pa <code>$</code> rrëshqet te një qelizë bosh ose te tekst, Calc tregon më poshtë <code>#DIV/0!</code> ose <code>#WERT!</code>. Gabimi atëherë është sipër, te formula e parë.",
  "Stille Fehler zeigt Calc nicht an: getippte Zahlen, fehlendes $, Bereich zu kurz oder zu groß.": "<strong>Gabimet e heshtura</strong> Calc nuk i tregon: numra të shkruar me dorë, <code>$</code> që mungon, zonë shumë e shkurtër ose shumë e madhe.",
  "MAX, MIN und MITTELWERT brauchen einen Bereich mit Doppelpunkt: =MAX(G5:G10).": "<code>MAX</code>, <code>MIN</code> dhe <code>MITTELWERT</code> kanë nevojë për një zonë me dy pika: <code>=MAX(G5:G10)</code>.",
- "★ Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">★ Expedition</span> Mund t'i kap gabimet me WENNFEHLER (IFERROR).",
  "Üben Aufwärmen: Waffelverkauf": "<span class=\"badge ueben\">Üben</span> Ngrohje: shitja e vaflave",
  "Stückzahl und Umsatz für sechs Waffelsorten, dazu MAX, MIN und MITTELWERT. Die Kontrolle merkt, wenn der Preis mit in der Summe steckt.": "Sasia dhe të ardhurat për gjashtë lloje vaflash, plus MAX, MIN dhe MITTELWERT. Kontrolli e vëren nëse çmimi ka hyrë në shumë.",
  "ODS Üben: Waffelverkaufk9-01-fehlerdetektiv-mehr-waffelverkauf.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Shitja e vaflave</strong><small>k9-01-fehlerdetektiv-mehr-waffelverkauf.ods</small></span>",
@@ -135,5 +126,5 @@
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>i ngushtë</strong> – jo i gjerë. <code>###</code> do të thotë: kolona është shumë e ngushtë.",
  "verstehen, was etwas bedeutet": "<strong>interpretoj</strong> – kuptoj çfarë do të thotë diçka",
  "einen Fehler wieder richtig machen": "<strong>ndreq</strong> – e bëj një gabim përsëri të saktë",
- "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "Në tabela ndodhin gabime, edhe te profesionistët. Disa Calc i tregon me zë, për shembull <code>#DIV/0!</code>. Të tjerat janë të heshtura: numri duket i saktë, por prapë është gabim. Këtu mëson t’i gjesh dhe t’i rregullosh të dyja. Njëkohësisht përsërit gjithçka nga klasa e 8-të."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "Në tabela ndodhin gabime. Disa gabime Calc i tregon, për shembull <code>#DIV/0!</code>. Gabime të tjera Calc nuk i tregon: numri duket i saktë, por është gabim. Këtu mëson t’i gjesh dhe t’i rregullosh të dyja llojet. Njëkohësisht përsërit klasën e 8-të."
 }

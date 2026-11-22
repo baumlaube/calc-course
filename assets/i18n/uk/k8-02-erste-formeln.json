@@ -3,9 +3,6 @@
  "Erste Formeln – Calc rechnet für dich": "Перші формули – Calc рахує за тебе",
  "Klasse 8 · Baustein 2": "8 клас · Модуль 2",
  "Vorwissen: Zellen und Eingeben": "Попередні знання: клітинки і введення",
- "Ich kann eine Formel mit = beginnen und mit + − * / rechnen.": "Я вмію починати формулу з <code>=</code> і рахувати з + − * /.",
- "Ich kann in Formeln Zellen statt Zahlen verwenden.": "Я вмію використовувати у формулах клітинки замість чисел.",
- "Ich kann erklären, warum Calc dann von selbst neu rechnet.": "Я можу пояснити, чому Calc тоді сам перераховує.",
  "Mia kauft Schulsachen. Bei den Heften hat sie im Kopf gerechnet und in D5 einfach 4,50 eingetippt. Bei den Stiften steht in D6 eine Formel.": "Мія купує шкільне приладдя. Для <strong>зошитів</strong> вона порахувала в голові і просто ввела <code>4,50</code> у D5. Для <strong>ручок</strong> у D6 стоїть формула.",
  "Überleg: Beides wird teurer. Was zeigt D5 danach?": "<strong>Подумай:</strong> обидва товари дорожчають. Що покаже <strong>D5</strong> після цього?",
  "Den neuen, höheren Betrag": "Нову, вищу суму",
@@ -45,11 +42,6 @@
  "★ Expedition: Punkt vor Strich freiwillig": "<span class=\"step-no\">★</span> Експедиція: порядок дій <span class=\"badge expedition\">за бажанням</span>",
  "Auch Calc rechnet Punkt vor Strich.Was in Klammern steht, kommt zuerst.": "Calc теж спочатку <strong>множить і ділить, а потім додає і віднімає</strong>.<br/>Те, що в <strong>дужках</strong>, рахується першим.",
  "Berechne in B6 deinen Notendurchschnitt: alle Noten zusammenzählen, dann durch 3 teilen.": "Порахуй у B6 свою середню оцінку: додай усі оцінки, потім поділи на 3.",
- "Ich beginne jede Formel mit =.": "Я починаю кожну формулу з <code>=</code>.",
- "Ich kenne die Rechenzeichen + − * /.": "Я знаю знаки дій + − * /.",
- "Ich klicke Zellen an, statt Zahlen in die Formel zu tippen.": "Я клацаю на клітинки, а не вводжу числа у формулу.",
- "Plus Ich kann Formeln bauen, die auf anderen Formeln aufbauen.": "<span class=\"badge plus\">Plus</span> Я вмію будувати формули, які використовують інші формули.",
- "Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">Expedition</span> Я правильно ставлю дужки.",
  "← 1 · Erste Schritte": "← 1 · Перші кроки",
  "3 · Funktionen →": "3 · Функції →",
  "Die Preise steigen … schau auf Spalte C und D!": "Ціни ростуть … дивись на стовпці C і D!",
@@ -86,7 +78,6 @@
  "🏆 Expedition geschafft! Erst die Klammer, dann geteilt: (2 + 3 + 1) / 3 = 2.": "🏆 <strong>Експедицію виконано!</strong> Спочатку дужки, потім ділення: (2 + 3 + 1) / 3 = 2.",
  "Das Ergebnis stimmt, aber nimm die Zellen B2, B3 und B4 und Klammern.": "Результат правильний, але використай клітинки B2, B3 і B4 і дужки.",
  "Noch nicht. Alle drei Noten zusammenzählen, dann durch 3 teilen. Was muss zuerst passieren?": "Ще ні. Додай усі три оцінки, потім поділи на 3. Що має статися спочатку?",
- "★ Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">★ Expedition</span> Я правильно ставлю дужки.",
  "Üben Farbfelder": "<span class=\"badge ueben\">Üben</span> Кольорові поля",
  "Zähl alle Felder mit derselben Farbe zusammen. Tipp in B8 =, klick das erste gelbe Feld an, tipp +, klick das nächste an … und drück Enter.": "Додай усі поля одного кольору. Введи в B8 <code>=</code>, клацни перше жовте поле, введи <code>+</code>, клацни наступне … і натисни <kbd>Enter</kbd>.",
  "Keine Zahlen abtippen! Nur Zellen anklicken. Dann rechnet die Summe mit, wenn sich eine Zahl ändert.": "<strong>Не переписуй числа!</strong> Тільки клацай клітинки. Тоді сума зміниться, коли зміниться число.",
@@ -121,5 +112,5 @@
  "das, was bei einer Rechnung herauskommt": "<strong>результат</strong> – те, що виходить після обчислення",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>рядок введення</strong> – довгий рядок над таблицею. Там видно формулу.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>перерахувати</strong> – Calc рахує ще раз, коли число змінюється",
- "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "Досі ти лише вводиш числа. Тепер Calc рахує за тебе: формула починається з <code>=</code> і рахує з клітинками. Якщо число змінюється, Calc одразу перераховує. Саме для цього беруть таблицю, а не калькулятор."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Тепер Calc рахує за тебе. Формула починається з <code>=</code> і рахує з клітинками. Якщо число змінюється, Calc одразу перераховує. Калькулятор так не вміє."
 }

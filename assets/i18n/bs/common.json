@@ -202,5 +202,6 @@
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Povuci prstom mali kvadratić dolje desno na ćeliji. Ili koristi dugme <strong>■</strong>. U LibreOffice Calcu povlačiš kvadratić za popunjavanje (Ausfüllkästchen).",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (kvadratić za popunjavanje): povuci da popuniš",
  "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 je tačno! Sada povuci kvadratić za popunjavanje (<strong>Ausfüllkästchen</strong>) od B2 nadolje do B3.",
- "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Ovdje ne možeš povlačiti. Prvo izaberi odgovor. Onda ti tabela pokaže šta se desi."
+ "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Ovdje ne možeš povlačiti. Prvo izaberi odgovor. Onda ti tabela pokaže šta se desi.",
+ "Die Spalte ist zu schmal.": "Kolona je preuska."
 }

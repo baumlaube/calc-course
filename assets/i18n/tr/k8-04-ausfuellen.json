@@ -3,9 +3,6 @@
  "Formeln ausfüllen – einmal schreiben, überall rechnen": "Formülleri doldurmak – bir kere yaz, her yerde hesapla",
  "Klasse 8 · Baustein 4": "8. sınıf · Ünite 4",
  "Vorwissen: Formeln, SUMME": "Ön bilgi: formüller, SUMME",
- "Ich kann eine Formel nach unten und nach rechts ziehen.": "Bir formülü aşağıya ve sağa sürükleyebilirim.",
- "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "Hücre başvurularının nasıl değiştiğini açıklayabilirim.",
- "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "Bir hücreye hangi formülün geleceğini tahmin edebilirim.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "Sınıf partisi için alışveriş yapıyorsun. D5'te zaten <code>=B5*C5</code> formülü var → 4 × 1,50 € = 6,00 €.<br/>Diğer satırlar için her şeyi yeniden yazmazsın – formülü sadece aşağı <strong>sürüklersin</strong>.",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – tamamen aynısı",
  "gar keine – nur die Zahl 6,00 €": "hiçbiri – sadece 6,00 € sayısı",
@@ -41,11 +38,6 @@
  "Du sparst auf ein Fahrrad. Jede Woche kommt ein Betrag dazu. Wie viel hast du nach 8 Wochen?": "Bir bisiklet için para biriktiriyorsun. Her hafta biraz para ekleniyor. 8 hafta sonra ne kadar paran olur?",
  "Kontostand = Kontostand der Vorwoche + neuer Betrag": "Bakiye = <strong>önceki haftanın bakiyesi</strong> + yeni tutar",
  "In C5 steht der Kontostand nach Woche 1. Schreib in C6 eine Formel für Woche 2 und zieh sie nach unten. Tipp: Die Vorwoche steht genau eine Zeile darüber.": "C5 1. haftadan sonraki bakiyeyi gösteriyor. <strong>C6</strong>'ya 2. hafta için bir formül yaz ve aşağı sürükle. İpucu: önceki hafta tam bir satır yukarıda.",
- "Ich finde das Ausfüllkästchen und kann eine Formel nach unten ziehen.": "Doldurma tutamacını bulabilir ve bir formülü aşağı sürükleyebilirim.",
- "Ich kann eine Formel nach rechts ziehen.": "Bir formülü sağa sürükleyebilirim.",
- "Ich kann erklären, warum aus =B5*C5 eine Zeile tiefer =B6*C6 wird.": "<code>=B5*C5</code> formülünün bir satır aşağıda neden <code>=B6*C6</code> olduğunu açıklayabilirim.",
- "Plus Ich kann vorhersagen, welche Formel nach dem Ziehen in einer Zelle steht.": "<span class=\"badge plus\">Plus</span> Sürükledikten sonra bir hücrede hangi formül olacağını tahmin edebilirim.",
- "Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">Expedition</span> Sürekli bakiye hesaplayabilirim.",
  "← 3 · Funktionen": "← 3 · Fonksiyonlar",
  "5 · Absolute Bezüge →": "5 · Mutlak başvurular →",
  "Calc füllt aus … schau auf Spalte D!": "Calc dolduruyor … D sütununa bak!",
@@ -92,7 +84,6 @@
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen. Mit Probe: Kommt auf beiden Wegen dasselbe heraus?": "<span class=\"badge basis\">Basis</span><span><strong>Görev 2 · Harçlık:</strong> Toplamları sağa <em>ve</em> aşağı doldur. Sağlamasıyla: iki yoldan da aynı sonuç çıkıyor mu?</span>",
  "Calc setzt auch Reihen fort: Montag → Dienstag, Januar → Februar, 10 und 20 → 30.": "Calc dizileri de devam ettirir: Montag → Dienstag (pazartesi → salı), Januar → Februar, 10 ve 20 → 30.",
  "Probe: Die Gesamtsumme auf zwei Wegen rechnen. Gleich? Dann stimmt alles.": "<strong>Sağlama:</strong> Genel toplamı iki yoldan hesapla. Aynı mı? O zaman her şey doğru.",
- "★ Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">★ Expedition</span> Güncel bakiyeyi hesaplayabilirim.",
  "Üben Das Ausfüll-Orakel": "<span class=\"badge ueben\">Üben</span> Doldurma kâhini",
  "Das Orakel aus Schritt 2 – jetzt selbst in Calc: Was macht Calc aus Montag, Quartal 1 oder 5, 3? Erst raten, dann ausfüllen.": "2. adımdaki kâhin – şimdi kendin Calc'ta: Calc Montag, Quartal 1 veya 5, 3'ten ne yapar? Önce tahmin et, sonra doldur.",
  "ODS Üben: Ausfüll-Orakelk8-04-ausfuellen-mehr-ausfuell-orakel.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Doldurma kâhini</strong><small>k8-04-ausfuellen-mehr-ausfuell-orakel.ods</small></span>",
@@ -149,5 +140,5 @@
  "Fehler": "Hata",
  "Montag": "Montag (pazartesi)",
  "Donnerstag": "Donnerstag (perşembe)",
- "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Çoğu zaman her satırda aynı hesap yapılır: her ürün, her gün, her öğrenci için. Formülü sadece bir kez yazar ve aşağı çekersin. Calc her satırdaki hücreleri kendisi ayarlar. Bu çok yazma işinden ve çok hatadan kurtarır."
+ "Oft rechnest du in jeder Zeile das Gleiche: für jeden Artikel, für jeden Tag. Du schreibst die Formel nur einmal. Dann ziehst du sie nach unten. Calc passt die Formel in jeder Zeile selbst an. So tippst du weniger und machst weniger Fehler.": "Çoğu zaman her satırda aynı hesabı yaparsın: her ürün için, her gün için. Formülü sadece bir kez yazarsın. Sonra aşağı çekersin. Calc formülü her satırda kendisi ayarlar. Böylece daha az yazar, daha az hata yaparsın."
 }

@@ -3,9 +3,6 @@
  "Formeln ausfüllen – einmal schreiben, überall rechnen": "Điền công thức – viết một lần, tính ở mọi nơi",
  "Klasse 8 · Baustein 4": "Lớp 8 · Bài 4",
  "Vorwissen: Formeln, SUMME": "Cần biết trước: công thức, SUMME",
- "Ich kann eine Formel nach unten und nach rechts ziehen.": "Mình kéo được công thức xuống dưới và sang phải.",
- "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "Mình giải thích được địa chỉ ô thay đổi thế nào khi kéo.",
- "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "Mình đoán trước được công thức nào sẽ nằm trong một ô sau đó.",
  "eine Formel in viele Zellen kopieren": "<strong>điền</strong> – sao chép một công thức vào nhiều ô",
  "die Maustaste gedrückt halten und die Maus bewegen (am Handy: mit dem Finger)": "<strong>kéo</strong> – giữ nút chuột và di chuyển chuột (trên điện thoại: bằng ngón tay)",
  "das kleine Quadrat unten rechts an der markierten Zelle": "<strong>ô điền tự động</strong> – ô vuông nhỏ ở góc dưới bên phải của ô đang chọn",
@@ -49,11 +46,6 @@
  "Darum immer Zellen statt Zahlen in die Formel schreiben!": "Vì vậy luôn viết <strong>ô thay vì số</strong> vào công thức!",
  "Calc setzt auch Reihen fort: Montag → Dienstag, Januar → Februar, 10 und 20 → 30.": "Calc cũng tiếp tục các dãy: Montag → Dienstag (thứ Hai → thứ Ba), Januar → Februar, 10 và 20 → 30.",
  "Probe: Die Gesamtsumme auf zwei Wegen rechnen. Gleich? Dann stimmt alles.": "<strong>Kiểm tra lại:</strong> Tính tổng cộng theo hai cách. Bằng nhau? Vậy là tất cả đều đúng.",
- "Ich finde das Ausfüllkästchen und kann eine Formel nach unten ziehen.": "Mình tìm được ô điền tự động và kéo được công thức xuống dưới.",
- "Ich kann eine Formel nach rechts ziehen.": "Mình kéo được công thức sang phải.",
- "Ich kann erklären, warum aus =B5*C5 eine Zeile tiefer =B6*C6 wird.": "Mình giải thích được tại sao <code>=B5*C5</code> xuống một hàng thì thành <code>=B6*C6</code>.",
- "Plus Ich kann vorhersagen, welche Formel nach dem Ziehen in einer Zelle steht.": "<span class=\"badge plus\">Plus</span> Mình đoán trước được công thức nào nằm trong một ô sau khi kéo.",
- "★ Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">★ Expedition</span> Mình tính được số dư tài khoản liên tục.",
  "Üben Das Ausfüll-Orakel": "<span class=\"badge ueben\">Üben</span> Nhà tiên tri điền tự động",
  "Das Orakel aus Schritt 2 – jetzt selbst in Calc: Was macht Calc aus Montag, Quartal 1 oder 5, 3? Erst raten, dann ausfüllen.": "Nhà tiên tri ở bước 2 – bây giờ tự làm trong Calc: Calc làm gì từ Montag, Quartal 1 hoặc 5, 3? Đoán trước, rồi mới điền.",
  "ODS Üben: Ausfüll-Orakelk8-04-ausfuellen-mehr-ausfuell-orakel.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Nhà tiên tri điền tự động</strong><small>k8-04-ausfuellen-mehr-ausfuell-orakel.ods</small></span>",
@@ -145,5 +137,5 @@
  "Fehler": "Lỗi",
  "Montag": "Montag (thứ Hai)",
  "Donnerstag": "Donnerstag (thứ Năm)",
- "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Thường thì hàng nào cũng tính giống nhau: cho mỗi món hàng, mỗi ngày, mỗi học sinh. Bạn chỉ viết công thức một lần rồi kéo xuống dưới. Calc tự điều chỉnh các ô trong mỗi hàng. Việc này đỡ được rất nhiều công gõ và nhiều lỗi gõ nhầm."
+ "Oft rechnest du in jeder Zeile das Gleiche: für jeden Artikel, für jeden Tag. Du schreibst die Formel nur einmal. Dann ziehst du sie nach unten. Calc passt die Formel in jeder Zeile selbst an. So tippst du weniger und machst weniger Fehler.": "Thường thì bạn tính cùng một việc ở mỗi hàng: cho mỗi món hàng, cho mỗi ngày. Bạn chỉ viết công thức một lần. Rồi bạn kéo nó xuống dưới. Calc tự điều chỉnh công thức ở mỗi hàng. Như vậy bạn gõ ít hơn và ít lỗi hơn."
 }

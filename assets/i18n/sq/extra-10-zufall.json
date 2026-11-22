@@ -2,9 +2,6 @@
  "Zufall & Spiele · Calc-Kurs Zusatzmodul": "Rasti dhe lojërat · Kursi Calc modul shtesë",
  "Zufall & Spiele – würfeln, werfen, drehen": "Rasti dhe lojërat – zar, monedhë, rrotë",
  "Vorwissen: WENN, ZÄHLENWENN hilft": "Të duhet: WENN, ZÄHLENWENN ndihmon",
- "Ich würfle mit ZUFALLSBEREICH und würfle mit F9 neu.": "Hedh zarin me <code>ZUFALLSBEREICH</code> (RASTËSISHT NDËRMJET) dhe e hedh përsëri me <kbd>F9</kbd>.",
- "Ich werfe eine Münze mit ZUFALLSZAHL und WENN.": "Hedh monedhën me <code>ZUFALLSZAHL</code> (NUMËR I RASTËSISHËM) dhe WENN.",
- "Ich probiere aus: Wie oft kommt die 6 wirklich?": "E provoj: sa herë del vërtet një 6?",
  "💡 Du würfelst 60-mal. Im Schnitt kommt jede Zahl 10-mal.": "💡 E hedh një zar <strong>60 herë</strong>. Mesatarisht çdo numër del 10 herë.",
  "Überleg: Wie oft kommt die 6 wirklich?": "<strong>Mendo:</strong> Sa herë del vërtet 6?",
  "Genau 10-mal.": "Saktësisht 10 herë.",
@@ -55,5 +52,5 @@
  "Genau 100-mal": "Saktësisht 100 herë",
  "60-mal": "60 herë",
  "Eine Zahl": "Një numër",
- "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele und probierst aus, wie Zufall wirklich funktioniert: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc mund të hedhë zarin, të hedhë një monedhë dhe të rrotullojë rrotën e fatit. Me këtë ndërton lojëra të vogla dhe provon si funksionon vërtet rastësia: a del vërtet 6-shi dhjetë herë në 60 hedhje?"
+ "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele. Und du probierst aus: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc mund të hedhë zarin, të hedhë një monedhë dhe të rrotullojë rrotën e fatit. Me këtë ndërton lojëra të vogla. Dhe provon: a del vërtet 6-shi dhjetë herë në 60 hedhje?"
 }

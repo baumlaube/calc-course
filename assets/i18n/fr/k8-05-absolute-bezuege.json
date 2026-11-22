@@ -3,9 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Références absolues – le $ comme ancre",
  "Klasse 8 · Baustein 5": "8e année · Unité 5",
  "Vorwissen: Formeln ausfüllen": "Prérequis : recopier des formules",
- "Ich kann erklären, warum ein Zellbezug beim Ausfüllen „wandert“.": "Je sais expliquer pourquoi une référence de cellule « se déplace » pendant la recopie.",
- "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Je fixe une référence avec le signe <code>$</code>.",
- "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Je décide quand il me faut un <code>$</code> – et quand non.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena a un job d'été chez un glacier et gagne 11 € de l'heure. Dans C5, elle a calculé son salaire du lundi : <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> La solution : le signe $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ Le <code>$</code> est une <strong>ancre</strong>.<br/><code>$B$2</code> reste toujours <code>B2</code> pendant la recopie.",
@@ -44,11 +41,6 @@
  "nur die Spalte A": "seulement la colonne A",
  "nur die Zeile 1": "seulement la ligne 1",
  "Tipp: Drück Umschalt + F4 mehrmals hintereinander – so springst du durch alle Varianten.": "Astuce : appuie plusieurs fois de suite sur <kbd>Umschalt</kbd> (Maj) + <kbd>F4</kbd> – tu passes ainsi par toutes les variantes.",
- "Ich kann erklären, warum =B5*B2 beim Ausfüllen kaputtgeht.": "Je sais expliquer pourquoi <code>=B5*B2</code> ne marche plus après la recopie.",
- "Ich kann mit $ (oder Umschalt+F4) einen Bezug festhalten.": "Je fixe une référence avec <code>$</code> (ou <kbd>Umschalt</kbd>+<kbd>F4</kbd>).",
- "Ich erkenne, wann eine Formel ein $ braucht.": "Je reconnais quand une formule a besoin d'un <code>$</code>.",
- "Plus Ich finde versteckte Fehler in fremden Tabellen.": "<span class=\"badge plus\">Plus</span> Je trouve des erreurs cachées dans les tableaux des autres.",
- "Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">Expedition</span> J'utilise des références mixtes comme <code>$A2</code> et <code>B$1</code>.",
  "← 4 · Ausfüllen": "← 4 · Recopier",
  "6 · Diagramme →": "6 · Graphiques →",
  "Calc füllt aus … schau auf Spalte C!": "Calc recopie … regarde la colonne C !",
@@ -84,7 +76,6 @@
  "66,00 € (6 × 11 €)": "66,00 € (6 × 11 €)",
  "Profi-Trick: ein Name statt $. Klick B2 an, tipp oben links ins Namenfeld Lohn und drück Enter. Jetzt geht auch =B5*Lohn. Ein Name bleibt beim Ausfüllen immer fest.": "<strong>Astuce de pro : un nom au lieu du $.</strong> Clique sur B2, tape <code>Lohn</code> (salaire) dans le <strong>Namenfeld</strong> (zone de nom) en haut à gauche et appuie sur <kbd>Enter</kbd>. Maintenant <code>=B5*Lohn</code> marche aussi. Un nom reste toujours fixe quand on recopie.",
  "Profi-Trick: Eine Zelle im Namenfeld benennen, z. B. Lohn. Ein Name bleibt beim Ausfüllen fest.": "Astuce de pro : nommer une cellule dans le <strong>Namenfeld</strong> (zone de nom), par ex. <code>Lohn</code>. Un nom reste fixe quand on recopie.",
- "★ Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">★ Expedition</span> Je sais utiliser des références mixtes comme <code>$A2</code> et <code>B$1</code>.",
  "Üben Der Steuer-Schalter": "<span class=\"badge ueben\">Üben</span> L'interrupteur de TVA",
  "Der Steuersatz steht nur einmal, in B1. Alle Formeln holen ihn sich von dort.": "Le taux de TVA n'est écrit qu'une fois, en B1. Toutes les formules vont le chercher là.",
  "C4: Steuer = Netto × Steuersatz, mit $.": "C4 : TVA = net × taux, avec <code>$</code>.",
@@ -153,5 +144,5 @@
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Pas encore fini : {} cellules sont vides. Continue à tirer la plage sélectionnée jusqu'à ce que tout soit rempli jusqu'à E9.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ La ligne 4 est juste. Maintenant sélectionne C4 et D4 ensemble et tire-les vers le bas jusqu'à la ligne 6.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Réfléchis :</strong> Lena tire la formule vers le bas jusqu'à C9. Qu'y a-t-il alors dans <strong>C6</strong> (mardi) ?",
- "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "Quand tu recopies, chaque référence de cellule se déplace. La plupart du temps, c’est juste. Mais certaines valeurs valent pour toutes les lignes, par exemple un salaire horaire. Avec le <code>$</code>, tu bloques une telle cellule. Si le salaire change, tu modifies une seule cellule et tout le tableau recalcule."
+ "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Quand tu tires, la formule se déplace avec. La plupart du temps, c’est juste. Mais certaines cellules doivent valoir pour toutes les lignes, par exemple le salaire horaire. Avec le <code>$</code>, tu bloques une telle cellule."
 }

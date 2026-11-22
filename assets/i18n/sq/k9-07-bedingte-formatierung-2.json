@@ -3,9 +3,6 @@
  "Bedingte Formatierung 2 – Ampel, Text und Grenzen": "Bedingte Formatierung 2 – semafor, tekst dhe kufij",
  "Klasse 9 · Baustein 7": "Klasa 9 · Njësia 7",
  "Vorwissen: Bedingte Formatierung 1, WENN 3": "Të duhet: formatim me kusht 1, WENN 3",
- "Ich kann mehrere Bedingungen in der richtigen Reihenfolge anlegen.": "Mund të krijoj disa kushte në radhën e duhur.",
- "Ich kann Text färben lassen, z. B. alles mit „fehlt“.": "Mund të ngjyros tekst, p.sh. gjithçka me „fehlt” (mungon).",
- "Ich kann eine Grenze aus einer Zelle mit $ benutzen.": "Mund të përdor një kufi nga një qelizë me <code>$</code>.",
  "Überleg: Welche Farbe bekommt der Akku mit 15 %?": "<strong>Mendo:</strong> Çfarë ngjyre merr bateria me <strong>15 %</strong>?",
  "gelb": "e verdhë",
  "rot": "e kuqe",
@@ -31,11 +28,6 @@
  "★ Expedition: Ganze Zeile färben freiwillig": "<span class=\"step-no\">★</span> Ekspeditë: Ngjyros një rresht të tërë <span class=\"badge expedition\">fakultative</span>",
  "OK": "OK",
  "Wer nicht bezahlt hat, soll mit der ganzen Zeile rot leuchten. Klick erst auf OK – was ist falsch? Dann verbessere die Formel.": "Të gjithë ata që nuk kanë paguar duhet të shkëlqejnë kuq me <strong>gjithë rreshtin</strong>. Kliko fillimisht OK – çfarë është gabim? Pastaj përmirëso formulën.",
- "Ich baue eine Ampel mit drei Bedingungen.": "Ndërtoj një semafor me tri kushte.",
- "Ich weiß: Die erste passende Bedingung gewinnt.": "E di: fiton kushti i parë që përshtatet.",
- "Ich färbe Text, z. B. \"fehlt\".": "Ngjyros tekst, p.sh. <code>\"fehlt\"</code>.",
- "Plus Ich nehme die Grenze aus einer Zelle mit $.": "<span class=\"badge plus\">Plus</span> E marr kufirin nga një qelizë me <code>$</code>.",
- "Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span> Ngjyros rreshta të tërë me „Formel ist”.",
  "← 6 · Bedingte Formatierung 1": "← 6 · Bedingte Formatierung 1",
  "8 · Fit für die Probe →": "8 · Gati për provim →",
  "✔ Jetzt steht „kleiner als 20 %“ zuerst – und Lea ist rot. Die strengste Bedingung gehört nach oben.": "✔ Tani „kleiner als 20 %” vjen e para – dhe Lea është e kuqe. Kushti më i rreptë i përket majës.",
@@ -76,7 +68,6 @@
  "🏆 Expedition geschafft! Das $ vor B hält die Spalte fest: Name, bezahlt? und Betrag schauen alle auf Spalte B. Die 2 ohne $ wandert mit – jede Zeile prüft sich selbst.": "🏆 Ekspedita përfundoi! <code>$</code> para B-së e mban kolonën fikse: emri, bezahlt? dhe shuma shikojnë të gjitha kolonën B. 2 pa $ lëviz – çdo rresht kontrollon veten.",
  "Fast. Prüfe die Zeilennummer: Die Formel gilt für die erste Zeile des Bereichs, also Zeile 2.": "Gati. Kontrollo numrin e rreshtit: formula është për rreshtin e parë të zonës, pra rreshti 2.",
  "Nur Spalte A ist richtig gefärbt? Für Spalte B schaut Calc auf C, für Spalte C auf D – der Bezug wandert mit! Setz ein $ vor das B: $B2=\"nein\"": "Vetëm kolona A ngjyroset saktë? Për kolonën B Calc shikon C, për kolonën C shikon D – referenca lëviz! Vendos një <code>$</code> para B-së: <code>$B2=\"nein\"</code>",
- "★ Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">★ Expedition</span> Ngjyros rreshta të tërë me „Formel ist“ (formula është).",
  "Üben Wer hat sich doppelt angemeldet?": "<span class=\"badge ueben\">Üben</span> Kush u regjistrua dy herë?",
  "18 Anmeldungen zum Skikurs, aber manche Namen stehen mehrmals da. Calc hat dafür eine eigene Bedingung: Format → Bedingt → Bedingung … → Zellwert ist · doppelt.": "18 regjistrime për kursin e skive, por disa emra shfaqen disa herë. Calc ka një kusht të veçantë për këtë: <strong>Format → Bedingt → Bedingung … → Zellwert ist · doppelt</strong> (vlera e qelizës · e dyfishtë).",
  "Calc färbt jeden Namen, der mehr als einmal vorkommt, auch den ersten. Löschst du die Zeilen mit den doppelten Namen, verschwindet das Rot von selbst.": "Calc ngjyros <em>çdo</em> emër që shfaqet më shumë se një herë, edhe të parin. Nëse fshin rreshtat me emrat e dyfishtë, e kuqja zhduket vetë.",
@@ -105,5 +96,5 @@
  "drei Farben: rot, gelb, grün": "<strong>semafor</strong> – tri ngjyra: e kuqe, e verdhë, e gjelbër",
  "etwas neu machen, z. B. eine Bedingung": "<strong>krijoj</strong> – bëj diçka të re, p.sh. një kusht",
  "ansehen, ändern und löschen": "<strong>menaxhoj</strong> – shoh, ndryshoj dhe fshij",
- "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Tani Calc ngjyros sipas disa rregullave – jeshile, e verdhë dhe e kuqe si semafori. Mëson pse ka rëndësi radha e rregullave, si ngjyros tekstin dhe si vjen një kufi nga një qelizë."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Tani Calc ngjyros me disa rregulla: jeshile, e verdhë dhe e kuqe si semafori. Mëson pse ka rëndësi radha e rregullave. Ngjyros edhe tekst dhe e merr kufirin nga një qelizë."
 }

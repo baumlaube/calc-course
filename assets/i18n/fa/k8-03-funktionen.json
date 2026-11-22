@@ -3,9 +3,6 @@
  "Funktionen – ganze Bereiche auf einmal": "تابع‌ها – محدوده‌های کامل یک‌جا",
  "Klasse 8 · Baustein 3": "کلاس 8 · واحد 3",
  "Vorwissen: Formeln mit Zellen": "پیش‌نیاز: فرمول با خانه‌ها",
- "Ich kann mit SUMME einen ganzen Bereich zusammenzählen.": "می‌توانم یک محدودهٔ کامل را با <strong>SUMME</strong> (جمع) جمع بزنم.",
- "Ich kann MITTELWERT, MIN und MAX benutzen.": "می‌توانم از <strong>MITTELWERT</strong> (میانگین)، <strong>MIN</strong> و <strong>MAX</strong> استفاده کنم.",
- "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "می‌توانم محدوده‌ای مثل <code>B5:B9</code> بنویسم یا با موس انتخاب کنم.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>این را بلدی:</strong> <code>=B5+B6+B7+B8+B9</code> پنج روز را جمع می‌زند. ولی 365 روز چه؟ برای همین <strong>تابع‌ها</strong> هستند.<br/>در B10 این است: <code>=SUMME(B5:B9)</code>",
  "Überleg: Was bedeutet B5:B9?": "<strong>فکر کن:</strong> <code>B5:B9</code> یعنی چه؟",
  "Nur B5 und B9": "فقط B5 و B9",
@@ -39,11 +36,6 @@
  "★ Expedition: Würfeln mit Calc freiwillig": "<span class=\"step-no\">★</span> اکتشاف: تاس انداختن با Calc <span class=\"badge expedition\">اختیاری</span>",
  "Jeder Würfel oben ist eine Formel: =ZUFALLSBEREICH(1;6). Berechne in B7 den Durchschnitt aller 20 Würfe. Dann würfle ein paar Mal neu.": "هر تاس بالا یک فرمول است: <code>=ZUFALLSBEREICH(1;6)</code> (تصادفی بین). در B7 میانگین هر 20 پرتاب را حساب کن. بعد چند بار دوباره تاس بینداز.",
  "Neu: Ein Bereich kann auch ein Rechteck sein: B2:F5 heißt von B2 oben links bis F5 unten rechts.": "جدید: محدوده می‌تواند یک مستطیل هم باشد: <code>B2:F5</code> یعنی از B2 بالا سمت چپ تا F5 پایین سمت راست.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren.": "می‌توانم محدوده‌ای مثل <code>B5:B9</code> را بخوانم و انتخاب کنم.",
- "Ich kann SUMME, MITTELWERT, MIN und MAX benutzen.": "می‌توانم از SUMME، MITTELWERT، MIN و MAX استفاده کنم.",
- "Ich weiß, wann ich welche Funktion brauche.": "می‌دانم کِی به کدام تابع نیاز دارم.",
- "Plus Ich kann ANZAHL benutzen und zwei Funktionen in einer Formel verbinden.": "<span class=\"badge plus\">Plus</span> می‌توانم از ANZAHL (تعداد) استفاده کنم و دو تابع را در یک فرمول ترکیب کنم.",
- "Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">Expedition</span> می‌توانم محدوده‌های مستطیلی مثل <code>B2:F5</code> را بررسی کنم.",
  "← 2 · Erste Formeln": "← 2 · فرمول‌های اول",
  "4 · Ausfüllen →": "4 · پر کردن →",
  "Der Doppelpunkt heißt „bis“. Schau auf den farbigen Rahmen: B5:B9 umfasst alle fünf Zellen von B5 bis B9.": "دو نقطه یعنی <strong>«تا»</strong>. به قاب رنگی نگاه کن: <code>B5:B9</code> هر پنج خانه از B5 تا B9 را شامل می‌شود.",
@@ -83,9 +75,6 @@
  "PlusAufgabe 1c · Summen-Fallen: Wann der Σ-Knopf danebenliegt.": "<span class=\"badge plus\">Plus</span><span><strong>تمرین 1c · تله‌های جمع:</strong> وقتی دکمه Σ اشتباه می‌کند.</span>",
  "Bereich markieren: Nach =SUMME( mit gedrückter Maustaste von B5 bis B9 ziehen. Lange Liste: erste Zahl anklicken, dann Strg + ⇧ + ↓.": "انتخاب محدوده: بعد از <code>=SUMME(</code> دکمه ماوس را نگه دار و از B5 تا B9 بکش. فهرست بلند: روی اولین عدد کلیک کن، بعد <kbd>Strg</kbd> + <kbd>⇧</kbd> + <kbd>↓</kbd>.",
  "Der Σ-Knopf rät den Bereich. Rahmen prüfen, dann erst Enter.": "دکمه Σ محدوده را حدس می‌زند. <strong>قاب را بررسی کن</strong>، بعد <kbd>Enter</kbd>.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren, auch eine lange Liste.": "می‌توانم محدوده‌ای مثل <code>B5:B9</code> را بخوانم و انتخاب کنم، حتی یک فهرست بلند.",
- "Ich prüfe den Vorschlag vom Σ-Knopf, bevor ich Enter drücke.": "پیشنهاد دکمه Σ را پیش از زدن <kbd>Enter</kbd> بررسی می‌کنم.",
- "★ Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">★ Expedition</span> می‌توانم محدوده‌های مستطیلی مثل <code>B2:F5</code> را بررسی کنم.",
  "Üben Mein Zeugnis-Schnitt": "<span class=\"badge ueben\">Üben</span> معدل کارنامه من",
  "In Bayern zählen die Schulaufgaben (SA) doppelt. Spalte J zeigt den normalen Durchschnitt. Was steht im Zeugnis?": "در بایرن Schulaufgaben (SA، امتحان‌های بزرگ) <strong>دو برابر</strong> حساب می‌شوند. ستون J معدل معمولی را نشان می‌دهد. در کارنامه چه می‌آید؟",
  "=(2*SUMME(B2:D2)+SUMME(E2:I2))/113 SA doppelt = 6, dazu 5 andere Noten = 11": "<code>=(2*SUMME(B2:D2)+SUMME(E2:I2))/11</code><br/>۳ SA دو برابر = ۶، به‌علاوه ۵ نمره دیگر = ۱۱",
@@ -133,5 +122,5 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>میانگین</strong> – همه را جمع کن و بر تعداد تقسیم کن. در Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>مقدار</strong> – چیزی که در خانه است، بیشتر وقت‌ها یک عدد",
  "Zellen mit der Maus auswählen": "<strong>انتخاب کردن</strong> – خانه‌ها را با ماوس انتخاب کردن",
- "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "پنج عدد را هنوز با <code>+</code> جمع می‌کنی. ولی با ۳۰ نمره یا ۳۶۵ روز خسته‌کننده می‌شود. تابع‌هایی مثل <code>SUMME</code> (SUM)، <code>MITTELWERT</code> (AVERAGE)، <code>MIN</code> و <code>MAX</code> یک محدودهٔ کامل را یک‌جا حساب می‌کنند. با <code>MITTELWERT</code> مثلاً معدل نمره‌هایت را حساب می‌کنی."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "پنج عدد را می‌توانی با <code>+</code> جمع کنی. ولی ۳۰ نمره؟ یا ۳۶۵ روز؟ این خیلی طول می‌کشد. تابعی مثل <code>SUMME</code> (SUM) سلول‌های زیادی را یک‌جا حساب می‌کند. با <code>MITTELWERT</code> (AVERAGE) مثلاً معدل نمره‌هایت را حساب می‌کنی."
 }

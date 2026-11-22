@@ -3,9 +3,6 @@
  "Projekt: Welcher Handyvertrag passt zu mir?": "Projekat: Koja mobilna tarifa mi odgovara?",
  "Zusatzmodul · Projekt": "Dodatni modul · Projekat",
  "Vorwissen: WENN, $-Anker, Diagramme": "Predznanje: WENN, $ sidro, dijagrami",
- "Ich kann Tarife mit WENN und MIN vergleichen.": "Mogu uporediti tarife sa WENN i MIN.",
- "Ich kann Kosten über zwei Jahre berechnen.": "Mogu izračunati troškove za dvije godine.",
- "Ich kann meine Entscheidung mit Zahlen und einem Diagramm begründen.": "Mogu obrazložiti svoju odluku brojevima i dijagramom.",
  "📱 Euer Auftrag": "<span class=\"step-no\">📱</span> Vaš zadatak",
  "Vier Tarife, ein Ziel: Welcher ist für euren Datenbedarf über zwei Jahre am günstigsten? Die Tarife sind ausgedacht – die Rechnung ist echt.": "Četiri tarife, jedan cilj: koja je <strong>za vašu potrebu za podacima</strong> kroz dvije godine najjeftinija? Tarife su izmišljene – račun je pravi.",
  "ODS Projektdateix06-handyvertrag.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Projektna datoteka</strong><small>x06-handyvertrag.ods</small></span>",
@@ -43,5 +40,6 @@
  "SVERWEIS →": "SVERWEIS →",
  "Kosten in 2 Jahren bei {} GB": "Troškovi za 2 godine kod {} GB",
  "Am günstigsten: {} mit {}.": "Najjeftinije: <strong>{}</strong> sa {}.",
- "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Premalo podataka (i s dodatnim paketom): {}."
+ "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Premalo podataka (i s dodatnim paketom): {}.",
+ "Jeder Anbieter sagt: Unser Tarif ist der beste. Welcher passt wirklich zu dir? Du vergleichst Tarife über zwei Jahre mit WENN und MIN. Deine Wahl zeigst du mit Zahlen und einem Diagramm.": "Svaki operater kaže: naša tarifa je najbolja. Koja ti zaista odgovara? Porediš tarife kroz dvije godine pomoću <code>WENN</code> (IF) i <code>MIN</code>. Svoj izbor pokazuješ brojevima i dijagramom."
 }

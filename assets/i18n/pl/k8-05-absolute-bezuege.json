@@ -3,9 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Odwołania bezwzględne – $ jako kotwica",
  "Klasse 8 · Baustein 5": "Klasa 8 · Jednostka 5",
  "Vorwissen: Formeln ausfüllen": "Wiedza wstępna: wypełnianie formuł",
- "Ich kann erklären, warum ein Zellbezug beim Ausfüllen „wandert“.": "Umiem wyjaśnić, dlaczego odwołanie do komórki „przesuwa się” przy wypełnianiu.",
- "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Umiem unieruchomić odwołanie znakiem <code>$</code>.",
- "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Umiem zdecydować, kiedy potrzebuję <code>$</code> – a kiedy nie.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena ma wakacyjną pracę w lodziarni i zarabia 11 € na godzinę. W C5 policzyła wypłatę za poniedziałek: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Rozwiązanie: znak $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> to <strong>kotwica</strong>.<br/><code>$B$2</code> przy wypełnianiu zawsze zostaje <code>B2</code>.",
@@ -44,11 +41,6 @@
  "nur die Spalte A": "tylko kolumna A",
  "nur die Zeile 1": "tylko wiersz 1",
  "Tipp: Drück Umschalt + F4 mehrmals hintereinander – so springst du durch alle Varianten.": "Wskazówka: naciśnij kilka razy z rzędu <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd> – tak przejdziesz przez wszystkie warianty.",
- "Ich kann erklären, warum =B5*B2 beim Ausfüllen kaputtgeht.": "Umiem wyjaśnić, dlaczego <code>=B5*B2</code> psuje się przy wypełnianiu.",
- "Ich kann mit $ (oder Umschalt+F4) einen Bezug festhalten.": "Umiem unieruchomić odwołanie za pomocą <code>$</code> (albo <kbd>Umschalt</kbd>+<kbd>F4</kbd>).",
- "Ich erkenne, wann eine Formel ein $ braucht.": "Widzę, kiedy formuła potrzebuje <code>$</code>.",
- "Plus Ich finde versteckte Fehler in fremden Tabellen.": "<span class=\"badge plus\">Plus</span> Umiem znaleźć ukryte błędy w cudzych tabelach.",
- "Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">Expedition</span> Umiem używać odwołań mieszanych jak <code>$A2</code> i <code>B$1</code>.",
  "← 4 · Ausfüllen": "← 4 · Wypełnianie",
  "6 · Diagramme →": "6 · Wykresy →",
  "Calc füllt aus … schau auf Spalte C!": "Calc wypełnia … spójrz na kolumnę C!",
@@ -84,7 +76,6 @@
  "66,00 € (6 × 11 €)": "66,00 € (6 × 11 €)",
  "Profi-Trick: ein Name statt $. Klick B2 an, tipp oben links ins Namenfeld Lohn und drück Enter. Jetzt geht auch =B5*Lohn. Ein Name bleibt beim Ausfüllen immer fest.": "<strong>Trik profesjonalisty: nazwa zamiast $.</strong> Kliknij B2, wpisz u góry po lewej w <strong>Namenfeld</strong> (pole nazwy) <code>Lohn</code> (płaca) i naciśnij <kbd>Enter</kbd>. Teraz działa też <code>=B5*Lohn</code>. Nazwa przy wypełnianiu zawsze zostaje stała.",
  "Profi-Trick: Eine Zelle im Namenfeld benennen, z. B. Lohn. Ein Name bleibt beim Ausfüllen fest.": "Trik profesjonalisty: nazwij komórkę w <strong>Namenfeld</strong> (pole nazwy), np. <code>Lohn</code>. Nazwa przy wypełnianiu zostaje stała.",
- "★ Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">★ Expedition</span> Umiem używać odwołań mieszanych jak <code>$A2</code> i <code>B$1</code>.",
  "Üben Der Steuer-Schalter": "<span class=\"badge ueben\">Üben</span> Przełącznik podatku",
  "Der Steuersatz steht nur einmal, in B1. Alle Formeln holen ihn sich von dort.": "Stawka podatku jest wpisana tylko raz, w B1. Wszystkie formuły biorą ją stamtąd.",
  "C4: Steuer = Netto × Steuersatz, mit $.": "C4: podatek = netto × stawka podatku, z <code>$</code>.",
@@ -153,5 +144,5 @@
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Jeszcze nie gotowe: {} komórek jest pustych. Przeciągaj zaznaczony obszar dalej, aż wszystko do E9 będzie pełne.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Wiersz 4 jest dobrze. Teraz zaznacz razem C4 i D4 i przeciągnij w dół do wiersza 6.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Pomyśl:</strong> Lena przeciąga formułę w dół do C9. Co jest wtedy w <strong>C6</strong> (wtorek)?",
- "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "Przy wypełnianiu każde odwołanie do komórki się przesuwa. Zwykle to dobrze. Ale niektóre wartości dotyczą wszystkich wierszy, na przykład stawka godzinowa. Znakiem <code>$</code> unieruchamiasz taką komórkę. Gdy stawka się zmieni, zmieniasz tylko jedną komórkę, a cała tabela się przelicza."
+ "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Przy przeciąganiu formuła się przesuwa. Zwykle to dobrze. Ale niektóre komórki mają obowiązywać dla wszystkich wierszy, na przykład stawka godzinowa. Znakiem <code>$</code> unieruchamiasz taką komórkę."
 }

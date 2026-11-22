@@ -2,9 +2,6 @@
  "Zufall & Spiele · Calc-Kurs Zusatzmodul": "Випадковість та ігри · Курс Calc, додатковий модуль",
  "Zufall & Spiele – würfeln, werfen, drehen": "Випадковість та ігри – кидати кубик, монетку, крутити колесо",
  "Vorwissen: WENN, ZÄHLENWENN hilft": "Попередні знання: WENN, ZÄHLENWENN допоможе",
- "Ich würfle mit ZUFALLSBEREICH und würfle mit F9 neu.": "Я кидаю кубик за допомогою <code>ZUFALLSBEREICH</code> (ВИПАДКМІЖ) і перекидаю клавішею <kbd>F9</kbd>.",
- "Ich werfe eine Münze mit ZUFALLSZAHL und WENN.": "Я кидаю монетку за допомогою <code>ZUFALLSZAHL</code> (ВИПАДКОВЕ ЧИСЛО) і WENN.",
- "Ich probiere aus: Wie oft kommt die 6 wirklich?": "Я перевіряю: як часто справді випадає 6?",
  "💡 Du würfelst 60-mal. Im Schnitt kommt jede Zahl 10-mal.": "💡 Ти кидаєш кубик <strong>60 разів</strong>. У середньому кожне число випадає 10 разів.",
  "Überleg: Wie oft kommt die 6 wirklich?": "<strong>Подумай:</strong> скільки разів справді випадає 6?",
  "Genau 10-mal.": "Рівно 10 разів.",
@@ -55,5 +52,5 @@
  "Genau 100-mal": "Рівно 100 разів",
  "60-mal": "60 разів",
  "Eine Zahl": "Число",
- "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele und probierst aus, wie Zufall wirklich funktioniert: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc може кидати кубик, підкидати монету й крутити колесо фортуни. З цим ти створюєш маленькі ігри й перевіряєш, як насправді працює випадковість: чи справді 6 випаде десять разів із 60 кидків?"
+ "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele. Und du probierst aus: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc може кидати кубик, підкидати монету й крутити колесо фортуни. З цим ти створюєш маленькі ігри. І перевіряєш: чи справді 6 випаде десять разів із 60 кидків?"
 }

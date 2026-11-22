@@ -2,9 +2,6 @@
  "Drucken wie ein Profi · Calc-Kurs Zusatzmodul": "Štampaj kao profesionalac · Calc kurs dodatni modul",
  "Drucken wie ein Profi": "Štampaj kao profesionalac",
  "brauchst du bei jeder Abgabe": "treba ti kod svake predaje",
- "Ich prüfe mit der Druckvorschau, wie der Ausdruck aussieht.": "Pregledom prije štampe provjeravam kako izgleda ispis.",
- "Ich stelle Querformat, „auf eine Seite“ und eine Kopfzeile ein.": "Podešavam položeno, „na jednu stranicu“ i zaglavlje.",
- "Ich lege fest, was gedruckt wird – und speichere als PDF.": "Određujem šta se štampa – i čuvam kao PDF.",
  "💡 Deine Notenliste ist 30 cm breit. Auf ein A4-Blatt hochkant passen nur etwa 17 cm.": "💡 Tvoja lista ocjena je <strong>široka 30 cm</strong>. Na uspravni list A4 stane samo oko <strong>17 cm</strong>.",
  "Überleg: Was passiert, wenn du einfach auf Drucken klickst?": "<strong>Razmisli:</strong> Šta se desi ako jednostavno klikneš na štampanje?",
  "Calc macht alles kleiner – passt auf ein Blatt.": "Calc sve smanji – stane na jedan list.",
@@ -65,5 +62,6 @@
  "Einfügen → Kopf": "Einfügen → Kopf (Umetni → Zaglavlje)",
  "Datei → Druckvorschau": "Datei → Druckvorschau (Datoteka → Pregled ispisa)",
  "Spalten löschen": "Obrisati kolone",
- "Klein schreiben": "Pisati sitno"
+ "Klein schreiben": "Pisati sitno",
+ "Auf dem Bildschirm sieht die Tabelle gut aus. Auf dem Papier fehlt plötzlich die Hälfte. Hier lernst du, die Tabelle richtig auf ein Blatt zu bringen. Du speicherst sie auch als PDF, zum Abgeben oder Verschicken.": "Na ekranu tabela izgleda dobro. Na papiru odjednom nedostaje pola. Ovdje učiš kako tabelu pravilno staviti na jedan list. Spremaš je i kao PDF, da je predaš ili pošalješ."
 }

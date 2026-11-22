@@ -1,9 +1,6 @@
 {
  "Sortieren & Filtern · Calc-Kurs Zusatzmodul": "Sort &amp; filter · Calc course extra module",
  "Sortieren & Filtern – große Tabellen bändigen": "Sortieren &amp; Filtern (sort &amp; filter) – tame large tables",
- "Ich kann eine Tabelle auf- oder absteigend sortieren.": "I can sort a table ascending or descending.",
- "Ich kann mit dem AutoFilter nur bestimmte Zeilen anzeigen.": "I can show only certain rows with the AutoFilter.",
- "Ich weiß, warum man nie nur eine Spalte sortiert.": "I know why you never sort just one column.",
  "💡 Tom will die Besten oben haben. Er markiert nur die Spalte C und sortiert sie absteigend.": "💡 Tom wants the best at the top. He selects <strong>only column C</strong> and sorts it descending.",
  "Überleg: Was passiert?": "<strong>Think:</strong> What happens?",
  "Alles richtig – die Besten stehen oben.": "Everything is fine – the best are at the top.",
@@ -64,5 +61,5 @@
  "alphabetisch": "alphabetical",
  "größte oben": "largest at the top",
  "kleinste oben": "smallest at the top",
- "In einer Tabelle mit Hunderten Zeilen sucht niemand von Hand. Du sortierst sie, zum Beispiel nach Punkten, oder du filterst nur die Zeilen, die du brauchst. Das kennst du aus jedem Online-Shop: sortieren nach Preis, filtern nach Größe.": "Nobody searches a table with hundreds of rows by hand. You sort it, for example by points, or you filter just the rows you need. You know this from every online shop: sort by price, filter by size."
+ "Eine Tabelle hat hundert Zeilen. Du suchst nicht jede Zeile ab. Du sortierst die Tabelle, zum Beispiel nach Punkten. Oder du filterst: Dann siehst du nur die Zeilen, die du brauchst. Das kennst du aus Online-Shops: sortieren nach Preis, filtern nach Größe.": "A table has a hundred rows. You don’t search every row. You sort the table, for example by points. Or you filter: then you only see the rows you need. You know this from online shops: sort by price, filter by size."
 }

@@ -3,9 +3,6 @@
  "Projekt: Welcher Handyvertrag passt zu mir?": "Proyecto: ¿qué contrato de móvil me conviene?",
  "Zusatzmodul · Projekt": "Módulo extra · proyecto",
  "Vorwissen: WENN, $-Anker, Diagramme": "Conocimientos previos: WENN, ancla $, gráficos",
- "Ich kann Tarife mit WENN und MIN vergleichen.": "Comparo tarifas con WENN y MIN.",
- "Ich kann Kosten über zwei Jahre berechnen.": "Calculo costes a lo largo de dos años.",
- "Ich kann meine Entscheidung mit Zahlen und einem Diagramm begründen.": "Justifico mi decisión con números y un gráfico.",
  "📱 Euer Auftrag": "<span class=\"step-no\">📱</span> Tu misión",
  "Vier Tarife, ein Ziel: Welcher ist für euren Datenbedarf über zwei Jahre am günstigsten? Die Tarife sind ausgedacht – die Rechnung ist echt.": "Cuatro tarifas, un objetivo: ¿cuál es la más barata <strong>para tu consumo de datos</strong> en dos años? Las tarifas son inventadas; las cuentas, reales.",
  "ODS Projektdateix06-handyvertrag.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Projektdatei</strong> (archivo del proyecto)<small>x06-handyvertrag.ods</small></span>",
@@ -44,5 +41,5 @@
  "Kosten in 2 Jahren bei {} GB": "Coste en 2 años con {} GB",
  "Am günstigsten: {} mit {}.": "La más barata: <strong>{}</strong> con {}.",
  "Zu wenig Daten (auch mit Zusatzpaket): {}.": "No hay datos suficientes (ni con el paquete extra): {}.",
- "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Cada compañía anuncia la tarifa más barata. ¿Cuál te conviene de verdad? En este proyecto comparas tarifas durante dos años con <code>WENN</code> (SI) y <code>MIN</code> y justificas tu elección con números y un gráfico."
+ "Jeder Anbieter sagt: Unser Tarif ist der beste. Welcher passt wirklich zu dir? Du vergleichst Tarife über zwei Jahre mit WENN und MIN. Deine Wahl zeigst du mit Zahlen und einem Diagramm.": "Cada compañía dice: nuestra tarifa es la mejor. ¿Cuál te conviene de verdad? Comparas tarifas durante dos años con <code>WENN</code> (SI) y <code>MIN</code>. Muestras tu elección con números y un gráfico."
 }

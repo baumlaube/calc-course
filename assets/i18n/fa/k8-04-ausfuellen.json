@@ -3,9 +3,6 @@
  "Formeln ausfüllen – einmal schreiben, überall rechnen": "پر کردن فرمول‌ها – یک بار بنویس، همه جا حساب کن",
  "Klasse 8 · Baustein 4": "کلاس 8 · واحد 4",
  "Vorwissen: Formeln, SUMME": "پیش‌نیاز: فرمول‌ها، SUMME",
- "Ich kann eine Formel nach unten und nach rechts ziehen.": "می‌توانم یک فرمول را به پایین و به راست بکشم.",
- "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "می‌توانم توضیح بدهم که ارجاع‌های خانه چطور تغییر می‌کنند.",
- "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "می‌توانم پیش‌بینی کنم کدام فرمول در یک خانه قرار می‌گیرد.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "برای جشن کلاس خرید می‌کنی. در D5 از قبل فرمول <code>=B5*C5</code> هست → 4 × 1,50 € = 6,00 €.<br/>برای ردیف‌های دیگر همه چیز را دوباره نمی‌نویسی – فقط فرمول را به پایین <strong>می‌کشی</strong>.",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – دقیقاً همان",
  "gar keine – nur die Zahl 6,00 €": "هیچ‌کدام – فقط عدد 6,00 €",
@@ -41,11 +38,6 @@
  "Du sparst auf ein Fahrrad. Jede Woche kommt ein Betrag dazu. Wie viel hast du nach 8 Wochen?": "برای یک دوچرخه پس‌انداز می‌کنی. هر هفته کمی پول اضافه می‌شود. بعد از 8 هفته چقدر داری؟",
  "Kontostand = Kontostand der Vorwoche + neuer Betrag": "موجودی = <strong>موجودی هفتهٔ قبل</strong> + مبلغ جدید",
  "In C5 steht der Kontostand nach Woche 1. Schreib in C6 eine Formel für Woche 2 und zieh sie nach unten. Tipp: Die Vorwoche steht genau eine Zeile darüber.": "C5 موجودی بعد از هفتهٔ 1 را نشان می‌دهد. در <strong>C6</strong> یک فرمول برای هفتهٔ 2 بنویس و به پایین بکش. نکته: هفتهٔ قبل دقیقاً یک ردیف بالاتر است.",
- "Ich finde das Ausfüllkästchen und kann eine Formel nach unten ziehen.": "می‌توانم دستگیرهٔ پر کردن را پیدا کنم و فرمول را به پایین بکشم.",
- "Ich kann eine Formel nach rechts ziehen.": "می‌توانم فرمول را به راست بکشم.",
- "Ich kann erklären, warum aus =B5*C5 eine Zeile tiefer =B6*C6 wird.": "می‌توانم توضیح بدهم چرا <code>=B5*C5</code> یک ردیف پایین‌تر <code>=B6*C6</code> می‌شود.",
- "Plus Ich kann vorhersagen, welche Formel nach dem Ziehen in einer Zelle steht.": "<span class=\"badge plus\">Plus</span> می‌توانم پیش‌بینی کنم بعد از کشیدن کدام فرمول در خانه است.",
- "Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">Expedition</span> می‌توانم موجودی جاری حساب کنم.",
  "← 3 · Funktionen": "← 3 · تابع‌ها",
  "5 · Absolute Bezüge →": "5 · ارجاع مطلق →",
  "Calc füllt aus … schau auf Spalte D!": "Calc دارد پر می‌کند … به ستون D نگاه کن!",
@@ -92,7 +84,6 @@
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen. Mit Probe: Kommt auf beiden Wegen dasselbe heraus?": "<span class=\"badge basis\">Basis</span><span><strong>تمرین 2 · پول توجیبی:</strong> جمع‌ها را به راست <em>و</em> به پایین پر کن. با بررسی: آیا از هر دو راه همان نتیجه درمی‌آید؟</span>",
  "Calc setzt auch Reihen fort: Montag → Dienstag, Januar → Februar, 10 und 20 → 30.": "Calc سری‌ها را هم ادامه می‌دهد: Montag → Dienstag (دوشنبه → سه‌شنبه)، Januar → Februar، 10 و 20 → 30.",
  "Probe: Die Gesamtsumme auf zwei Wegen rechnen. Gleich? Dann stimmt alles.": "<strong>بررسی:</strong> جمع کل را از دو راه حساب کن. برابر است؟ پس همه چیز درست است.",
- "★ Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">★ Expedition</span> می‌توانم موجودی جاری را حساب کنم.",
  "Üben Das Ausfüll-Orakel": "<span class=\"badge ueben\">Üben</span> پیشگوی پر کردن",
  "Das Orakel aus Schritt 2 – jetzt selbst in Calc: Was macht Calc aus Montag, Quartal 1 oder 5, 3? Erst raten, dann ausfüllen.": "پیشگوی گام ۲ – حالا خودت در Calc: Calc از Montag، Quartal 1 یا 5، 3 چه می‌سازد؟ اول حدس بزن، بعد پر کن.",
  "ODS Üben: Ausfüll-Orakelk8-04-ausfuellen-mehr-ausfuell-orakel.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: پیشگوی پر کردن</strong><small>k8-04-ausfuellen-mehr-ausfuell-orakel.ods</small></span>",
@@ -149,5 +140,5 @@
  "Fehler": "خطا",
  "Montag": "Montag (دوشنبه)",
  "Donnerstag": "Donnerstag (پنجشنبه)",
- "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "اغلب در هر ردیف همان حساب انجام می‌شود: برای هر کالا، هر روز، هر دانش‌آموز. فرمول را فقط یک بار می‌نویسی و آن را به پایین می‌کشی. Calc خودش خانه‌ها را در هر ردیف تنظیم می‌کند. این خیلی در تایپ و غلط تایپی صرفه‌جویی می‌کند."
+ "Oft rechnest du in jeder Zeile das Gleiche: für jeden Artikel, für jeden Tag. Du schreibst die Formel nur einmal. Dann ziehst du sie nach unten. Calc passt die Formel in jeder Zeile selbst an. So tippst du weniger und machst weniger Fehler.": "اغلب در هر ردیف همان حساب را انجام می‌دهی: برای هر کالا، برای هر روز. فرمول را فقط یک بار می‌نویسی. بعد آن را به پایین می‌کشی. Calc خودش فرمول را در هر ردیف تنظیم می‌کند. این‌طور کمتر تایپ می‌کنی و کمتر اشتباه می‌کنی."
 }

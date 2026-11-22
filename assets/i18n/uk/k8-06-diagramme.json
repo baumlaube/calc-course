@@ -3,9 +3,6 @@
  "Diagramme – Zahlen auf einen Blick": "Діаграми – числа з першого погляду",
  "Klasse 8 · Baustein 6": "8 клас · Модуль 6",
  "Vorwissen: Tabellen markieren": "Попередні знання: виділення таблиць",
- "Ich kann aus einer Tabelle ein Diagramm erstellen.": "Я вмію створити діаграму з таблиці.",
- "Ich kann das passende Diagramm wählen: Säule, Kreis oder Linie.": "Я вмію вибрати правильну діаграму: <strong>Säule</strong> (стовпчикова), <strong>Kreis</strong> (кругова) або <strong>Linie</strong> (лінійна).",
- "Ich kann ein Diagramm beschriften und richtig lesen.": "Я вмію підписати діаграму і правильно її читати.",
  "Jonas hat die Temperaturen einer Woche in ein Diagramm verwandelt. Irgendwas stimmt da nicht …": "Йонас перетворив температури за тиждень на діаграму. Щось тут не так …",
  "Überleg: Was ist das Problem?": "<strong>Подумай:</strong> у чому проблема?",
  "Die Legende ist zu lang.": "Легенда задовга.",
@@ -41,10 +38,6 @@
  "★ Expedition: Lügen mit Diagrammen freiwillig": "<span class=\"step-no\">★</span> Експедиція: як обманюють діаграмами <span class=\"badge expedition\">за бажанням</span>",
  "Abstimmung über die Klassenfahrt: Berlin 48 Stimmen, München 52 Stimmen. Verschieb den Regler. Wo fängt die y-Achse an?": "Голосування про шкільну поїздку: Берлін – 48 голосів, Мюнхен – 52 голоси. Пересунь повзунок. Звідки починається вісь y?",
  "y-Achse beginnt bei:": "вісь y починається з:",
- "Ich weiß, wann Säule, Kreis oder Linie passt.": "Я знаю, коли підходить стовпчикова, кругова або лінійна діаграма.",
- "Ich gebe jedem Diagramm einen Titel und beschrifte die Achsen.": "Я даю кожній діаграмі заголовок і підписую осі.",
- "Plus Ich kann Prozente im Kreisdiagramm anzeigen.": "<span class=\"badge plus\">Plus</span> Я вмію показати відсотки на круговій діаграмі.",
- "Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">Expedition</span> Я розпізнаю хитрі діаграми за віссю y.",
  "← 5 · Absolute Bezüge": "← 5 · Абсолютні посилання",
  "7 · Projekt →": "7 · Проєкт →",
  "Wetterwoche (°C)": "Погода за тиждень (°C)",
@@ -81,7 +74,6 @@
  "Wo die y-Achse anfängt": "Звідки починається вісь y",
  "Wie groß das Bild ist": "Який розмір картинки",
  "Fängt die y-Achse nicht bei 0 an, wirken kleine Unterschiede riesig. Das ist ein beliebter Trick!": "Якщо вісь y починається не з 0, маленькі різниці здаються величезними. Це популярний трюк!",
- "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> Я розпізнаю підступні діаграми за віссю y.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> Дуель тарифів на електрику",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "Електрика коштує двічі: <strong>базова ціна</strong> щомісяця і ціна за кожну <strong>кВт·год</strong>.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Дуель тарифів</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
@@ -120,5 +112,5 @@
  "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ B6 bis D6 nach unten ausfüllen (заповнити B6:D6 вниз до D8)",
  "Erst nach rechts ausfüllen, bis D6!": "Спочатку заповни вправо, до D6!",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Ще не готово: {} клітинок порожні. Тягни виділену область далі, поки все до D8 не заповниться.",
- "Eine lange Zahlenliste liest kaum jemand gern. Ein Diagramm zeigt auf einen Blick, was größer ist oder wie sich etwas entwickelt. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du jeden Tag, im Wetterbericht und in den Nachrichten.": "Довгий список чисел мало хто любить читати. Діаграма одразу показує, що більше або як щось змінюється. Ти дізнаєшся, коли підходить стовпчикова, кругова чи лінійна діаграма. Діаграми ти бачиш щодня – у прогнозі погоди й у новинах."
+ "Viele Zahlen in einer Liste sind schwer zu lesen. Ein Diagramm zeigt sie als Bild. Dann siehst du sofort, was größer ist. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du oft, zum Beispiel im Wetterbericht.": "Багато чисел у списку важко читати. Діаграма показує їх як малюнок. Тоді одразу видно, що більше. Ти дізнаєшся, коли підходить стовпчикова, кругова чи лінійна діаграма. Діаграми ти бачиш часто, наприклад у прогнозі погоди."
 }

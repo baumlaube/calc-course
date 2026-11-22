@@ -2,9 +2,6 @@
  "SVERWEIS · Calc-Kurs Zusatzmodul": "SVERWEIS (ВПР) · Курс Calc, дополнительный модуль",
  "SVERWEIS – Calc schlägt nach": "SVERWEIS (ВПР) – Calc ищет сам",
  "Profi-Niveau (Klasse 10)": "Уровень для профи (10 класс)",
- "Ich kann mit SVERWEIS einen Wert in einer Liste nachschlagen.": "Я умею найти значение в списке с помощью SVERWEIS.",
- "Ich kann die vier Teile von SVERWEIS erklären.": "Я умею объяснить четыре части SVERWEIS.",
- "Ich halte die Liste mit $ fest und fülle die Formel aus.": "Я закрепляю список знаком <code>$</code> и заполняю формулу вниз.",
  "💡 Am Kiosk wird mit Nummern bestellt. In F2 steht die Nummer 103. In G2 kommt:=SVERWEIS(F2;A2:C7;3;0)": "💡 В киоске заказывают по номерам. В F2 стоит номер <strong>103</strong>. G2 получает:<br/><code class=\"long\">=SVERWEIS(F2;A2:C7;3;0)</code>",
  "Überleg: Was zeigt G2?": "<strong>Подумай:</strong> что покажет G2?",
  "Kakao": "Kakao (какао)",
@@ -60,5 +57,5 @@
  "Irgendwo": "Где угодно",
  "Null zurückgeben": "Вернуть ноль",
  "Das = fehlt": "Не хватает =",
- "Am Kiosk, im Lager oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht diese Nummer in einer Liste und holt den passenden Namen oder Preis. Du musst nichts mehr von Hand nachschlagen.": "В киоске, на складе или в интернет-магазине у каждого товара есть номер. <code>SVERWEIS</code> (ВПР) ищет этот номер в списке и берёт подходящее название или цену. Тебе больше не нужно ничего искать вручную."
+ "Am Kiosk oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht die Nummer in einer Liste. Dann holt Calc den passenden Namen oder Preis. Du musst nicht mehr selbst suchen.": "В киоске или в интернет-магазине у каждого товара есть номер. <code>SVERWEIS</code> (ВПР) ищет номер в списке. Потом Calc берёт подходящее название или цену. Тебе больше не нужно искать самому."
 }

@@ -3,9 +3,6 @@
  "Bedingte Formatierung 1 – Calc färbt selbst": "Bedingte Formatierung 1 (formatowanie warunkowe) – Calc koloruje sam",
  "Klasse 9 · Baustein 6": "Klasa 9 · Jednostka 6",
  "Vorwissen: WENN": "Potrzebujesz: WENN (JEŻELI)",
- "Ich kann Zellen mit Format → Bedingt → Bedingung … automatisch färben.": "Umiem automatycznie kolorować komórki przez <strong>Format → Bedingt → Bedingung …</strong> (format → warunkowe → warunek).",
- "Ich kann Bedingungen wie größer als, kleiner als und zwischen benutzen.": "Umiem używać warunków jak większe niż, mniejsze niż i między.",
- "Ich kann mit Farben Fragen zu großen Tabellen schnell beantworten.": "Umiem szybko odpowiadać kolorami na pytania o duże tabele.",
  "💡 Lea hat die Hitzetage über 30 °C mit dem Farbeimer rot gefärbt. Dann merkt sie: Am Mittwoch waren es nur 27 °C. Sie tippt in B4 die 27 ein.": "💡 Lea pokolorowała <strong>wiaderkiem z farbą</strong> na czerwono gorące dni powyżej 30 °C. Potem zauważa: w środę było tylko 27 °C. Wpisuje 27 w B4.",
  "Überleg: Was passiert mit der roten Farbe in B4?": "<strong>Pomyśl:</strong> Co dzieje się z czerwonym kolorem w B4?",
  "Sie verschwindet von selbst.": "Znika sam.",
@@ -38,11 +35,6 @@
  "Bea": "Bea",
  "Emre": "Emre",
  "Hakan": "Hakan",
- "Ich finde Format → Bedingt → Bedingung …": "Umiem znaleźć <strong>Format → Bedingt → Bedingung …</strong>",
- "Ich lege eine Regel mit größer als oder kleiner als an.": "Tworzę regułę z większe niż albo mniejsze niż.",
- "Ich weiß: Ändert sich die Zahl, ändert sich die Farbe.": "Wiem: gdy liczba się zmienia, zmienia się kolor.",
- "Plus Ich benutze „zwischen“ und mehrere Bedingungen.": "<span class=\"badge plus\">Plus</span> Używam „zwischen” (między) i kilku warunków.",
- "Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">Expedition</span> Znam paski danych i skale kolorów.",
  "← 5 · WENN 3": "← 5 · WENN 3 (JEŻELI 3)",
  "7 · Bedingte Formatierung 2 →": "7 · Bedingte Formatierung 2 →",
  "✨ Bedingte Formatierung: größer als 30 → Schlecht": "✨ Bedingte Formatierung: größer als 30 → Schlecht (większe niż 30 → źle)",
@@ -72,7 +64,6 @@
  "Bei „zwischen“ gehören beide Grenzen dazu.": "Przy „zwischen” (między) oba progi się wliczają.",
  "🏆 Richtig – Emre hat den längsten Balken und das kräftigste Grün. In der Übungsdatei wartet der ganze Spendenlauf.": "🏆 Dobrze – Emre ma najdłuższy pasek i najmocniejszy zielony. Cały bieg charytatywny czeka w pliku ćwiczeń.",
  "Schau auf den längsten Balken: Emre ist 25 Runden gelaufen.": "Spójrz na najdłuższy pasek: Emre przebiegł 25 okrążeń.",
- "★ Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">★ Expedition</span> Znam paski danych i skalę kolorów.",
  "Üben Ein Preis, viele Grenzen": "<span class=\"badge ueben\">Üben</span> Jedna cena, wiele granic",
  "Ist 500 € viel? Für einen Schokoriegel schon, für ein Haus nicht. Jede Zelle bekommt ihre eigene Regel: rot = zu teuer, grün = verdächtig billig. Dann änderst du den Preis und schaust, was passiert.": "Czy 500 € to dużo? Za batonik tak, za dom nie. Każda komórka dostaje własną regułę: czerwony = za drogo, zielony = podejrzanie tanio. Potem zmieniasz cenę i patrzysz, co się dzieje.",
  "ODS Üben: Ein Preis, viele Grenzenk9-06-bedingte-formatierung-mehr-preis-grenzen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Jedna cena, wiele granic</strong><small>k9-06-bedingte-formatierung-mehr-preis-grenzen.ods</small></span>",
@@ -112,5 +103,5 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>styl</strong> – gotowy wygląd z nazwą: Gut (dobry) jest zielony, Schlecht (zły) jest czerwony",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>między</strong> – od jednej liczby do drugiej. Obie liczby się liczą.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>większe niż · mniejsze niż</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. Samo 30 się nie liczy.",
- "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "W długiej tabeli łatwo przeoczyć coś ważnego. Dzięki Bedingte Formatierung (formatowanie warunkowe) Calc sam koloruje komórki, na przykład wszystkie upalne dni powyżej 30 °C. Gdy liczba się zmieni, kolor dopasuje się sam."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "W długiej tabeli trudno znaleźć ważne liczby. Calc może sam kolorować komórki, na przykład wszystkie dni powyżej 30 °C na czerwono. Gdy liczba się zmieni, zmieni się też kolor."
 }

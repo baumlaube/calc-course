@@ -2,9 +2,6 @@
  "Drucken wie ein Profi · Calc-Kurs Zusatzmodul": "Imprimer comme un pro · Cours Calc module supplémentaire",
  "Drucken wie ein Profi": "Imprimer comme un pro",
  "brauchst du bei jeder Abgabe": "tu en as besoin à chaque remise de travail",
- "Ich prüfe mit der Druckvorschau, wie der Ausdruck aussieht.": "Je vérifie avec l'aperçu avant impression à quoi ressemblera l'impression.",
- "Ich stelle Querformat, „auf eine Seite“ und eine Kopfzeile ein.": "Je règle le format paysage, « tout sur une page » et l'en-tête.",
- "Ich lege fest, was gedruckt wird – und speichere als PDF.": "Je décide ce qui est imprimé – et j'enregistre en PDF.",
  "💡 Deine Notenliste ist 30 cm breit. Auf ein A4-Blatt hochkant passen nur etwa 17 cm.": "💡 Ta liste de notes fait <strong>30 cm de large</strong>. Une page A4 en portrait n'en contient qu'environ <strong>17 cm</strong>.",
  "Überleg: Was passiert, wenn du einfach auf Drucken klickst?": "<strong>Réfléchis :</strong> que se passe-t-il si tu cliques simplement sur Imprimer ?",
  "Calc macht alles kleiner – passt auf ein Blatt.": "Calc réduit tout – ça tient sur une page.",
@@ -69,5 +66,5 @@
  "Datei → Druckvorschau": "Datei → Druckvorschau (Fichier → Aperçu)",
  "Spalten löschen": "Supprimer des colonnes",
  "Klein schreiben": "Écrire en petit",
- "Auf dem Bildschirm sieht die Tabelle gut aus, auf Papier fehlt plötzlich die Hälfte. Hier lernst du, mit Druckvorschau, Querformat und „auf eine Seite“ sauber zu drucken. Und du speicherst die Tabelle als PDF, zum Abgeben oder Verschicken.": "À l’écran le tableau est beau, sur papier il en manque soudain la moitié. Ici tu apprends à imprimer proprement avec l’aperçu, le format paysage et « sur une page ». Et tu enregistres le tableau en PDF pour le rendre ou l’envoyer."
+ "Auf dem Bildschirm sieht die Tabelle gut aus. Auf dem Papier fehlt plötzlich die Hälfte. Hier lernst du, die Tabelle richtig auf ein Blatt zu bringen. Du speicherst sie auch als PDF, zum Abgeben oder Verschicken.": "À l’écran, le tableau est beau. Sur papier, il en manque soudain la moitié. Ici tu apprends à bien mettre le tableau sur une seule feuille. Tu l’enregistres aussi en PDF pour le rendre ou l’envoyer."
 }

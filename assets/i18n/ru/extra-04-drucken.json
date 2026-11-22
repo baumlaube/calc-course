@@ -2,9 +2,6 @@
  "Drucken wie ein Profi · Calc-Kurs Zusatzmodul": "Печатать как профи · Курс Calc, дополнительный модуль",
  "Drucken wie ein Profi": "Печатать как профи",
  "brauchst du bei jeder Abgabe": "нужно для каждой сдачи работы",
- "Ich prüfe mit der Druckvorschau, wie der Ausdruck aussieht.": "Я проверяю в предпросмотре, как будет выглядеть печать.",
- "Ich stelle Querformat, „auf eine Seite“ und eine Kopfzeile ein.": "Я устанавливаю альбомную ориентацию, «на одну страницу» и верхний колонтитул.",
- "Ich lege fest, was gedruckt wird – und speichere als PDF.": "Я решаю, что печатать, – и сохраняю как PDF.",
  "💡 Deine Notenliste ist 30 cm breit. Auf ein A4-Blatt hochkant passen nur etwa 17 cm.": "💡 Твой список оценок шириной <strong>30 см</strong>. На лист A4 в книжной ориентации помещается только около <strong>17 см</strong>.",
  "Überleg: Was passiert, wenn du einfach auf Drucken klickst?": "<strong>Подумай:</strong> что будет, если просто нажать «Печать»?",
  "Calc macht alles kleiner – passt auf ein Blatt.": "Calc всё уменьшит – и оно поместится на одну страницу.",
@@ -69,5 +66,5 @@
  "Datei → Druckvorschau": "Datei → Druckvorschau (Файл → Предпросмотр печати)",
  "Spalten löschen": "Удалить столбцы",
  "Klein schreiben": "Писать мелко",
- "Auf dem Bildschirm sieht die Tabelle gut aus, auf Papier fehlt plötzlich die Hälfte. Hier lernst du, mit Druckvorschau, Querformat und „auf eine Seite“ sauber zu drucken. Und du speicherst die Tabelle als PDF, zum Abgeben oder Verschicken.": "На экране таблица выглядит хорошо, а на бумаге вдруг не хватает половины. Здесь ты учишься аккуратно печатать с предпросмотром, альбомной ориентацией и «на одну страницу». И сохраняешь таблицу в PDF, чтобы сдать или отправить."
+ "Auf dem Bildschirm sieht die Tabelle gut aus. Auf dem Papier fehlt plötzlich die Hälfte. Hier lernst du, die Tabelle richtig auf ein Blatt zu bringen. Du speicherst sie auch als PDF, zum Abgeben oder Verschicken.": "На экране таблица выглядит хорошо. На бумаге вдруг не хватает половины. Здесь ты учишься правильно поместить таблицу на один лист. Ты также сохраняешь её в PDF, чтобы сдать или отправить."
 }

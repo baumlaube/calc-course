@@ -3,9 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (EĞER 1) – Calc bir soru sorar",
  "Klasse 9 · Baustein 3": "9. sınıf · Ünite 3",
  "Teil 1 von 3 zu WENN": "WENN (EĞER) hakkında 3 bölümden 1. bölüm",
- "Ich kann eine WENN-Formel als Ja/Nein-Frage lesen.": "Bir WENN formülünü evet/hayır sorusu olarak okuyabilirim.",
- "Ich kann =WENN(Frage;\"Ja\";\"Nein\") selbst schreiben.": "<code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code> formülünü kendim yazabilirim.",
- "Ich kann statt Ja und Nein eigene Antworten ausgeben.": "Ja ve Nein yerine kendi cevaplarımı gösterebilirim.",
  "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 şu formülü alıyor: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
  "Überleg: Was zeigt B5?": "<strong>Düşün:</strong> B5 ne gösterir?",
  "Nein": "Nein (hayır)",
@@ -37,11 +34,6 @@
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "<code>\"Ja\"</code> ve <code>\"Nein\"</code> yerine istediğin metni kullanabilirsin, örneğin <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Keşif: Quiz yapıcı <span class=\"badge expedition\">isteğe bağlı</span>",
  "Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll richtig stehen, wenn in B2 Paris steht, sonst falsch.": "Alıştırma dosyalarındaki kontrol de sadece bir WENN formülü! Kendin bir tane kur: B2'de Paris varsa C2 <strong>richtig</strong> (doğru), yoksa <strong>falsch</strong> (yanlış) göstersin.",
- "Ich lese eine WENN-Formel als Frage.": "Bir WENN formülünü soru olarak okurum.",
- "Ich schreibe =WENN(Frage;\"Ja\";\"Nein\") ohne Vorlage.": "<code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code> formülünü örneksiz yazarım.",
- "Ich kenne die Vergleichszeichen, besonders >= und <>.": "Karşılaştırma işaretlerini biliyorum, özellikle <code>&gt;=</code> ve <code>&lt;&gt;</code>.",
- "Plus Ich finde zu fertigen Antworten die passende Frage.": "<span class=\"badge plus\">Plus</span> Verilen cevaplar için doğru soruyu bulurum.",
- "Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span> Kendini kontrol eden bir quiz kurarım.",
  "← 2 · Prozentrechnung": "← 2 · Yüzde hesabı",
  "4 · WENN 2 →": "4 · WENN 2 (EĞER 2) →",
  "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN bir soru sorar: <strong>A5'te „Bus“ var mı?</strong> Evet! Bu yüzden B5 <strong>Ja</strong> gösteriyor.",
@@ -105,7 +97,6 @@
  "nicht gleich": "eşit değil",
  "Gegenfrage: Dreh die Frage um und tausch die Antworten. Das Ergebnis bleibt gleich. =WENN(A5>=12;\"Ja\";\"Nein\") ist dasselbe wie =WENN(A5<12;\"Nein\";\"Ja\"). Aus >= wird <, aus <= wird >.": "<strong>Ters soru:</strong> Soruyu tersine çevir ve cevapları yer değiştir. Sonuç aynı kalır. <code class=\"long\">=WENN(A5&gt;=12;\"Ja\";\"Nein\")</code> ile <code class=\"long\">=WENN(A5&lt;12;\"Nein\";\"Ja\")</code> aynıdır. <code>&gt;=</code> olur <code>&lt;</code>, <code>&lt;=</code> olur <code>&gt;</code>.",
  "Gegenfrage: Frage umdrehen und Antworten tauschen – das Ergebnis bleibt gleich. Aus <= wird >.": "Ters soru: Soruyu çevir ve cevapları yer değiştir – sonuç aynı kalır. <code>&lt;=</code> olur <code>&gt;</code>.",
- "★ Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">★ Expedition</span> Kendini değerlendiren bir test yaparım.",
  "Üben Wer fährt Bus?": "<span class=\"badge ueben\">Üben</span> Kim otobüse biniyor?",
  "Wer höchstens 5 km weit weg wohnt, fährt Fahrrad. Alle anderen fahren Bus. Du schreibst zwei Fragen. Die zweite ist die Gegenfrage zur ersten.": "En fazla 5 km uzakta oturan bisiklete biner. Diğer herkes otobüse biner. İki soru yazıyorsun. İkincisi birincinin ters sorusu.",
  "Probe: In jeder Zeile steht genau einmal Ja. Schau besonders auf die Kinder mit genau 5 km.": "<strong>Sağlama:</strong> Her satırda tam bir kez Ja var. Özellikle tam 5 km uzakta oturan çocuklara bak.",
@@ -137,5 +128,5 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>eşit · eşit değil</strong> – gleich: <code>=</code> · ungleich (eşit değil): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>noktalı virgül</strong> – <code>;</code> işareti. WENN'in üç kısmını ayırır.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>çıktı vermek</strong> – göstermek. WENN bir cevap gösterir.",
- "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "Şimdiye kadar Calc her satırda aynı şekilde hesaplıyor. <code>WENN</code> (EĞER) ile Calc bir soru sorar ve cevaba göre farklı bir şey gösterir, örneğin „bestanden“ (geçti) ya da „nicht bestanden“ (kaldı). Böylece tablon akıllı olur. <code>WENN</code>’i küçük adımlarla öğrenirsin."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "<code>WENN</code> (EĞER) ile Calc bir soru sorar. Cevap evet ya da hayırdır. Cevaba göre Calc farklı bir şey gösterir, örneğin „bestanden“ (geçti) ya da „nicht bestanden“ (kaldı). <code>WENN</code>’i küçük adımlarla öğrenirsin."
 }

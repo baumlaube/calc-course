@@ -2,9 +2,6 @@
  "Text-Tricks · Calc-Kurs Zusatzmodul": "ترفندهای متن · دورهٔ Calc ماژول اضافی",
  "Text-Tricks – Namen und E-Mail-Adressen bauen": "ترفندهای متن – ساختن نام‌ها و آدرس‌های ایمیل",
  "Vorwissen: Formeln, WENN": "لازم: فرمول‌ها، WENN",
- "Ich klebe Texte mit & zusammen.": "متن‌ها را با <code>&amp;</code> به هم وصل می‌کنم.",
- "Ich zerlege und prüfe Texte mit LINKS, KLEIN und LÄNGE.": "متن‌ها را با LINKS (چپ)، KLEIN (حروف کوچک) و LÄNGE (طول) جدا و بررسی می‌کنم.",
- "Ich baue automatisch Benutzernamen und E-Mail-Adressen.": "نام‌های کاربری و آدرس‌های ایمیل را خودکار می‌سازم.",
  "💡 In C2 kommt: =A2&B2": "💡 C2 این را می‌گیرد: <code>=A2&amp;B2</code>",
  "Lea Müller": "Lea Müller",
  "LeaMüller": "LeaMüller",
@@ -46,5 +43,5 @@
  "Von rechts nach links": "از راست به چپ",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "اول LINKS، بعد &amp;، در آخر KLEIN.",
  "Gar nicht": "به هیچ وجه",
- "Für 25 Schüler Benutzernamen von Hand tippen? Das dauert und bringt Tippfehler. Mit & und Funktionen wie LINKS und KLEIN baut Calc solche Texte selbst aus Vor- und Nachnamen. So legen Schulen und Firmen Zugänge für viele Personen an.": "نام کاربری ۲۵ دانش‌آموز را با دست تایپ کنی؟ وقت می‌گیرد و غلط تایپی دارد. با <code>&amp;</code> و تابع‌هایی مثل <code>LINKS</code> (LEFT) و <code>KLEIN</code> (LOWER)، Calc خودش این متن‌ها را از نام و نام خانوادگی می‌سازد. مدرسه‌ها و شرکت‌ها همین‌طور برای افراد زیادی حساب کاربری می‌سازند."
+ "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "نام کاربری ۲۵ دانش‌آموز را با دست تایپ کنی؟ وقت زیادی می‌گیرد و راحت غلط تایپ می‌کنی. Calc خودش این نام‌ها را از نام و نام خانوادگی می‌سازد، با <code>&amp;</code>، <code>LINKS</code> (LEFT) و <code>KLEIN</code> (LOWER). مدرسه‌ها و شرکت‌ها هم همین کار را می‌کنند."
 }

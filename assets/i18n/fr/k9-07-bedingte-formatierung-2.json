@@ -3,9 +3,6 @@
  "Bedingte Formatierung 2 – Ampel, Text und Grenzen": "Bedingte Formatierung 2 (mise en forme conditionnelle) – feu tricolore, texte et limites",
  "Klasse 9 · Baustein 7": "9e année · Unité 7",
  "Vorwissen: Bedingte Formatierung 1, WENN 3": "Prérequis : mise en forme conditionnelle 1, WENN 3",
- "Ich kann mehrere Bedingungen in der richtigen Reihenfolge anlegen.": "Je crée plusieurs conditions dans le bon ordre.",
- "Ich kann Text färben lassen, z. B. alles mit „fehlt“.": "Je colorie du texte, p. ex. tout ce qui contient „fehlt“ (manque).",
- "Ich kann eine Grenze aus einer Zelle mit $ benutzen.": "J'utilise une limite tirée d'une cellule avec <code>$</code>.",
  "Überleg: Welche Farbe bekommt der Akku mit 15 %?": "<strong>Réfléchis :</strong> quelle couleur prend la batterie à <strong>15 %</strong> ?",
  "gelb": "jaune",
  "rot": "rouge",
@@ -31,11 +28,6 @@
  "★ Expedition: Ganze Zeile färben freiwillig": "<span class=\"step-no\">★</span> Expédition : colorier une ligne entière <span class=\"badge expedition\">facultatif</span>",
  "OK": "OK",
  "Wer nicht bezahlt hat, soll mit der ganzen Zeile rot leuchten. Klick erst auf OK – was ist falsch? Dann verbessere die Formel.": "Tous ceux qui n'ont pas payé doivent briller en rouge sur <strong>toute la ligne</strong>. Clique d'abord sur OK – qu'est-ce qui ne va pas ? Puis améliore la formule.",
- "Ich baue eine Ampel mit drei Bedingungen.": "Je construis un feu tricolore avec trois conditions.",
- "Ich weiß: Die erste passende Bedingung gewinnt.": "Je sais : la première condition qui convient gagne.",
- "Ich färbe Text, z. B. \"fehlt\".": "Je colorie du texte, p. ex. <code>\"fehlt\"</code>.",
- "Plus Ich nehme die Grenze aus einer Zelle mit $.": "<span class=\"badge plus\">Plus</span> Je prends la limite dans une cellule avec <code>$</code>.",
- "Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span> Je colorie des lignes entières avec „Formel ist“.",
  "← 6 · Bedingte Formatierung 1": "← 6 · Bedingte Formatierung 1",
  "8 · Fit für die Probe →": "8 · Prêt pour le contrôle →",
  "✔ Jetzt steht „kleiner als 20 %“ zuerst – und Lea ist rot. Die strengste Bedingung gehört nach oben.": "✔ Maintenant „kleiner als 20 %“ est en premier – et Lea est rouge. La condition la plus stricte va en haut.",
@@ -76,7 +68,6 @@
  "🏆 Expedition geschafft! Das $ vor B hält die Spalte fest: Name, bezahlt? und Betrag schauen alle auf Spalte B. Die 2 ohne $ wandert mit – jede Zeile prüft sich selbst.": "🏆 Expédition réussie ! Le <code>$</code> devant B garde la colonne fixe : nom, bezahlt? (payé ?) et montant regardent tous la colonne B. Le 2 sans $ se déplace – chaque ligne se vérifie elle-même.",
  "Fast. Prüfe die Zeilennummer: Die Formel gilt für die erste Zeile des Bereichs, also Zeile 2.": "Presque. Vérifie le numéro de ligne : la formule est pour la première ligne de la plage, donc la ligne 2.",
  "Nur Spalte A ist richtig gefärbt? Für Spalte B schaut Calc auf C, für Spalte C auf D – der Bezug wandert mit! Setz ein $ vor das B: $B2=\"nein\"": "Seule la colonne A est bien coloriée ? Pour la colonne B, Calc regarde C, pour la colonne C, D – la référence se déplace ! Mets un <code>$</code> devant le B : <code>$B2=\"nein\"</code>",
- "★ Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">★ Expedition</span> Je colore des lignes entières avec „Formel ist“ (la formule est).",
  "Üben Wer hat sich doppelt angemeldet?": "<span class=\"badge ueben\">Üben</span> Qui s'est inscrit deux fois ?",
  "18 Anmeldungen zum Skikurs, aber manche Namen stehen mehrmals da. Calc hat dafür eine eigene Bedingung: Format → Bedingt → Bedingung … → Zellwert ist · doppelt.": "18 inscriptions au cours de ski, mais certains noms apparaissent plusieurs fois. Calc a une condition spéciale pour ça : <strong>Format → Bedingt → Bedingung … → Zellwert ist · doppelt</strong> (la valeur de la cellule · en double).",
  "Calc färbt jeden Namen, der mehr als einmal vorkommt, auch den ersten. Löschst du die Zeilen mit den doppelten Namen, verschwindet das Rot von selbst.": "Calc colore <em>chaque</em> nom qui apparaît plus d'une fois, le premier aussi. Si tu supprimes les lignes avec les noms en double, le rouge disparaît tout seul.",
@@ -105,5 +96,5 @@
  "drei Farben: rot, gelb, grün": "<strong>feu tricolore</strong> – trois couleurs : rouge, jaune, vert",
  "etwas neu machen, z. B. eine Bedingung": "<strong>créer</strong> – faire quelque chose de nouveau, p. ex. une condition",
  "ansehen, ändern und löschen": "<strong>gérer</strong> – regarder, modifier et supprimer",
- "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Maintenant Calc colorie selon plusieurs règles – vert, jaune et rouge comme un feu tricolore. Tu apprends pourquoi l’ordre des règles compte, comment colorier du texte et comment une limite peut venir d’une cellule."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Maintenant Calc colorie avec plusieurs règles : vert, jaune et rouge comme un feu tricolore. Tu apprends pourquoi l’ordre des règles compte. Tu colories aussi du texte et tu prends une limite dans une cellule."
 }

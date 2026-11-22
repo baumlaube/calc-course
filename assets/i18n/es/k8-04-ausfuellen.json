@@ -3,9 +3,6 @@
  "Formeln ausfüllen – einmal schreiben, überall rechnen": "Rellenar fórmulas – escribir una vez, calcular en todas partes",
  "Klasse 8 · Baustein 4": "8.º curso · Unidad 4",
  "Vorwissen: Formeln, SUMME": "Conocimientos previos: fórmulas, SUMME",
- "Ich kann eine Formel nach unten und nach rechts ziehen.": "Arrastro una fórmula hacia abajo y hacia la derecha.",
- "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "Sé explicar cómo cambian las referencias de celda.",
- "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "Predigo qué fórmula acabará en una celda.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "Haces la compra para la fiesta de clase. D5 ya contiene la fórmula <code>=B5*C5</code> → 4 × 1,50 € = 6,00 €.<br/>Para las otras filas no lo vuelves a escribir todo: simplemente <strong>arrastras</strong> la fórmula hacia abajo.",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code>, exactamente la misma",
  "gar keine – nur die Zahl 6,00 €": "ninguna, solo el número 6,00 €",
@@ -41,11 +38,6 @@
  "Du sparst auf ein Fahrrad. Jede Woche kommt ein Betrag dazu. Wie viel hast du nach 8 Wochen?": "Ahorras para una bici. Cada semana se añade dinero. ¿Cuánto tienes después de 8 semanas?",
  "Kontostand = Kontostand der Vorwoche + neuer Betrag": "Saldo = <strong>saldo de la semana anterior</strong> + cantidad nueva",
  "In C5 steht der Kontostand nach Woche 1. Schreib in C6 eine Formel für Woche 2 und zieh sie nach unten. Tipp: Die Vorwoche steht genau eine Zeile darüber.": "C5 muestra el saldo tras la semana 1. Escribe en <strong>C6</strong> una fórmula para la semana 2 y arrástrala hacia abajo. Pista: la semana anterior está justo una fila más arriba.",
- "Ich finde das Ausfüllkästchen und kann eine Formel nach unten ziehen.": "Encuentro el controlador de relleno y arrastro una fórmula hacia abajo.",
- "Ich kann eine Formel nach rechts ziehen.": "Arrastro una fórmula hacia la derecha.",
- "Ich kann erklären, warum aus =B5*C5 eine Zeile tiefer =B6*C6 wird.": "Sé explicar por qué <code>=B5*C5</code> se convierte en <code>=B6*C6</code> una fila más abajo.",
- "Plus Ich kann vorhersagen, welche Formel nach dem Ziehen in einer Zelle steht.": "<span class=\"badge plus\">Plus</span> Predigo qué fórmula hay en una celda después de arrastrar.",
- "Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">Expedition</span> Calculo un saldo acumulado.",
  "← 3 · Funktionen": "← 3 · Funciones",
  "5 · Absolute Bezüge →": "5 · Referencias absolutas →",
  "Calc füllt aus … schau auf Spalte D!": "Calc rellena … ¡mira la columna D!",
@@ -92,7 +84,6 @@
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen. Mit Probe: Kommt auf beiden Wegen dasselbe heraus?": "<span class=\"badge basis\">Basis</span><span><strong>Tarea 2 · Paga:</strong> rellenar las sumas hacia la derecha <em>y</em> hacia abajo. Con prueba: ¿sale lo mismo por los dos caminos?</span>",
  "Calc setzt auch Reihen fort: Montag → Dienstag, Januar → Februar, 10 und 20 → 30.": "Calc también continúa series: Montag → Dienstag (lunes → martes), Januar → Februar, 10 y 20 → 30.",
  "Probe: Die Gesamtsumme auf zwei Wegen rechnen. Gleich? Dann stimmt alles.": "<strong>Prueba:</strong> Calcula el total general por dos caminos. ¿Igual? Entonces todo está bien.",
- "★ Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">★ Expedition</span> Sé calcular un saldo acumulado.",
  "Üben Das Ausfüll-Orakel": "<span class=\"badge ueben\">Üben</span> El oráculo del relleno",
  "Das Orakel aus Schritt 2 – jetzt selbst in Calc: Was macht Calc aus Montag, Quartal 1 oder 5, 3? Erst raten, dann ausfüllen.": "El oráculo del paso 2 – ahora tú en Calc: ¿qué hace Calc con Montag, Quartal 1 o 5, 3? Primero adivina, luego rellena.",
  "ODS Üben: Ausfüll-Orakelk8-04-ausfuellen-mehr-ausfuell-orakel.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: El oráculo del relleno</strong><small>k8-04-ausfuellen-mehr-ausfuell-orakel.ods</small></span>",
@@ -149,5 +140,5 @@
  "Fehler": "Error",
  "Montag": "Montag (lunes)",
  "Donnerstag": "Donnerstag (jueves)",
- "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "A menudo se calcula igual en cada fila: para cada artículo, cada día, cada alumno. Escribes la fórmula una sola vez y la arrastras hacia abajo. Calc ajusta solo las celdas de cada fila. Eso ahorra mucho tecleo y muchas erratas."
+ "Oft rechnest du in jeder Zeile das Gleiche: für jeden Artikel, für jeden Tag. Du schreibst die Formel nur einmal. Dann ziehst du sie nach unten. Calc passt die Formel in jeder Zeile selbst an. So tippst du weniger und machst weniger Fehler.": "A menudo calculas lo mismo en cada fila: para cada artículo, para cada día. Escribes la fórmula solo una vez. Luego la arrastras hacia abajo. Calc ajusta solo la fórmula en cada fila. Así escribes menos y te equivocas menos."
 }

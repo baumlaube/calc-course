@@ -2,9 +2,6 @@
  "Text-Tricks · Calc-Kurs Zusatzmodul": "Astuces de texte · Cours Calc module supplémentaire",
  "Text-Tricks – Namen und E-Mail-Adressen bauen": "Astuces de texte – construire des noms et des adresses e-mail",
  "Vorwissen: Formeln, WENN": "Prérequis : formules, WENN",
- "Ich klebe Texte mit & zusammen.": "J'assemble des textes avec <code>&amp;</code>.",
- "Ich zerlege und prüfe Texte mit LINKS, KLEIN und LÄNGE.": "Je découpe et vérifie des textes avec LINKS (GAUCHE), KLEIN (MINUSCULE) et LÄNGE (NBCAR).",
- "Ich baue automatisch Benutzernamen und E-Mail-Adressen.": "Je construis automatiquement des noms d'utilisateur et des adresses e-mail.",
  "💡 In C2 kommt: =A2&B2": "💡 C2 reçoit : <code>=A2&amp;B2</code>",
  "Lea Müller": "Lea Müller",
  "LeaMüller": "LeaMüller",
@@ -46,5 +43,5 @@
  "Von rechts nach links": "De droite à gauche",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "D'abord LINKS, puis &amp;, à la fin KLEIN.",
  "Gar nicht": "Impossible",
- "Für 25 Schüler Benutzernamen von Hand tippen? Das dauert und bringt Tippfehler. Mit & und Funktionen wie LINKS und KLEIN baut Calc solche Texte selbst aus Vor- und Nachnamen. So legen Schulen und Firmen Zugänge für viele Personen an.": "Taper à la main les noms d’utilisateur de 25 élèves ? C’est long et ça donne des fautes de frappe. Avec <code>&amp;</code> et des fonctions comme <code>LINKS</code> (GAUCHE) et <code>KLEIN</code> (MINUSCULE), Calc construit lui-même ces textes à partir des prénoms et des noms. C’est ainsi que les écoles et les entreprises créent des comptes pour beaucoup de personnes."
+ "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "Taper à la main les noms d’utilisateur de 25 élèves ? C’est long, et on se trompe facilement. Calc construit lui-même ces noms à partir du prénom et du nom, avec <code>&amp;</code>, <code>LINKS</code> (GAUCHE) et <code>KLEIN</code> (MINUSCULE). Les écoles et les entreprises font pareil."
 }

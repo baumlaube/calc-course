@@ -2,9 +2,6 @@
  "Fehlerdetektiv · Calc-Kurs Klasse 9": "کارآگاه خطا · دورهٔ Calc کلاس 9",
  "Fehlerdetektiv – Fehler finden und reparieren": "کارآگاه خطا – خطاها را پیدا و درست کن",
  "Klasse 9 · Baustein 1": "کلاس 9 · واحد 1",
- "Ich kann Fehlermeldungen wie #WERT!, #DIV/0! und #NAME? deuten und beheben.": "می‌توانم پیام‌های خطا مثل <code>#WERT!</code> (#مقدار!)، <code>#DIV/0!</code> و <code>#NAME?</code> را بفهمم و درست کنم.",
- "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "می‌توانم خطاهای بی‌صدا را که Calc نشان نمی‌دهد پیدا کنم.",
- "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "می‌توانم فرمول‌ها را با همهٔ چیزهایی که از کلاس 8 بلدم تعمیر کنم.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>این را بلدی:</strong> <code>=C5/B5</code> امتیازها را بر تعداد شرکت‌کنندگان تقسیم می‌کند. در D5 کار می‌کند. ولی D6 ناگهان <code>#DIV/0!</code> نشان می‌دهد.",
  "Überleg: Warum?": "<strong>فکر کن:</strong> چرا؟",
  "Die Punktzahl ist zu hoch.": "امتیاز خیلی زیاد است.",
@@ -47,11 +44,6 @@
  "In Englisch gibt es noch keine Noten, darum zeigt der Durchschnitt #DIV/0!. Das sieht im Zeugnis nicht gut aus.": "در انگلیسی هنوز نمره‌ای نیست، برای همین میانگین <code>#DIV/0!</code> نشان می‌دهد. این در کارنامه خوب به نظر نمی‌رسد.",
  "=WENNFEHLER(Formel; \"Ersatz\")Klappt die Formel, kommt ihr Ergebnis. Sonst kommt der Ersatz.": "<code>=WENNFEHLER(Formel; \"Ersatz\")</code><br/>اگر فرمول کار کند، نتیجه‌اش را می‌گیری. وگرنه جایگزین را می‌گیری.",
  "Ändere E3 so, dass statt des Fehlers keine Noten erscheint. Text steht in Anführungszeichen.": "E3 را طوری تغییر بده که به جای خطا <code>keine Noten</code> (نمره‌ای نیست) نشان داده شود. متن داخل گیومه است.",
- "Ich weiß, was #WERT!, #DIV/0! und #NAME? bedeuten.": "می‌دانم <code>#WERT!</code>، <code>#DIV/0!</code> و <code>#NAME?</code> یعنی چه.",
- "Ich kann laute Fehler reparieren.": "می‌توانم خطاهای پرسروصدا را درست کنم.",
- "Ich finde stille Fehler mit den Detektiv-Tricks.": "خطاهای بی‌صدا را با ترفندهای کارآگاهی پیدا می‌کنم.",
- "Plus Ich kann Fehler absichtlich erzeugen und erklären.": "<span class=\"badge plus\">Plus</span> می‌توانم خطاها را عمداً بسازم و توضیح بدهم.",
- "Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">Expedition</span> می‌توانم خطاها را با WENNFEHLER (اگر خطا) بگیرم.",
  "← Klasse 8 · Projekt": "← کلاس 8 · پروژه",
  "2 · Prozentrechnung →": "2 · درصد →",
  "Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.": "کلیک روی D6 نشان می‌دهد: فرمول از B6 استفاده می‌کند و B6 خالی است. خانهٔ خالی 0 حساب می‌شود و بر 0 نمی‌شود تقسیم کرد.",
@@ -92,7 +84,6 @@
  "Aus still wird laut: Wandert ein Bezug ohne $ auf eine leere Zelle oder auf Text, zeigt Calc weiter unten #DIV/0! oder #WERT!. Der Fehler steckt dann oben in der ersten Formel.": "<strong>از بی‌صدا تا پرسروصدا:</strong> اگر ارجاعی بدون <code>$</code> روی یک خانه خالی یا روی متن برود، Calc پایین‌تر <code>#DIV/0!</code> یا <code>#WERT!</code> نشان می‌دهد. آن وقت خطا بالا، در اولین فرمول است.",
  "Stille Fehler zeigt Calc nicht an: getippte Zahlen, fehlendes $, Bereich zu kurz oder zu groß.": "<strong>خطاهای بی‌صدا</strong> را Calc نشان نمی‌دهد: عددهای دستی، <code>$</code> جاافتاده، محدوده خیلی کوتاه یا خیلی بزرگ.",
  "MAX, MIN und MITTELWERT brauchen einen Bereich mit Doppelpunkt: =MAX(G5:G10).": "<code>MAX</code>، <code>MIN</code> و <code>MITTELWERT</code> به محدوده‌ای با دونقطه نیاز دارند: <code>=MAX(G5:G10)</code>.",
- "★ Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">★ Expedition</span> می‌توانم خطاها را با WENNFEHLER (IFERROR) بگیرم.",
  "Üben Aufwärmen: Waffelverkauf": "<span class=\"badge ueben\">Üben</span> گرم کردن: فروش وافل",
  "Stückzahl und Umsatz für sechs Waffelsorten, dazu MAX, MIN und MITTELWERT. Die Kontrolle merkt, wenn der Preis mit in der Summe steckt.": "تعداد و درآمد برای شش نوع وافل، به‌علاوه MAX، MIN و MITTELWERT. بررسی متوجه می‌شود اگر قیمت در جمع آمده باشد.",
  "ODS Üben: Waffelverkaufk9-01-fehlerdetektiv-mehr-waffelverkauf.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: فروش وافل</strong><small>k9-01-fehlerdetektiv-mehr-waffelverkauf.ods</small></span>",
@@ -135,5 +126,5 @@
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>باریک</strong> – پهن نیست. <code>###</code> یعنی: ستون خیلی باریک است.",
  "verstehen, was etwas bedeutet": "<strong>تفسیر کردن</strong> – بفهمی چیزی چه معنی دارد",
  "einen Fehler wieder richtig machen": "<strong>برطرف کردن</strong> – خطا را دوباره درست کردن",
- "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "در جدول‌ها خطا پیش می‌آید، حتی برای حرفه‌ای‌ها. بعضی را Calc با صدای بلند نشان می‌دهد، مثلاً <code>#DIV/0!</code>. بعضی بی‌صدا هستند: عدد درست به نظر می‌رسد ولی باز هم غلط است. اینجا یاد می‌گیری هر دو را پیدا و درست کنی. ضمناً همهٔ کلاس ۸ را مرور می‌کنی."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "در جدول‌ها خطا پیش می‌آید. بعضی خطاها را Calc نشان می‌دهد، مثلاً <code>#DIV/0!</code>. خطاهای دیگر را Calc نشان نمی‌دهد: عدد درست به نظر می‌رسد ولی غلط است. اینجا یاد می‌گیری هر دو نوع را پیدا و درست کنی. ضمناً کلاس ۸ را مرور می‌کنی."
 }

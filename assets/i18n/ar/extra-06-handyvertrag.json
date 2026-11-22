@@ -3,9 +3,6 @@
  "Projekt: Welcher Handyvertrag passt zu mir?": "مشروع: أيّ عقد هاتف يناسبني؟",
  "Zusatzmodul · Projekt": "وحدة إضافية · مشروع",
  "Vorwissen: WENN, $-Anker, Diagramme": "المعرفة المسبقة: WENN، المرساة $، الرسوم البيانية",
- "Ich kann Tarife mit WENN und MIN vergleichen.": "أقارن الباقات بـ WENN وMIN.",
- "Ich kann Kosten über zwei Jahre berechnen.": "أحسب التكاليف على مدى سنتين.",
- "Ich kann meine Entscheidung mit Zahlen und einem Diagramm begründen.": "أعلّل قراري بالأرقام ورسم بياني.",
  "📱 Euer Auftrag": "<span class=\"step-no\">📱</span> مهمتكم",
  "Vier Tarife, ein Ziel: Welcher ist für euren Datenbedarf über zwei Jahre am günstigsten? Die Tarife sind ausgedacht – die Rechnung ist echt.": "أربع باقات، هدف واحد: أيّها الأرخص <strong>لحاجتكم من البيانات</strong> خلال سنتين؟ الباقات خيالية – لكن الحساب حقيقي.",
  "ODS Projektdateix06-handyvertrag.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Projektdatei</strong> (ملف المشروع)<small>x06-handyvertrag.ods</small></span>",
@@ -44,5 +41,5 @@
  "Kosten in 2 Jahren bei {} GB": "التكلفة خلال سنتين عند {} GB",
  "Am günstigsten: {} mit {}.": "الأرخص: <strong>{}</strong> بـ {}.",
  "Zu wenig Daten (auch mit Zusatzpaket): {}.": "البيانات لا تكفي (حتى مع الباقة الإضافية): {}.",
- "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "كل شركة تعلن عن أرخص باقة. أيّها يناسبك حقًا؟ في هذا المشروع تقارن الباقات على مدى سنتين باستخدام <code>WENN</code> (IF) و<code>MIN</code> وتبرّر اختيارك بالأرقام ومخطط بياني."
+ "Jeder Anbieter sagt: Unser Tarif ist der beste. Welcher passt wirklich zu dir? Du vergleichst Tarife über zwei Jahre mit WENN und MIN. Deine Wahl zeigst du mit Zahlen und einem Diagramm.": "كل شركة تقول: باقتنا هي الأفضل. أيّها يناسبك حقًا؟ تقارن الباقات على مدى سنتين باستخدام <code>WENN</code> (IF) و<code>MIN</code>. وتُظهر اختيارك بالأرقام ومخطط بياني."
 }

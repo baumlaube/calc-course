@@ -3,9 +3,6 @@
  "WENN 3 – Grenzen in eigenen Zellen": "WENN 3 (JEŻELI 3) – progi we własnych komórkach",
  "Klasse 9 · Baustein 5": "Klasa 9 · Jednostka 5",
  "Teil 3 von 3 zu WENN": "Część 3 z 3 o WENN (JEŻELI)",
- "Ich kann Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "Umiem wpisać progi do własnej komórki i unieruchomić je za pomocą <code>$</code>.",
- "Ich kann WENN-Formeln mit Text, Zahlen und Rechnungen sicher schreiben.": "Umiem pewnie pisać formuły WENN z tekstem, liczbami i obliczeniami.",
- "Ich kann eine Probe-Aufgabe zu WENN allein lösen.": "Umiem samodzielnie rozwiązać zadanie sprawdzianowe o WENN.",
  "💡 Beim Erste-Hilfe-Quiz hat bestanden, wer mindestens 15 Punkte hat. In Spalte C steht überall so eine Formel: =WENN(B5>=15;\"bestanden\";\"durchgefallen\")": "💡 W quizie z pierwszej pomocy zdał każdy, kto miał co najmniej 15 punktów. W kolumnie C wszędzie jest taka formuła: <code class=\"long\">=WENN(B5&gt;=15;\"bestanden\";\"durchgefallen\")</code>",
  "Überleg: Neue Regel – bestanden erst ab 16 Punkten. Wie viele Zellen musst du ändern?": "<strong>Pomyśl:</strong> Nowa zasada – zdane dopiero od <strong>16</strong> punktów. Ile komórek trzeba zmienić?",
  "nur eine": "tylko jedną",
@@ -37,11 +34,6 @@
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> Wyprawa: UND (ORAZ) <span class=\"badge expedition\">nieobowiązkowo</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> jest prawdziwe tylko wtedy, gdy <strong>oba</strong> są prawdziwe.<br/>Przy <code>ODER(…; …)</code> (LUB) wystarczy jedno.",
  "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "Jest dzień basenowy, jeśli jest <strong>co najmniej 25 °C</strong> <strong>i</strong> nie pada. Wpisz w D5 formułę WENN z UND i wypełnij w dół.",
- "Ich schreibe Grenzen in eine eigene Zelle und nehme sie mit $.": "Wpisuję progi do ich komórki i używam ich z <code>$</code>.",
- "Ich wähle das richtige Vergleichszeichen, z. B. >= für „ab“.": "Wybieram właściwy znak porównania, np. <code>&gt;=</code> dla „od”.",
- "Ich setze Text in Anführungszeichen und Zahlen ohne.": "Tekst piszę w cudzysłowie, liczby bez.",
- "Plus Ich löse Probe-Aufgaben zu WENN ohne Vorlage.": "<span class=\"badge plus\">Plus</span> Rozwiązuję zadania sprawdzianowe o WENN bez wzoru.",
- "Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">Expedition</span> Umiem łączyć WENN z UND.",
  "← 4 · WENN 2": "← 4 · WENN 2 (JEŻELI 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (formatowanie warunkowe) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -89,7 +81,6 @@
  "eine Fehlermeldung": "komunikat o błędzie",
  "viel": "viel (dużo)",
  "wenig": "wenig (mało)",
- "★ Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">★ Expedition</span> Umiem łączyć WENN z UND (ORAZ).",
  "Üben Wochenlohn mit Überstunden": "<span class=\"badge ueben\">Üben</span> Tygodniówka z nadgodzinami",
  "Bis 38,5 Stunden gibt es den normalen Stundenlohn. Jede Stunde mehr ist eine Überstunde mit 30 % Zuschlag. Tarif und Zuschlag stehen in blauen Zellen.": "Do 38,5 godziny jest zwykła stawka godzinowa. Każda godzina więcej to nadgodzina z dodatkiem 30 %. Norma godzin i dodatek są w niebieskich komórkach.",
  "=WENN(B6>=$B$2;$B$2*C6;B6*C6) – hier wird in Dann und Sonst gerechnet.": "<code class=\"long\">=WENN(B6&gt;=$B$2;$B$2*C6;B6*C6)</code> – tutaj liczy się w <strong>Dann</strong> (wtedy) i <strong>Sonst</strong> (w przeciwnym razie).",
@@ -119,5 +110,5 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Jeszcze nie do końca. Puste są jeszcze: {}. Przeciągnij od C5 do C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Poniedziałek jest dobrze! Teraz przeciągnij <strong>Ausfüllkästchen</strong> (uchwyt wypełniania) w dół do D7.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Jeszcze nie do końca. Przeciągnij od D5 do D7.",
- "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Reguły się zmieniają: jutro może obowiązywać 16 punktów zamiast 15. Jeśli próg jest we własnej komórce, zmieniasz go w jednym miejscu, a wszystkie formuły się przeliczają. Na końcu samodzielnie rozwiązujesz zadania z <code>WENN</code>, jak na sprawdzianie."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Reguły się zmieniają. Dziś potrzeba 15 punktów, jutro może 16. Dlatego wpisz próg do osobnej komórki. Wtedy zmieniasz tylko tę jedną komórkę, a wszystkie formuły się przeliczają. Na końcu samodzielnie rozwiązujesz zadania z <code>WENN</code>, jak na sprawdzianie."
 }

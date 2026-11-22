@@ -3,9 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Apsolutne reference – $ kao sidro",
  "Klasse 8 · Baustein 5": "8. razred · Cjelina 5",
  "Vorwissen: Formeln ausfüllen": "Predznanje: popunjavanje formula",
- "Ich kann erklären, warum ein Zellbezug beim Ausfüllen „wandert“.": "Mogu objasniti zašto referenca ćelije pri popunjavanju „putuje“.",
- "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Mogu znakom <code>$</code> zadržati referencu.",
- "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Mogu odlučiti kada mi treba <code>$</code> – a kada ne.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena za vrijeme raspusta radi u slastičarni i dobija 11 € po satu. U C5 je izračunala svoju zaradu za ponedjeljak: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Rješenje: znak $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> je <strong>sidro</strong>.<br/><code>$B$2</code> pri popunjavanju uvijek ostaje <code>B2</code>.",
@@ -36,11 +33,6 @@
  "Schnell gesetzt: In der Formel auf den Bezug klicken und Umschalt + F4 drücken.": "Brzo postavljeno: u formuli klikni na referencu i pritisni <kbd>Umschalt</kbd> + <kbd>F4</kbd>.",
  "Profi-Trick: Eine Zelle im Namenfeld benennen, z. B. Lohn. Ein Name bleibt beim Ausfüllen fest.": "Profi trik: imenuj ćeliju u <strong>Namenfeld</strong> (polje za ime), npr. <code>Lohn</code>. Ime pri popunjavanju ostaje fiksno.",
  "Faustregel: Zeigt die Formel auf EINE feste Zelle (Preis, Lohn, Anzahl …), braucht sie ein $.": "<strong>Pravilo:</strong> Ako formula pokazuje na JEDNU fiksnu ćeliju (cijena, plata, broj …), treba joj <code>$</code>.",
- "Ich kann erklären, warum =B5*B2 beim Ausfüllen kaputtgeht.": "Mogu objasniti zašto se <code>=B5*B2</code> pri popunjavanju pokvari.",
- "Ich kann mit $ (oder Umschalt+F4) einen Bezug festhalten.": "Mogu sa <code>$</code> (ili <kbd>Umschalt</kbd>+<kbd>F4</kbd>) zadržati referencu.",
- "Ich erkenne, wann eine Formel ein $ braucht.": "Prepoznajem kada formuli treba <code>$</code>.",
- "Plus Ich finde versteckte Fehler in fremden Tabellen.": "<span class=\"badge plus\">Plus</span> Nalazim skrivene greške u tuđim tabelama.",
- "★ Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">★ Expedition</span> Mogu koristiti miješane reference kao <code>$A2</code> i <code>B$1</code>.",
  "Üben Der Steuer-Schalter": "<span class=\"badge ueben\">Üben</span> Prekidač za porez",
  "Der Steuersatz steht nur einmal, in B1. Alle Formeln holen ihn sich von dort.": "Poreska stopa stoji samo jednom, u B1. Sve formule je uzimaju odatle.",
  "C4: Steuer = Netto × Steuersatz, mit $.": "C4: porez = neto × poreska stopa, sa <code>$</code>.",
@@ -148,5 +140,6 @@
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 je tačno. Sada popuni: prvo udesno do E7, onda nadolje do E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Još nije gotovo: {} ćelija je prazno. Povlači označeno područje dalje, dok sve do E9 ne bude puno.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Red 4 je tačan. Sada označi C4 i D4 zajedno i povuci ih nadolje do reda 6.",
- "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Razmisli:</strong> Lena povlači formulu nadolje do C9. Šta onda stoji u <strong>C6</strong> (utorak)?"
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Razmisli:</strong> Lena povlači formulu nadolje do C9. Šta onda stoji u <strong>C6</strong> (utorak)?",
+ "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Kad povlačiš, formula se pomjera. Uglavnom je to ispravno. Ali neke ćelije trebaju važiti za sve redove, na primjer satnica. Sa <code>$</code> fiksiraš takvu ćeliju."
 }

@@ -3,9 +3,6 @@
  "Diagramme – Zahlen auf einen Blick": "Graphiques – les nombres en un coup d'œil",
  "Klasse 8 · Baustein 6": "8e année · Unité 6",
  "Vorwissen: Tabellen markieren": "Prérequis : sélectionner des tableaux",
- "Ich kann aus einer Tabelle ein Diagramm erstellen.": "Je crée un graphique à partir d'un tableau.",
- "Ich kann das passende Diagramm wählen: Säule, Kreis oder Linie.": "Je choisis le bon graphique : <strong>Säule</strong> (histogramme), <strong>Kreis</strong> (secteurs) ou <strong>Linie</strong> (courbe).",
- "Ich kann ein Diagramm beschriften und richtig lesen.": "Je légende un graphique et je le lis correctement.",
  "Jonas hat die Temperaturen einer Woche in ein Diagramm verwandelt. Irgendwas stimmt da nicht …": "Jonas a transformé les températures d'une semaine en graphique. Quelque chose ne va pas …",
  "Überleg: Was ist das Problem?": "<strong>Réfléchis :</strong> quel est le problème ?",
  "Die Legende ist zu lang.": "La légende est trop longue.",
@@ -41,10 +38,6 @@
  "★ Expedition: Lügen mit Diagrammen freiwillig": "<span class=\"step-no\">★</span> Expédition : mentir avec des graphiques <span class=\"badge expedition\">facultatif</span>",
  "Abstimmung über die Klassenfahrt: Berlin 48 Stimmen, München 52 Stimmen. Verschieb den Regler. Wo fängt die y-Achse an?": "Vote sur le voyage de classe : Berlin 48 voix, Munich 52 voix. Déplace le curseur. Où commence l'axe y ?",
  "y-Achse beginnt bei:": "L'axe y commence à :",
- "Ich weiß, wann Säule, Kreis oder Linie passt.": "Je sais quand un histogramme, un graphique en secteurs ou une courbe convient.",
- "Ich gebe jedem Diagramm einen Titel und beschrifte die Achsen.": "Je donne un titre à chaque graphique et je légende les axes.",
- "Plus Ich kann Prozente im Kreisdiagramm anzeigen.": "<span class=\"badge plus\">Plus</span> Je sais afficher des pourcentages dans un graphique en secteurs.",
- "Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">Expedition</span> Je repère les graphiques truqués grâce à l'axe y.",
  "← 5 · Absolute Bezüge": "← 5 · Références absolues",
  "7 · Projekt →": "7 · Projet →",
  "Wetterwoche – besser so": "Semaine météo – mieux comme ça",
@@ -81,7 +74,6 @@
  "Format → Diagramm": "Format → Diagramm",
  "Gar nichts": "Rien du tout",
  "Die Farben": "Les couleurs",
- "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> Je reconnais les diagrammes truqués à l'axe y.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> Le duel des tarifs d'électricité",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "L'électricité coûte deux fois : un <strong>abonnement</strong> chaque mois et un prix pour chaque <strong>kWh</strong>.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben : Le duel des tarifs</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
@@ -120,5 +112,5 @@
  "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ B6 bis D6 nach unten ausfüllen (recopier B6:D6 vers le bas jusqu'à D8)",
  "Erst nach rechts ausfüllen, bis D6!": "D'abord recopier vers la droite, jusqu'à D6 !",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Pas encore fini : {} cellules sont vides. Continue à tirer la plage sélectionnée jusqu'à ce que tout soit rempli jusqu'à D8.",
- "Eine lange Zahlenliste liest kaum jemand gern. Ein Diagramm zeigt auf einen Blick, was größer ist oder wie sich etwas entwickelt. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du jeden Tag, im Wetterbericht und in den Nachrichten.": "Presque personne n’aime lire une longue liste de nombres. Un graphique montre d’un coup d’œil ce qui est plus grand ou comment quelque chose évolue. Tu apprends quand un graphique en colonnes, en secteurs ou en courbe convient. Tu vois des graphiques tous les jours, à la météo et aux informations."
+ "Viele Zahlen in einer Liste sind schwer zu lesen. Ein Diagramm zeigt sie als Bild. Dann siehst du sofort, was größer ist. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du oft, zum Beispiel im Wetterbericht.": "Beaucoup de nombres dans une liste, c’est difficile à lire. Un graphique les montre sous forme d’image. Tu vois alors tout de suite ce qui est plus grand. Tu apprends quand un graphique en colonnes, en secteurs ou en courbe convient. Tu vois souvent des graphiques, par exemple à la météo."
 }

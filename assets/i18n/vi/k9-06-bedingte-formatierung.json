@@ -3,9 +3,6 @@
  "Bedingte Formatierung 1 – Calc färbt selbst": "Bedingte Formatierung 1 (định dạng có điều kiện) – Calc tự tô màu",
  "Klasse 9 · Baustein 6": "Lớp 9 · Bài 6",
  "Vorwissen: WENN": "Cần biết trước: WENN (NẾU)",
- "Ich kann Zellen mit Format → Bedingt → Bedingung … automatisch färben.": "Mình tô màu ô tự động được bằng <strong>Format → Bedingt → Bedingung …</strong> (định dạng → có điều kiện → điều kiện).",
- "Ich kann Bedingungen wie größer als, kleiner als und zwischen benutzen.": "Mình dùng được các điều kiện như lớn hơn, nhỏ hơn và nằm giữa.",
- "Ich kann mit Farben Fragen zu großen Tabellen schnell beantworten.": "Mình trả lời nhanh được các câu hỏi về bảng lớn nhờ màu sắc.",
  "nur, wenn eine Bedingung stimmt": "<strong>có điều kiện</strong> – chỉ khi một điều kiện đúng",
  "eine Farbe geben": "<strong>tô màu</strong> – cho một màu",
  "das, was in der Zelle steht": "<strong>giá trị ô</strong> – cái nằm trong ô",
@@ -37,11 +34,6 @@
  "Im Dialog: Zellwert ist · größer als · 30 · Vorlage Schlecht (rot) → OK": "Trong hộp thoại: Zellwert ist · größer als · 30 · kiểu mẫu <strong>Schlecht</strong> (kém, màu đỏ) → OK",
  "Vorlagen: Gut = grün · Neutral = gelb · Schlecht = rot": "Kiểu mẫu: <strong>Gut</strong> (tốt) = xanh lá · <strong>Neutral</strong> (trung bình) = vàng · <strong>Schlecht</strong> (kém) = đỏ",
  "Ändert sich die Zahl, ändert sich die Farbe – ganz von selbst.": "Khi con số thay đổi, màu cũng thay đổi – hoàn toàn tự động.",
- "Ich finde Format → Bedingt → Bedingung …": "Mình tìm được <strong>Format → Bedingt → Bedingung …</strong>",
- "Ich lege eine Regel mit größer als oder kleiner als an.": "Mình tạo được một quy tắc với lớn hơn hoặc nhỏ hơn.",
- "Ich weiß: Ändert sich die Zahl, ändert sich die Farbe.": "Mình biết: khi con số thay đổi, màu cũng thay đổi.",
- "Plus Ich benutze „zwischen“ und mehrere Bedingungen.": "<span class=\"badge plus\">Plus</span> Mình dùng „zwischen“ (nằm giữa) và nhiều điều kiện.",
- "★ Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">★ Expedition</span> Mình biết thanh dữ liệu và thang màu.",
  "Üben Ein Preis, viele Grenzen": "<span class=\"badge ueben\">Üben</span> Một giá, nhiều mốc",
  "Ist 500 € viel? Für einen Schokoriegel schon, für ein Haus nicht. Jede Zelle bekommt ihre eigene Regel: rot = zu teuer, grün = verdächtig billig. Dann änderst du den Preis und schaust, was passiert.": "500 € có nhiều không? Với một thanh sô-cô-la thì có, với một ngôi nhà thì không. Mỗi ô có quy tắc riêng: đỏ = quá đắt, xanh lá = rẻ đáng ngờ. Rồi bạn đổi giá và xem điều gì xảy ra.",
  "ODS Üben: Ein Preis, viele Grenzenk9-06-bedingte-formatierung-mehr-preis-grenzen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Một giá, nhiều mốc</strong><small>k9-06-bedingte-formatierung-mehr-preis-grenzen.ods</small></span>",
@@ -109,5 +101,5 @@
  "121 bis 159": "từ 121 đến 159",
  "120 bis 159": "từ 120 đến 159",
  "120 bis 160": "từ 120 đến 160",
- "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "Trong một bảng dài rất dễ bỏ sót điều quan trọng. Với Bedingte Formatierung (định dạng có điều kiện), Calc tự tô màu ô, ví dụ tất cả những ngày nóng trên 30 °C. Khi một số thay đổi, màu tự điều chỉnh theo."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "Trong một bảng dài, khó tìm những con số quan trọng. Calc có thể tự tô màu ô, ví dụ tô đỏ tất cả những ngày trên 30 °C. Khi một số thay đổi, màu cũng thay đổi."
 }

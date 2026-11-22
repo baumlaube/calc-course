@@ -3,9 +3,6 @@
  "Projekt: Wir planen die Klassenfahrt": "Projekt: Planujemy wycieczkę klasową",
  "Klasse 8 · Baustein 7–8": "Klasa 8 · Jednostki 7–8",
  "Vorwissen: Baustein 1–6": "Wiedza wstępna: jednostki 1–6",
- "Ich kann alles aus Baustein 1 bis 6 in einem echten Projekt anwenden.": "Umiem wykorzystać wszystko z jednostek 1–6 w prawdziwym projekcie.",
- "Ich kann einen Kostenplan mit Formeln, SUMME und absoluten Bezügen erstellen.": "Umiem zrobić plan kosztów z formułami, SUMME i odwołaniami bezwzględnymi.",
- "Ich kann Ergebnisse mit einem Diagramm zeigen und eine Entscheidung begründen.": "Umiem pokazać wyniki na wykresie i uzasadnić decyzję.",
  "🎒 Euer Auftrag": "<span class=\"step-no\">🎒</span> Twoje zadanie",
  "Eure Klasse fährt 3 Tage weg. Ihr seid das Planungsteam.Was kostet die Fahrt? Wie viel zahlt jeder selbst? Welches Ziel ist besser?": "Twoja klasa wyjeżdża na 3 dni. Jesteś w <strong>zespole planującym</strong>.<br/>Ile kosztuje wycieczka? Ile płaci każdy? Który cel jest lepszy?",
  "Ihr arbeitet allein oder zu zweit. Die Projektdatei zeigt euch auf dem Startblatt, welche Meilensteine schon geschafft sind.": "Pracujesz samodzielnie albo w parze. Arkusz startowy w pliku projektu pokazuje, które etapy są już gotowe.",
@@ -64,11 +61,6 @@
  "Für Lehrkräfte: ★ = 1, ★★ = 2, ★★★ = 3 Punkte je Zeile. Ohne Plus sind es 15 Punkte, mit Plus 18.": "Dla nauczycieli: ★ = 1, ★★ = 2, ★★★ = 3 punkty za wiersz. Bez Plus to 15 punktów, z Plus 18.",
  "Rückblick auf Klasse 8": "Spojrzenie wstecz na klasę 8",
  "Hak ab, was du jetzt kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.": "Zaznacz, co już umiesz. Pamięta to tylko twoje urządzenie – nic nie jest wysyłane.",
- "Ich kann einen Kostenplan mit Formeln aufbauen.": "Umiem zbudować plan kosztów z formułami.",
- "Ich setze SUMME, Ausfüllen und $ sinnvoll ein.": "Sensownie używam SUMME, wypełniania i <code>$</code>.",
- "Ich gestalte Tabellen so, dass andere sie gut lesen können.": "Tworzę tabele tak, żeby inni łatwo je czytali.",
- "Ich wähle das passende Diagramm und lese es richtig.": "Wybieram właściwy wykres i poprawnie go odczytuję.",
- "Plus Ich kann zwei Angebote vergleichen und meine Entscheidung begründen.": "<span class=\"badge plus\">Plus</span> Umiem porównać dwie oferty i uzasadnić decyzję.",
  "← 6 · Diagramme": "← 6 · Wykresy",
  "Klasse 9 · Fehlerdetektiv →": "Klasa 9 · Detektyw błędów →",
  "{} pro Person": "<strong>{}</strong> na osobę",
@@ -83,5 +75,5 @@
  "Geld, das jemand dazugibt, z. B. die Schule": "<strong>dopłata, dotacja</strong> – pieniądze, które ktoś dokłada, np. szkoła",
  "ein Vorschlag mit Preis. Ihr vergleicht zwei Angebote.": "<strong>oferta</strong> – propozycja z ceną. Porównujecie dwie oferty.",
  "sagen, warum. Hier: mit Zahlen.": "<strong>uzasadnić</strong> – powiedzieć dlaczego. Tutaj: liczbami.",
- "Jetzt setzt du alles aus Klasse 8 zusammen. Ihr plant eine Klassenfahrt: Kosten pro Person ausrechnen, Angebote vergleichen und die Entscheidung mit einem Diagramm begründen. Diese Rechnung muss vor jeder echten Klassenfahrt jemand machen.": "Teraz łączysz wszystko z klasy 8. Planujecie wycieczkę klasową: liczycie koszt na osobę, porównujecie oferty i uzasadniacie decyzję wykresem. Przed każdą prawdziwą wycieczką ktoś musi zrobić taki rachunek."
+ "Jetzt brauchst du alles aus Klasse 8. Ihr plant eine Klassenfahrt: Ihr rechnet die Kosten pro Person aus, vergleicht Angebote und zeigt eure Entscheidung in einem Diagramm. So eine Rechnung braucht jede echte Klassenfahrt.": "Teraz potrzebujesz wszystkiego z klasy 8. Planujecie wycieczkę klasową: liczycie koszt na osobę, porównujecie oferty i pokazujecie decyzję na wykresie. Każda prawdziwa wycieczka potrzebuje takiego rachunku."
 }

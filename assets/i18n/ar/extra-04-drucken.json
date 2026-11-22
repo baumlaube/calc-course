@@ -2,9 +2,6 @@
  "Drucken wie ein Profi · Calc-Kurs Zusatzmodul": "اطبع كالمحترفين · دورة Calc وحدة إضافية",
  "Drucken wie ein Profi": "اطبع كالمحترفين",
  "brauchst du bei jeder Abgabe": "تحتاجه في كل تسليم",
- "Ich prüfe mit der Druckvorschau, wie der Ausdruck aussieht.": "أتحقّق بمعاينة الطباعة كيف ستبدو الورقة المطبوعة.",
- "Ich stelle Querformat, „auf eine Seite“ und eine Kopfzeile ein.": "أضبط الاتجاه الأفقي و«على صفحة واحدة» ورأس الصفحة.",
- "Ich lege fest, was gedruckt wird – und speichere als PDF.": "أقرّر ما يُطبع – وأحفظ كـ PDF.",
  "💡 Deine Notenliste ist 30 cm breit. Auf ein A4-Blatt hochkant passen nur etwa 17 cm.": "💡 قائمة علاماتك عرضها <strong>30 سم</strong>. صفحة A4 عمودية يتّسع فيها حوالي <strong>17 سم</strong> فقط.",
  "Überleg: Was passiert, wenn du einfach auf Drucken klickst?": "<strong>فكّر:</strong> ماذا يحدث إذا نقرت ببساطة على Drucken (طباعة)؟",
  "Calc macht alles kleiner – passt auf ein Blatt.": "Calc يصغّر كل شيء – فيتّسع في صفحة واحدة.",
@@ -69,5 +66,5 @@
  "Datei → Druckvorschau": "Datei → Druckvorschau (ملف → معاينة الطباعة)",
  "Spalten löschen": "حذف الأعمدة",
  "Klein schreiben": "الكتابة بخط صغير",
- "Auf dem Bildschirm sieht die Tabelle gut aus, auf Papier fehlt plötzlich die Hälfte. Hier lernst du, mit Druckvorschau, Querformat und „auf eine Seite“ sauber zu drucken. Und du speicherst die Tabelle als PDF, zum Abgeben oder Verschicken.": "على الشاشة يبدو الجدول جيدًا، وعلى الورق ينقص نصفه فجأة. هنا تتعلم الطباعة بشكل مرتب مع معاينة الطباعة والاتجاه الأفقي و«على صفحة واحدة». وتحفظ الجدول بصيغة PDF لتسليمه أو إرساله."
+ "Auf dem Bildschirm sieht die Tabelle gut aus. Auf dem Papier fehlt plötzlich die Hälfte. Hier lernst du, die Tabelle richtig auf ein Blatt zu bringen. Du speicherst sie auch als PDF, zum Abgeben oder Verschicken.": "على الشاشة يبدو الجدول جيدًا. على الورق ينقص نصفه فجأة. هنا تتعلم أن تضع الجدول بشكل صحيح على ورقة واحدة. وتحفظه أيضًا بصيغة PDF لتسليمه أو إرساله."
 }

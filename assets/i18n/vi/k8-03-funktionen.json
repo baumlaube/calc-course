@@ -3,9 +3,6 @@
  "Funktionen – ganze Bereiche auf einmal": "Hàm – tính cả vùng ô một lần",
  "Klasse 8 · Baustein 3": "Lớp 8 · Bài 3",
  "Vorwissen: Formeln mit Zellen": "Cần biết trước: công thức với ô",
- "Ich kann mit SUMME einen ganzen Bereich zusammenzählen.": "Mình dùng được <strong>SUMME</strong> (tổng) để cộng cả một vùng ô.",
- "Ich kann MITTELWERT, MIN und MAX benutzen.": "Mình dùng được <strong>MITTELWERT</strong> (trung bình), <strong>MIN</strong> và <strong>MAX</strong>.",
- "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "Mình viết được một vùng ô như <code>B5:B9</code> hoặc chọn nó bằng chuột.",
  "eine fertige Rechnung mit einem Namen, z. B. SUMME": "<strong>hàm</strong> – một phép tính có sẵn với một cái tên, ví dụ <code>SUMME</code>",
  "mehrere Zellen zusammen, z. B. B5:B9": "<strong>vùng ô</strong> – nhiều ô gộp lại, ví dụ <code>B5:B9</code>",
  "das Zeichen :. In Calc heißt es „bis“.": "<strong>dấu hai chấm</strong> – ký hiệu <code>:</code>. Trong Calc nó có nghĩa là „bis“ (đến).",
@@ -49,12 +46,6 @@
  "Bereich markieren: Nach =SUMME( mit gedrückter Maustaste von B5 bis B9 ziehen. Lange Liste: erste Zahl anklicken, dann Strg + ⇧ + ↓.": "Chọn vùng ô: sau <code>=SUMME(</code> giữ nút chuột và kéo từ B5 đến B9. Danh sách dài: bấm vào số đầu tiên, rồi <kbd>Strg</kbd> + <kbd>⇧</kbd> + <kbd>↓</kbd>.",
  "Der Σ-Knopf rät den Bereich. Rahmen prüfen, dann erst Enter.": "Nút Σ đoán vùng ô. <strong>Kiểm tra khung</strong>, rồi mới nhấn <kbd>Enter</kbd>.",
  "Leere Zellen zählen nicht mit.": "Ô trống không được tính.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren, auch eine lange Liste.": "Mình đọc và chọn được một vùng ô như <code>B5:B9</code>, cả danh sách dài.",
- "Ich prüfe den Vorschlag vom Σ-Knopf, bevor ich Enter drücke.": "Mình kiểm tra gợi ý của nút Σ trước khi nhấn <kbd>Enter</kbd>.",
- "Ich kann SUMME, MITTELWERT, MIN und MAX benutzen.": "Mình dùng được SUMME, MITTELWERT, MIN và MAX.",
- "Ich weiß, wann ich welche Funktion brauche.": "Mình biết khi nào cần hàm nào.",
- "Plus Ich kann ANZAHL benutzen und zwei Funktionen in einer Formel verbinden.": "<span class=\"badge plus\">Plus</span> Mình dùng được ANZAHL (đếm) và kết hợp hai hàm trong một công thức.",
- "★ Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">★ Expedition</span> Mình đánh giá được vùng ô hình chữ nhật như <code>B2:F5</code>.",
  "Üben Mein Zeugnis-Schnitt": "<span class=\"badge ueben\">Üben</span> Điểm trung bình học bạ của mình",
  "In Bayern zählen die Schulaufgaben (SA) doppelt. Spalte J zeigt den normalen Durchschnitt. Was steht im Zeugnis?": "Ở bang Bayern, Schulaufgaben (SA, bài kiểm tra lớn) được tính <strong>hệ số hai</strong>. Cột J hiện điểm trung bình bình thường. Trong học bạ sẽ ghi gì?",
  "=(2*SUMME(B2:D2)+SUMME(E2:I2))/113 SA doppelt = 6, dazu 5 andere Noten = 11": "<code>=(2*SUMME(B2:D2)+SUMME(E2:I2))/11</code><br/>3 SA hệ số hai = 6, cộng 5 điểm khác = 11",
@@ -128,5 +119,5 @@
  "B5 und B9": "B5 và B9",
  "B5 bis B9": "từ B5 đến B9",
  "Weiter mit {}: Berechne {} mit ={}(…).": "Tiếp theo: <strong>{}</strong>. Tính {} bằng <code>={}(</code>…<code>)</code>.",
- "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Năm số thì bạn vẫn cộng bằng <code>+</code> được. Nhưng với 30 điểm hay 365 ngày thì rất mất công. Các hàm như <code>SUMME</code> (TỔNG), <code>MITTELWERT</code> (TRUNG BÌNH), <code>MIN</code> và <code>MAX</code> tính cả một vùng ô cùng lúc. Với <code>MITTELWERT</code>, ví dụ bạn tính được điểm trung bình của mình."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Năm số thì bạn cộng bằng <code>+</code> được. Nhưng 30 điểm? Hay 365 ngày? Như vậy quá lâu. Một hàm như <code>SUMME</code> (TỔNG) tính nhiều ô cùng lúc. Với <code>MITTELWERT</code> (TRUNG BÌNH), ví dụ bạn tính được điểm trung bình của mình."
 }

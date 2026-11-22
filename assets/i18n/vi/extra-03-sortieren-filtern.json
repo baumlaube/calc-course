@@ -1,9 +1,6 @@
 {
  "Sortieren & Filtern · Calc-Kurs Zusatzmodul": "Sắp xếp và lọc · Khóa học Calc mô-đun bổ sung",
  "Sortieren & Filtern – große Tabellen bändigen": "Sortieren &amp; Filtern (sắp xếp và lọc) – làm chủ bảng lớn",
- "Ich kann eine Tabelle auf- oder absteigend sortieren.": "Mình sắp xếp được bảng theo thứ tự tăng dần hoặc giảm dần.",
- "Ich kann mit dem AutoFilter nur bestimmte Zeilen anzeigen.": "Mình chỉ hiện được một số hàng nhất định bằng AutoFilter.",
- "Ich weiß, warum man nie nur eine Spalte sortiert.": "Mình biết tại sao không bao giờ chỉ sắp xếp một cột.",
  "💡 Tom will die Besten oben haben. Er markiert nur die Spalte C und sortiert sie absteigend.": "💡 Tom muốn những bạn giỏi nhất ở trên cùng. Bạn ấy chọn <strong>chỉ cột C</strong> và sắp xếp giảm dần.",
  "Überleg: Was passiert?": "<strong>Suy nghĩ:</strong> Điều gì xảy ra?",
  "Alles richtig – die Besten stehen oben.": "Tất cả đều đúng – những bạn giỏi nhất ở trên cùng.",
@@ -64,5 +61,5 @@
  "alphabetisch": "theo bảng chữ cái",
  "größte oben": "lớn nhất ở trên",
  "kleinste oben": "nhỏ nhất ở trên",
- "In einer Tabelle mit Hunderten Zeilen sucht niemand von Hand. Du sortierst sie, zum Beispiel nach Punkten, oder du filterst nur die Zeilen, die du brauchst. Das kennst du aus jedem Online-Shop: sortieren nach Preis, filtern nach Größe.": "Trong một bảng có hàng trăm hàng, không ai tìm bằng tay. Bạn sắp xếp nó, ví dụ theo điểm, hoặc lọc chỉ những hàng bạn cần. Bạn biết điều này từ mọi cửa hàng trực tuyến: sắp xếp theo giá, lọc theo cỡ."
+ "Eine Tabelle hat hundert Zeilen. Du suchst nicht jede Zeile ab. Du sortierst die Tabelle, zum Beispiel nach Punkten. Oder du filterst: Dann siehst du nur die Zeilen, die du brauchst. Das kennst du aus Online-Shops: sortieren nach Preis, filtern nach Größe.": "Một bảng có một trăm hàng. Bạn không dò từng hàng. Bạn sắp xếp bảng, ví dụ theo điểm. Hoặc bạn lọc: khi đó bạn chỉ thấy những hàng bạn cần. Bạn biết điều này từ các cửa hàng trực tuyến: sắp xếp theo giá, lọc theo cỡ."
 }

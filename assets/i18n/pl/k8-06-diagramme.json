@@ -3,9 +3,6 @@
  "Diagramme – Zahlen auf einen Blick": "Wykresy – liczby na pierwszy rzut oka",
  "Klasse 8 · Baustein 6": "Klasa 8 · Jednostka 6",
  "Vorwissen: Tabellen markieren": "Wiedza wstępna: zaznaczanie tabel",
- "Ich kann aus einer Tabelle ein Diagramm erstellen.": "Umiem zrobić wykres z tabeli.",
- "Ich kann das passende Diagramm wählen: Säule, Kreis oder Linie.": "Umiem wybrać właściwy wykres: <strong>Säule</strong> (kolumnowy), <strong>Kreis</strong> (kołowy) albo <strong>Linie</strong> (liniowy).",
- "Ich kann ein Diagramm beschriften und richtig lesen.": "Umiem opisać wykres i poprawnie go odczytać.",
  "Jonas hat die Temperaturen einer Woche in ein Diagramm verwandelt. Irgendwas stimmt da nicht …": "Jonas zrobił wykres z temperatur jednego tygodnia. Coś jest nie tak …",
  "Überleg: Was ist das Problem?": "<strong>Pomyśl:</strong> Na czym polega problem?",
  "Die Legende ist zu lang.": "Legenda jest za długa.",
@@ -41,10 +38,6 @@
  "★ Expedition: Lügen mit Diagrammen freiwillig": "<span class=\"step-no\">★</span> Wyprawa: Kłamstwa na wykresach <span class=\"badge expedition\">nieobowiązkowo</span>",
  "Abstimmung über die Klassenfahrt: Berlin 48 Stimmen, München 52 Stimmen. Verschieb den Regler. Wo fängt die y-Achse an?": "Głosowanie o wycieczce klasowej: Berlin 48 głosów, Monachium 52 głosy. Przesuń suwak. Gdzie zaczyna się oś y?",
  "y-Achse beginnt bei:": "Oś y zaczyna się od:",
- "Ich weiß, wann Säule, Kreis oder Linie passt.": "Wiem, kiedy pasuje wykres kolumnowy, kołowy albo liniowy.",
- "Ich gebe jedem Diagramm einen Titel und beschrifte die Achsen.": "Każdemu wykresowi daję tytuł i opisuję osie.",
- "Plus Ich kann Prozente im Kreisdiagramm anzeigen.": "<span class=\"badge plus\">Plus</span> Umiem pokazać procenty na wykresie kołowym.",
- "Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">Expedition</span> Rozpoznaję podchwytliwe wykresy po osi y.",
  "← 5 · Absolute Bezüge": "← 5 · Odwołania bezwzględne",
  "7 · Projekt →": "7 · Projekt →",
  "Wetterwoche – besser so": "Tydzień pogody – tak lepiej",
@@ -81,7 +74,6 @@
  "Format → Diagramm": "Format → Diagramm",
  "Gar nichts": "Nic",
  "Die Farben": "Kolory",
- "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> Rozpoznaję podchwytliwe wykresy po osi y.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> Pojedynek taryf na prąd",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "Prąd kosztuje dwa razy: <strong>cena podstawowa</strong> co miesiąc i cena za każdą <strong>kWh</strong>.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Pojedynek taryf</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
@@ -120,5 +112,5 @@
  "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ Wypełnij B6:D6 w dół (do D8)",
  "Erst nach rechts ausfüllen, bis D6!": "Najpierw wypełnij w prawo, do D6!",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Jeszcze nie gotowe: {} komórek jest pustych. Przeciągaj zaznaczony obszar dalej, aż wszystko do D8 będzie pełne.",
- "Eine lange Zahlenliste liest kaum jemand gern. Ein Diagramm zeigt auf einen Blick, was größer ist oder wie sich etwas entwickelt. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du jeden Tag, im Wetterbericht und in den Nachrichten.": "Mało kto lubi czytać długą listę liczb. Wykres od razu pokazuje, co jest większe albo jak coś się zmienia. Dowiesz się, kiedy pasuje wykres kolumnowy, kołowy albo liniowy. Wykresy widzisz codziennie, w prognozie pogody i w wiadomościach."
+ "Viele Zahlen in einer Liste sind schwer zu lesen. Ein Diagramm zeigt sie als Bild. Dann siehst du sofort, was größer ist. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du oft, zum Beispiel im Wetterbericht.": "Wiele liczb na liście trudno się czyta. Wykres pokazuje je jako obrazek. Wtedy od razu widać, co jest większe. Dowiesz się, kiedy pasuje wykres kolumnowy, kołowy albo liniowy. Wykresy widzisz często, na przykład w prognozie pogody."
 }

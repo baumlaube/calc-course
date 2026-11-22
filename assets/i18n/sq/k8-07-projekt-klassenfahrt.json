@@ -3,9 +3,6 @@
  "Projekt: Wir planen die Klassenfahrt": "Projekt: Planifikojmë ekskursionin e klasës",
  "Klasse 8 · Baustein 7–8": "Klasa 8 · Njësitë 7–8",
  "Vorwissen: Baustein 1–6": "Njohuri paraprake: njësitë 1–6",
- "Ich kann alles aus Baustein 1 bis 6 in einem echten Projekt anwenden.": "Mund të përdor gjithçka nga njësitë 1 deri në 6 në një projekt të vërtetë.",
- "Ich kann einen Kostenplan mit Formeln, SUMME und absoluten Bezügen erstellen.": "Mund të bëj një plan kostoje me formula, SUMME dhe referenca absolute.",
- "Ich kann Ergebnisse mit einem Diagramm zeigen und eine Entscheidung begründen.": "Mund të tregoj rezultatet me një diagram dhe të arsyetoj një vendim.",
  "🎒 Euer Auftrag": "<span class=\"step-no\">🎒</span> Detyra jote",
  "Eure Klasse fährt 3 Tage weg. Ihr seid das Planungsteam.Was kostet die Fahrt? Wie viel zahlt jeder selbst? Welches Ziel ist besser?": "Klasa jote shkon 3 ditë larg. Ti je <strong>ekipi i planifikimit</strong>.<br/>Sa kushton ekskursioni? Sa paguan secili? Cili destinacion është më i mirë?",
  "Ihr arbeitet allein oder zu zweit. Die Projektdatei zeigt euch auf dem Startblatt, welche Meilensteine schon geschafft sind.": "Punon vetëm ose në çift. Fleta e fillimit në skedarin e projektit tregon cilat etapa i ke kryer.",
@@ -64,11 +61,6 @@
  "Für Lehrkräfte: ★ = 1, ★★ = 2, ★★★ = 3 Punkte je Zeile. Ohne Plus sind es 15 Punkte, mit Plus 18.": "Për mësuesit: ★ = 1, ★★ = 2, ★★★ = 3 pikë për rresht. Pa Plus janë 15 pikë, me Plus 18.",
  "Rückblick auf Klasse 8": "Vështrim prapa te klasa 8",
  "Hak ab, was du jetzt kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.": "Shëno çfarë di tani. Vetëm pajisja jote e mban mend – nuk dërgohet asgjë.",
- "Ich kann einen Kostenplan mit Formeln aufbauen.": "Mund të ndërtoj një plan kostoje me formula.",
- "Ich setze SUMME, Ausfüllen und $ sinnvoll ein.": "I përdor me kuptim SUMME, plotësimin dhe <code>$</code>.",
- "Ich gestalte Tabellen so, dass andere sie gut lesen können.": "I bëj tabelat që të tjerët t'i lexojnë lehtë.",
- "Ich wähle das passende Diagramm und lese es richtig.": "Zgjedh diagramin e duhur dhe e lexoj saktë.",
- "Plus Ich kann zwei Angebote vergleichen und meine Entscheidung begründen.": "<span class=\"badge plus\">Plus</span> Mund të krahasoj dy oferta dhe ta arsyetoj vendimin tim.",
  "← 6 · Diagramme": "← 6 · Diagramet",
  "Klasse 9 · Fehlerdetektiv →": "Klasa 9 · Detektivi i gabimeve →",
  "{} pro Person": "<strong>{}</strong> për person",
@@ -83,5 +75,5 @@
  "Geld, das jemand dazugibt, z. B. die Schule": "<strong>ndihmë, subvencion</strong> – para që i shton dikush, p.sh. shkolla",
  "ein Vorschlag mit Preis. Ihr vergleicht zwei Angebote.": "<strong>ofertë</strong> – një propozim me çmim. Ju krahasoni dy oferta.",
  "sagen, warum. Hier: mit Zahlen.": "<strong>arsyetoj</strong> – them pse. Këtu: me numra.",
- "Jetzt setzt du alles aus Klasse 8 zusammen. Ihr plant eine Klassenfahrt: Kosten pro Person ausrechnen, Angebote vergleichen und die Entscheidung mit einem Diagramm begründen. Diese Rechnung muss vor jeder echten Klassenfahrt jemand machen.": "Tani bashkon gjithçka nga klasa e 8-të. Planifikoni një ekskursion me klasën: llogaritni koston për person, krahasoni ofertat dhe e arsyetoni vendimin me një diagram. Para çdo ekskursioni të vërtetë dikush duhet ta bëjë këtë llogari."
+ "Jetzt brauchst du alles aus Klasse 8. Ihr plant eine Klassenfahrt: Ihr rechnet die Kosten pro Person aus, vergleicht Angebote und zeigt eure Entscheidung in einem Diagramm. So eine Rechnung braucht jede echte Klassenfahrt.": "Tani të duhet gjithçka nga klasa e 8-të. Planifikoni një ekskursion me klasën: llogaritni koston për person, krahasoni ofertat dhe e tregoni vendimin tuaj në një diagram. Çdo ekskursion i vërtetë ka nevojë për një llogari të tillë."
 }

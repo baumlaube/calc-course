@@ -2,9 +2,6 @@
  "Fehlerdetektiv · Calc-Kurs Klasse 9": "Детектив ошибок · Курс Calc 9 класс",
  "Fehlerdetektiv – Fehler finden und reparieren": "Детектив ошибок – найти и исправить ошибки",
  "Klasse 9 · Baustein 1": "9 класс · Модуль 1",
- "Ich kann Fehlermeldungen wie #WERT!, #DIV/0! und #NAME? deuten und beheben.": "Я понимаю и исправляю сообщения об ошибках, например <code>#WERT!</code> (#ЗНАЧ!), <code>#DIV/0!</code> и <code>#NAME?</code>.",
- "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "Я нахожу тихие ошибки, которые Calc не показывает.",
- "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "Я исправляю формулы всем, что знаю из 8 класса.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>Ты это уже знаешь:</strong> <code>=C5/B5</code> делит баллы на число участников. В D5 это работает. Но D6 вдруг показывает <code>#DIV/0!</code>.",
  "Überleg: Warum?": "<strong>Подумай:</strong> почему?",
  "Die Punktzahl ist zu hoch.": "Балл слишком большой.",
@@ -47,11 +44,6 @@
  "In Englisch gibt es noch keine Noten, darum zeigt der Durchschnitt #DIV/0!. Das sieht im Zeugnis nicht gut aus.": "По английскому ещё нет оценок, поэтому среднее показывает <code>#DIV/0!</code>. В табеле это выглядит плохо.",
  "=WENNFEHLER(Formel; \"Ersatz\")Klappt die Formel, kommt ihr Ergebnis. Sonst kommt der Ersatz.": "<code>=WENNFEHLER(Formel; \"Ersatz\")</code><br/>Если формула работает, получаешь её результат. Если нет – замену.",
  "Ändere E3 so, dass statt des Fehlers keine Noten erscheint. Text steht in Anführungszeichen.": "Измени E3 так, чтобы вместо ошибки появилось <code>keine Noten</code> (нет оценок). Текст пишут в кавычках.",
- "Ich weiß, was #WERT!, #DIV/0! und #NAME? bedeuten.": "Я знаю, что означают <code>#WERT!</code>, <code>#DIV/0!</code> и <code>#NAME?</code>.",
- "Ich kann laute Fehler reparieren.": "Я умею исправлять громкие ошибки.",
- "Ich finde stille Fehler mit den Detektiv-Tricks.": "Я нахожу тихие ошибки с помощью хитростей детектива.",
- "Plus Ich kann Fehler absichtlich erzeugen und erklären.": "<span class=\"badge plus\">Plus</span> Я умею нарочно делать ошибки и объяснять их.",
- "Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">Expedition</span> Я умею перехватывать ошибки с помощью WENNFEHLER (ЕСЛИОШИБКА).",
  "← Klasse 8 · Projekt": "← 8 класс · Проект",
  "2 · Prozentrechnung →": "2 · Проценты →",
  "Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.": "Щёлкни по D6 – и увидишь: формула использует B6, а B6 пустая. Пустая ячейка – это 0, а на 0 делить нельзя.",
@@ -92,7 +84,6 @@
  "Aus still wird laut: Wandert ein Bezug ohne $ auf eine leere Zelle oder auf Text, zeigt Calc weiter unten #DIV/0! oder #WERT!. Der Fehler steckt dann oben in der ersten Formel.": "<strong>Тихая становится громкой:</strong> если ссылка без <code>$</code> сползает на пустую ячейку или на текст, Calc ниже показывает <code>#DIV/0!</code> или <code>#WERT!</code>. Тогда ошибка вверху, в первой формуле.",
  "Stille Fehler zeigt Calc nicht an: getippte Zahlen, fehlendes $, Bereich zu kurz oder zu groß.": "<strong>Тихие ошибки</strong> Calc не показывает: введённые числа, нет <code>$</code>, слишком короткий или большой диапазон.",
  "MAX, MIN und MITTELWERT brauchen einen Bereich mit Doppelpunkt: =MAX(G5:G10).": "<code>MAX</code>, <code>MIN</code> и <code>MITTELWERT</code> нужен диапазон с двоеточием: <code>=MAX(G5:G10)</code>.",
- "★ Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">★ Expedition</span> Я умею перехватывать ошибки с помощью WENNFEHLER (ЕСЛИОШИБКА).",
  "Üben Aufwärmen: Waffelverkauf": "<span class=\"badge ueben\">Üben</span> Разминка: продажа вафель",
  "Stückzahl und Umsatz für sechs Waffelsorten, dazu MAX, MIN und MITTELWERT. Die Kontrolle merkt, wenn der Preis mit in der Summe steckt.": "Количество и выручка для шести видов вафель, плюс MAX, MIN и MITTELWERT. Проверка заметит, если цена попала в сумму.",
  "ODS Üben: Waffelverkaufk9-01-fehlerdetektiv-mehr-waffelverkauf.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Продажа вафель</strong><small>k9-01-fehlerdetektiv-mehr-waffelverkauf.ods</small></span>",
@@ -135,5 +126,5 @@
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>узкий</strong> – не широкий. <code>###</code> значит: столбец слишком узкий.",
  "verstehen, was etwas bedeutet": "<strong>толковать</strong> – понять, что что-то значит",
  "einen Fehler wieder richtig machen": "<strong>исправить</strong> – сделать ошибку снова правильной",
- "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "В таблицах бывают ошибки, даже у профессионалов. Некоторые Calc показывает громко, например <code>#DIV/0!</code>. Другие тихие: число выглядит правильным, но всё равно неверно. Здесь ты учишься находить и исправлять оба вида. Заодно повторяешь всё из 8 класса."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "В таблицах бывают ошибки. Некоторые ошибки Calc показывает, например <code>#DIV/0!</code>. Другие Calc не показывает: число выглядит правильным, но оно неверно. Здесь ты учишься находить и исправлять оба вида. Заодно повторяешь 8 класс."
 }

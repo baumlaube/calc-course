@@ -2,9 +2,6 @@
  "Drucken wie ein Profi · Calc-Kurs Zusatzmodul": "Printo si profesionist · Kursi Calc modul shtesë",
  "Drucken wie ein Profi": "Printo si profesionist",
  "brauchst du bei jeder Abgabe": "të duhet për çdo dorëzim",
- "Ich prüfe mit der Druckvorschau, wie der Ausdruck aussieht.": "Me pamjen paraprake të printimit kontrolloj si duket printimi.",
- "Ich stelle Querformat, „auf eine Seite“ und eine Kopfzeile ein.": "Caktoj orientimin horizontal, „përshtat në një faqe” dhe një kokë faqeje.",
- "Ich lege fest, was gedruckt wird – und speichere als PDF.": "Vendos çfarë printohet – dhe ruaj si PDF.",
  "💡 Deine Notenliste ist 30 cm breit. Auf ein A4-Blatt hochkant passen nur etwa 17 cm.": "💡 Lista jote e notave është <strong>30 cm e gjerë</strong>. Në një faqe A4 vertikale hyjnë vetëm rreth <strong>17 cm</strong>.",
  "Überleg: Was passiert, wenn du einfach auf Drucken klickst?": "<strong>Mendo:</strong> Çfarë ndodh nëse thjesht klikon Printo?",
  "Calc macht alles kleiner – passt auf ein Blatt.": "Calc e zvogëlon gjithçka – hyn në një faqe.",
@@ -69,5 +66,5 @@
  "Datei → Druckvorschau": "Datei → Druckvorschau (Skedar → Parapamje e shtypjes)",
  "Spalten löschen": "Fshi kolonat",
  "Klein schreiben": "Shkruaj me shkronja të vogla",
- "Auf dem Bildschirm sieht die Tabelle gut aus, auf Papier fehlt plötzlich die Hälfte. Hier lernst du, mit Druckvorschau, Querformat und „auf eine Seite“ sauber zu drucken. Und du speicherst die Tabelle als PDF, zum Abgeben oder Verschicken.": "Në ekran tabela duket mirë, në letër papritur mungon gjysma. Këtu mëson të shtypësh pastër me parapamjen e shtypjes, formatin horizontal dhe „në një faqe“. Dhe e ruan tabelën si PDF, për ta dorëzuar ose dërguar."
+ "Auf dem Bildschirm sieht die Tabelle gut aus. Auf dem Papier fehlt plötzlich die Hälfte. Hier lernst du, die Tabelle richtig auf ein Blatt zu bringen. Du speicherst sie auch als PDF, zum Abgeben oder Verschicken.": "Në ekran tabela duket mirë. Në letër papritur mungon gjysma. Këtu mëson ta vendosësh tabelën saktë në një fletë. E ruan edhe si PDF, për ta dorëzuar ose dërguar."
 }

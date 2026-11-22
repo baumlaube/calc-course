@@ -3,9 +3,6 @@
  "Projekt: Welcher Handyvertrag passt zu mir?": "Projekt: Który abonament do mnie pasuje?",
  "Zusatzmodul · Projekt": "Moduł dodatkowy · projekt",
  "Vorwissen: WENN, $-Anker, Diagramme": "Potrzebujesz: WENN, kotwica $, wykresy",
- "Ich kann Tarife mit WENN und MIN vergleichen.": "Umiem porównać abonamenty za pomocą WENN i MIN.",
- "Ich kann Kosten über zwei Jahre berechnen.": "Umiem policzyć koszty na dwa lata.",
- "Ich kann meine Entscheidung mit Zahlen und einem Diagramm begründen.": "Umiem wyjaśnić decyzję liczbami i wykresem.",
  "📱 Euer Auftrag": "<span class=\"step-no\">📱</span> Twoje zadanie",
  "Vier Tarife, ein Ziel: Welcher ist für euren Datenbedarf über zwei Jahre am günstigsten? Die Tarife sind ausgedacht – die Rechnung ist echt.": "Cztery abonamenty, jeden cel: który jest najtańszy przez dwa lata <strong>przy twoim zużyciu internetu</strong>? Abonamenty są wymyślone – matematyka jest prawdziwa.",
  "ODS Projektdateix06-handyvertrag.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Projektdatei</strong> (plik projektu)<small>x06-handyvertrag.ods</small></span>",
@@ -44,5 +41,5 @@
  "Kosten in 2 Jahren bei {} GB": "Koszt przez 2 lata przy {} GB",
  "Am günstigsten: {} mit {}.": "Najtańszy: <strong>{}</strong> za {}.",
  "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Za mało internetu (nawet z pakietem dodatkowym): {}.",
- "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Każdy operator reklamuje najtańszy abonament. Który naprawdę do ciebie pasuje? W tym projekcie porównujesz abonamenty przez dwa lata za pomocą <code>WENN</code> (JEŻELI) i <code>MIN</code> i uzasadniasz wybór liczbami i wykresem."
+ "Jeder Anbieter sagt: Unser Tarif ist der beste. Welcher passt wirklich zu dir? Du vergleichst Tarife über zwei Jahre mit WENN und MIN. Deine Wahl zeigst du mit Zahlen und einem Diagramm.": "Każdy operator mówi: nasz abonament jest najlepszy. Który naprawdę do ciebie pasuje? Porównujesz abonamenty przez dwa lata za pomocą <code>WENN</code> (JEŻELI) i <code>MIN</code>. Swój wybór pokazujesz liczbami i wykresem."
 }

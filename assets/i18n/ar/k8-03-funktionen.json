@@ -3,9 +3,6 @@
  "Funktionen – ganze Bereiche auf einmal": "الدوال – نطاقات كاملة دفعة واحدة",
  "Klasse 8 · Baustein 3": "الصف 8 · الوحدة 3",
  "Vorwissen: Formeln mit Zellen": "المعرفة المسبقة: الصيغ بالخلايا",
- "Ich kann mit SUMME einen ganzen Bereich zusammenzählen.": "أجمع نطاقًا كاملًا بـ <strong>SUMME</strong> (المجموع).",
- "Ich kann MITTELWERT, MIN und MAX benutzen.": "أستخدم <strong>MITTELWERT</strong> (المتوسط) و<strong>MIN</strong> و<strong>MAX</strong>.",
- "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "أكتب نطاقًا مثل <code>B5:B9</code> أو أحدّده بالفأرة.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>أنت تعرف هذا:</strong> <code>=B5+B6+B7+B8+B9</code> تجمع خمسة أيام. لكن ماذا عن 365 يومًا؟ لهذا توجد <strong>الدوال</strong>.<br/>في B10 يوجد: <code>=SUMME(B5:B9)</code>",
  "Überleg: Was bedeutet B5:B9?": "<strong>فكّر:</strong> ماذا تعني <code>B5:B9</code>؟",
  "Nur B5 und B9": "B5 وB9 فقط",
@@ -39,11 +36,6 @@
  "★ Expedition: Würfeln mit Calc freiwillig": "<span class=\"step-no\">★</span> رحلة استكشاف: رمي النرد مع Calc <span class=\"badge expedition\">اختياري</span>",
  "Jeder Würfel oben ist eine Formel: =ZUFALLSBEREICH(1;6). Berechne in B7 den Durchschnitt aller 20 Würfe. Dann würfle ein paar Mal neu.": "كل نرد في الأعلى صيغة: <code>=ZUFALLSBEREICH(1;6)</code> (رقم عشوائي بين). احسب في B7 متوسط الرميات العشرين كلها. ثم ارمِ من جديد عدة مرات.",
  "Neu: Ein Bereich kann auch ein Rechteck sein: B2:F5 heißt von B2 oben links bis F5 unten rechts.": "جديد: النطاق يمكن أن يكون مستطيلًا أيضًا: <code>B2:F5</code> تعني من B2 أعلى اليسار إلى F5 أسفل اليمين.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren.": "أقرأ نطاقًا مثل <code>B5:B9</code> وأحدّده.",
- "Ich kann SUMME, MITTELWERT, MIN und MAX benutzen.": "أستخدم SUMME وMITTELWERT وMIN وMAX.",
- "Ich weiß, wann ich welche Funktion brauche.": "أعرف أيّ دالة أحتاج ومتى.",
- "Plus Ich kann ANZAHL benutzen und zwei Funktionen in einer Formel verbinden.": "<span class=\"badge plus\">Plus</span> أستخدم ANZAHL (العدد) وأجمع دالتين في صيغة واحدة.",
- "Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">Expedition</span> أحلّل نطاقات مستطيلة مثل <code>B2:F5</code>.",
  "← 2 · Erste Formeln": "← 2 · الصيغ الأولى",
  "4 · Ausfüllen →": "4 · التعبئة →",
  "Der Doppelpunkt heißt „bis“. Schau auf den farbigen Rahmen: B5:B9 umfasst alle fünf Zellen von B5 bis B9.": "النقطتان تعنيان <strong>«إلى»</strong>. انظر إلى الإطار الملوّن: <code>B5:B9</code> يشمل الخلايا الخمس كلها من B5 إلى B9.",
@@ -83,9 +75,6 @@
  "PlusAufgabe 1c · Summen-Fallen: Wann der Σ-Knopf danebenliegt.": "<span class=\"badge plus\">Plus</span><span><strong>المهمة 1c · فخاخ المجموع:</strong> متى يخطئ زر Σ.</span>",
  "Bereich markieren: Nach =SUMME( mit gedrückter Maustaste von B5 bis B9 ziehen. Lange Liste: erste Zahl anklicken, dann Strg + ⇧ + ↓.": "تحديد نطاق: بعد <code>=SUMME(</code> اضغط زر الفأرة واسحب من B5 إلى B9. قائمة طويلة: انقر أول رقم، ثم <kbd>Strg</kbd> + <kbd>⇧</kbd> + <kbd>↓</kbd>.",
  "Der Σ-Knopf rät den Bereich. Rahmen prüfen, dann erst Enter.": "زر Σ يخمّن النطاق. <strong>تحقّق من الإطار</strong>، ثم اضغط <kbd>Enter</kbd>.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren, auch eine lange Liste.": "أستطيع قراءة نطاق مثل <code>B5:B9</code> وتحديده، حتى في قائمة طويلة.",
- "Ich prüfe den Vorschlag vom Σ-Knopf, bevor ich Enter drücke.": "أتحقّق من اقتراح زر Σ قبل أن أضغط <kbd>Enter</kbd>.",
- "★ Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">★ Expedition</span> أستطيع تحليل نطاقات مستطيلة مثل <code>B2:F5</code>.",
  "Üben Mein Zeugnis-Schnitt": "<span class=\"badge ueben\">Üben</span> معدّلي في الشهادة",
  "In Bayern zählen die Schulaufgaben (SA) doppelt. Spalte J zeigt den normalen Durchschnitt. Was steht im Zeugnis?": "في بافاريا تُحسب Schulaufgaben (SA، الاختبارات الكبيرة) <strong>مرتين</strong>. العمود J يعرض المعدّل العادي. ماذا يُكتب في الشهادة؟",
  "=(2*SUMME(B2:D2)+SUMME(E2:I2))/113 SA doppelt = 6, dazu 5 andere Noten = 11": "<code>=(2*SUMME(B2:D2)+SUMME(E2:I2))/11</code><br/>3 SA مرتين = 6، ومعها 5 علامات أخرى = 11",
@@ -133,5 +122,5 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>المتوسط</strong> – اجمع الكل واقسم على العدد. في Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>قيمة</strong> – ما يوجد في خلية، غالبًا رقم",
  "Zellen mit der Maus auswählen": "<strong>يحدّد</strong> – يختار خلايا بالفأرة",
- "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "خمسة أرقام ما زلت تجمعها بـ <code>+</code>. لكن مع 30 علامة أو 365 يومًا يصبح ذلك متعبًا. دوال مثل <code>SUMME</code> (SUM) و<code>MITTELWERT</code> (AVERAGE) و<code>MIN</code> و<code>MAX</code> تحسب نطاقًا كاملًا مرة واحدة. مع <code>MITTELWERT</code> تحسب مثلًا معدل علاماتك."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "خمسة أرقام تستطيع جمعها بـ <code>+</code>. لكن 30 علامة؟ أو 365 يومًا؟ هذا يأخذ وقتًا طويلًا. دالة مثل <code>SUMME</code> (SUM) تحسب خلايا كثيرة مرة واحدة. مع <code>MITTELWERT</code> (AVERAGE) تحسب مثلًا معدل علاماتك."
 }

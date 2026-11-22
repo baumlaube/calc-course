@@ -1,9 +1,6 @@
 {
  "Sortieren & Filtern · Calc-Kurs Zusatzmodul": "مرتب‌سازی و فیلتر · دورهٔ Calc ماژول اضافی",
  "Sortieren & Filtern – große Tabellen bändigen": "Sortieren &amp; Filtern (مرتب‌سازی و فیلتر) – رام کردن جدول‌های بزرگ",
- "Ich kann eine Tabelle auf- oder absteigend sortieren.": "می‌توانم یک جدول را صعودی یا نزولی مرتب کنم.",
- "Ich kann mit dem AutoFilter nur bestimmte Zeilen anzeigen.": "با AutoFilter فقط ردیف‌های خاصی را نشان می‌دهم.",
- "Ich weiß, warum man nie nur eine Spalte sortiert.": "می‌دانم چرا هیچ‌وقت فقط یک ستون را مرتب نمی‌کنی.",
  "💡 Tom will die Besten oben haben. Er markiert nur die Spalte C und sortiert sie absteigend.": "💡 تام می‌خواهد بهترین‌ها بالا باشند. <strong>فقط ستون C</strong> را انتخاب می‌کند و نزولی مرتب می‌کند.",
  "Überleg: Was passiert?": "<strong>فکر کن:</strong> چه می‌شود؟",
  "Alles richtig – die Besten stehen oben.": "همه چیز درست است – بهترین‌ها بالا هستند.",
@@ -64,5 +61,5 @@
  "alphabetisch": "به ترتیب الفبا",
  "größte oben": "بزرگ‌ترین در بالا",
  "kleinste oben": "کوچک‌ترین در بالا",
- "In einer Tabelle mit Hunderten Zeilen sucht niemand von Hand. Du sortierst sie, zum Beispiel nach Punkten, oder du filterst nur die Zeilen, die du brauchst. Das kennst du aus jedem Online-Shop: sortieren nach Preis, filtern nach Größe.": "در جدولی با صدها ردیف کسی با دست جست‌وجو نمی‌کند. آن را مرتب می‌کنی، مثلاً بر اساس امتیاز، یا فقط ردیف‌هایی را که لازم داری فیلتر می‌کنی. این را از هر فروشگاه اینترنتی می‌شناسی: مرتب‌کردن بر اساس قیمت، فیلتر بر اساس اندازه."
+ "Eine Tabelle hat hundert Zeilen. Du suchst nicht jede Zeile ab. Du sortierst die Tabelle, zum Beispiel nach Punkten. Oder du filterst: Dann siehst du nur die Zeilen, die du brauchst. Das kennst du aus Online-Shops: sortieren nach Preis, filtern nach Größe.": "یک جدول صد ردیف دارد. تو همهٔ ردیف‌ها را نمی‌گردی. جدول را مرتب می‌کنی، مثلاً بر اساس امتیاز. یا فیلتر می‌کنی: آن‌وقت فقط ردیف‌هایی را می‌بینی که لازم داری. این را از فروشگاه‌های اینترنتی می‌شناسی: مرتب‌کردن بر اساس قیمت، فیلتر بر اساس اندازه."
 }

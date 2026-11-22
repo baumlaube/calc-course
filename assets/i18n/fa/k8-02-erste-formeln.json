@@ -3,9 +3,6 @@
  "Erste Formeln – Calc rechnet für dich": "فرمول‌های اول – Calc برایت حساب می‌کند",
  "Klasse 8 · Baustein 2": "کلاس 8 · واحد 2",
  "Vorwissen: Zellen und Eingeben": "پیش‌نیاز: خانه‌ها و نوشتن",
- "Ich kann eine Formel mit = beginnen und mit + − * / rechnen.": "می‌توانم فرمول را با <code>=</code> شروع کنم و با + − * / حساب کنم.",
- "Ich kann in Formeln Zellen statt Zahlen verwenden.": "می‌توانم در فرمول به جای عدد از خانه استفاده کنم.",
- "Ich kann erklären, warum Calc dann von selbst neu rechnet.": "می‌توانم توضیح بدهم چرا Calc بعد خودش دوباره حساب می‌کند.",
  "Mia kauft Schulsachen. Bei den Heften hat sie im Kopf gerechnet und in D5 einfach 4,50 eingetippt. Bei den Stiften steht in D6 eine Formel.": "میا وسایل مدرسه می‌خرد. برای <strong>دفترها</strong> در ذهن حساب کرد و فقط <code>4,50</code> را در D5 نوشت. برای <strong>خودکارها</strong> در D6 یک فرمول هست.",
  "Überleg: Beides wird teurer. Was zeigt D5 danach?": "<strong>فکر کن:</strong> هر دو گران‌تر می‌شوند. <strong>D5</strong> بعد چه نشان می‌دهد؟",
  "Den neuen, höheren Betrag": "مبلغ جدید و بیشتر را",
@@ -43,11 +40,6 @@
  "★ Expedition: Punkt vor Strich freiwillig": "<span class=\"step-no\">★</span> اکتشاف: ترتیب عملیات <span class=\"badge expedition\">اختیاری</span>",
  "Auch Calc rechnet Punkt vor Strich.Was in Klammern steht, kommt zuerst.": "Calc هم <strong>ضرب و تقسیم را قبل از جمع و تفریق</strong> انجام می‌دهد.<br/>آنچه در <strong>پرانتز</strong> است اول می‌آید.",
  "Berechne in B6 deinen Notendurchschnitt: alle Noten zusammenzählen, dann durch 3 teilen.": "در B6 میانگین نمره‌هایت را حساب کن: همهٔ نمره‌ها را جمع کن، بعد بر 3 تقسیم کن.",
- "Ich beginne jede Formel mit =.": "هر فرمول را با <code>=</code> شروع می‌کنم.",
- "Ich kenne die Rechenzeichen + − * /.": "علامت‌های عمل + − * / را می‌شناسم.",
- "Ich klicke Zellen an, statt Zahlen in die Formel zu tippen.": "به جای نوشتن عدد در فرمول، روی خانه‌ها کلیک می‌کنم.",
- "Plus Ich kann Formeln bauen, die auf anderen Formeln aufbauen.": "<span class=\"badge plus\">Plus</span> می‌توانم فرمول‌هایی بسازم که از فرمول‌های دیگر استفاده می‌کنند.",
- "Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">Expedition</span> پرانتزها را درست به کار می‌برم.",
  "← 1 · Erste Schritte": "← 1 · قدم‌های اول",
  "3 · Funktionen →": "3 · تابع‌ها →",
  "Die Preise steigen … schau auf Spalte C und D!": "قیمت‌ها بالا می‌روند … به ستون C و D نگاه کن!",
@@ -86,7 +78,6 @@
  "D5 rechnet neu": "D5 دوباره حساب می‌کند",
  "D5 bleibt 4,50": "D5 همان 4,50 می‌ماند",
  "B5 abtippen": "B5 را تایپ کردن",
- "★ Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">★ Expedition</span> پرانتزها را درست می‌گذارم.",
  "Üben Farbfelder": "<span class=\"badge ueben\">Üben</span> خانه‌های رنگی",
  "Zähl alle Felder mit derselben Farbe zusammen. Tipp in B8 =, klick das erste gelbe Feld an, tipp +, klick das nächste an … und drück Enter.": "همه خانه‌های هم‌رنگ را جمع کن. در B8 تایپ کن <code>=</code>، روی اولین خانه زرد کلیک کن، <code>+</code> تایپ کن، روی بعدی کلیک کن … و <kbd>Enter</kbd> را بزن.",
  "Keine Zahlen abtippen! Nur Zellen anklicken. Dann rechnet die Summe mit, wenn sich eine Zahl ändert.": "<strong>عددها را دوباره تایپ نکن!</strong> فقط روی خانه‌ها کلیک کن. آن وقت وقتی عددی عوض شود، جمع هم عوض می‌شود.",
@@ -121,5 +112,5 @@
  "das, was bei einer Rechnung herauskommt": "<strong>نتیجه</strong> – چیزی که از حساب درمی‌آید",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>خط ورودی</strong> – خط بلند بالای جدول. آنجا فرمول را می‌بینی.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>دوباره حساب کردن</strong> – وقتی عددی عوض شود، Calc یک بار دیگر حساب می‌کند",
- "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "تا حالا فقط عدد تایپ می‌کنی. حالا Calc برایت حساب می‌کند: فرمول با <code>=</code> شروع می‌شود و با خانه‌ها حساب می‌کند. اگر عددی عوض شود، Calc فوراً دوباره حساب می‌کند. دقیقاً برای همین از جدول استفاده می‌کنیم، نه ماشین‌حساب."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "حالا Calc برایت حساب می‌کند. فرمول با <code>=</code> شروع می‌شود و با سلول‌ها حساب می‌کند. اگر عددی عوض شود، Calc فوراً دوباره حساب می‌کند. ماشین‌حساب این کار را نمی‌تواند."
 }

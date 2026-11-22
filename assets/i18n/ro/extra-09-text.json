@@ -2,9 +2,6 @@
  "Text-Tricks · Calc-Kurs Zusatzmodul": "Trucuri cu text · Curs Calc modul suplimentar",
  "Text-Tricks – Namen und E-Mail-Adressen bauen": "Trucuri cu text – construiește nume și adrese de e-mail",
  "Vorwissen: Formeln, WENN": "Ai nevoie de: formule, WENN",
- "Ich klebe Texte mit & zusammen.": "Lipesc texte cu <code>&amp;</code>.",
- "Ich zerlege und prüfe Texte mit LINKS, KLEIN und LÄNGE.": "Desfac și verific texte cu LINKS (STÂNGA), KLEIN (LITERE MICI) și LÄNGE (LUNGIME).",
- "Ich baue automatisch Benutzernamen und E-Mail-Adressen.": "Construiesc automat nume de utilizator și adrese de e-mail.",
  "💡 In C2 kommt: =A2&B2": "💡 C2 primește: <code>=A2&amp;B2</code>",
  "Lea Müller": "Lea Müller",
  "LeaMüller": "LeaMüller",
@@ -46,5 +43,5 @@
  "Von rechts nach links": "De la dreapta la stânga",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "Întâi LINKS, apoi &amp;, la sfârșit KLEIN.",
  "Gar nicht": "Deloc",
- "Für 25 Schüler Benutzernamen von Hand tippen? Das dauert und bringt Tippfehler. Mit & und Funktionen wie LINKS und KLEIN baut Calc solche Texte selbst aus Vor- und Nachnamen. So legen Schulen und Firmen Zugänge für viele Personen an.": "Să scrii de mână numele de utilizator pentru 25 de elevi? Durează și apar greșeli. Cu <code>&amp;</code> și funcții precum <code>LINKS</code> (LEFT) și <code>KLEIN</code> (LOWER), Calc construiește singur astfel de texte din prenume și nume. Așa creează școlile și firmele conturi pentru multe persoane."
+ "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "Să scrii de mână numele de utilizator pentru 25 de elevi? Durează mult și greșești ușor. Calc construiește singur aceste nume din prenume și nume, cu <code>&amp;</code>, <code>LINKS</code> (LEFT) și <code>KLEIN</code> (LOWER). Așa fac și școlile și firmele."
 }

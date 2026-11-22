@@ -2,9 +2,6 @@
  "SVERWEIS · Calc-Kurs Zusatzmodul": "SVERWEIS (VLOOKUP) · Calc course extra module",
  "SVERWEIS – Calc schlägt nach": "SVERWEIS (VLOOKUP) – Calc looks it up",
  "Profi-Niveau (Klasse 10)": "Pro level (grade 10)",
- "Ich kann mit SVERWEIS einen Wert in einer Liste nachschlagen.": "I can look up a value in a list with SVERWEIS.",
- "Ich kann die vier Teile von SVERWEIS erklären.": "I can explain the four parts of SVERWEIS.",
- "Ich halte die Liste mit $ fest und fülle die Formel aus.": "I fix the list with <code>$</code> and fill the formula down.",
  "💡 Am Kiosk wird mit Nummern bestellt. In F2 steht die Nummer 103. In G2 kommt:=SVERWEIS(F2;A2:C7;3;0)": "💡 At the kiosk people order with numbers. F2 contains the number <strong>103</strong>. G2 gets:<br/><code class=\"long\">=SVERWEIS(F2;A2:C7;3;0)</code>",
  "Überleg: Was zeigt G2?": "<strong>Think:</strong> What does G2 show?",
  "Kakao": "Kakao (cocoa)",
@@ -60,5 +57,5 @@
  "Irgendwo": "Anywhere",
  "Null zurückgeben": "Return zero",
  "Das = fehlt": "The = is missing",
- "Am Kiosk, im Lager oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht diese Nummer in einer Liste und holt den passenden Namen oder Preis. Du musst nichts mehr von Hand nachschlagen.": "At the kiosk, in a warehouse or in an online shop, every item has a number. <code>SVERWEIS</code> (VLOOKUP) looks up this number in a list and fetches the matching name or price. You don’t have to look anything up by hand any more."
+ "Am Kiosk oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht die Nummer in einer Liste. Dann holt Calc den passenden Namen oder Preis. Du musst nicht mehr selbst suchen.": "At the kiosk or in an online shop, every item has a number. <code>SVERWEIS</code> (VLOOKUP) looks for the number in a list. Then Calc fetches the matching name or price. You don’t have to search yourself any more."
 }

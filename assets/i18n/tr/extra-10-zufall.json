@@ -2,9 +2,6 @@
  "Zufall & Spiele · Calc-Kurs Zusatzmodul": "Şans ve oyunlar · Calc kursu ek modül",
  "Zufall & Spiele – würfeln, werfen, drehen": "Şans ve oyunlar – zar at, yazı tura at, çarkı çevir",
  "Vorwissen: WENN, ZÄHLENWENN hilft": "Gerekli: WENN, ZÄHLENWENN yardımcı olur",
- "Ich würfle mit ZUFALLSBEREICH und würfle mit F9 neu.": "<code>ZUFALLSBEREICH</code> (RASTGELEARADA) ile zar atar ve <kbd>F9</kbd> ile yeniden atarım.",
- "Ich werfe eine Münze mit ZUFALLSZAHL und WENN.": "<code>ZUFALLSZAHL</code> (S_SAYI_ÜRET) ve WENN ile yazı tura atarım.",
- "Ich probiere aus: Wie oft kommt die 6 wirklich?": "Deneyerek bulurum: 6 gerçekte kaç kez gelir?",
  "💡 Du würfelst 60-mal. Im Schnitt kommt jede Zahl 10-mal.": "💡 Bir zarı <strong>60 kez</strong> atıyorsun. Ortalamada her sayı 10 kez gelir.",
  "Überleg: Wie oft kommt die 6 wirklich?": "<strong>Düşün:</strong> 6 gerçekte kaç kez gelir?",
  "Genau 10-mal.": "Tam 10 kez.",
@@ -55,5 +52,5 @@
  "Genau 100-mal": "Tam 100 kez",
  "60-mal": "60 kez",
  "Eine Zahl": "Bir sayı",
- "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele und probierst aus, wie Zufall wirklich funktioniert: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc zar atabilir, yazı tura atabilir ve çarkıfelek çevirebilir. Bununla küçük oyunlar yaparsın ve şansın gerçekten nasıl işlediğini denersin: 60 atışta 6 gerçekten on kez gelir mi?"
+ "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele. Und du probierst aus: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc zar atabilir, yazı tura atabilir ve çarkıfelek çevirebilir. Bununla küçük oyunlar yaparsın. Ve denersin: 60 atışta 6 gerçekten on kez gelir mi?"
 }

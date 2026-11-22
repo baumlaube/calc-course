@@ -3,9 +3,6 @@
  "Prozentrechnung – Rabatt, Anteile, Mehrwertsteuer": "Percentages – discount, shares, VAT",
  "Klasse 9 · Baustein 2": "Grade 9 · Unit 2",
  "Vorwissen: Prozente aus Mathe, $-Anker": "You need: percentages from maths, $ anchor",
- "Ich kann Prozente in Calc richtig eingeben und als % formatieren.": "I can type percentages correctly in Calc and format them as %.",
- "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "I can calculate discount, shares and VAT with formulas.",
- "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "I can use one percentage for many rows with the <code>$</code> anchor.",
  "💡 Aus Mathe kennst du: 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 20 %.": "💡 <strong>From maths you know:</strong> 20 % of 50 € = 50 € · 20 : 100 = 10 €. In the table above, B2 shows <strong>20 %</strong>.",
  "Überleg: Welche Zahl steht für Calc wirklich in B2?": "<strong>Think:</strong> Which number is really in B2 for Calc?",
  "Gar keine Zahl, sondern der Text „20 %“": "No number at all, but the text „20 %“",
@@ -31,11 +28,6 @@
  "★ Expedition: Rabatt auf Rabatt freiwillig": "<span class=\"step-no\">★</span> Expedition: Discount on discount <span class=\"badge expedition\">optional</span>",
  "Die Jacke kostet 80 €. Im Sale gibt es 20 %, an der Kasse nochmal 10 % extra. Die Werbung sagt: „30 % sparen!“": "The jacket costs 80 €. In the sale there is 20 % off, and at the till another 10 % extra. The advert says: “Save 30 %!”",
  "Berechne in B5 den Endpreis und in B6, wie viel Prozent du wirklich sparst.": "In <strong>B5</strong> calculate the final price, in <strong>B6</strong> how many percent you really save.",
- "Ich tippe Prozente richtig ein und formatiere Zahlen als %.": "I type percentages correctly and format numbers as %.",
- "Ich berechne Rabatt und neuen Preis mit Formeln.": "I calculate discount and new price with formulas.",
- "Ich berechne Anteile mit =Teil/Ganzes.": "I calculate shares with <code>=Teil/Ganzes</code>.",
- "Plus Ich berechne Brutto-Preise mit der Mehrwertsteuer.": "<span class=\"badge plus\">Plus</span> I calculate gross prices with VAT.",
- "Expedition Ich weiß, warum 20 % + 10 % Rabatt keine 30 % sind.": "<span class=\"badge expedition\">Expedition</span> I know why 20 % + 10 % discount is not 30 %.",
  "← 1 · Fehlerdetektiv": "← 1 · Error detective",
  "3 · WENN 1 →": "3 · WENN 1 (IF 1) →",
  "C2 zeigt dieselbe Zahl ohne %-Format: 0,2. Das %-Format zeigt die Zahl nur mal 100 an und hängt ein % an.": "C2 shows the same number without % format: <strong>0.2</strong>. The % format only shows the number times 100 and adds a %.",
@@ -85,7 +77,6 @@
  "72 % ist der Anteil, den du noch zahlst. Gesucht ist, was du sparst: =(B1-B5)/B1": "72 % is the share you still pay. We want what you save: <code>=(B1-B5)/B1</code>",
  "Noch nicht. Gespart in % = (alter Preis − neuer Preis) ÷ alter Preis.": "Not yet. Saved in % = (old price − new price) ÷ old price.",
  "🏆 Expedition geschafft! Du sparst nur 28 %, nicht 30 %. Die 10 % gehen vom schon reduzierten Preis weg. Rabatte darf man nicht einfach addieren.": "🏆 Expedition done! You only save <strong>28 %</strong>, not 30 %. The 10 % come off the already reduced price. You must not just add discounts.",
- "★ Expedition Ich weiß, warum 20 % + 10 % Rabatt keine 30 % sind.": "<span class=\"badge expedition\">★ Expedition</span> I know why 20 % + 10 % discount is not 30 %.",
  "★ Expedition Rabatt auf Rabatt": "<span class=\"badge expedition\">★ Expedition</span> Discount on discount",
  "ODS ★ Expedition: Rabatt auf Rabattk9-02-prozentrechnung-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition: Discount on discount</strong><small>k9-02-prozentrechnung-expedition.ods</small></span>",
  "Mal 25 heißt 2500 %. Und ändert sich B2, rechnet die Formel nicht mit.": "Times 25 means 2500 %. And if B2 changes, the formula does not update.",
@@ -109,5 +100,5 @@
  "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "Everything 20 % cheaper! In <strong>C5</strong> write the discount in €, in <strong>D5</strong> the new price. Then select C5 and D5 together and drag both down to row 7 with the <strong>Ausfüllkästchen</strong> (fill handle).",
  "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "Not everything is filled yet. Select C5 and D5 <strong>together</strong> and drag the <strong>Ausfüllkästchen</strong> (fill handle) down to row 7.",
  "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ Row 5 is correct! Now select C5 and D5 together and drag both down to row 7 with the <strong>Ausfüllkästchen</strong> (fill handle).",
- "Prozentrechnen kennst du aus Mathe. Jetzt lernst du, wie Calc mit Prozenten umgeht und wie du einen Prozentsatz für eine ganze Liste festhältst. Rabatt im Schlussverkauf und die 19 % Mehrwertsteuer auf dem Kassenbon rechnest du dann in Sekunden aus.": "You know percentages from maths. Now you learn how Calc handles percentages and how you fix one percentage for a whole list. Then you can work out a sale discount or the 19 % VAT on a receipt in seconds."
+ "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "You know percentages from maths. Now you calculate percentages with Calc. So you can quickly work out what trousers with 30 % off cost. Or how much VAT is on the receipt."
 }

@@ -3,9 +3,6 @@
  "Diagramme – Zahlen auf einen Blick": "Gráficos – los números de un vistazo",
  "Klasse 8 · Baustein 6": "8.º curso · Unidad 6",
  "Vorwissen: Tabellen markieren": "Conocimientos previos: seleccionar tablas",
- "Ich kann aus einer Tabelle ein Diagramm erstellen.": "Creo un gráfico a partir de una tabla.",
- "Ich kann das passende Diagramm wählen: Säule, Kreis oder Linie.": "Elijo el gráfico adecuado: <strong>Säule</strong> (columnas), <strong>Kreis</strong> (circular) o <strong>Linie</strong> (líneas).",
- "Ich kann ein Diagramm beschriften und richtig lesen.": "Pongo etiquetas a un gráfico y lo leo correctamente.",
  "Jonas hat die Temperaturen einer Woche in ein Diagramm verwandelt. Irgendwas stimmt da nicht …": "Jonas ha convertido las temperaturas de una semana en un gráfico. Algo no cuadra …",
  "Überleg: Was ist das Problem?": "<strong>Piensa:</strong> ¿cuál es el problema?",
  "Die Legende ist zu lang.": "La leyenda es demasiado larga.",
@@ -41,10 +38,6 @@
  "★ Expedition: Lügen mit Diagrammen freiwillig": "<span class=\"step-no\">★</span> Expedición: mentir con gráficos <span class=\"badge expedition\">opcional</span>",
  "Abstimmung über die Klassenfahrt: Berlin 48 Stimmen, München 52 Stimmen. Verschieb den Regler. Wo fängt die y-Achse an?": "Votación sobre el viaje de clase: Berlín 48 votos, Múnich 52 votos. Mueve el control deslizante. ¿Dónde empieza el eje y?",
  "y-Achse beginnt bei:": "El eje y empieza en:",
- "Ich weiß, wann Säule, Kreis oder Linie passt.": "Sé cuándo encaja un gráfico de columnas, circular o de líneas.",
- "Ich gebe jedem Diagramm einen Titel und beschrifte die Achsen.": "Pongo un título a cada gráfico y etiqueto los ejes.",
- "Plus Ich kann Prozente im Kreisdiagramm anzeigen.": "<span class=\"badge plus\">Plus</span> Sé mostrar porcentajes en un gráfico circular.",
- "Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">Expedition</span> Reconozco gráficos trucados por el eje y.",
  "← 5 · Absolute Bezüge": "← 5 · Referencias absolutas",
  "7 · Projekt →": "7 · Proyecto →",
  "Wetterwoche – besser so": "Semana del tiempo: mejor así",
@@ -81,7 +74,6 @@
  "Format → Diagramm": "Format → Diagramm",
  "Gar nichts": "Nada",
  "Die Farben": "Los colores",
- "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> Reconozco gráficos tramposos por el eje y.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> El duelo de tarifas de luz",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "La luz cuesta dos veces: una <strong>cuota fija</strong> cada mes y un precio por cada <strong>kWh</strong>.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: El duelo de tarifas</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
@@ -120,5 +112,5 @@
  "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ B6 bis D6 nach unten ausfüllen (rellenar B6:D6 hacia abajo hasta D8)",
  "Erst nach rechts ausfüllen, bis D6!": "¡Primero rellena hacia la derecha, hasta D6!",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Todavía no está listo: {} celdas están vacías. Sigue arrastrando el área seleccionada hasta que todo esté lleno hasta D8.",
- "Eine lange Zahlenliste liest kaum jemand gern. Ein Diagramm zeigt auf einen Blick, was größer ist oder wie sich etwas entwickelt. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du jeden Tag, im Wetterbericht und in den Nachrichten.": "A casi nadie le gusta leer una lista larga de números. Un gráfico muestra de un vistazo qué es mayor o cómo evoluciona algo. Aprendes cuándo encaja un gráfico de columnas, circular o de líneas. Ves gráficos cada día, en el tiempo y en las noticias."
+ "Viele Zahlen in einer Liste sind schwer zu lesen. Ein Diagramm zeigt sie als Bild. Dann siehst du sofort, was größer ist. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du oft, zum Beispiel im Wetterbericht.": "Muchos números en una lista son difíciles de leer. Un gráfico los muestra como imagen. Así ves enseguida qué es mayor. Aprendes cuándo encaja un gráfico de columnas, circular o de líneas. Ves gráficos a menudo, por ejemplo en el tiempo."
 }

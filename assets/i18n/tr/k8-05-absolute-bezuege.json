@@ -3,9 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Mutlak başvurular – çapa olarak $",
  "Klasse 8 · Baustein 5": "8. sınıf · Ünite 5",
  "Vorwissen: Formeln ausfüllen": "Ön bilgi: formülleri doldurmak",
- "Ich kann erklären, warum ein Zellbezug beim Ausfüllen „wandert“.": "Doldururken bir hücre başvurusunun neden “kaydığını” açıklayabilirim.",
- "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Bir başvuruyu <code>$</code> işaretiyle sabitleyebilirim.",
- "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Ne zaman <code>$</code> gerektiğine – ve ne zaman gerekmediğine – karar verebilirim.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena bir dondurmacıda tatil işinde çalışıyor ve saatte 11 € kazanıyor. C5'te pazartesi ücretini hesapladı: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Çözüm: $ işareti <span class=\"chip\">5 dk</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> bir <strong>çapadır</strong>.<br/><code>$B$2</code> doldururken hep <code>B2</code> kalır.",
@@ -44,11 +41,6 @@
  "nur die Spalte A": "sadece A sütunu",
  "nur die Zeile 1": "sadece 1. satır",
  "Tipp: Drück Umschalt + F4 mehrmals hintereinander – so springst du durch alle Varianten.": "İpucu: <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd>'e arka arkaya birkaç kez bas – böylece bütün çeşitleri gezersin.",
- "Ich kann erklären, warum =B5*B2 beim Ausfüllen kaputtgeht.": "<code>=B5*B2</code> formülünün doldururken neden bozulduğunu açıklayabilirim.",
- "Ich kann mit $ (oder Umschalt+F4) einen Bezug festhalten.": "Bir başvuruyu <code>$</code> ile (veya <kbd>Umschalt</kbd>+<kbd>F4</kbd> ile) sabitleyebilirim.",
- "Ich erkenne, wann eine Formel ein $ braucht.": "Bir formülün ne zaman <code>$</code> gerektirdiğini görebilirim.",
- "Plus Ich finde versteckte Fehler in fremden Tabellen.": "<span class=\"badge plus\">Plus</span> Başkalarının tablolarındaki gizli hataları bulabilirim.",
- "Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">Expedition</span> <code>$A2</code> ve <code>B$1</code> gibi karışık başvuruları kullanabilirim.",
  "← 4 · Ausfüllen": "← 4 · Doldurmak",
  "6 · Diagramme →": "6 · Grafikler →",
  "Calc füllt aus … schau auf Spalte C!": "Calc dolduruyor … C sütununa bak!",
@@ -84,7 +76,6 @@
  "66,00 € (6 × 11 €)": "66,00 € (6 × 11 €)",
  "Profi-Trick: ein Name statt $. Klick B2 an, tipp oben links ins Namenfeld Lohn und drück Enter. Jetzt geht auch =B5*Lohn. Ein Name bleibt beim Ausfüllen immer fest.": "<strong>Profi hilesi: $ yerine isim.</strong> B2'ye tıkla, sol üstteki <strong>Namenfeld</strong>'e (ad kutusu) <code>Lohn</code> (ücret) yaz ve <kbd>Enter</kbd>'a bas. Artık <code>=B5*Lohn</code> da çalışır. Bir isim doldururken hep sabit kalır.",
  "Profi-Trick: Eine Zelle im Namenfeld benennen, z. B. Lohn. Ein Name bleibt beim Ausfüllen fest.": "Profi hilesi: Bir hücreye <strong>Namenfeld</strong>'de (ad kutusu) isim ver, örn. <code>Lohn</code>. İsim doldururken sabit kalır.",
- "★ Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">★ Expedition</span> <code>$A2</code> ve <code>B$1</code> gibi karma başvurular kullanabilirim.",
  "Üben Der Steuer-Schalter": "<span class=\"badge ueben\">Üben</span> Vergi anahtarı",
  "Der Steuersatz steht nur einmal, in B1. Alle Formeln holen ihn sich von dort.": "Vergi oranı sadece bir kez yazılı, B1'de. Bütün formüller onu oradan alır.",
  "C4: Steuer = Netto × Steuersatz, mit $.": "C4: vergi = net × vergi oranı, <code>$</code> ile.",
@@ -153,5 +144,5 @@
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Henüz bitmedi: {} hücre boş. Seçili alanı E9'a kadar her yer dolana kadar sürüklemeye devam et.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ 4. satır doğru. Şimdi C4 ve D4'ü birlikte seç ve aşağı 6. satıra kadar sürükle.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Düşün:</strong> Lena formülü C9'a kadar aşağı sürüklüyor. O zaman <strong>C6</strong> (salı) hücresinde ne olur?",
- "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "Doldururken her hücre başvurusu birlikte kayar. Çoğu zaman bu doğrudur. Ama bazı değerler tüm satırlar için geçerlidir, örneğin saat ücreti. <code>$</code> ile böyle bir hücreyi sabitlersin. Ücret değişirse sadece bir hücreyi değiştirirsin ve bütün tablo yeniden hesaplanır."
+ "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Çekerken formül de kayar. Çoğu zaman bu doğrudur. Ama bazı hücreler tüm satırlar için geçerli olmalı, örneğin saat ücreti. <code>$</code> ile böyle bir hücreyi sabitlersin."
 }

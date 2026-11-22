@@ -2,9 +2,6 @@
  "Brutto und Netto · Calc-Kurs Zusatzmodul": "Bruto dhe neto · Kursi Calc modul shtesë",
  "Brutto und Netto – was bleibt vom Ausbildungsgehalt?": "Brutto und Netto (bruto dhe neto) – çfarë mbetet nga paga e praktikantit?",
  "Vorwissen: Prozentrechnung, $-Anker": "Të duhet: përqindje, spiranca $",
- "Ich kann erklären, was Brutto und Netto bedeutet.": "Mund të shpjegoj çfarë do të thonë Brutto (bruto) dhe Netto (neto).",
- "Ich kann die Abzüge mit Prozentsätzen und $ berechnen.": "Mund t'i llogaris zbritjet me përqindje dhe <code>$</code>.",
- "Ich kann ausrechnen, wie viel am Monatsende übrig bleibt.": "Mund të llogaris sa mbetet në fund të muajit.",
  "💡 Im Ausbildungsvertrag steht: 1.050 € im Monat.": "💡 Në kontratën e praktikës shkruan: <strong>1.050 € në muaj</strong>.",
  "Überleg: Wie viel kommt ungefähr aufs Konto?": "<strong>Mendo:</strong> Afërsisht sa hyn në llogarinë bankare?",
  "etwa 830 €": "rreth 830 €",
@@ -46,5 +43,5 @@
  "Gesamtsatz in B2 = 21 %. Welche Formel ergibt direkt das Netto von B6?": "Norma totale në B2 = 21 %. Cila formulë jep drejtpërdrejt neton e B6?",
  "100 % − 21 % = 79 % bleiben – wie beim Rabatt.": "100 % − 21 % = mbeten 79 % – si një zbritje çmimi.",
  "Brutto 1.000 €, Abzüge 21 %. Wie viel Netto?": "Bruto 1.000 €, zbritje 21 %. Sa është neto?",
- "Im Ausbildungsvertrag steht ein Gehalt, auf dem Konto kommt weniger an. Du lernst, was Brutto und Netto bedeutet und welche Abzüge es gibt. Dann rechnest du aus, was dir am Monatsende wirklich bleibt.": "Në kontratën e formimit profesional shkruhet një rrogë, por në llogari vjen më pak. Mëson çfarë do të thotë Brutto dhe Netto (bruto dhe neto) dhe cilat zbritje ka. Pastaj llogarit sa të mbetet vërtet në fund të muajit."
+ "Im Ausbildungsvertrag steht ein Lohn. Auf dem Konto kommt aber weniger an. Du lernst, was Brutto und Netto heißt und was abgezogen wird. Dann rechnest du aus, wie viel Geld dir wirklich bleibt.": "Në kontratën e formimit profesional shkruhet një rrogë. Por në llogari vjen më pak. Mëson çfarë do të thotë Brutto dhe Netto (bruto dhe neto) dhe çfarë zbritet. Pastaj llogarit sa para të mbeten vërtet."
 }

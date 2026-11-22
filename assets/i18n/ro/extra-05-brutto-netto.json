@@ -2,9 +2,6 @@
  "Brutto und Netto · Calc-Kurs Zusatzmodul": "Brut și net · Curs Calc modul suplimentar",
  "Brutto und Netto – was bleibt vom Ausbildungsgehalt?": "Brutto und Netto (brut și net) – ce rămâne din salariul de ucenic?",
  "Vorwissen: Prozentrechnung, $-Anker": "Ai nevoie de: procente, ancora $",
- "Ich kann erklären, was Brutto und Netto bedeutet.": "Pot explica ce înseamnă Brutto (brut) și Netto (net).",
- "Ich kann die Abzüge mit Prozentsätzen und $ berechnen.": "Pot calcula reținerile cu procente și <code>$</code>.",
- "Ich kann ausrechnen, wie viel am Monatsende übrig bleibt.": "Pot calcula cât rămâne la sfârșitul lunii.",
  "💡 Im Ausbildungsvertrag steht: 1.050 € im Monat.": "💡 În contractul de ucenicie scrie: <strong>1.050 € pe lună</strong>.",
  "Überleg: Wie viel kommt ungefähr aufs Konto?": "<strong>Gândește-te:</strong> Cam cât ajunge în contul bancar?",
  "etwa 830 €": "cam 830 €",
@@ -46,5 +43,5 @@
  "Gesamtsatz in B2 = 21 %. Welche Formel ergibt direkt das Netto von B6?": "Cota totală în B2 = 21 %. Ce formulă dă direct netul lui B6?",
  "100 % − 21 % = 79 % bleiben – wie beim Rabatt.": "100 % − 21 % = rămân 79 % – ca o reducere.",
  "Brutto 1.000 €, Abzüge 21 %. Wie viel Netto?": "Brut 1.000 €, rețineri 21 %. Cât e netul?",
- "Im Ausbildungsvertrag steht ein Gehalt, auf dem Konto kommt weniger an. Du lernst, was Brutto und Netto bedeutet und welche Abzüge es gibt. Dann rechnest du aus, was dir am Monatsende wirklich bleibt.": "În contractul de ucenicie scrie un salariu, dar în cont ajung mai puțini bani. Înveți ce înseamnă Brutto și Netto (brut și net) și ce rețineri există. Apoi calculezi ce îți rămâne cu adevărat la sfârșitul lunii."
+ "Im Ausbildungsvertrag steht ein Lohn. Auf dem Konto kommt aber weniger an. Du lernst, was Brutto und Netto heißt und was abgezogen wird. Dann rechnest du aus, wie viel Geld dir wirklich bleibt.": "În contractul de ucenicie scrie un salariu. Dar în cont ajung mai puțini bani. Înveți ce înseamnă Brutto și Netto (brut și net) și ce se reține. Apoi calculezi câți bani îți rămân cu adevărat."
 }

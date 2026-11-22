@@ -3,9 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (SI 1) – Calc hace una pregunta",
  "Klasse 9 · Baustein 3": "9.º curso · Unidad 3",
  "Teil 1 von 3 zu WENN": "Parte 1 de 3 sobre WENN (SI)",
- "Ich kann eine WENN-Formel als Ja/Nein-Frage lesen.": "Leo una fórmula WENN como una pregunta de sí o no.",
- "Ich kann =WENN(Frage;\"Ja\";\"Nein\") selbst schreiben.": "Escribo yo mismo/a <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>.",
- "Ich kann statt Ja und Nein eigene Antworten ausgeben.": "Muestro mis propias respuestas en lugar de Ja y Nein.",
  "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 recibe esta fórmula: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
  "Überleg: Was zeigt B5?": "<strong>Piensa:</strong> ¿qué muestra B5?",
  "Nein": "Nein (no)",
@@ -37,11 +34,6 @@
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "En lugar de <code>\"Ja\"</code> y <code>\"Nein\"</code> puedes usar cualquier texto, p. ej. <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Expedición: creador de concursos <span class=\"badge expedition\">opcional</span>",
  "Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll richtig stehen, wenn in B2 Paris steht, sonst falsch.": "¡La comprobación de los archivos de ejercicios también es solo una fórmula WENN! Construye una tú: C2 debe mostrar <strong>richtig</strong> (correcto) si B2 contiene Paris, si no <strong>falsch</strong> (incorrecto).",
- "Ich lese eine WENN-Formel als Frage.": "Leo una fórmula WENN como una pregunta.",
- "Ich schreibe =WENN(Frage;\"Ja\";\"Nein\") ohne Vorlage.": "Escribo <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code> sin modelo.",
- "Ich kenne die Vergleichszeichen, besonders >= und <>.": "Conozco los signos de comparación, sobre todo <code>&gt;=</code> y <code>&lt;&gt;</code>.",
- "Plus Ich finde zu fertigen Antworten die passende Frage.": "<span class=\"badge plus\">Plus</span> Encuentro la pregunta correcta para unas respuestas dadas.",
- "Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span> Construyo un concurso que se corrige solo.",
  "← 2 · Prozentrechnung": "← 2 · Porcentajes",
  "4 · WENN 2 →": "4 · WENN 2 (SI 2) →",
  "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN hace una pregunta: <strong>¿contiene A5 „Bus“?</strong> ¡Sí! Por eso B5 muestra <strong>Ja</strong>.",
@@ -105,7 +97,6 @@
  "nicht gleich": "distinto de",
  "Gegenfrage: Dreh die Frage um und tausch die Antworten. Das Ergebnis bleibt gleich. =WENN(A5>=12;\"Ja\";\"Nein\") ist dasselbe wie =WENN(A5<12;\"Nein\";\"Ja\"). Aus >= wird <, aus <= wird >.": "<strong>Pregunta contraria:</strong> dale la vuelta a la pregunta e intercambia las respuestas. El resultado es el mismo. <code class=\"long\">=WENN(A5&gt;=12;\"Ja\";\"Nein\")</code> es lo mismo que <code class=\"long\">=WENN(A5&lt;12;\"Nein\";\"Ja\")</code>. <code>&gt;=</code> se convierte en <code>&lt;</code>, <code>&lt;=</code> en <code>&gt;</code>.",
  "Gegenfrage: Frage umdrehen und Antworten tauschen – das Ergebnis bleibt gleich. Aus <= wird >.": "Pregunta contraria: dale la vuelta a la pregunta e intercambia las respuestas – el resultado es el mismo. <code>&lt;=</code> se convierte en <code>&gt;</code>.",
- "★ Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">★ Expedition</span> Construyo un quiz que se corrige solo.",
  "Üben Wer fährt Bus?": "<span class=\"badge ueben\">Üben</span> ¿Quién va en autobús?",
  "Wer höchstens 5 km weit weg wohnt, fährt Fahrrad. Alle anderen fahren Bus. Du schreibst zwei Fragen. Die zweite ist die Gegenfrage zur ersten.": "Quien vive a 5 km o menos va en bici. Todos los demás van en autobús. Escribes dos preguntas. La segunda es la pregunta contraria de la primera.",
  "Probe: In jeder Zeile steht genau einmal Ja. Schau besonders auf die Kinder mit genau 5 km.": "<strong>Prueba:</strong> En cada fila hay exactamente un Ja. Fíjate sobre todo en los niños que viven a exactamente 5 km.",
@@ -137,5 +128,5 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>igual · distinto</strong> – gleich: <code>=</code> · ungleich (no igual): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>punto y coma</strong> – el signo <code>;</code>. Separa las tres partes de WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>mostrar</strong> – enseñar. WENN muestra una respuesta.",
- "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "Hasta ahora Calc calcula igual en cada fila. Con <code>WENN</code> (SI), Calc hace una pregunta y según la respuesta muestra algo distinto, por ejemplo «bestanden» (aprobado) o «nicht bestanden» (suspenso). Así tu tabla se vuelve lista. Aprendes <code>WENN</code> en pasos pequeños."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Con <code>WENN</code> (SI), Calc hace una pregunta. La respuesta es sí o no. Según la respuesta, Calc muestra algo distinto, por ejemplo «bestanden» (aprobado) o «nicht bestanden» (suspenso). Aprendes <code>WENN</code> en pasos pequeños."
 }

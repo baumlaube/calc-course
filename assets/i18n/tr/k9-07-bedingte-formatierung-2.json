@@ -3,9 +3,6 @@
  "Bedingte Formatierung 2 – Ampel, Text und Grenzen": "Bedingte Formatierung 2 – trafik ışığı, metin ve sınırlar",
  "Klasse 9 · Baustein 7": "9. sınıf · Ünite 7",
  "Vorwissen: Bedingte Formatierung 1, WENN 3": "Gerekli: koşullu biçimlendirme 1, WENN 3",
- "Ich kann mehrere Bedingungen in der richtigen Reihenfolge anlegen.": "Birkaç koşulu doğru sırayla oluşturabilirim.",
- "Ich kann Text färben lassen, z. B. alles mit „fehlt“.": "Metni boyayabilirim, örneğin „fehlt“ (eksik) olan her şeyi.",
- "Ich kann eine Grenze aus einer Zelle mit $ benutzen.": "Bir hücredeki sınırı <code>$</code> ile kullanabilirim.",
  "Überleg: Welche Farbe bekommt der Akku mit 15 %?": "<strong>Düşün:</strong> <strong>%15</strong> olan pil hangi rengi alır?",
  "gelb": "sarı",
  "rot": "kırmızı",
@@ -31,11 +28,6 @@
  "★ Expedition: Ganze Zeile färben freiwillig": "<span class=\"step-no\">★</span> Keşif: Bütün bir satırı boya <span class=\"badge expedition\">isteğe bağlı</span>",
  "OK": "OK",
  "Wer nicht bezahlt hat, soll mit der ganzen Zeile rot leuchten. Klick erst auf OK – was ist falsch? Dann verbessere die Formel.": "Ödeme yapmayan herkes <strong>bütün satırıyla</strong> kırmızı parlamalı. Önce OK'a tıkla – ne yanlış? Sonra formülü düzelt.",
- "Ich baue eine Ampel mit drei Bedingungen.": "Üç koşullu bir trafik ışığı kurarım.",
- "Ich weiß: Die erste passende Bedingung gewinnt.": "Biliyorum: uyan ilk koşul kazanır.",
- "Ich färbe Text, z. B. \"fehlt\".": "Metni boyarım, örneğin <code>\"fehlt\"</code>.",
- "Plus Ich nehme die Grenze aus einer Zelle mit $.": "<span class=\"badge plus\">Plus</span> Sınırı bir hücreden <code>$</code> ile alırım.",
- "Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span> „Formel ist“ ile bütün satırları boyarım.",
  "← 6 · Bedingte Formatierung 1": "← 6 · Bedingte Formatierung 1",
  "8 · Fit für die Probe →": "8 · Sınava hazır →",
  "✔ Jetzt steht „kleiner als 20 %“ zuerst – und Lea ist rot. Die strengste Bedingung gehört nach oben.": "✔ Şimdi „kleiner als 20 %“ önde – ve Lea kırmızı. En sıkı koşul en üste aittir.",
@@ -76,7 +68,6 @@
  "🏆 Expedition geschafft! Das $ vor B hält die Spalte fest: Name, bezahlt? und Betrag schauen alle auf Spalte B. Die 2 ohne $ wandert mit – jede Zeile prüft sich selbst.": "🏆 Keşif tamam! B'nin önündeki <code>$</code> sütunu sabit tutar: ad, bezahlt? ve tutar hepsi B sütununa bakar. $ olmadan 2 kayar – her satır kendini kontrol eder.",
  "Fast. Prüfe die Zeilennummer: Die Formel gilt für die erste Zeile des Bereichs, also Zeile 2.": "Neredeyse. Satır numarasını kontrol et: formül aralığın ilk satırı için, yani 2. satır.",
  "Nur Spalte A ist richtig gefärbt? Für Spalte B schaut Calc auf C, für Spalte C auf D – der Bezug wandert mit! Setz ein $ vor das B: $B2=\"nein\"": "Sadece A sütunu doğru mu boyanıyor? B sütunu için Calc C'ye, C sütunu için D'ye bakıyor – başvuru kayıyor! B'nin önüne bir <code>$</code> koy: <code>$B2=\"nein\"</code>",
- "★ Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">★ Expedition</span> „Formel ist“ (formül) ile bütün satırları boyarım.",
  "Üben Wer hat sich doppelt angemeldet?": "<span class=\"badge ueben\">Üben</span> Kim iki kez kaydoldu?",
  "18 Anmeldungen zum Skikurs, aber manche Namen stehen mehrmals da. Calc hat dafür eine eigene Bedingung: Format → Bedingt → Bedingung … → Zellwert ist · doppelt.": "Kayak kursuna 18 kayıt, ama bazı isimler birkaç kez geçiyor. Calc'ın bunun için özel bir koşulu var: <strong>Format → Bedingt → Bedingung … → Zellwert ist · doppelt</strong> (hücre değeri · yinelenen).",
  "Calc färbt jeden Namen, der mehr als einmal vorkommt, auch den ersten. Löschst du die Zeilen mit den doppelten Namen, verschwindet das Rot von selbst.": "Calc birden fazla geçen <em>her</em> ismi boyar, ilkini de. Yinelenen isimlerin satırlarını silersen kırmızı kendiliğinden kaybolur.",
@@ -105,5 +96,5 @@
  "drei Farben: rot, gelb, grün": "<strong>trafik ışığı</strong> – üç renk: kırmızı, sarı, yeşil",
  "etwas neu machen, z. B. eine Bedingung": "<strong>oluşturmak</strong> – yeni bir şey yapmak, örn. bir koşul",
  "ansehen, ändern und löschen": "<strong>yönetmek</strong> – bakmak, değiştirmek ve silmek",
- "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Şimdi Calc birkaç kurala göre boyar – trafik ışığı gibi yeşil, sarı ve kırmızı. Kuralların sırasının neden önemli olduğunu, metni nasıl boyayacağını ve bir sınırın bir hücreden nasıl geldiğini öğrenirsin."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Şimdi Calc birkaç kuralla boyar: trafik ışığı gibi yeşil, sarı ve kırmızı. Kuralların sırasının neden önemli olduğunu öğrenirsin. Metni de boyar ve sınırı bir hücreden alırsın."
 }

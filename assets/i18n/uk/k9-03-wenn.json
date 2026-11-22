@@ -3,9 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (ЯКЩО 1) – Calc ставить запитання",
  "Klasse 9 · Baustein 3": "9 клас · Модуль 3",
  "Teil 1 von 3 zu WENN": "Частина 1 з 3 про WENN (ЯКЩО)",
- "Ich kann eine WENN-Formel als Ja/Nein-Frage lesen.": "Я читаю формулу з WENN як запитання «так/ні».",
- "Ich kann =WENN(Frage;\"Ja\";\"Nein\") selbst schreiben.": "Я сам/сама пишу <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>.",
- "Ich kann statt Ja und Nein eigene Antworten ausgeben.": "Я показую свої відповіді замість Ja і Nein.",
  "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 У B5 пишемо таку формулу: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
  "Überleg: Was zeigt B5?": "<strong>Подумай:</strong> що покаже B5?",
  "Nein": "Nein (ні)",
@@ -35,10 +32,6 @@
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "Замість <code>\"Ja\"</code> і <code>\"Nein\"</code> можна взяти будь-який текст, напр. <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Експедиція: конструктор вікторини <span class=\"badge expedition\">за бажанням</span>",
  "Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll richtig stehen, wenn in B2 Paris steht, sonst falsch.": "Перевірка у файлах із вправами – це теж лише формула з WENN! Побудуй таку сам/сама: C2 має показати <strong>richtig</strong> (правильно), якщо в B2 стоїть Paris, інакше <strong>falsch</strong> (неправильно).",
- "Ich lese eine WENN-Formel als Frage.": "Я читаю формулу з WENN як запитання.",
- "Ich schreibe =WENN(Frage;\"Ja\";\"Nein\") ohne Vorlage.": "Я пишу <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code> без зразка.",
- "Plus Ich finde zu fertigen Antworten die passende Frage.": "<span class=\"badge plus\">Plus</span> Я знаходжу правильне запитання до готових відповідей.",
- "Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span> Я будую вікторину, яка перевіряє себе сама.",
  "← 2 · Prozentrechnung": "← 2 · Відсотки",
  "4 · WENN 2 →": "4 · WENN 2 (ЯКЩО 2) →",
  "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN ставить запитання: <strong>чи стоїть в A5 „Bus“?</strong> Так! Тому B5 показує <strong>Ja</strong>.",
@@ -87,7 +80,6 @@
  "✔ Es klappt! Teste jetzt mit einer falschen Antwort in B2, z. B. Berlin.": "✔ Працює! Тепер перевір із <strong>неправильною</strong> відповіддю в B2, напр. Berlin.",
  "✔ Bei einer falschen Antwort kommt „falsch“. Teste jetzt auch die richtige Antwort Paris.": "✔ Неправильна відповідь дає „falsch“. Тепер перевір і правильну відповідь Paris.",
  "✔ A5<>\"Bus\"": "✔ <code>A5&lt;&gt;\"Bus\"</code>",
- "Ich kenne die Vergleichszeichen, besonders >= und <>.": "Я знаю знаки порівняння, особливо <code>&gt;=</code> і <code>&lt;&gt;</code>.",
  "<> heißt ungleich. Bei Sonne kommt also Ja, bei Regen Nein.": "<> означає «не дорівнює». Тож при Sonne (сонце) буде Ja, при Regen – Nein.",
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "Порівняння: <code>=</code> дорівнює · <code>&lt;&gt;</code> не дорівнює · <code>&lt;</code> менше · <code>&gt;</code> більше · <code>&lt;=</code> щонайбільше · <code>&gt;=</code> щонайменше",
  "Ist das Alter": "Вік",
@@ -105,7 +97,6 @@
  "nicht gleich": "не дорівнює",
  "Gegenfrage: Dreh die Frage um und tausch die Antworten. Das Ergebnis bleibt gleich. =WENN(A5>=12;\"Ja\";\"Nein\") ist dasselbe wie =WENN(A5<12;\"Nein\";\"Ja\"). Aus >= wird <, aus <= wird >.": "<strong>Зворотне запитання:</strong> переверни запитання і поміняй відповіді. Результат той самий. <code class=\"long\">=WENN(A5&gt;=12;\"Ja\";\"Nein\")</code> – це те саме, що <code class=\"long\">=WENN(A5&lt;12;\"Nein\";\"Ja\")</code>. <code>&gt;=</code> стає <code>&lt;</code>, <code>&lt;=</code> стає <code>&gt;</code>.",
  "Gegenfrage: Frage umdrehen und Antworten tauschen – das Ergebnis bleibt gleich. Aus <= wird >.": "Зворотне запитання: переверни запитання і поміняй відповіді – результат той самий. <code>&lt;=</code> стає <code>&gt;</code>.",
- "★ Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">★ Expedition</span> Я створюю вікторину, яка сама себе перевіряє.",
  "Üben Wer fährt Bus?": "<span class=\"badge ueben\">Üben</span> Хто їде автобусом?",
  "Wer höchstens 5 km weit weg wohnt, fährt Fahrrad. Alle anderen fahren Bus. Du schreibst zwei Fragen. Die zweite ist die Gegenfrage zur ersten.": "Хто живе не далі ніж за 5 км, їде велосипедом. Усі інші їдуть автобусом. Ти пишеш два запитання. Друге – зворотне до першого.",
  "Probe: In jeder Zeile steht genau einmal Ja. Schau besonders auf die Kinder mit genau 5 km.": "<strong>Перевірка:</strong> у кожному рядку рівно одне Ja. Особливо подивись на дітей, які живуть рівно за 5 км.",
@@ -137,5 +128,5 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>дорівнює · не дорівнює</strong> – gleich: <code>=</code> · ungleich (не дорівнює): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>крапка з комою</strong> – знак <code>;</code>. Він розділяє три частини WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>виводити</strong> – показувати. WENN виводить відповідь.",
- "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "Досі Calc рахує в кожному рядку однаково. З <code>WENN</code> (ЯКЩО) Calc ставить запитання і залежно від відповіді показує різне, наприклад «bestanden» (склав) або «nicht bestanden» (не склав). Так твоя таблиця стає розумною. <code>WENN</code> ти вивчаєш маленькими кроками."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "З <code>WENN</code> (ЯКЩО) Calc ставить запитання. Відповідь – так або ні. Залежно від відповіді Calc показує різне, наприклад «bestanden» (склав) або «nicht bestanden» (не склав). <code>WENN</code> ти вивчаєш маленькими кроками."
 }

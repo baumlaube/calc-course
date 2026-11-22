@@ -2,9 +2,6 @@
  "SVERWEIS · Calc-Kurs Zusatzmodul": "SVERWEIS (BUSCARV) · Curso de Calc módulo extra",
  "SVERWEIS – Calc schlägt nach": "SVERWEIS (BUSCARV) – Calc lo busca por ti",
  "Profi-Niveau (Klasse 10)": "Nivel profesional (10.º curso)",
- "Ich kann mit SVERWEIS einen Wert in einer Liste nachschlagen.": "Busco un valor en una lista con SVERWEIS.",
- "Ich kann die vier Teile von SVERWEIS erklären.": "Sé explicar las cuatro partes de SVERWEIS.",
- "Ich halte die Liste mit $ fest und fülle die Formel aus.": "Fijo la lista con <code>$</code> y relleno la fórmula hacia abajo.",
  "💡 Am Kiosk wird mit Nummern bestellt. In F2 steht die Nummer 103. In G2 kommt:=SVERWEIS(F2;A2:C7;3;0)": "💡 En el quiosco se pide por números. F2 contiene el número <strong>103</strong>. G2 recibe:<br/><code class=\"long\">=SVERWEIS(F2;A2:C7;3;0)</code>",
  "Überleg: Was zeigt G2?": "<strong>Piensa:</strong> ¿qué muestra G2?",
  "Kakao": "Kakao (cacao)",
@@ -60,5 +57,5 @@
  "Irgendwo": "En cualquier lugar",
  "Null zurückgeben": "Devolver cero",
  "Das = fehlt": "Falta el =",
- "Am Kiosk, im Lager oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht diese Nummer in einer Liste und holt den passenden Namen oder Preis. Du musst nichts mehr von Hand nachschlagen.": "En el quiosco, en el almacén o en la tienda online, cada artículo tiene un número. <code>SVERWEIS</code> (BUSCARV) busca ese número en una lista y trae el nombre o el precio correspondiente. Ya no tienes que buscar nada a mano."
+ "Am Kiosk oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht die Nummer in einer Liste. Dann holt Calc den passenden Namen oder Preis. Du musst nicht mehr selbst suchen.": "En el quiosco o en la tienda online, cada artículo tiene un número. <code>SVERWEIS</code> (BUSCARV) busca el número en una lista. Luego Calc trae el nombre o el precio correspondiente. Ya no tienes que buscar tú."
 }

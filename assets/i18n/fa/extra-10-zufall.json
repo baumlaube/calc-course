@@ -2,9 +2,6 @@
  "Zufall & Spiele · Calc-Kurs Zusatzmodul": "شانس و بازی · دورهٔ Calc ماژول اضافی",
  "Zufall & Spiele – würfeln, werfen, drehen": "شانس و بازی – تاس، شیر یا خط، گردونه",
  "Vorwissen: WENN, ZÄHLENWENN hilft": "لازم: WENN، ZÄHLENWENN کمک می‌کند",
- "Ich würfle mit ZUFALLSBEREICH und würfle mit F9 neu.": "با <code>ZUFALLSBEREICH</code> (عدد تصادفی بین) تاس می‌اندازم و با <kbd>F9</kbd> دوباره می‌اندازم.",
- "Ich werfe eine Münze mit ZUFALLSZAHL und WENN.": "با <code>ZUFALLSZAHL</code> (عدد تصادفی) و WENN شیر یا خط می‌اندازم.",
- "Ich probiere aus: Wie oft kommt die 6 wirklich?": "امتحان می‌کنم: 6 واقعاً چند بار می‌آید؟",
  "💡 Du würfelst 60-mal. Im Schnitt kommt jede Zahl 10-mal.": "💡 یک تاس را <strong>60 بار</strong> می‌اندازی. به طور میانگین هر عدد 10 بار می‌آید.",
  "Überleg: Wie oft kommt die 6 wirklich?": "<strong>فکر کن:</strong> 6 واقعاً چند بار می‌آید؟",
  "Genau 10-mal.": "دقیقاً 10 بار.",
@@ -55,5 +52,5 @@
  "Genau 100-mal": "دقیقاً 100 بار",
  "60-mal": "60 بار",
  "Eine Zahl": "یک عدد",
- "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele und probierst aus, wie Zufall wirklich funktioniert: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc می‌تواند تاس بیندازد، سکه بیندازد و گردونهٔ شانس را بچرخاند. با این بازی‌های کوچک می‌سازی و امتحان می‌کنی که شانس واقعاً چطور کار می‌کند: آیا در ۶۰ بار پرتاب، عدد ۶ واقعاً ده بار می‌آید؟"
+ "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele. Und du probierst aus: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc می‌تواند تاس بیندازد، سکه بیندازد و گردونهٔ شانس را بچرخاند. با این بازی‌های کوچک می‌سازی. و امتحان می‌کنی: آیا در ۶۰ بار پرتاب، عدد ۶ واقعاً ده بار می‌آید؟"
 }

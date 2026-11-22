@@ -3,9 +3,6 @@
  "Formeln ausfüllen – einmal schreiben, überall rechnen": "Заполнение формул – написать один раз, считать везде",
  "Klasse 8 · Baustein 4": "8 класс · Модуль 4",
  "Vorwissen: Formeln, SUMME": "Нужно знать: формулы, SUMME",
- "Ich kann eine Formel nach unten und nach rechts ziehen.": "Я протягиваю формулу вниз и вправо.",
- "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "Я умею объяснить, как меняются ссылки на ячейки.",
- "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "Я предсказываю, какая формула окажется в ячейке.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "Ты покупаешь всё для классного праздника. В D5 уже стоит формула <code>=B5*C5</code> → 4 × 1,50 € = 6,00 €.<br/>Для остальных строк не нужно всё печатать заново – ты просто <strong>протягиваешь</strong> формулу вниз.",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – точно такая же",
  "gar keine – nur die Zahl 6,00 €": "никакая – только число 6,00 €",
@@ -41,11 +38,6 @@
  "Du sparst auf ein Fahrrad. Jede Woche kommt ein Betrag dazu. Wie viel hast du nach 8 Wochen?": "Ты копишь на велосипед. Каждую неделю добавляются деньги. Сколько у тебя будет через 8 недель?",
  "Kontostand = Kontostand der Vorwoche + neuer Betrag": "Накоплено = <strong>накоплено на прошлой неделе</strong> + новая сумма",
  "In C5 steht der Kontostand nach Woche 1. Schreib in C6 eine Formel für Woche 2 und zieh sie nach unten. Tipp: Die Vorwoche steht genau eine Zeile darüber.": "C5 показывает накопленное после недели 1. Напиши в <strong>C6</strong> формулу для недели 2 и протяни вниз. Подсказка: прошлая неделя стоит ровно на строку выше.",
- "Ich finde das Ausfüllkästchen und kann eine Formel nach unten ziehen.": "Я нахожу маркер заполнения и протягиваю формулу вниз.",
- "Ich kann eine Formel nach rechts ziehen.": "Я протягиваю формулу вправо.",
- "Ich kann erklären, warum aus =B5*C5 eine Zeile tiefer =B6*C6 wird.": "Я умею объяснить, почему <code>=B5*C5</code> на строку ниже становится <code>=B6*C6</code>.",
- "Plus Ich kann vorhersagen, welche Formel nach dem Ziehen in einer Zelle steht.": "<span class=\"badge plus\">Plus</span> Я предсказываю, какая формула будет в ячейке после протягивания.",
- "Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">Expedition</span> Я считаю нарастающий итог.",
  "← 3 · Funktionen": "← 3 · Функции",
  "5 · Absolute Bezüge →": "5 · Абсолютные ссылки →",
  "Calc füllt aus … schau auf Spalte D!": "Calc заполняет … посмотри на столбец D!",
@@ -92,7 +84,6 @@
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen. Mit Probe: Kommt auf beiden Wegen dasselbe heraus?": "<span class=\"badge basis\">Basis</span><span><strong>Задание 2 · Карманные деньги:</strong> заполнить суммы вправо <em>и</em> вниз. С проверкой: получается ли одинаково обоими путями?</span>",
  "Calc setzt auch Reihen fort: Montag → Dienstag, Januar → Februar, 10 und 20 → 30.": "Calc продолжает и ряды: Montag → Dienstag (понедельник → вторник), Januar → Februar, 10 и 20 → 30.",
  "Probe: Die Gesamtsumme auf zwei Wegen rechnen. Gleich? Dann stimmt alles.": "<strong>Проверка:</strong> посчитай общую сумму двумя путями. Одинаково? Тогда всё верно.",
- "★ Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">★ Expedition</span> Я умею считать текущий остаток на счёте.",
  "Üben Das Ausfüll-Orakel": "<span class=\"badge ueben\">Üben</span> Оракул заполнения",
  "Das Orakel aus Schritt 2 – jetzt selbst in Calc: Was macht Calc aus Montag, Quartal 1 oder 5, 3? Erst raten, dann ausfüllen.": "Оракул из шага 2 – теперь сам в Calc: что сделает Calc из Montag, Quartal 1 или 5, 3? Сначала угадай, потом заполни.",
  "ODS Üben: Ausfüll-Orakelk8-04-ausfuellen-mehr-ausfuell-orakel.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Оракул заполнения</strong><small>k8-04-ausfuellen-mehr-ausfuell-orakel.ods</small></span>",
@@ -149,5 +140,5 @@
  "Fehler": "Ошибка",
  "Montag": "Montag (понедельник)",
  "Donnerstag": "Donnerstag (четверг)",
- "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Часто в каждой строке считают одинаково: для каждого товара, каждого дня, каждого ученика. Ты пишешь формулу только один раз и тянешь её вниз. Calc сам подстраивает ячейки в каждой строке. Это экономит много ввода и опечаток."
+ "Oft rechnest du in jeder Zeile das Gleiche: für jeden Artikel, für jeden Tag. Du schreibst die Formel nur einmal. Dann ziehst du sie nach unten. Calc passt die Formel in jeder Zeile selbst an. So tippst du weniger und machst weniger Fehler.": "Часто в каждой строке считают одно и то же: для каждого товара, для каждого дня. Ты пишешь формулу только один раз. Потом тянешь её вниз. Calc сам подстраивает формулу в каждой строке. Так ты меньше вводишь и меньше ошибаешься."
 }

@@ -3,9 +3,6 @@
  "Projekt: Welcher Handyvertrag passt zu mir?": "Dự án: Hợp đồng điện thoại nào hợp với mình?",
  "Zusatzmodul · Projekt": "Mô-đun bổ sung · Dự án",
  "Vorwissen: WENN, $-Anker, Diagramme": "Cần biết trước: WENN, neo $, biểu đồ",
- "Ich kann Tarife mit WENN und MIN vergleichen.": "Mình so sánh được các gói cước bằng WENN và MIN.",
- "Ich kann Kosten über zwei Jahre berechnen.": "Mình tính được chi phí trong hai năm.",
- "Ich kann meine Entscheidung mit Zahlen und einem Diagramm begründen.": "Mình giải thích được quyết định của mình bằng con số và biểu đồ.",
  "📱 Euer Auftrag": "<span class=\"step-no\">📱</span> Nhiệm vụ của các bạn",
  "Vier Tarife, ein Ziel: Welcher ist für euren Datenbedarf über zwei Jahre am günstigsten? Die Tarife sind ausgedacht – die Rechnung ist echt.": "Bốn gói cước, một mục tiêu: Gói nào rẻ nhất trong hai năm <strong>với lượng dữ liệu các bạn cần</strong>? Các gói cước là tưởng tượng – nhưng phép tính là thật.",
  "ODS Projektdateix06-handyvertrag.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Projektdatei</strong> (tệp dự án)<small>x06-handyvertrag.ods</small></span>",
@@ -44,5 +41,5 @@
  "Kosten in 2 Jahren bei {} GB": "Chi phí trong 2 năm với {} GB",
  "Am günstigsten: {} mit {}.": "Rẻ nhất: <strong>{}</strong> với {}.",
  "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Không đủ dữ liệu (kể cả có gói thêm): {}.",
- "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Nhà mạng nào cũng quảng cáo gói cước rẻ nhất. Gói nào thật sự hợp với bạn? Trong dự án này, bạn so sánh các gói cước trong hai năm bằng <code>WENN</code> (NẾU) và <code>MIN</code> và giải thích lựa chọn bằng con số và biểu đồ."
+ "Jeder Anbieter sagt: Unser Tarif ist der beste. Welcher passt wirklich zu dir? Du vergleichst Tarife über zwei Jahre mit WENN und MIN. Deine Wahl zeigst du mit Zahlen und einem Diagramm.": "Nhà mạng nào cũng nói: gói cước của chúng tôi tốt nhất. Gói nào thật sự hợp với bạn? Bạn so sánh các gói cước trong hai năm bằng <code>WENN</code> (NẾU) và <code>MIN</code>. Bạn trình bày lựa chọn của mình bằng con số và biểu đồ."
 }

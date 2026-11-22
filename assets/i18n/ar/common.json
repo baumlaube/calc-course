@@ -202,5 +202,6 @@
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 اسحب بإصبعك المربّع الصغير أسفل يمين الخلية. أو استخدم الزر <strong>■</strong>. في LibreOffice Calc تسحب <strong>Ausfüllkästchen</strong> (مقبض التعبئة).",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (مقبض التعبئة): اسحب للتعبئة",
  "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 صحيحة! الآن اسحب <strong>Ausfüllkästchen</strong> (مقبض التعبئة) من B2 إلى الأسفل حتى B3.",
- "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "لا يمكنك السحب هنا. اختر إجابة أولًا. بعد ذلك يُريك الجدول ماذا يحدث."
+ "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "لا يمكنك السحب هنا. اختر إجابة أولًا. بعد ذلك يُريك الجدول ماذا يحدث.",
+ "Die Spalte ist zu schmal.": "العمود ضيق جدًا."
 }

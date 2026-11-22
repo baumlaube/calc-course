@@ -3,9 +3,6 @@
  "Erste Formeln – Calc rechnet für dich": "الصيغ الأولى – Calc يحسب لك",
  "Klasse 8 · Baustein 2": "الصف 8 · الوحدة 2",
  "Vorwissen: Zellen und Eingeben": "المعرفة المسبقة: الخلايا والكتابة",
- "Ich kann eine Formel mit = beginnen und mit + − * / rechnen.": "أبدأ صيغة بـ <code>=</code> وأحسب بـ + − * /.",
- "Ich kann in Formeln Zellen statt Zahlen verwenden.": "أستخدم الخلايا بدل الأرقام في الصيغ.",
- "Ich kann erklären, warum Calc dann von selbst neu rechnet.": "أستطيع أن أشرح لماذا يعيد Calc الحساب بنفسه عندها.",
  "Mia kauft Schulsachen. Bei den Heften hat sie im Kopf gerechnet und in D5 einfach 4,50 eingetippt. Bei den Stiften steht in D6 eine Formel.": "ميا تشتري أدوات مدرسية. لل<strong>دفاتر</strong> حسبت في رأسها وكتبت ببساطة <code>4,50</code> في D5. لل<strong>أقلام</strong> توجد في D6 صيغة.",
  "Überleg: Beides wird teurer. Was zeigt D5 danach?": "<strong>فكّر:</strong> الاثنان يصبحان أغلى. ماذا تُظهر <strong>D5</strong> بعد ذلك؟",
  "Den neuen, höheren Betrag": "المبلغ الجديد الأعلى",
@@ -43,11 +40,6 @@
  "★ Expedition: Punkt vor Strich freiwillig": "<span class=\"step-no\">★</span> رحلة استكشاف: ترتيب العمليات <span class=\"badge expedition\">اختياري</span>",
  "Auch Calc rechnet Punkt vor Strich.Was in Klammern steht, kommt zuerst.": "Calc أيضًا يُجري <strong>الضرب والقسمة قبل الجمع والطرح</strong>.<br/>ما بين <strong>الأقواس</strong> يأتي أولًا.",
  "Berechne in B6 deinen Notendurchschnitt: alle Noten zusammenzählen, dann durch 3 teilen.": "احسب معدّل علاماتك في B6: اجمع كل العلامات، ثم اقسم على 3.",
- "Ich beginne jede Formel mit =.": "أبدأ كل صيغة بـ <code>=</code>.",
- "Ich kenne die Rechenzeichen + − * /.": "أعرف علامات الحساب + − * /.",
- "Ich klicke Zellen an, statt Zahlen in die Formel zu tippen.": "أنقر على الخلايا بدل كتابة الأرقام في الصيغة.",
- "Plus Ich kann Formeln bauen, die auf anderen Formeln aufbauen.": "<span class=\"badge plus\">Plus</span> أبني صيغًا تستخدم صيغًا أخرى.",
- "Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">Expedition</span> أستخدم الأقواس بشكل صحيح.",
  "← 1 · Erste Schritte": "← 1 · الخطوات الأولى",
  "3 · Funktionen →": "3 · الدوال →",
  "Die Preise steigen … schau auf Spalte C und D!": "الأسعار ترتفع … انظر إلى العمودين C وD!",
@@ -86,7 +78,6 @@
  "D5 rechnet neu": "D5 تعيد الحساب",
  "D5 bleibt 4,50": "D5 تبقى 4,50",
  "B5 abtippen": "أكتب B5 يدويًا",
- "★ Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">★ Expedition</span> أضع الأقواس في مكانها الصحيح.",
  "Üben Farbfelder": "<span class=\"badge ueben\">Üben</span> الحقول الملوّنة",
  "Zähl alle Felder mit derselben Farbe zusammen. Tipp in B8 =, klick das erste gelbe Feld an, tipp +, klick das nächste an … und drück Enter.": "اجمع كل الحقول ذات اللون نفسه. اكتب في B8 <code>=</code>، انقر أول حقل أصفر، اكتب <code>+</code>، انقر التالي … واضغط <kbd>Enter</kbd>.",
  "Keine Zahlen abtippen! Nur Zellen anklicken. Dann rechnet die Summe mit, wenn sich eine Zahl ändert.": "<strong>لا تنسخ الأرقام بالكتابة!</strong> انقر الخلايا فقط. عندها يتغيّر المجموع عندما يتغيّر رقم.",
@@ -121,5 +112,5 @@
  "das, was bei einer Rechnung herauskommt": "<strong>نتيجة</strong> – ما يخرج من الحساب",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>سطر الإدخال</strong> – السطر الطويل فوق الجدول. هناك ترى الصيغة.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>يحسب من جديد</strong> – يحسب Calc مرة أخرى عندما يتغير رقم",
- "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "حتى الآن تكتب الأرقام فقط. الآن يحسب Calc عنك: الصيغة تبدأ بـ <code>=</code> وتحسب بالخلايا. إذا تغيّر رقم يعيد Calc الحساب فورًا. لهذا بالضبط نستخدم الجدول وليس الآلة الحاسبة."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "الآن يحسب Calc عنك. الصيغة تبدأ بـ <code>=</code> وتحسب بالخلايا. إذا تغيّر رقم يعيد Calc الحساب فورًا. الآلة الحاسبة لا تستطيع ذلك."
 }

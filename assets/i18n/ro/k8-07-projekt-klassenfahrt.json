@@ -3,9 +3,6 @@
  "Projekt: Wir planen die Klassenfahrt": "Proiect: Planificăm excursia clasei",
  "Klasse 8 · Baustein 7–8": "Clasa a 8-a · Unitățile 7–8",
  "Vorwissen: Baustein 1–6": "Cunoștințe anterioare: unitățile 1–6",
- "Ich kann alles aus Baustein 1 bis 6 in einem echten Projekt anwenden.": "Pot folosi tot ce am învățat în unitățile 1–6 într-un proiect real.",
- "Ich kann einen Kostenplan mit Formeln, SUMME und absoluten Bezügen erstellen.": "Pot face un plan de costuri cu formule, SUMME și referințe absolute.",
- "Ich kann Ergebnisse mit einem Diagramm zeigen und eine Entscheidung begründen.": "Pot arăta rezultate cu o diagramă și pot justifica o decizie.",
  "🎒 Euer Auftrag": "<span class=\"step-no\">🎒</span> Sarcina ta",
  "Eure Klasse fährt 3 Tage weg. Ihr seid das Planungsteam.Was kostet die Fahrt? Wie viel zahlt jeder selbst? Welches Ziel ist besser?": "Clasa ta pleacă 3 zile. Tu ești <strong>echipa de planificare</strong>.<br/>Cât costă excursia? Cât plătește fiecare? Ce destinație e mai bună?",
  "Ihr arbeitet allein oder zu zweit. Die Projektdatei zeigt euch auf dem Startblatt, welche Meilensteine schon geschafft sind.": "Lucrezi singur sau în pereche. Foaia de start din fișierul de proiect îți arată ce etape ai terminat deja.",
@@ -64,11 +61,6 @@
  "Für Lehrkräfte: ★ = 1, ★★ = 2, ★★★ = 3 Punkte je Zeile. Ohne Plus sind es 15 Punkte, mit Plus 18.": "Pentru profesori: ★ = 1, ★★ = 2, ★★★ = 3 puncte pe rând. Fără Plus sunt 15 puncte, cu Plus 18.",
  "Rückblick auf Klasse 8": "Privire înapoi la clasa a 8-a",
  "Hak ab, was du jetzt kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.": "Bifează ce știi acum. Doar dispozitivul tău ține minte – nu se trimite nimic.",
- "Ich kann einen Kostenplan mit Formeln aufbauen.": "Pot construi un plan de costuri cu formule.",
- "Ich setze SUMME, Ausfüllen und $ sinnvoll ein.": "Folosesc cu rost SUMME, umplerea și <code>$</code>.",
- "Ich gestalte Tabellen so, dass andere sie gut lesen können.": "Fac tabelele așa încât alții să le citească ușor.",
- "Ich wähle das passende Diagramm und lese es richtig.": "Aleg diagrama potrivită și o citesc corect.",
- "Plus Ich kann zwei Angebote vergleichen und meine Entscheidung begründen.": "<span class=\"badge plus\">Plus</span> Pot compara două oferte și îmi pot justifica decizia.",
  "← 6 · Diagramme": "← 6 · Diagrame",
  "Klasse 9 · Fehlerdetektiv →": "Clasa a 9-a · Detectivul de erori →",
  "{} pro Person": "<strong>{}</strong> de persoană",
@@ -83,5 +75,5 @@
  "Geld, das jemand dazugibt, z. B. die Schule": "<strong>subvenție, ajutor</strong> – bani pe care îi adaugă cineva, de ex. școala",
  "ein Vorschlag mit Preis. Ihr vergleicht zwei Angebote.": "<strong>ofertă</strong> – o propunere cu preț. Comparați două oferte.",
  "sagen, warum. Hier: mit Zahlen.": "<strong>a argumenta</strong> – a spune de ce. Aici: cu numere.",
- "Jetzt setzt du alles aus Klasse 8 zusammen. Ihr plant eine Klassenfahrt: Kosten pro Person ausrechnen, Angebote vergleichen und die Entscheidung mit einem Diagramm begründen. Diese Rechnung muss vor jeder echten Klassenfahrt jemand machen.": "Acum pui cap la cap tot ce ai învățat în clasa a 8-a. Planificați o excursie cu clasa: calculați costul pe persoană, comparați ofertele și argumentați decizia cu un grafic. Înaintea oricărei excursii reale cineva trebuie să facă acest calcul."
+ "Jetzt brauchst du alles aus Klasse 8. Ihr plant eine Klassenfahrt: Ihr rechnet die Kosten pro Person aus, vergleicht Angebote und zeigt eure Entscheidung in einem Diagramm. So eine Rechnung braucht jede echte Klassenfahrt.": "Acum ai nevoie de tot ce ai învățat în clasa a 8-a. Planificați o excursie cu clasa: calculați costul pe persoană, comparați ofertele și vă arătați decizia într-un grafic. Orice excursie reală are nevoie de un astfel de calcul."
 }

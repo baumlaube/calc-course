@@ -3,9 +3,6 @@
  "Formeln ausfüllen – einmal schreiben, überall rechnen": "Wypełnianie formuł – napisz raz, licz wszędzie",
  "Klasse 8 · Baustein 4": "Klasa 8 · Jednostka 4",
  "Vorwissen: Formeln, SUMME": "Wiedza wstępna: formuły, SUMME",
- "Ich kann eine Formel nach unten und nach rechts ziehen.": "Umiem przeciągnąć formułę w dół i w prawo.",
- "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "Umiem wyjaśnić, jak zmieniają się odwołania do komórek.",
- "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "Umiem przewidzieć, jaka formuła znajdzie się w komórce.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "Robisz zakupy na imprezę klasową. W D5 jest już formuła <code>=B5*C5</code> → 4 × 1,50 € = 6,00 €.<br/>W pozostałych wierszach nie wpisujesz wszystkiego od nowa – po prostu <strong>przeciągasz</strong> formułę w dół.",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – dokładnie ta sama",
  "gar keine – nur die Zahl 6,00 €": "żadna – tylko liczba 6,00 €",
@@ -41,11 +38,6 @@
  "Du sparst auf ein Fahrrad. Jede Woche kommt ein Betrag dazu. Wie viel hast du nach 8 Wochen?": "Oszczędzasz na rower. Co tydzień dochodzi trochę pieniędzy. Ile masz po 8 tygodniach?",
  "Kontostand = Kontostand der Vorwoche + neuer Betrag": "Saldo = <strong>saldo z poprzedniego tygodnia</strong> + nowa kwota",
  "In C5 steht der Kontostand nach Woche 1. Schreib in C6 eine Formel für Woche 2 und zieh sie nach unten. Tipp: Die Vorwoche steht genau eine Zeile darüber.": "C5 pokazuje saldo po tygodniu 1. Wpisz w <strong>C6</strong> formułę na tydzień 2 i przeciągnij ją w dół. Wskazówka: poprzedni tydzień jest dokładnie jeden wiersz wyżej.",
- "Ich finde das Ausfüllkästchen und kann eine Formel nach unten ziehen.": "Umiem znaleźć uchwyt wypełniania i przeciągnąć formułę w dół.",
- "Ich kann eine Formel nach rechts ziehen.": "Umiem przeciągnąć formułę w prawo.",
- "Ich kann erklären, warum aus =B5*C5 eine Zeile tiefer =B6*C6 wird.": "Umiem wyjaśnić, dlaczego <code>=B5*C5</code> wiersz niżej staje się <code>=B6*C6</code>.",
- "Plus Ich kann vorhersagen, welche Formel nach dem Ziehen in einer Zelle steht.": "<span class=\"badge plus\">Plus</span> Umiem przewidzieć, jaka formuła jest w komórce po przeciągnięciu.",
- "Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">Expedition</span> Umiem policzyć saldo bieżące.",
  "← 3 · Funktionen": "← 3 · Funkcje",
  "5 · Absolute Bezüge →": "5 · Odwołania bezwzględne →",
  "Calc füllt aus … schau auf Spalte D!": "Calc wypełnia … spójrz na kolumnę D!",
@@ -92,7 +84,6 @@
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen. Mit Probe: Kommt auf beiden Wegen dasselbe heraus?": "<span class=\"badge basis\">Basis</span><span><strong>Zadanie 2 · Kieszonkowe:</strong> wypełnij sumy w prawo <em>i</em> w dół. Ze sprawdzeniem: czy obiema drogami wychodzi to samo?</span>",
  "Calc setzt auch Reihen fort: Montag → Dienstag, Januar → Februar, 10 und 20 → 30.": "Calc kontynuuje też serie: Montag → Dienstag (poniedziałek → wtorek), Januar → Februar, 10 i 20 → 30.",
  "Probe: Die Gesamtsumme auf zwei Wegen rechnen. Gleich? Dann stimmt alles.": "<strong>Sprawdzenie:</strong> Policz sumę całkowitą na dwa sposoby. To samo? Więc wszystko się zgadza.",
- "★ Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">★ Expedition</span> Umiem obliczyć bieżące saldo.",
  "Üben Das Ausfüll-Orakel": "<span class=\"badge ueben\">Üben</span> Wyrocznia wypełniania",
  "Das Orakel aus Schritt 2 – jetzt selbst in Calc: Was macht Calc aus Montag, Quartal 1 oder 5, 3? Erst raten, dann ausfüllen.": "Wyrocznia z kroku 2 – teraz sam w Calc: co Calc zrobi z Montag, Quartal 1 albo 5, 3? Najpierw zgadnij, potem wypełnij.",
  "ODS Üben: Ausfüll-Orakelk8-04-ausfuellen-mehr-ausfuell-orakel.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Wyrocznia wypełniania</strong><small>k8-04-ausfuellen-mehr-ausfuell-orakel.ods</small></span>",
@@ -149,5 +140,5 @@
  "Fehler": "Błąd",
  "Montag": "Montag (poniedziałek)",
  "Donnerstag": "Donnerstag (czwartek)",
- "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Często w każdym wierszu liczy się tak samo: dla każdego produktu, każdego dnia, każdego ucznia. Formułę piszesz tylko raz i przeciągasz w dół. Calc sam dopasowuje komórki w każdym wierszu. To oszczędza dużo pisania i wiele literówek."
+ "Oft rechnest du in jeder Zeile das Gleiche: für jeden Artikel, für jeden Tag. Du schreibst die Formel nur einmal. Dann ziehst du sie nach unten. Calc passt die Formel in jeder Zeile selbst an. So tippst du weniger und machst weniger Fehler.": "Często w każdym wierszu liczysz to samo: dla każdego produktu, dla każdego dnia. Formułę piszesz tylko raz. Potem przeciągasz ją w dół. Calc sam dopasowuje formułę w każdym wierszu. Tak piszesz mniej i robisz mniej błędów."
 }

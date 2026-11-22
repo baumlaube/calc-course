@@ -3,9 +3,6 @@
  "Erste Formeln – Calc rechnet für dich": "Primele formule – Calc calculează pentru tine",
  "Klasse 8 · Baustein 2": "Clasa a 8-a · Unitatea 2",
  "Vorwissen: Zellen und Eingeben": "Cunoștințe anterioare: celule și scriere",
- "Ich kann eine Formel mit = beginnen und mit + − * / rechnen.": "Pot începe o formulă cu <code>=</code> și pot calcula cu + − * /.",
- "Ich kann in Formeln Zellen statt Zahlen verwenden.": "Pot folosi celule în loc de numere în formule.",
- "Ich kann erklären, warum Calc dann von selbst neu rechnet.": "Pot explica de ce Calc recalculează apoi singur.",
  "Mia kauft Schulsachen. Bei den Heften hat sie im Kopf gerechnet und in D5 einfach 4,50 eingetippt. Bei den Stiften steht in D6 eine Formel.": "Mia cumpără rechizite. Pentru <strong>caiete</strong> a socotit în minte și a scris pur și simplu <code>4,50</code> în D5. Pentru <strong>pixuri</strong>, în D6 e o formulă.",
  "Überleg: Beides wird teurer. Was zeigt D5 danach?": "<strong>Gândește-te:</strong> Amândouă se scumpesc. Ce arată <strong>D5</strong> după aceea?",
  "Den neuen, höheren Betrag": "Suma nouă, mai mare",
@@ -43,11 +40,6 @@
  "★ Expedition: Punkt vor Strich freiwillig": "<span class=\"step-no\">★</span> Expediție: Ordinea operațiilor <span class=\"badge expedition\">opțional</span>",
  "Auch Calc rechnet Punkt vor Strich.Was in Klammern steht, kommt zuerst.": "Și Calc face <strong>înmulțirea și împărțirea înaintea adunării și scăderii</strong>.<br/>Ce e în <strong>paranteze</strong> vine primul.",
  "Berechne in B6 deinen Notendurchschnitt: alle Noten zusammenzählen, dann durch 3 teilen.": "Calculează în B6 media notelor tale: adună toate notele, apoi împarte la 3.",
- "Ich beginne jede Formel mit =.": "Încep orice formulă cu <code>=</code>.",
- "Ich kenne die Rechenzeichen + − * /.": "Cunosc semnele de calcul + − * /.",
- "Ich klicke Zellen an, statt Zahlen in die Formel zu tippen.": "Dau clic pe celule în loc să scriu numere în formulă.",
- "Plus Ich kann Formeln bauen, die auf anderen Formeln aufbauen.": "<span class=\"badge plus\">Plus</span> Pot construi formule care folosesc alte formule.",
- "Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">Expedition</span> Folosesc corect parantezele.",
  "← 1 · Erste Schritte": "← 1 · Primii pași",
  "3 · Funktionen →": "3 · Funcții →",
  "Die Preise steigen … schau auf Spalte C und D!": "Prețurile cresc … uită-te la coloanele C și D!",
@@ -86,7 +78,6 @@
  "D5 rechnet neu": "D5 recalculează",
  "D5 bleibt 4,50": "D5 rămâne 4,50",
  "B5 abtippen": "Scrii B5 de mână",
- "★ Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">★ Expedition</span> Pun parantezele corect.",
  "Üben Farbfelder": "<span class=\"badge ueben\">Üben</span> Câmpuri colorate",
  "Zähl alle Felder mit derselben Farbe zusammen. Tipp in B8 =, klick das erste gelbe Feld an, tipp +, klick das nächste an … und drück Enter.": "Adună toate câmpurile de aceeași culoare. Scrie în B8 <code>=</code>, dă clic pe primul câmp galben, scrie <code>+</code>, dă clic pe următorul … și apasă <kbd>Enter</kbd>.",
  "Keine Zahlen abtippen! Nur Zellen anklicken. Dann rechnet die Summe mit, wenn sich eine Zahl ändert.": "<strong>Nu copia numerele de mână!</strong> Doar dă clic pe celule. Atunci suma se schimbă când se schimbă un număr.",
@@ -121,5 +112,5 @@
  "das, was bei einer Rechnung herauskommt": "<strong>rezultat</strong> – ce iese dintr-un calcul",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>linia de introducere</strong> – linia lungă de deasupra tabelului. Acolo vezi formula.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>a recalcula</strong> – Calc calculează încă o dată când se schimbă un număr",
- "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "Până acum doar tastezi numere. Acum Calc calculează pentru tine: o formulă începe cu <code>=</code> și calculează cu celulele. Dacă un număr se schimbă, Calc recalculează imediat. Exact pentru asta folosești un tabel și nu un calculator."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Acum Calc calculează pentru tine. O formulă începe cu <code>=</code> și calculează cu celulele. Dacă un număr se schimbă, Calc recalculează imediat. Un calculator nu poate face asta."
 }

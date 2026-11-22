@@ -3,9 +3,6 @@
  "Projekt: Welcher Handyvertrag passt zu mir?": "Proiect: Ce abonament de telefon mi se potrivește?",
  "Zusatzmodul · Projekt": "Modul suplimentar · proiect",
  "Vorwissen: WENN, $-Anker, Diagramme": "Ai nevoie de: WENN, ancora $, diagrame",
- "Ich kann Tarife mit WENN und MIN vergleichen.": "Pot compara abonamente cu WENN și MIN.",
- "Ich kann Kosten über zwei Jahre berechnen.": "Pot calcula costurile pe doi ani.",
- "Ich kann meine Entscheidung mit Zahlen und einem Diagramm begründen.": "Pot explica decizia mea cu numere și o diagramă.",
  "📱 Euer Auftrag": "<span class=\"step-no\">📱</span> Sarcina ta",
  "Vier Tarife, ein Ziel: Welcher ist für euren Datenbedarf über zwei Jahre am günstigsten? Die Tarife sind ausgedacht – die Rechnung ist echt.": "Patru abonamente, un scop: care e cel mai ieftin pe doi ani <strong>pentru consumul tău de date</strong>? Abonamentele sunt inventate – matematica e reală.",
  "ODS Projektdateix06-handyvertrag.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Projektdatei</strong> (fișier de proiect)<small>x06-handyvertrag.ods</small></span>",
@@ -44,5 +41,5 @@
  "Kosten in 2 Jahren bei {} GB": "Cost în 2 ani la {} GB",
  "Am günstigsten: {} mit {}.": "Cel mai ieftin: <strong>{}</strong> cu {}.",
  "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Date insuficiente (chiar și cu pachet extra): {}.",
- "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Fiecare operator face reclamă la cel mai ieftin abonament. Care ți se potrivește cu adevărat? În acest proiect compari abonamentele pe doi ani cu <code>WENN</code> (IF) și <code>MIN</code> și îți argumentezi alegerea cu cifre și un grafic."
+ "Jeder Anbieter sagt: Unser Tarif ist der beste. Welcher passt wirklich zu dir? Du vergleichst Tarife über zwei Jahre mit WENN und MIN. Deine Wahl zeigst du mit Zahlen und einem Diagramm.": "Fiecare operator spune: abonamentul nostru e cel mai bun. Care ți se potrivește cu adevărat? Compari abonamentele pe doi ani cu <code>WENN</code> (IF) și <code>MIN</code>. Îți arăți alegerea cu cifre și un grafic."
 }

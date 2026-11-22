@@ -2,9 +2,6 @@
  "Zufall & Spiele · Calc-Kurs Zusatzmodul": "الصدفة والألعاب · دورة Calc وحدة إضافية",
  "Zufall & Spiele – würfeln, werfen, drehen": "الصدفة والألعاب – ارمِ النرد، اقلب العملة، أدِر العجلة",
  "Vorwissen: WENN, ZÄHLENWENN hilft": "المعرفة المسبقة: WENN، وZÄHLENWENN تساعد",
- "Ich würfle mit ZUFALLSBEREICH und würfle mit F9 neu.": "أرمي النرد بـ <code>ZUFALLSBEREICH</code> (رقم عشوائي بين) وأعيد الرمي بـ <kbd>F9</kbd>.",
- "Ich werfe eine Münze mit ZUFALLSZAHL und WENN.": "أقلب عملة بـ <code>ZUFALLSZAHL</code> (رقم عشوائي) وWENN.",
- "Ich probiere aus: Wie oft kommt die 6 wirklich?": "أجرّب: كم مرة يظهر الرقم 6 فعلًا؟",
  "💡 Du würfelst 60-mal. Im Schnitt kommt jede Zahl 10-mal.": "💡 ترمي النرد <strong>60 مرة</strong>. في المتوسط يظهر كل رقم 10 مرات.",
  "Überleg: Wie oft kommt die 6 wirklich?": "<strong>فكّر:</strong> كم مرة يظهر الرقم 6 فعلًا؟",
  "Genau 10-mal.": "10 مرات بالضبط.",
@@ -55,5 +52,5 @@
  "Genau 100-mal": "100 مرة بالضبط",
  "60-mal": "60 مرة",
  "Eine Zahl": "رقم",
- "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele und probierst aus, wie Zufall wirklich funktioniert: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "يستطيع Calc رمي النرد ورمي قطعة نقود وتدوير عجلة الحظ. بهذا تبني ألعابًا صغيرة وتجرّب كيف تعمل الصدفة حقًا: هل يظهر الرقم 6 فعلًا عشر مرات في 60 رمية؟"
+ "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele. Und du probierst aus: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "يستطيع Calc رمي النرد ورمي قطعة نقود وتدوير عجلة الحظ. بهذا تبني ألعابًا صغيرة. وتجرّب: هل يظهر الرقم 6 فعلًا عشر مرات في 60 رمية؟"
 }

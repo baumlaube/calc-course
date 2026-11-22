@@ -3,9 +3,6 @@
  "Bedingte Formatierung 1 – Calc färbt selbst": "Bedingte Formatierung 1 (قالب‌بندی شرطی) – Calc خودش رنگ می‌کند",
  "Klasse 9 · Baustein 6": "کلاس 9 · واحد 6",
  "Vorwissen: WENN": "لازم: WENN (اگر)",
- "Ich kann Zellen mit Format → Bedingt → Bedingung … automatisch färben.": "می‌توانم خانه‌ها را با <strong>Format → Bedingt → Bedingung …</strong> (قالب → شرطی → شرط) خودکار رنگ کنم.",
- "Ich kann Bedingungen wie größer als, kleiner als und zwischen benutzen.": "می‌توانم از شرط‌هایی مثل بزرگ‌تر از، کوچک‌تر از و بین استفاده کنم.",
- "Ich kann mit Farben Fragen zu großen Tabellen schnell beantworten.": "می‌توانم به سؤال‌های جدول‌های بزرگ با رنگ‌ها سریع جواب بدهم.",
  "💡 Lea hat die Hitzetage über 30 °C mit dem Farbeimer rot gefärbt. Dann merkt sie: Am Mittwoch waren es nur 27 °C. Sie tippt in B4 die 27 ein.": "💡 لئا روزهای گرم بالای 30 °C را با <strong>سطل رنگ</strong> قرمز کرد. بعد متوجه می‌شود: چهارشنبه فقط 27 °C بود. در B4 عدد 27 را می‌نویسد.",
  "Überleg: Was passiert mit der roten Farbe in B4?": "<strong>فکر کن:</strong> رنگ قرمز در B4 چه می‌شود؟",
  "Sie verschwindet von selbst.": "خودش ناپدید می‌شود.",
@@ -38,11 +35,6 @@
  "Bea": "Bea",
  "Emre": "Emre",
  "Hakan": "Hakan",
- "Ich finde Format → Bedingt → Bedingung …": "می‌توانم <strong>Format → Bedingt → Bedingung …</strong> را پیدا کنم.",
- "Ich lege eine Regel mit größer als oder kleiner als an.": "با بزرگ‌تر از یا کوچک‌تر از یک قانون می‌سازم.",
- "Ich weiß: Ändert sich die Zahl, ändert sich die Farbe.": "می‌دانم: وقتی عدد تغییر کند، رنگ تغییر می‌کند.",
- "Plus Ich benutze „zwischen“ und mehrere Bedingungen.": "<span class=\"badge plus\">Plus</span> از „zwischen“ (بین) و چند شرط استفاده می‌کنم.",
- "Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">Expedition</span> نوار داده و طیف رنگ را می‌شناسم.",
  "← 5 · WENN 3": "← 5 · WENN 3 (اگر 3)",
  "7 · Bedingte Formatierung 2 →": "7 · Bedingte Formatierung 2 →",
  "✨ Bedingte Formatierung: größer als 30 → Schlecht": "✨ Bedingte Formatierung: größer als 30 → Schlecht (بزرگ‌تر از 30 → بد)",
@@ -72,7 +64,6 @@
  "Bei „zwischen“ gehören beide Grenzen dazu.": "با „zwischen“ (بین) هر دو مرز هم حساب است.",
  "🏆 Richtig – Emre hat den längsten Balken und das kräftigste Grün. In der Übungsdatei wartet der ganze Spendenlauf.": "🏆 درست – امره بلندترین نوار و پررنگ‌ترین سبز را دارد. کل دوی خیریه در فایل تمرین منتظرت است.",
  "Schau auf den längsten Balken: Emre ist 25 Runden gelaufen.": "به بلندترین نوار نگاه کن: امره 25 دور دوید.",
- "★ Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">★ Expedition</span> نوارهای داده و طیف رنگ را می‌شناسم.",
  "Üben Ein Preis, viele Grenzen": "<span class=\"badge ueben\">Üben</span> یک قیمت، مرزهای زیاد",
  "Ist 500 € viel? Für einen Schokoriegel schon, für ein Haus nicht. Jede Zelle bekommt ihre eigene Regel: rot = zu teuer, grün = verdächtig billig. Dann änderst du den Preis und schaust, was passiert.": "۵۰۰ € زیاد است؟ برای یک شکلات بله، برای یک خانه نه. هر خانه قاعده خودش را می‌گیرد: قرمز = خیلی گران، سبز = به‌طرز مشکوکی ارزان. بعد قیمت را عوض می‌کنی و می‌بینی چه می‌شود.",
  "ODS Üben: Ein Preis, viele Grenzenk9-06-bedingte-formatierung-mehr-preis-grenzen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: یک قیمت، مرزهای زیاد</strong><small>k9-06-bedingte-formatierung-mehr-preis-grenzen.ods</small></span>",
@@ -112,5 +103,5 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>سبک</strong> – یک ظاهر آماده با نام: Gut (خوب) سبز است، Schlecht (بد) قرمز است",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>بین</strong> – از یک عدد تا عدد دیگر. هر دو عدد حساب می‌شوند.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>بزرگ‌تر از · کوچک‌تر از</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. خود 30 حساب نمی‌شود.",
- "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "در یک جدول بلند آسان است چیز مهمی از چشم بیفتد. با Bedingte Formatierung (قالب‌بندی شرطی) Calc خودش خانه‌ها را رنگ می‌کند، مثلاً همهٔ روزهای گرم بالای ۳۰ °C. اگر عددی عوض شود، رنگ خودبه‌خود عوض می‌شود."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "در یک جدول بلند پیدا کردن عددهای مهم سخت است. Calc می‌تواند خودش سلول‌ها را رنگ کند، مثلاً همهٔ روزهای بالای ۳۰ °C را قرمز. اگر عددی عوض شود، رنگ هم عوض می‌شود."
 }

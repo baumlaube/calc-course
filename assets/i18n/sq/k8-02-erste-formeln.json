@@ -3,9 +3,6 @@
  "Erste Formeln – Calc rechnet für dich": "Formulat e para – Calc llogarit për ty",
  "Klasse 8 · Baustein 2": "Klasa 8 · Njësia 2",
  "Vorwissen: Zellen und Eingeben": "Njohuri paraprake: qelizat dhe shkrimi",
- "Ich kann eine Formel mit = beginnen und mit + − * / rechnen.": "Mund ta nis një formulë me <code>=</code> dhe të llogaris me + − * /.",
- "Ich kann in Formeln Zellen statt Zahlen verwenden.": "Mund të përdor qeliza në vend të numrave në formula.",
- "Ich kann erklären, warum Calc dann von selbst neu rechnet.": "Mund të shpjegoj pse Calc pastaj rillogarit vetë.",
  "Mia kauft Schulsachen. Bei den Heften hat sie im Kopf gerechnet und in D5 einfach 4,50 eingetippt. Bei den Stiften steht in D6 eine Formel.": "Mia blen mjete shkollore. Për <strong>fletoret</strong> llogariti me mend dhe thjesht shkroi <code>4,50</code> në D5. Për <strong>stilolapsat</strong>, në D6 ka një formulë.",
  "Überleg: Beides wird teurer. Was zeigt D5 danach?": "<strong>Mendo:</strong> Të dyja shtrenjtohen. Çfarë tregon <strong>D5</strong> pas kësaj?",
  "Den neuen, höheren Betrag": "Shumën e re, më të lartë",
@@ -43,11 +40,6 @@
  "★ Expedition: Punkt vor Strich freiwillig": "<span class=\"step-no\">★</span> Ekspeditë: Rendi i veprimeve <span class=\"badge expedition\">fakultative</span>",
  "Auch Calc rechnet Punkt vor Strich.Was in Klammern steht, kommt zuerst.": "Edhe Calc bën <strong>shumëzimin dhe pjesëtimin para mbledhjes dhe zbritjes</strong>.<br/>Çfarë është në <strong>kllapa</strong> vjen e para.",
  "Berechne in B6 deinen Notendurchschnitt: alle Noten zusammenzählen, dann durch 3 teilen.": "Llogarit në B6 mesataren e notave të tua: mblidh të gjitha notat, pastaj pjesëto me 3.",
- "Ich beginne jede Formel mit =.": "Çdo formulë e nis me <code>=</code>.",
- "Ich kenne die Rechenzeichen + − * /.": "I njoh shenjat e veprimeve + − * /.",
- "Ich klicke Zellen an, statt Zahlen in die Formel zu tippen.": "Klikoj qelizat në vend që të shkruaj numra në formulë.",
- "Plus Ich kann Formeln bauen, die auf anderen Formeln aufbauen.": "<span class=\"badge plus\">Plus</span> Mund të ndërtoj formula që përdorin formula të tjera.",
- "Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">Expedition</span> I përdor saktë kllapat.",
  "← 1 · Erste Schritte": "← 1 · Hapat e parë",
  "3 · Funktionen →": "3 · Funksionet →",
  "Die Preise steigen … schau auf Spalte C und D!": "Çmimet rriten … shiko kolonat C dhe D!",
@@ -86,7 +78,6 @@
  "D5 rechnet neu": "D5 rillogarit",
  "D5 bleibt 4,50": "D5 mbetet 4,50",
  "B5 abtippen": "Shkruaj B5 me dorë",
- "★ Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">★ Expedition</span> I vendos kllapat saktë.",
  "Üben Farbfelder": "<span class=\"badge ueben\">Üben</span> Fushat me ngjyra",
  "Zähl alle Felder mit derselben Farbe zusammen. Tipp in B8 =, klick das erste gelbe Feld an, tipp +, klick das nächste an … und drück Enter.": "Mblidh të gjitha fushat me të njëjtën ngjyrë. Shkruaj në B8 <code>=</code>, kliko fushën e parë të verdhë, shkruaj <code>+</code>, kliko tjetrën … dhe shtyp <kbd>Enter</kbd>.",
  "Keine Zahlen abtippen! Nur Zellen anklicken. Dann rechnet die Summe mit, wenn sich eine Zahl ändert.": "<strong>Mos i rishkruaj numrat!</strong> Vetëm kliko qelizat. Atëherë shuma ndryshon kur ndryshon një numër.",
@@ -121,5 +112,5 @@
  "das, was bei einer Rechnung herauskommt": "<strong>rezultat</strong> – ajo që del nga një llogari",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>rreshti i hyrjes</strong> – rreshti i gjatë mbi tabelë. Atje e sheh formulën.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>rillogarit</strong> – Calc llogarit edhe një herë kur ndryshon një numër",
- "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "Deri tani vetëm shkruan numra. Tani Calc llogarit për ty: një formulë fillon me <code>=</code> dhe llogarit me qelizat. Nëse ndryshon një numër, Calc rillogarit menjëherë. Pikërisht për këtë përdoret një tabelë dhe jo një makinë llogaritëse."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Tani Calc llogarit për ty. Një formulë fillon me <code>=</code> dhe llogarit me qelizat. Nëse ndryshon një numër, Calc rillogarit menjëherë. Një makinë llogaritëse nuk e bën dot këtë."
 }

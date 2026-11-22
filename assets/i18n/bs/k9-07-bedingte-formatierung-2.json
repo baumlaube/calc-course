@@ -3,9 +3,6 @@
  "Bedingte Formatierung 2 – Ampel, Text und Grenzen": "Bedingte Formatierung 2 – semafor, tekst i granice",
  "Klasse 9 · Baustein 7": "9. razred · Cjelina 7",
  "Vorwissen: Bedingte Formatierung 1, WENN 3": "Predznanje: Bedingte Formatierung 1, WENN 3",
- "Ich kann mehrere Bedingungen in der richtigen Reihenfolge anlegen.": "Mogu postaviti više uslova pravilnim redoslijedom.",
- "Ich kann Text färben lassen, z. B. alles mit „fehlt“.": "Mogu pustiti da se tekst oboji, npr. sve sa „fehlt“ (nedostaje).",
- "Ich kann eine Grenze aus einer Zelle mit $ benutzen.": "Mogu koristiti granicu iz ćelije sa <code>$</code>.",
  "Überleg: Welche Farbe bekommt der Akku mit 15 %?": "<strong>Razmisli:</strong> Koju boju dobija baterija sa <strong>15 %</strong>?",
  "gelb": "žutu",
  "rot": "crvenu",
@@ -28,11 +25,6 @@
  "Text im Dialog in Anführungszeichen: Zellwert ist · gleich · \"fehlt\"": "Tekst u dijalogu pod navodnicima: Zellwert ist · gleich · <code>\"fehlt\"</code>",
  "Grenze aus einer Zelle: als Wert $B$2 eintragen – mit $, wie bei WENN.": "Granica iz ćelije: kao vrijednost upiši <code>$B$2</code> – sa <code>$</code>, kao kod WENN.",
  "Regeln ansehen, ändern, löschen: Format → Bedingt → Verwalten …": "Pogledaj, promijeni, obriši pravila: <strong>Format → Bedingt → Verwalten …</strong>",
- "Ich baue eine Ampel mit drei Bedingungen.": "Pravim semafor sa tri uslova.",
- "Ich weiß: Die erste passende Bedingung gewinnt.": "Znam: prvi odgovarajući uslov pobjeđuje.",
- "Ich färbe Text, z. B. \"fehlt\".": "Bojim tekst, npr. <code>\"fehlt\"</code>.",
- "Plus Ich nehme die Grenze aus einer Zelle mit $.": "<span class=\"badge plus\">Plus</span> Granicu uzimam iz ćelije sa <code>$</code>.",
- "★ Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">★ Expedition</span> Bojim cijele redove sa „Formel ist“ (formula je).",
  "Üben Wer hat sich doppelt angemeldet?": "<span class=\"badge ueben\">Üben</span> Ko se prijavio dvaput?",
  "18 Anmeldungen zum Skikurs, aber manche Namen stehen mehrmals da. Calc hat dafür eine eigene Bedingung: Format → Bedingt → Bedingung … → Zellwert ist · doppelt.": "18 prijava za skijaški kurs, ali neka imena stoje više puta. Calc za to ima poseban uslov: <strong>Format → Bedingt → Bedingung … → Zellwert ist · doppelt</strong> (dvostruko).",
  "Calc färbt jeden Namen, der mehr als einmal vorkommt, auch den ersten. Löschst du die Zeilen mit den doppelten Namen, verschwindet das Rot von selbst.": "Calc boji <em>svako</em> ime koje se pojavljuje više od jednom, i prvo. Kad obrišeš redove s dvostrukim imenima, crvena sama nestane.",
@@ -102,5 +94,6 @@
  "die Bedingung stimmt für diese Zahl": "<strong>odgovarati</strong> – uslov je tačan za ovaj broj",
  "drei Farben: rot, gelb, grün": "<strong>semafor</strong> – tri boje: crvena, žuta, zelena",
  "etwas neu machen, z. B. eine Bedingung": "<strong>napraviti, kreirati</strong> – napraviti nešto novo, npr. uslov",
- "ansehen, ändern und löschen": "<strong>upravljati</strong> – pogledati, mijenjati i brisati"
+ "ansehen, ändern und löschen": "<strong>upravljati</strong> – pogledati, mijenjati i brisati",
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Sada Calc boji po više pravila: zeleno, žuto i crveno kao semafor. Učiš zašto je redoslijed pravila važan. Bojiš i tekst i uzimaš granicu iz ćelije."
 }

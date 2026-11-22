@@ -3,9 +3,6 @@
  "Projekt: Welcher Handyvertrag passt zu mir?": "Projekt: Cila kontratë celulari më përshtatet?",
  "Zusatzmodul · Projekt": "Modul shtesë · projekt",
  "Vorwissen: WENN, $-Anker, Diagramme": "Të duhet: WENN, spiranca $, diagramet",
- "Ich kann Tarife mit WENN und MIN vergleichen.": "Mund të krahasoj tarifa me WENN dhe MIN.",
- "Ich kann Kosten über zwei Jahre berechnen.": "Mund të llogaris kostot për dy vjet.",
- "Ich kann meine Entscheidung mit Zahlen und einem Diagramm begründen.": "Mund ta shpjegoj vendimin tim me numra dhe një diagram.",
  "📱 Euer Auftrag": "<span class=\"step-no\">📱</span> Detyra jote",
  "Vier Tarife, ein Ziel: Welcher ist für euren Datenbedarf über zwei Jahre am günstigsten? Die Tarife sind ausgedacht – die Rechnung ist echt.": "Katër tarifa, një qëllim: cila është më e lira për dy vjet <strong>për nevojën tënde për internet</strong>? Tarifat janë të sajuara – matematika është e vërtetë.",
  "ODS Projektdateix06-handyvertrag.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Projektdatei</strong> (skedari i projektit)<small>x06-handyvertrag.ods</small></span>",
@@ -44,5 +41,5 @@
  "Kosten in 2 Jahren bei {} GB": "Kosto në 2 vjet me {} GB",
  "Am günstigsten: {} mit {}.": "Më e lira: <strong>{}</strong> me {}.",
  "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Interneti nuk mjafton (edhe me paketë shtesë): {}.",
- "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Çdo operator reklamon paketën më të lirë. Cila të përshtatet vërtet ty? Në këtë projekt krahason paketat për dy vjet me <code>WENN</code> (IF) dhe <code>MIN</code> dhe e arsyeton zgjedhjen me numra dhe një diagram."
+ "Jeder Anbieter sagt: Unser Tarif ist der beste. Welcher passt wirklich zu dir? Du vergleichst Tarife über zwei Jahre mit WENN und MIN. Deine Wahl zeigst du mit Zahlen und einem Diagramm.": "Çdo operator thotë: paketa jonë është më e mira. Cila të përshtatet vërtet ty? Krahason paketat për dy vjet me <code>WENN</code> (IF) dhe <code>MIN</code>. Zgjedhjen tënde e tregon me numra dhe një diagram."
 }

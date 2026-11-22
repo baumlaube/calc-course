@@ -3,9 +3,6 @@
  "Bedingte Formatierung 1 – Calc färbt selbst": "Bedingte Formatierung 1 (умовне форматування) – Calc фарбує сам",
  "Klasse 9 · Baustein 6": "9 клас · Модуль 6",
  "Vorwissen: WENN": "Попередні знання: WENN (ЯКЩО)",
- "Ich kann Zellen mit Format → Bedingt → Bedingung … automatisch färben.": "Я автоматично фарбую клітинки через <strong>Format → Bedingt → Bedingung …</strong> (Формат → Умовне → Умова).",
- "Ich kann Bedingungen wie größer als, kleiner als und zwischen benutzen.": "Я використовую умови «більше ніж», «менше ніж» і «між».",
- "Ich kann mit Farben Fragen zu großen Tabellen schnell beantworten.": "Завдяки кольорам я швидко відповідаю на запитання про великі таблиці.",
  "💡 Lea hat die Hitzetage über 30 °C mit dem Farbeimer rot gefärbt. Dann merkt sie: Am Mittwoch waren es nur 27 °C. Sie tippt in B4 die 27 ein.": "💡 Лея пофарбувала спекотні дні понад 30 °C червоним за допомогою <strong>відерця з фарбою</strong>. Потім вона помічає: у середу було лише 27 °C. Вона вводить 27 у B4.",
  "Überleg: Was passiert mit der roten Farbe in B4?": "<strong>Подумай:</strong> що станеться з червоним кольором у B4?",
  "Sie verschwindet von selbst.": "Він зникне сам.",
@@ -38,11 +35,6 @@
  "Bea": "Беа",
  "Emre": "Емре",
  "Hakan": "Хакан",
- "Ich finde Format → Bedingt → Bedingung …": "Я знаходжу <strong>Format → Bedingt → Bedingung …</strong>",
- "Ich lege eine Regel mit größer als oder kleiner als an.": "Я створюю правило з «більше ніж» або «менше ніж».",
- "Ich weiß: Ändert sich die Zahl, ändert sich die Farbe.": "Я знаю: коли число змінюється, змінюється й колір.",
- "Plus Ich benutze „zwischen“ und mehrere Bedingungen.": "<span class=\"badge plus\">Plus</span> Я використовую „zwischen“ (між) і кілька умов.",
- "Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">Expedition</span> Я знаю смуги даних і кольорові шкали.",
  "← 5 · WENN 3": "← 5 · WENN 3 (ЯКЩО 3)",
  "7 · Bedingte Formatierung 2 →": "7 · Bedingte Formatierung 2 (умовне форматування) →",
  "✨ Bedingte Formatierung: größer als 30 → Schlecht": "✨ Bedingte Formatierung: größer als 30 → Schlecht (більше ніж 30 → погано)",
@@ -72,7 +64,6 @@
  "Bei „zwischen“ gehören beide Grenzen dazu.": "З „zwischen“ (між) обидві межі входять.",
  "🏆 Richtig – Emre hat den längsten Balken und das kräftigste Grün. In der Übungsdatei wartet der ganze Spendenlauf.": "🏆 Правильно – в Емре найдовша смуга і найнасиченіший зелений. Увесь благодійний забіг чекає у файлі з вправами.",
  "Schau auf den längsten Balken: Emre ist 25 Runden gelaufen.": "Подивись на найдовшу смугу: Емре пробіг 25 кіл.",
- "★ Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">★ Expedition</span> Я знаю смуги даних і кольорову шкалу.",
  "Üben Ein Preis, viele Grenzen": "<span class=\"badge ueben\">Üben</span> Одна ціна, багато меж",
  "Ist 500 € viel? Für einen Schokoriegel schon, für ein Haus nicht. Jede Zelle bekommt ihre eigene Regel: rot = zu teuer, grün = verdächtig billig. Dann änderst du den Preis und schaust, was passiert.": "500 € – це багато? Для шоколадного батончика так, для будинку ні. Кожна клітинка отримує своє правило: червоний = задорого, зелений = підозріло дешево. Потім ти змінюєш ціну й дивишся, що станеться.",
  "ODS Üben: Ein Preis, viele Grenzenk9-06-bedingte-formatierung-mehr-preis-grenzen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Одна ціна, багато меж</strong><small>k9-06-bedingte-formatierung-mehr-preis-grenzen.ods</small></span>",
@@ -112,5 +103,5 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>стиль</strong> – готовий вигляд із назвою: Gut (добре) – зелений, Schlecht (погано) – червоний",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>між</strong> – від одного числа до іншого. Обидва числа рахуються.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>більше · менше</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. Саме 30 не рахується.",
- "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "У довгій таблиці легко пропустити важливе. За допомогою Bedingte Formatierung (умовне форматування) Calc сам зафарбовує клітинки, наприклад усі спекотні дні понад 30 °C. Якщо число змінюється, колір підлаштовується сам."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "У довгій таблиці важко знайти важливі числа. Calc може сам зафарбовувати клітинки, наприклад усі дні понад 30 °C червоним. Якщо число змінюється, змінюється й колір."
 }

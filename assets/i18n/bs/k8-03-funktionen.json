@@ -3,9 +3,6 @@
  "Funktionen – ganze Bereiche auf einmal": "Funkcije – cijeli rasponi odjednom",
  "Klasse 8 · Baustein 3": "8. razred · Cjelina 3",
  "Vorwissen: Formeln mit Zellen": "Predznanje: formule sa ćelijama",
- "Ich kann mit SUMME einen ganzen Bereich zusammenzählen.": "Mogu sa SUMME (zbir) sabrati cijeli raspon.",
- "Ich kann MITTELWERT, MIN und MAX benutzen.": "Mogu koristiti MITTELWERT (prosjek), MIN i MAX.",
- "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "Mogu napisati raspon kao <code>B5:B9</code> ili ga označiti mišem.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>Ovo već znaš:</strong> <code>=B5+B6+B7+B8+B9</code> sabira pet dana. Ali šta je sa 365 dana? Za to postoje <strong>funkcije</strong>.<br/>U B10 stoji: <code>=SUMME(B5:B9)</code>",
  "Überleg: Was bedeutet B5:B9?": "<strong>Razmisli:</strong> Šta znači <code>B5:B9</code>?",
  "Nur B5 und B9": "Samo B5 i B9",
@@ -42,12 +39,6 @@
  "Bereich markieren: Nach =SUMME( mit gedrückter Maustaste von B5 bis B9 ziehen. Lange Liste: erste Zahl anklicken, dann Strg + ⇧ + ↓.": "Označavanje raspona: poslije <code>=SUMME(</code> držeći taster miša povuci od B5 do B9. Duga lista: klikni na prvi broj, onda <kbd>Strg</kbd> + <kbd>⇧</kbd> + <kbd>↓</kbd>.",
  "Der Σ-Knopf rät den Bereich. Rahmen prüfen, dann erst Enter.": "Dugme Σ pogađa raspon. <strong>Provjeri okvir</strong>, tek onda <kbd>Enter</kbd>.",
  "Leere Zellen zählen nicht mit.": "Prazne ćelije se ne broje.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren, auch eine lange Liste.": "Mogu pročitati i označiti raspon kao <code>B5:B9</code>, i dugu listu.",
- "Ich prüfe den Vorschlag vom Σ-Knopf, bevor ich Enter drücke.": "Provjeravam prijedlog dugmeta Σ prije nego što pritisnem <kbd>Enter</kbd>.",
- "Ich kann SUMME, MITTELWERT, MIN und MAX benutzen.": "Mogu koristiti SUMME, MITTELWERT, MIN i MAX.",
- "Ich weiß, wann ich welche Funktion brauche.": "Znam kada mi treba koja funkcija.",
- "Plus Ich kann ANZAHL benutzen und zwei Funktionen in einer Formel verbinden.": "<span class=\"badge plus\">Plus</span> Mogu koristiti ANZAHL (broj) i spojiti dvije funkcije u jednoj formuli.",
- "★ Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">★ Expedition</span> Mogu analizirati pravougaone raspone kao <code>B2:F5</code>.",
  "Üben Mein Zeugnis-Schnitt": "<span class=\"badge ueben\">Üben</span> Moj prosjek u svjedočanstvu",
  "In Bayern zählen die Schulaufgaben (SA) doppelt. Spalte J zeigt den normalen Durchschnitt. Was steht im Zeugnis?": "U Bavarskoj se pismeni zadaci (SA) računaju <strong>dvostruko</strong>. Kolona J pokazuje običan prosjek. Šta stoji u svjedočanstvu?",
  "=(2*SUMME(B2:D2)+SUMME(E2:I2))/113 SA doppelt = 6, dazu 5 andere Noten = 11": "<code>=(2*SUMME(B2:D2)+SUMME(E2:I2))/11</code><br/>3 SA dvostruko = 6, plus 5 drugih ocjena = 11",
@@ -125,5 +116,6 @@
  "plus rechnen, bis alle Zahlen dabei sind": "<strong>sabrati</strong> – sabirati dok svi brojevi nisu uračunati",
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>prosjek</strong> – sve sabrati i podijeliti s brojem vrijednosti. U Calcu: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>vrijednost</strong> – ono što stoji u ćeliji, najčešće broj",
- "Zellen mit der Maus auswählen": "<strong>označiti</strong> – odabrati ćelije mišem"
+ "Zellen mit der Maus auswählen": "<strong>označiti</strong> – odabrati ćelije mišem",
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Pet brojeva možeš sabrati sa <code>+</code>. Ali 30 ocjena? Ili 365 dana? To traje predugo. Funkcija kao <code>SUMME</code> (SUM) računa mnogo ćelija odjednom. Pomoću <code>MITTELWERT</code> (AVERAGE) izračunaš, na primjer, svoj prosjek ocjena."
 }

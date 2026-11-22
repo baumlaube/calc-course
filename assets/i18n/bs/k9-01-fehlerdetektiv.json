@@ -2,9 +2,6 @@
  "Fehlerdetektiv · Calc-Kurs Klasse 9": "Detektiv za greške · Calc kurs 9. razred",
  "Fehlerdetektiv – Fehler finden und reparieren": "Detektiv za greške – pronađi i popravi greške",
  "Klasse 9 · Baustein 1": "9. razred · Cjelina 1",
- "Ich kann Fehlermeldungen wie #WERT!, #DIV/0! und #NAME? deuten und beheben.": "Mogu protumačiti i ukloniti poruke o greškama kao <code>#WERT!</code>, <code>#DIV/0!</code> i <code>#NAME?</code>.",
- "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "Mogu pronaći tihe greške koje Calc ne pokazuje.",
- "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "Mogu popraviti formule svime iz 8. razreda.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>Ovo već znaš:</strong> <code>=C5/B5</code> dijeli bodove sa brojem učesnika. U D5 to radi. Ali D6 odjednom pokazuje <code>#DIV/0!</code>.",
  "Überleg: Warum?": "<strong>Razmisli:</strong> Zašto?",
  "Die Punktzahl ist zu hoch.": "Broj bodova je prevelik.",
@@ -55,11 +52,6 @@
  "Stille Fehler zeigt Calc nicht an: getippte Zahlen, fehlendes $, Bereich zu kurz oder zu groß.": "<strong>Tihe greške</strong> Calc ne pokazuje: upisani brojevi, nedostaje <code>$</code>, raspon prekratak ili prevelik.",
  "MAX, MIN und MITTELWERT brauchen einen Bereich mit Doppelpunkt: =MAX(G5:G10).": "<code>MAX</code>, <code>MIN</code> i <code>MITTELWERT</code> trebaju raspon sa dvotačkom: <code>=MAX(G5:G10)</code>.",
  "Detektiv-Tricks: Formel lesen · Wert testweise ändern · Ansicht → Formel anzeigen.": "Detektivski trikovi: pročitaj formulu · probno promijeni vrijednost · <strong>Ansicht → Formel anzeigen</strong>.",
- "Ich weiß, was #WERT!, #DIV/0! und #NAME? bedeuten.": "Znam šta znače <code>#WERT!</code>, <code>#DIV/0!</code> i <code>#NAME?</code>.",
- "Ich kann laute Fehler reparieren.": "Mogu popraviti glasne greške.",
- "Ich finde stille Fehler mit den Detektiv-Tricks.": "Detektivskim trikovima pronalazim tihe greške.",
- "Plus Ich kann Fehler absichtlich erzeugen und erklären.": "<span class=\"badge plus\">Plus</span> Mogu namjerno napraviti greške i objasniti ih.",
- "★ Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">★ Expedition</span> Mogu greške uhvatiti sa WENNFEHLER (ako greška).",
  "Üben Aufwärmen: Waffelverkauf": "<span class=\"badge ueben\">Üben</span> Zagrijavanje: prodaja vafla",
  "Stückzahl und Umsatz für sechs Waffelsorten, dazu MAX, MIN und MITTELWERT. Die Kontrolle merkt, wenn der Preis mit in der Summe steckt.": "Broj komada i promet za šest vrsta vafla, uz to MAX, MIN i MITTELWERT. Kontrola primijeti kad je cijena uračunata u zbir.",
  "ODS Üben: Waffelverkaufk9-01-fehlerdetektiv-mehr-waffelverkauf.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: prodaja vafla</strong><small>k9-01-fehlerdetektiv-mehr-waffelverkauf.ods</small></span>",
@@ -128,5 +120,6 @@
  "falsch getippt, z. B. SUMNE statt SUMME": "<strong>greška u kucanju</strong> – pogrešno ukucano, npr. <code>SUMNE</code> umjesto <code>SUMME</code>",
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>uzak</strong> – nije širok. <code>###</code> znači: kolona je preuska.",
  "verstehen, was etwas bedeutet": "<strong>protumačiti</strong> – razumjeti šta nešto znači",
- "einen Fehler wieder richtig machen": "<strong>otkloniti, popraviti</strong> – grešku opet učiniti tačnom"
+ "einen Fehler wieder richtig machen": "<strong>otkloniti, popraviti</strong> – grešku opet učiniti tačnom",
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "U tabelama se dešavaju greške. Neke greške Calc pokaže, na primjer <code>#DIV/0!</code>. Druge greške Calc ne pokaže: broj izgleda ispravno, ali je pogrešan. Ovdje učiš pronaći i popraviti obje vrste. Usput ponavljaš 8. razred."
 }

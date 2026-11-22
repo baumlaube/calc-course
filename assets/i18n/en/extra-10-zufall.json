@@ -2,9 +2,6 @@
  "Zufall & Spiele · Calc-Kurs Zusatzmodul": "Chance &amp; games · Calc course extra module",
  "Zufall & Spiele – würfeln, werfen, drehen": "Chance &amp; games – roll, toss, spin",
  "Vorwissen: WENN, ZÄHLENWENN hilft": "You need: WENN, ZÄHLENWENN helps",
- "Ich würfle mit ZUFALLSBEREICH und würfle mit F9 neu.": "I roll dice with <code>ZUFALLSBEREICH</code> (RANDBETWEEN) and roll again with <kbd>F9</kbd>.",
- "Ich werfe eine Münze mit ZUFALLSZAHL und WENN.": "I toss a coin with <code>ZUFALLSZAHL</code> (RAND) and WENN.",
- "Ich probiere aus: Wie oft kommt die 6 wirklich?": "I try it out: how often does a 6 really come up?",
  "💡 Du würfelst 60-mal. Im Schnitt kommt jede Zahl 10-mal.": "💡 You roll a die <strong>60 times</strong>. On average every number comes up 10 times.",
  "Überleg: Wie oft kommt die 6 wirklich?": "<strong>Think:</strong> How often does the 6 really come up?",
  "Genau 10-mal.": "Exactly 10 times.",
@@ -55,5 +52,5 @@
  "Genau 100-mal": "Exactly 100 times",
  "60-mal": "60 times",
  "Eine Zahl": "A number",
- "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele und probierst aus, wie Zufall wirklich funktioniert: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc can roll a dice, toss a coin and spin a wheel of fortune. With this you build small games and try out how chance really works: does the 6 really come up ten times in 60 rolls?"
+ "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele. Und du probierst aus: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc can roll a dice, toss a coin and spin a wheel of fortune. With this you build small games. And you try it out: does the 6 really come up ten times in 60 rolls?"
 }

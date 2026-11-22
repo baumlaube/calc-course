@@ -3,9 +3,6 @@
  "Formeln ausfüllen – einmal schreiben, überall rechnen": "Popunjavanje formula – napiši jednom, računaj svuda",
  "Klasse 8 · Baustein 4": "8. razred · Cjelina 4",
  "Vorwissen: Formeln, SUMME": "Predznanje: formule, SUMME",
- "Ich kann eine Formel nach unten und nach rechts ziehen.": "Mogu povući formulu nadolje i udesno.",
- "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "Mogu objasniti kako se pri tome mijenjaju reference ćelija.",
- "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "Mogu predvidjeti koja će formula poslije stajati u ćeliji.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "Kupujete za razrednu žurku. U D5 već stoji formula <code>=B5*C5</code> → 4 × 1,50 € = 6,00 €.<br/>Za ostale redove ne kucaš sve ponovo, nego formulu jednostavno <strong>povučeš</strong> nadolje.",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – potpuno ista",
  "gar keine – nur die Zahl 6,00 €": "nikakva – samo broj 6,00 €",
@@ -41,11 +38,6 @@
  "Darum immer Zellen statt Zahlen in die Formel schreiben!": "Zato u formulu uvijek piši <strong>ćelije umjesto brojeva</strong>!",
  "Calc setzt auch Reihen fort: Montag → Dienstag, Januar → Februar, 10 und 20 → 30.": "Calc nastavlja i nizove: Montag → Dienstag (ponedjeljak → utorak), Januar → Februar, 10 i 20 → 30.",
  "Probe: Die Gesamtsumme auf zwei Wegen rechnen. Gleich? Dann stimmt alles.": "<strong>Provjera:</strong> izračunaj ukupni zbir na dva načina. Isto? Onda je sve tačno.",
- "Ich finde das Ausfüllkästchen und kann eine Formel nach unten ziehen.": "Nalazim kvadratić za popunjavanje i mogu povući formulu nadolje.",
- "Ich kann eine Formel nach rechts ziehen.": "Mogu povući formulu udesno.",
- "Ich kann erklären, warum aus =B5*C5 eine Zeile tiefer =B6*C6 wird.": "Mogu objasniti zašto od <code>=B5*C5</code> red niže nastane <code>=B6*C6</code>.",
- "Plus Ich kann vorhersagen, welche Formel nach dem Ziehen in einer Zelle steht.": "<span class=\"badge plus\">Plus</span> Mogu predvidjeti koja će formula poslije povlačenja stajati u ćeliji.",
- "★ Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">★ Expedition</span> Mogu izračunati tekuće stanje računa.",
  "Üben Das Ausfüll-Orakel": "<span class=\"badge ueben\">Üben</span> Proročište popunjavanja",
  "Das Orakel aus Schritt 2 – jetzt selbst in Calc: Was macht Calc aus Montag, Quartal 1 oder 5, 3? Erst raten, dann ausfüllen.": "Proročište iz koraka 2 – sada sam/a u Calcu: šta Calc napravi od Montag, Quartal 1 ili 5, 3? Prvo pogodi, onda popuni.",
  "ODS Üben: Ausfüll-Orakelk8-04-ausfuellen-mehr-ausfuell-orakel.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: proročište popunjavanja</strong><small>k8-04-ausfuellen-mehr-ausfuell-orakel.ods</small></span>",
@@ -144,5 +136,6 @@
  "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Razmisli:</strong> Koja formula onda stoji u <strong>D6</strong> (pića)?",
  "Fehler": "Greška",
  "Montag": "Montag (ponedjeljak)",
- "Donnerstag": "Donnerstag (četvrtak)"
+ "Donnerstag": "Donnerstag (četvrtak)",
+ "Oft rechnest du in jeder Zeile das Gleiche: für jeden Artikel, für jeden Tag. Du schreibst die Formel nur einmal. Dann ziehst du sie nach unten. Calc passt die Formel in jeder Zeile selbst an. So tippst du weniger und machst weniger Fehler.": "Često u svakom redu računaš isto: za svaki artikal, za svaki dan. Formulu napišeš samo jednom. Onda je povučeš prema dolje. Calc sam prilagodi formulu u svakom redu. Tako manje kucaš i manje griješiš."
 }

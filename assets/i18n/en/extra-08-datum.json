@@ -2,9 +2,6 @@
  "Datum & Zeit · Calc-Kurs Zusatzmodul": "Date &amp; time · Calc course extra module",
  "Datum & Zeit – wie viele Tage noch?": "Date &amp; time – how many days left?",
  "Vorwissen: Formeln, $-Anker": "You need: formulas, $ anchor",
- "Ich weiß: Ein Datum ist für Calc eine Zahl.": "I know: for Calc a date is a number.",
- "Ich rechne mit HEUTE() aus, wie viele Tage es noch dauert.": "I calculate with <code>HEUTE()</code> (TODAY) how many days are left.",
- "Ich addiere Tage zu einem Datum.": "I add days to a date.",
  "💡 In A2 steht der 10.11.2026, in B2 der Ferienbeginn 24.12.2026. In C2 kommt =B2-A2.": "💡 A2 contains 10.11.2026, B2 the start of the holidays 24.12.2026. C2 gets <code>=B2-A2</code>.",
  "2 Ein Datum ist eine Zahl 7 Min": "<span class=\"step-no\">2</span> A date is a number <span class=\"chip\">7 min</span>",
  "Für Calc ist ein Datum die Zahl der Tage seit dem 30.12.1899.Darum kann man mit Daten rechnen.": "For Calc a date is the number of days since <strong>30.12.1899</strong>.<br/>That is why you can calculate with dates.",
@@ -47,5 +44,5 @@
  "Ein Text": "A text",
  "Neu tippen": "Type it again",
  "Eine Formel": "A formula",
- "Wie viele Tage sind es noch bis zu den Ferien? Für Calc ist ein Datum eine Zahl. Darum kann Calc mit Daten rechnen: Tage zählen, Fristen ausrechnen und mit HEUTE() immer vom aktuellen Tag aus.": "How many days until the holidays? For Calc, a date is a number. That is why Calc can calculate with dates: count days, work out deadlines – and with <code>HEUTE()</code> (TODAY) always from the current day."
+ "Wie viele Tage sind es noch bis zu den Ferien? Für Calc ist ein Datum eine Zahl. Darum kann Calc mit einem Datum rechnen. Mit HEUTE() rechnet Calc immer vom heutigen Tag aus.": "How many days until the holidays? For Calc, a date is a number. That is why Calc can calculate with a date. With <code>HEUTE()</code> (TODAY) Calc always calculates from today."
 }

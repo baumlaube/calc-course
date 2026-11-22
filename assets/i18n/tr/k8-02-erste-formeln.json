@@ -3,9 +3,6 @@
  "Erste Formeln – Calc rechnet für dich": "İlk formüller – Calc senin için hesaplar",
  "Klasse 8 · Baustein 2": "8. sınıf · Ünite 2",
  "Vorwissen: Zellen und Eingeben": "Ön bilgi: hücreler ve yazmak",
- "Ich kann eine Formel mit = beginnen und mit + − * / rechnen.": "Bir formülü <code>=</code> ile başlatabilir ve + − * / ile hesap yapabilirim.",
- "Ich kann in Formeln Zellen statt Zahlen verwenden.": "Formüllerde sayılar yerine hücreleri kullanabilirim.",
- "Ich kann erklären, warum Calc dann von selbst neu rechnet.": "Calc'ın sonra neden kendiliğinden yeniden hesapladığını açıklayabilirim.",
  "Mia kauft Schulsachen. Bei den Heften hat sie im Kopf gerechnet und in D5 einfach 4,50 eingetippt. Bei den Stiften steht in D6 eine Formel.": "Mia okul eşyaları alıyor. <strong>Defterler</strong> için kafadan hesapladı ve D5'e sadece <code>4,50</code> yazdı. <strong>Kalemler</strong> için D6'da bir formül var.",
  "Überleg: Beides wird teurer. Was zeigt D5 danach?": "<strong>Düşün:</strong> İkisi de pahalanıyor. <strong>D5</strong> sonra ne gösterir?",
  "Den neuen, höheren Betrag": "Yeni, daha yüksek tutarı",
@@ -43,11 +40,6 @@
  "★ Expedition: Punkt vor Strich freiwillig": "<span class=\"step-no\">★</span> Keşif: İşlem sırası <span class=\"badge expedition\">isteğe bağlı</span>",
  "Auch Calc rechnet Punkt vor Strich.Was in Klammern steht, kommt zuerst.": "Calc da <strong>çarpma ve bölmeyi toplama ve çıkarmadan önce</strong> yapar.<br/><strong>Parantez</strong> içindeki önce gelir.",
  "Berechne in B6 deinen Notendurchschnitt: alle Noten zusammenzählen, dann durch 3 teilen.": "B6'da not ortalamanı hesapla: bütün notları topla, sonra 3'e böl.",
- "Ich beginne jede Formel mit =.": "Her formüle <code>=</code> ile başlarım.",
- "Ich kenne die Rechenzeichen + − * /.": "İşlem işaretlerini + − * / biliyorum.",
- "Ich klicke Zellen an, statt Zahlen in die Formel zu tippen.": "Formüle sayı yazmak yerine hücrelere tıklarım.",
- "Plus Ich kann Formeln bauen, die auf anderen Formeln aufbauen.": "<span class=\"badge plus\">Plus</span> Başka formülleri kullanan formüller kurabilirim.",
- "Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">Expedition</span> Parantezleri doğru kullanırım.",
  "← 1 · Erste Schritte": "← 1 · İlk adımlar",
  "3 · Funktionen →": "3 · Fonksiyonlar →",
  "Die Preise steigen … schau auf Spalte C und D!": "Fiyatlar artıyor … C ve D sütunlarına bak!",
@@ -86,7 +78,6 @@
  "D5 rechnet neu": "D5 yeniden hesaplar",
  "D5 bleibt 4,50": "D5 4,50 kalır",
  "B5 abtippen": "B5 değerini elle yaz",
- "★ Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">★ Expedition</span> Parantezleri doğru koyarım.",
  "Üben Farbfelder": "<span class=\"badge ueben\">Üben</span> Renkli alanlar",
  "Zähl alle Felder mit derselben Farbe zusammen. Tipp in B8 =, klick das erste gelbe Feld an, tipp +, klick das nächste an … und drück Enter.": "Aynı renkteki tüm alanları topla. B8'e <code>=</code> yaz, ilk sarı alana tıkla, <code>+</code> yaz, sonrakine tıkla … ve <kbd>Enter</kbd>'a bas.",
  "Keine Zahlen abtippen! Nur Zellen anklicken. Dann rechnet die Summe mit, wenn sich eine Zahl ändert.": "<strong>Sayıları elle yazma!</strong> Sadece hücrelere tıkla. Böylece bir sayı değişince toplam da değişir.",
@@ -121,5 +112,5 @@
  "das, was bei einer Rechnung herauskommt": "<strong>sonuç</strong> – bir hesaptan çıkan şey",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>giriş satırı</strong> – tablonun üstündeki uzun satır. Formülü orada görürsün.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>yeniden hesaplamak</strong> – bir sayı değişince Calc bir daha hesaplar",
- "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "Şimdiye kadar sadece sayı yazıyorsun. Artık Calc senin için hesaplar: formül <code>=</code> ile başlar ve hücrelerle hesap yapar. Bir sayı değişince Calc hemen yeniden hesaplar. Hesap makinesi değil de tablo kullanmanın sebebi tam olarak budur."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Artık Calc senin için hesaplar. Formül <code>=</code> ile başlar ve hücrelerle hesap yapar. Bir sayı değişince Calc hemen yeniden hesaplar. Hesap makinesi bunu yapamaz."
 }

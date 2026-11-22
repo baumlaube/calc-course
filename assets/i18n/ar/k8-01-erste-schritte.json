@@ -3,9 +3,6 @@
  "Erste Schritte – Zellen, Eingeben, Formatieren": "الخطوات الأولى – الخلايا، الكتابة، التنسيق",
  "Klasse 8 · Baustein 1": "الصف 8 · الوحدة 1",
  "Vorwissen: keins": "المعرفة المسبقة: لا شيء",
- "Ich kann jede Zelle mit ihrer Adresse finden und benennen.": "أجد كل خلية بعنوانها وأسمّيها.",
- "Ich kann Text und Zahlen richtig eingeben.": "أكتب النصوص والأرقام بشكل صحيح.",
- "Ich kann eine Tabelle übersichtlich formatieren.": "أنسّق جدولًا بحيث يسهل قراءته.",
  "1 Zellen-Jagd 5 Min": "<span class=\"step-no\">1</span> البحث عن الخلايا <span class=\"chip\">5 د</span>",
  "Eine Tabelle ist wie das Spielfeld bei „Schiffe versenken“: Jedes Kästchen hat eine Adresse. Findest du sie?": "الجدول الحسابي مثل لوحة لعبة «معركة السفن»: لكل مربّع عنوان. هل تجده؟",
  "Klick auf:": "انقر على:",
@@ -51,11 +48,6 @@
  "Du springst ans Ende einer Zeile.": "تقفز إلى نهاية صف.",
  "Strg + Pos1": "<kbd>Strg</kbd> (Ctrl) + <kbd>Pos1</kbd> (Home)",
  "Du springst zurück nach A1.": "تقفز عائدًا إلى A1.",
- "Ich finde jede Zelle über ihre Adresse, z. B. C4.": "أجد كل خلية بعنوانها، مثل <code>C4</code>.",
- "Ich kann Text und Zahlen eingeben und korrigieren.": "أكتب النصوص والأرقام وأصحّحها.",
- "Ich erkenne, ob Calc etwas als Zahl oder als Text gespeichert hat.": "أعرف هل حفظ Calc شيئًا كرقم أم كنص.",
- "Ich kann Schrift, Farbe, Währung, Spaltenbreite und Rahmen einstellen.": "أضبط الخط واللون والعملة وعرض العمود والحدود.",
- "Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">Expedition</span> أقفز في الجداول بـ <strong>Namenfeld</strong> (مربع الاسم) و<kbd>Strg</kbd>+سهم.",
  "← Kursübersicht": "← نظرة عامة على الدورة",
  "2 · Erste Formeln →": "2 · الصيغ الأولى →",
  "geschafft!": "انتهى!",
@@ -92,8 +84,6 @@
  "Bei Höhe und Tempo tippst du nur die Zahl. Die Einheit kommt in die Überschrift: Ändere C1 in Höhe in m und D1 in Tempo in km/h.": "في الارتفاع والسرعة اكتب <strong>الرقم فقط</strong>. الوحدة تُكتب في العنوان: غيّر C1 إلى <code>Höhe in m</code> و D1 إلى <code>Tempo in km/h</code>.",
  "PlusAufgabe 4b · Achterbahn-Notizen: Eine Angabe pro Zelle, die Einheit in die Überschrift.": "<span class=\"badge plus\">Plus</span><span><strong>المهمة 4b · ملاحظات قطار الملاهي:</strong> معلومة واحدة في كل خلية، والوحدة في العنوان.</span>",
  "Eine Angabe pro Zelle. Einheiten wie m oder Stück gehören in die Überschrift: Höhe in m.": "<strong>معلومة واحدة في كل خلية.</strong> الوحدات مثل m أو Stück (قطعة) مكانها العنوان: <code>Höhe in m</code>.",
- "Ich schreibe Einheiten in die Überschrift, nicht in die Zelle.": "أكتب الوحدات في العنوان، لا في الخلية.",
- "★ Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">★ Expedition</span> أتنقّل في الجداول بـ Namenfeld (مربع الاسم) و <kbd>Strg</kbd>+سهم.",
  "Üben Das Hunderter-Puzzle": "<span class=\"badge ueben\">Üben</span> أحجية المئة",
  "Auf der Hunderter-Tafel fehlen fünf Teile. Klick ein blaues Teil an, dann die Lücke, in die es passt.": "تنقص لوحةَ المئة خمسُ قطع. انقر قطعة زرقاء، ثم الفراغ الذي يناسبها.",
  "In Calc schiebst du die Teile mit der Maus: Teil markieren, auf den Rand zeigen, bis das Pfeilkreuz ✥ kommt, dann ziehen. Probier es in Calc aus – mit der Datei hier drunter.": "في Calc تحرّك القطع بالفأرة: حدّد القطعة، أشر إلى <strong>الحافة</strong> حتى يظهر سهم التحريك ✥، ثم اسحب. جرّب ذلك في Calc – بالملف الموجود في الأسفل.",
@@ -136,5 +126,5 @@
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>ينسّق</strong> – يغيّر المظهر، مثلًا € أو اللون. الرقم يبقى كما هو.",
  "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>منزلة عشرية</strong> – رقم بعد الفاصلة. في 1,49 توجد منزلتان.",
  "Leertaste": "Leertaste (مفتاح المسافة)",
- "Eine Tabellenkalkulation ist ein großes Blatt aus Kästchen. Hier lernst du, dich darin zurechtzufinden: Jede Zelle hat eine Adresse, und Text und Zahlen kommen sauber in eigene Zellen. Darauf baut alles Weitere auf. Solche Tabellen benutzt man in fast jedem Beruf, im Büro genauso wie in der Werkstatt.": "الجدول الإلكتروني ورقة كبيرة من المربعات. هنا تتعلم أن تتنقل فيها: لكل خلية عنوان، والنص والأرقام يوضعان بترتيب في خلايا خاصة بهما. على هذا يُبنى كل ما يأتي بعده. تُستخدم هذه الجداول في كل مهنة تقريبًا، في المكتب وفي الورشة أيضًا."
+ "Eine Tabelle besteht aus vielen Kästchen. Jedes Kästchen heißt Zelle und hat eine Adresse, zum Beispiel C4. Hier lernst du, Zellen zu finden und Text und Zahlen richtig einzutippen. Das brauchst du für alles, was danach kommt. Tabellen wie diese gibt es in fast jedem Beruf.": "الجدول يتكوّن من مربعات كثيرة. كل مربع اسمه Zelle (خلية) وله عنوان، مثل <code>C4</code>. هنا تتعلم إيجاد الخلايا وكتابة النص والأرقام بشكل صحيح. تحتاج هذا لكل ما يأتي بعده. مثل هذه الجداول موجودة في كل مهنة تقريبًا."
 }

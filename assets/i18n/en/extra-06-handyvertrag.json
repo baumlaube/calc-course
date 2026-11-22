@@ -3,9 +3,6 @@
  "Projekt: Welcher Handyvertrag passt zu mir?": "Project: Which mobile contract suits me?",
  "Zusatzmodul · Projekt": "Extra module · project",
  "Vorwissen: WENN, $-Anker, Diagramme": "You need: WENN, $ anchor, charts",
- "Ich kann Tarife mit WENN und MIN vergleichen.": "I can compare plans with WENN and MIN.",
- "Ich kann Kosten über zwei Jahre berechnen.": "I can calculate costs over two years.",
- "Ich kann meine Entscheidung mit Zahlen und einem Diagramm begründen.": "I can explain my decision with numbers and a chart.",
  "📱 Euer Auftrag": "<span class=\"step-no\">📱</span> Your task",
  "Vier Tarife, ein Ziel: Welcher ist für euren Datenbedarf über zwei Jahre am günstigsten? Die Tarife sind ausgedacht – die Rechnung ist echt.": "Four plans, one goal: which is the cheapest <strong>for your data needs</strong> over two years? The plans are made up – the maths is real.",
  "ODS Projektdateix06-handyvertrag.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Projektdatei</strong> (project file)<small>x06-handyvertrag.ods</small></span>",
@@ -44,5 +41,5 @@
  "Kosten in 2 Jahren bei {} GB": "Cost in 2 years at {} GB",
  "Am günstigsten: {} mit {}.": "Cheapest: <strong>{}</strong> with {}.",
  "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Not enough data (even with the extra package): {}.",
- "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Every provider advertises the cheapest plan. Which one really suits you? In this project you compare plans over two years with <code>WENN</code> (IF) and <code>MIN</code> and back up your choice with numbers and a chart."
+ "Jeder Anbieter sagt: Unser Tarif ist der beste. Welcher passt wirklich zu dir? Du vergleichst Tarife über zwei Jahre mit WENN und MIN. Deine Wahl zeigst du mit Zahlen und einem Diagramm.": "Every provider says: our plan is the best. Which one really suits you? You compare plans over two years with <code>WENN</code> (IF) and <code>MIN</code>. You show your choice with numbers and a chart."
 }

@@ -3,9 +3,6 @@
  "Erste Formeln – Calc rechnet für dich": "Premières formules – Calc calcule pour toi",
  "Klasse 8 · Baustein 2": "8e année · Unité 2",
  "Vorwissen: Zellen und Eingeben": "Prérequis : cellules et saisie",
- "Ich kann eine Formel mit = beginnen und mit + − * / rechnen.": "Je commence une formule par <code>=</code> et je calcule avec + − * /.",
- "Ich kann in Formeln Zellen statt Zahlen verwenden.": "J'utilise des cellules au lieu de nombres dans les formules.",
- "Ich kann erklären, warum Calc dann von selbst neu rechnet.": "Je sais expliquer pourquoi Calc recalcule alors tout seul.",
  "Mia kauft Schulsachen. Bei den Heften hat sie im Kopf gerechnet und in D5 einfach 4,50 eingetippt. Bei den Stiften steht in D6 eine Formel.": "Mia achète des fournitures scolaires. Pour les <strong>cahiers</strong>, elle a calculé de tête et a simplement tapé <code>4,50</code> dans D5. Pour les <strong>stylos</strong>, D6 contient une formule.",
  "Überleg: Beides wird teurer. Was zeigt D5 danach?": "<strong>Réfléchis :</strong> les deux deviennent plus chers. Qu'affiche <strong>D5</strong> ensuite ?",
  "Den neuen, höheren Betrag": "Le nouveau montant, plus élevé",
@@ -43,11 +40,6 @@
  "★ Expedition: Punkt vor Strich freiwillig": "<span class=\"step-no\">★</span> Expédition : priorité des opérations <span class=\"badge expedition\">facultatif</span>",
  "Auch Calc rechnet Punkt vor Strich.Was in Klammern steht, kommt zuerst.": "Calc aussi fait <strong>la multiplication et la division avant l'addition et la soustraction</strong>.<br/>Ce qui est entre <strong>parenthèses</strong> passe en premier.",
  "Berechne in B6 deinen Notendurchschnitt: alle Noten zusammenzählen, dann durch 3 teilen.": "Calcule ta moyenne dans B6 : additionne toutes les notes, puis divise par 3.",
- "Ich beginne jede Formel mit =.": "Je commence chaque formule par <code>=</code>.",
- "Ich kenne die Rechenzeichen + − * /.": "Je connais les signes de calcul + − * /.",
- "Ich klicke Zellen an, statt Zahlen in die Formel zu tippen.": "Je clique sur les cellules au lieu de taper des nombres dans la formule.",
- "Plus Ich kann Formeln bauen, die auf anderen Formeln aufbauen.": "<span class=\"badge plus\">Plus</span> Je construis des formules qui utilisent d'autres formules.",
- "Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">Expedition</span> J'utilise correctement les parenthèses.",
  "← 1 · Erste Schritte": "← 1 · Premiers pas",
  "3 · Funktionen →": "3 · Fonctions →",
  "Die Preise steigen … schau auf Spalte C und D!": "Les prix augmentent … regarde les colonnes C et D !",
@@ -86,7 +78,6 @@
  "D5 rechnet neu": "D5 recalcule",
  "D5 bleibt 4,50": "D5 reste à 4,50",
  "B5 abtippen": "Retaper B5",
- "★ Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">★ Expedition</span> Je place les parenthèses correctement.",
  "Üben Farbfelder": "<span class=\"badge ueben\">Üben</span> Les cases de couleur",
  "Zähl alle Felder mit derselben Farbe zusammen. Tipp in B8 =, klick das erste gelbe Feld an, tipp +, klick das nächste an … und drück Enter.": "Additionne toutes les cases de la même couleur. Tape <code>=</code> dans B8, clique sur la première case jaune, tape <code>+</code>, clique sur la suivante … et appuie sur <kbd>Enter</kbd>.",
  "Keine Zahlen abtippen! Nur Zellen anklicken. Dann rechnet die Summe mit, wenn sich eine Zahl ändert.": "<strong>Ne recopie pas les nombres !</strong> Clique seulement sur les cellules. Ainsi la somme change quand un nombre change.",
@@ -121,5 +112,5 @@
  "das, was bei einer Rechnung herauskommt": "<strong>résultat</strong> – ce que donne un calcul",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>ligne de saisie</strong> – la longue ligne au-dessus du tableau. Tu y vois la formule.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>recalculer</strong> – Calc calcule encore une fois quand un nombre change",
- "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "Jusqu’ici tu tapes seulement des nombres. Maintenant Calc calcule pour toi : une formule commence par <code>=</code> et calcule avec les cellules. Si un nombre change, Calc recalcule tout de suite. C’est exactement pour ça qu’on prend un tableur et pas une calculatrice."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Maintenant Calc calcule pour toi. Une formule commence par <code>=</code> et calcule avec les cellules. Si un nombre change, Calc recalcule tout de suite. Une calculatrice ne sait pas faire ça."
 }

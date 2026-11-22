@@ -3,9 +3,6 @@
  "Erste Formeln – Calc rechnet für dich": "Công thức đầu tiên – Calc tính giúp bạn",
  "Klasse 8 · Baustein 2": "Lớp 8 · Bài 2",
  "Vorwissen: Zellen und Eingeben": "Cần biết trước: ô và nhập dữ liệu",
- "Ich kann eine Formel mit = beginnen und mit + − * / rechnen.": "Mình bắt đầu được công thức bằng <code>=</code> và tính với + − * /.",
- "Ich kann in Formeln Zellen statt Zahlen verwenden.": "Mình dùng được ô thay vì số trong công thức.",
- "Ich kann erklären, warum Calc dann von selbst neu rechnet.": "Mình giải thích được tại sao sau đó Calc tự tính lại.",
  "eine Rechnung in einer Zelle. Sie beginnt mit =": "<strong>công thức</strong> – một phép tính trong ô. Nó bắt đầu bằng <code>=</code>",
  "+ plus · - minus · * mal · / geteilt": "<strong>dấu phép tính</strong> – <code>+</code> plus (cộng) · <code>-</code> minus (trừ) · <code>*</code> mal (nhân) · <code>/</code> geteilt (chia)",
  "das, was bei einer Rechnung herauskommt": "<strong>kết quả</strong> – cái ra được từ một phép tính",
@@ -44,11 +41,6 @@
  "Rechenzeichen: + plus · - minus · * mal · / geteilt.": "Dấu phép tính: <code>+</code> cộng · <code>-</code> trừ · <code>*</code> nhân · <code>/</code> chia.",
  "Zellen statt Zahlen: =B5*C5 statt =3*1,5. Ändert sich eine Zahl, rechnet Calc von selbst neu.": "<strong>Ô thay vì số:</strong> <code>=B5*C5</code> thay vì <code>=3*1,5</code>. Khi một số thay đổi, Calc tự tính lại.",
  "Zellen einfügen: Beim Tippen der Formel die Zelle einfach anklicken.": "Chèn ô: khi gõ công thức, chỉ cần <strong>bấm</strong> vào ô.",
- "Ich beginne jede Formel mit =.": "Mình bắt đầu mọi công thức bằng <code>=</code>.",
- "Ich kenne die Rechenzeichen + − * /.": "Mình biết các dấu phép tính + − * /.",
- "Ich klicke Zellen an, statt Zahlen in die Formel zu tippen.": "Mình bấm vào ô thay vì gõ số vào công thức.",
- "Plus Ich kann Formeln bauen, die auf anderen Formeln aufbauen.": "<span class=\"badge plus\">Plus</span> Mình viết được công thức dựa trên công thức khác.",
- "★ Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">★ Expedition</span> Mình đặt dấu ngoặc đúng chỗ.",
  "Üben Farbfelder": "<span class=\"badge ueben\">Üben</span> Ô màu",
  "Zähl alle Felder mit derselben Farbe zusammen. Tipp in B8 =, klick das erste gelbe Feld an, tipp +, klick das nächste an … und drück Enter.": "Cộng tất cả các ô cùng một màu. Gõ <code>=</code> vào B8, bấm vào ô vàng đầu tiên, gõ <code>+</code>, bấm vào ô tiếp theo … rồi nhấn <kbd>Enter</kbd>.",
  "Keine Zahlen abtippen! Nur Zellen anklicken. Dann rechnet die Summe mit, wenn sich eine Zahl ändert.": "<strong>Đừng gõ lại số!</strong> Chỉ bấm vào ô. Khi đó tổng sẽ tự thay đổi khi một số thay đổi.",
@@ -118,5 +110,5 @@
  "D5 rechnet neu": "D5 tính lại",
  "D5 bleibt 4,50": "D5 vẫn là 4,50",
  "B5 abtippen": "Gõ lại B5",
- "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "Đến giờ bạn chỉ gõ số vào. Bây giờ Calc tính giúp bạn: công thức bắt đầu bằng <code>=</code> và tính với các ô. Khi một số thay đổi, Calc tính lại ngay. Chính vì vậy người ta dùng bảng tính chứ không dùng máy tính bỏ túi."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Bây giờ Calc tính giúp bạn. Công thức bắt đầu bằng <code>=</code> và tính với các ô. Khi một số thay đổi, Calc tính lại ngay. Máy tính bỏ túi không làm được như vậy."
 }

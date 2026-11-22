@@ -2,9 +2,6 @@
  "ZÄHLENWENN · Calc-Kurs Zusatzmodul": "ZÄHLENWENN · Calc kurs dodatni modul",
  "ZÄHLENWENN – zählen, was passt": "ZÄHLENWENN (COUNTIF) – prebroji ono što odgovara",
  "Vorwissen: WENN, $-Anker": "Predznanje: WENN, $ sidro",
- "Ich kann mit ZÄHLENWENN zählen, wie oft etwas vorkommt.": "Mogu sa <code>ZÄHLENWENN</code> prebrojati koliko puta se nešto pojavljuje.",
- "Ich kann Kriterien wie \"Sport\", \">=4\" oder eine Zelle benutzen.": "Mogu koristiti kriterije kao <code>\"Sport\"</code>, <code>\"&gt;=4\"</code> ili ćeliju.",
- "Ich kann mit SUMMEWENN nur passende Beträge addieren.": "Mogu sa <code>SUMMEWENN</code> (SUMIF) sabrati samo odgovarajuće iznose.",
  "💡 Acht Schüler haben ihr Lieblingsfach genannt. In D2 kommt: =ZÄHLENWENN(B2:B9;\"Sport\")": "💡 Osam učenika je navelo svoj omiljeni predmet. U D2 ide: <code class=\"long\">=ZÄHLENWENN(B2:B9;\"Sport\")</code>",
  "Überleg: Was zeigt D2?": "<strong>Razmisli:</strong> Šta pokazuje D2?",
  "2 So zählt Calc 7 Min": "<span class=\"step-no\">2</span> Ovako Calc broji <span class=\"chip\">7 min</span>",
@@ -56,5 +53,6 @@
  "Wie oft „Essen“ vorkommt": "Koliko puta se pojavljuje „Essen“",
  "Gesucht wird in B, addiert wird aus C.": "Traži se u B, sabira se iz C.",
  "Anführungszeichen um D5": "Navodnici oko D5",
- "Ein $ bei D5": "Jedan $ kod D5"
+ "Ein $ bei D5": "Jedan $ kod D5",
+ "Wie viele in der Klasse mögen Sport am liebsten? ZÄHLENWENN zählt nur die Zellen, die passen. SUMMEWENN zählt nur passende Beträge zusammen, zum Beispiel alles, was du für Essen ausgegeben hast.": "Koliko učenika u razredu najviše voli fizičko? <code>ZÄHLENWENN</code> (COUNTIF) broji samo ćelije koje odgovaraju. <code>SUMMEWENN</code> (SUMIF) sabira samo odgovarajuće iznose, na primjer sve što si potrošio na hranu."
 }

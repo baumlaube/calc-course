@@ -3,9 +3,6 @@
  "Erste Schritte – Zellen, Eingeben, Formatieren": "Первые шаги – ячейки, ввод, оформление",
  "Klasse 8 · Baustein 1": "8 класс · Модуль 1",
  "Vorwissen: keins": "Нужно знать: ничего",
- "Ich kann jede Zelle mit ihrer Adresse finden und benennen.": "Я нахожу каждую ячейку по её адресу и называю её.",
- "Ich kann Text und Zahlen richtig eingeben.": "Я правильно ввожу текст и числа.",
- "Ich kann eine Tabelle übersichtlich formatieren.": "Я оформляю таблицу так, чтобы её было легко читать.",
  "1 Zellen-Jagd 5 Min": "<span class=\"step-no\">1</span> Охота за ячейками <span class=\"chip\">5 мин</span>",
  "Eine Tabelle ist wie das Spielfeld bei „Schiffe versenken“: Jedes Kästchen hat eine Adresse. Findest du sie?": "Таблица похожа на поле в игре «Морской бой»: у каждой клетки есть адрес. Найдёшь его?",
  "Klick auf:": "Щёлкни по:",
@@ -51,11 +48,6 @@
  "Du springst ans Ende einer Zeile.": "Ты прыгаешь в конец строки.",
  "Strg + Pos1": "<kbd>Strg</kbd> (Ctrl) + <kbd>Pos1</kbd> (Home)",
  "Du springst zurück nach A1.": "Ты прыгаешь обратно на A1.",
- "Ich finde jede Zelle über ihre Adresse, z. B. C4.": "Я нахожу каждую ячейку по адресу, напр. <code>C4</code>.",
- "Ich kann Text und Zahlen eingeben und korrigieren.": "Я ввожу и исправляю текст и числа.",
- "Ich erkenne, ob Calc etwas als Zahl oder als Text gespeichert hat.": "Я узнаю, сохранил ли Calc что-то как число или как текст.",
- "Ich kann Schrift, Farbe, Währung, Spaltenbreite und Rahmen einstellen.": "Я настраиваю шрифт, цвет, валюту, ширину столбца и рамки.",
- "Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">Expedition</span> Я прыгаю по таблицам с помощью <strong>Namenfeld</strong> (поле имени) и <kbd>Strg</kbd>+стрелка.",
  "← Kursübersicht": "← Обзор курса",
  "2 · Erste Formeln →": "2 · Первые формулы →",
  "geschafft!": "готово!",
@@ -92,8 +84,6 @@
  "Bei Höhe und Tempo tippst du nur die Zahl. Die Einheit kommt in die Überschrift: Ändere C1 in Höhe in m und D1 in Tempo in km/h.": "Для высоты и скорости вводи <strong>только число</strong>. Единица идёт в заголовок: измени C1 на <code>Höhe in m</code>, а D1 на <code>Tempo in km/h</code>.",
  "PlusAufgabe 4b · Achterbahn-Notizen: Eine Angabe pro Zelle, die Einheit in die Überschrift.": "<span class=\"badge plus\">Plus</span><span><strong>Задание 4b · Заметки о горках:</strong> одно значение в ячейке, единица в заголовке.</span>",
  "Eine Angabe pro Zelle. Einheiten wie m oder Stück gehören in die Überschrift: Höhe in m.": "<strong>Одно значение в одной ячейке.</strong> Единицы, например m или штуки, пишут в заголовке: <code>Höhe in m</code>.",
- "Ich schreibe Einheiten in die Überschrift, nicht in die Zelle.": "Я пишу единицы в заголовке, а не в ячейке.",
- "★ Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">★ Expedition</span> Я прыгаю по таблицам с помощью Namenfeld (поле имени) и <kbd>Strg</kbd>+стрелки.",
  "Üben Das Hunderter-Puzzle": "<span class=\"badge ueben\">Üben</span> Пазл-сотня",
  "Auf der Hunderter-Tafel fehlen fünf Teile. Klick ein blaues Teil an, dann die Lücke, in die es passt.": "В таблице до ста не хватает пяти частей. Щёлкни синюю часть, потом пропуск, куда она подходит.",
  "In Calc schiebst du die Teile mit der Maus: Teil markieren, auf den Rand zeigen, bis das Pfeilkreuz ✥ kommt, dann ziehen. Probier es in Calc aus – mit der Datei hier drunter.": "В Calc части передвигают мышью: выдели часть, наведи на <strong>край</strong>, пока не появится крестик ✥, потом тяни. Попробуй в Calc – с файлом ниже.",
@@ -136,5 +126,5 @@
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>форматировать</strong> – менять вид, например € или цвет. Число остаётся тем же.",
  "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>знак после запятой</strong> – цифра после запятой. В 1,49 их две.",
  "Leertaste": "Leertaste (пробел)",
- "Eine Tabellenkalkulation ist ein großes Blatt aus Kästchen. Hier lernst du, dich darin zurechtzufinden: Jede Zelle hat eine Adresse, und Text und Zahlen kommen sauber in eigene Zellen. Darauf baut alles Weitere auf. Solche Tabellen benutzt man in fast jedem Beruf, im Büro genauso wie in der Werkstatt.": "Электронная таблица – это большой лист из клеточек. Здесь ты учишься в нём ориентироваться: у каждой ячейки есть адрес, а текст и числа аккуратно стоят в отдельных ячейках. На этом строится всё остальное. Такие таблицы используют почти в каждой профессии – и в офисе, и в мастерской."
+ "Eine Tabelle besteht aus vielen Kästchen. Jedes Kästchen heißt Zelle und hat eine Adresse, zum Beispiel C4. Hier lernst du, Zellen zu finden und Text und Zahlen richtig einzutippen. Das brauchst du für alles, was danach kommt. Tabellen wie diese gibt es in fast jedem Beruf.": "Таблица состоит из множества клеточек. Каждая клеточка называется Zelle и имеет адрес, например <code>C4</code>. Здесь ты учишься находить ячейки и правильно вводить текст и числа. Это нужно для всего, что будет дальше. Такие таблицы есть почти в каждой профессии."
 }

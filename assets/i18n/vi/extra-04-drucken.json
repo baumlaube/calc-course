@@ -2,9 +2,6 @@
  "Drucken wie ein Profi · Calc-Kurs Zusatzmodul": "In như dân chuyên · Khóa học Calc mô-đun bổ sung",
  "Drucken wie ein Profi": "In như dân chuyên",
  "brauchst du bei jeder Abgabe": "bạn cần mỗi khi nộp bài",
- "Ich prüfe mit der Druckvorschau, wie der Ausdruck aussieht.": "Mình kiểm tra bằng bản xem trước khi in xem bản in trông thế nào.",
- "Ich stelle Querformat, „auf eine Seite“ und eine Kopfzeile ein.": "Mình chỉnh được khổ ngang, „vừa một trang“ và dòng đầu trang.",
- "Ich lege fest, was gedruckt wird – und speichere als PDF.": "Mình quyết định được cái gì sẽ được in – và lưu thành PDF.",
  "💡 Deine Notenliste ist 30 cm breit. Auf ein A4-Blatt hochkant passen nur etwa 17 cm.": "💡 Danh sách điểm của bạn rộng <strong>30 cm</strong>. Trên một tờ A4 khổ dọc chỉ vừa khoảng <strong>17 cm</strong>.",
  "Überleg: Was passiert, wenn du einfach auf Drucken klickst?": "<strong>Suy nghĩ:</strong> Điều gì xảy ra nếu bạn chỉ bấm In?",
  "Calc macht alles kleiner – passt auf ein Blatt.": "Calc làm tất cả nhỏ lại – vừa một tờ.",
@@ -69,5 +66,5 @@
  "Datei → Druckvorschau": "Datei → Druckvorschau (tệp → xem trước khi in)",
  "Spalten löschen": "Xóa cột",
  "Klein schreiben": "Viết chữ nhỏ",
- "Auf dem Bildschirm sieht die Tabelle gut aus, auf Papier fehlt plötzlich die Hälfte. Hier lernst du, mit Druckvorschau, Querformat und „auf eine Seite“ sauber zu drucken. Und du speicherst die Tabelle als PDF, zum Abgeben oder Verschicken.": "Trên màn hình bảng trông đẹp, nhưng trên giấy bỗng thiếu một nửa. Ở đây bạn học cách in gọn gàng với bản xem trước khi in, khổ ngang và „vừa một trang“. Và bạn lưu bảng thành PDF để nộp hoặc gửi đi."
+ "Auf dem Bildschirm sieht die Tabelle gut aus. Auf dem Papier fehlt plötzlich die Hälfte. Hier lernst du, die Tabelle richtig auf ein Blatt zu bringen. Du speicherst sie auch als PDF, zum Abgeben oder Verschicken.": "Trên màn hình bảng trông đẹp. Trên giấy bỗng thiếu một nửa. Ở đây bạn học cách đưa bảng vừa đúng lên một tờ. Bạn cũng lưu nó thành PDF để nộp hoặc gửi đi."
 }

@@ -3,9 +3,6 @@
  "Erste Schritte – Zellen, Eingeben, Formatieren": "First steps – cells, typing, formatting",
  "Klasse 8 · Baustein 1": "Grade 8 · Unit 1",
  "Vorwissen: keins": "Prior knowledge: none",
- "Ich kann jede Zelle mit ihrer Adresse finden und benennen.": "I can find every cell by its address and name it.",
- "Ich kann Text und Zahlen richtig eingeben.": "I can type text and numbers correctly.",
- "Ich kann eine Tabelle übersichtlich formatieren.": "I can format a table so it is easy to read.",
  "1 Zellen-Jagd 5 Min": "<span class=\"step-no\">1</span> Cell hunt <span class=\"chip\">5 min</span>",
  "Eine Tabelle ist wie das Spielfeld bei „Schiffe versenken“: Jedes Kästchen hat eine Adresse. Findest du sie?": "A spreadsheet is like the board in the game “Battleship”: every box has an address. Can you find it?",
  "Klick auf:": "Click on:",
@@ -51,11 +48,6 @@
  "Du springst ans Ende einer Zeile.": "You jump to the end of a row.",
  "Strg + Pos1": "<kbd>Strg</kbd> (Ctrl) + <kbd>Pos1</kbd> (Home)",
  "Du springst zurück nach A1.": "You jump back to A1.",
- "Ich finde jede Zelle über ihre Adresse, z. B. C4.": "I can find every cell by its address, e.g. <code>C4</code>.",
- "Ich kann Text und Zahlen eingeben und korrigieren.": "I can type and correct text and numbers.",
- "Ich erkenne, ob Calc etwas als Zahl oder als Text gespeichert hat.": "I can tell whether Calc saved something as a number or as text.",
- "Ich kann Schrift, Farbe, Währung, Spaltenbreite und Rahmen einstellen.": "I can set font, colour, currency, column width and borders.",
- "Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">Expedition</span> I jump through spreadsheets with the <strong>Namenfeld</strong> (Name Box) and <kbd>Strg</kbd>+arrow.",
  "← Kursübersicht": "← Course overview",
  "2 · Erste Formeln →": "2 · First formulas →",
  "geschafft!": "done!",
@@ -91,8 +83,6 @@
  "Bei Höhe und Tempo tippst du nur die Zahl. Die Einheit kommt in die Überschrift: Ändere C1 in Höhe in m und D1 in Tempo in km/h.": "For height and speed you type <strong>only the number</strong>. The unit goes in the heading: change C1 to <code>Höhe in m</code> and D1 to <code>Tempo in km/h</code>.",
  "PlusAufgabe 4b · Achterbahn-Notizen: Eine Angabe pro Zelle, die Einheit in die Überschrift.": "<span class=\"badge plus\">Plus</span><span><strong>Task 4b · Roller coaster notes:</strong> One piece of information per cell, the unit in the heading.</span>",
  "Eine Angabe pro Zelle. Einheiten wie m oder Stück gehören in die Überschrift: Höhe in m.": "<strong>One piece of information per cell.</strong> Units like m or pieces belong in the heading: <code>Höhe in m</code>.",
- "Ich schreibe Einheiten in die Überschrift, nicht in die Zelle.": "I write units in the heading, not in the cell.",
- "★ Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">★ Expedition</span> I jump through tables with the Namenfeld (name box) and <kbd>Strg</kbd>+arrow.",
  "Üben Das Hunderter-Puzzle": "<span class=\"badge ueben\">Üben</span> The hundred puzzle",
  "Auf der Hunderter-Tafel fehlen fünf Teile. Klick ein blaues Teil an, dann die Lücke, in die es passt.": "Five pieces are missing from the hundred chart. Click a blue piece, then the gap where it fits.",
  "In Calc schiebst du die Teile mit der Maus: Teil markieren, auf den Rand zeigen, bis das Pfeilkreuz ✥ kommt, dann ziehen. Probier es in Calc aus – mit der Datei hier drunter.": "In Calc you move the pieces with the mouse: select the piece, point at the <strong>border</strong> until the move cross ✥ appears, then drag. Try it in Calc – with the file below.",
@@ -135,5 +125,5 @@
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>to format</strong> – to change the look, e.g. € or colour. The number stays the same.",
  "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>decimal place</strong> – a digit after the comma. 1,49 has two.",
  "Leertaste": "Leertaste (space bar)",
- "Eine Tabellenkalkulation ist ein großes Blatt aus Kästchen. Hier lernst du, dich darin zurechtzufinden: Jede Zelle hat eine Adresse, und Text und Zahlen kommen sauber in eigene Zellen. Darauf baut alles Weitere auf. Solche Tabellen benutzt man in fast jedem Beruf, im Büro genauso wie in der Werkstatt.": "A spreadsheet is a big sheet made of boxes. Here you learn to find your way around it: every cell has an address, and text and numbers go neatly into their own cells. Everything else builds on this. Tables like these are used in almost every job, in the office just as much as in the workshop."
+ "Eine Tabelle besteht aus vielen Kästchen. Jedes Kästchen heißt Zelle und hat eine Adresse, zum Beispiel C4. Hier lernst du, Zellen zu finden und Text und Zahlen richtig einzutippen. Das brauchst du für alles, was danach kommt. Tabellen wie diese gibt es in fast jedem Beruf.": "A table is made of many boxes. Each box is called a cell and has an address, for example <code>C4</code>. Here you learn to find cells and to type text and numbers correctly. You need this for everything that comes after. Tables like this exist in almost every job."
 }

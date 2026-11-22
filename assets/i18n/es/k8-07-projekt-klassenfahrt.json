@@ -3,9 +3,6 @@
  "Projekt: Wir planen die Klassenfahrt": "Proyecto: planificamos el viaje de clase",
  "Klasse 8 · Baustein 7–8": "8.º curso · Unidades 7–8",
  "Vorwissen: Baustein 1–6": "Conocimientos previos: unidades 1–6",
- "Ich kann alles aus Baustein 1 bis 6 in einem echten Projekt anwenden.": "Uso todo lo de las unidades 1 a 6 en un proyecto real.",
- "Ich kann einen Kostenplan mit Formeln, SUMME und absoluten Bezügen erstellen.": "Hago un plan de costes con fórmulas, SUMME y referencias absolutas.",
- "Ich kann Ergebnisse mit einem Diagramm zeigen und eine Entscheidung begründen.": "Muestro resultados con un gráfico y justifico una decisión.",
  "🎒 Euer Auftrag": "<span class=\"step-no\">🎒</span> Vuestra misión",
  "Eure Klasse fährt 3 Tage weg. Ihr seid das Planungsteam.Was kostet die Fahrt? Wie viel zahlt jeder selbst? Welches Ziel ist besser?": "Vuestra clase se va de viaje 3 días. Sois el <strong>equipo de planificación</strong>.<br/>¿Cuánto cuesta el viaje? ¿Cuánto paga cada uno? ¿Qué destino es mejor?",
  "Ihr arbeitet allein oder zu zweit. Die Projektdatei zeigt euch auf dem Startblatt, welche Meilensteine schon geschafft sind.": "Trabajáis solos o en parejas. La hoja de inicio del archivo del proyecto os muestra qué etapas ya están superadas.",
@@ -64,11 +61,6 @@
  "Für Lehrkräfte: ★ = 1, ★★ = 2, ★★★ = 3 Punkte je Zeile. Ohne Plus sind es 15 Punkte, mit Plus 18.": "Para docentes: ★ = 1, ★★ = 2, ★★★ = 3 puntos por fila. Sin Plus son 15 puntos, con Plus 18.",
  "Rückblick auf Klasse 8": "Repaso de 8.º",
  "Hak ab, was du jetzt kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.": "Marca lo que ya sabes hacer. Solo tu dispositivo lo recuerda; no se envía nada.",
- "Ich kann einen Kostenplan mit Formeln aufbauen.": "Sé montar un plan de costes con fórmulas.",
- "Ich setze SUMME, Ausfüllen und $ sinnvoll ein.": "Uso SUMME, rellenar y <code>$</code> con sentido.",
- "Ich gestalte Tabellen so, dass andere sie gut lesen können.": "Diseño tablas para que otros las lean fácilmente.",
- "Ich wähle das passende Diagramm und lese es richtig.": "Elijo el gráfico adecuado y lo leo bien.",
- "Plus Ich kann zwei Angebote vergleichen und meine Entscheidung begründen.": "<span class=\"badge plus\">Plus</span> Sé comparar dos ofertas y justificar mi decisión.",
  "← 6 · Diagramme": "← 6 · Gráficos",
  "Klasse 9 · Fehlerdetektiv →": "9.º curso · Detective de errores →",
  "{} pro Person": "<strong>{}</strong> por persona",
@@ -83,5 +75,5 @@
  "Geld, das jemand dazugibt, z. B. die Schule": "<strong>ayuda, subvención</strong> – dinero que alguien añade, p. ej. el colegio",
  "ein Vorschlag mit Preis. Ihr vergleicht zwei Angebote.": "<strong>oferta</strong> – una propuesta con precio. Comparáis dos ofertas.",
  "sagen, warum. Hier: mit Zahlen.": "<strong>justificar</strong> – decir por qué. Aquí: con números.",
- "Jetzt setzt du alles aus Klasse 8 zusammen. Ihr plant eine Klassenfahrt: Kosten pro Person ausrechnen, Angebote vergleichen und die Entscheidung mit einem Diagramm begründen. Diese Rechnung muss vor jeder echten Klassenfahrt jemand machen.": "Ahora juntas todo lo de 8.º. Planificáis un viaje de clase: calcular el coste por persona, comparar ofertas y justificar la decisión con un gráfico. Antes de cada viaje de clase real alguien tiene que hacer este cálculo."
+ "Jetzt brauchst du alles aus Klasse 8. Ihr plant eine Klassenfahrt: Ihr rechnet die Kosten pro Person aus, vergleicht Angebote und zeigt eure Entscheidung in einem Diagramm. So eine Rechnung braucht jede echte Klassenfahrt.": "Ahora necesitas todo lo de 8.º. Planificáis un viaje de clase: calculáis el coste por persona, comparáis ofertas y mostráis vuestra decisión en un gráfico. Todo viaje de clase real necesita un cálculo así."
 }

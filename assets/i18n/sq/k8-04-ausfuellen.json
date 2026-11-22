@@ -3,9 +3,6 @@
  "Formeln ausfüllen – einmal schreiben, überall rechnen": "Plotësimi i formulave – shkruaj një herë, llogarit kudo",
  "Klasse 8 · Baustein 4": "Klasa 8 · Njësia 4",
  "Vorwissen: Formeln, SUMME": "Njohuri paraprake: formula, SUMME",
- "Ich kann eine Formel nach unten und nach rechts ziehen.": "Mund ta tërheq një formulë poshtë dhe djathtas.",
- "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "Mund të shpjegoj si ndryshojnë referencat e qelizave.",
- "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "Mund të parashikoj cila formulë përfundon në një qelizë.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "Po blen gjëra për festën e klasës. D5 ka tashmë formulën <code>=B5*C5</code> → 4 × 1,50 € = 6,00 €.<br/>Për rreshtat e tjerë nuk shkruan gjithçka përsëri – thjesht e <strong>tërheq</strong> formulën poshtë.",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – saktësisht e njëjta",
  "gar keine – nur die Zahl 6,00 €": "asnjë – vetëm numri 6,00 €",
@@ -41,11 +38,6 @@
  "Du sparst auf ein Fahrrad. Jede Woche kommt ein Betrag dazu. Wie viel hast du nach 8 Wochen?": "Po kursen për një biçikletë. Çdo javë shtohen ca para. Sa ke pas 8 javësh?",
  "Kontostand = Kontostand der Vorwoche + neuer Betrag": "Bilanci = <strong>bilanci i javës së kaluar</strong> + shuma e re",
  "In C5 steht der Kontostand nach Woche 1. Schreib in C6 eine Formel für Woche 2 und zieh sie nach unten. Tipp: Die Vorwoche steht genau eine Zeile darüber.": "C5 tregon bilancin pas javës 1. Shkruaj në <strong>C6</strong> një formulë për javën 2 dhe tërhiqe poshtë. Këshillë: java e kaluar është saktësisht një rresht më lart.",
- "Ich finde das Ausfüllkästchen und kann eine Formel nach unten ziehen.": "Mund ta gjej dorezën e plotësimit dhe ta tërheq një formulë poshtë.",
- "Ich kann eine Formel nach rechts ziehen.": "Mund ta tërheq një formulë djathtas.",
- "Ich kann erklären, warum aus =B5*C5 eine Zeile tiefer =B6*C6 wird.": "Mund të shpjegoj pse <code>=B5*C5</code> bëhet <code>=B6*C6</code> një rresht më poshtë.",
- "Plus Ich kann vorhersagen, welche Formel nach dem Ziehen in einer Zelle steht.": "<span class=\"badge plus\">Plus</span> Mund të parashikoj cila formulë është në një qelizë pas tërheqjes.",
- "Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">Expedition</span> Mund të llogaris një bilanc rrjedhës.",
  "← 3 · Funktionen": "← 3 · Funksionet",
  "5 · Absolute Bezüge →": "5 · Referencat absolute →",
  "Calc füllt aus … schau auf Spalte D!": "Calc po plotëson … shiko kolonën D!",
@@ -92,7 +84,6 @@
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen. Mit Probe: Kommt auf beiden Wegen dasselbe heraus?": "<span class=\"badge basis\">Basis</span><span><strong>Detyra 2 · Paratë e xhepit:</strong> mbush shumat djathtas <em>dhe</em> poshtë. Me provë: del i njëjti rezultat në të dyja rrugët?</span>",
  "Calc setzt auch Reihen fort: Montag → Dienstag, Januar → Februar, 10 und 20 → 30.": "Calc vazhdon edhe seri: Montag → Dienstag (e hënë → e martë), Januar → Februar, 10 dhe 20 → 30.",
  "Probe: Die Gesamtsumme auf zwei Wegen rechnen. Gleich? Dann stimmt alles.": "<strong>Prova:</strong> Llogarit shumën totale në dy mënyra. E njëjtë? Atëherë gjithçka është e saktë.",
- "★ Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">★ Expedition</span> Mund të llogaris gjendjen aktuale të llogarisë.",
  "Üben Das Ausfüll-Orakel": "<span class=\"badge ueben\">Üben</span> Orakulli i mbushjes",
  "Das Orakel aus Schritt 2 – jetzt selbst in Calc: Was macht Calc aus Montag, Quartal 1 oder 5, 3? Erst raten, dann ausfüllen.": "Orakulli nga hapi 2 – tani vetë në Calc: çfarë bën Calc nga Montag, Quartal 1 ose 5, 3? Fillimisht hamendëso, pastaj mbush.",
  "ODS Üben: Ausfüll-Orakelk8-04-ausfuellen-mehr-ausfuell-orakel.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Orakulli i mbushjes</strong><small>k8-04-ausfuellen-mehr-ausfuell-orakel.ods</small></span>",
@@ -149,5 +140,5 @@
  "Fehler": "Gabim",
  "Montag": "Montag (e hënë)",
  "Donnerstag": "Donnerstag (e enjte)",
- "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Shpesh në çdo rresht llogaritet njësoj: për çdo artikull, çdo ditë, çdo nxënës. E shkruan formulën vetëm një herë dhe e tërheq poshtë. Calc i përshtat vetë qelizat në çdo rresht. Kjo kursen shumë shkrim dhe shumë gabime."
+ "Oft rechnest du in jeder Zeile das Gleiche: für jeden Artikel, für jeden Tag. Du schreibst die Formel nur einmal. Dann ziehst du sie nach unten. Calc passt die Formel in jeder Zeile selbst an. So tippst du weniger und machst weniger Fehler.": "Shpesh në çdo rresht llogarit të njëjtën gjë: për çdo artikull, për çdo ditë. E shkruan formulën vetëm një herë. Pastaj e tërheq poshtë. Calc e përshtat vetë formulën në çdo rresht. Kështu shkruan më pak dhe gabon më pak."
 }

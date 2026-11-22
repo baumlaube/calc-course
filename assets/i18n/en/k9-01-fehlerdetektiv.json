@@ -2,9 +2,6 @@
  "Fehlerdetektiv · Calc-Kurs Klasse 9": "Error detective · Calc course grade 9",
  "Fehlerdetektiv – Fehler finden und reparieren": "Error detective – find and fix errors",
  "Klasse 9 · Baustein 1": "Grade 9 · Unit 1",
- "Ich kann Fehlermeldungen wie #WERT!, #DIV/0! und #NAME? deuten und beheben.": "I can understand and fix error messages like <code>#WERT!</code> (#VALUE!), <code>#DIV/0!</code> and <code>#NAME?</code>.",
- "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "I can find silent errors that Calc does not show.",
- "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "I can repair formulas with everything from grade 8.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>You already know this:</strong> <code>=C5/B5</code> divides the points by the number of participants. In D5 it works. But D6 suddenly shows <code>#DIV/0!</code>.",
  "Überleg: Warum?": "<strong>Think:</strong> Why?",
  "Die Punktzahl ist zu hoch.": "The score is too high.",
@@ -47,11 +44,6 @@
  "In Englisch gibt es noch keine Noten, darum zeigt der Durchschnitt #DIV/0!. Das sieht im Zeugnis nicht gut aus.": "There are no marks in English yet, so the average shows <code>#DIV/0!</code>. That does not look good on a report.",
  "=WENNFEHLER(Formel; \"Ersatz\")Klappt die Formel, kommt ihr Ergebnis. Sonst kommt der Ersatz.": "<code>=WENNFEHLER(Formel; \"Ersatz\")</code><br/>If the formula works, you get its result. Otherwise you get the replacement.",
  "Ändere E3 so, dass statt des Fehlers keine Noten erscheint. Text steht in Anführungszeichen.": "Change E3 so that <code>keine Noten</code> (no marks) appears instead of the error. Text goes in quotation marks.",
- "Ich weiß, was #WERT!, #DIV/0! und #NAME? bedeuten.": "I know what <code>#WERT!</code>, <code>#DIV/0!</code> and <code>#NAME?</code> mean.",
- "Ich kann laute Fehler reparieren.": "I can repair loud errors.",
- "Ich finde stille Fehler mit den Detektiv-Tricks.": "I find silent errors with the detective tricks.",
- "Plus Ich kann Fehler absichtlich erzeugen und erklären.": "<span class=\"badge plus\">Plus</span> I can make errors on purpose and explain them.",
- "Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">Expedition</span> I can catch errors with WENNFEHLER (IFERROR).",
  "← Klasse 8 · Projekt": "← Grade 8 · Project",
  "2 · Prozentrechnung →": "2 · Percentages →",
  "Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.": "Clicking D6 shows it: the formula uses B6, and B6 is empty. An empty cell counts as 0, and you cannot divide by 0.",
@@ -92,7 +84,6 @@
  "Aus still wird laut: Wandert ein Bezug ohne $ auf eine leere Zelle oder auf Text, zeigt Calc weiter unten #DIV/0! oder #WERT!. Der Fehler steckt dann oben in der ersten Formel.": "<strong>Silent becomes loud:</strong> if a reference without <code>$</code> wanders onto an empty cell or onto text, Calc shows <code>#DIV/0!</code> or <code>#WERT!</code> further down. The error is then at the top, in the first formula.",
  "Stille Fehler zeigt Calc nicht an: getippte Zahlen, fehlendes $, Bereich zu kurz oder zu groß.": "Calc does not show <strong>silent errors</strong>: typed numbers, missing <code>$</code>, range too short or too big.",
  "MAX, MIN und MITTELWERT brauchen einen Bereich mit Doppelpunkt: =MAX(G5:G10).": "<code>MAX</code>, <code>MIN</code> and <code>MITTELWERT</code> need a range with a colon: <code>=MAX(G5:G10)</code>.",
- "★ Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">★ Expedition</span> I can catch errors with WENNFEHLER (IFERROR).",
  "Üben Aufwärmen: Waffelverkauf": "<span class=\"badge ueben\">Üben</span> Warm-up: waffle sale",
  "Stückzahl und Umsatz für sechs Waffelsorten, dazu MAX, MIN und MITTELWERT. Die Kontrolle merkt, wenn der Preis mit in der Summe steckt.": "Quantity and revenue for six kinds of waffles, plus MAX, MIN and MITTELWERT. The check notices if the price is included in the sum.",
  "ODS Üben: Waffelverkaufk9-01-fehlerdetektiv-mehr-waffelverkauf.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Waffle sale</strong><small>k9-01-fehlerdetektiv-mehr-waffelverkauf.ods</small></span>",
@@ -135,5 +126,5 @@
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>narrow</strong> – not wide. <code>###</code> means: the column is too narrow.",
  "verstehen, was etwas bedeutet": "<strong>to interpret</strong> – to understand what something means",
  "einen Fehler wieder richtig machen": "<strong>to fix</strong> – to make an error right again",
- "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "Mistakes happen in tables, even to professionals. Calc shows some of them loudly, for example <code>#DIV/0!</code>. Others are silent: the number looks right but is still wrong. Here you learn to find and fix both. Along the way you revise everything from Year 8."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "Mistakes happen in tables. Calc shows some mistakes, for example <code>#DIV/0!</code>. Other mistakes Calc doesn’t show: the number looks right but is wrong. Here you learn to find and fix both kinds. Along the way you revise Year 8."
 }

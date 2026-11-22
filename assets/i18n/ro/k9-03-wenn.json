@@ -3,9 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (DACĂ 1) – Calc pune o întrebare",
  "Klasse 9 · Baustein 3": "Clasa a 9-a · Unitatea 3",
  "Teil 1 von 3 zu WENN": "Partea 1 din 3 despre WENN (DACĂ)",
- "Ich kann eine WENN-Formel als Ja/Nein-Frage lesen.": "Pot citi o formulă WENN ca pe o întrebare cu da/nu.",
- "Ich kann =WENN(Frage;\"Ja\";\"Nein\") selbst schreiben.": "Pot scrie singur <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>.",
- "Ich kann statt Ja und Nein eigene Antworten ausgeben.": "Pot afișa răspunsurile mele în loc de Ja și Nein.",
  "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 primește această formulă: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
  "Überleg: Was zeigt B5?": "<strong>Gândește-te:</strong> Ce arată B5?",
  "Nein": "Nein (nu)",
@@ -37,11 +34,6 @@
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "În loc de <code>\"Ja\"</code> și <code>\"Nein\"</code> poți folosi orice text, de exemplu <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Expediție: Creatorul de quiz <span class=\"badge expedition\">opțional</span>",
  "Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll richtig stehen, wenn in B2 Paris steht, sonst falsch.": "Și verificarea din fișierele de exerciții e doar o formulă WENN! Construiește tu una: C2 să arate <strong>richtig</strong> (corect) dacă în B2 e Paris, altfel <strong>falsch</strong> (greșit).",
- "Ich lese eine WENN-Formel als Frage.": "Citesc o formulă WENN ca pe o întrebare.",
- "Ich schreibe =WENN(Frage;\"Ja\";\"Nein\") ohne Vorlage.": "Scriu <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code> fără model.",
- "Ich kenne die Vergleichszeichen, besonders >= und <>.": "Cunosc semnele de comparație, mai ales <code>&gt;=</code> și <code>&lt;&gt;</code>.",
- "Plus Ich finde zu fertigen Antworten die passende Frage.": "<span class=\"badge plus\">Plus</span> Găsesc întrebarea potrivită pentru răspunsuri date.",
- "Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span> Construiesc un quiz care se verifică singur.",
  "← 2 · Prozentrechnung": "← 2 · Procente",
  "4 · WENN 2 →": "4 · WENN 2 (DACĂ 2) →",
  "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN pune o întrebare: <strong>În A5 e „Bus”?</strong> Da! De aceea B5 arată <strong>Ja</strong>.",
@@ -105,7 +97,6 @@
  "nicht gleich": "diferită de",
  "Gegenfrage: Dreh die Frage um und tausch die Antworten. Das Ergebnis bleibt gleich. =WENN(A5>=12;\"Ja\";\"Nein\") ist dasselbe wie =WENN(A5<12;\"Nein\";\"Ja\"). Aus >= wird <, aus <= wird >.": "<strong>Întrebarea inversă:</strong> întoarce întrebarea și schimbă răspunsurile între ele. Rezultatul rămâne același. <code class=\"long\">=WENN(A5&gt;=12;\"Ja\";\"Nein\")</code> e la fel ca <code class=\"long\">=WENN(A5&lt;12;\"Nein\";\"Ja\")</code>. <code>&gt;=</code> devine <code>&lt;</code>, <code>&lt;=</code> devine <code>&gt;</code>.",
  "Gegenfrage: Frage umdrehen und Antworten tauschen – das Ergebnis bleibt gleich. Aus <= wird >.": "Întrebarea inversă: întoarce întrebarea și schimbă răspunsurile – rezultatul rămâne același. <code>&lt;=</code> devine <code>&gt;</code>.",
- "★ Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">★ Expedition</span> Construiesc un quiz care se corectează singur.",
  "Üben Wer fährt Bus?": "<span class=\"badge ueben\">Üben</span> Cine merge cu autobuzul?",
  "Wer höchstens 5 km weit weg wohnt, fährt Fahrrad. Alle anderen fahren Bus. Du schreibst zwei Fragen. Die zweite ist die Gegenfrage zur ersten.": "Cine locuiește la cel mult 5 km merge cu bicicleta. Toți ceilalți merg cu autobuzul. Scrii două întrebări. A doua e întrebarea inversă a primei.",
  "Probe: In jeder Zeile steht genau einmal Ja. Schau besonders auf die Kinder mit genau 5 km.": "<strong>Proba:</strong> în fiecare rând e exact o dată Ja. Uită-te mai ales la copiii care stau la exact 5 km.",
@@ -137,5 +128,5 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>egal · diferit</strong> – gleich: <code>=</code> · ungleich (nu e egal): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>punct și virgulă</strong> – semnul <code>;</code>. Desparte cele trei părți ale lui WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>a afișa</strong> – a arăta. WENN afișează un răspuns.",
- "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "Până acum Calc calculează la fel pe fiecare rând. Cu <code>WENN</code> (IF), Calc pune o întrebare și arată altceva în funcție de răspuns, de exemplu „bestanden” (promovat) sau „nicht bestanden” (nepromovat). Așa tabelul tău devine deștept. Înveți <code>WENN</code> în pași mici."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Cu <code>WENN</code> (IF), Calc pune o întrebare. Răspunsul e da sau nu. În funcție de răspuns, Calc arată altceva, de exemplu „bestanden” (promovat) sau „nicht bestanden” (nepromovat). Înveți <code>WENN</code> în pași mici."
 }

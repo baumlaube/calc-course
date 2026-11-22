@@ -2,9 +2,6 @@
  "Brutto und Netto · Calc-Kurs Zusatzmodul": "Bruto y neto · Curso de Calc módulo extra",
  "Brutto und Netto – was bleibt vom Ausbildungsgehalt?": "Brutto und Netto (bruto y neto) – ¿qué queda del sueldo de aprendiz?",
  "Vorwissen: Prozentrechnung, $-Anker": "Conocimientos previos: porcentajes, ancla $",
- "Ich kann erklären, was Brutto und Netto bedeutet.": "Sé explicar qué significan Brutto (bruto) y Netto (neto).",
- "Ich kann die Abzüge mit Prozentsätzen und $ berechnen.": "Calculo las deducciones con porcentajes y <code>$</code>.",
- "Ich kann ausrechnen, wie viel am Monatsende übrig bleibt.": "Calculo cuánto queda a final de mes.",
  "💡 Im Ausbildungsvertrag steht: 1.050 € im Monat.": "💡 En el contrato de aprendizaje pone: <strong>1.050 € al mes</strong>.",
  "Überleg: Wie viel kommt ungefähr aufs Konto?": "<strong>Piensa:</strong> ¿cuánto llega más o menos a la cuenta del banco?",
  "etwa 830 €": "unos 830 €",
@@ -46,5 +43,5 @@
  "Gesamtsatz in B2 = 21 %. Welche Formel ergibt direkt das Netto von B6?": "Tipo total en B2 = 21 %. ¿Qué fórmula da directamente el neto de B6?",
  "100 % − 21 % = 79 % bleiben – wie beim Rabatt.": "100 % − 21 % = queda el 79 %, como un descuento.",
  "Brutto 1.000 €, Abzüge 21 %. Wie viel Netto?": "Bruto 1.000 €, deducciones 21 %. ¿Cuánto es el neto?",
- "Im Ausbildungsvertrag steht ein Gehalt, auf dem Konto kommt weniger an. Du lernst, was Brutto und Netto bedeutet und welche Abzüge es gibt. Dann rechnest du aus, was dir am Monatsende wirklich bleibt.": "En el contrato de formación pone un sueldo, pero a la cuenta llega menos. Aprendes qué significan Brutto y Netto (bruto y neto) y qué descuentos hay. Luego calculas lo que de verdad te queda a final de mes."
+ "Im Ausbildungsvertrag steht ein Lohn. Auf dem Konto kommt aber weniger an. Du lernst, was Brutto und Netto heißt und was abgezogen wird. Dann rechnest du aus, wie viel Geld dir wirklich bleibt.": "En el contrato de formación pone un sueldo. Pero a la cuenta llega menos. Aprendes qué significan Brutto y Netto (bruto y neto) y qué se descuenta. Luego calculas cuánto dinero te queda de verdad."
 }

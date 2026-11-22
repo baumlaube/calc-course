@@ -1,9 +1,6 @@
 {
  "Sortieren & Filtern · Calc-Kurs Zusatzmodul": "Sıralama ve filtreleme · Calc kursu ek modül",
  "Sortieren & Filtern – große Tabellen bändigen": "Sortieren &amp; Filtern (sırala ve filtrele) – büyük tabloları evcilleştir",
- "Ich kann eine Tabelle auf- oder absteigend sortieren.": "Bir tabloyu artan veya azalan sırada sıralayabilirim.",
- "Ich kann mit dem AutoFilter nur bestimmte Zeilen anzeigen.": "AutoFilter ile sadece belirli satırları gösterebilirim.",
- "Ich weiß, warum man nie nur eine Spalte sortiert.": "Neden asla tek bir sütunu sıralamadığını biliyorum.",
  "💡 Tom will die Besten oben haben. Er markiert nur die Spalte C und sortiert sie absteigend.": "💡 Tom en iyileri en üstte istiyor. <strong>Sadece C sütununu</strong> seçiyor ve azalan sıralıyor.",
  "Überleg: Was passiert?": "<strong>Düşün:</strong> Ne olur?",
  "Alles richtig – die Besten stehen oben.": "Her şey yolunda – en iyiler en üstte.",
@@ -64,5 +61,5 @@
  "alphabetisch": "alfabetik",
  "größte oben": "en büyük üstte",
  "kleinste oben": "en küçük üstte",
- "In einer Tabelle mit Hunderten Zeilen sucht niemand von Hand. Du sortierst sie, zum Beispiel nach Punkten, oder du filterst nur die Zeilen, die du brauchst. Das kennst du aus jedem Online-Shop: sortieren nach Preis, filtern nach Größe.": "Yüzlerce satırlık bir tabloda kimse elle aramaz. Tabloyu örneğin puana göre sıralarsın ya da sadece ihtiyacın olan satırları filtrelersin. Bunu her online mağazadan bilirsin: fiyata göre sırala, bedene göre filtrele."
+ "Eine Tabelle hat hundert Zeilen. Du suchst nicht jede Zeile ab. Du sortierst die Tabelle, zum Beispiel nach Punkten. Oder du filterst: Dann siehst du nur die Zeilen, die du brauchst. Das kennst du aus Online-Shops: sortieren nach Preis, filtern nach Größe.": "Bir tabloda yüz satır var. Her satıra tek tek bakmazsın. Tabloyu sıralarsın, örneğin puana göre. Ya da filtrelersin: o zaman sadece ihtiyacın olan satırları görürsün. Bunu online mağazalardan bilirsin: fiyata göre sırala, bedene göre filtrele."
 }

@@ -2,9 +2,6 @@
  "Brutto und Netto · Calc-Kurs Zusatzmodul": "الإجمالي والصافي · دورة Calc وحدة إضافية",
  "Brutto und Netto – was bleibt vom Ausbildungsgehalt?": "Brutto und Netto (الإجمالي والصافي) – ماذا يبقى من راتب التدريب المهني؟",
  "Vorwissen: Prozentrechnung, $-Anker": "المعرفة المسبقة: النسب المئوية، المرساة $",
- "Ich kann erklären, was Brutto und Netto bedeutet.": "أستطيع أن أشرح معنى Brutto (الإجمالي) وNetto (الصافي).",
- "Ich kann die Abzüge mit Prozentsätzen und $ berechnen.": "أحسب الاقتطاعات بالنسب المئوية و<code>$</code>.",
- "Ich kann ausrechnen, wie viel am Monatsende übrig bleibt.": "أحسب كم يبقى في نهاية الشهر.",
  "💡 Im Ausbildungsvertrag steht: 1.050 € im Monat.": "💡 في عقد التدريب المهني مكتوب: <strong>1050 € شهريًا</strong>.",
  "Überleg: Wie viel kommt ungefähr aufs Konto?": "<strong>فكّر:</strong> كم يصل تقريبًا إلى الحساب البنكي؟",
  "etwa 830 €": "حوالي 830 €",
@@ -46,5 +43,5 @@
  "Gesamtsatz in B2 = 21 %. Welche Formel ergibt direkt das Netto von B6?": "النسبة الكلية في B2 = 21 %. أيّ صيغة تعطي الصافي من B6 مباشرة؟",
  "100 % − 21 % = 79 % bleiben – wie beim Rabatt.": "100 % − 21 % = يبقى 79 % – مثل الخصم.",
  "Brutto 1.000 €, Abzüge 21 %. Wie viel Netto?": "الإجمالي 1000 €، الاقتطاعات 21 %. كم الصافي؟",
- "Im Ausbildungsvertrag steht ein Gehalt, auf dem Konto kommt weniger an. Du lernst, was Brutto und Netto bedeutet und welche Abzüge es gibt. Dann rechnest du aus, was dir am Monatsende wirklich bleibt.": "في عقد التدريب المهني يُكتب راتب، لكن يصل إلى الحساب أقل منه. تتعلم معنى Brutto وNetto (الإجمالي والصافي) وما هي الاقتطاعات. ثم تحسب ما يبقى لك فعلًا في آخر الشهر."
+ "Im Ausbildungsvertrag steht ein Lohn. Auf dem Konto kommt aber weniger an. Du lernst, was Brutto und Netto heißt und was abgezogen wird. Dann rechnest du aus, wie viel Geld dir wirklich bleibt.": "في عقد التدريب المهني يُكتب أجر. لكن يصل إلى الحساب أقل منه. تتعلم معنى Brutto وNetto (الإجمالي والصافي) وما الذي يُقتطع. ثم تحسب كم يبقى لك من المال فعلًا."
 }

@@ -2,9 +2,6 @@
  "Text-Tricks · Calc-Kurs Zusatzmodul": "Trucos de texto · Curso de Calc módulo extra",
  "Text-Tricks – Namen und E-Mail-Adressen bauen": "Trucos de texto – construir nombres y direcciones de correo",
  "Vorwissen: Formeln, WENN": "Conocimientos previos: fórmulas, WENN",
- "Ich klebe Texte mit & zusammen.": "Uno textos con <code>&amp;</code>.",
- "Ich zerlege und prüfe Texte mit LINKS, KLEIN und LÄNGE.": "Desmonto y compruebo textos con LINKS (IZQUIERDA), KLEIN (MINUSC) y LÄNGE (LARGO).",
- "Ich baue automatisch Benutzernamen und E-Mail-Adressen.": "Construyo automáticamente nombres de usuario y direcciones de correo.",
  "💡 In C2 kommt: =A2&B2": "💡 C2 recibe: <code>=A2&amp;B2</code>",
  "Lea Müller": "Lea Müller",
  "LeaMüller": "LeaMüller",
@@ -46,5 +43,5 @@
  "Von rechts nach links": "De derecha a izquierda",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "Primero LINKS, luego &amp;, al final KLEIN.",
  "Gar nicht": "De ninguna manera",
- "Für 25 Schüler Benutzernamen von Hand tippen? Das dauert und bringt Tippfehler. Mit & und Funktionen wie LINKS und KLEIN baut Calc solche Texte selbst aus Vor- und Nachnamen. So legen Schulen und Firmen Zugänge für viele Personen an.": "¿Escribir a mano los nombres de usuario de 25 alumnos? Lleva tiempo y da erratas. Con <code>&amp;</code> y funciones como <code>LINKS</code> (IZQUIERDA) y <code>KLEIN</code> (MINUSC), Calc construye él solo esos textos a partir de nombres y apellidos. Así crean los colegios y las empresas cuentas para muchas personas."
+ "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "¿Escribir a mano los nombres de usuario de 25 alumnos? Lleva mucho tiempo y es fácil equivocarse. Calc construye él solo esos nombres a partir del nombre y el apellido, con <code>&amp;</code>, <code>LINKS</code> (IZQUIERDA) y <code>KLEIN</code> (MINUSC). Así lo hacen también colegios y empresas."
 }

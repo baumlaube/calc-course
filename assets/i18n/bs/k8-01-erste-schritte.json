@@ -3,9 +3,6 @@
  "Erste Schritte – Zellen, Eingeben, Formatieren": "Prvi koraci – ćelije, upisivanje, formatiranje",
  "Klasse 8 · Baustein 1": "8. razred · Cjelina 1",
  "Vorwissen: keins": "Predznanje: nema",
- "Ich kann jede Zelle mit ihrer Adresse finden und benennen.": "Mogu pronaći i imenovati svaku ćeliju po njenoj adresi.",
- "Ich kann Text und Zahlen richtig eingeben.": "Mogu pravilno upisati tekst i brojeve.",
- "Ich kann eine Tabelle übersichtlich formatieren.": "Mogu tabelu pregledno formatirati.",
  "1 Zellen-Jagd 5 Min": "<span class=\"step-no\">1</span> Lov na ćelije <span class=\"chip\">5 min</span>",
  "Eine Tabelle ist wie das Spielfeld bei „Schiffe versenken“: Jedes Kästchen hat eine Adresse. Findest du sie?": "Tabela je kao polje za igru „Potapanje brodova“: svaki kvadratić ima adresu. Možeš li je naći?",
  "Klick auf:": "Klikni na:",
@@ -46,12 +43,6 @@
  "Zahlen ohne € und mit Komma tippen: 1,49. Das € kommt durch Formatieren.": "Brojeve piši <strong>bez €</strong> i sa <strong>zarezom</strong>: <code>1,49</code>. € dolazi formatiranjem.",
  "Eine Angabe pro Zelle. Einheiten wie m oder Stück gehören in die Überschrift: Höhe in m.": "<strong>Jedan podatak po ćeliji.</strong> Jedinice kao m ili Stück (komad) idu u naslov: <code>Höhe in m</code>.",
  "Formatieren: Rechtsklick → Zellen formatieren … Dort stellst du auch die Nachkommastellen ein. Die Anzeige wird gerundet, gespeichert bleibt der genaue Wert.": "<strong>Formatiranje:</strong> desni klik → Zellen formatieren … (formatiraj ćelije). Tamo podešavaš i <strong>Nachkommastellen</strong> (decimalna mjesta). Prikaz se zaokružuje, a sačuvana ostaje tačna vrijednost.",
- "Ich finde jede Zelle über ihre Adresse, z. B. C4.": "Pronalazim svaku ćeliju po njenoj adresi, npr. <code>C4</code>.",
- "Ich kann Text und Zahlen eingeben und korrigieren.": "Mogu upisati i ispraviti tekst i brojeve.",
- "Ich erkenne, ob Calc etwas als Zahl oder als Text gespeichert hat.": "Prepoznajem je li Calc nešto sačuvao kao broj ili kao tekst.",
- "Ich schreibe Einheiten in die Überschrift, nicht in die Zelle.": "Jedinice pišem u naslov, ne u ćeliju.",
- "Ich kann Schrift, Farbe, Währung, Spaltenbreite und Rahmen einstellen.": "Mogu podesiti font, boju, valutu, širinu kolone i okvir.",
- "★ Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">★ Expedition</span> Skačem kroz tabele pomoću Namenfeld (polje za ime) i <kbd>Strg</kbd>+strelica.",
  "Üben Das Hunderter-Puzzle": "<span class=\"badge ueben\">Üben</span> Slagalica sa stotinom",
  "Auf der Hunderter-Tafel fehlen fünf Teile. Klick ein blaues Teil an, dann die Lücke, in die es passt.": "Na tabli sa brojevima do 100 nedostaje pet dijelova. Klikni na plavi dio, pa na rupu u koju odgovara.",
  "In Calc schiebst du die Teile mit der Maus: Teil markieren, auf den Rand zeigen, bis das Pfeilkreuz ✥ kommt, dann ziehen. Probier es in Calc aus – mit der Datei hier drunter.": "U Calcu dijelove pomjeraš mišem: označi dio, pokaži na <strong>rub</strong> dok se ne pojavi krstić sa strelicama ✥, onda povuci. Probaj to u Calcu – s datotekom ispod.",
@@ -128,5 +119,6 @@
  "etwas in eine Zelle tippen und Enter drücken": "<strong>unijeti</strong> – ukucati nešto u ćeliju i pritisnuti Enter",
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>formatirati</strong> – promijeniti izgled, npr. € ili boju. Broj ostaje isti.",
  "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>decimalno mjesto</strong> – cifra iza zareza. 1,49 ima dvije.",
- "Leertaste": "Leertaste (razmaknica)"
+ "Leertaste": "Leertaste (razmaknica)",
+ "Eine Tabelle besteht aus vielen Kästchen. Jedes Kästchen heißt Zelle und hat eine Adresse, zum Beispiel C4. Hier lernst du, Zellen zu finden und Text und Zahlen richtig einzutippen. Das brauchst du für alles, was danach kommt. Tabellen wie diese gibt es in fast jedem Beruf.": "Tabela se sastoji od mnogo kvadratića. Svaki kvadratić se zove Zelle (ćelija) i ima adresu, na primjer <code>C4</code>. Ovdje učiš pronaći ćelije i pravilno upisati tekst i brojeve. To ti treba za sve što dolazi poslije. Ovakve tabele postoje u skoro svakom zanimanju."
 }

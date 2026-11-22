@@ -2,9 +2,6 @@
  "Brutto und Netto · Calc-Kurs Zusatzmodul": "Bruto i neto · Calc kurs dodatni modul",
  "Brutto und Netto – was bleibt vom Ausbildungsgehalt?": "Brutto und Netto (bruto i neto) – šta ostane od plate šegrta?",
  "Vorwissen: Prozentrechnung, $-Anker": "Predznanje: procenti, $ sidro",
- "Ich kann erklären, was Brutto und Netto bedeutet.": "Mogu objasniti šta znače bruto i neto.",
- "Ich kann die Abzüge mit Prozentsätzen und $ berechnen.": "Mogu izračunati odbitke sa procentima i <code>$</code>.",
- "Ich kann ausrechnen, wie viel am Monatsende übrig bleibt.": "Mogu izračunati koliko ostane na kraju mjeseca.",
  "💡 Im Ausbildungsvertrag steht: 1.050 € im Monat.": "💡 U ugovoru o obuci stoji: <strong>1.050 € mjesečno</strong>.",
  "Überleg: Wie viel kommt ungefähr aufs Konto?": "<strong>Razmisli:</strong> Koliko otprilike dođe na račun?",
  "etwa 830 €": "oko 830 €",
@@ -45,5 +42,6 @@
  "9,3 % ist schon 0,093 – kein /100. Das $ hält das Brutto beim Ausfüllen fest.": "9,3 % je već 0,093 – bez /100. $ drži bruto fiksnim pri popunjavanju.",
  "Gesamtsatz in B2 = 21 %. Welche Formel ergibt direkt das Netto von B6?": "Ukupna stopa u B2 = 21 %. Koja formula direktno daje neto od B6?",
  "100 % − 21 % = 79 % bleiben – wie beim Rabatt.": "100 % − 21 % = ostaje 79 % – kao kod popusta.",
- "Brutto 1.000 €, Abzüge 21 %. Wie viel Netto?": "Bruto 1.000 €, odbici 21 %. Koliko je neto?"
+ "Brutto 1.000 €, Abzüge 21 %. Wie viel Netto?": "Bruto 1.000 €, odbici 21 %. Koliko je neto?",
+ "Im Ausbildungsvertrag steht ein Lohn. Auf dem Konto kommt aber weniger an. Du lernst, was Brutto und Netto heißt und was abgezogen wird. Dann rechnest du aus, wie viel Geld dir wirklich bleibt.": "U ugovoru o zanatu piše plata. Ali na račun stiže manje. Učiš šta znače Brutto i Netto (bruto i neto) i šta se odbija. Onda računaš koliko ti novca zaista ostaje."
 }

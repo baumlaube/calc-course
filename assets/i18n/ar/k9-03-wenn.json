@@ -3,9 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (إذا 1) – Calc يطرح سؤالًا",
  "Klasse 9 · Baustein 3": "الصف 9 · الوحدة 3",
  "Teil 1 von 3 zu WENN": "الجزء 1 من 3 عن WENN (إذا)",
- "Ich kann eine WENN-Formel als Ja/Nein-Frage lesen.": "أقرأ صيغة WENN كسؤال جوابه نعم أو لا.",
- "Ich kann =WENN(Frage;\"Ja\";\"Nein\") selbst schreiben.": "أكتب بنفسي <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>.",
- "Ich kann statt Ja und Nein eigene Antworten ausgeben.": "أعرض أجوبتي الخاصة بدل Ja وNein.",
  "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 تحصل على هذه الصيغة: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
  "Überleg: Was zeigt B5?": "<strong>فكّر:</strong> ماذا تُظهر B5؟",
  "Nein": "Nein (لا)",
@@ -37,11 +34,6 @@
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "بدل <code>\"Ja\"</code> و<code>\"Nein\"</code> يمكنك استخدام أي نص، مثلًا <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> رحلة استكشاف: صانع المسابقات <span class=\"badge expedition\">اختياري</span>",
  "Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll richtig stehen, wenn in B2 Paris steht, sonst falsch.": "التحقّق في ملفات التمارين هو أيضًا مجرد صيغة WENN! اصنع واحدة بنفسك: C2 يجب أن تُظهر <strong>richtig</strong> (صحيح) إذا كان في B2 كلمة Paris، وإلا <strong>falsch</strong> (خطأ).",
- "Ich lese eine WENN-Formel als Frage.": "أقرأ صيغة WENN كسؤال.",
- "Ich schreibe =WENN(Frage;\"Ja\";\"Nein\") ohne Vorlage.": "أكتب <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code> بدون نموذج.",
- "Ich kenne die Vergleichszeichen, besonders >= und <>.": "أعرف علامات المقارنة، خاصة <code>&gt;=</code> و<code>&lt;&gt;</code>.",
- "Plus Ich finde zu fertigen Antworten die passende Frage.": "<span class=\"badge plus\">Plus</span> أجد السؤال المناسب لأجوبة معطاة.",
- "Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span> أصنع مسابقة تصحّح نفسها.",
  "← 2 · Prozentrechnung": "← 2 · النسب المئوية",
  "4 · WENN 2 →": "4 · WENN 2 (إذا 2) →",
  "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN تطرح سؤالًا: <strong>هل في A5 كلمة „Bus“؟</strong> نعم! لذلك تُظهر B5 <strong>Ja</strong>.",
@@ -105,7 +97,6 @@
  "nicht gleich": "لا يساوي",
  "Gegenfrage: Dreh die Frage um und tausch die Antworten. Das Ergebnis bleibt gleich. =WENN(A5>=12;\"Ja\";\"Nein\") ist dasselbe wie =WENN(A5<12;\"Nein\";\"Ja\"). Aus >= wird <, aus <= wird >.": "<strong>السؤال المعاكس:</strong> اقلب السؤال وبدّل الإجابتين. النتيجة تبقى نفسها. <code class=\"long\">=WENN(A5&gt;=12;\"Ja\";\"Nein\")</code> هي نفسها <code class=\"long\">=WENN(A5&lt;12;\"Nein\";\"Ja\")</code>. <code>&gt;=</code> تصبح <code>&lt;</code>، و <code>&lt;=</code> تصبح <code>&gt;</code>.",
  "Gegenfrage: Frage umdrehen und Antworten tauschen – das Ergebnis bleibt gleich. Aus <= wird >.": "السؤال المعاكس: اقلب السؤال وبدّل الإجابتين – النتيجة تبقى نفسها. <code>&lt;=</code> تصبح <code>&gt;</code>.",
- "★ Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">★ Expedition</span> أبني مسابقة تصحّح نفسها.",
  "Üben Wer fährt Bus?": "<span class=\"badge ueben\">Üben</span> من يركب الحافلة؟",
  "Wer höchstens 5 km weit weg wohnt, fährt Fahrrad. Alle anderen fahren Bus. Du schreibst zwei Fragen. Die zweite ist die Gegenfrage zur ersten.": "من يسكن على بعد 5 كم أو أقل يركب الدراجة. الباقون يركبون الحافلة. تكتب سؤالين. الثاني هو السؤال المعاكس للأول.",
  "Probe: In jeder Zeile steht genau einmal Ja. Schau besonders auf die Kinder mit genau 5 km.": "<strong>التحقّق:</strong> في كل صف توجد Ja مرة واحدة بالضبط. انظر خاصة إلى الأطفال الذين يسكنون على بعد 5 كم بالضبط.",
@@ -137,5 +128,5 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>يساوي · لا يساوي</strong> – gleich: <code>=</code> · ungleich (لا يساوي): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>فاصلة منقوطة</strong> – العلامة <code>;</code>. تفصل الأجزاء الثلاثة في WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>يُخرج، يعرض</strong> – يُظهر. WENN تعرض جوابًا.",
- "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "حتى الآن يحسب Calc بالطريقة نفسها في كل صف. مع <code>WENN</code> (IF) يطرح Calc سؤالًا ويُظهر شيئًا مختلفًا حسب الجواب، مثل «bestanden» (ناجح) أو «nicht bestanden» (راسب). هكذا يصبح جدولك ذكيًا. تتعلم <code>WENN</code> بخطوات صغيرة."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "مع <code>WENN</code> (IF) يطرح Calc سؤالًا. الجواب نعم أو لا. حسب الجواب يُظهر Calc شيئًا مختلفًا، مثل «bestanden» (ناجح) أو «nicht bestanden» (راسب). تتعلم <code>WENN</code> بخطوات صغيرة."
 }

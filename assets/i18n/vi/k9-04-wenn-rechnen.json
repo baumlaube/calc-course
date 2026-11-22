@@ -3,9 +3,6 @@
  "WENN 2 – Dann und Sonst rechnen": "WENN 2 (NẾU 2) – tính toán trong Dann và Sonst",
  "Klasse 9 · Baustein 4": "Lớp 9 · Bài 4",
  "Teil 2 von 3 zu WENN": "Phần 2 trên 3 về WENN (NẾU)",
- "Ich kann WENN statt Ja und Nein eine Zahl ausgeben lassen.": "Mình cho WENN ra được một con số thay vì Ja và Nein.",
- "Ich kann im Dann- und Sonst-Teil rechnen.": "Mình tính toán được trong phần Dann (thì) và phần Sonst (nếu không).",
- "Ich weiß, wann Anführungszeichen hingehören und wann nicht.": "Mình biết khi nào cần dấu ngoặc kép và khi nào không.",
  "das macht Calc, wenn die Antwort Ja ist": "<strong>phần „thì“</strong> – Calc làm điều này khi câu trả lời là có",
  "das macht Calc, wenn die Antwort Nein ist": "<strong>phần „nếu không“</strong> – Calc làm điều này khi câu trả lời là không",
  "in allen anderen Fällen": "<strong>nếu không</strong> – trong tất cả các trường hợp khác",
@@ -29,11 +26,6 @@
  "Rechnung als Antwort: =WENN(A6<29;A6+4,95;A6)": "Phép tính làm câu trả lời: <code class=\"long\">=WENN(A6&lt;29;A6+4,95;A6)</code>",
  "Text in \"Anführungszeichen\" – Zahlen und Rechnungen ohne!": "Chữ trong <code>\"Anführungszeichen\"</code> (dấu ngoặc kép) – số và phép tính thì không!",
  "Lies jede Formel als Satz: Wenn …, dann …, sonst …": "Đọc mỗi công thức như một câu: Nếu …, thì …, nếu không thì …",
- "Ich lasse WENN eine Zahl ausgeben, z. B. Versandkosten.": "Mình cho WENN ra một con số, ví dụ phí gửi hàng.",
- "Ich rechne im Dann-Teil, z. B. A6+4,95.": "Mình tính toán trong phần Dann, ví dụ <code>A6+4,95</code>.",
- "Ich setze Anführungszeichen nur um Text.": "Mình chỉ đặt dấu ngoặc kép quanh chữ.",
- "Plus Ich vergleiche Text und gebe eine Zahl aus.": "<span class=\"badge plus\">Plus</span> Mình so sánh chữ và cho ra một con số.",
- "★ Expedition Ich verbinde WENN mit Prozentrechnung.": "<span class=\"badge expedition\">★ Expedition</span> Mình kết hợp WENN với tính phần trăm.",
  "Üben Zinsen bei der Bank": "<span class=\"badge ueben\">Üben</span> Tiền lãi ở ngân hàng",
  "Wer mehr als 10.000 € auf dem Konto hat, bekommt 2,5 % Zinsen, alle anderen 1,75 %. WENN liefert den Zinssatz. Mit ihm rechnest du die Zinsen und das neue Guthaben aus.": "Ai có hơn 10.000 € trong tài khoản thì được lãi 2,5 %, tất cả những người khác được 1,75 %. WENN cho ra lãi suất. Với nó, bạn tính tiền lãi và số dư mới.",
  "=WENN(B5>10000;2,5%;1,75%)": "<code class=\"long\">=WENN(B5&gt;10000;2,5%;1,75%)</code>",
@@ -98,5 +90,5 @@
  "=WENN(A6<29;A6+4,95;A6)": "=WENN(A6<29;A6+4,95;A6)",
  "Was ist an =WENN(A5>=29;\"0\";\"4,95\") ungünstig?": "<code>=WENN(A5&gt;=29;\"0\";\"4,95\")</code> có điểm gì không tốt?",
  "Es fehlt ein $": "Thiếu một dấu $",
- "WENN kann nicht nur Ja oder Nein sagen, sondern auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €, alle anderen 10 €. Solche Regeln gibt es überall, bei Eintrittspreisen, Versandkosten und Rabatten.": "<code>WENN</code> không chỉ nói có hay không, mà còn biết tính toán. Ví dụ: ai dưới 18 tuổi trả 8 € ở rạp chiếu phim, tất cả những người khác trả 10 €. Những quy tắc như vậy có ở khắp nơi: giá vé, phí gửi hàng và giảm giá."
+ "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> cũng biết tính toán. Ví dụ: ai dưới 18 tuổi trả 8 € ở rạp chiếu phim. Tất cả những người khác trả 10 €. Những quy tắc như vậy rất hay gặp, ví dụ ở vé vào cửa, phí gửi hàng và giảm giá."
 }

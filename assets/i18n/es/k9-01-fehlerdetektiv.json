@@ -2,9 +2,6 @@
  "Fehlerdetektiv · Calc-Kurs Klasse 9": "Detective de errores · Curso de Calc 9.º curso",
  "Fehlerdetektiv – Fehler finden und reparieren": "Detective de errores – encontrar y corregir errores",
  "Klasse 9 · Baustein 1": "9.º curso · Unidad 1",
- "Ich kann Fehlermeldungen wie #WERT!, #DIV/0! und #NAME? deuten und beheben.": "Entiendo y corrijo mensajes de error como <code>#WERT!</code> (#¡VALOR!), <code>#DIV/0!</code> y <code>#NAME?</code>.",
- "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "Encuentro errores silenciosos que Calc no muestra.",
- "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "Reparo fórmulas con todo lo que aprendí en 8.º.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>Ya lo conoces:</strong> <code>=C5/B5</code> divide los puntos entre el número de participantes. En D5 funciona. Pero D6 de repente muestra <code>#DIV/0!</code>.",
  "Überleg: Warum?": "<strong>Piensa:</strong> ¿por qué?",
  "Die Punktzahl ist zu hoch.": "La puntuación es demasiado alta.",
@@ -47,11 +44,6 @@
  "In Englisch gibt es noch keine Noten, darum zeigt der Durchschnitt #DIV/0!. Das sieht im Zeugnis nicht gut aus.": "Todavía no hay notas de inglés, por eso la media muestra <code>#DIV/0!</code>. En un boletín de notas eso queda mal.",
  "=WENNFEHLER(Formel; \"Ersatz\")Klappt die Formel, kommt ihr Ergebnis. Sonst kommt der Ersatz.": "<code>=WENNFEHLER(Formel; \"Ersatz\")</code><br/>Si la fórmula funciona, obtienes su resultado. Si no, el reemplazo.",
  "Ändere E3 so, dass statt des Fehlers keine Noten erscheint. Text steht in Anführungszeichen.": "Cambia E3 para que aparezca <code>keine Noten</code> (sin notas) en vez del error. El texto va entre comillas.",
- "Ich weiß, was #WERT!, #DIV/0! und #NAME? bedeuten.": "Sé lo que significan <code>#WERT!</code>, <code>#DIV/0!</code> y <code>#NAME?</code>.",
- "Ich kann laute Fehler reparieren.": "Sé reparar errores ruidosos.",
- "Ich finde stille Fehler mit den Detektiv-Tricks.": "Encuentro errores silenciosos con los trucos de detective.",
- "Plus Ich kann Fehler absichtlich erzeugen und erklären.": "<span class=\"badge plus\">Plus</span> Sé provocar errores a propósito y explicarlos.",
- "Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">Expedition</span> Sé capturar errores con WENNFEHLER (SI.ERROR).",
  "← Klasse 8 · Projekt": "← 8.º curso · Proyecto",
  "2 · Prozentrechnung →": "2 · Porcentajes →",
  "Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.": "Haz clic en D6 y lo verás: la fórmula usa B6, y B6 está vacía. Una celda vacía cuenta como 0, y no se puede dividir entre 0.",
@@ -92,7 +84,6 @@
  "Aus still wird laut: Wandert ein Bezug ohne $ auf eine leere Zelle oder auf Text, zeigt Calc weiter unten #DIV/0! oder #WERT!. Der Fehler steckt dann oben in der ersten Formel.": "<strong>De silencioso a ruidoso:</strong> si una referencia sin <code>$</code> se desplaza a una celda vacía o a texto, Calc muestra más abajo <code>#DIV/0!</code> o <code>#WERT!</code>. El error está entonces arriba, en la primera fórmula.",
  "Stille Fehler zeigt Calc nicht an: getippte Zahlen, fehlendes $, Bereich zu kurz oder zu groß.": "Los <strong>errores silenciosos</strong> Calc no los muestra: números escritos a mano, <code>$</code> que falta, rango demasiado corto o demasiado grande.",
  "MAX, MIN und MITTELWERT brauchen einen Bereich mit Doppelpunkt: =MAX(G5:G10).": "<code>MAX</code>, <code>MIN</code> y <code>MITTELWERT</code> necesitan un rango con dos puntos: <code>=MAX(G5:G10)</code>.",
- "★ Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">★ Expedition</span> Sé atrapar errores con WENNFEHLER (SI.ERROR).",
  "Üben Aufwärmen: Waffelverkauf": "<span class=\"badge ueben\">Üben</span> Calentamiento: venta de gofres",
  "Stückzahl und Umsatz für sechs Waffelsorten, dazu MAX, MIN und MITTELWERT. Die Kontrolle merkt, wenn der Preis mit in der Summe steckt.": "Cantidad y recaudación de seis tipos de gofres, más MAX, MIN y MITTELWERT. La comprobación se da cuenta si el precio está metido en la suma.",
  "ODS Üben: Waffelverkaufk9-01-fehlerdetektiv-mehr-waffelverkauf.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Venta de gofres</strong><small>k9-01-fehlerdetektiv-mehr-waffelverkauf.ods</small></span>",
@@ -135,5 +126,5 @@
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>estrecho</strong> – no ancho. <code>###</code> significa: la columna es demasiado estrecha.",
  "verstehen, was etwas bedeutet": "<strong>interpretar</strong> – entender lo que significa algo",
  "einen Fehler wieder richtig machen": "<strong>arreglar</strong> – hacer que un error vuelva a estar bien",
- "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "En las tablas hay errores, incluso de profesionales. Algunos Calc los muestra en voz alta, por ejemplo <code>#DIV/0!</code>. Otros son silenciosos: el número parece correcto pero aun así está mal. Aquí aprendes a encontrar y arreglar los dos. De paso repasas todo lo de 8.º."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "En las tablas hay errores. Algunos errores Calc los muestra, por ejemplo <code>#DIV/0!</code>. Otros Calc no los muestra: el número parece correcto, pero está mal. Aquí aprendes a encontrar y arreglar los dos tipos. De paso repasas 8.º."
 }

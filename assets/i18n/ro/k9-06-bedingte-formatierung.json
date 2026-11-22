@@ -3,9 +3,6 @@
  "Bedingte Formatierung 1 – Calc färbt selbst": "Bedingte Formatierung 1 (formatare condiționată) – Calc colorează singur",
  "Klasse 9 · Baustein 6": "Clasa a 9-a · Unitatea 6",
  "Vorwissen: WENN": "Ai nevoie de: WENN (DACĂ)",
- "Ich kann Zellen mit Format → Bedingt → Bedingung … automatisch färben.": "Pot colora celule automat cu <strong>Format → Bedingt → Bedingung …</strong> (format → condiționat → condiție).",
- "Ich kann Bedingungen wie größer als, kleiner als und zwischen benutzen.": "Pot folosi condiții ca mai mare decât, mai mic decât și între.",
- "Ich kann mit Farben Fragen zu großen Tabellen schnell beantworten.": "Pot răspunde repede cu culori la întrebări despre tabele mari.",
  "💡 Lea hat die Hitzetage über 30 °C mit dem Farbeimer rot gefärbt. Dann merkt sie: Am Mittwoch waren es nur 27 °C. Sie tippt in B4 die 27 ein.": "💡 Lea a colorat cu <strong>găleata de vopsea</strong> în roșu zilele calde de peste 30 °C. Apoi observă: miercuri au fost doar 27 °C. Scrie 27 în B4.",
  "Überleg: Was passiert mit der roten Farbe in B4?": "<strong>Gândește-te:</strong> Ce se întâmplă cu culoarea roșie din B4?",
  "Sie verschwindet von selbst.": "Dispare singură.",
@@ -38,11 +35,6 @@
  "Bea": "Bea",
  "Emre": "Emre",
  "Hakan": "Hakan",
- "Ich finde Format → Bedingt → Bedingung …": "Găsesc <strong>Format → Bedingt → Bedingung …</strong>",
- "Ich lege eine Regel mit größer als oder kleiner als an.": "Creez o regulă cu mai mare decât sau mai mic decât.",
- "Ich weiß: Ändert sich die Zahl, ändert sich die Farbe.": "Știu: când se schimbă numărul, se schimbă culoarea.",
- "Plus Ich benutze „zwischen“ und mehrere Bedingungen.": "<span class=\"badge plus\">Plus</span> Folosesc „zwischen” (între) și mai multe condiții.",
- "Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">Expedition</span> Cunosc barele de date și scalele de culori.",
  "← 5 · WENN 3": "← 5 · WENN 3 (DACĂ 3)",
  "7 · Bedingte Formatierung 2 →": "7 · Bedingte Formatierung 2 →",
  "✨ Bedingte Formatierung: größer als 30 → Schlecht": "✨ Bedingte Formatierung: größer als 30 → Schlecht (mai mare decât 30 → rău)",
@@ -72,7 +64,6 @@
  "Bei „zwischen“ gehören beide Grenzen dazu.": "Cu „zwischen” (între) ambele limite sunt incluse.",
  "🏆 Richtig – Emre hat den längsten Balken und das kräftigste Grün. In der Übungsdatei wartet der ganze Spendenlauf.": "🏆 Corect – Emre are cea mai lungă bară și cel mai puternic verde. Tot crosul caritabil te așteaptă în fișierul de exerciții.",
  "Schau auf den längsten Balken: Emre ist 25 Runden gelaufen.": "Uită-te la cea mai lungă bară: Emre a alergat 25 de ture.",
- "★ Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">★ Expedition</span> Cunosc barele de date și scala de culori.",
  "Üben Ein Preis, viele Grenzen": "<span class=\"badge ueben\">Üben</span> Un preț, multe limite",
  "Ist 500 € viel? Für einen Schokoriegel schon, für ein Haus nicht. Jede Zelle bekommt ihre eigene Regel: rot = zu teuer, grün = verdächtig billig. Dann änderst du den Preis und schaust, was passiert.": "E mult 500 €? Pentru un baton de ciocolată da, pentru o casă nu. Fiecare celulă primește regula ei: roșu = prea scump, verde = suspect de ieftin. Apoi schimbi prețul și vezi ce se întâmplă.",
  "ODS Üben: Ein Preis, viele Grenzenk9-06-bedingte-formatierung-mehr-preis-grenzen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Un preț, multe limite</strong><small>k9-06-bedingte-formatierung-mehr-preis-grenzen.ods</small></span>",
@@ -112,5 +103,5 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>stil</strong> – un aspect gata făcut, cu nume: Gut (bun) e verde, Schlecht (rău) e roșu",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>între</strong> – de la un număr până la altul. Amândouă numerele se pun.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>mai mare decât · mai mic decât</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. 30 nu se pune.",
- "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "Într-un tabel lung treci ușor cu vederea ceva important. Cu Bedingte Formatierung (formatare condiționată), Calc colorează singur celulele, de exemplu toate zilele caniculare peste 30 °C. Dacă un număr se schimbă, culoarea se adaptează singură."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "Într-un tabel lung găsești greu numerele importante. Calc poate colora singur celulele, de exemplu toate zilele de peste 30 °C cu roșu. Dacă un număr se schimbă, se schimbă și culoarea."
 }

@@ -3,9 +3,6 @@
  "Bedingte Formatierung 1 – Calc färbt selbst": "Bedingte Formatierung 1 (التنسيق الشرطي) – Calc يلوّن بنفسه",
  "Klasse 9 · Baustein 6": "الصف 9 · الوحدة 6",
  "Vorwissen: WENN": "المعرفة المسبقة: WENN (إذا)",
- "Ich kann Zellen mit Format → Bedingt → Bedingung … automatisch färben.": "ألوّن الخلايا تلقائيًا عبر <strong>Format → Bedingt → Bedingung …</strong> (تنسيق → شرطي → شرط).",
- "Ich kann Bedingungen wie größer als, kleiner als und zwischen benutzen.": "أستخدم شروطًا مثل أكبر من وأصغر من وبين.",
- "Ich kann mit Farben Fragen zu großen Tabellen schnell beantworten.": "أجيب بسرعة عن أسئلة حول جداول كبيرة بفضل الألوان.",
  "💡 Lea hat die Hitzetage über 30 °C mit dem Farbeimer rot gefärbt. Dann merkt sie: Am Mittwoch waren es nur 27 °C. Sie tippt in B4 die 27 ein.": "💡 لوّنت ليا الأيام الحارّة فوق 30 °C بالأحمر باستخدام <strong>دلو الطلاء</strong>. ثم لاحظت: يوم الأربعاء كانت 27 °C فقط. فكتبت 27 في B4.",
  "Überleg: Was passiert mit der roten Farbe in B4?": "<strong>فكّر:</strong> ماذا يحدث للون الأحمر في B4؟",
  "Sie verschwindet von selbst.": "يختفي من تلقاء نفسه.",
@@ -38,11 +35,6 @@
  "Bea": "بيا",
  "Emre": "إمره",
  "Hakan": "هاكان",
- "Ich finde Format → Bedingt → Bedingung …": "أجد <strong>Format → Bedingt → Bedingung …</strong>",
- "Ich lege eine Regel mit größer als oder kleiner als an.": "أنشئ قاعدة بأكبر من أو أصغر من.",
- "Ich weiß: Ändert sich die Zahl, ändert sich die Farbe.": "أعرف: عندما يتغيّر الرقم، يتغيّر اللون.",
- "Plus Ich benutze „zwischen“ und mehrere Bedingungen.": "<span class=\"badge plus\">Plus</span> أستخدم „zwischen“ (بين) وعدة شروط.",
- "Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">Expedition</span> أعرف أشرطة البيانات وتدرّجات الألوان.",
  "← 5 · WENN 3": "← 5 · WENN 3 (إذا 3)",
  "7 · Bedingte Formatierung 2 →": "7 · Bedingte Formatierung 2 (التنسيق الشرطي) →",
  "✨ Bedingte Formatierung: größer als 30 → Schlecht": "✨ Bedingte Formatierung: größer als 30 → Schlecht (أكبر من 30 → سيئ)",
@@ -72,7 +64,6 @@
  "Bei „zwischen“ gehören beide Grenzen dazu.": "مع „zwischen“ (بين) يكون الحدّان مشمولين.",
  "🏆 Richtig – Emre hat den längsten Balken und das kräftigste Grün. In der Übungsdatei wartet der ganze Spendenlauf.": "🏆 صحيح – إمره لديه أطول شريط وأقوى أخضر. السباق الخيري كاملًا ينتظرك في ملف التمارين.",
  "Schau auf den längsten Balken: Emre ist 25 Runden gelaufen.": "انظر إلى أطول شريط: إمره ركض 25 دورة.",
- "★ Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">★ Expedition</span> أعرف أشرطة البيانات وتدرّج الألوان.",
  "Üben Ein Preis, viele Grenzen": "<span class=\"badge ueben\">Üben</span> سعر واحد، حدود كثيرة",
  "Ist 500 € viel? Für einen Schokoriegel schon, für ein Haus nicht. Jede Zelle bekommt ihre eigene Regel: rot = zu teuer, grün = verdächtig billig. Dann änderst du den Preis und schaust, was passiert.": "هل 500 € كثير؟ لقطعة شوكولاتة نعم، لبيت لا. كل خلية تحصل على قاعدتها الخاصة: أحمر = غالٍ جدًا، أخضر = رخيص بشكل مريب. ثم تغيّر السعر وترى ماذا يحدث.",
  "ODS Üben: Ein Preis, viele Grenzenk9-06-bedingte-formatierung-mehr-preis-grenzen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: سعر واحد، حدود كثيرة</strong><small>k9-06-bedingte-formatierung-mehr-preis-grenzen.ods</small></span>",
@@ -112,5 +103,5 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>نمط</strong> – مظهر جاهز له اسم: Gut (جيد) أخضر، Schlecht (سيئ) أحمر",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>بين</strong> – من عدد إلى عدد آخر. العددان يُحسبان.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>أكبر من · أصغر من</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. العدد 30 نفسه لا يُحسب.",
- "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "في جدول طويل يسهل أن يفوتك شيء مهم. مع Bedingte Formatierung (التنسيق الشرطي) يلوّن Calc الخلايا بنفسه، مثل كل الأيام الحارة فوق 30 °C. إذا تغيّر رقم يتغيّر اللون وحده."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "في جدول طويل يصعب أن تجد الأرقام المهمة. يستطيع Calc أن يلوّن الخلايا بنفسه، مثل كل الأيام فوق 30 °C بالأحمر. إذا تغيّر رقم يتغيّر اللون أيضًا."
 }

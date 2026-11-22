@@ -3,9 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "المراجع المطلقة – الـ $ كمرساة",
  "Klasse 8 · Baustein 5": "الصف 8 · الوحدة 5",
  "Vorwissen: Formeln ausfüllen": "المعرفة المسبقة: تعبئة الصيغ",
- "Ich kann erklären, warum ein Zellbezug beim Ausfüllen „wandert“.": "أستطيع أن أشرح لماذا «ينتقل» مرجع الخلية عند التعبئة.",
- "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "أثبّت مرجعًا بعلامة <code>$</code>.",
- "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "أقرّر متى أحتاج <code>$</code> – ومتى لا.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "لينا تعمل في عطلتها في محلّ مثلّجات وتكسب 11 € في الساعة. في C5 حسبت أجرها ليوم الإثنين: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> الحل: علامة $ <span class=\"chip\">5 د</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ الـ <code>$</code> هي <strong>مرساة</strong>.<br/><code>$B$2</code> تبقى دائمًا <code>B2</code> عند التعبئة.",
@@ -44,11 +41,6 @@
  "nur die Spalte A": "العمود A فقط",
  "nur die Zeile 1": "الصف 1 فقط",
  "Tipp: Drück Umschalt + F4 mehrmals hintereinander – so springst du durch alle Varianten.": "تلميح: اضغط <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd> عدة مرات متتالية – هكذا تمرّ على كل الأشكال.",
- "Ich kann erklären, warum =B5*B2 beim Ausfüllen kaputtgeht.": "أستطيع أن أشرح لماذا تفشل <code>=B5*B2</code> عند التعبئة.",
- "Ich kann mit $ (oder Umschalt+F4) einen Bezug festhalten.": "أثبّت مرجعًا بـ <code>$</code> (أو <kbd>Umschalt</kbd>+<kbd>F4</kbd>).",
- "Ich erkenne, wann eine Formel ein $ braucht.": "أعرف متى تحتاج صيغة إلى <code>$</code>.",
- "Plus Ich finde versteckte Fehler in fremden Tabellen.": "<span class=\"badge plus\">Plus</span> أجد الأخطاء المخفيّة في جداول الآخرين.",
- "Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">Expedition</span> أستخدم المراجع المختلطة مثل <code>$A2</code> و<code>B$1</code>.",
  "← 4 · Ausfüllen": "← 4 · التعبئة",
  "6 · Diagramme →": "6 · الرسوم البيانية →",
  "Calc füllt aus … schau auf Spalte C!": "Calc يعبّئ … انظر إلى العمود C!",
@@ -84,7 +76,6 @@
  "66,00 € (6 × 11 €)": "66,00 € (6 × 11 €)",
  "Profi-Trick: ein Name statt $. Klick B2 an, tipp oben links ins Namenfeld Lohn und drück Enter. Jetzt geht auch =B5*Lohn. Ein Name bleibt beim Ausfüllen immer fest.": "<strong>حيلة المحترفين: اسم بدل $.</strong> انقر B2، اكتب في <strong>Namenfeld</strong> (مربع الاسم) أعلى اليسار <code>Lohn</code> (الأجر) واضغط <kbd>Enter</kbd>. الآن تعمل <code>=B5*Lohn</code> أيضًا. الاسم يبقى ثابتًا دائمًا عند التعبئة.",
  "Profi-Trick: Eine Zelle im Namenfeld benennen, z. B. Lohn. Ein Name bleibt beim Ausfüllen fest.": "حيلة المحترفين: سمِّ خلية في <strong>Namenfeld</strong> (مربع الاسم)، مثل <code>Lohn</code>. الاسم يبقى ثابتًا عند التعبئة.",
- "★ Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">★ Expedition</span> أستطيع استخدام مراجع مختلطة مثل <code>$A2</code> و <code>B$1</code>.",
  "Üben Der Steuer-Schalter": "<span class=\"badge ueben\">Üben</span> مفتاح الضريبة",
  "Der Steuersatz steht nur einmal, in B1. Alle Formeln holen ihn sich von dort.": "نسبة الضريبة مكتوبة مرة واحدة فقط، في B1. كل الصيغ تأخذها من هناك.",
  "C4: Steuer = Netto × Steuersatz, mit $.": "C4: الضريبة = الصافي × نسبة الضريبة، مع <code>$</code>.",
@@ -153,5 +144,5 @@
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "لم تنتهِ بعد: {} خلايا فارغة. واصل سحب المنطقة المحدّدة حتى يمتلئ كل شيء حتى E9.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ السطر 4 صحيح. الآن حدّد C4 وD4 معًا واسحبهما إلى الأسفل حتى السطر 6.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>فكّر:</strong> لينا تسحب الصيغة إلى الأسفل حتى C9. ماذا يوجد عندها في <strong>C6</strong> (الثلاثاء)؟",
- "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "عند التعبئة ينتقل كل مرجع خلية معها. غالبًا هذا صحيح. لكن بعض القيم تصلح لكل الصفوف، مثل أجر الساعة. بعلامة <code>$</code> تثبّت هذه الخلية. إذا تغيّر الأجر تغيّر خلية واحدة فقط، ويعيد الجدول كله الحساب."
+ "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "عند السحب تنتقل الصيغة معك. غالبًا هذا صحيح. لكن بعض الخلايا يجب أن تصلح لكل الصفوف، مثل أجر الساعة. بعلامة <code>$</code> تثبّت هذه الخلية."
 }

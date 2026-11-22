@@ -3,9 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (IF 1) – Calc asks a question",
  "Klasse 9 · Baustein 3": "Grade 9 · Unit 3",
  "Teil 1 von 3 zu WENN": "Part 1 of 3 about WENN (IF)",
- "Ich kann eine WENN-Formel als Ja/Nein-Frage lesen.": "I can read a WENN formula as a yes/no question.",
- "Ich kann =WENN(Frage;\"Ja\";\"Nein\") selbst schreiben.": "I can write <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code> myself.",
- "Ich kann statt Ja und Nein eigene Antworten ausgeben.": "I can show my own answers instead of Ja and Nein.",
  "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 gets this formula: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
  "Überleg: Was zeigt B5?": "<strong>Think:</strong> What does B5 show?",
  "Nein": "Nein (no)",
@@ -35,10 +32,6 @@
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "Instead of <code>\"Ja\"</code> and <code>\"Nein\"</code> you can use any text, e.g. <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Expedition: Quiz maker <span class=\"badge expedition\">optional</span>",
  "Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll richtig stehen, wenn in B2 Paris steht, sonst falsch.": "The check in the exercise files is just a WENN formula too! Build one yourself: C2 should show <strong>richtig</strong> (correct) if B2 contains Paris, otherwise <strong>falsch</strong> (wrong).",
- "Ich lese eine WENN-Formel als Frage.": "I read a WENN formula as a question.",
- "Ich schreibe =WENN(Frage;\"Ja\";\"Nein\") ohne Vorlage.": "I write <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code> without a model.",
- "Plus Ich finde zu fertigen Antworten die passende Frage.": "<span class=\"badge plus\">Plus</span> I find the right question for given answers.",
- "Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span> I build a quiz that checks itself.",
  "← 2 · Prozentrechnung": "← 2 · Percentages",
  "4 · WENN 2 →": "4 · WENN 2 (IF 2) →",
  "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN asks a question: <strong>Does A5 contain „Bus“?</strong> Yes! That is why B5 shows <strong>Ja</strong>.",
@@ -87,7 +80,6 @@
  "✔ Es klappt! Teste jetzt mit einer falschen Antwort in B2, z. B. Berlin.": "✔ It works! Now test with a <strong>wrong</strong> answer in B2, e.g. Berlin.",
  "✔ Bei einer falschen Antwort kommt „falsch“. Teste jetzt auch die richtige Antwort Paris.": "✔ A wrong answer gives „falsch“. Now also test the right answer Paris.",
  "✔ A5<>\"Bus\"": "✔ <code>A5&lt;&gt;\"Bus\"</code>",
- "Ich kenne die Vergleichszeichen, besonders >= und <>.": "I know the comparison signs, especially <code>&gt;=</code> and <code>&lt;&gt;</code>.",
  "<> heißt ungleich. Bei Sonne kommt also Ja, bei Regen Nein.": "<> means not equal. So with Sonne (sun) you get Ja, with Regen Nein.",
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "Compare: <code>=</code> equal · <code>&lt;&gt;</code> not equal · <code>&lt;</code> less · <code>&gt;</code> greater · <code>&lt;=</code> at most · <code>&gt;=</code> at least",
  "Ist das Alter": "Is the age",
@@ -105,7 +97,6 @@
  "nicht gleich": "not equal to",
  "Gegenfrage: Dreh die Frage um und tausch die Antworten. Das Ergebnis bleibt gleich. =WENN(A5>=12;\"Ja\";\"Nein\") ist dasselbe wie =WENN(A5<12;\"Nein\";\"Ja\"). Aus >= wird <, aus <= wird >.": "<strong>Opposite question:</strong> turn the question around and swap the answers. The result stays the same. <code class=\"long\">=WENN(A5&gt;=12;\"Ja\";\"Nein\")</code> is the same as <code class=\"long\">=WENN(A5&lt;12;\"Nein\";\"Ja\")</code>. <code>&gt;=</code> becomes <code>&lt;</code>, <code>&lt;=</code> becomes <code>&gt;</code>.",
  "Gegenfrage: Frage umdrehen und Antworten tauschen – das Ergebnis bleibt gleich. Aus <= wird >.": "Opposite question: turn the question around and swap the answers – the result stays the same. <code>&lt;=</code> becomes <code>&gt;</code>.",
- "★ Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">★ Expedition</span> I build a quiz that checks itself.",
  "Üben Wer fährt Bus?": "<span class=\"badge ueben\">Üben</span> Who takes the bus?",
  "Wer höchstens 5 km weit weg wohnt, fährt Fahrrad. Alle anderen fahren Bus. Du schreibst zwei Fragen. Die zweite ist die Gegenfrage zur ersten.": "Whoever lives at most 5 km away rides a bike. Everyone else takes the bus. You write two questions. The second is the opposite question of the first.",
  "Probe: In jeder Zeile steht genau einmal Ja. Schau besonders auf die Kinder mit genau 5 km.": "<strong>Check:</strong> In every row there is exactly one Ja. Look especially at the children with exactly 5 km.",
@@ -137,5 +128,5 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>equal · not equal</strong> – gleich: <code>=</code> · ungleich (not equal): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>semicolon</strong> – the sign <code>;</code>. It separates the three parts of WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>to output</strong> – to show. WENN outputs an answer.",
- "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "So far Calc calculates the same way in every row. With <code>WENN</code> (IF) Calc asks a question and shows something different depending on the answer, for example “bestanden” (passed) or “nicht bestanden” (failed). This makes your table smart. You learn <code>WENN</code> in small steps."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "With <code>WENN</code> (IF) Calc asks a question. The answer is yes or no. Depending on the answer, Calc shows something different, for example “bestanden” (passed) or “nicht bestanden” (failed). You learn <code>WENN</code> in small steps."
 }

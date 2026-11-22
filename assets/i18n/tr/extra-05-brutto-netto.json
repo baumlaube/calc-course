@@ -2,9 +2,6 @@
  "Brutto und Netto · Calc-Kurs Zusatzmodul": "Brüt ve net · Calc kursu ek modül",
  "Brutto und Netto – was bleibt vom Ausbildungsgehalt?": "Brutto und Netto (brüt ve net) – çırak maaşından ne kalır?",
  "Vorwissen: Prozentrechnung, $-Anker": "Gerekli: yüzde hesabı, $ çapası",
- "Ich kann erklären, was Brutto und Netto bedeutet.": "Brutto (brüt) ve Netto'nun (net) ne demek olduğunu açıklayabilirim.",
- "Ich kann die Abzüge mit Prozentsätzen und $ berechnen.": "Kesintileri yüzde ve <code>$</code> ile hesaplayabilirim.",
- "Ich kann ausrechnen, wie viel am Monatsende übrig bleibt.": "Ay sonunda ne kadar kaldığını hesaplayabilirim.",
  "💡 Im Ausbildungsvertrag steht: 1.050 € im Monat.": "💡 Meslek eğitimi sözleşmesinde şu yazıyor: <strong>ayda 1.050 €</strong>.",
  "Überleg: Wie viel kommt ungefähr aufs Konto?": "<strong>Düşün:</strong> Banka hesabına yaklaşık ne kadar yatar?",
  "etwa 830 €": "yaklaşık 830 €",
@@ -46,5 +43,5 @@
  "Gesamtsatz in B2 = 21 %. Welche Formel ergibt direkt das Netto von B6?": "B2'de toplam oran = %21. Hangi formül B6'nın netini doğrudan verir?",
  "100 % − 21 % = 79 % bleiben – wie beim Rabatt.": "%100 − %21 = %79 kalır – indirim gibi.",
  "Brutto 1.000 €, Abzüge 21 %. Wie viel Netto?": "Brüt 1.000 €, kesintiler %21. Net ne kadar?",
- "Im Ausbildungsvertrag steht ein Gehalt, auf dem Konto kommt weniger an. Du lernst, was Brutto und Netto bedeutet und welche Abzüge es gibt. Dann rechnest du aus, was dir am Monatsende wirklich bleibt.": "Çıraklık sözleşmesinde bir maaş yazar, ama hesaba daha azı gelir. Brutto ve Netto’nun (brüt ve net) ne demek olduğunu ve hangi kesintiler olduğunu öğrenirsin. Sonra ay sonunda sana gerçekten ne kaldığını hesaplarsın."
+ "Im Ausbildungsvertrag steht ein Lohn. Auf dem Konto kommt aber weniger an. Du lernst, was Brutto und Netto heißt und was abgezogen wird. Dann rechnest du aus, wie viel Geld dir wirklich bleibt.": "Çıraklık sözleşmesinde bir maaş yazar. Ama hesaba daha azı gelir. Brutto ve Netto’nun (brüt ve net) ne demek olduğunu ve neyin kesildiğini öğrenirsin. Sonra sana gerçekten ne kadar para kaldığını hesaplarsın."
 }

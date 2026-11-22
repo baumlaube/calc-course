@@ -3,9 +3,6 @@
  "WENN 3 – Grenzen in eigenen Zellen": "WENN 3 (اگر 3) – مرزها در خانه‌های خودشان",
  "Klasse 9 · Baustein 5": "کلاس 9 · واحد 5",
  "Teil 3 von 3 zu WENN": "بخش 3 از 3 دربارهٔ WENN (اگر)",
- "Ich kann Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "می‌توانم مرزها را در خانهٔ خودشان بنویسم و با <code>$</code> ثابت کنم.",
- "Ich kann WENN-Formeln mit Text, Zahlen und Rechnungen sicher schreiben.": "می‌توانم فرمول‌های WENN با متن، عدد و حساب را مطمئن بنویسم.",
- "Ich kann eine Probe-Aufgabe zu WENN allein lösen.": "می‌توانم یک سؤال امتحانی دربارهٔ WENN را خودم حل کنم.",
  "💡 Beim Erste-Hilfe-Quiz hat bestanden, wer mindestens 15 Punkte hat. In Spalte C steht überall so eine Formel: =WENN(B5>=15;\"bestanden\";\"durchgefallen\")": "💡 در آزمونک کمک‌های اولیه هر کس حداقل 15 امتیاز داشت قبول شد. در ستون C همه جا چنین فرمولی هست: <code class=\"long\">=WENN(B5&gt;=15;\"bestanden\";\"durchgefallen\")</code>",
  "Überleg: Neue Regel – bestanden erst ab 16 Punkten. Wie viele Zellen musst du ändern?": "<strong>فکر کن:</strong> قانون جدید – قبولی فقط از <strong>16</strong> امتیاز. چند خانه را باید تغییر بدهی؟",
  "nur eine": "فقط یکی",
@@ -37,11 +34,6 @@
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> اکتشاف: UND (و) <span class=\"badge expedition\">اختیاری</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> فقط وقتی درست است که <strong>هر دو</strong> درست باشند.<br/>با <code>ODER(…; …)</code> (یا) یکی کافی است.",
  "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "روز استخر است اگر هوا <strong>حداقل 25 °C</strong> <strong>و</strong> بدون باران باشد. در D5 یک فرمول WENN با UND بنویس و به پایین پر کن.",
- "Ich schreibe Grenzen in eine eigene Zelle und nehme sie mit $.": "مرزها را در خانهٔ خودشان می‌نویسم و با <code>$</code> به کار می‌برم.",
- "Ich wähle das richtige Vergleichszeichen, z. B. >= für „ab“.": "علامت مقایسهٔ درست را انتخاب می‌کنم، مثلاً <code>&gt;=</code> برای «از».",
- "Ich setze Text in Anführungszeichen und Zahlen ohne.": "متن را داخل گیومه و عددها را بدون آن می‌نویسم.",
- "Plus Ich löse Probe-Aufgaben zu WENN ohne Vorlage.": "<span class=\"badge plus\">Plus</span> سؤال‌های امتحانی WENN را بدون نمونه حل می‌کنم.",
- "Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">Expedition</span> می‌توانم WENN را با UND ترکیب کنم.",
  "← 4 · WENN 2": "← 4 · WENN 2 (اگر 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (قالب‌بندی شرطی) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -89,7 +81,6 @@
  "eine Fehlermeldung": "یک پیام خطا",
  "viel": "viel (زیاد)",
  "wenig": "wenig (کم)",
- "★ Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">★ Expedition</span> می‌توانم WENN را با UND (و) ترکیب کنم.",
  "Üben Wochenlohn mit Überstunden": "<span class=\"badge ueben\">Üben</span> دستمزد هفتگی با اضافه‌کار",
  "Bis 38,5 Stunden gibt es den normalen Stundenlohn. Jede Stunde mehr ist eine Überstunde mit 30 % Zuschlag. Tarif und Zuschlag stehen in blauen Zellen.": "تا ۳۸٫۵ ساعت دستمزد معمولی ساعتی پرداخت می‌شود. هر ساعت بیشتر اضافه‌کار است با ۳۰ ٪ اضافه. ساعت کار و اضافه در خانه‌های آبی است.",
  "=WENN(B6>=$B$2;$B$2*C6;B6*C6) – hier wird in Dann und Sonst gerechnet.": "<code class=\"long\">=WENN(B6&gt;=$B$2;$B$2*C6;B6*C6)</code> – این‌جا در <strong>Dann</strong> (آنگاه) و <strong>Sonst</strong> (وگرنه) حساب می‌شود.",
@@ -119,5 +110,5 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "هنوز تا پایین نرسیده. هنوز خالی: {}. از C5 تا C8 بکش.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ دوشنبه درست است! حالا <strong>Ausfüllkästchen</strong> (دستگیرهٔ پر کردن) را به پایین تا D7 بکش.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "هنوز تا پایین نرسیده. از D5 تا D7 بکش.",
- "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "قاعده‌ها عوض می‌شوند: شاید فردا ۱۶ امتیاز به جای ۱۵ لازم باشد. اگر مرز در خانهٔ جداگانه باشد، آن را در یک جا عوض می‌کنی و همهٔ فرمول‌ها دوباره حساب می‌شوند. در پایان تمرین‌های <code>WENN</code> را مثل امتحان خودت تنها حل می‌کنی."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "قاعده‌ها عوض می‌شوند. امروز ۱۵ امتیاز لازم است، فردا شاید ۱۶. برای همین مرز را در یک سلول جداگانه بنویس. بعد فقط همین یک سلول را عوض می‌کنی و همهٔ فرمول‌ها دوباره حساب می‌شوند. در پایان تمرین‌های <code>WENN</code> را مثل امتحان خودت تنها حل می‌کنی."
 }

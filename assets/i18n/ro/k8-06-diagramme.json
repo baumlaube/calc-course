@@ -3,9 +3,6 @@
  "Diagramme – Zahlen auf einen Blick": "Diagrame – numerele dintr-o privire",
  "Klasse 8 · Baustein 6": "Clasa a 8-a · Unitatea 6",
  "Vorwissen: Tabellen markieren": "Cunoștințe anterioare: selectarea tabelelor",
- "Ich kann aus einer Tabelle ein Diagramm erstellen.": "Pot face o diagramă dintr-un tabel.",
- "Ich kann das passende Diagramm wählen: Säule, Kreis oder Linie.": "Pot alege diagrama potrivită: <strong>Säule</strong> (coloane), <strong>Kreis</strong> (cerc) sau <strong>Linie</strong> (linie).",
- "Ich kann ein Diagramm beschriften und richtig lesen.": "Pot eticheta o diagramă și o pot citi corect.",
  "Jonas hat die Temperaturen einer Woche in ein Diagramm verwandelt. Irgendwas stimmt da nicht …": "Jonas a transformat temperaturile unei săptămâni într-o diagramă. Ceva nu e în regulă …",
  "Überleg: Was ist das Problem?": "<strong>Gândește-te:</strong> Care e problema?",
  "Die Legende ist zu lang.": "Legenda e prea lungă.",
@@ -41,10 +38,6 @@
  "★ Expedition: Lügen mit Diagrammen freiwillig": "<span class=\"step-no\">★</span> Expediție: Minciuni cu diagrame <span class=\"badge expedition\">opțional</span>",
  "Abstimmung über die Klassenfahrt: Berlin 48 Stimmen, München 52 Stimmen. Verschieb den Regler. Wo fängt die y-Achse an?": "Vot pentru excursia clasei: Berlin 48 de voturi, München 52 de voturi. Mută cursorul. De unde începe axa y?",
  "y-Achse beginnt bei:": "Axa y începe la:",
- "Ich weiß, wann Säule, Kreis oder Linie passt.": "Știu când se potrivește o diagramă cu coloane, cerc sau linie.",
- "Ich gebe jedem Diagramm einen Titel und beschrifte die Achsen.": "Dau fiecărei diagrame un titlu și etichetez axele.",
- "Plus Ich kann Prozente im Kreisdiagramm anzeigen.": "<span class=\"badge plus\">Plus</span> Pot arăta procente într-o diagramă cerc.",
- "Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">Expedition</span> Recunosc diagramele înșelătoare după axa y.",
  "← 5 · Absolute Bezüge": "← 5 · Referințe absolute",
  "7 · Projekt →": "7 · Proiect →",
  "Wetterwoche – besser so": "Săptămâna vremii – mai bine așa",
@@ -81,7 +74,6 @@
  "Format → Diagramm": "Format → Diagramm",
  "Gar nichts": "Nimic",
  "Die Farben": "Culorile",
- "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> Recunosc diagramele înșelătoare după axa y.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> Duelul tarifelor la curent",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "Curentul costă de două ori: un <strong>preț de bază</strong> în fiecare lună și un preț pentru fiecare <strong>kWh</strong>.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Duelul tarifelor la curent</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
@@ -120,5 +112,5 @@
  "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ Umple B6:D6 în jos (până la D8)",
  "Erst nach rechts ausfüllen, bis D6!": "Întâi umple spre dreapta, până la D6!",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Încă nu e gata: {} celule sunt goale. Trage mai departe zona selectată, până se umple totul până la D8.",
- "Eine lange Zahlenliste liest kaum jemand gern. Ein Diagramm zeigt auf einen Blick, was größer ist oder wie sich etwas entwickelt. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du jeden Tag, im Wetterbericht und in den Nachrichten.": "Aproape nimănui nu-i place să citească o listă lungă de numere. Un grafic arată dintr-o privire ce e mai mare sau cum evoluează ceva. Înveți când se potrivește un grafic cu coloane, circular sau cu linii. Vezi grafice în fiecare zi, la prognoza meteo și la știri."
+ "Viele Zahlen in einer Liste sind schwer zu lesen. Ein Diagramm zeigt sie als Bild. Dann siehst du sofort, was größer ist. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du oft, zum Beispiel im Wetterbericht.": "Multe numere într-o listă sunt greu de citit. Un grafic le arată ca o imagine. Atunci vezi imediat ce e mai mare. Înveți când se potrivește un grafic cu coloane, circular sau cu linii. Vezi des grafice, de exemplu la prognoza meteo."
 }

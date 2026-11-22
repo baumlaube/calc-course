@@ -3,9 +3,6 @@
  "Diagramme – Zahlen auf einen Blick": "Grafikler – sayılara bir bakışta",
  "Klasse 8 · Baustein 6": "8. sınıf · Ünite 6",
  "Vorwissen: Tabellen markieren": "Ön bilgi: tabloları seçmek",
- "Ich kann aus einer Tabelle ein Diagramm erstellen.": "Bir tablodan grafik yapabilirim.",
- "Ich kann das passende Diagramm wählen: Säule, Kreis oder Linie.": "Doğru grafiği seçebilirim: <strong>Säule</strong> (sütun), <strong>Kreis</strong> (pasta) veya <strong>Linie</strong> (çizgi).",
- "Ich kann ein Diagramm beschriften und richtig lesen.": "Bir grafiği etiketleyebilir ve doğru okuyabilirim.",
  "Jonas hat die Temperaturen einer Woche in ein Diagramm verwandelt. Irgendwas stimmt da nicht …": "Jonas bir haftalık sıcaklıkları grafiğe dönüştürdü. Bir şey yanlış …",
  "Überleg: Was ist das Problem?": "<strong>Düşün:</strong> Sorun ne?",
  "Die Legende ist zu lang.": "Açıklama çok uzun.",
@@ -41,10 +38,6 @@
  "★ Expedition: Lügen mit Diagrammen freiwillig": "<span class=\"step-no\">★</span> Keşif: Grafiklerle yalan söylemek <span class=\"badge expedition\">isteğe bağlı</span>",
  "Abstimmung über die Klassenfahrt: Berlin 48 Stimmen, München 52 Stimmen. Verschieb den Regler. Wo fängt die y-Achse an?": "Sınıf gezisi oylaması: Berlin 48 oy, Münih 52 oy. Kaydırıcıyı oynat. y ekseni nereden başlıyor?",
  "y-Achse beginnt bei:": "y ekseni şuradan başlıyor:",
- "Ich weiß, wann Säule, Kreis oder Linie passt.": "Sütun, pasta veya çizgi grafiğinin ne zaman uyduğunu biliyorum.",
- "Ich gebe jedem Diagramm einen Titel und beschrifte die Achsen.": "Her grafiğe bir başlık verir ve eksenleri etiketlerim.",
- "Plus Ich kann Prozente im Kreisdiagramm anzeigen.": "<span class=\"badge plus\">Plus</span> Pasta grafiğinde yüzdeleri gösterebilirim.",
- "Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">Expedition</span> Hileli grafikleri y eksenine bakarak fark ederim.",
  "← 5 · Absolute Bezüge": "← 5 · Mutlak başvurular",
  "7 · Projekt →": "7 · Proje →",
  "Wetterwoche – besser so": "Hava haftası – böylesi daha iyi",
@@ -81,7 +74,6 @@
  "Format → Diagramm": "Format → Diagramm",
  "Gar nichts": "Hiçbir şey",
  "Die Farben": "Renkler",
- "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> Hileli grafikleri y eksenine bakarak tanırım.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> Elektrik tarifesi düellosu",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "Elektrik iki kez para tutar: her ay bir <strong>sabit ücret</strong> ve her <strong>kWh</strong> için bir fiyat.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Elektrik tarifesi düellosu</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
@@ -120,5 +112,5 @@
  "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ B6:D6'yı aşağı doldur (D8'e kadar)",
  "Erst nach rechts ausfüllen, bis D6!": "Önce sağa doldur, D6'ya kadar!",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Henüz bitmedi: {} hücre boş. Seçili alanı D8'e kadar her yer dolana kadar sürüklemeye devam et.",
- "Eine lange Zahlenliste liest kaum jemand gern. Ein Diagramm zeigt auf einen Blick, was größer ist oder wie sich etwas entwickelt. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du jeden Tag, im Wetterbericht und in den Nachrichten.": "Uzun bir sayı listesini okumayı pek kimse sevmez. Bir grafik neyin daha büyük olduğunu ya da bir şeyin nasıl değiştiğini bir bakışta gösterir. Ne zaman sütun, daire ya da çizgi grafiğin uygun olduğunu öğrenirsin. Grafikleri her gün görürsün, hava durumunda ve haberlerde."
+ "Viele Zahlen in einer Liste sind schwer zu lesen. Ein Diagramm zeigt sie als Bild. Dann siehst du sofort, was größer ist. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du oft, zum Beispiel im Wetterbericht.": "Bir listedeki çok sayıyı okumak zordur. Grafik onları resim olarak gösterir. O zaman neyin daha büyük olduğunu hemen görürsün. Ne zaman sütun, daire ya da çizgi grafiğin uygun olduğunu öğrenirsin. Grafikleri sık görürsün, örneğin hava durumunda."
 }

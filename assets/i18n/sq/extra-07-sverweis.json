@@ -2,9 +2,6 @@
  "SVERWEIS · Calc-Kurs Zusatzmodul": "SVERWEIS (KËRKIMVERTIKAL) · Kursi Calc modul shtesë",
  "SVERWEIS – Calc schlägt nach": "SVERWEIS (KËRKIMVERTIKAL) – Calc kërkon vetë",
  "Profi-Niveau (Klasse 10)": "Niveli profesional (klasa 10)",
- "Ich kann mit SVERWEIS einen Wert in einer Liste nachschlagen.": "Mund të kërkoj një vlerë në një listë me SVERWEIS.",
- "Ich kann die vier Teile von SVERWEIS erklären.": "Mund t'i shpjegoj katër pjesët e SVERWEIS.",
- "Ich halte die Liste mit $ fest und fülle die Formel aus.": "E fiksoj listën me <code>$</code> dhe e plotësoj formulën poshtë.",
  "💡 Am Kiosk wird mit Nummern bestellt. In F2 steht die Nummer 103. In G2 kommt:=SVERWEIS(F2;A2:C7;3;0)": "💡 Në kioskë porositet me numra. F2 ka numrin <strong>103</strong>. G2 merr:<br/><code class=\"long\">=SVERWEIS(F2;A2:C7;3;0)</code>",
  "Überleg: Was zeigt G2?": "<strong>Mendo:</strong> Çfarë tregon G2?",
  "Kakao": "Kakao (kakao)",
@@ -60,5 +57,5 @@
  "Irgendwo": "Kudo",
  "Null zurückgeben": "Kthen zero",
  "Das = fehlt": "Mungon =",
- "Am Kiosk, im Lager oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht diese Nummer in einer Liste und holt den passenden Namen oder Preis. Du musst nichts mehr von Hand nachschlagen.": "Në kiosk, në magazinë ose në dyqanin online çdo artikull ka një numër. <code>SVERWEIS</code> (VLOOKUP) e kërkon këtë numër në një listë dhe merr emrin ose çmimin përkatës. Nuk ke më nevojë të kërkosh asgjë me dorë."
+ "Am Kiosk oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht die Nummer in einer Liste. Dann holt Calc den passenden Namen oder Preis. Du musst nicht mehr selbst suchen.": "Në kiosk ose në dyqanin online çdo artikull ka një numër. <code>SVERWEIS</code> (VLOOKUP) e kërkon numrin në një listë. Pastaj Calc merr emrin ose çmimin përkatës. Nuk ke më nevojë të kërkosh vetë."
 }

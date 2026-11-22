@@ -1,9 +1,6 @@
 {
  "Sortieren & Filtern · Calc-Kurs Zusatzmodul": "Sortowanie i filtrowanie · Kurs Calc moduł dodatkowy",
  "Sortieren & Filtern – große Tabellen bändigen": "Sortieren &amp; Filtern (sortowanie i filtrowanie) – okiełznaj duże tabele",
- "Ich kann eine Tabelle auf- oder absteigend sortieren.": "Umiem posortować tabelę rosnąco albo malejąco.",
- "Ich kann mit dem AutoFilter nur bestimmte Zeilen anzeigen.": "Umiem pokazać tylko wybrane wiersze za pomocą AutoFilter.",
- "Ich weiß, warum man nie nur eine Spalte sortiert.": "Wiem, dlaczego nigdy nie sortuje się tylko jednej kolumny.",
  "💡 Tom will die Besten oben haben. Er markiert nur die Spalte C und sortiert sie absteigend.": "💡 Tom chce mieć najlepszych na górze. Zaznacza <strong>tylko kolumnę C</strong> i sortuje malejąco.",
  "Überleg: Was passiert?": "<strong>Pomyśl:</strong> Co się dzieje?",
  "Alles richtig – die Besten stehen oben.": "Wszystko w porządku – najlepsi są na górze.",
@@ -64,5 +61,5 @@
  "alphabetisch": "alfabetycznie",
  "größte oben": "największe na górze",
  "kleinste oben": "najmniejsze na górze",
- "In einer Tabelle mit Hunderten Zeilen sucht niemand von Hand. Du sortierst sie, zum Beispiel nach Punkten, oder du filterst nur die Zeilen, die du brauchst. Das kennst du aus jedem Online-Shop: sortieren nach Preis, filtern nach Größe.": "W tabeli z setkami wierszy nikt nie szuka ręcznie. Sortujesz ją, na przykład według punktów, albo filtrujesz tylko potrzebne wiersze. Znasz to z każdego sklepu internetowego: sortowanie według ceny, filtrowanie według rozmiaru."
+ "Eine Tabelle hat hundert Zeilen. Du suchst nicht jede Zeile ab. Du sortierst die Tabelle, zum Beispiel nach Punkten. Oder du filterst: Dann siehst du nur die Zeilen, die du brauchst. Das kennst du aus Online-Shops: sortieren nach Preis, filtern nach Größe.": "Tabela ma sto wierszy. Nie przeszukujesz każdego wiersza. Sortujesz tabelę, na przykład według punktów. Albo filtrujesz: wtedy widzisz tylko potrzebne wiersze. Znasz to ze sklepów internetowych: sortowanie według ceny, filtrowanie według rozmiaru."
 }

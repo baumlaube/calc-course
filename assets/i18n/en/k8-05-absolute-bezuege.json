@@ -3,9 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Absolute references – the $ as an anchor",
  "Klasse 8 · Baustein 5": "Grade 8 · Unit 5",
  "Vorwissen: Formeln ausfüllen": "Prior knowledge: filling formulas",
- "Ich kann erklären, warum ein Zellbezug beim Ausfüllen „wandert“.": "I can explain why a cell reference “moves” when filling.",
- "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "I can fix a reference with the <code>$</code> sign.",
- "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "I can decide when I need a <code>$</code> – and when not.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena has a holiday job in an ice cream shop and earns 11 € per hour. In C5 she calculated her pay for Monday: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "#WERT!": "#WERT! (#VALUE!)",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> The solution: the $ sign <span class=\"chip\">5 min</span>",
@@ -45,11 +42,6 @@
  "nur die Spalte A": "only column A",
  "nur die Zeile 1": "only row 1",
  "Tipp: Drück Umschalt + F4 mehrmals hintereinander – so springst du durch alle Varianten.": "Tip: press <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd> several times in a row – this way you jump through all versions.",
- "Ich kann erklären, warum =B5*B2 beim Ausfüllen kaputtgeht.": "I can explain why <code>=B5*B2</code> breaks when filling.",
- "Ich kann mit $ (oder Umschalt+F4) einen Bezug festhalten.": "I can fix a reference with <code>$</code> (or <kbd>Umschalt</kbd>+<kbd>F4</kbd>).",
- "Ich erkenne, wann eine Formel ein $ braucht.": "I can see when a formula needs a <code>$</code>.",
- "Plus Ich finde versteckte Fehler in fremden Tabellen.": "<span class=\"badge plus\">Plus</span> I can find hidden mistakes in other people's spreadsheets.",
- "Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">Expedition</span> I can use mixed references like <code>$A2</code> and <code>B$1</code>.",
  "← 4 · Ausfüllen": "← 4 · Filling",
  "6 · Diagramme →": "6 · Charts →",
  "Calc füllt aus … schau auf Spalte C!": "Calc is filling … look at column C!",
@@ -88,7 +80,6 @@
  "66,00 € (6 × 11 €)": "66,00 € (6 × 11 €)",
  "Profi-Trick: ein Name statt $. Klick B2 an, tipp oben links ins Namenfeld Lohn und drück Enter. Jetzt geht auch =B5*Lohn. Ein Name bleibt beim Ausfüllen immer fest.": "<strong>Pro trick: a name instead of $.</strong> Click B2, type <code>Lohn</code> (wage) into the <strong>Namenfeld</strong> (name box) at the top left and press <kbd>Enter</kbd>. Now <code>=B5*Lohn</code> works too. A name always stays fixed when filling.",
  "Profi-Trick: Eine Zelle im Namenfeld benennen, z. B. Lohn. Ein Name bleibt beim Ausfüllen fest.": "Pro trick: name a cell in the <strong>Namenfeld</strong> (name box), e.g. <code>Lohn</code>. A name stays fixed when filling.",
- "★ Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">★ Expedition</span> I can use mixed references like <code>$A2</code> and <code>B$1</code>.",
  "Üben Der Steuer-Schalter": "<span class=\"badge ueben\">Üben</span> The tax switch",
  "Der Steuersatz steht nur einmal, in B1. Alle Formeln holen ihn sich von dort.": "The tax rate is written only once, in B1. All formulas fetch it from there.",
  "C4: Steuer = Netto × Steuersatz, mit $.": "C4: tax = net × tax rate, with <code>$</code>.",
@@ -157,5 +148,5 @@
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Not finished yet: {} cells are empty. Keep dragging the selected range until everything up to E9 is full.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Row 4 is correct. Now select C4 and D4 together and drag them down to row 6.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Think:</strong> Lena drags the formula down to C9. What is in <strong>C6</strong> (Tuesday) then?",
- "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "When you fill down, every cell reference moves along. Usually that is right. But some values apply to all rows, for example an hourly wage. With the <code>$</code> you fix such a cell. If the wage changes, you change just one cell and the whole table recalculates."
+ "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "When you drag, the formula moves along. Usually that is right. But some cells should apply to all rows, for example the hourly wage. With the <code>$</code> you fix such a cell."
 }

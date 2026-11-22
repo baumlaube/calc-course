@@ -2,9 +2,6 @@
  "ZÄHLENWENN · Calc-Kurs Zusatzmodul": "ZÄHLENWENN (CONTDACĂ) · Curs Calc modul suplimentar",
  "ZÄHLENWENN – zählen, was passt": "ZÄHLENWENN (CONTDACĂ) – numără ce se potrivește",
  "Vorwissen: WENN, $-Anker": "Ai nevoie de: WENN, ancora $",
- "Ich kann mit ZÄHLENWENN zählen, wie oft etwas vorkommt.": "Pot număra cu <code>ZÄHLENWENN</code> de câte ori apare ceva.",
- "Ich kann Kriterien wie \"Sport\", \">=4\" oder eine Zelle benutzen.": "Pot folosi criterii ca <code>\"Sport\"</code>, <code>\"&gt;=4\"</code> sau o celulă.",
- "Ich kann mit SUMMEWENN nur passende Beträge addieren.": "Pot aduna doar sumele potrivite cu <code>SUMMEWENN</code> (SUMDACĂ).",
  "💡 Acht Schüler haben ihr Lieblingsfach genannt. In D2 kommt: =ZÄHLENWENN(B2:B9;\"Sport\")": "💡 Opt elevi și-au spus materia preferată. D2 primește: <code class=\"long\">=ZÄHLENWENN(B2:B9;\"Sport\")</code>",
  "Überleg: Was zeigt D2?": "<strong>Gândește-te:</strong> Ce arată D2?",
  "2 So zählt Calc 7 Min": "<span class=\"step-no\">2</span> Cum numără Calc <span class=\"chip\">7 min</span>",
@@ -57,5 +54,5 @@
  "Gesucht wird in B, addiert wird aus C.": "Caută în B și adună din C.",
  "Anführungszeichen um D5": "Ghilimele în jurul lui D5",
  "Ein $ bei D5": "Un $ la D5",
- "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "Câți din clasă preferă sportul? Câte note sunt mai bune decât 3? <code>ZÄHLENWENN</code> (COUNTIF) numără doar celulele care se potrivesc condiției tale. <code>SUMMEWENN</code> (SUMIF) adună doar sumele potrivite, de exemplu toate cheltuielile pentru mâncare."
+ "Wie viele in der Klasse mögen Sport am liebsten? ZÄHLENWENN zählt nur die Zellen, die passen. SUMMEWENN zählt nur passende Beträge zusammen, zum Beispiel alles, was du für Essen ausgegeben hast.": "Câți din clasă preferă sportul? <code>ZÄHLENWENN</code> (COUNTIF) numără doar celulele care se potrivesc. <code>SUMMEWENN</code> (SUMIF) adună doar sumele potrivite, de exemplu tot ce ai cheltuit pe mâncare."
 }

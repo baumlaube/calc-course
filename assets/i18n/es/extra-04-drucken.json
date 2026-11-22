@@ -2,9 +2,6 @@
  "Drucken wie ein Profi · Calc-Kurs Zusatzmodul": "Imprimir como un profesional · Curso de Calc módulo extra",
  "Drucken wie ein Profi": "Imprimir como un profesional",
  "brauchst du bei jeder Abgabe": "lo necesitas en cada entrega",
- "Ich prüfe mit der Druckvorschau, wie der Ausdruck aussieht.": "Compruebo con la vista preliminar cómo quedará la impresión.",
- "Ich stelle Querformat, „auf eine Seite“ und eine Kopfzeile ein.": "Ajusto horizontal, «todo en una página» y el encabezado.",
- "Ich lege fest, was gedruckt wird – und speichere als PDF.": "Decido qué se imprime y guardo como PDF.",
  "💡 Deine Notenliste ist 30 cm breit. Auf ein A4-Blatt hochkant passen nur etwa 17 cm.": "💡 Tu lista de notas mide <strong>30 cm de ancho</strong>. En una hoja A4 vertical solo caben unos <strong>17 cm</strong>.",
  "Überleg: Was passiert, wenn du einfach auf Drucken klickst?": "<strong>Piensa:</strong> ¿qué pasa si simplemente haces clic en Imprimir?",
  "Calc macht alles kleiner – passt auf ein Blatt.": "Calc lo reduce todo y cabe en una página.",
@@ -69,5 +66,5 @@
  "Datei → Druckvorschau": "Datei → Druckvorschau (Archivo → Vista previa)",
  "Spalten löschen": "Borrar columnas",
  "Klein schreiben": "Escribir con letra pequeña",
- "Auf dem Bildschirm sieht die Tabelle gut aus, auf Papier fehlt plötzlich die Hälfte. Hier lernst du, mit Druckvorschau, Querformat und „auf eine Seite“ sauber zu drucken. Und du speicherst die Tabelle als PDF, zum Abgeben oder Verschicken.": "En pantalla la tabla se ve bien, en papel de repente falta la mitad. Aquí aprendes a imprimir bien con la vista previa, el formato horizontal y «en una página». Y guardas la tabla como PDF para entregarla o enviarla."
+ "Auf dem Bildschirm sieht die Tabelle gut aus. Auf dem Papier fehlt plötzlich die Hälfte. Hier lernst du, die Tabelle richtig auf ein Blatt zu bringen. Du speicherst sie auch als PDF, zum Abgeben oder Verschicken.": "En pantalla la tabla se ve bien. En papel de repente falta la mitad. Aquí aprendes a poner bien la tabla en una sola hoja. También la guardas como PDF para entregarla o enviarla."
 }

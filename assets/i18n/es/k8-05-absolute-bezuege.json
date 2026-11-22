@@ -3,9 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Referencias absolutas – el $ como ancla",
  "Klasse 8 · Baustein 5": "8.º curso · Unidad 5",
  "Vorwissen: Formeln ausfüllen": "Conocimientos previos: rellenar fórmulas",
- "Ich kann erklären, warum ein Zellbezug beim Ausfüllen „wandert“.": "Sé explicar por qué una referencia de celda «se mueve» al rellenar.",
- "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Fijo una referencia con el signo <code>$</code>.",
- "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Decido cuándo necesito un <code>$</code> y cuándo no.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena trabaja en vacaciones en una heladería y gana 11 € por hora. En C5 calculó lo que ganó el lunes: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> La solución: el signo $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ El <code>$</code> es un <strong>ancla</strong>.<br/><code>$B$2</code> siempre sigue siendo <code>B2</code> al rellenar.",
@@ -44,11 +41,6 @@
  "nur die Spalte A": "solo la columna A",
  "nur die Zeile 1": "solo la fila 1",
  "Tipp: Drück Umschalt + F4 mehrmals hintereinander – so springst du durch alle Varianten.": "Consejo: pulsa <kbd>Umschalt</kbd> (Mayús) + <kbd>F4</kbd> varias veces seguidas: así pasas por todas las variantes.",
- "Ich kann erklären, warum =B5*B2 beim Ausfüllen kaputtgeht.": "Sé explicar por qué <code>=B5*B2</code> se estropea al rellenar.",
- "Ich kann mit $ (oder Umschalt+F4) einen Bezug festhalten.": "Fijo una referencia con <code>$</code> (o <kbd>Umschalt</kbd>+<kbd>F4</kbd>).",
- "Ich erkenne, wann eine Formel ein $ braucht.": "Reconozco cuándo una fórmula necesita un <code>$</code>.",
- "Plus Ich finde versteckte Fehler in fremden Tabellen.": "<span class=\"badge plus\">Plus</span> Encuentro errores escondidos en hojas de otros.",
- "Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">Expedition</span> Uso referencias mixtas como <code>$A2</code> y <code>B$1</code>.",
  "← 4 · Ausfüllen": "← 4 · Rellenar",
  "6 · Diagramme →": "6 · Gráficos →",
  "Calc füllt aus … schau auf Spalte C!": "Calc rellena … ¡mira la columna C!",
@@ -84,7 +76,6 @@
  "66,00 € (6 × 11 €)": "66,00 € (6 × 11 €)",
  "Profi-Trick: ein Name statt $. Klick B2 an, tipp oben links ins Namenfeld Lohn und drück Enter. Jetzt geht auch =B5*Lohn. Ein Name bleibt beim Ausfüllen immer fest.": "<strong>Truco de profesional: un nombre en vez de $.</strong> Haz clic en B2, escribe arriba a la izquierda en el <strong>Namenfeld</strong> (cuadro de nombre) <code>Lohn</code> (sueldo) y pulsa <kbd>Enter</kbd>. Ahora también funciona <code>=B5*Lohn</code>. Un nombre se queda siempre fijo al rellenar.",
  "Profi-Trick: Eine Zelle im Namenfeld benennen, z. B. Lohn. Ein Name bleibt beim Ausfüllen fest.": "Truco de profesional: ponerle nombre a una celda en el <strong>Namenfeld</strong> (cuadro de nombre), p. ej. <code>Lohn</code>. Un nombre se queda fijo al rellenar.",
- "★ Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">★ Expedition</span> Sé usar referencias mixtas como <code>$A2</code> y <code>B$1</code>.",
  "Üben Der Steuer-Schalter": "<span class=\"badge ueben\">Üben</span> El interruptor del IVA",
  "Der Steuersatz steht nur einmal, in B1. Alle Formeln holen ihn sich von dort.": "El tipo de IVA está escrito una sola vez, en B1. Todas las fórmulas lo cogen de ahí.",
  "C4: Steuer = Netto × Steuersatz, mit $.": "C4: IVA = neto × tipo de IVA, con <code>$</code>.",
@@ -153,5 +144,5 @@
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Todavía no está listo: {} celdas están vacías. Sigue arrastrando el área seleccionada hasta que todo esté lleno hasta E9.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ La fila 4 está bien. Ahora selecciona C4 y D4 juntas y arrástralas hacia abajo hasta la fila 6.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Piensa:</strong> Lena arrastra la fórmula hacia abajo hasta C9. ¿Qué hay entonces en <strong>C6</strong> (martes)?",
- "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "Al rellenar, cada referencia de celda se desplaza. Casi siempre es lo correcto. Pero algunos valores valen para todas las filas, por ejemplo un sueldo por hora. Con el <code>$</code> fijas esa celda. Si cambia el sueldo, cambias una sola celda y toda la tabla se recalcula."
+ "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Al arrastrar, la fórmula se desplaza. Casi siempre es lo correcto. Pero algunas celdas deben valer para todas las filas, por ejemplo el sueldo por hora. Con el <code>$</code> fijas esa celda."
 }

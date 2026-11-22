@@ -2,9 +2,6 @@
  "Datum & Zeit · Calc-Kurs Zusatzmodul": "Datum i vrijeme · Calc kurs dodatni modul",
  "Datum & Zeit – wie viele Tage noch?": "Datum i vrijeme – koliko još dana?",
  "Vorwissen: Formeln, $-Anker": "Predznanje: formule, $ sidro",
- "Ich weiß: Ein Datum ist für Calc eine Zahl.": "Znam: datum je za Calc broj.",
- "Ich rechne mit HEUTE() aus, wie viele Tage es noch dauert.": "Sa <code>HEUTE()</code> (danas) računam koliko još traje.",
- "Ich addiere Tage zu einem Datum.": "Dodajem dane datumu.",
  "💡 In A2 steht der 10.11.2026, in B2 der Ferienbeginn 24.12.2026. In C2 kommt =B2-A2.": "💡 U A2 stoji 10.11.2026, u B2 početak raspusta 24.12.2026. U C2 ide <code>=B2-A2</code>.",
  "2 Ein Datum ist eine Zahl 7 Min": "<span class=\"step-no\">2</span> Datum je broj <span class=\"chip\">7 min</span>",
  "Für Calc ist ein Datum die Zahl der Tage seit dem 30.12.1899.Darum kann man mit Daten rechnen.": "Za Calc je datum broj dana od <strong>30.12.1899</strong>.<br/>Zato se s datumima može računati.",
@@ -46,5 +43,6 @@
  "Die Zahl stimmt – nur das Format fehlt.": "Broj je tačan – nedostaje samo format.",
  "Ein Text": "Tekst",
  "Neu tippen": "Ponovo ukucati",
- "Eine Formel": "Formula"
+ "Eine Formel": "Formula",
+ "Wie viele Tage sind es noch bis zu den Ferien? Für Calc ist ein Datum eine Zahl. Darum kann Calc mit einem Datum rechnen. Mit HEUTE() rechnet Calc immer vom heutigen Tag aus.": "Koliko je dana još do raspusta? Za Calc je datum broj. Zato Calc može računati s datumom. Sa <code>HEUTE()</code> (TODAY) Calc uvijek računa od današnjeg dana."
 }

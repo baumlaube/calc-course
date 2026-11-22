@@ -3,9 +3,6 @@
  "Bedingte Formatierung 2 – Ampel, Text und Grenzen": "Bedingte Formatierung 2 (условное форматирование) – светофор, текст и границы",
  "Klasse 9 · Baustein 7": "9 класс · Модуль 7",
  "Vorwissen: Bedingte Formatierung 1, WENN 3": "Нужно знать: условное форматирование 1, WENN 3",
- "Ich kann mehrere Bedingungen in der richtigen Reihenfolge anlegen.": "Я создаю несколько условий в правильном порядке.",
- "Ich kann Text färben lassen, z. B. alles mit „fehlt“.": "Я раскрашиваю текст, напр. всё с „fehlt“ (нет).",
- "Ich kann eine Grenze aus einer Zelle mit $ benutzen.": "Я использую границу из ячейки со знаком <code>$</code>.",
  "Überleg: Welche Farbe bekommt der Akku mit 15 %?": "<strong>Подумай:</strong> какого цвета будет батарея с <strong>15 %</strong>?",
  "gelb": "жёлтого",
  "rot": "красного",
@@ -31,11 +28,6 @@
  "★ Expedition: Ganze Zeile färben freiwillig": "<span class=\"step-no\">★</span> Экспедиция: раскрасить целую строку <span class=\"badge expedition\">по желанию</span>",
  "OK": "OK",
  "Wer nicht bezahlt hat, soll mit der ganzen Zeile rot leuchten. Klick erst auf OK – was ist falsch? Dann verbessere die Formel.": "Все, кто не заплатил, должны светиться красным <strong>всей строкой</strong>. Сначала нажми OK – что не так? Потом улучши формулу.",
- "Ich baue eine Ampel mit drei Bedingungen.": "Я строю светофор из трёх условий.",
- "Ich weiß: Die erste passende Bedingung gewinnt.": "Я знаю: побеждает первое подходящее условие.",
- "Ich färbe Text, z. B. \"fehlt\".": "Я раскрашиваю текст, напр. <code>\"fehlt\"</code>.",
- "Plus Ich nehme die Grenze aus einer Zelle mit $.": "<span class=\"badge plus\">Plus</span> Я беру границу из ячейки со знаком <code>$</code>.",
- "Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span> Я раскрашиваю целые строки с „Formel ist“.",
  "← 6 · Bedingte Formatierung 1": "← 6 · Bedingte Formatierung 1",
  "8 · Fit für die Probe →": "8 · Готов к контрольной →",
  "✔ Jetzt steht „kleiner als 20 %“ zuerst – und Lea ist rot. Die strengste Bedingung gehört nach oben.": "✔ Теперь „kleiner als 20 %“ стоит первым – и Лея красная. Самое строгое условие должно быть вверху.",
@@ -76,7 +68,6 @@
  "🏆 Expedition geschafft! Das $ vor B hält die Spalte fest: Name, bezahlt? und Betrag schauen alle auf Spalte B. Die 2 ohne $ wandert mit – jede Zeile prüft sich selbst.": "🏆 Экспедиция пройдена! <code>$</code> перед B держит столбец на месте: имя, bezahlt? (оплачено?) и сумма – все смотрят на столбец B. 2 без $ сдвигается – каждая строка проверяет себя.",
  "Fast. Prüfe die Zeilennummer: Die Formel gilt für die erste Zeile des Bereichs, also Zeile 2.": "Почти. Проверь номер строки: формула написана для первой строки диапазона, то есть строки 2.",
  "Nur Spalte A ist richtig gefärbt? Für Spalte B schaut Calc auf C, für Spalte C auf D – der Bezug wandert mit! Setz ein $ vor das B: $B2=\"nein\"": "Правильно раскрашен только столбец A? Для столбца B Calc смотрит на C, для столбца C – на D: ссылка сдвигается! Поставь <code>$</code> перед B: <code>$B2=\"nein\"</code>",
- "★ Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">★ Expedition</span> Я закрашиваю целые строки с помощью „Formel ist“ (формула).",
  "Üben Wer hat sich doppelt angemeldet?": "<span class=\"badge ueben\">Üben</span> Кто записался дважды?",
  "18 Anmeldungen zum Skikurs, aber manche Namen stehen mehrmals da. Calc hat dafür eine eigene Bedingung: Format → Bedingt → Bedingung … → Zellwert ist · doppelt.": "18 заявок на лыжный курс, но некоторые имена встречаются несколько раз. Для этого в Calc есть отдельное условие: <strong>Format → Bedingt → Bedingung … → Zellwert ist · doppelt</strong> (значение ячейки · повторяющееся).",
  "Calc färbt jeden Namen, der mehr als einmal vorkommt, auch den ersten. Löschst du die Zeilen mit den doppelten Namen, verschwindet das Rot von selbst.": "Calc закрашивает <em>каждое</em> имя, которое встречается больше одного раза, и первое тоже. Если удалишь строки с повторами, красный исчезнет сам.",
@@ -105,5 +96,5 @@
  "drei Farben: rot, gelb, grün": "<strong>светофор</strong> – три цвета: красный, жёлтый, зелёный",
  "etwas neu machen, z. B. eine Bedingung": "<strong>создать</strong> – сделать что-то новое, например условие",
  "ansehen, ändern und löschen": "<strong>управлять</strong> – смотреть, менять и удалять",
- "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Теперь Calc окрашивает по нескольким правилам – зелёный, жёлтый и красный, как светофор. Ты узнаешь, почему важен порядок правил, как окрасить текст и как брать границу из ячейки."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Теперь Calc окрашивает по нескольким правилам: зелёный, жёлтый и красный, как светофор. Ты узнаешь, почему важен порядок правил. Ты также окрашиваешь текст и берёшь границу из ячейки."
 }

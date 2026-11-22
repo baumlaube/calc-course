@@ -3,9 +3,6 @@
  "Bedingte Formatierung 2 – Ampel, Text und Grenzen": "Bedingte Formatierung 2 (التنسيق الشرطي) – إشارة المرور والنص والحدود",
  "Klasse 9 · Baustein 7": "الصف 9 · الوحدة 7",
  "Vorwissen: Bedingte Formatierung 1, WENN 3": "المعرفة المسبقة: التنسيق الشرطي 1، WENN 3",
- "Ich kann mehrere Bedingungen in der richtigen Reihenfolge anlegen.": "أنشئ عدة شروط بالترتيب الصحيح.",
- "Ich kann Text färben lassen, z. B. alles mit „fehlt“.": "ألوّن النص، مثلًا كل ما فيه „fehlt“ (ناقص).",
- "Ich kann eine Grenze aus einer Zelle mit $ benutzen.": "أستخدم حدًّا من خلية مع <code>$</code>.",
  "Überleg: Welche Farbe bekommt der Akku mit 15 %?": "<strong>فكّر:</strong> أيّ لون تأخذ البطارية ذات <strong>15 %</strong>؟",
  "gelb": "أصفر",
  "rot": "أحمر",
@@ -31,11 +28,6 @@
  "★ Expedition: Ganze Zeile färben freiwillig": "<span class=\"step-no\">★</span> رحلة استكشاف: لوّن صفًا كاملًا <span class=\"badge expedition\">اختياري</span>",
  "OK": "OK",
  "Wer nicht bezahlt hat, soll mit der ganzen Zeile rot leuchten. Klick erst auf OK – was ist falsch? Dann verbessere die Formel.": "كل من لم يدفع يجب أن يتوهّج <strong>بصفّه كاملًا</strong> بالأحمر. انقر أولًا على OK – ما الخطأ؟ ثم حسّن الصيغة.",
- "Ich baue eine Ampel mit drei Bedingungen.": "أبني إشارة مرور بثلاثة شروط.",
- "Ich weiß: Die erste passende Bedingung gewinnt.": "أعرف: أول شرط يناسب هو الذي يفوز.",
- "Ich färbe Text, z. B. \"fehlt\".": "ألوّن النص، مثلًا <code>\"fehlt\"</code>.",
- "Plus Ich nehme die Grenze aus einer Zelle mit $.": "<span class=\"badge plus\">Plus</span> آخذ الحدّ من خلية مع <code>$</code>.",
- "Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span> ألوّن صفوفًا كاملة مع „Formel ist“.",
  "← 6 · Bedingte Formatierung 1": "← 6 · Bedingte Formatierung 1",
  "8 · Fit für die Probe →": "8 · جاهز للاختبار →",
  "✔ Jetzt steht „kleiner als 20 %“ zuerst – und Lea ist rot. Die strengste Bedingung gehört nach oben.": "✔ الآن „kleiner als 20 %“ في المقدّمة – وليا حمراء. الشرط الأشدّ مكانه في الأعلى.",
@@ -76,7 +68,6 @@
  "🏆 Expedition geschafft! Das $ vor B hält die Spalte fest: Name, bezahlt? und Betrag schauen alle auf Spalte B. Die 2 ohne $ wandert mit – jede Zeile prüft sich selbst.": "🏆 أنجزت رحلة الاستكشاف! الـ <code>$</code> قبل B تُثبّت العمود: الاسم وbezahlt? (مدفوع؟) والمبلغ كلها تنظر إلى العمود B. الرقم 2 بدون $ ينتقل – كل صف يفحص نفسه.",
  "Fast. Prüfe die Zeilennummer: Die Formel gilt für die erste Zeile des Bereichs, also Zeile 2.": "تقريبًا. تحقّق من رقم الصف: الصيغة مكتوبة لأول صف في النطاق، أي الصف 2.",
  "Nur Spalte A ist richtig gefärbt? Für Spalte B schaut Calc auf C, für Spalte C auf D – der Bezug wandert mit! Setz ein $ vor das B: $B2=\"nein\"": "العمود A فقط ملوّن بشكل صحيح؟ عند العمود B ينظر Calc إلى C، وعند العمود C إلى D – المرجع ينتقل! ضع <code>$</code> قبل B: <code>$B2=\"nein\"</code>",
- "★ Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">★ Expedition</span> ألوّن صفوفًا كاملة بـ „Formel ist“ (الصيغة هي).",
  "Üben Wer hat sich doppelt angemeldet?": "<span class=\"badge ueben\">Üben</span> من سجّل مرتين؟",
  "18 Anmeldungen zum Skikurs, aber manche Namen stehen mehrmals da. Calc hat dafür eine eigene Bedingung: Format → Bedingt → Bedingung … → Zellwert ist · doppelt.": "18 تسجيلًا في دورة التزلج، لكن بعض الأسماء مكرّرة. لدى Calc شرط خاص لذلك: <strong>Format → Bedingt → Bedingung … → Zellwert ist · doppelt</strong> (قيمة الخلية · مكرّرة).",
  "Calc färbt jeden Namen, der mehr als einmal vorkommt, auch den ersten. Löschst du die Zeilen mit den doppelten Namen, verschwindet das Rot von selbst.": "يلوّن Calc <em>كل</em> اسم يتكرّر أكثر من مرة، والأول أيضًا. إذا حذفت الصفوف ذات الأسماء المكرّرة، يختفي الأحمر من تلقاء نفسه.",
@@ -105,5 +96,5 @@
  "drei Farben: rot, gelb, grün": "<strong>إشارة المرور</strong> – ثلاثة ألوان: أحمر، أصفر، أخضر",
  "etwas neu machen, z. B. eine Bedingung": "<strong>ينشئ</strong> – يعمل شيئًا جديدًا، مثلًا شرطًا",
  "ansehen, ändern und löschen": "<strong>يدير</strong> – يرى ويغيّر ويحذف",
- "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "الآن يلوّن Calc حسب عدة قواعد – أخضر وأصفر وأحمر مثل إشارة المرور. تتعلم لماذا ترتيب القواعد مهم، وكيف تلوّن النص، وكيف يأتي الحدّ من خلية."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "الآن يلوّن Calc بعدة قواعد: أخضر وأصفر وأحمر مثل إشارة المرور. تتعلم لماذا ترتيب القواعد مهم. وتلوّن النص أيضًا وتأخذ الحدّ من خلية."
 }

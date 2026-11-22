@@ -3,9 +3,6 @@
  "Projekt: Welcher Handyvertrag passt zu mir?": "Проєкт: Який мобільний тариф мені підходить?",
  "Zusatzmodul · Projekt": "Додатковий модуль · проєкт",
  "Vorwissen: WENN, $-Anker, Diagramme": "Попередні знання: WENN, якір $, діаграми",
- "Ich kann Tarife mit WENN und MIN vergleichen.": "Я порівнюю тарифи за допомогою WENN і MIN.",
- "Ich kann Kosten über zwei Jahre berechnen.": "Я рахую витрати за два роки.",
- "Ich kann meine Entscheidung mit Zahlen und einem Diagramm begründen.": "Я обґрунтовую своє рішення числами й діаграмою.",
  "📱 Euer Auftrag": "<span class=\"step-no\">📱</span> Ваше завдання",
  "Vier Tarife, ein Ziel: Welcher ist für euren Datenbedarf über zwei Jahre am günstigsten? Die Tarife sind ausgedacht – die Rechnung ist echt.": "Чотири тарифи, одна мета: який найдешевший <strong>для вашої потреби в даних</strong> за два роки? Тарифи вигадані – математика справжня.",
  "ODS Projektdateix06-handyvertrag.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Projektdatei</strong> (файл проєкту)<small>x06-handyvertrag.ods</small></span>",
@@ -44,5 +41,5 @@
  "Kosten in 2 Jahren bei {} GB": "Витрати за 2 роки при {} ГБ",
  "Am günstigsten: {} mit {}.": "Найдешевший: <strong>{}</strong> – {}.",
  "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Даних не вистачає (навіть із додатковим пакетом): {}.",
- "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Кожен оператор рекламує найдешевший тариф. Який справді підходить тобі? У цьому проєкті ти порівнюєш тарифи за два роки за допомогою <code>WENN</code> (ЯКЩО) і <code>MIN</code> та обґрунтовуєш вибір числами й діаграмою."
+ "Jeder Anbieter sagt: Unser Tarif ist der beste. Welcher passt wirklich zu dir? Du vergleichst Tarife über zwei Jahre mit WENN und MIN. Deine Wahl zeigst du mit Zahlen und einem Diagramm.": "Кожен оператор каже: наш тариф найкращий. Який справді підходить тобі? Ти порівнюєш тарифи за два роки з <code>WENN</code> (ЯКЩО) і <code>MIN</code>. Свій вибір показуєш числами й діаграмою."
 }

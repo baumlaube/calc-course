@@ -3,9 +3,6 @@
  "WENN 3 – Grenzen in eigenen Zellen": "WENN 3 (IF 3) – limits in their own cells",
  "Klasse 9 · Baustein 5": "Grade 9 · Unit 5",
  "Teil 3 von 3 zu WENN": "Part 3 of 3 about WENN (IF)",
- "Ich kann Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "I can write limits into their own cell and fix them with <code>$</code>.",
- "Ich kann WENN-Formeln mit Text, Zahlen und Rechnungen sicher schreiben.": "I can write WENN formulas with text, numbers and calculations safely.",
- "Ich kann eine Probe-Aufgabe zu WENN allein lösen.": "I can solve a test task about WENN on my own.",
  "💡 Beim Erste-Hilfe-Quiz hat bestanden, wer mindestens 15 Punkte hat. In Spalte C steht überall so eine Formel: =WENN(B5>=15;\"bestanden\";\"durchgefallen\")": "💡 In the first-aid quiz, anyone with at least 15 points passed. Column C contains a formula like this everywhere: <code class=\"long\">=WENN(B5&gt;=15;\"bestanden\";\"durchgefallen\")</code>",
  "Überleg: Neue Regel – bestanden erst ab 16 Punkten. Wie viele Zellen musst du ändern?": "<strong>Think:</strong> New rule – passed only from <strong>16</strong> points. How many cells do you have to change?",
  "nur eine": "only one",
@@ -36,11 +33,6 @@
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> Expedition: UND (AND) <span class=\"badge expedition\">optional</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> is only true if <strong>both</strong> are true.<br/>With <code>ODER(…; …)</code> (OR) one is enough.",
  "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "It is a swimming pool day if it is <strong>at least 25 °C</strong> <strong>and</strong> not raining. Write a WENN formula with UND in D5 and fill it down.",
- "Ich schreibe Grenzen in eine eigene Zelle und nehme sie mit $.": "I write limits into their own cell and use them with <code>$</code>.",
- "Ich wähle das richtige Vergleichszeichen, z. B. >= für „ab“.": "I choose the right comparison sign, e.g. <code>&gt;=</code> for “from”.",
- "Ich setze Text in Anführungszeichen und Zahlen ohne.": "I put text in quotation marks and numbers without.",
- "Plus Ich löse Probe-Aufgaben zu WENN ohne Vorlage.": "<span class=\"badge plus\">Plus</span> I solve test tasks about WENN without a model.",
- "Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">Expedition</span> I can combine WENN with UND.",
  "← 4 · WENN 2": "← 4 · WENN 2 (IF 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (conditional formatting) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -89,7 +81,6 @@
  "eine Fehlermeldung": "an error message",
  "viel": "viel (a lot)",
  "wenig": "wenig (a little)",
- "★ Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">★ Expedition</span> I can combine WENN with UND (AND).",
  "Üben Wochenlohn mit Überstunden": "<span class=\"badge ueben\">Üben</span> Weekly wage with overtime",
  "Bis 38,5 Stunden gibt es den normalen Stundenlohn. Jede Stunde mehr ist eine Überstunde mit 30 % Zuschlag. Tarif und Zuschlag stehen in blauen Zellen.": "Up to 38.5 hours there is the normal hourly wage. Every extra hour is overtime with a 30 % bonus. Standard hours and bonus are in blue cells.",
  "=WENN(B6>=$B$2;$B$2*C6;B6*C6) – hier wird in Dann und Sonst gerechnet.": "<code class=\"long\">=WENN(B6&gt;=$B$2;$B$2*C6;B6*C6)</code> – here you calculate in <strong>Dann</strong> (then) and <strong>Sonst</strong> (else).",
@@ -119,5 +110,5 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Not quite at the bottom yet. Still empty: {}. Drag from C5 down to C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Monday is correct! Now drag the <strong>Ausfüllkästchen</strong> (fill handle) down to D7.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Not quite at the bottom yet. Drag from D5 down to D7.",
- "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Rules change: tomorrow it may be 16 points instead of 15. If the limit is in its own cell, you change it in one place and all formulas recalculate. At the end you solve <code>WENN</code> tasks on your own, just like in the test."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Rules change. Today you need 15 points, tomorrow maybe 16. So write the limit in its own cell. Then you change only this one cell, and all formulas recalculate. At the end you solve <code>WENN</code> tasks on your own, like in the test."
 }

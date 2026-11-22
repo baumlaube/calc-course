@@ -3,9 +3,6 @@
  "Funktionen – ganze Bereiche auf einmal": "Functions – whole ranges at once",
  "Klasse 8 · Baustein 3": "Grade 8 · Unit 3",
  "Vorwissen: Formeln mit Zellen": "Prior knowledge: formulas with cells",
- "Ich kann mit SUMME einen ganzen Bereich zusammenzählen.": "I can add up a whole range with <strong>SUMME</strong> (sum).",
- "Ich kann MITTELWERT, MIN und MAX benutzen.": "I can use <strong>MITTELWERT</strong> (average), <strong>MIN</strong> and <strong>MAX</strong>.",
- "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "I can write a range like <code>B5:B9</code> or select it with the mouse.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>You already know this:</strong> <code>=B5+B6+B7+B8+B9</code> adds up five days. But what about 365 days? That's what <strong>functions</strong> are for.<br/>B10 contains: <code>=SUMME(B5:B9)</code>",
  "Überleg: Was bedeutet B5:B9?": "<strong>Think:</strong> What does <code>B5:B9</code> mean?",
  "Nur B5 und B9": "Only B5 and B9",
@@ -39,11 +36,6 @@
  "★ Expedition: Würfeln mit Calc freiwillig": "<span class=\"step-no\">★</span> Expedition: Rolling dice with Calc <span class=\"badge expedition\">optional</span>",
  "Jeder Würfel oben ist eine Formel: =ZUFALLSBEREICH(1;6). Berechne in B7 den Durchschnitt aller 20 Würfe. Dann würfle ein paar Mal neu.": "Every dice above is a formula: <code>=ZUFALLSBEREICH(1;6)</code> (random between). Calculate the average of all 20 rolls in B7. Then roll again a few times.",
  "Neu: Ein Bereich kann auch ein Rechteck sein: B2:F5 heißt von B2 oben links bis F5 unten rechts.": "New: a range can also be a rectangle: <code>B2:F5</code> means from B2 at the top left to F5 at the bottom right.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren.": "I can read and select a range like <code>B5:B9</code>.",
- "Ich kann SUMME, MITTELWERT, MIN und MAX benutzen.": "I can use SUMME, MITTELWERT, MIN and MAX.",
- "Ich weiß, wann ich welche Funktion brauche.": "I know which function I need when.",
- "Plus Ich kann ANZAHL benutzen und zwei Funktionen in einer Formel verbinden.": "<span class=\"badge plus\">Plus</span> I can use ANZAHL (count) and combine two functions in one formula.",
- "Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">Expedition</span> I can analyse rectangle ranges like <code>B2:F5</code>.",
  "← 2 · Erste Formeln": "← 2 · First formulas",
  "4 · Ausfüllen →": "4 · Filling →",
  "Der Doppelpunkt heißt „bis“. Schau auf den farbigen Rahmen: B5:B9 umfasst alle fünf Zellen von B5 bis B9.": "The colon means <strong>“to”</strong>. Look at the coloured frame: <code>B5:B9</code> includes all five cells from B5 to B9.",
@@ -83,9 +75,6 @@
  "PlusAufgabe 1c · Summen-Fallen: Wann der Σ-Knopf danebenliegt.": "<span class=\"badge plus\">Plus</span><span><strong>Task 1c · Sum traps:</strong> When the Σ button gets it wrong.</span>",
  "Bereich markieren: Nach =SUMME( mit gedrückter Maustaste von B5 bis B9 ziehen. Lange Liste: erste Zahl anklicken, dann Strg + ⇧ + ↓.": "Select a range: after <code>=SUMME(</code> hold the mouse button and drag from B5 to B9. Long list: click the first number, then <kbd>Strg</kbd> + <kbd>⇧</kbd> + <kbd>↓</kbd>.",
  "Der Σ-Knopf rät den Bereich. Rahmen prüfen, dann erst Enter.": "The Σ button guesses the range. <strong>Check the frame</strong>, only then <kbd>Enter</kbd>.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren, auch eine lange Liste.": "I can read and select a range like <code>B5:B9</code>, even a long list.",
- "Ich prüfe den Vorschlag vom Σ-Knopf, bevor ich Enter drücke.": "I check the suggestion of the Σ button before I press <kbd>Enter</kbd>.",
- "★ Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">★ Expedition</span> I can analyse rectangle ranges like <code>B2:F5</code>.",
  "Üben Mein Zeugnis-Schnitt": "<span class=\"badge ueben\">Üben</span> My report card average",
  "In Bayern zählen die Schulaufgaben (SA) doppelt. Spalte J zeigt den normalen Durchschnitt. Was steht im Zeugnis?": "In Bavaria the Schulaufgaben (SA, big tests) count <strong>double</strong>. Column J shows the normal average. What goes on the report card?",
  "=(2*SUMME(B2:D2)+SUMME(E2:I2))/113 SA doppelt = 6, dazu 5 andere Noten = 11": "<code>=(2*SUMME(B2:D2)+SUMME(E2:I2))/11</code><br/>3 SA double = 6, plus 5 other marks = 11",
@@ -133,5 +122,5 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>average</strong> – add everything up and divide by how many there are. In Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>value</strong> – what is in a cell, usually a number",
  "Zellen mit der Maus auswählen": "<strong>to select</strong> – to choose cells with the mouse",
- "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "You can still add five numbers with <code>+</code>. With 30 grades or 365 days it gets tedious. Functions like <code>SUMME</code> (SUM), <code>MITTELWERT</code> (AVERAGE), <code>MIN</code> and <code>MAX</code> calculate a whole range at once. With <code>MITTELWERT</code> you can work out your grade average, for example."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "You can add five numbers with <code>+</code>. But 30 grades? Or 365 days? That takes too long. A function like <code>SUMME</code> (SUM) calculates many cells at once. With <code>MITTELWERT</code> (AVERAGE) you can work out your grade average, for example."
 }

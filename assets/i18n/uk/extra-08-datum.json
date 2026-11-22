@@ -2,9 +2,6 @@
  "Datum & Zeit · Calc-Kurs Zusatzmodul": "Дата і час · Курс Calc, додатковий модуль",
  "Datum & Zeit – wie viele Tage noch?": "Дата і час – скільки ще днів?",
  "Vorwissen: Formeln, $-Anker": "Попередні знання: формули, якір $",
- "Ich weiß: Ein Datum ist für Calc eine Zahl.": "Я знаю: для Calc дата – це число.",
- "Ich rechne mit HEUTE() aus, wie viele Tage es noch dauert.": "Я рахую за допомогою <code>HEUTE()</code> (СЬОГОДНІ), скільки днів залишилося.",
- "Ich addiere Tage zu einem Datum.": "Я додаю дні до дати.",
  "💡 In A2 steht der 10.11.2026, in B2 der Ferienbeginn 24.12.2026. In C2 kommt =B2-A2.": "💡 В A2 стоїть 10.11.2026, у B2 – початок канікул 24.12.2026. У C2 пишемо <code>=B2-A2</code>.",
  "2 Ein Datum ist eine Zahl 7 Min": "<span class=\"step-no\">2</span> Дата – це число <span class=\"chip\">7 хв</span>",
  "Für Calc ist ein Datum die Zahl der Tage seit dem 30.12.1899.Darum kann man mit Daten rechnen.": "Для Calc дата – це кількість днів від <strong>30.12.1899</strong>.<br/>Тому з датами можна рахувати.",
@@ -47,5 +44,5 @@
  "Ein Text": "Текст",
  "Neu tippen": "Ввести заново",
  "Eine Formel": "Формула",
- "Wie viele Tage sind es noch bis zu den Ferien? Für Calc ist ein Datum eine Zahl. Darum kann Calc mit Daten rechnen: Tage zählen, Fristen ausrechnen und mit HEUTE() immer vom aktuellen Tag aus.": "Скільки днів залишилося до канікул? Для Calc дата – це число. Тому Calc може рахувати з датами: лічити дні, обчислювати терміни – а з <code>HEUTE()</code> (СЬОГОДНІ) завжди від поточного дня."
+ "Wie viele Tage sind es noch bis zu den Ferien? Für Calc ist ein Datum eine Zahl. Darum kann Calc mit einem Datum rechnen. Mit HEUTE() rechnet Calc immer vom heutigen Tag aus.": "Скільки днів залишилося до канікул? Для Calc дата – це число. Тому Calc може рахувати з датою. З <code>HEUTE()</code> (СЬОГОДНІ) Calc завжди рахує від сьогоднішнього дня."
 }

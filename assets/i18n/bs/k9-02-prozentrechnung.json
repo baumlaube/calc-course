@@ -3,9 +3,6 @@
  "Prozentrechnung – Rabatt, Anteile, Mehrwertsteuer": "Procenti – popust, udjeli, PDV",
  "Klasse 9 · Baustein 2": "9. razred · Cjelina 2",
  "Vorwissen: Prozente aus Mathe, $-Anker": "Predznanje: procenti iz matematike, $ sidro",
- "Ich kann Prozente in Calc richtig eingeben und als % formatieren.": "Mogu procente u Calcu pravilno upisati i formatirati kao %.",
- "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "Mogu formulama izračunati popust, udjele i PDV.",
- "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "Mogu jedan procenat sa <code>$</code> sidrom koristiti za mnogo redova.",
  "💡 Aus Mathe kennst du: 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 20 %.": "💡 <strong>Iz matematike znaš:</strong> 20 % od 50 € = 50 € · 20 : 100 = 10 €. U tabeli gore B2 pokazuje <strong>20 %</strong>.",
  "Überleg: Welche Zahl steht für Calc wirklich in B2?": "<strong>Razmisli:</strong> Koji broj za Calc stvarno stoji u B2?",
  "Gar keine Zahl, sondern der Text „20 %“": "Nikakav broj, nego tekst „20 %“",
@@ -27,11 +24,6 @@
  "Neuer Preis nach Rabatt: =B5-C5 oder =B5*(1-$B$2)": "Nova cijena nakon popusta: <code>=B5-C5</code> ili <code>=B5*(1-$B$2)</code>",
  "Mit Mehrwertsteuer: =Netto*(1+Steuersatz)": "Sa PDV-om: <code>=Netto*(1+Steuersatz)</code> (neto*(1+poreska stopa))",
  "Anteil: =Teil/Ganzes, dann %-Knopf. Erst rechnen, dann formatieren!": "Udio: <code>=Teil/Ganzes</code> (dio/cjelina), onda dugme %. Prvo računaj, onda formatiraj!",
- "Ich tippe Prozente richtig ein und formatiere Zahlen als %.": "Procente upisujem tačno i formatiram brojeve kao %.",
- "Ich berechne Rabatt und neuen Preis mit Formeln.": "Formulama računam popust i novu cijenu.",
- "Ich berechne Anteile mit =Teil/Ganzes.": "Udjele računam sa <code>=Teil/Ganzes</code>.",
- "Plus Ich berechne Brutto-Preise mit der Mehrwertsteuer.": "<span class=\"badge plus\">Plus</span> Računam bruto cijene sa PDV-om.",
- "★ Expedition Ich weiß, warum 20 % + 10 % Rabatt keine 30 % sind.": "<span class=\"badge expedition\">★ Expedition</span> Znam zašto 20 % + 10 % popusta nije 30 %.",
  "★ Expedition Rabatt auf Rabatt": "<span class=\"badge expedition\">★ Expedition</span> Popust na popust",
  "Die Jacke kostet 80 €. Im Sale gibt es 20 %, an der Kasse nochmal 10 % extra. Die Werbung sagt: „30 % sparen!“": "Jakna košta 80 €. Na rasprodaji ima 20 %, na kasi još 10 % ekstra. Reklama kaže: „Uštedi 30 %!“",
  "Berechne in B5 den Endpreis und in B6, wie viel Prozent du wirklich sparst.": "Izračunaj u <strong>B5</strong> konačnu cijenu i u <strong>B6</strong> koliko procenata stvarno uštediš.",
@@ -105,5 +97,6 @@
  "netto: der Preis ohne Steuer · brutto: der Preis mit Steuer": "<strong>neto · bruto</strong> – netto: cijena bez poreza · brutto: cijena s porezom",
  "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "Sve 20 % jeftinije! Napiši u <strong>C5</strong> popust u € i u <strong>D5</strong> novu cijenu. Onda označi C5 i D5 zajedno i povuci oboje kvadratićem za popunjavanje (<strong>Ausfüllkästchen</strong>) nadolje do reda 7.",
  "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "Još nije sve popunjeno. Označi C5 i D5 <strong>zajedno</strong> i povuci kvadratić za popunjavanje (<strong>Ausfüllkästchen</strong>) nadolje do reda 7.",
- "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ Red 5 je tačan! Sada označi C5 i D5 zajedno i povuci oboje kvadratićem za popunjavanje (<strong>Ausfüllkästchen</strong>) nadolje do reda 7."
+ "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ Red 5 je tačan! Sada označi C5 i D5 zajedno i povuci oboje kvadratićem za popunjavanje (<strong>Ausfüllkästchen</strong>) nadolje do reda 7.",
+ "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "Procente poznaješ iz matematike. Sada računaš procente u Calcu. Tako brzo izračunaš koliko koštaju hlače s 30 % popusta. Ili koliko PDV-a piše na računu."
 }

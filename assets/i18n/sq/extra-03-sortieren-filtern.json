@@ -1,9 +1,6 @@
 {
  "Sortieren & Filtern · Calc-Kurs Zusatzmodul": "Renditje dhe filtrim · Kursi Calc modul shtesë",
  "Sortieren & Filtern – große Tabellen bändigen": "Sortieren &amp; Filtern (renditje dhe filtrim) – zbut tabelat e mëdha",
- "Ich kann eine Tabelle auf- oder absteigend sortieren.": "Mund ta rendit një tabelë në rritje ose në zbritje.",
- "Ich kann mit dem AutoFilter nur bestimmte Zeilen anzeigen.": "Mund të tregoj vetëm rreshta të caktuar me AutoFilter.",
- "Ich weiß, warum man nie nur eine Spalte sortiert.": "E di pse nuk rendit kurrë vetëm një kolonë.",
  "💡 Tom will die Besten oben haben. Er markiert nur die Spalte C und sortiert sie absteigend.": "💡 Tomi do që më të mirët të jenë lart. Zgjedh <strong>vetëm kolonën C</strong> dhe e rendit në zbritje.",
  "Überleg: Was passiert?": "<strong>Mendo:</strong> Çfarë ndodh?",
  "Alles richtig – die Besten stehen oben.": "Gjithçka është në rregull – më të mirët janë lart.",
@@ -64,5 +61,5 @@
  "alphabetisch": "sipas alfabetit",
  "größte oben": "më i madhi lart",
  "kleinste oben": "më i vogli lart",
- "In einer Tabelle mit Hunderten Zeilen sucht niemand von Hand. Du sortierst sie, zum Beispiel nach Punkten, oder du filterst nur die Zeilen, die du brauchst. Das kennst du aus jedem Online-Shop: sortieren nach Preis, filtern nach Größe.": "Në një tabelë me qindra rreshta askush nuk kërkon me dorë. E rendit, për shembull sipas pikëve, ose filtron vetëm rreshtat që të duhen. Këtë e njeh nga çdo dyqan online: rendit sipas çmimit, filtro sipas masës."
+ "Eine Tabelle hat hundert Zeilen. Du suchst nicht jede Zeile ab. Du sortierst die Tabelle, zum Beispiel nach Punkten. Oder du filterst: Dann siehst du nur die Zeilen, die du brauchst. Das kennst du aus Online-Shops: sortieren nach Preis, filtern nach Größe.": "Një tabelë ka njëqind rreshta. Nuk i kontrollon të gjithë rreshtat një nga një. E rendit tabelën, për shembull sipas pikëve. Ose e filtron: atëherë sheh vetëm rreshtat që të duhen. Këtë e njeh nga dyqanet online: rendit sipas çmimit, filtro sipas masës."
 }

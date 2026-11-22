@@ -2,9 +2,6 @@
  "Fehlerdetektiv · Calc-Kurs Klasse 9": "Detectivul de erori · Curs Calc clasa a 9-a",
  "Fehlerdetektiv – Fehler finden und reparieren": "Detectivul de erori – găsește și repară erorile",
  "Klasse 9 · Baustein 1": "Clasa a 9-a · Unitatea 1",
- "Ich kann Fehlermeldungen wie #WERT!, #DIV/0! und #NAME? deuten und beheben.": "Pot înțelege și repara mesaje de eroare ca <code>#WERT!</code> (#VALOARE!), <code>#DIV/0!</code> și <code>#NAME?</code>.",
- "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "Pot găsi erorile tăcute pe care Calc nu le arată.",
- "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "Pot repara formule cu tot ce știu din clasa a 8-a.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>Știi deja asta:</strong> <code>=C5/B5</code> împarte punctele la numărul de participanți. În D5 merge. Dar D6 arată deodată <code>#DIV/0!</code>.",
  "Überleg: Warum?": "<strong>Gândește-te:</strong> De ce?",
  "Die Punktzahl ist zu hoch.": "Punctajul e prea mare.",
@@ -47,11 +44,6 @@
  "In Englisch gibt es noch keine Noten, darum zeigt der Durchschnitt #DIV/0!. Das sieht im Zeugnis nicht gut aus.": "La engleză încă nu sunt note, de aceea media arată <code>#DIV/0!</code>. Asta nu arată bine în catalog.",
  "=WENNFEHLER(Formel; \"Ersatz\")Klappt die Formel, kommt ihr Ergebnis. Sonst kommt der Ersatz.": "<code>=WENNFEHLER(Formel; \"Ersatz\")</code><br/>Dacă formula merge, primești rezultatul ei. Altfel primești înlocuitorul.",
  "Ändere E3 so, dass statt des Fehlers keine Noten erscheint. Text steht in Anführungszeichen.": "Schimbă E3 astfel încât în loc de eroare să apară <code>keine Noten</code> (nicio notă). Textul stă între ghilimele.",
- "Ich weiß, was #WERT!, #DIV/0! und #NAME? bedeuten.": "Știu ce înseamnă <code>#WERT!</code>, <code>#DIV/0!</code> și <code>#NAME?</code>.",
- "Ich kann laute Fehler reparieren.": "Pot repara erorile zgomotoase.",
- "Ich finde stille Fehler mit den Detektiv-Tricks.": "Găsesc erorile tăcute cu trucurile de detectiv.",
- "Plus Ich kann Fehler absichtlich erzeugen und erklären.": "<span class=\"badge plus\">Plus</span> Pot face erori intenționat și le pot explica.",
- "Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">Expedition</span> Pot prinde erorile cu WENNFEHLER (DACĂEROARE).",
  "← Klasse 8 · Projekt": "← Clasa a 8-a · Proiect",
  "2 · Prozentrechnung →": "2 · Procente →",
  "Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.": "Un clic pe D6 arată: formula folosește B6, iar B6 e gol. O celulă goală contează ca 0, iar la 0 nu se poate împărți.",
@@ -92,7 +84,6 @@
  "Aus still wird laut: Wandert ein Bezug ohne $ auf eine leere Zelle oder auf Text, zeigt Calc weiter unten #DIV/0! oder #WERT!. Der Fehler steckt dann oben in der ersten Formel.": "<strong>Din tăcut devine zgomotos:</strong> dacă o referință fără <code>$</code> alunecă pe o celulă goală sau pe text, Calc arată mai jos <code>#DIV/0!</code> sau <code>#WERT!</code>. Greșeala e atunci sus, în prima formulă.",
  "Stille Fehler zeigt Calc nicht an: getippte Zahlen, fehlendes $, Bereich zu kurz oder zu groß.": "<strong>Greșelile tăcute</strong> nu le arată Calc: numere scrise de mână, <code>$</code> lipsă, zonă prea scurtă sau prea mare.",
  "MAX, MIN und MITTELWERT brauchen einen Bereich mit Doppelpunkt: =MAX(G5:G10).": "<code>MAX</code>, <code>MIN</code> și <code>MITTELWERT</code> au nevoie de o zonă cu două puncte: <code>=MAX(G5:G10)</code>.",
- "★ Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">★ Expedition</span> Pot prinde erori cu WENNFEHLER (IFERROR).",
  "Üben Aufwärmen: Waffelverkauf": "<span class=\"badge ueben\">Üben</span> Încălzire: vânzarea de vafe",
  "Stückzahl und Umsatz für sechs Waffelsorten, dazu MAX, MIN und MITTELWERT. Die Kontrolle merkt, wenn der Preis mit in der Summe steckt.": "Cantitate și încasări pentru șase feluri de vafe, plus MAX, MIN și MITTELWERT. Verificarea observă dacă prețul a intrat în sumă.",
  "ODS Üben: Waffelverkaufk9-01-fehlerdetektiv-mehr-waffelverkauf.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Vânzarea de vafe</strong><small>k9-01-fehlerdetektiv-mehr-waffelverkauf.ods</small></span>",
@@ -135,5 +126,5 @@
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>îngust</strong> – nu lat. <code>###</code> înseamnă: coloana e prea îngustă.",
  "verstehen, was etwas bedeutet": "<strong>a interpreta</strong> – a înțelege ce înseamnă ceva",
  "einen Fehler wieder richtig machen": "<strong>a repara</strong> – a face o eroare din nou corectă",
- "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "În tabele apar greșeli, chiar și la profesioniști. Pe unele Calc le arată „zgomotos”, de exemplu <code>#DIV/0!</code>. Altele sunt „tăcute”: numărul pare corect, dar tot e greșit. Aici înveți să le găsești și să le repari pe amândouă. Totodată repeți tot din clasa a 8-a."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "În tabele apar greșeli. Pe unele Calc le arată, de exemplu <code>#DIV/0!</code>. Pe altele Calc nu le arată: numărul pare corect, dar e greșit. Aici înveți să le găsești și să le repari pe amândouă. Totodată repeți clasa a 8-a."
 }

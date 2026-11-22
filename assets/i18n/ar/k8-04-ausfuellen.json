@@ -3,9 +3,6 @@
  "Formeln ausfüllen – einmal schreiben, überall rechnen": "تعبئة الصيغ – اكتب مرة، واحسب في كل مكان",
  "Klasse 8 · Baustein 4": "الصف 8 · الوحدة 4",
  "Vorwissen: Formeln, SUMME": "المعرفة المسبقة: الصيغ، SUMME",
- "Ich kann eine Formel nach unten und nach rechts ziehen.": "أسحب صيغة إلى الأسفل وإلى اليمين.",
- "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "أستطيع أن أشرح كيف تتغيّر مراجع الخلايا.",
- "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "أتوقّع أيّ صيغة ستكون في خلية.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "أنت تتسوّق لحفلة الصف. في D5 توجد أصلًا الصيغة <code>=B5*C5</code> → 4 × 1,50 € = 6,00 €.<br/>للصفوف الأخرى لا تكتب كل شيء من جديد – بل <strong>تسحب</strong> الصيغة ببساطة إلى الأسفل.",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – نفسها تمامًا",
  "gar keine – nur die Zahl 6,00 €": "لا صيغة – فقط الرقم 6,00 €",
@@ -41,11 +38,6 @@
  "Du sparst auf ein Fahrrad. Jede Woche kommt ein Betrag dazu. Wie viel hast du nach 8 Wochen?": "أنت تدّخر لشراء درّاجة. كل أسبوع يُضاف مال. كم لديك بعد 8 أسابيع؟",
  "Kontostand = Kontostand der Vorwoche + neuer Betrag": "الرصيد = <strong>رصيد الأسبوع السابق</strong> + المبلغ الجديد",
  "In C5 steht der Kontostand nach Woche 1. Schreib in C6 eine Formel für Woche 2 und zieh sie nach unten. Tipp: Die Vorwoche steht genau eine Zeile darüber.": "C5 تُظهر الرصيد بعد الأسبوع 1. اكتب في <strong>C6</strong> صيغة للأسبوع 2 واسحبها إلى الأسفل. تلميح: الأسبوع السابق موجود بالضبط في الصف الذي فوقه.",
- "Ich finde das Ausfüllkästchen und kann eine Formel nach unten ziehen.": "أجد مقبض التعبئة وأسحب صيغة إلى الأسفل.",
- "Ich kann eine Formel nach rechts ziehen.": "أسحب صيغة إلى اليمين.",
- "Ich kann erklären, warum aus =B5*C5 eine Zeile tiefer =B6*C6 wird.": "أستطيع أن أشرح لماذا تصبح <code>=B5*C5</code> في الصف الأدنى <code>=B6*C6</code>.",
- "Plus Ich kann vorhersagen, welche Formel nach dem Ziehen in einer Zelle steht.": "<span class=\"badge plus\">Plus</span> أتوقّع أيّ صيغة تكون في خلية بعد السحب.",
- "Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">Expedition</span> أحسب رصيدًا جاريًا.",
  "← 3 · Funktionen": "← 3 · الدوال",
  "5 · Absolute Bezüge →": "5 · المراجع المطلقة →",
  "Calc füllt aus … schau auf Spalte D!": "Calc يعبّئ … انظر إلى العمود D!",
@@ -92,7 +84,6 @@
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen. Mit Probe: Kommt auf beiden Wegen dasselbe heraus?": "<span class=\"badge basis\">Basis</span><span><strong>المهمة 2 · المصروف:</strong> عبّئ المجاميع إلى اليمين <em>و</em> إلى الأسفل. مع تحقّق: هل تخرج النتيجة نفسها بالطريقتين؟</span>",
  "Calc setzt auch Reihen fort: Montag → Dienstag, Januar → Februar, 10 und 20 → 30.": "Calc يكمل السلاسل أيضًا: Montag → Dienstag (الاثنين → الثلاثاء)، Januar → Februar، 10 و 20 → 30.",
  "Probe: Die Gesamtsumme auf zwei Wegen rechnen. Gleich? Dann stimmt alles.": "<strong>التحقّق:</strong> احسب المجموع الكلي بطريقتين. متساويان؟ إذن كل شيء صحيح.",
- "★ Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">★ Expedition</span> أستطيع حساب الرصيد الجاري.",
  "Üben Das Ausfüll-Orakel": "<span class=\"badge ueben\">Üben</span> عرّاف التعبئة",
  "Das Orakel aus Schritt 2 – jetzt selbst in Calc: Was macht Calc aus Montag, Quartal 1 oder 5, 3? Erst raten, dann ausfüllen.": "العرّاف من الخطوة 2 – الآن بنفسك في Calc: ماذا يصنع Calc من Montag أو Quartal 1 أو 5، 3؟ خمّن أولًا، ثم عبّئ.",
  "ODS Üben: Ausfüll-Orakelk8-04-ausfuellen-mehr-ausfuell-orakel.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: عرّاف التعبئة</strong><small>k8-04-ausfuellen-mehr-ausfuell-orakel.ods</small></span>",
@@ -149,5 +140,5 @@
  "Fehler": "خطأ",
  "Montag": "Montag (الاثنين)",
  "Donnerstag": "Donnerstag (الخميس)",
- "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "غالبًا يكون الحساب نفسه في كل صف: لكل منتج، لكل يوم، لكل طالب. تكتب الصيغة مرة واحدة فقط وتسحبها إلى الأسفل. Calc يعدّل الخلايا في كل صف بنفسه. هذا يوفّر كثيرًا من الكتابة والأخطاء."
+ "Oft rechnest du in jeder Zeile das Gleiche: für jeden Artikel, für jeden Tag. Du schreibst die Formel nur einmal. Dann ziehst du sie nach unten. Calc passt die Formel in jeder Zeile selbst an. So tippst du weniger und machst weniger Fehler.": "غالبًا تحسب الشيء نفسه في كل صف: لكل منتج، لكل يوم. تكتب الصيغة مرة واحدة فقط. ثم تسحبها إلى الأسفل. Calc يعدّل الصيغة في كل صف بنفسه. هكذا تكتب أقل وتخطئ أقل."
 }

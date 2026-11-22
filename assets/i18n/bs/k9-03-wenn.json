@@ -3,9 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (AKO 1) – Calc postavlja pitanje",
  "Klasse 9 · Baustein 3": "9. razred · Cjelina 3",
  "Teil 1 von 3 zu WENN": "1. dio od 3 o WENN",
- "Ich kann eine WENN-Formel als Ja/Nein-Frage lesen.": "Mogu pročitati WENN formulu kao pitanje da/ne.",
- "Ich kann =WENN(Frage;\"Ja\";\"Nein\") selbst schreiben.": "Mogu sam/a napisati <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code> (pitanje; da; ne).",
- "Ich kann statt Ja und Nein eigene Antworten ausgeben.": "Mogu umjesto Ja i Nein dati svoje odgovore.",
  "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 U B5 ide ova formula: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
  "Überleg: Was zeigt B5?": "<strong>Razmisli:</strong> Šta pokazuje B5?",
  "Nein": "Nein (ne)",
@@ -35,11 +32,6 @@
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "Poređenje: <code>=</code> jednako · <code>&lt;&gt;</code> nije jednako · <code>&lt;</code> manje · <code>&gt;</code> veće · <code>&lt;=</code> najviše · <code>&gt;=</code> najmanje",
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "Umjesto <code>\"Ja\"</code> i <code>\"Nein\"</code> smije stajati bilo koji tekst, npr. <code>\"bestanden\"</code>.",
  "Gegenfrage: Frage umdrehen und Antworten tauschen – das Ergebnis bleibt gleich. Aus <= wird >.": "Obrnuto pitanje: okreni pitanje i zamijeni odgovore – rezultat ostaje isti. Od <code>&lt;=</code> postaje <code>&gt;</code>.",
- "Ich lese eine WENN-Formel als Frage.": "WENN formulu čitam kao pitanje.",
- "Ich schreibe =WENN(Frage;\"Ja\";\"Nein\") ohne Vorlage.": "Pišem <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code> bez predloška.",
- "Ich kenne die Vergleichszeichen, besonders >= und <>.": "Znam znakove za poređenje, posebno <code>&gt;=</code> i <code>&lt;&gt;</code>.",
- "Plus Ich finde zu fertigen Antworten die passende Frage.": "<span class=\"badge plus\">Plus</span> Za gotove odgovore nalazim odgovarajuće pitanje.",
- "★ Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">★ Expedition</span> Pravim kviz koji se sam ocjenjuje.",
  "Üben Wer fährt Bus?": "<span class=\"badge ueben\">Üben</span> Ko ide autobusom?",
  "Wer höchstens 5 km weit weg wohnt, fährt Fahrrad. Alle anderen fahren Bus. Du schreibst zwei Fragen. Die zweite ist die Gegenfrage zur ersten.": "Ko stanuje najviše 5 km daleko, vozi bicikl. Svi ostali idu autobusom. Pišeš dva pitanja. Drugo je obrnuto pitanje prvog.",
  "Probe: In jeder Zeile steht genau einmal Ja. Schau besonders auf die Kinder mit genau 5 km.": "<strong>Provjera:</strong> u svakom redu tačno jednom stoji Ja. Posebno pogledaj djecu sa tačno 5 km.",
@@ -120,5 +112,6 @@
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>porediti</strong> – provjeriti: Je li nešto jednako, veće ili manje?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>jednako · nije jednako</strong> – gleich: <code>=</code> · ungleich (nije jednako): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>tačka-zarez</strong> – znak <code>;</code>. Odvaja tri dijela WENN-a.",
- "anzeigen. WENN gibt eine Antwort aus.": "<strong>ispisati</strong> – prikazati. WENN ispisuje odgovor."
+ "anzeigen. WENN gibt eine Antwort aus.": "<strong>ispisati</strong> – prikazati. WENN ispisuje odgovor.",
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Sa <code>WENN</code> (IF) Calc postavlja pitanje. Odgovor je da ili ne. Zavisno od odgovora Calc pokazuje nešto drugo, na primjer „bestanden“ (položio) ili „nicht bestanden“ (pao). <code>WENN</code> učiš u malim koracima."
 }

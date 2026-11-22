@@ -1,9 +1,6 @@
 {
  "Sortieren & Filtern · Calc-Kurs Zusatzmodul": "Trier et filtrer · Cours Calc module supplémentaire",
  "Sortieren & Filtern – große Tabellen bändigen": "Sortieren &amp; Filtern (trier et filtrer) – dompter les grands tableaux",
- "Ich kann eine Tabelle auf- oder absteigend sortieren.": "Je trie un tableau par ordre croissant ou décroissant.",
- "Ich kann mit dem AutoFilter nur bestimmte Zeilen anzeigen.": "J'affiche seulement certaines lignes avec l'AutoFilter (filtre automatique).",
- "Ich weiß, warum man nie nur eine Spalte sortiert.": "Je sais pourquoi on ne trie jamais une seule colonne.",
  "💡 Tom will die Besten oben haben. Er markiert nur die Spalte C und sortiert sie absteigend.": "💡 Tom veut les meilleurs en haut. Il sélectionne <strong>seulement la colonne C</strong> et la trie par ordre décroissant.",
  "Überleg: Was passiert?": "<strong>Réfléchis :</strong> que se passe-t-il ?",
  "Alles richtig – die Besten stehen oben.": "Tout va bien – les meilleurs sont en haut.",
@@ -64,5 +61,5 @@
  "alphabetisch": "par ordre alphabétique",
  "größte oben": "le plus grand en haut",
  "kleinste oben": "le plus petit en haut",
- "In einer Tabelle mit Hunderten Zeilen sucht niemand von Hand. Du sortierst sie, zum Beispiel nach Punkten, oder du filterst nur die Zeilen, die du brauchst. Das kennst du aus jedem Online-Shop: sortieren nach Preis, filtern nach Größe.": "Dans un tableau de centaines de lignes, personne ne cherche à la main. Tu le tries, par exemple par points, ou tu filtres seulement les lignes dont tu as besoin. Tu connais ça de chaque boutique en ligne : trier par prix, filtrer par taille."
+ "Eine Tabelle hat hundert Zeilen. Du suchst nicht jede Zeile ab. Du sortierst die Tabelle, zum Beispiel nach Punkten. Oder du filterst: Dann siehst du nur die Zeilen, die du brauchst. Das kennst du aus Online-Shops: sortieren nach Preis, filtern nach Größe.": "Un tableau a cent lignes. Tu ne regardes pas chaque ligne. Tu tries le tableau, par exemple par points. Ou tu filtres : tu ne vois alors que les lignes dont tu as besoin. Tu connais ça des boutiques en ligne : trier par prix, filtrer par taille."
 }

@@ -3,9 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Referințe absolute – $ ca ancoră",
  "Klasse 8 · Baustein 5": "Clasa a 8-a · Unitatea 5",
  "Vorwissen: Formeln ausfüllen": "Cunoștințe anterioare: umplerea formulelor",
- "Ich kann erklären, warum ein Zellbezug beim Ausfüllen „wandert“.": "Pot explica de ce o referință la celulă „alunecă” la umplere.",
- "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Pot fixa o referință cu semnul <code>$</code>.",
- "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Pot decide când am nevoie de <code>$</code> – și când nu.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena are un job de vacanță la o gelaterie și câștigă 11 € pe oră. În C5 și-a calculat plata pentru luni: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Soluția: semnul $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> e o <strong>ancoră</strong>.<br/><code>$B$2</code> rămâne mereu <code>B2</code> la umplere.",
@@ -44,11 +41,6 @@
  "nur die Spalte A": "doar coloana A",
  "nur die Zeile 1": "doar rândul 1",
  "Tipp: Drück Umschalt + F4 mehrmals hintereinander – so springst du durch alle Varianten.": "Sfat: apasă de mai multe ori la rând <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd> – așa treci prin toate variantele.",
- "Ich kann erklären, warum =B5*B2 beim Ausfüllen kaputtgeht.": "Pot explica de ce <code>=B5*B2</code> se strică la umplere.",
- "Ich kann mit $ (oder Umschalt+F4) einen Bezug festhalten.": "Pot fixa o referință cu <code>$</code> (sau <kbd>Umschalt</kbd>+<kbd>F4</kbd>).",
- "Ich erkenne, wann eine Formel ein $ braucht.": "Văd când o formulă are nevoie de <code>$</code>.",
- "Plus Ich finde versteckte Fehler in fremden Tabellen.": "<span class=\"badge plus\">Plus</span> Pot găsi greșeli ascunse în tabelele altora.",
- "Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">Expedition</span> Pot folosi referințe mixte ca <code>$A2</code> și <code>B$1</code>.",
  "← 4 · Ausfüllen": "← 4 · Umplere",
  "6 · Diagramme →": "6 · Diagrame →",
  "Calc füllt aus … schau auf Spalte C!": "Calc umple … uită-te la coloana C!",
@@ -84,7 +76,6 @@
  "66,00 € (6 × 11 €)": "66,00 € (6 × 11 €)",
  "Profi-Trick: ein Name statt $. Klick B2 an, tipp oben links ins Namenfeld Lohn und drück Enter. Jetzt geht auch =B5*Lohn. Ein Name bleibt beim Ausfüllen immer fest.": "<strong>Truc de profesionist: un nume în loc de $.</strong> Dă clic pe B2, scrie sus în stânga în <strong>Namenfeld</strong> (caseta de nume) <code>Lohn</code> (salariu) și apasă <kbd>Enter</kbd>. Acum merge și <code>=B5*Lohn</code>. Un nume rămâne mereu fix la umplere.",
  "Profi-Trick: Eine Zelle im Namenfeld benennen, z. B. Lohn. Ein Name bleibt beim Ausfüllen fest.": "Truc de profesionist: dă un nume unei celule în <strong>Namenfeld</strong> (caseta de nume), de ex. <code>Lohn</code>. Numele rămâne fix la umplere.",
- "★ Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">★ Expedition</span> Pot folosi referințe mixte ca <code>$A2</code> și <code>B$1</code>.",
  "Üben Der Steuer-Schalter": "<span class=\"badge ueben\">Üben</span> Comutatorul de taxă",
  "Der Steuersatz steht nur einmal, in B1. Alle Formeln holen ihn sich von dort.": "Cota de taxă e scrisă o singură dată, în B1. Toate formulele o iau de acolo.",
  "C4: Steuer = Netto × Steuersatz, mit $.": "C4: taxă = net × cota de taxă, cu <code>$</code>.",
@@ -153,5 +144,5 @@
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Încă nu e gata: {} celule sunt goale. Trage mai departe zona selectată, până se umple totul până la E9.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Rândul 4 e corect. Acum selectează C4 și D4 împreună și trage-le în jos până la rândul 6.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Gândește-te:</strong> Lena trage formula în jos până la C9. Ce e atunci în <strong>C6</strong> (marți)?",
- "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "La completare, fiecare referință de celulă se mută odată cu formula. De obicei e corect. Dar unele valori sunt valabile pentru toate rândurile, de exemplu un salariu pe oră. Cu <code>$</code> fixezi o astfel de celulă. Dacă salariul se schimbă, modifici o singură celulă și tot tabelul se recalculează."
+ "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Când tragi, formula se mută odată cu tine. De obicei e corect. Dar unele celule trebuie să fie valabile pentru toate rândurile, de exemplu salariul pe oră. Cu <code>$</code> fixezi o astfel de celulă."
 }

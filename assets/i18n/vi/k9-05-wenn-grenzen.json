@@ -3,9 +3,6 @@
  "WENN 3 – Grenzen in eigenen Zellen": "WENN 3 (NẾU 3) – mốc nằm trong ô riêng",
  "Klasse 9 · Baustein 5": "Lớp 9 · Bài 5",
  "Teil 3 von 3 zu WENN": "Phần 3 trên 3 về WENN (NẾU)",
- "Ich kann Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "Mình viết được mốc vào một ô riêng và giữ cố định bằng <code>$</code>.",
- "Ich kann WENN-Formeln mit Text, Zahlen und Rechnungen sicher schreiben.": "Mình viết chắc chắn được công thức WENN với chữ, số và phép tính.",
- "Ich kann eine Probe-Aufgabe zu WENN allein lösen.": "Mình tự giải được một bài kiểm tra về WENN.",
  "„über 15“: 15 zählt nicht mit, also >15": "<strong>trên</strong> – „über 15“: 15 không được tính, tức là <code>&gt;15</code>",
  "„bis 10“: 10 zählt mit, also <=10": "<strong>đến</strong> – „bis 10“: 10 được tính, tức là <code>&lt;=10</code>",
  "„unter 14“: 14 zählt nicht mit, also <14": "<strong>dưới</strong> – „unter 14“: 14 không được tính, tức là <code>&lt;14</code>",
@@ -37,11 +34,6 @@
  "Vergleiche: > größer · < kleiner · >= mindestens · <= höchstens · = gleich · <> ungleich": "So sánh: <code>&gt;</code> lớn hơn · <code>&lt;</code> nhỏ hơn · <code>&gt;=</code> ít nhất · <code>&lt;=</code> nhiều nhất · <code>=</code> bằng · <code>&lt;&gt;</code> khác",
  "„ab 15“ heißt >=15, „über 15“ heißt >15.": "„ab 15“ (từ 15) nghĩa là <code>&gt;=15</code>, „über 15“ (trên 15) nghĩa là <code>&gt;15</code>.",
  "Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "Viết mốc vào một ô riêng và giữ cố định bằng <code>$</code>.",
- "Ich schreibe Grenzen in eine eigene Zelle und nehme sie mit $.": "Mình viết mốc vào một ô riêng và dùng nó với <code>$</code>.",
- "Ich wähle das richtige Vergleichszeichen, z. B. >= für „ab“.": "Mình chọn đúng dấu so sánh, ví dụ <code>&gt;=</code> cho „ab“ (từ).",
- "Ich setze Text in Anführungszeichen und Zahlen ohne.": "Mình đặt chữ trong dấu ngoặc kép, còn số thì không.",
- "Plus Ich löse Probe-Aufgaben zu WENN ohne Vorlage.": "<span class=\"badge plus\">Plus</span> Mình giải được bài kiểm tra về WENN mà không cần mẫu.",
- "★ Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">★ Expedition</span> Mình kết hợp được WENN với UND (VÀ).",
  "Üben Wochenlohn mit Überstunden": "<span class=\"badge ueben\">Üben</span> Lương tuần có làm thêm giờ",
  "Bis 38,5 Stunden gibt es den normalen Stundenlohn. Jede Stunde mehr ist eine Überstunde mit 30 % Zuschlag. Tarif und Zuschlag stehen in blauen Zellen.": "Đến 38,5 giờ thì được trả lương theo giờ bình thường. Mỗi giờ hơn là một giờ làm thêm, được cộng thêm 30 %. Số giờ quy định và phần cộng thêm nằm trong các ô màu xanh.",
  "=WENN(B6>=$B$2;$B$2*C6;B6*C6) – hier wird in Dann und Sonst gerechnet.": "<code class=\"long\">=WENN(B6&gt;=$B$2;$B$2*C6;B6*C6)</code> – ở đây có tính toán trong <strong>Dann</strong> (thì) và <strong>Sonst</strong> (nếu không).",
@@ -116,5 +108,5 @@
  "eine Fehlermeldung": "một thông báo lỗi",
  "viel": "viel (nhiều)",
  "wenig": "wenig (ít)",
- "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Quy tắc thay đổi: ngày mai có thể là 16 điểm thay vì 15. Nếu mốc nằm trong một ô riêng, bạn sửa ở một chỗ và tất cả công thức tính lại. Cuối cùng bạn tự giải các bài <code>WENN</code> giống như trong bài kiểm tra."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Quy tắc thay đổi. Hôm nay cần 15 điểm, ngày mai có thể là 16. Vì vậy hãy viết mốc vào một ô riêng. Khi đó bạn chỉ sửa một ô này, và tất cả công thức tính lại. Cuối cùng bạn tự giải các bài <code>WENN</code> giống như trong bài kiểm tra."
 }

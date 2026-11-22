@@ -3,9 +3,6 @@
  "Erste Formeln – Calc rechnet für dich": "First formulas – Calc calculates for you",
  "Klasse 8 · Baustein 2": "Grade 8 · Unit 2",
  "Vorwissen: Zellen und Eingeben": "Prior knowledge: cells and typing",
- "Ich kann eine Formel mit = beginnen und mit + − * / rechnen.": "I can start a formula with <code>=</code> and calculate with + − * /.",
- "Ich kann in Formeln Zellen statt Zahlen verwenden.": "I can use cells instead of numbers in formulas.",
- "Ich kann erklären, warum Calc dann von selbst neu rechnet.": "I can explain why Calc then recalculates by itself.",
  "Mia kauft Schulsachen. Bei den Heften hat sie im Kopf gerechnet und in D5 einfach 4,50 eingetippt. Bei den Stiften steht in D6 eine Formel.": "Mia buys school things. For the <strong>exercise books</strong> she calculated in her head and simply typed <code>4,50</code> into D5. For the <strong>pens</strong>, D6 contains a formula.",
  "Überleg: Beides wird teurer. Was zeigt D5 danach?": "<strong>Think:</strong> Both get more expensive. What does <strong>D5</strong> show afterwards?",
  "Den neuen, höheren Betrag": "The new, higher amount",
@@ -45,11 +42,6 @@
  "★ Expedition: Punkt vor Strich freiwillig": "<span class=\"step-no\">★</span> Expedition: Order of operations <span class=\"badge expedition\">optional</span>",
  "Auch Calc rechnet Punkt vor Strich.Was in Klammern steht, kommt zuerst.": "Calc also does <strong>multiplication and division before addition and subtraction</strong>.<br/>What is in <strong>brackets</strong> comes first.",
  "Berechne in B6 deinen Notendurchschnitt: alle Noten zusammenzählen, dann durch 3 teilen.": "Calculate your average grade in B6: add up all grades, then divide by 3.",
- "Ich beginne jede Formel mit =.": "I start every formula with <code>=</code>.",
- "Ich kenne die Rechenzeichen + − * /.": "I know the operation signs + − * /.",
- "Ich klicke Zellen an, statt Zahlen in die Formel zu tippen.": "I click cells instead of typing numbers into the formula.",
- "Plus Ich kann Formeln bauen, die auf anderen Formeln aufbauen.": "<span class=\"badge plus\">Plus</span> I can build formulas that use other formulas.",
- "Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">Expedition</span> I use brackets correctly.",
  "← 1 · Erste Schritte": "← 1 · First steps",
  "3 · Funktionen →": "3 · Functions →",
  "Die Preise steigen … schau auf Spalte C und D!": "Prices are going up … look at columns C and D!",
@@ -86,7 +78,6 @@
  "🏆 Expedition geschafft! Erst die Klammer, dann geteilt: (2 + 3 + 1) / 3 = 2.": "🏆 <strong>Expedition done!</strong> First the brackets, then divide: (2 + 3 + 1) / 3 = 2.",
  "Das Ergebnis stimmt, aber nimm die Zellen B2, B3 und B4 und Klammern.": "The result is right, but use the cells B2, B3 and B4 and brackets.",
  "Noch nicht. Alle drei Noten zusammenzählen, dann durch 3 teilen. Was muss zuerst passieren?": "Not yet. Add up all three grades, then divide by 3. What has to happen first?",
- "★ Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">★ Expedition</span> I put brackets in the right place.",
  "Üben Farbfelder": "<span class=\"badge ueben\">Üben</span> Colour fields",
  "Zähl alle Felder mit derselben Farbe zusammen. Tipp in B8 =, klick das erste gelbe Feld an, tipp +, klick das nächste an … und drück Enter.": "Add up all fields with the same colour. Type <code>=</code> in B8, click the first yellow field, type <code>+</code>, click the next one … and press <kbd>Enter</kbd>.",
  "Keine Zahlen abtippen! Nur Zellen anklicken. Dann rechnet die Summe mit, wenn sich eine Zahl ändert.": "<strong>Don't copy numbers by typing!</strong> Only click cells. Then the sum updates when a number changes.",
@@ -121,5 +112,5 @@
  "das, was bei einer Rechnung herauskommt": "<strong>result</strong> – what comes out of a calculation",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>input line</strong> – the long line above the table. There you see the formula.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>to recalculate</strong> – Calc calculates again when a number changes",
- "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "So far you only type numbers in. Now Calc calculates for you: a formula starts with <code>=</code> and calculates with the cells. If a number changes, Calc recalculates straight away. That is exactly why you use a spreadsheet and not a calculator."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Now Calc calculates for you. A formula starts with <code>=</code> and calculates with the cells. If a number changes, Calc recalculates straight away. A calculator can’t do that."
 }

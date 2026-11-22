@@ -2,9 +2,6 @@
  "Zufall & Spiele · Calc-Kurs Zusatzmodul": "Azar y juegos · Curso de Calc módulo extra",
  "Zufall & Spiele – würfeln, werfen, drehen": "Azar y juegos – tirar dados, lanzar monedas, girar ruletas",
  "Vorwissen: WENN, ZÄHLENWENN hilft": "Conocimientos previos: WENN, ZÄHLENWENN ayuda",
- "Ich würfle mit ZUFALLSBEREICH und würfle mit F9 neu.": "Tiro dados con <code>ZUFALLSBEREICH</code> (ALEATORIO.ENTRE) y vuelvo a tirar con <kbd>F9</kbd>.",
- "Ich werfe eine Münze mit ZUFALLSZAHL und WENN.": "Lanzo una moneda con <code>ZUFALLSZAHL</code> (ALEATORIO) y WENN.",
- "Ich probiere aus: Wie oft kommt die 6 wirklich?": "Lo pruebo: ¿cuántas veces sale de verdad el 6?",
  "💡 Du würfelst 60-mal. Im Schnitt kommt jede Zahl 10-mal.": "💡 Tiras un dado <strong>60 veces</strong>. De media, cada número sale 10 veces.",
  "Überleg: Wie oft kommt die 6 wirklich?": "<strong>Piensa:</strong> ¿cuántas veces sale de verdad el 6?",
  "Genau 10-mal.": "Exactamente 10 veces.",
@@ -55,5 +52,5 @@
  "Genau 100-mal": "Exactamente 100 veces",
  "60-mal": "60 veces",
  "Eine Zahl": "Un número",
- "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele und probierst aus, wie Zufall wirklich funktioniert: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc puede tirar un dado, lanzar una moneda y girar una ruleta de la suerte. Con eso construyes pequeños juegos y pruebas cómo funciona de verdad el azar: ¿sale de verdad el 6 diez veces en 60 tiradas?"
+ "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele. Und du probierst aus: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc puede tirar un dado, lanzar una moneda y girar una ruleta de la suerte. Con eso construyes pequeños juegos. Y pruebas: ¿sale de verdad el 6 diez veces en 60 tiradas?"
 }

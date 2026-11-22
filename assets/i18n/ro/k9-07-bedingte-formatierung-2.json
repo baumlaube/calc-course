@@ -3,9 +3,6 @@
  "Bedingte Formatierung 2 – Ampel, Text und Grenzen": "Bedingte Formatierung 2 – semafor, text și limite",
  "Klasse 9 · Baustein 7": "Clasa a 9-a · Unitatea 7",
  "Vorwissen: Bedingte Formatierung 1, WENN 3": "Ai nevoie de: formatare condiționată 1, WENN 3",
- "Ich kann mehrere Bedingungen in der richtigen Reihenfolge anlegen.": "Pot crea mai multe condiții în ordinea potrivită.",
- "Ich kann Text färben lassen, z. B. alles mit „fehlt“.": "Pot colora text, de exemplu tot ce conține „fehlt” (lipsește).",
- "Ich kann eine Grenze aus einer Zelle mit $ benutzen.": "Pot folosi o limită dintr-o celulă cu <code>$</code>.",
  "Überleg: Welche Farbe bekommt der Akku mit 15 %?": "<strong>Gândește-te:</strong> Ce culoare primește bateria cu <strong>15 %</strong>?",
  "gelb": "galben",
  "rot": "roșu",
@@ -31,11 +28,6 @@
  "★ Expedition: Ganze Zeile färben freiwillig": "<span class=\"step-no\">★</span> Expediție: Colorează un rând întreg <span class=\"badge expedition\">opțional</span>",
  "OK": "OK",
  "Wer nicht bezahlt hat, soll mit der ganzen Zeile rot leuchten. Klick erst auf OK – was ist falsch? Dann verbessere die Formel.": "Toți care n-au plătit trebuie să strălucească roșu cu <strong>tot rândul</strong>. Dă întâi clic pe OK – ce e greșit? Apoi îmbunătățește formula.",
- "Ich baue eine Ampel mit drei Bedingungen.": "Construiesc un semafor cu trei condiții.",
- "Ich weiß: Die erste passende Bedingung gewinnt.": "Știu: câștigă prima condiție care se potrivește.",
- "Ich färbe Text, z. B. \"fehlt\".": "Colorez text, de exemplu <code>\"fehlt\"</code>.",
- "Plus Ich nehme die Grenze aus einer Zelle mit $.": "<span class=\"badge plus\">Plus</span> Iau limita dintr-o celulă cu <code>$</code>.",
- "Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span> Colorez rânduri întregi cu „Formel ist”.",
  "← 6 · Bedingte Formatierung 1": "← 6 · Bedingte Formatierung 1",
  "8 · Fit für die Probe →": "8 · Pregătit pentru test →",
  "✔ Jetzt steht „kleiner als 20 %“ zuerst – und Lea ist rot. Die strengste Bedingung gehört nach oben.": "✔ Acum „kleiner als 20 %” e prima – și Lea e roșie. Cea mai strictă condiție are locul sus.",
@@ -76,7 +68,6 @@
  "🏆 Expedition geschafft! Das $ vor B hält die Spalte fest: Name, bezahlt? und Betrag schauen alle auf Spalte B. Die 2 ohne $ wandert mit – jede Zeile prüft sich selbst.": "🏆 Expediție terminată! <code>$</code> din fața lui B ține coloana fixă: numele, bezahlt? și suma se uită toate la coloana B. 2 fără $ se mută – fiecare rând se verifică singur.",
  "Fast. Prüfe die Zeilennummer: Die Formel gilt für die erste Zeile des Bereichs, also Zeile 2.": "Aproape. Verifică numărul rândului: formula e pentru primul rând al zonei, deci rândul 2.",
  "Nur Spalte A ist richtig gefärbt? Für Spalte B schaut Calc auf C, für Spalte C auf D – der Bezug wandert mit! Setz ein $ vor das B: $B2=\"nein\"": "Doar coloana A e colorată corect? Pentru coloana B Calc se uită la C, pentru coloana C la D – referința se mută! Pune un <code>$</code> în fața lui B: <code>$B2=\"nein\"</code>",
- "★ Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">★ Expedition</span> Colorez rânduri întregi cu „Formel ist“ (formula este).",
  "Üben Wer hat sich doppelt angemeldet?": "<span class=\"badge ueben\">Üben</span> Cine s-a înscris de două ori?",
  "18 Anmeldungen zum Skikurs, aber manche Namen stehen mehrmals da. Calc hat dafür eine eigene Bedingung: Format → Bedingt → Bedingung … → Zellwert ist · doppelt.": "18 înscrieri la cursul de schi, dar unele nume apar de mai multe ori. Calc are o condiție specială pentru asta: <strong>Format → Bedingt → Bedingung … → Zellwert ist · doppelt</strong> (valoarea celulei · duplicat).",
  "Calc färbt jeden Namen, der mehr als einmal vorkommt, auch den ersten. Löschst du die Zeilen mit den doppelten Namen, verschwindet das Rot von selbst.": "Calc colorează <em>fiecare</em> nume care apare de mai multe ori, și pe primul. Dacă ștergi rândurile cu nume duble, roșul dispare singur.",
@@ -105,5 +96,5 @@
  "drei Farben: rot, gelb, grün": "<strong>semafor</strong> – trei culori: roșu, galben, verde",
  "etwas neu machen, z. B. eine Bedingung": "<strong>a crea</strong> – a face ceva nou, de ex. o condiție",
  "ansehen, ändern und löschen": "<strong>a gestiona</strong> – a vedea, a schimba și a șterge",
- "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Acum Calc colorează după mai multe reguli – verde, galben și roșu ca un semafor. Înveți de ce contează ordinea regulilor, cum colorezi text și cum vine un prag dintr-o celulă."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Acum Calc colorează cu mai multe reguli: verde, galben și roșu ca un semafor. Înveți de ce contează ordinea regulilor. Colorezi și text și iei pragul dintr-o celulă."
 }

@@ -2,9 +2,6 @@
  "ZÄHLENWENN · Calc-Kurs Zusatzmodul": "ZÄHLENWENN (عدّ إذا) · دورة Calc وحدة إضافية",
  "ZÄHLENWENN – zählen, was passt": "ZÄHLENWENN (عدّ إذا) – عُدّ ما يناسب",
  "Vorwissen: WENN, $-Anker": "المعرفة المسبقة: WENN، المرساة $",
- "Ich kann mit ZÄHLENWENN zählen, wie oft etwas vorkommt.": "أعدّ بـ <code>ZÄHLENWENN</code> كم مرة يتكرّر شيء ما.",
- "Ich kann Kriterien wie \"Sport\", \">=4\" oder eine Zelle benutzen.": "أستخدم معايير مثل <code>\"Sport\"</code> أو <code>\"&gt;=4\"</code> أو خلية.",
- "Ich kann mit SUMMEWENN nur passende Beträge addieren.": "أجمع بـ <code>SUMMEWENN</code> (جمع إذا) المبالغ المناسبة فقط.",
  "💡 Acht Schüler haben ihr Lieblingsfach genannt. In D2 kommt: =ZÄHLENWENN(B2:B9;\"Sport\")": "💡 ثمانية تلاميذ ذكروا مادتهم المفضّلة. في D2 توضع: <code class=\"long\">=ZÄHLENWENN(B2:B9;\"Sport\")</code>",
  "Überleg: Was zeigt D2?": "<strong>فكّر:</strong> ماذا تُظهر D2؟",
  "2 So zählt Calc 7 Min": "<span class=\"step-no\">2</span> هكذا يعدّ Calc <span class=\"chip\">7 د</span>",
@@ -57,5 +54,5 @@
  "Gesucht wird in B, addiert wird aus C.": "تبحث في B وتجمع من C.",
  "Anführungszeichen um D5": "علامات اقتباس حول D5",
  "Ein $ bei D5": "علامة $ عند D5",
- "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "كم طالبًا في الصف يحب الرياضة أكثر؟ كم علامة أفضل من 3؟ <code>ZÄHLENWENN</code> (COUNTIF) يعدّ فقط الخلايا التي تناسب شرطك. <code>SUMMEWENN</code> (SUMIF) يجمع فقط المبالغ المناسبة، مثل كل مصاريف الطعام."
+ "Wie viele in der Klasse mögen Sport am liebsten? ZÄHLENWENN zählt nur die Zellen, die passen. SUMMEWENN zählt nur passende Beträge zusammen, zum Beispiel alles, was du für Essen ausgegeben hast.": "كم طالبًا في الصف يحب الرياضة أكثر؟ <code>ZÄHLENWENN</code> (COUNTIF) يعدّ فقط الخلايا المناسبة. <code>SUMMEWENN</code> (SUMIF) يجمع فقط المبالغ المناسبة، مثل كل ما صرفته على الطعام."
 }

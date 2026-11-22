@@ -3,9 +3,6 @@
  "WENN 2 – Dann und Sonst rechnen": "WENN 2 (EĞER 2) – Dann ve Sonst içinde hesaplamak",
  "Klasse 9 · Baustein 4": "9. sınıf · Ünite 4",
  "Teil 2 von 3 zu WENN": "WENN (EĞER) hakkında 3 bölümden 2. bölüm",
- "Ich kann WENN statt Ja und Nein eine Zahl ausgeben lassen.": "WENN'in Ja ve Nein yerine bir sayı göstermesini sağlayabilirim.",
- "Ich kann im Dann- und Sonst-Teil rechnen.": "Dann (ise) ve Sonst (değilse) kısmında hesap yapabilirim.",
- "Ich weiß, wann Anführungszeichen hingehören und wann nicht.": "Tırnak işaretlerinin ne zaman gerektiğini, ne zaman gerekmediğini biliyorum.",
  "💡 Du kennst schon: =WENN(B5<18;\"Ja\";\"Nein\") – Ist Lisa jünger als 18?Im Kino steht in C5 aber: =WENN(B5<18;8;10)": "💡 <strong>Zaten biliyorsun:</strong> <code class=\"long\">=WENN(B5&lt;18;\"Ja\";\"Nein\")</code> – Lisa 18'den küçük mü?<br/>Ama sinemada C5'te şu var: <code class=\"long\">=WENN(B5&lt;18;8;10)</code>",
  "Überleg: Lisa ist 16. Was zeigt C5?": "<strong>Düşün:</strong> Lisa 16 yaşında. C5 ne gösterir?",
  "2 Statt Ja und Nein: rechnen 7 Min": "<span class=\"step-no\">2</span> Evet ve hayır yerine: hesapla <span class=\"chip\">7 dk</span>",
@@ -26,11 +23,6 @@
  "Text in \"Anführungszeichen\" – Zahlen und Rechnungen ohne!": "Metin <code>\"Anführungszeichen\"</code> (tırnak işaretleri) içinde – sayılar ve hesaplar tırnaksız!",
  "Lies jede Formel als Satz: Wenn …, dann …, sonst …": "Her formülü bir cümle gibi oku: eğer …, o zaman …, değilse …",
  "★ Expedition: Rabatt ab 50 € freiwillig": "<span class=\"step-no\">★</span> Keşif: 50 €'dan itibaren indirim <span class=\"badge expedition\">isteğe bağlı</span>",
- "Ich lasse WENN eine Zahl ausgeben, z. B. Versandkosten.": "WENN'e bir sayı gösterttirim, örneğin kargo ücreti.",
- "Ich rechne im Dann-Teil, z. B. A6+4,95.": "Dann kısmında hesap yaparım, örneğin <code>A6+4,95</code>.",
- "Ich setze Anführungszeichen nur um Text.": "Tırnak işaretlerini sadece metnin etrafına koyarım.",
- "Plus Ich vergleiche Text und gebe eine Zahl aus.": "<span class=\"badge plus\">Plus</span> Metin karşılaştırır ve bir sayı gösteririm.",
- "Expedition Ich verbinde WENN mit Prozentrechnung.": "<span class=\"badge expedition\">Expedition</span> WENN'i yüzde hesabıyla birleştiririm.",
  "← 3 · WENN 1": "← 3 · WENN 1 (EĞER 1)",
  "5 · WENN 3 →": "5 · WENN 3 (EĞER 3) →",
  "=WENN(B5<18;8;10)": "=WENN(B5<18;8;10)",
@@ -70,7 +62,6 @@
  "64 € ist mindestens 50 €. Dann-Teil: A2*(1-10%) = 57,60 €.": "64 € en az 50 €. Dann kısmı: <code>A2*(1-10%)</code> = 57,60 €.",
  "38,50 € ist unter 50 € – Sonst-Teil: einfach A2.": "38,50 € 50 €'nun altında – Sonst kısmı: sadece <code>A2</code>.",
  "🏆 Expedition geschafft! WENN und Prozentrechnung zusammen – das kommt in der Übungsdatei noch einmal.": "🏆 Keşif tamam! WENN ve yüzde birlikte – buna alıştırma dosyasında tekrar rastlayacaksın.",
- "★ Expedition Ich verbinde WENN mit Prozentrechnung.": "<span class=\"badge expedition\">★ Expedition</span> WENN'i yüzde hesabıyla birleştiririm.",
  "Üben Zinsen bei der Bank": "<span class=\"badge ueben\">Üben</span> Bankada faiz",
  "Wer mehr als 10.000 € auf dem Konto hat, bekommt 2,5 % Zinsen, alle anderen 1,75 %. WENN liefert den Zinssatz. Mit ihm rechnest du die Zinsen und das neue Guthaben aus.": "Hesabında 10.000 €'dan fazlası olan %2,5 faiz alır, diğer herkes %1,75. WENN faiz oranını verir. Onunla faizi ve yeni bakiyeyi hesaplarsın.",
  "=WENN(B5>10000;2,5%;1,75%)": "<code class=\"long\">=WENN(B5&gt;10000;2,5%;1,75%)</code>",
@@ -101,5 +92,5 @@
  "in allen anderen Fällen": "<strong>yoksa, aksi halde</strong> – diğer bütün durumlarda",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>hesap</strong> – burada: hesaplanacak bir şey, örn. <code>A6+4,95</code>",
  "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>kargo, gönderim</strong> – bir paketi göndermek. Çoğu zaman para tutar.",
- "WENN kann nicht nur Ja oder Nein sagen, sondern auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €, alle anderen 10 €. Solche Regeln gibt es überall, bei Eintrittspreisen, Versandkosten und Rabatten.": "<code>WENN</code> sadece evet ya da hayır demekle kalmaz, hesap da yapabilir. Örneğin: 18 yaşından küçük olan sinemada 8 € öder, diğer herkes 10 €. Bu tür kurallar her yerde vardır: bilet fiyatlarında, kargo ücretlerinde ve indirimlerde."
+ "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> hesap da yapabilir. Örneğin: 18 yaşından küçük olan sinemada 8 € öder. Diğer herkes 10 € öder. Bu tür kurallar sık görülür, örneğin giriş, kargo ve indirimde."
 }

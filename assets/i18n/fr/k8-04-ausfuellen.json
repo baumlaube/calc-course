@@ -3,9 +3,6 @@
  "Formeln ausfüllen – einmal schreiben, überall rechnen": "Recopier des formules – écrire une fois, calculer partout",
  "Klasse 8 · Baustein 4": "8e année · Unité 4",
  "Vorwissen: Formeln, SUMME": "Prérequis : formules, SUMME",
- "Ich kann eine Formel nach unten und nach rechts ziehen.": "Je tire une formule vers le bas et vers la droite.",
- "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "Je sais expliquer comment les références de cellules changent.",
- "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "Je prévois quelle formule se retrouvera dans une cellule.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "Tu fais les courses pour la fête de classe. D5 contient déjà la formule <code>=B5*C5</code> → 4 × 1,50 € = 6,00 €.<br/>Pour les autres lignes, tu ne retapes pas tout – tu <strong>tires</strong> simplement la formule vers le bas.",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – exactement la même",
  "gar keine – nur die Zahl 6,00 €": "aucune – seulement le nombre 6,00 €",
@@ -41,11 +38,6 @@
  "Du sparst auf ein Fahrrad. Jede Woche kommt ein Betrag dazu. Wie viel hast du nach 8 Wochen?": "Tu économises pour un vélo. Chaque semaine, de l'argent s'ajoute. Combien as-tu après 8 semaines ?",
  "Kontostand = Kontostand der Vorwoche + neuer Betrag": "Solde = <strong>solde de la semaine précédente</strong> + nouveau montant",
  "In C5 steht der Kontostand nach Woche 1. Schreib in C6 eine Formel für Woche 2 und zieh sie nach unten. Tipp: Die Vorwoche steht genau eine Zeile darüber.": "C5 montre le solde après la semaine 1. Écris dans <strong>C6</strong> une formule pour la semaine 2 et tire-la vers le bas. Astuce : la semaine précédente est exactement une ligne plus haut.",
- "Ich finde das Ausfüllkästchen und kann eine Formel nach unten ziehen.": "Je trouve la poignée de recopie et je tire une formule vers le bas.",
- "Ich kann eine Formel nach rechts ziehen.": "Je tire une formule vers la droite.",
- "Ich kann erklären, warum aus =B5*C5 eine Zeile tiefer =B6*C6 wird.": "Je sais expliquer pourquoi <code>=B5*C5</code> devient <code>=B6*C6</code> une ligne plus bas.",
- "Plus Ich kann vorhersagen, welche Formel nach dem Ziehen in einer Zelle steht.": "<span class=\"badge plus\">Plus</span> Je prévois quelle formule se trouve dans une cellule après la recopie.",
- "Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">Expedition</span> Je calcule un solde cumulé.",
  "← 3 · Funktionen": "← 3 · Fonctions",
  "5 · Absolute Bezüge →": "5 · Références absolues →",
  "Calc füllt aus … schau auf Spalte D!": "Calc recopie … regarde la colonne D !",
@@ -92,7 +84,6 @@
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen. Mit Probe: Kommt auf beiden Wegen dasselbe heraus?": "<span class=\"badge basis\">Basis</span><span><strong>Exercice 2 · Argent de poche :</strong> recopier les sommes vers la droite <em>et</em> vers le bas. Avec vérification : obtient-on le même résultat des deux façons ?</span>",
  "Calc setzt auch Reihen fort: Montag → Dienstag, Januar → Februar, 10 und 20 → 30.": "Calc continue aussi les séries : Montag → Dienstag (lundi → mardi), Januar → Februar, 10 et 20 → 30.",
  "Probe: Die Gesamtsumme auf zwei Wegen rechnen. Gleich? Dann stimmt alles.": "<strong>Vérification :</strong> Calcule le total général de deux façons. Pareil ? Alors tout est juste.",
- "★ Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">★ Expedition</span> Je sais calculer un solde courant.",
  "Üben Das Ausfüll-Orakel": "<span class=\"badge ueben\">Üben</span> L'oracle de la recopie",
  "Das Orakel aus Schritt 2 – jetzt selbst in Calc: Was macht Calc aus Montag, Quartal 1 oder 5, 3? Erst raten, dann ausfüllen.": "L'oracle de l'étape 2 – maintenant toi-même dans Calc : que fait Calc de Montag, Quartal 1 ou 5, 3 ? D'abord deviner, puis recopier.",
  "ODS Üben: Ausfüll-Orakelk8-04-ausfuellen-mehr-ausfuell-orakel.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben : L'oracle de la recopie</strong><small>k8-04-ausfuellen-mehr-ausfuell-orakel.ods</small></span>",
@@ -149,5 +140,5 @@
  "Fehler": "Erreur",
  "Montag": "Montag (lundi)",
  "Donnerstag": "Donnerstag (jeudi)",
- "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Souvent, on calcule de la même façon à chaque ligne : pour chaque article, chaque jour, chaque élève. Tu écris la formule une seule fois et tu la tires vers le bas. Calc adapte lui-même les cellules à chaque ligne. Ça économise beaucoup de frappe et beaucoup de fautes."
+ "Oft rechnest du in jeder Zeile das Gleiche: für jeden Artikel, für jeden Tag. Du schreibst die Formel nur einmal. Dann ziehst du sie nach unten. Calc passt die Formel in jeder Zeile selbst an. So tippst du weniger und machst weniger Fehler.": "Souvent, tu calcules la même chose à chaque ligne : pour chaque article, pour chaque jour. Tu écris la formule une seule fois. Puis tu la tires vers le bas. Calc adapte lui-même la formule à chaque ligne. Tu tapes moins et tu fais moins d’erreurs."
 }

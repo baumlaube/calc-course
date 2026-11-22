@@ -3,9 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (NẾU 1) – Calc đặt một câu hỏi",
  "Klasse 9 · Baustein 3": "Lớp 9 · Bài 3",
  "Teil 1 von 3 zu WENN": "Phần 1 trên 3 về WENN (NẾU)",
- "Ich kann eine WENN-Formel als Ja/Nein-Frage lesen.": "Mình đọc được công thức WENN như một câu hỏi có/không.",
- "Ich kann =WENN(Frage;\"Ja\";\"Nein\") selbst schreiben.": "Mình tự viết được <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>.",
- "Ich kann statt Ja und Nein eigene Antworten ausgeben.": "Mình cho ra được câu trả lời riêng thay vì Ja và Nein.",
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>so sánh</strong> – kiểm tra: một thứ bằng, lớn hơn hay nhỏ hơn?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>bằng · khác</strong> – gleich (bằng): <code>=</code> · ungleich (khác, không bằng): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>dấu chấm phẩy</strong> – ký hiệu <code>;</code>. Nó tách ba phần của WENN.",
@@ -40,11 +37,6 @@
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "So sánh: <code>=</code> bằng · <code>&lt;&gt;</code> khác · <code>&lt;</code> nhỏ hơn · <code>&gt;</code> lớn hơn · <code>&lt;=</code> nhiều nhất · <code>&gt;=</code> ít nhất",
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "Thay vì <code>\"Ja\"</code> và <code>\"Nein\"</code> có thể là bất kỳ chữ nào, ví dụ <code>\"bestanden\"</code>.",
  "Gegenfrage: Frage umdrehen und Antworten tauschen – das Ergebnis bleibt gleich. Aus <= wird >.": "Câu hỏi ngược: đảo câu hỏi và đổi chỗ các câu trả lời – kết quả vẫn giữ nguyên. <code>&lt;=</code> thành <code>&gt;</code>.",
- "Ich lese eine WENN-Formel als Frage.": "Mình đọc công thức WENN như một câu hỏi.",
- "Ich schreibe =WENN(Frage;\"Ja\";\"Nein\") ohne Vorlage.": "Mình viết <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code> mà không cần mẫu.",
- "Ich kenne die Vergleichszeichen, besonders >= und <>.": "Mình biết các dấu so sánh, nhất là <code>&gt;=</code> và <code>&lt;&gt;</code>.",
- "Plus Ich finde zu fertigen Antworten die passende Frage.": "<span class=\"badge plus\">Plus</span> Mình tìm được câu hỏi phù hợp cho các câu trả lời có sẵn.",
- "★ Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">★ Expedition</span> Mình làm một câu đố tự chấm điểm.",
  "Üben Wer fährt Bus?": "<span class=\"badge ueben\">Üben</span> Ai đi xe buýt?",
  "Wer höchstens 5 km weit weg wohnt, fährt Fahrrad. Alle anderen fahren Bus. Du schreibst zwei Fragen. Die zweite ist die Gegenfrage zur ersten.": "Ai sống cách trường nhiều nhất 5 km thì đi xe đạp. Tất cả những người khác đi xe buýt. Bạn viết hai câu hỏi. Câu thứ hai là câu hỏi ngược của câu thứ nhất.",
  "Probe: In jeder Zeile steht genau einmal Ja. Schau besonders auf die Kinder mit genau 5 km.": "<strong>Kiểm tra lại:</strong> Mỗi hàng có đúng một chữ Ja. Hãy đặc biệt chú ý những bạn ở cách đúng 5 km.",
@@ -134,5 +126,5 @@
  "Ein $ vor A5": "Một dấu $ trước A5",
  "Genau umgedreht.": "Ngược hoàn toàn.",
  "Leer heißt A5=\"\".": "Trống nghĩa là <code>A5=\"\"</code>.",
- "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "Đến giờ Calc tính giống nhau ở mọi hàng. Với <code>WENN</code> (NẾU), Calc đặt một câu hỏi và tùy câu trả lời mà hiện ra điều khác nhau, ví dụ „bestanden“ (đạt) hoặc „nicht bestanden“ (không đạt). Như vậy bảng của bạn trở nên thông minh. Bạn học <code>WENN</code> từng bước nhỏ."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Với <code>WENN</code> (NẾU), Calc đặt một câu hỏi. Câu trả lời là có hoặc không. Tùy câu trả lời, Calc hiện ra điều khác nhau, ví dụ „bestanden“ (đạt) hoặc „nicht bestanden“ (không đạt). Bạn học <code>WENN</code> từng bước nhỏ."
 }

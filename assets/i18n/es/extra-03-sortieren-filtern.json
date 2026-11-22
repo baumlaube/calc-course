@@ -1,9 +1,6 @@
 {
  "Sortieren & Filtern · Calc-Kurs Zusatzmodul": "Ordenar y filtrar · Curso de Calc módulo extra",
  "Sortieren & Filtern – große Tabellen bändigen": "Sortieren &amp; Filtern (ordenar y filtrar) – dominar tablas grandes",
- "Ich kann eine Tabelle auf- oder absteigend sortieren.": "Ordeno una tabla de forma ascendente o descendente.",
- "Ich kann mit dem AutoFilter nur bestimmte Zeilen anzeigen.": "Muestro solo ciertas filas con el AutoFilter (autofiltro).",
- "Ich weiß, warum man nie nur eine Spalte sortiert.": "Sé por qué nunca se ordena una sola columna.",
  "💡 Tom will die Besten oben haben. Er markiert nur die Spalte C und sortiert sie absteigend.": "💡 Tom quiere a los mejores arriba. Selecciona <strong>solo la columna C</strong> y la ordena de forma descendente.",
  "Überleg: Was passiert?": "<strong>Piensa:</strong> ¿qué pasa?",
  "Alles richtig – die Besten stehen oben.": "Todo bien: los mejores están arriba.",
@@ -64,5 +61,5 @@
  "alphabetisch": "por orden alfabético",
  "größte oben": "el mayor arriba",
  "kleinste oben": "el menor arriba",
- "In einer Tabelle mit Hunderten Zeilen sucht niemand von Hand. Du sortierst sie, zum Beispiel nach Punkten, oder du filterst nur die Zeilen, die du brauchst. Das kennst du aus jedem Online-Shop: sortieren nach Preis, filtern nach Größe.": "En una tabla con cientos de filas nadie busca a mano. La ordenas, por ejemplo por puntos, o filtras solo las filas que necesitas. Lo conoces de cualquier tienda online: ordenar por precio, filtrar por talla."
+ "Eine Tabelle hat hundert Zeilen. Du suchst nicht jede Zeile ab. Du sortierst die Tabelle, zum Beispiel nach Punkten. Oder du filterst: Dann siehst du nur die Zeilen, die du brauchst. Das kennst du aus Online-Shops: sortieren nach Preis, filtern nach Größe.": "Una tabla tiene cien filas. No revisas cada fila. Ordenas la tabla, por ejemplo por puntos. O filtras: entonces solo ves las filas que necesitas. Lo conoces de las tiendas online: ordenar por precio, filtrar por talla."
 }

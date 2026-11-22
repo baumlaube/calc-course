@@ -1,9 +1,6 @@
 {
  "Sortieren & Filtern · Calc-Kurs Zusatzmodul": "الفرز والتصفية · دورة Calc وحدة إضافية",
  "Sortieren & Filtern – große Tabellen bändigen": "Sortieren &amp; Filtern (فرز وتصفية) – ترويض الجداول الكبيرة",
- "Ich kann eine Tabelle auf- oder absteigend sortieren.": "أفرز جدولًا تصاعديًا أو تنازليًا.",
- "Ich kann mit dem AutoFilter nur bestimmte Zeilen anzeigen.": "أُظهر صفوفًا معيّنة فقط بالـ AutoFilter (التصفية التلقائية).",
- "Ich weiß, warum man nie nur eine Spalte sortiert.": "أعرف لماذا لا تفرز عمودًا واحدًا وحده أبدًا.",
  "💡 Tom will die Besten oben haben. Er markiert nur die Spalte C und sortiert sie absteigend.": "💡 توم يريد الأفضل في الأعلى. يحدّد <strong>العمود C فقط</strong> ويفرزه تنازليًا.",
  "Überleg: Was passiert?": "<strong>فكّر:</strong> ماذا يحدث؟",
  "Alles richtig – die Besten stehen oben.": "كل شيء على ما يرام – الأفضل في الأعلى.",
@@ -64,5 +61,5 @@
  "alphabetisch": "أبجديًا",
  "größte oben": "الأكبر في الأعلى",
  "kleinste oben": "الأصغر في الأعلى",
- "In einer Tabelle mit Hunderten Zeilen sucht niemand von Hand. Du sortierst sie, zum Beispiel nach Punkten, oder du filterst nur die Zeilen, die du brauchst. Das kennst du aus jedem Online-Shop: sortieren nach Preis, filtern nach Größe.": "في جدول فيه مئات الصفوف لا أحد يبحث باليد. ترتّبه مثلًا حسب النقاط، أو تصفّي فقط الصفوف التي تحتاجها. تعرف هذا من كل متجر إلكتروني: الترتيب حسب السعر، والتصفية حسب المقاس."
+ "Eine Tabelle hat hundert Zeilen. Du suchst nicht jede Zeile ab. Du sortierst die Tabelle, zum Beispiel nach Punkten. Oder du filterst: Dann siehst du nur die Zeilen, die du brauchst. Das kennst du aus Online-Shops: sortieren nach Preis, filtern nach Größe.": "في الجدول مئة صف. أنت لا تبحث في كل صف. ترتّب الجدول، مثلًا حسب النقاط. أو تصفّيه: عندها ترى فقط الصفوف التي تحتاجها. تعرف هذا من المتاجر الإلكترونية: الترتيب حسب السعر، والتصفية حسب المقاس."
 }

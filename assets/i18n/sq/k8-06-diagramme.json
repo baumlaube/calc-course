@@ -3,9 +3,6 @@
  "Diagramme – Zahlen auf einen Blick": "Diagramet – numrat me një shikim",
  "Klasse 8 · Baustein 6": "Klasa 8 · Njësia 6",
  "Vorwissen: Tabellen markieren": "Njohuri paraprake: zgjedhja e tabelave",
- "Ich kann aus einer Tabelle ein Diagramm erstellen.": "Mund të bëj një diagram nga një tabelë.",
- "Ich kann das passende Diagramm wählen: Säule, Kreis oder Linie.": "Mund të zgjedh diagramin e duhur: <strong>Säule</strong> (shtylla), <strong>Kreis</strong> (rreth) ose <strong>Linie</strong> (vijë).",
- "Ich kann ein Diagramm beschriften und richtig lesen.": "Mund ta etiketoj një diagram dhe ta lexoj saktë.",
  "Jonas hat die Temperaturen einer Woche in ein Diagramm verwandelt. Irgendwas stimmt da nicht …": "Jonasi i ktheu temperaturat e një jave në diagram. Diçka nuk shkon …",
  "Überleg: Was ist das Problem?": "<strong>Mendo:</strong> Cili është problemi?",
  "Die Legende ist zu lang.": "Legjenda është shumë e gjatë.",
@@ -41,10 +38,6 @@
  "★ Expedition: Lügen mit Diagrammen freiwillig": "<span class=\"step-no\">★</span> Ekspeditë: Gënjeshtra me diagrame <span class=\"badge expedition\">fakultative</span>",
  "Abstimmung über die Klassenfahrt: Berlin 48 Stimmen, München 52 Stimmen. Verschieb den Regler. Wo fängt die y-Achse an?": "Votim për ekskursionin e klasës: Berlin 48 vota, Mynih 52 vota. Lëviz rrëshqitësin. Ku fillon boshti y?",
  "y-Achse beginnt bei:": "Boshti y fillon te:",
- "Ich weiß, wann Säule, Kreis oder Linie passt.": "E di kur përshtatet një diagram me shtylla, rrethor apo me vijë.",
- "Ich gebe jedem Diagramm einen Titel und beschrifte die Achsen.": "Çdo diagrami i jap një titull dhe i etiketoj boshtet.",
- "Plus Ich kann Prozente im Kreisdiagramm anzeigen.": "<span class=\"badge plus\">Plus</span> Mund të tregoj përqindje në një diagram rrethor.",
- "Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">Expedition</span> I dalloj diagramet mashtruese nga boshti y.",
  "← 5 · Absolute Bezüge": "← 5 · Referencat absolute",
  "7 · Projekt →": "7 · Projekti →",
  "Wetterwoche – besser so": "Java e motit – më mirë kështu",
@@ -81,7 +74,6 @@
  "Format → Diagramm": "Format → Diagramm",
  "Gar nichts": "Asgjë",
  "Die Farben": "Ngjyrat",
- "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> I njoh diagramet mashtruese nga boshti y.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> Dueli i tarifave të rrymës",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "Rryma kushton dy herë: një <strong>çmim bazë</strong> çdo muaj dhe një çmim për çdo <strong>kWh</strong>.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Dueli i tarifave të rrymës</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
@@ -120,5 +112,5 @@
  "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ Plotëso B6:D6 poshtë (deri te D8)",
  "Erst nach rechts ausfüllen, bis D6!": "Fillimisht plotëso djathtas, deri te D6!",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Ende jo gati: {} qeliza janë bosh. Vazhdo të tërheqësh zonën e shënuar derisa gjithçka deri te D8 të jetë plot.",
- "Eine lange Zahlenliste liest kaum jemand gern. Ein Diagramm zeigt auf einen Blick, was größer ist oder wie sich etwas entwickelt. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du jeden Tag, im Wetterbericht und in den Nachrichten.": "Pak kush e pëlqen të lexojë një listë të gjatë numrash. Një diagram tregon me një shikim çfarë është më e madhe ose si zhvillohet diçka. Mëson kur përshtatet diagrami me shtylla, me rreth ose me vijë. Diagrame sheh çdo ditë, në parashikimin e motit dhe në lajme."
+ "Viele Zahlen in einer Liste sind schwer zu lesen. Ein Diagramm zeigt sie als Bild. Dann siehst du sofort, was größer ist. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du oft, zum Beispiel im Wetterbericht.": "Shumë numra në një listë lexohen me vështirësi. Një diagram i tregon si figurë. Atëherë sheh menjëherë çfarë është më e madhe. Mëson kur përshtatet diagrami me shtylla, me rreth ose me vijë. Diagrame sheh shpesh, për shembull në parashikimin e motit."
 }

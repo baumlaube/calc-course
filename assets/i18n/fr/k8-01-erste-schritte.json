@@ -3,9 +3,6 @@
  "Erste Schritte – Zellen, Eingeben, Formatieren": "Premiers pas – cellules, saisie, mise en forme",
  "Klasse 8 · Baustein 1": "8e année · Unité 1",
  "Vorwissen: keins": "Prérequis : aucun",
- "Ich kann jede Zelle mit ihrer Adresse finden und benennen.": "Je trouve chaque cellule grâce à son adresse et je sais la nommer.",
- "Ich kann Text und Zahlen richtig eingeben.": "Je tape correctement du texte et des nombres.",
- "Ich kann eine Tabelle übersichtlich formatieren.": "Je mets en forme un tableau pour qu'il soit facile à lire.",
  "1 Zellen-Jagd 5 Min": "<span class=\"step-no\">1</span> Chasse aux cellules <span class=\"chip\">5 min</span>",
  "Eine Tabelle ist wie das Spielfeld bei „Schiffe versenken“: Jedes Kästchen hat eine Adresse. Findest du sie?": "Un tableur, c'est comme le plateau de la « bataille navale » : chaque case a une adresse. Tu la trouves ?",
  "Klick auf:": "Clique sur :",
@@ -51,11 +48,6 @@
  "Du springst ans Ende einer Zeile.": "Tu sautes à la fin d'une ligne.",
  "Strg + Pos1": "<kbd>Strg</kbd> (Ctrl) + <kbd>Pos1</kbd> (Début)",
  "Du springst zurück nach A1.": "Tu reviens à A1.",
- "Ich finde jede Zelle über ihre Adresse, z. B. C4.": "Je trouve chaque cellule grâce à son adresse, p. ex. <code>C4</code>.",
- "Ich kann Text und Zahlen eingeben und korrigieren.": "Je tape et corrige du texte et des nombres.",
- "Ich erkenne, ob Calc etwas als Zahl oder als Text gespeichert hat.": "Je reconnais si Calc a enregistré quelque chose comme nombre ou comme texte.",
- "Ich kann Schrift, Farbe, Währung, Spaltenbreite und Rahmen einstellen.": "Je règle la police, la couleur, la monnaie, la largeur de colonne et les bordures.",
- "Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">Expedition</span> Je saute dans les tableaux avec la <strong>Namenfeld</strong> (zone de nom) et <kbd>Strg</kbd>+flèche.",
  "← Kursübersicht": "← Vue d'ensemble du cours",
  "2 · Erste Formeln →": "2 · Premières formules →",
  "geschafft!": "terminé !",
@@ -92,8 +84,6 @@
  "Bei Höhe und Tempo tippst du nur die Zahl. Die Einheit kommt in die Überschrift: Ändere C1 in Höhe in m und D1 in Tempo in km/h.": "Pour la hauteur et la vitesse, tu tapes <strong>seulement le nombre</strong>. L'unité va dans le titre : change C1 en <code>Höhe in m</code> et D1 en <code>Tempo in km/h</code>.",
  "PlusAufgabe 4b · Achterbahn-Notizen: Eine Angabe pro Zelle, die Einheit in die Überschrift.": "<span class=\"badge plus\">Plus</span><span><strong>Exercice 4b · Notes de montagnes russes :</strong> une information par cellule, l'unité dans le titre.</span>",
  "Eine Angabe pro Zelle. Einheiten wie m oder Stück gehören in die Überschrift: Höhe in m.": "<strong>Une seule information par cellule.</strong> Les unités comme m ou pièces vont dans le titre : <code>Höhe in m</code>.",
- "Ich schreibe Einheiten in die Überschrift, nicht in die Zelle.": "J'écris les unités dans le titre, pas dans la cellule.",
- "★ Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">★ Expedition</span> Je saute dans les tableaux avec le Namenfeld (zone de nom) et <kbd>Strg</kbd>+flèche.",
  "Üben Das Hunderter-Puzzle": "<span class=\"badge ueben\">Üben</span> Le puzzle des cent",
  "Auf der Hunderter-Tafel fehlen fünf Teile. Klick ein blaues Teil an, dann die Lücke, in die es passt.": "Sur le tableau des cent, il manque cinq pièces. Clique sur une pièce bleue, puis sur le trou où elle va.",
  "In Calc schiebst du die Teile mit der Maus: Teil markieren, auf den Rand zeigen, bis das Pfeilkreuz ✥ kommt, dann ziehen. Probier es in Calc aus – mit der Datei hier drunter.": "Dans Calc, tu déplaces les pièces avec la souris : sélectionne la pièce, pointe sur le <strong>bord</strong> jusqu'à ce que la croix de déplacement ✥ apparaisse, puis fais glisser. Essaie dans Calc – avec le fichier ci-dessous.",
@@ -136,5 +126,5 @@
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>mettre en forme</strong> – changer l'apparence, p. ex. € ou couleur. Le nombre reste le même.",
  "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>décimale</strong> – un chiffre après la virgule. 1,49 en a deux.",
  "Leertaste": "Leertaste (barre d’espace)",
- "Eine Tabellenkalkulation ist ein großes Blatt aus Kästchen. Hier lernst du, dich darin zurechtzufinden: Jede Zelle hat eine Adresse, und Text und Zahlen kommen sauber in eigene Zellen. Darauf baut alles Weitere auf. Solche Tabellen benutzt man in fast jedem Beruf, im Büro genauso wie in der Werkstatt.": "Un tableur est une grande feuille faite de cases. Ici tu apprends à t’y retrouver : chaque cellule a une adresse, et le texte et les nombres vont proprement dans leurs propres cellules. Tout le reste s’appuie là-dessus. On utilise ces tableaux dans presque tous les métiers, au bureau comme à l’atelier."
+ "Eine Tabelle besteht aus vielen Kästchen. Jedes Kästchen heißt Zelle und hat eine Adresse, zum Beispiel C4. Hier lernst du, Zellen zu finden und Text und Zahlen richtig einzutippen. Das brauchst du für alles, was danach kommt. Tabellen wie diese gibt es in fast jedem Beruf.": "Un tableau est fait de beaucoup de cases. Chaque case s’appelle Zelle (cellule) et a une adresse, par exemple <code>C4</code>. Ici tu apprends à trouver les cellules et à bien taper du texte et des nombres. Tu en as besoin pour tout ce qui suit. Ces tableaux existent dans presque tous les métiers."
 }

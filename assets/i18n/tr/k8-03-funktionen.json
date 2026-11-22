@@ -3,9 +3,6 @@
  "Funktionen – ganze Bereiche auf einmal": "Fonksiyonlar – bütün aralıklar tek seferde",
  "Klasse 8 · Baustein 3": "8. sınıf · Ünite 3",
  "Vorwissen: Formeln mit Zellen": "Ön bilgi: hücreli formüller",
- "Ich kann mit SUMME einen ganzen Bereich zusammenzählen.": "Bütün bir aralığı <strong>SUMME</strong> (toplam) ile toplayabilirim.",
- "Ich kann MITTELWERT, MIN und MAX benutzen.": "<strong>MITTELWERT</strong> (ortalama), <strong>MIN</strong> ve <strong>MAX</strong> kullanabilirim.",
- "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "<code>B5:B9</code> gibi bir aralık yazabilir veya fareyle seçebilirim.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>Bunu zaten biliyorsun:</strong> <code>=B5+B6+B7+B8+B9</code> beş günü toplar. Peki ya 365 gün? İşte bunun için <strong>fonksiyonlar</strong> var.<br/>B10'da şu var: <code>=SUMME(B5:B9)</code>",
  "Überleg: Was bedeutet B5:B9?": "<strong>Düşün:</strong> <code>B5:B9</code> ne demek?",
  "Nur B5 und B9": "Sadece B5 ve B9",
@@ -38,11 +35,6 @@
  "★ Expedition: Würfeln mit Calc freiwillig": "<span class=\"step-no\">★</span> Keşif: Calc ile zar atmak <span class=\"badge expedition\">isteğe bağlı</span>",
  "Jeder Würfel oben ist eine Formel: =ZUFALLSBEREICH(1;6). Berechne in B7 den Durchschnitt aller 20 Würfe. Dann würfle ein paar Mal neu.": "Yukarıdaki her zar bir formüldür: <code>=ZUFALLSBEREICH(1;6)</code> (arasında rastgele). B7'de 20 atışın ortalamasını hesapla. Sonra birkaç kez yeniden at.",
  "Neu: Ein Bereich kann auch ein Rechteck sein: B2:F5 heißt von B2 oben links bis F5 unten rechts.": "Yeni: bir aralık dikdörtgen de olabilir: <code>B2:F5</code>, sol üstteki B2'den sağ alttaki F5'e demektir.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren.": "<code>B5:B9</code> gibi bir aralığı okuyabilir ve seçebilirim.",
- "Ich kann SUMME, MITTELWERT, MIN und MAX benutzen.": "SUMME, MITTELWERT, MIN ve MAX kullanabilirim.",
- "Ich weiß, wann ich welche Funktion brauche.": "Hangi fonksiyona ne zaman ihtiyacım olduğunu biliyorum.",
- "Plus Ich kann ANZAHL benutzen und zwei Funktionen in einer Formel verbinden.": "<span class=\"badge plus\">Plus</span> ANZAHL (sayı adedi) kullanabilir ve bir formülde iki fonksiyonu birleştirebilirim.",
- "Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">Expedition</span> <code>B2:F5</code> gibi dikdörtgen aralıkları inceleyebilirim.",
  "← 2 · Erste Formeln": "← 2 · İlk formüller",
  "4 · Ausfüllen →": "4 · Doldurmak →",
  "Der Doppelpunkt heißt „bis“. Schau auf den farbigen Rahmen: B5:B9 umfasst alle fünf Zellen von B5 bis B9.": "İki nokta <strong>“-e kadar”</strong> demektir. Renkli çerçeveye bak: <code>B5:B9</code>, B5'ten B9'a beş hücrenin hepsini kapsar.",
@@ -83,9 +75,6 @@
  "PlusAufgabe 1c · Summen-Fallen: Wann der Σ-Knopf danebenliegt.": "<span class=\"badge plus\">Plus</span><span><strong>Görev 1c · Toplam tuzakları:</strong> Σ düğmesi ne zaman yanılır.</span>",
  "Bereich markieren: Nach =SUMME( mit gedrückter Maustaste von B5 bis B9 ziehen. Lange Liste: erste Zahl anklicken, dann Strg + ⇧ + ↓.": "Aralık seç: <code>=SUMME(</code> yazdıktan sonra fare tuşuna basılı tutarak B5'ten B9'a sürükle. Uzun liste: ilk sayıya tıkla, sonra <kbd>Strg</kbd> + <kbd>⇧</kbd> + <kbd>↓</kbd>.",
  "Der Σ-Knopf rät den Bereich. Rahmen prüfen, dann erst Enter.": "Σ düğmesi aralığı tahmin eder. <strong>Çerçeveyi kontrol et</strong>, sonra <kbd>Enter</kbd>.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren, auch eine lange Liste.": "<code>B5:B9</code> gibi bir aralığı okuyup seçebilirim, uzun bir listeyi de.",
- "Ich prüfe den Vorschlag vom Σ-Knopf, bevor ich Enter drücke.": "<kbd>Enter</kbd>'a basmadan önce Σ düğmesinin önerisini kontrol ederim.",
- "★ Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">★ Expedition</span> <code>B2:F5</code> gibi dikdörtgen aralıkları değerlendirebilirim.",
  "Üben Mein Zeugnis-Schnitt": "<span class=\"badge ueben\">Üben</span> Karne ortalamam",
  "In Bayern zählen die Schulaufgaben (SA) doppelt. Spalte J zeigt den normalen Durchschnitt. Was steht im Zeugnis?": "Bavyera'da Schulaufgaben (SA, büyük sınavlar) <strong>iki kat</strong> sayılır. J sütunu normal ortalamayı gösterir. Karneye ne yazılır?",
  "=(2*SUMME(B2:D2)+SUMME(E2:I2))/113 SA doppelt = 6, dazu 5 andere Noten = 11": "<code>=(2*SUMME(B2:D2)+SUMME(E2:I2))/11</code><br/>3 SA iki kat = 6, artı 5 diğer not = 11",
@@ -133,5 +122,5 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>ortalama</strong> – hepsini toplayıp adede bölmek. Calc'ta: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>değer</strong> – bir hücrede duran şey, çoğu zaman bir sayı",
  "Zellen mit der Maus auswählen": "<strong>seçmek, işaretlemek</strong> – hücreleri fareyle seçmek",
- "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Beş sayıyı hâlâ <code>+</code> ile toplayabilirsin. Ama 30 not ya da 365 günle bu zahmetli olur. <code>SUMME</code> (TOPLA), <code>MITTELWERT</code> (ORTALAMA), <code>MIN</code> ve <code>MAX</code> gibi fonksiyonlar bütün bir aralığı tek seferde hesaplar. <code>MITTELWERT</code> ile örneğin not ortalamanı hesaplarsın."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Beş sayıyı <code>+</code> ile toplayabilirsin. Ama 30 not? Ya da 365 gün? Bu çok uzun sürer. <code>SUMME</code> (TOPLA) gibi bir fonksiyon birçok hücreyi tek seferde hesaplar. <code>MITTELWERT</code> (ORTALAMA) ile örneğin not ortalamanı hesaplarsın."
 }

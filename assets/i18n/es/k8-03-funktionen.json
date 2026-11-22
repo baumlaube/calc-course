@@ -3,9 +3,6 @@
  "Funktionen – ganze Bereiche auf einmal": "Funciones – rangos enteros de una vez",
  "Klasse 8 · Baustein 3": "8.º curso · Unidad 3",
  "Vorwissen: Formeln mit Zellen": "Conocimientos previos: fórmulas con celdas",
- "Ich kann mit SUMME einen ganzen Bereich zusammenzählen.": "Sumo un rango entero con <strong>SUMME</strong> (suma).",
- "Ich kann MITTELWERT, MIN und MAX benutzen.": "Uso <strong>MITTELWERT</strong> (promedio), <strong>MIN</strong> y <strong>MAX</strong>.",
- "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "Escribo un rango como <code>B5:B9</code> o lo selecciono con el ratón.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>Ya lo conoces:</strong> <code>=B5+B6+B7+B8+B9</code> suma cinco días. ¿Pero y con 365 días? Para eso están las <strong>funciones</strong>.<br/>B10 contiene: <code>=SUMME(B5:B9)</code>",
  "Überleg: Was bedeutet B5:B9?": "<strong>Piensa:</strong> ¿qué significa <code>B5:B9</code>?",
  "Nur B5 und B9": "Solo B5 y B9",
@@ -39,11 +36,6 @@
  "★ Expedition: Würfeln mit Calc freiwillig": "<span class=\"step-no\">★</span> Expedición: tirar dados con Calc <span class=\"badge expedition\">opcional</span>",
  "Jeder Würfel oben ist eine Formel: =ZUFALLSBEREICH(1;6). Berechne in B7 den Durchschnitt aller 20 Würfe. Dann würfle ein paar Mal neu.": "Cada dado de arriba es una fórmula: <code>=ZUFALLSBEREICH(1;6)</code> (aleatorio entre). Calcula en B7 el promedio de las 20 tiradas. Luego vuelve a tirar varias veces.",
  "Neu: Ein Bereich kann auch ein Rechteck sein: B2:F5 heißt von B2 oben links bis F5 unten rechts.": "Nuevo: un rango también puede ser un rectángulo: <code>B2:F5</code> significa de B2 arriba a la izquierda a F5 abajo a la derecha.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren.": "Leo y selecciono un rango como <code>B5:B9</code>.",
- "Ich kann SUMME, MITTELWERT, MIN und MAX benutzen.": "Uso SUMME, MITTELWERT, MIN y MAX.",
- "Ich weiß, wann ich welche Funktion brauche.": "Sé qué función necesito en cada momento.",
- "Plus Ich kann ANZAHL benutzen und zwei Funktionen in einer Formel verbinden.": "<span class=\"badge plus\">Plus</span> Uso ANZAHL (contar) y combino dos funciones en una fórmula.",
- "Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">Expedition</span> Analizo rangos rectangulares como <code>B2:F5</code>.",
  "← 2 · Erste Formeln": "← 2 · Primeras fórmulas",
  "4 · Ausfüllen →": "4 · Rellenar →",
  "Der Doppelpunkt heißt „bis“. Schau auf den farbigen Rahmen: B5:B9 umfasst alle fünf Zellen von B5 bis B9.": "Los dos puntos significan <strong>«hasta»</strong>. Mira el marco de color: <code>B5:B9</code> incluye las cinco celdas de B5 a B9.",
@@ -83,9 +75,6 @@
  "PlusAufgabe 1c · Summen-Fallen: Wann der Σ-Knopf danebenliegt.": "<span class=\"badge plus\">Plus</span><span><strong>Tarea 1c · Trampas de la suma:</strong> cuándo se equivoca el botón Σ.</span>",
  "Bereich markieren: Nach =SUMME( mit gedrückter Maustaste von B5 bis B9 ziehen. Lange Liste: erste Zahl anklicken, dann Strg + ⇧ + ↓.": "Seleccionar un rango: después de <code>=SUMME(</code> mantén pulsado el botón del ratón y arrastra de B5 a B9. Lista larga: haz clic en el primer número y luego <kbd>Strg</kbd> + <kbd>⇧</kbd> + <kbd>↓</kbd>.",
  "Der Σ-Knopf rät den Bereich. Rahmen prüfen, dann erst Enter.": "El botón Σ adivina el rango. <strong>Revisa el marco</strong> y solo entonces <kbd>Enter</kbd>.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren, auch eine lange Liste.": "Sé leer y seleccionar un rango como <code>B5:B9</code>, también una lista larga.",
- "Ich prüfe den Vorschlag vom Σ-Knopf, bevor ich Enter drücke.": "Reviso la propuesta del botón Σ antes de pulsar <kbd>Enter</kbd>.",
- "★ Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">★ Expedition</span> Sé analizar rangos rectangulares como <code>B2:F5</code>.",
  "Üben Mein Zeugnis-Schnitt": "<span class=\"badge ueben\">Üben</span> Mi nota media del boletín",
  "In Bayern zählen die Schulaufgaben (SA) doppelt. Spalte J zeigt den normalen Durchschnitt. Was steht im Zeugnis?": "En Baviera las Schulaufgaben (SA, exámenes grandes) cuentan <strong>doble</strong>. La columna J muestra la media normal. ¿Qué sale en el boletín?",
  "=(2*SUMME(B2:D2)+SUMME(E2:I2))/113 SA doppelt = 6, dazu 5 andere Noten = 11": "<code>=(2*SUMME(B2:D2)+SUMME(E2:I2))/11</code><br/>3 SA dobles = 6, más 5 notas más = 11",
@@ -133,5 +122,5 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>promedio</strong> – sumar todo y dividir entre la cantidad. En Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>valor</strong> – lo que hay en una celda, casi siempre un número",
  "Zellen mit der Maus auswählen": "<strong>seleccionar</strong> – elegir celdas con el ratón",
- "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Cinco números todavía los sumas con <code>+</code>. Con 30 notas o 365 días se vuelve pesado. Funciones como <code>SUMME</code> (SUMA), <code>MITTELWERT</code> (PROMEDIO), <code>MIN</code> y <code>MAX</code> calculan un rango entero de una vez. Con <code>MITTELWERT</code> calculas, por ejemplo, tu nota media."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Cinco números los puedes sumar con <code>+</code>. ¿Pero 30 notas? ¿O 365 días? Eso tarda demasiado. Una función como <code>SUMME</code> (SUMA) calcula muchas celdas a la vez. Con <code>MITTELWERT</code> (PROMEDIO) calculas, por ejemplo, tu nota media."
 }

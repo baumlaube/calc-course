@@ -3,9 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Абсолютні посилання – $ як якір",
  "Klasse 8 · Baustein 5": "8 клас · Модуль 5",
  "Vorwissen: Formeln ausfüllen": "Попередні знання: заповнення формул",
- "Ich kann erklären, warum ein Zellbezug beim Ausfüllen „wandert“.": "Я можу пояснити, чому посилання на клітинку «мандрує» при заповненні.",
- "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Я вмію закріпити посилання знаком <code>$</code>.",
- "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Я вмію вирішити, коли потрібен <code>$</code>, а коли ні.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Лена на канікулах підробляє в кафе-морозиві і отримує 11 € за годину. У C5 вона порахувала заробіток за понеділок: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "#WERT!": "#WERT! (#ЗНАЧ!)",
  "66,00 € (6 × 11 €)": "66,00 € (6 × 11 €)",
@@ -46,11 +43,6 @@
  "nur die Spalte A": "лише стовпець A",
  "nur die Zeile 1": "лише рядок 1",
  "Tipp: Drück Umschalt + F4 mehrmals hintereinander – so springst du durch alle Varianten.": "Порада: натисни <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd> кілька разів поспіль – так ти перебереш усі варіанти.",
- "Ich kann erklären, warum =B5*B2 beim Ausfüllen kaputtgeht.": "Я можу пояснити, чому <code>=B5*B2</code> ламається при заповненні.",
- "Ich kann mit $ (oder Umschalt+F4) einen Bezug festhalten.": "Я вмію закріпити посилання знаком <code>$</code> (або <kbd>Umschalt</kbd>+<kbd>F4</kbd>).",
- "Ich erkenne, wann eine Formel ein $ braucht.": "Я бачу, коли формулі потрібен <code>$</code>.",
- "Plus Ich finde versteckte Fehler in fremden Tabellen.": "<span class=\"badge plus\">Plus</span> Я знаходжу приховані помилки в чужих таблицях.",
- "Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">Expedition</span> Я вмію використовувати змішані посилання, як <code>$A2</code> і <code>B$1</code>.",
  "← 4 · Ausfüllen": "← 4 · Заповнення",
  "6 · Diagramme →": "6 · Діаграми →",
  "Calc füllt aus … schau auf Spalte C!": "Calc заповнює … дивись на стовпець C!",
@@ -88,7 +80,6 @@
  "{} von 25 richtig. Tipp: Beim Ziehen nach rechts darf die Spalte A nicht wandern, beim Ziehen nach unten nicht die Zeile 1.": "{} з 25 правильно. Порада: коли тягнеш вправо, стовпець A не має змінюватися; коли тягнеш униз – рядок 1.",
  "Profi-Trick: ein Name statt $. Klick B2 an, tipp oben links ins Namenfeld Lohn und drück Enter. Jetzt geht auch =B5*Lohn. Ein Name bleibt beim Ausfüllen immer fest.": "<strong>Трюк профі: ім'я замість $.</strong> Клацни B2, введи вгорі ліворуч у <strong>Namenfeld</strong> (поле імені) <code>Lohn</code> (зарплата) і натисни <kbd>Enter</kbd>. Тепер працює і <code>=B5*Lohn</code>. Ім'я при заповненні завжди лишається незмінним.",
  "Profi-Trick: Eine Zelle im Namenfeld benennen, z. B. Lohn. Ein Name bleibt beim Ausfüllen fest.": "Трюк профі: назвати клітинку в <strong>Namenfeld</strong> (поле імені), напр. <code>Lohn</code>. Ім'я при заповненні лишається незмінним.",
- "★ Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">★ Expedition</span> Я вмію використовувати змішані посилання, як-от <code>$A2</code> і <code>B$1</code>.",
  "Üben Der Steuer-Schalter": "<span class=\"badge ueben\">Üben</span> Податковий перемикач",
  "Der Steuersatz steht nur einmal, in B1. Alle Formeln holen ihn sich von dort.": "Ставка податку записана лише раз, у B1. Усі формули беруть її звідти.",
  "C4: Steuer = Netto × Steuersatz, mit $.": "C4: податок = нетто × ставка податку, з <code>$</code>.",
@@ -157,5 +148,5 @@
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Ще не готово: {} клітинок порожні. Тягни виділену область далі, поки все до E9 не заповниться.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Рядок 4 правильний. Тепер виділи C4 і D4 разом і потягни вниз до рядка 6.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Подумай:</strong> Лена протягує формулу вниз до C9. Що тоді буде в <strong>C6</strong> (вівторок)?",
- "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "Під час заповнення кожне посилання на клітинку зсувається. Здебільшого це правильно. Але деякі значення діють для всіх рядків, наприклад погодинна оплата. Знаком <code>$</code> ти закріплюєш таку клітинку. Якщо оплата змінюється, ти змінюєш лише одну клітинку – і вся таблиця перераховується."
+ "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Коли тягнеш, формула зсувається. Здебільшого це правильно. Але деякі клітинки мають діяти для всіх рядків, наприклад погодинна оплата. Знаком <code>$</code> ти закріплюєш таку клітинку."
 }

@@ -3,9 +3,6 @@
  "Erste Schritte – Zellen, Eingeben, Formatieren": "İlk adımlar – hücreler, yazmak, biçimlendirmek",
  "Klasse 8 · Baustein 1": "8. sınıf · Ünite 1",
  "Vorwissen: keins": "Ön bilgi: yok",
- "Ich kann jede Zelle mit ihrer Adresse finden und benennen.": "Her hücreyi adresinden bulabilir ve adını söyleyebilirim.",
- "Ich kann Text und Zahlen richtig eingeben.": "Metin ve sayıları doğru yazabilirim.",
- "Ich kann eine Tabelle übersichtlich formatieren.": "Bir tabloyu kolay okunacak şekilde biçimlendirebilirim.",
  "1 Zellen-Jagd 5 Min": "<span class=\"step-no\">1</span> Hücre avı <span class=\"chip\">5 dk</span>",
  "Eine Tabelle ist wie das Spielfeld bei „Schiffe versenken“: Jedes Kästchen hat eine Adresse. Findest du sie?": "Bir tablo, “Amiral Battı” oyunundaki tahta gibidir: her kutunun bir adresi var. Bulabilir misin?",
  "Klick auf:": "Şuna tıkla:",
@@ -51,11 +48,6 @@
  "Du springst ans Ende einer Zeile.": "Satırın sonuna zıplarsın.",
  "Strg + Pos1": "<kbd>Strg</kbd> (Ctrl) + <kbd>Pos1</kbd> (Home)",
  "Du springst zurück nach A1.": "A1'e geri zıplarsın.",
- "Ich finde jede Zelle über ihre Adresse, z. B. C4.": "Her hücreyi adresinden bulabilirim, örneğin <code>C4</code>.",
- "Ich kann Text und Zahlen eingeben und korrigieren.": "Metin ve sayıları yazıp düzeltebilirim.",
- "Ich erkenne, ob Calc etwas als Zahl oder als Text gespeichert hat.": "Calc'ın bir şeyi sayı olarak mı yoksa metin olarak mı kaydettiğini anlayabilirim.",
- "Ich kann Schrift, Farbe, Währung, Spaltenbreite und Rahmen einstellen.": "Yazı tipi, renk, para birimi, sütun genişliği ve kenarlıkları ayarlayabilirim.",
- "Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">Expedition</span> Tablolarda <strong>Namenfeld</strong> (ad kutusu) ve <kbd>Strg</kbd>+ok tuşuyla zıplarım.",
  "← Kursübersicht": "← Kurs genel bakışı",
  "2 · Erste Formeln →": "2 · İlk formüller →",
  "geschafft!": "tamam!",
@@ -92,8 +84,6 @@
  "Bei Höhe und Tempo tippst du nur die Zahl. Die Einheit kommt in die Überschrift: Ändere C1 in Höhe in m und D1 in Tempo in km/h.": "Yükseklik ve hız için <strong>sadece sayıyı</strong> yaz. Birim başlığa gider: C1'i <code>Höhe in m</code>, D1'i <code>Tempo in km/h</code> olarak değiştir.",
  "PlusAufgabe 4b · Achterbahn-Notizen: Eine Angabe pro Zelle, die Einheit in die Überschrift.": "<span class=\"badge plus\">Plus</span><span><strong>Görev 4b · Hız treni notları:</strong> Her hücreye tek bilgi, birim başlıkta.</span>",
  "Eine Angabe pro Zelle. Einheiten wie m oder Stück gehören in die Überschrift: Höhe in m.": "<strong>Her hücreye tek bilgi.</strong> m veya adet gibi birimler başlığa aittir: <code>Höhe in m</code>.",
- "Ich schreibe Einheiten in die Überschrift, nicht in die Zelle.": "Birimleri hücreye değil, başlığa yazarım.",
- "★ Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">★ Expedition</span> Namenfeld (ad kutusu) ve <kbd>Strg</kbd>+ok ile tablolarda atlarım.",
  "Üben Das Hunderter-Puzzle": "<span class=\"badge ueben\">Üben</span> Yüzlük yapboz",
  "Auf der Hunderter-Tafel fehlen fünf Teile. Klick ein blaues Teil an, dann die Lücke, in die es passt.": "Yüzlük tabloda beş parça eksik. Mavi bir parçaya, sonra onun uyduğu boşluğa tıkla.",
  "In Calc schiebst du die Teile mit der Maus: Teil markieren, auf den Rand zeigen, bis das Pfeilkreuz ✥ kommt, dann ziehen. Probier es in Calc aus – mit der Datei hier drunter.": "Calc'ta parçaları fareyle taşırsın: parçayı seç, taşıma işareti ✥ çıkana kadar <strong>kenara</strong> gel, sonra sürükle. Calc'ta dene – aşağıdaki dosyayla.",
@@ -136,5 +126,5 @@
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>biçimlendirmek</strong> – görünüşü değiştirmek, örn. € veya renk. Sayı aynı kalır.",
  "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>ondalık basamak</strong> – virgülden sonraki bir rakam. 1,49'da iki tane var.",
  "Leertaste": "Leertaste (boşluk tuşu)",
- "Eine Tabellenkalkulation ist ein großes Blatt aus Kästchen. Hier lernst du, dich darin zurechtzufinden: Jede Zelle hat eine Adresse, und Text und Zahlen kommen sauber in eigene Zellen. Darauf baut alles Weitere auf. Solche Tabellen benutzt man in fast jedem Beruf, im Büro genauso wie in der Werkstatt.": "Hesap tablosu, kutucuklardan oluşan büyük bir sayfadır. Burada içinde yolunu bulmayı öğrenirsin: her hücrenin bir adresi vardır, metin ve sayılar düzgünce kendi hücrelerine yazılır. Sonraki her şey bunun üzerine kurulur. Bu tür tablolar neredeyse her meslekte kullanılır, ofiste de atölyede de."
+ "Eine Tabelle besteht aus vielen Kästchen. Jedes Kästchen heißt Zelle und hat eine Adresse, zum Beispiel C4. Hier lernst du, Zellen zu finden und Text und Zahlen richtig einzutippen. Das brauchst du für alles, was danach kommt. Tabellen wie diese gibt es in fast jedem Beruf.": "Bir tablo birçok kutucuktan oluşur. Her kutucuğa Zelle (hücre) denir ve bir adresi vardır, örneğin <code>C4</code>. Burada hücreleri bulmayı, metin ve sayıları doğru yazmayı öğrenirsin. Bunu sonra gelen her şey için kullanırsın. Bu tür tablolar neredeyse her meslekte vardır."
 }

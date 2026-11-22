@@ -2,9 +2,6 @@
  "Drucken wie ein Profi · Calc-Kurs Zusatzmodul": "Drukuj jak zawodowiec · Kurs Calc moduł dodatkowy",
  "Drucken wie ein Profi": "Drukuj jak zawodowiec",
  "brauchst du bei jeder Abgabe": "potrzebne przy każdym oddawaniu pracy",
- "Ich prüfe mit der Druckvorschau, wie der Ausdruck aussieht.": "Sprawdzam w podglądzie wydruku, jak wygląda wydruk.",
- "Ich stelle Querformat, „auf eine Seite“ und eine Kopfzeile ein.": "Ustawiam orientację poziomą, „dopasuj do jednej strony” i nagłówek.",
- "Ich lege fest, was gedruckt wird – und speichere als PDF.": "Decyduję, co zostanie wydrukowane – i zapisuję jako PDF.",
  "💡 Deine Notenliste ist 30 cm breit. Auf ein A4-Blatt hochkant passen nur etwa 17 cm.": "💡 Twoja lista ocen ma <strong>30 cm szerokości</strong>. Na pionową kartkę A4 mieści się tylko około <strong>17 cm</strong>.",
  "Überleg: Was passiert, wenn du einfach auf Drucken klickst?": "<strong>Pomyśl:</strong> Co się stanie, jeśli po prostu klikniesz Drukuj?",
  "Calc macht alles kleiner – passt auf ein Blatt.": "Calc wszystko zmniejszy – zmieści się na jednej stronie.",
@@ -69,5 +66,5 @@
  "Datei → Druckvorschau": "Datei → Druckvorschau (Plik → Podgląd wydruku)",
  "Spalten löschen": "Usunąć kolumny",
  "Klein schreiben": "Pisać małymi literami",
- "Auf dem Bildschirm sieht die Tabelle gut aus, auf Papier fehlt plötzlich die Hälfte. Hier lernst du, mit Druckvorschau, Querformat und „auf eine Seite“ sauber zu drucken. Und du speicherst die Tabelle als PDF, zum Abgeben oder Verschicken.": "Na ekranie tabela wygląda dobrze, a na papierze nagle brakuje połowy. Tu uczysz się drukować porządnie z podglądem wydruku, orientacją poziomą i „na jednej stronie”. Zapisujesz też tabelę jako PDF, żeby ją oddać albo wysłać."
+ "Auf dem Bildschirm sieht die Tabelle gut aus. Auf dem Papier fehlt plötzlich die Hälfte. Hier lernst du, die Tabelle richtig auf ein Blatt zu bringen. Du speicherst sie auch als PDF, zum Abgeben oder Verschicken.": "Na ekranie tabela wygląda dobrze. Na papierze nagle brakuje połowy. Tu uczysz się, jak dobrze zmieścić tabelę na jednej kartce. Zapisujesz ją też jako PDF, żeby ją oddać albo wysłać."
 }

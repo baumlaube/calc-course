@@ -3,9 +3,6 @@
  "WENN 3 – Grenzen in eigenen Zellen": "WENN 3 (SI 3) – los límites en sus propias celdas",
  "Klasse 9 · Baustein 5": "9.º curso · Unidad 5",
  "Teil 3 von 3 zu WENN": "Parte 3 de 3 sobre WENN (SI)",
- "Ich kann Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "Escribo los límites en su propia celda y los fijo con <code>$</code>.",
- "Ich kann WENN-Formeln mit Text, Zahlen und Rechnungen sicher schreiben.": "Escribo con seguridad fórmulas WENN con texto, números y cálculos.",
- "Ich kann eine Probe-Aufgabe zu WENN allein lösen.": "Resuelvo yo solo/a una tarea de examen sobre WENN.",
  "💡 Beim Erste-Hilfe-Quiz hat bestanden, wer mindestens 15 Punkte hat. In Spalte C steht überall so eine Formel: =WENN(B5>=15;\"bestanden\";\"durchgefallen\")": "💡 En el test de primeros auxilios aprueba quien tenga como mínimo 15 puntos. En la columna C hay en todas partes una fórmula como esta: <code class=\"long\">=WENN(B5&gt;=15;\"bestanden\";\"durchgefallen\")</code>",
  "Überleg: Neue Regel – bestanden erst ab 16 Punkten. Wie viele Zellen musst du ändern?": "<strong>Piensa:</strong> nueva regla: se aprueba solo a partir de <strong>16</strong> puntos. ¿Cuántas celdas tienes que cambiar?",
  "nur eine": "solo una",
@@ -37,11 +34,6 @@
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> Expedición: UND (Y) <span class=\"badge expedition\">opcional</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> solo es verdadero si <strong>ambas</strong> lo son.<br/>Con <code>ODER(…; …)</code> (O) basta con una.",
  "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "Es día de piscina si hace <strong>como mínimo 25 °C</strong> <strong>y</strong> no llueve. Escribe en D5 una fórmula WENN con UND y rellénala hacia abajo.",
- "Ich schreibe Grenzen in eine eigene Zelle und nehme sie mit $.": "Escribo los límites en su propia celda y los uso con <code>$</code>.",
- "Ich wähle das richtige Vergleichszeichen, z. B. >= für „ab“.": "Elijo el signo de comparación correcto, p. ej. <code>&gt;=</code> para «a partir de».",
- "Ich setze Text in Anführungszeichen und Zahlen ohne.": "Pongo el texto entre comillas y los números sin ellas.",
- "Plus Ich löse Probe-Aufgaben zu WENN ohne Vorlage.": "<span class=\"badge plus\">Plus</span> Resuelvo tareas de examen sobre WENN sin modelo.",
- "Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">Expedition</span> Sé combinar WENN con UND.",
  "← 4 · WENN 2": "← 4 · WENN 2 (SI 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (formato condicional) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -89,7 +81,6 @@
  "eine Fehlermeldung": "un mensaje de error",
  "viel": "viel (mucho)",
  "wenig": "wenig (poco)",
- "★ Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">★ Expedition</span> Sé combinar WENN con UND (Y).",
  "Üben Wochenlohn mit Überstunden": "<span class=\"badge ueben\">Üben</span> Sueldo semanal con horas extra",
  "Bis 38,5 Stunden gibt es den normalen Stundenlohn. Jede Stunde mehr ist eine Überstunde mit 30 % Zuschlag. Tarif und Zuschlag stehen in blauen Zellen.": "Hasta 38,5 horas se paga el sueldo normal por hora. Cada hora de más es una hora extra con un 30 % de plus. Las horas y el plus están en celdas azules.",
  "=WENN(B6>=$B$2;$B$2*C6;B6*C6) – hier wird in Dann und Sonst gerechnet.": "<code class=\"long\">=WENN(B6&gt;=$B$2;$B$2*C6;B6*C6)</code> – aquí se calcula en <strong>Dann</strong> (entonces) y <strong>Sonst</strong> (si no).",
@@ -119,5 +110,5 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Todavía no llegas abajo. Siguen vacías: {}. Arrastra desde C5 hasta C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ ¡El lunes está bien! Ahora arrastra el <strong>Ausfüllkästchen</strong> (controlador de relleno) hacia abajo hasta D7.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Todavía no llegas abajo. Arrastra desde D5 hasta D7.",
- "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Las reglas cambian: mañana quizá valgan 16 puntos en lugar de 15. Si el límite está en su propia celda, lo cambias en un solo sitio y todas las fórmulas se recalculan. Al final resuelves tú solo tareas de <code>WENN</code> como en el examen."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Las reglas cambian. Hoy hacen falta 15 puntos, mañana quizá 16. Por eso escribe el límite en su propia celda. Así solo cambias esa celda y todas las fórmulas se recalculan. Al final resuelves tú solo tareas de <code>WENN</code> como en el examen."
 }

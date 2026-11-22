@@ -3,9 +3,6 @@
  "Prozentrechnung – Rabatt, Anteile, Mehrwertsteuer": "درصد – تخفیف، سهم، مالیات بر ارزش افزوده",
  "Klasse 9 · Baustein 2": "کلاس 9 · واحد 2",
  "Vorwissen: Prozente aus Mathe, $-Anker": "لازم: درصد از ریاضی، لنگر $",
- "Ich kann Prozente in Calc richtig eingeben und als % formatieren.": "می‌توانم درصدها را در Calc درست بنویسم و به صورت % قالب‌بندی کنم.",
- "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "می‌توانم تخفیف، سهم و مالیات را با فرمول حساب کنم.",
- "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "می‌توانم یک درصد را با لنگر <code>$</code> برای ردیف‌های زیاد به کار ببرم.",
  "💡 Aus Mathe kennst du: 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 20 %.": "💡 <strong>از ریاضی می‌دانی:</strong> 20 % از 50 € = 50 € · 20 : 100 = 10 €. در جدول بالا B2 مقدار <strong>20 %</strong> را نشان می‌دهد.",
  "Überleg: Welche Zahl steht für Calc wirklich in B2?": "<strong>فکر کن:</strong> برای Calc واقعاً کدام عدد در B2 است؟",
  "Gar keine Zahl, sondern der Text „20 %“": "اصلاً عدد نیست، بلکه متن „20 %“",
@@ -31,11 +28,6 @@
  "★ Expedition: Rabatt auf Rabatt freiwillig": "<span class=\"step-no\">★</span> اکتشاف: تخفیف روی تخفیف <span class=\"badge expedition\">اختیاری</span>",
  "Die Jacke kostet 80 €. Im Sale gibt es 20 %, an der Kasse nochmal 10 % extra. Die Werbung sagt: „30 % sparen!“": "کاپشن 80 € است. در حراج 20 % تخفیف دارد و سر صندوق 10 % دیگر هم. تبلیغ می‌گوید: «30 % صرفه‌جویی!»",
  "Berechne in B5 den Endpreis und in B6, wie viel Prozent du wirklich sparst.": "در <strong>B5</strong> قیمت نهایی را حساب کن، در <strong>B6</strong> این‌که واقعاً چند درصد صرفه‌جویی می‌کنی.",
- "Ich tippe Prozente richtig ein und formatiere Zahlen als %.": "درصدها را درست می‌نویسم و عددها را به صورت % قالب‌بندی می‌کنم.",
- "Ich berechne Rabatt und neuen Preis mit Formeln.": "تخفیف و قیمت جدید را با فرمول حساب می‌کنم.",
- "Ich berechne Anteile mit =Teil/Ganzes.": "سهم‌ها را با <code>=Teil/Ganzes</code> حساب می‌کنم.",
- "Plus Ich berechne Brutto-Preise mit der Mehrwertsteuer.": "<span class=\"badge plus\">Plus</span> قیمت ناخالص با مالیات را حساب می‌کنم.",
- "Expedition Ich weiß, warum 20 % + 10 % Rabatt keine 30 % sind.": "<span class=\"badge expedition\">Expedition</span> می‌دانم چرا 20 % + 10 % تخفیف، 30 % نیست.",
  "← 1 · Fehlerdetektiv": "← 1 · کارآگاه خطا",
  "3 · WENN 1 →": "3 · WENN 1 (اگر 1) →",
  "C2 zeigt dieselbe Zahl ohne %-Format: 0,2. Das %-Format zeigt die Zahl nur mal 100 an und hängt ein % an.": "C2 همان عدد را بدون قالب % نشان می‌دهد: <strong>0,2</strong>. قالب % فقط عدد را ضرب در 100 نشان می‌دهد و یک % اضافه می‌کند.",
@@ -85,7 +77,6 @@
  "72 % ist der Anteil, den du noch zahlst. Gesucht ist, was du sparst: =(B1-B5)/B1": "72 % سهمی است که هنوز می‌پردازی. ما صرفه‌جویی را می‌خواهیم: <code>=(B1-B5)/B1</code>",
  "Noch nicht. Gespart in % = (alter Preis − neuer Preis) ÷ alter Preis.": "هنوز نه. صرفه‌جویی به % = (قیمت قبلی − قیمت جدید) ÷ قیمت قبلی.",
  "🏆 Expedition geschafft! Du sparst nur 28 %, nicht 30 %. Die 10 % gehen vom schon reduzierten Preis weg. Rabatte darf man nicht einfach addieren.": "🏆 اکتشاف تمام شد! فقط <strong>28 %</strong> صرفه‌جویی می‌کنی، نه 30 %. آن 10 % از قیمتِ از قبل کم‌شده کم می‌شود. تخفیف‌ها را نمی‌شود ساده جمع زد.",
- "★ Expedition Ich weiß, warum 20 % + 10 % Rabatt keine 30 % sind.": "<span class=\"badge expedition\">★ Expedition</span> می‌دانم چرا ۲۰ ٪ + ۱۰ ٪ تخفیف، ۳۰ ٪ نیست.",
  "★ Expedition Rabatt auf Rabatt": "<span class=\"badge expedition\">★ Expedition</span> تخفیف روی تخفیف",
  "ODS ★ Expedition: Rabatt auf Rabattk9-02-prozentrechnung-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition: تخفیف روی تخفیف</strong><small>k9-02-prozentrechnung-expedition.ods</small></span>",
  "Mal 25 heißt 2500 %. Und ändert sich B2, rechnet die Formel nicht mit.": "ضرب در 25 یعنی 2500 %. و اگر B2 تغییر کند، فرمول دوباره حساب نمی‌کند.",
@@ -109,5 +100,5 @@
  "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "همه چیز 20 % ارزان‌تر! در <strong>C5</strong> تخفیف را به € بنویس، در <strong>D5</strong> قیمت جدید را. بعد C5 و D5 را با هم انتخاب کن و هر دو را با <strong>Ausfüllkästchen</strong> (دستگیرهٔ پر کردن) به پایین تا ردیف 7 بکش.",
  "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "هنوز همه چیز پر نشده. C5 و D5 را <strong>با هم</strong> انتخاب کن و <strong>Ausfüllkästchen</strong> (دستگیرهٔ پر کردن) را به پایین تا ردیف 7 بکش.",
  "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ ردیف 5 درست است! حالا C5 و D5 را با هم انتخاب کن و هر دو را با <strong>Ausfüllkästchen</strong> (دستگیرهٔ پر کردن) به پایین تا ردیف 7 بکش.",
- "Prozentrechnen kennst du aus Mathe. Jetzt lernst du, wie Calc mit Prozenten umgeht und wie du einen Prozentsatz für eine ganze Liste festhältst. Rabatt im Schlussverkauf und die 19 % Mehrwertsteuer auf dem Kassenbon rechnest du dann in Sekunden aus.": "درصد را از ریاضی می‌شناسی. حالا یاد می‌گیری Calc با درصد چطور کار می‌کند و چطور یک درصد را برای یک فهرست کامل ثابت کنی. بعد تخفیف حراج و ۱۹ ٪ مالیات بر ارزش افزوده روی رسید را در چند ثانیه حساب می‌کنی."
+ "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "درصد را از ریاضی می‌شناسی. حالا درصد را با Calc حساب می‌کنی. این‌طور سریع حساب می‌کنی یک شلوار با ۳۰ ٪ تخفیف چقدر می‌شود. یا چقدر مالیات بر ارزش افزوده روی رسید نوشته شده."
 }

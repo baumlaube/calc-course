@@ -1,9 +1,6 @@
 {
  "Sortieren & Filtern · Calc-Kurs Zusatzmodul": "Sortare și filtrare · Curs Calc modul suplimentar",
  "Sortieren & Filtern – große Tabellen bändigen": "Sortieren &amp; Filtern (sortare și filtrare) – îmblânzește tabelele mari",
- "Ich kann eine Tabelle auf- oder absteigend sortieren.": "Pot sorta un tabel crescător sau descrescător.",
- "Ich kann mit dem AutoFilter nur bestimmte Zeilen anzeigen.": "Pot afișa doar anumite rânduri cu AutoFilter.",
- "Ich weiß, warum man nie nur eine Spalte sortiert.": "Știu de ce nu sortezi niciodată o singură coloană.",
  "💡 Tom will die Besten oben haben. Er markiert nur die Spalte C und sortiert sie absteigend.": "💡 Tom vrea ca cei mai buni să fie sus. Selectează <strong>doar coloana C</strong> și o sortează descrescător.",
  "Überleg: Was passiert?": "<strong>Gândește-te:</strong> Ce se întâmplă?",
  "Alles richtig – die Besten stehen oben.": "Totul e în regulă – cei mai buni sunt sus.",
@@ -64,5 +61,5 @@
  "alphabetisch": "alfabetic",
  "größte oben": "cel mai mare sus",
  "kleinste oben": "cel mai mic sus",
- "In einer Tabelle mit Hunderten Zeilen sucht niemand von Hand. Du sortierst sie, zum Beispiel nach Punkten, oder du filterst nur die Zeilen, die du brauchst. Das kennst du aus jedem Online-Shop: sortieren nach Preis, filtern nach Größe.": "Într-un tabel cu sute de rânduri nimeni nu caută de mână. Îl sortezi, de exemplu după puncte, sau filtrezi doar rândurile de care ai nevoie. Știi asta din orice magazin online: sortezi după preț, filtrezi după mărime."
+ "Eine Tabelle hat hundert Zeilen. Du suchst nicht jede Zeile ab. Du sortierst die Tabelle, zum Beispiel nach Punkten. Oder du filterst: Dann siehst du nur die Zeilen, die du brauchst. Das kennst du aus Online-Shops: sortieren nach Preis, filtern nach Größe.": "Un tabel are o sută de rânduri. Nu cauți prin fiecare rând. Sortezi tabelul, de exemplu după puncte. Sau filtrezi: atunci vezi doar rândurile de care ai nevoie. Știi asta din magazinele online: sortezi după preț, filtrezi după mărime."
 }

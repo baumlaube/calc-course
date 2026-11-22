@@ -2,9 +2,6 @@
  "Text-Tricks · Calc-Kurs Zusatzmodul": "Trikovi s tekstom · Calc kurs dodatni modul",
  "Text-Tricks – Namen und E-Mail-Adressen bauen": "Trikovi s tekstom – sastavljanje imena i e-mail adresa",
  "Vorwissen: Formeln, WENN": "Predznanje: formule, WENN",
- "Ich klebe Texte mit & zusammen.": "Lijepim tekstove zajedno sa <code>&amp;</code>.",
- "Ich zerlege und prüfe Texte mit LINKS, KLEIN und LÄNGE.": "Rastavljam i provjeravam tekstove sa LINKS (lijevo), KLEIN (mala slova) i LÄNGE (dužina).",
- "Ich baue automatisch Benutzernamen und E-Mail-Adressen.": "Automatski pravim korisnička imena i e-mail adrese.",
  "💡 In C2 kommt: =A2&B2": "💡 U C2 ide: <code>=A2&amp;B2</code>",
  "Lea Müller": "Lea Müller",
  "LeaMüller": "LeaMüller",
@@ -44,5 +41,6 @@
  "Wie liest man =KLEIN(LINKS(A5;1)&B5)?": "Kako se čita <code>=KLEIN(LINKS(A5;1)&amp;B5)</code>?",
  "Von innen nach außen": "Iznutra prema van",
  "Von rechts nach links": "Zdesna nalijevo",
- "Erst LINKS, dann &, zum Schluss KLEIN.": "Prvo LINKS, onda &amp;, na kraju KLEIN."
+ "Erst LINKS, dann &, zum Schluss KLEIN.": "Prvo LINKS, onda &amp;, na kraju KLEIN.",
+ "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "Ručno kucati korisnička imena za 25 učenika? To dugo traje i lako se pogriješi. Calc sam pravi takva imena od imena i prezimena, pomoću <code>&amp;</code>, <code>LINKS</code> (LEFT) i <code>KLEIN</code> (LOWER). Tako rade i škole i firme."
 }

@@ -3,9 +3,6 @@
  "Projekt: Wir planen die Klassenfahrt": "مشروع: نخطّط لرحلة الصف",
  "Klasse 8 · Baustein 7–8": "الصف 8 · الوحدتان 7–8",
  "Vorwissen: Baustein 1–6": "المعرفة المسبقة: الوحدات 1–6",
- "Ich kann alles aus Baustein 1 bis 6 in einem echten Projekt anwenden.": "أستخدم كل ما تعلّمته في الوحدات 1 إلى 6 في مشروع حقيقي.",
- "Ich kann einen Kostenplan mit Formeln, SUMME und absoluten Bezügen erstellen.": "أصنع خطة تكاليف بالصيغ وSUMME والمراجع المطلقة.",
- "Ich kann Ergebnisse mit einem Diagramm zeigen und eine Entscheidung begründen.": "أعرض النتائج برسم بياني وأعلّل قرارًا.",
  "🎒 Euer Auftrag": "<span class=\"step-no\">🎒</span> مهمتكم",
  "Eure Klasse fährt 3 Tage weg. Ihr seid das Planungsteam.Was kostet die Fahrt? Wie viel zahlt jeder selbst? Welches Ziel ist besser?": "صفّكم يسافر 3 أيام. أنتم <strong>فريق التخطيط</strong>.<br/>كم تكلّف الرحلة؟ كم يدفع كل واحد؟ أيّ وجهة أفضل؟",
  "Ihr arbeitet allein oder zu zweit. Die Projektdatei zeigt euch auf dem Startblatt, welche Meilensteine schon geschafft sind.": "تعمل وحدك أو مع زميل. الورقة الأولى في ملف المشروع تُظهر لك أيّ المراحل أنجزت.",
@@ -64,11 +61,6 @@
  "Für Lehrkräfte: ★ = 1, ★★ = 2, ★★★ = 3 Punkte je Zeile. Ohne Plus sind es 15 Punkte, mit Plus 18.": "للمعلّمين: ★ = 1، ★★ = 2، ★★★ = 3 نقاط لكل سطر. بدون Plus المجموع 15 نقطة، ومع Plus 18.",
  "Rückblick auf Klasse 8": "نظرة إلى الوراء على الصف 8",
  "Hak ab, was du jetzt kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.": "ضع علامة على ما تستطيعه الآن. جهازك فقط يتذكّر ذلك – لا يُرسَل شيء.",
- "Ich kann einen Kostenplan mit Formeln aufbauen.": "أبني خطة تكاليف بالصيغ.",
- "Ich setze SUMME, Ausfüllen und $ sinnvoll ein.": "أستخدم SUMME والتعبئة و<code>$</code> بشكل مناسب.",
- "Ich gestalte Tabellen so, dass andere sie gut lesen können.": "أصمّم الجداول بحيث يسهل على الآخرين قراءتها.",
- "Ich wähle das passende Diagramm und lese es richtig.": "أختار الرسم البياني المناسب وأقرأه بشكل صحيح.",
- "Plus Ich kann zwei Angebote vergleichen und meine Entscheidung begründen.": "<span class=\"badge plus\">Plus</span> أقارن عرضين وأعلّل قراري.",
  "← 6 · Diagramme": "← 6 · الرسوم البيانية",
  "Klasse 9 · Fehlerdetektiv →": "الصف 9 · محقّق الأخطاء →",
  "{} pro Person": "<strong>{}</strong> لكل شخص",
@@ -83,5 +75,5 @@
  "Geld, das jemand dazugibt, z. B. die Schule": "<strong>دعم مالي</strong> – مال يضيفه أحد، مثلًا المدرسة",
  "ein Vorschlag mit Preis. Ihr vergleicht zwei Angebote.": "<strong>عرض</strong> – اقتراح مع سعر. تقارنون بين عرضين.",
  "sagen, warum. Hier: mit Zahlen.": "<strong>يعلّل</strong> – يقول لماذا. هنا: بالأرقام.",
- "Jetzt setzt du alles aus Klasse 8 zusammen. Ihr plant eine Klassenfahrt: Kosten pro Person ausrechnen, Angebote vergleichen und die Entscheidung mit einem Diagramm begründen. Diese Rechnung muss vor jeder echten Klassenfahrt jemand machen.": "الآن تجمع كل ما تعلمته في الصف الثامن. تخططون لرحلة صفية: تحسبون التكلفة لكل شخص، وتقارنون العروض، وتبررون القرار بمخطط بياني. قبل كل رحلة حقيقية يجب أن يقوم أحد بهذا الحساب."
+ "Jetzt brauchst du alles aus Klasse 8. Ihr plant eine Klassenfahrt: Ihr rechnet die Kosten pro Person aus, vergleicht Angebote und zeigt eure Entscheidung in einem Diagramm. So eine Rechnung braucht jede echte Klassenfahrt.": "الآن تحتاج كل ما تعلمته في الصف الثامن. تخططون لرحلة صفية: تحسبون التكلفة لكل شخص، وتقارنون العروض، وتُظهرون قراركم في مخطط بياني. كل رحلة صفية حقيقية تحتاج حسابًا كهذا."
 }

@@ -3,9 +3,6 @@
  "Formeln ausfüllen – einmal schreiben, überall rechnen": "Filling formulas – write once, calculate everywhere",
  "Klasse 8 · Baustein 4": "Grade 8 · Unit 4",
  "Vorwissen: Formeln, SUMME": "Prior knowledge: formulas, SUMME",
- "Ich kann eine Formel nach unten und nach rechts ziehen.": "I can drag a formula down and to the right.",
- "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "I can explain how the cell references change.",
- "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "I can predict which formula ends up in a cell.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "You are shopping for the class party. D5 already contains the formula <code>=B5*C5</code> → 4 × 1,50 € = 6,00 €.<br/>For the other rows you don't type everything again – you simply <strong>drag</strong> the formula down.",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – exactly the same",
  "gar keine – nur die Zahl 6,00 €": "none – only the number 6,00 €",
@@ -41,11 +38,6 @@
  "Du sparst auf ein Fahrrad. Jede Woche kommt ein Betrag dazu. Wie viel hast du nach 8 Wochen?": "You are saving for a bike. Every week some money is added. How much do you have after 8 weeks?",
  "Kontostand = Kontostand der Vorwoche + neuer Betrag": "Balance = <strong>balance of the week before</strong> + new amount",
  "In C5 steht der Kontostand nach Woche 1. Schreib in C6 eine Formel für Woche 2 und zieh sie nach unten. Tipp: Die Vorwoche steht genau eine Zeile darüber.": "C5 shows the balance after week 1. Write a formula for week 2 in <strong>C6</strong> and drag it down. Tip: the week before is exactly one row above.",
- "Ich finde das Ausfüllkästchen und kann eine Formel nach unten ziehen.": "I can find the fill handle and drag a formula down.",
- "Ich kann eine Formel nach rechts ziehen.": "I can drag a formula to the right.",
- "Ich kann erklären, warum aus =B5*C5 eine Zeile tiefer =B6*C6 wird.": "I can explain why <code>=B5*C5</code> becomes <code>=B6*C6</code> one row lower.",
- "Plus Ich kann vorhersagen, welche Formel nach dem Ziehen in einer Zelle steht.": "<span class=\"badge plus\">Plus</span> I can predict which formula is in a cell after dragging.",
- "Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">Expedition</span> I can calculate a running balance.",
  "← 3 · Funktionen": "← 3 · Functions",
  "5 · Absolute Bezüge →": "5 · Absolute references →",
  "Calc füllt aus … schau auf Spalte D!": "Calc is filling … look at column D!",
@@ -93,7 +85,6 @@
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen. Mit Probe: Kommt auf beiden Wegen dasselbe heraus?": "<span class=\"badge basis\">Basis</span><span><strong>Task 2 · Pocket money:</strong> fill sums to the right <em>and</em> down. With a check: do both ways give the same result?</span>",
  "Calc setzt auch Reihen fort: Montag → Dienstag, Januar → Februar, 10 und 20 → 30.": "Calc also continues series: Montag → Dienstag (Monday → Tuesday), Januar → Februar, 10 and 20 → 30.",
  "Probe: Die Gesamtsumme auf zwei Wegen rechnen. Gleich? Dann stimmt alles.": "<strong>Check:</strong> Calculate the grand total in two ways. The same? Then everything is right.",
- "★ Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">★ Expedition</span> I can calculate a running balance.",
  "Üben Das Ausfüll-Orakel": "<span class=\"badge ueben\">Üben</span> The fill oracle",
  "Das Orakel aus Schritt 2 – jetzt selbst in Calc: Was macht Calc aus Montag, Quartal 1 oder 5, 3? Erst raten, dann ausfüllen.": "The oracle from step 2 – now yourself in Calc: what does Calc make of Montag, Quartal 1 or 5, 3? First guess, then fill.",
  "ODS Üben: Ausfüll-Orakelk8-04-ausfuellen-mehr-ausfuell-orakel.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Fill oracle</strong><small>k8-04-ausfuellen-mehr-ausfuell-orakel.ods</small></span>",
@@ -150,5 +141,5 @@
  "Fehler": "Error",
  "Montag": "Montag (Monday)",
  "Donnerstag": "Donnerstag (Thursday)",
- "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Often the same calculation is done in every row: for every item, every day, every student. You write the formula only once and drag it down. Calc adjusts the cells in every row by itself. That saves a lot of typing and a lot of typos."
+ "Oft rechnest du in jeder Zeile das Gleiche: für jeden Artikel, für jeden Tag. Du schreibst die Formel nur einmal. Dann ziehst du sie nach unten. Calc passt die Formel in jeder Zeile selbst an. So tippst du weniger und machst weniger Fehler.": "Often you calculate the same thing in every row: for every item, for every day. You write the formula only once. Then you drag it down. Calc adjusts the formula in every row by itself. So you type less and make fewer mistakes."
 }

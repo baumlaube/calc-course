@@ -3,9 +3,6 @@
  "Bedingte Formatierung 2 – Ampel, Text und Grenzen": "Bedingte Formatierung 2 – چراغ راهنما، متن و مرزها",
  "Klasse 9 · Baustein 7": "کلاس 9 · واحد 7",
  "Vorwissen: Bedingte Formatierung 1, WENN 3": "لازم: قالب‌بندی شرطی 1، WENN 3",
- "Ich kann mehrere Bedingungen in der richtigen Reihenfolge anlegen.": "می‌توانم چند شرط را به ترتیب درست بسازم.",
- "Ich kann Text färben lassen, z. B. alles mit „fehlt“.": "می‌توانم متن را رنگ کنم، مثلاً هر چیزی که „fehlt“ (کم است) دارد.",
- "Ich kann eine Grenze aus einer Zelle mit $ benutzen.": "می‌توانم یک مرز را از یک خانه با <code>$</code> به کار ببرم.",
  "Überleg: Welche Farbe bekommt der Akku mit 15 %?": "<strong>فکر کن:</strong> باتری با <strong>15 %</strong> چه رنگی می‌گیرد؟",
  "gelb": "زرد",
  "rot": "قرمز",
@@ -31,11 +28,6 @@
  "★ Expedition: Ganze Zeile färben freiwillig": "<span class=\"step-no\">★</span> اکتشاف: رنگ کردن یک ردیف کامل <span class=\"badge expedition\">اختیاری</span>",
  "OK": "OK",
  "Wer nicht bezahlt hat, soll mit der ganzen Zeile rot leuchten. Klick erst auf OK – was ist falsch? Dann verbessere die Formel.": "هر کس پول نداده باید با <strong>کل ردیفش</strong> قرمز بدرخشد. اول روی OK کلیک کن – چه چیزی غلط است؟ بعد فرمول را بهتر کن.",
- "Ich baue eine Ampel mit drei Bedingungen.": "یک چراغ راهنما با سه شرط می‌سازم.",
- "Ich weiß: Die erste passende Bedingung gewinnt.": "می‌دانم: اولین شرطی که جور است برنده است.",
- "Ich färbe Text, z. B. \"fehlt\".": "متن را رنگ می‌کنم، مثلاً <code>\"fehlt\"</code>.",
- "Plus Ich nehme die Grenze aus einer Zelle mit $.": "<span class=\"badge plus\">Plus</span> مرز را از یک خانه با <code>$</code> می‌گیرم.",
- "Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span> ردیف‌های کامل را با „Formel ist“ رنگ می‌کنم.",
  "← 6 · Bedingte Formatierung 1": "← 6 · Bedingte Formatierung 1",
  "8 · Fit für die Probe →": "8 · آماده برای امتحان →",
  "✔ Jetzt steht „kleiner als 20 %“ zuerst – und Lea ist rot. Die strengste Bedingung gehört nach oben.": "✔ حالا „kleiner als 20 %“ اول است – و لئا قرمز است. سخت‌گیرترین شرط جایش بالاست.",
@@ -76,7 +68,6 @@
  "🏆 Expedition geschafft! Das $ vor B hält die Spalte fest: Name, bezahlt? und Betrag schauen alle auf Spalte B. Die 2 ohne $ wandert mit – jede Zeile prüft sich selbst.": "🏆 اکتشاف تمام شد! <code>$</code> جلوی B ستون را ثابت نگه می‌دارد: نام، bezahlt? و مبلغ همه به ستون B نگاه می‌کنند. 2 بدون $ جابه‌جا می‌شود – هر ردیف خودش را بررسی می‌کند.",
  "Fast. Prüfe die Zeilennummer: Die Formel gilt für die erste Zeile des Bereichs, also Zeile 2.": "تقریباً. شمارهٔ ردیف را بررسی کن: فرمول برای ردیف اول محدوده است، یعنی ردیف 2.",
  "Nur Spalte A ist richtig gefärbt? Für Spalte B schaut Calc auf C, für Spalte C auf D – der Bezug wandert mit! Setz ein $ vor das B: $B2=\"nein\"": "فقط ستون A درست رنگ شده؟ برای ستون B Calc به C نگاه می‌کند، برای ستون C به D – ارجاع جابه‌جا می‌شود! جلوی B یک <code>$</code> بگذار: <code>$B2=\"nein\"</code>",
- "★ Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">★ Expedition</span> با „Formel ist“ (فرمول است) سطرهای کامل را رنگ می‌کنم.",
  "Üben Wer hat sich doppelt angemeldet?": "<span class=\"badge ueben\">Üben</span> چه کسی دو بار ثبت‌نام کرده؟",
  "18 Anmeldungen zum Skikurs, aber manche Namen stehen mehrmals da. Calc hat dafür eine eigene Bedingung: Format → Bedingt → Bedingung … → Zellwert ist · doppelt.": "۱۸ ثبت‌نام برای کلاس اسکی، اما بعضی نام‌ها چند بار آمده‌اند. Calc برای این شرط خاصی دارد: <strong>Format → Bedingt → Bedingung … → Zellwert ist · doppelt</strong> (مقدار خانه · تکراری).",
  "Calc färbt jeden Namen, der mehr als einmal vorkommt, auch den ersten. Löschst du die Zeilen mit den doppelten Namen, verschwindet das Rot von selbst.": "Calc <em>هر</em> نامی را که بیش از یک بار بیاید رنگ می‌کند، اولی را هم. اگر سطرهای نام‌های تکراری را پاک کنی، قرمز خودبه‌خود ناپدید می‌شود.",
@@ -105,5 +96,5 @@
  "drei Farben: rot, gelb, grün": "<strong>چراغ راهنمایی</strong> – سه رنگ: قرمز، زرد، سبز",
  "etwas neu machen, z. B. eine Bedingung": "<strong>ساختن</strong> – چیز تازه‌ای درست کردن، مثلاً یک شرط",
  "ansehen, ändern und löschen": "<strong>مدیریت کردن</strong> – دیدن، عوض کردن و پاک کردن",
- "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "حالا Calc بر اساس چند قاعده رنگ می‌کند – سبز، زرد و قرمز مثل چراغ راهنمایی. یاد می‌گیری چرا ترتیب قاعده‌ها مهم است، متن را چطور رنگ کنی و مرز چطور از یک خانه می‌آید."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "حالا Calc با چند قاعده رنگ می‌کند: سبز، زرد و قرمز مثل چراغ راهنمایی. یاد می‌گیری چرا ترتیب قاعده‌ها مهم است. متن را هم رنگ می‌کنی و مرز را از یک سلول می‌گیری."
 }

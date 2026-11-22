@@ -3,9 +3,6 @@
  "WENN 3 – Grenzen in eigenen Zellen": "WENN 3 (إذا 3) – الحدود في خلايا خاصة بها",
  "Klasse 9 · Baustein 5": "الصف 9 · الوحدة 5",
  "Teil 3 von 3 zu WENN": "الجزء 3 من 3 عن WENN (إذا)",
- "Ich kann Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "أكتب الحدود في خلية خاصة وأثبّتها بـ <code>$</code>.",
- "Ich kann WENN-Formeln mit Text, Zahlen und Rechnungen sicher schreiben.": "أكتب صيغ WENN بالنص والأرقام والعمليات الحسابية بثقة.",
- "Ich kann eine Probe-Aufgabe zu WENN allein lösen.": "أحلّ مهمة اختبار عن WENN بمفردي.",
  "💡 Beim Erste-Hilfe-Quiz hat bestanden, wer mindestens 15 Punkte hat. In Spalte C steht überall so eine Formel: =WENN(B5>=15;\"bestanden\";\"durchgefallen\")": "💡 في مسابقة الإسعافات الأولية ينجح من لديه 15 نقطة على الأقل. في العمود C توجد في كل مكان صيغة مثل هذه: <code class=\"long\">=WENN(B5&gt;=15;\"bestanden\";\"durchgefallen\")</code>",
  "Überleg: Neue Regel – bestanden erst ab 16 Punkten. Wie viele Zellen musst du ändern?": "<strong>فكّر:</strong> قاعدة جديدة – النجاح فقط ابتداءً من <strong>16</strong> نقطة. كم خلية يجب أن تغيّر؟",
  "nur eine": "خلية واحدة فقط",
@@ -37,11 +34,6 @@
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> رحلة استكشاف: UND (و) <span class=\"badge expedition\">اختياري</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> تكون صحيحة فقط إذا كان <strong>الاثنان</strong> صحيحين.<br/>مع <code>ODER(…; …)</code> (أو) يكفي واحد.",
  "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "يكون يوم مسبح إذا كانت الحرارة <strong>25 °C على الأقل</strong> <strong>و</strong>لا تمطر. اكتب في D5 صيغة WENN مع UND وعبّئها إلى الأسفل.",
- "Ich schreibe Grenzen in eine eigene Zelle und nehme sie mit $.": "أكتب الحدود في خلية خاصة وأستخدمها مع <code>$</code>.",
- "Ich wähle das richtige Vergleichszeichen, z. B. >= für „ab“.": "أختار علامة المقارنة الصحيحة، مثلًا <code>&gt;=</code> لـ «ابتداءً من».",
- "Ich setze Text in Anführungszeichen und Zahlen ohne.": "أضع النص بين علامتي تنصيص والأرقام بدونها.",
- "Plus Ich löse Probe-Aufgaben zu WENN ohne Vorlage.": "<span class=\"badge plus\">Plus</span> أحلّ مهام اختبار عن WENN بدون نموذج.",
- "Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">Expedition</span> أستطيع الجمع بين WENN وUND.",
  "← 4 · WENN 2": "← 4 · WENN 2 (إذا 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (التنسيق الشرطي) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -89,7 +81,6 @@
  "eine Fehlermeldung": "رسالة خطأ",
  "viel": "viel (كثير)",
  "wenig": "wenig (قليل)",
- "★ Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">★ Expedition</span> أستطيع الجمع بين WENN و UND (و).",
  "Üben Wochenlohn mit Überstunden": "<span class=\"badge ueben\">Üben</span> الأجر الأسبوعي مع ساعات إضافية",
  "Bis 38,5 Stunden gibt es den normalen Stundenlohn. Jede Stunde mehr ist eine Überstunde mit 30 % Zuschlag. Tarif und Zuschlag stehen in blauen Zellen.": "حتى 38,5 ساعة يُدفع الأجر العادي للساعة. كل ساعة أكثر هي ساعة إضافية مع زيادة 30 %. ساعات العمل والزيادة في خلايا زرقاء.",
  "=WENN(B6>=$B$2;$B$2*C6;B6*C6) – hier wird in Dann und Sonst gerechnet.": "<code class=\"long\">=WENN(B6&gt;=$B$2;$B$2*C6;B6*C6)</code> – هنا يُحسب في <strong>Dann</strong> (عندها) و <strong>Sonst</strong> (وإلا).",
@@ -119,5 +110,5 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "لم تصل إلى الأسفل بعد. ما زالت فارغة: {}. اسحب من C5 حتى C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ الاثنين صحيح! الآن اسحب <strong>Ausfüllkästchen</strong> (مقبض التعبئة) إلى الأسفل حتى D7.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "لم تصل إلى الأسفل بعد. اسحب من D5 حتى D7.",
- "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "القواعد تتغير: غدًا قد تصبح 16 نقطة بدل 15. إذا كان الحدّ في خلية خاصة به تغيّره في مكان واحد، وتعيد كل الصيغ الحساب. في النهاية تحل مهام <code>WENN</code> وحدك كما في الاختبار."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "القواعد تتغير. اليوم تحتاج 15 نقطة، وغدًا ربما 16. لذلك اكتب الحدّ في خلية خاصة به. عندها تغيّر هذه الخلية فقط، وتعيد كل الصيغ الحساب. في النهاية تحل مهام <code>WENN</code> وحدك كما في الاختبار."
 }

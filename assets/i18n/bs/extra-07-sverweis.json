@@ -2,9 +2,6 @@
  "SVERWEIS · Calc-Kurs Zusatzmodul": "SVERWEIS · Calc kurs dodatni modul",
  "SVERWEIS – Calc schlägt nach": "SVERWEIS (VLOOKUP) – Calc traži umjesto tebe",
  "Profi-Niveau (Klasse 10)": "Profi nivo (10. razred)",
- "Ich kann mit SVERWEIS einen Wert in einer Liste nachschlagen.": "Mogu sa SVERWEIS potražiti vrijednost u listi.",
- "Ich kann die vier Teile von SVERWEIS erklären.": "Mogu objasniti četiri dijela SVERWEIS.",
- "Ich halte die Liste mit $ fest und fülle die Formel aus.": "Listu držim fiksnom sa <code>$</code> i popunjavam formulu.",
  "💡 Am Kiosk wird mit Nummern bestellt. In F2 steht die Nummer 103. In G2 kommt:=SVERWEIS(F2;A2:C7;3;0)": "💡 Na kiosku se naručuje brojevima. U F2 stoji broj <strong>103</strong>. U G2 ide:<br/><code class=\"long\">=SVERWEIS(F2;A2:C7;3;0)</code>",
  "Überleg: Was zeigt G2?": "<strong>Razmisli:</strong> Šta pokazuje G2?",
  "Kakao": "Kakao",
@@ -59,5 +56,6 @@
  "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Bez 0 SVERWEIS traži približno – praktično za ključ ocjena.",
  "Irgendwo": "Bilo gdje",
  "Null zurückgeben": "Vratiti nulu",
- "Das = fehlt": "Nedostaje ="
+ "Das = fehlt": "Nedostaje =",
+ "Am Kiosk oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht die Nummer in einer Liste. Dann holt Calc den passenden Namen oder Preis. Du musst nicht mehr selbst suchen.": "Na kiosku ili u online prodavnici svaki artikal ima broj. <code>SVERWEIS</code> (VLOOKUP) traži broj u listi. Onda Calc donese odgovarajući naziv ili cijenu. Više ne moraš sam tražiti."
 }

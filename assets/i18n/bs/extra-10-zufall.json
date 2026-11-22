@@ -2,9 +2,6 @@
  "Zufall & Spiele · Calc-Kurs Zusatzmodul": "Slučajnost i igre · Calc kurs dodatni modul",
  "Zufall & Spiele – würfeln, werfen, drehen": "Slučajnost i igre – baci kocku, baci novčić, okreni točak",
  "Vorwissen: WENN, ZÄHLENWENN hilft": "Predznanje: WENN, ZÄHLENWENN pomaže",
- "Ich würfle mit ZUFALLSBEREICH und würfle mit F9 neu.": "Bacam kocku sa <code>ZUFALLSBEREICH</code> i ponovo bacam sa <kbd>F9</kbd>.",
- "Ich werfe eine Münze mit ZUFALLSZAHL und WENN.": "Bacam novčić sa <code>ZUFALLSZAHL</code> (slučajni broj) i WENN.",
- "Ich probiere aus: Wie oft kommt die 6 wirklich?": "Isprobavam: koliko puta stvarno padne 6?",
  "💡 Du würfelst 60-mal. Im Schnitt kommt jede Zahl 10-mal.": "💡 Baciš kocku <strong>60 puta</strong>. U prosjeku svaki broj padne 10 puta.",
  "Überleg: Wie oft kommt die 6 wirklich?": "<strong>Razmisli:</strong> Koliko puta stvarno padne 6?",
  "Genau 10-mal.": "Tačno 10 puta.",
@@ -54,5 +51,6 @@
  "Ungefähr 100-mal": "Otprilike 100 puta",
  "Genau 100-mal": "Tačno 100 puta",
  "60-mal": "60 puta",
- "Eine Zahl": "Broj"
+ "Eine Zahl": "Broj",
+ "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele. Und du probierst aus: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc može bacati kocku, bacati novčić i okretati kolo sreće. Time praviš male igre. I isprobavaš: da li 6 zaista padne deset puta u 60 bacanja?"
 }

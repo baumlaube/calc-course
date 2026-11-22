@@ -3,9 +3,6 @@
  "WENN 2 – Dann und Sonst rechnen": "WENN 2 (JEŻELI 2) – liczenie w Dann i Sonst",
  "Klasse 9 · Baustein 4": "Klasa 9 · Jednostka 4",
  "Teil 2 von 3 zu WENN": "Część 2 z 3 o WENN (JEŻELI)",
- "Ich kann WENN statt Ja und Nein eine Zahl ausgeben lassen.": "Umiem sprawić, że WENN pokaże liczbę zamiast Ja i Nein.",
- "Ich kann im Dann- und Sonst-Teil rechnen.": "Umiem liczyć w części Dann (wtedy) i Sonst (w przeciwnym razie).",
- "Ich weiß, wann Anführungszeichen hingehören und wann nicht.": "Wiem, kiedy potrzebny jest cudzysłów, a kiedy nie.",
  "💡 Du kennst schon: =WENN(B5<18;\"Ja\";\"Nein\") – Ist Lisa jünger als 18?Im Kino steht in C5 aber: =WENN(B5<18;8;10)": "💡 <strong>Już znasz:</strong> <code class=\"long\">=WENN(B5&lt;18;\"Ja\";\"Nein\")</code> – Czy Lisa ma mniej niż 18 lat?<br/>Ale w kinie w C5 jest: <code class=\"long\">=WENN(B5&lt;18;8;10)</code>",
  "Überleg: Lisa ist 16. Was zeigt C5?": "<strong>Pomyśl:</strong> Lisa ma 16 lat. Co pokazuje C5?",
  "2 Statt Ja und Nein: rechnen 7 Min": "<span class=\"step-no\">2</span> Zamiast tak i nie: licz <span class=\"chip\">7 min</span>",
@@ -26,11 +23,6 @@
  "Text in \"Anführungszeichen\" – Zahlen und Rechnungen ohne!": "Tekst w <code>\"Anführungszeichen\"</code> (cudzysłów) – liczby i obliczenia bez!",
  "Lies jede Formel als Satz: Wenn …, dann …, sonst …": "Czytaj każdą formułę jak zdanie: jeśli …, to …, w przeciwnym razie …",
  "★ Expedition: Rabatt ab 50 € freiwillig": "<span class=\"step-no\">★</span> Wyprawa: Rabat od 50 € <span class=\"badge expedition\">nieobowiązkowo</span>",
- "Ich lasse WENN eine Zahl ausgeben, z. B. Versandkosten.": "Sprawiam, że WENN pokazuje liczbę, np. koszty wysyłki.",
- "Ich rechne im Dann-Teil, z. B. A6+4,95.": "Liczę w części Dann, np. <code>A6+4,95</code>.",
- "Ich setze Anführungszeichen nur um Text.": "Cudzysłów stawiam tylko wokół tekstu.",
- "Plus Ich vergleiche Text und gebe eine Zahl aus.": "<span class=\"badge plus\">Plus</span> Porównuję tekst i pokazuję liczbę.",
- "Expedition Ich verbinde WENN mit Prozentrechnung.": "<span class=\"badge expedition\">Expedition</span> Łączę WENN z procentami.",
  "← 3 · WENN 1": "← 3 · WENN 1 (JEŻELI 1)",
  "5 · WENN 3 →": "5 · WENN 3 (JEŻELI 3) →",
  "=WENN(B5<18;8;10)": "=WENN(B5<18;8;10)",
@@ -70,7 +62,6 @@
  "64 € ist mindestens 50 €. Dann-Teil: A2*(1-10%) = 57,60 €.": "64 € to co najmniej 50 €. Część Dann: <code>A2*(1-10%)</code> = 57,60 €.",
  "38,50 € ist unter 50 € – Sonst-Teil: einfach A2.": "38,50 € to mniej niż 50 € – część Sonst: po prostu <code>A2</code>.",
  "🏆 Expedition geschafft! WENN und Prozentrechnung zusammen – das kommt in der Übungsdatei noch einmal.": "🏆 Wyprawa ukończona! WENN i procenty razem – spotkasz to znowu w pliku ćwiczeń.",
- "★ Expedition Ich verbinde WENN mit Prozentrechnung.": "<span class=\"badge expedition\">★ Expedition</span> Łączę WENN z procentami.",
  "Üben Zinsen bei der Bank": "<span class=\"badge ueben\">Üben</span> Odsetki w banku",
  "Wer mehr als 10.000 € auf dem Konto hat, bekommt 2,5 % Zinsen, alle anderen 1,75 %. WENN liefert den Zinssatz. Mit ihm rechnest du die Zinsen und das neue Guthaben aus.": "Kto ma na koncie więcej niż 10 000 €, dostaje 2,5 % odsetek, wszyscy inni 1,75 %. WENN podaje oprocentowanie. Z nim obliczasz odsetki i nowe saldo.",
  "=WENN(B5>10000;2,5%;1,75%)": "<code class=\"long\">=WENN(B5&gt;10000;2,5%;1,75%)</code>",
@@ -101,5 +92,5 @@
  "in allen anderen Fällen": "<strong>inaczej, w przeciwnym razie</strong> – we wszystkich innych przypadkach",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>rachunek, działanie</strong> – tutaj: coś do policzenia, np. <code>A6+4,95</code>",
  "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>wysyłka</strong> – wysłanie paczki. To często kosztuje.",
- "WENN kann nicht nur Ja oder Nein sagen, sondern auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €, alle anderen 10 €. Solche Regeln gibt es überall, bei Eintrittspreisen, Versandkosten und Rabatten.": "<code>WENN</code> potrafi nie tylko mówić tak albo nie, ale też liczyć. Na przykład: kto ma mniej niż 18 lat, płaci w kinie 8 €, wszyscy inni 10 €. Takie reguły są wszędzie: przy cenach biletów, kosztach wysyłki i rabatach."
+ "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> potrafi też liczyć. Na przykład: kto ma mniej niż 18 lat, płaci w kinie 8 €. Wszyscy inni płacą 10 €. Takie reguły są częste, na przykład przy wstępie, wysyłce i rabatach."
 }

@@ -2,9 +2,6 @@
  "Brutto und Netto · Calc-Kurs Zusatzmodul": "ناخالص و خالص · دورهٔ Calc ماژول اضافی",
  "Brutto und Netto – was bleibt vom Ausbildungsgehalt?": "Brutto und Netto (ناخالص و خالص) – از حقوق کارآموزی چه می‌ماند؟",
  "Vorwissen: Prozentrechnung, $-Anker": "لازم: درصد، لنگر $",
- "Ich kann erklären, was Brutto und Netto bedeutet.": "می‌توانم توضیح بدهم Brutto (ناخالص) و Netto (خالص) یعنی چه.",
- "Ich kann die Abzüge mit Prozentsätzen und $ berechnen.": "می‌توانم کسورات را با درصد و <code>$</code> حساب کنم.",
- "Ich kann ausrechnen, wie viel am Monatsende übrig bleibt.": "می‌توانم حساب کنم آخر ماه چقدر می‌ماند.",
  "💡 Im Ausbildungsvertrag steht: 1.050 € im Monat.": "💡 در قرارداد کارآموزی نوشته: <strong>ماهی 1.050 €</strong>.",
  "Überleg: Wie viel kommt ungefähr aufs Konto?": "<strong>فکر کن:</strong> تقریباً چقدر به حساب بانکی می‌آید؟",
  "etwa 830 €": "حدود 830 €",
@@ -46,5 +43,5 @@
  "Gesamtsatz in B2 = 21 %. Welche Formel ergibt direkt das Netto von B6?": "نرخ کل در B2 = 21 %. کدام فرمول خالص B6 را مستقیم می‌دهد؟",
  "100 % − 21 % = 79 % bleiben – wie beim Rabatt.": "100 % − 21 % = 79 % می‌ماند – مثل تخفیف.",
  "Brutto 1.000 €, Abzüge 21 %. Wie viel Netto?": "ناخالص 1.000 €، کسورات 21 %. خالص چقدر است؟",
- "Im Ausbildungsvertrag steht ein Gehalt, auf dem Konto kommt weniger an. Du lernst, was Brutto und Netto bedeutet und welche Abzüge es gibt. Dann rechnest du aus, was dir am Monatsende wirklich bleibt.": "در قرارداد کارآموزی یک حقوق نوشته شده، ولی کمتر به حساب می‌آید. یاد می‌گیری Brutto و Netto (ناخالص و خالص) یعنی چه و چه کسورات‌هایی وجود دارد. بعد حساب می‌کنی آخر ماه واقعاً چقدر برایت می‌ماند."
+ "Im Ausbildungsvertrag steht ein Lohn. Auf dem Konto kommt aber weniger an. Du lernst, was Brutto und Netto heißt und was abgezogen wird. Dann rechnest du aus, wie viel Geld dir wirklich bleibt.": "در قرارداد کارآموزی یک حقوق نوشته شده. ولی کمتر به حساب می‌آید. یاد می‌گیری Brutto و Netto (ناخالص و خالص) یعنی چه و چه چیزی کسر می‌شود. بعد حساب می‌کنی واقعاً چقدر پول برایت می‌ماند."
 }

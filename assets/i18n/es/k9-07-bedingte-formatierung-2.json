@@ -3,9 +3,6 @@
  "Bedingte Formatierung 2 – Ampel, Text und Grenzen": "Bedingte Formatierung 2 (formato condicional) – semáforo, texto y límites",
  "Klasse 9 · Baustein 7": "9.º curso · Unidad 7",
  "Vorwissen: Bedingte Formatierung 1, WENN 3": "Conocimientos previos: formato condicional 1, WENN 3",
- "Ich kann mehrere Bedingungen in der richtigen Reihenfolge anlegen.": "Creo varias condiciones en el orden correcto.",
- "Ich kann Text färben lassen, z. B. alles mit „fehlt“.": "Coloreo texto, p. ej. todo lo que tenga „fehlt“ (falta).",
- "Ich kann eine Grenze aus einer Zelle mit $ benutzen.": "Uso un límite que está en una celda, con <code>$</code>.",
  "Überleg: Welche Farbe bekommt der Akku mit 15 %?": "<strong>Piensa:</strong> ¿de qué color se pone la batería con un <strong>15 %</strong>?",
  "gelb": "amarillo",
  "rot": "rojo",
@@ -31,11 +28,6 @@
  "★ Expedition: Ganze Zeile färben freiwillig": "<span class=\"step-no\">★</span> Expedición: colorear una fila entera <span class=\"badge expedition\">opcional</span>",
  "OK": "OK",
  "Wer nicht bezahlt hat, soll mit der ganzen Zeile rot leuchten. Klick erst auf OK – was ist falsch? Dann verbessere die Formel.": "Todos los que no han pagado deben brillar en rojo con <strong>toda la fila</strong>. Primero haz clic en OK: ¿qué falla? Luego mejora la fórmula.",
- "Ich baue eine Ampel mit drei Bedingungen.": "Construyo un semáforo con tres condiciones.",
- "Ich weiß: Die erste passende Bedingung gewinnt.": "Sé que gana la primera condición que encaja.",
- "Ich färbe Text, z. B. \"fehlt\".": "Coloreo texto, p. ej. <code>\"fehlt\"</code>.",
- "Plus Ich nehme die Grenze aus einer Zelle mit $.": "<span class=\"badge plus\">Plus</span> Tomo el límite de una celda con <code>$</code>.",
- "Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span> Coloreo filas enteras con „Formel ist“.",
  "← 6 · Bedingte Formatierung 1": "← 6 · Bedingte Formatierung 1",
  "8 · Fit für die Probe →": "8 · Listo para el examen →",
  "✔ Jetzt steht „kleiner als 20 %“ zuerst – und Lea ist rot. Die strengste Bedingung gehört nach oben.": "✔ Ahora „kleiner als 20 %“ está primero, y Lea está en rojo. La condición más estricta va arriba.",
@@ -76,7 +68,6 @@
  "🏆 Expedition geschafft! Das $ vor B hält die Spalte fest: Name, bezahlt? und Betrag schauen alle auf Spalte B. Die 2 ohne $ wandert mit – jede Zeile prüft sich selbst.": "🏆 ¡Expedición superada! El <code>$</code> delante de la B fija la columna: nombre, bezahlt? (¿pagado?) e importe miran todos la columna B. El 2 sin $ se mueve: cada fila se comprueba a sí misma.",
  "Fast. Prüfe die Zeilennummer: Die Formel gilt für die erste Zeile des Bereichs, also Zeile 2.": "Casi. Comprueba el número de fila: la fórmula es para la primera fila del rango, o sea, la fila 2.",
  "Nur Spalte A ist richtig gefärbt? Für Spalte B schaut Calc auf C, für Spalte C auf D – der Bezug wandert mit! Setz ein $ vor das B: $B2=\"nein\"": "¿Solo la columna A está bien coloreada? Para la columna B, Calc mira la C; para la columna C, la D: ¡la referencia se mueve! Pon un <code>$</code> delante de la B: <code>$B2=\"nein\"</code>",
- "★ Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">★ Expedition</span> Coloreo filas enteras con „Formel ist“ (la fórmula es).",
  "Üben Wer hat sich doppelt angemeldet?": "<span class=\"badge ueben\">Üben</span> ¿Quién se ha apuntado dos veces?",
  "18 Anmeldungen zum Skikurs, aber manche Namen stehen mehrmals da. Calc hat dafür eine eigene Bedingung: Format → Bedingt → Bedingung … → Zellwert ist · doppelt.": "18 inscripciones al curso de esquí, pero algunos nombres aparecen varias veces. Calc tiene una condición propia para eso: <strong>Format → Bedingt → Bedingung … → Zellwert ist · doppelt</strong> (el valor de la celda · duplicado).",
  "Calc färbt jeden Namen, der mehr als einmal vorkommt, auch den ersten. Löschst du die Zeilen mit den doppelten Namen, verschwindet das Rot von selbst.": "Calc colorea <em>cada</em> nombre que aparece más de una vez, también el primero. Si borras las filas con los nombres repetidos, el rojo desaparece solo.",
@@ -105,5 +96,5 @@
  "drei Farben: rot, gelb, grün": "<strong>semáforo</strong> – tres colores: rojo, amarillo, verde",
  "etwas neu machen, z. B. eine Bedingung": "<strong>crear</strong> – hacer algo nuevo, p. ej. una condición",
  "ansehen, ändern und löschen": "<strong>gestionar</strong> – ver, cambiar y borrar",
- "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Ahora Calc colorea según varias reglas: verde, amarillo y rojo como un semáforo. Aprendes por qué importa el orden de las reglas, cómo colorear texto y cómo un límite puede venir de una celda."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Ahora Calc colorea con varias reglas: verde, amarillo y rojo como un semáforo. Aprendes por qué importa el orden de las reglas. También coloreas texto y tomas un límite de una celda."
 }

@@ -3,9 +3,6 @@
  "Funktionen – ganze Bereiche auf einmal": "Funkcje – całe zakresy naraz",
  "Klasse 8 · Baustein 3": "Klasa 8 · Jednostka 3",
  "Vorwissen: Formeln mit Zellen": "Wiedza wstępna: formuły z komórkami",
- "Ich kann mit SUMME einen ganzen Bereich zusammenzählen.": "Umiem zsumować cały zakres za pomocą <strong>SUMME</strong> (suma).",
- "Ich kann MITTELWERT, MIN und MAX benutzen.": "Umiem używać <strong>MITTELWERT</strong> (średnia), <strong>MIN</strong> i <strong>MAX</strong>.",
- "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "Umiem zapisać zakres jak <code>B5:B9</code> albo zaznaczyć go myszką.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>To już znasz:</strong> <code>=B5+B6+B7+B8+B9</code> dodaje pięć dni. A 365 dni? Do tego są <strong>funkcje</strong>.<br/>W B10 jest: <code>=SUMME(B5:B9)</code>",
  "Überleg: Was bedeutet B5:B9?": "<strong>Pomyśl:</strong> Co znaczy <code>B5:B9</code>?",
  "Nur B5 und B9": "Tylko B5 i B9",
@@ -39,11 +36,6 @@
  "★ Expedition: Würfeln mit Calc freiwillig": "<span class=\"step-no\">★</span> Wyprawa: Rzucanie kostką w Calc <span class=\"badge expedition\">nieobowiązkowo</span>",
  "Jeder Würfel oben ist eine Formel: =ZUFALLSBEREICH(1;6). Berechne in B7 den Durchschnitt aller 20 Würfe. Dann würfle ein paar Mal neu.": "Każda kostka powyżej to formuła: <code>=ZUFALLSBEREICH(1;6)</code> (losowo pomiędzy). Policz w B7 średnią wszystkich 20 rzutów. Potem rzuć jeszcze kilka razy.",
  "Neu: Ein Bereich kann auch ein Rechteck sein: B2:F5 heißt von B2 oben links bis F5 unten rechts.": "Nowość: zakres może być też prostokątem: <code>B2:F5</code> znaczy od B2 w lewym górnym rogu do F5 w prawym dolnym.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren.": "Umiem odczytać i zaznaczyć zakres jak <code>B5:B9</code>.",
- "Ich kann SUMME, MITTELWERT, MIN und MAX benutzen.": "Umiem używać SUMME, MITTELWERT, MIN i MAX.",
- "Ich weiß, wann ich welche Funktion brauche.": "Wiem, której funkcji kiedy potrzebuję.",
- "Plus Ich kann ANZAHL benutzen und zwei Funktionen in einer Formel verbinden.": "<span class=\"badge plus\">Plus</span> Umiem używać ANZAHL (ile) i połączyć dwie funkcje w jednej formule.",
- "Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">Expedition</span> Umiem analizować prostokątne zakresy jak <code>B2:F5</code>.",
  "← 2 · Erste Formeln": "← 2 · Pierwsze formuły",
  "4 · Ausfüllen →": "4 · Wypełnianie →",
  "Der Doppelpunkt heißt „bis“. Schau auf den farbigen Rahmen: B5:B9 umfasst alle fünf Zellen von B5 bis B9.": "Dwukropek znaczy <strong>„do”</strong>. Spójrz na kolorową ramkę: <code>B5:B9</code> obejmuje wszystkie pięć komórek od B5 do B9.",
@@ -83,9 +75,6 @@
  "PlusAufgabe 1c · Summen-Fallen: Wann der Σ-Knopf danebenliegt.": "<span class=\"badge plus\">Plus</span><span><strong>Zadanie 1c · Pułapki sumy:</strong> kiedy przycisk Σ się myli.</span>",
  "Bereich markieren: Nach =SUMME( mit gedrückter Maustaste von B5 bis B9 ziehen. Lange Liste: erste Zahl anklicken, dann Strg + ⇧ + ↓.": "Zaznacz zakres: po <code>=SUMME(</code> przytrzymaj przycisk myszy i przeciągnij od B5 do B9. Długa lista: kliknij pierwszą liczbę, potem <kbd>Strg</kbd> + <kbd>⇧</kbd> + <kbd>↓</kbd>.",
  "Der Σ-Knopf rät den Bereich. Rahmen prüfen, dann erst Enter.": "Przycisk Σ zgaduje zakres. <strong>Sprawdź ramkę</strong>, dopiero potem <kbd>Enter</kbd>.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren, auch eine lange Liste.": "Umiem odczytać i zaznaczyć zakres jak <code>B5:B9</code>, także długą listę.",
- "Ich prüfe den Vorschlag vom Σ-Knopf, bevor ich Enter drücke.": "Sprawdzam propozycję przycisku Σ, zanim nacisnę <kbd>Enter</kbd>.",
- "★ Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">★ Expedition</span> Umiem analizować prostokątne zakresy jak <code>B2:F5</code>.",
  "Üben Mein Zeugnis-Schnitt": "<span class=\"badge ueben\">Üben</span> Moja średnia na świadectwie",
  "In Bayern zählen die Schulaufgaben (SA) doppelt. Spalte J zeigt den normalen Durchschnitt. Was steht im Zeugnis?": "W Bawarii Schulaufgaben (SA, duże sprawdziany) liczą się <strong>podwójnie</strong>. Kolumna J pokazuje zwykłą średnią. Co będzie na świadectwie?",
  "=(2*SUMME(B2:D2)+SUMME(E2:I2))/113 SA doppelt = 6, dazu 5 andere Noten = 11": "<code>=(2*SUMME(B2:D2)+SUMME(E2:I2))/11</code><br/>3 SA podwójnie = 6, plus 5 innych ocen = 11",
@@ -133,5 +122,5 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>średnia</strong> – wszystko dodać i podzielić przez ilość. W Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>wartość</strong> – to, co jest w komórce, najczęściej liczba",
  "Zellen mit der Maus auswählen": "<strong>zaznaczyć</strong> – wybrać komórki myszką",
- "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Pięć liczb dodasz jeszcze za pomocą <code>+</code>. Przy 30 ocenach albo 365 dniach robi się to męczące. Funkcje takie jak <code>SUMME</code> (SUMA), <code>MITTELWERT</code> (ŚREDNIA), <code>MIN</code> i <code>MAX</code> liczą cały zakres naraz. Za pomocą <code>MITTELWERT</code> policzysz na przykład swoją średnią ocen."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Pięć liczb możesz dodać za pomocą <code>+</code>. Ale 30 ocen? Albo 365 dni? To trwa za długo. Funkcja taka jak <code>SUMME</code> (SUMA) liczy wiele komórek naraz. Za pomocą <code>MITTELWERT</code> (ŚREDNIA) policzysz na przykład swoją średnią ocen."
 }

@@ -3,9 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (NËSE 1) – Calc bën një pyetje",
  "Klasse 9 · Baustein 3": "Klasa 9 · Njësia 3",
  "Teil 1 von 3 zu WENN": "Pjesa 1 nga 3 për WENN (NËSE)",
- "Ich kann eine WENN-Formel als Ja/Nein-Frage lesen.": "Mund ta lexoj një formulë WENN si pyetje po/jo.",
- "Ich kann =WENN(Frage;\"Ja\";\"Nein\") selbst schreiben.": "Mund ta shkruaj vetë <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>.",
- "Ich kann statt Ja und Nein eigene Antworten ausgeben.": "Mund të tregoj përgjigjet e mia në vend të Ja dhe Nein.",
  "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 merr këtë formulë: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
  "Überleg: Was zeigt B5?": "<strong>Mendo:</strong> Çfarë tregon B5?",
  "Nein": "Nein (jo)",
@@ -37,11 +34,6 @@
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "Në vend të <code>\"Ja\"</code> dhe <code>\"Nein\"</code> mund të përdorësh çdo tekst, p.sh. <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Ekspeditë: Krijuesi i kuizit <span class=\"badge expedition\">fakultative</span>",
  "Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll richtig stehen, wenn in B2 Paris steht, sonst falsch.": "Edhe kontrolli në skedarët e ushtrimeve është thjesht një formulë WENN! Ndërto një vetë: C2 duhet të tregojë <strong>richtig</strong> (saktë) nëse B2 ka Paris, përndryshe <strong>falsch</strong> (gabim).",
- "Ich lese eine WENN-Formel als Frage.": "E lexoj një formulë WENN si pyetje.",
- "Ich schreibe =WENN(Frage;\"Ja\";\"Nein\") ohne Vorlage.": "E shkruaj <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code> pa model.",
- "Ich kenne die Vergleichszeichen, besonders >= und <>.": "I njoh shenjat e krahasimit, sidomos <code>&gt;=</code> dhe <code>&lt;&gt;</code>.",
- "Plus Ich finde zu fertigen Antworten die passende Frage.": "<span class=\"badge plus\">Plus</span> Gjej pyetjen e duhur për përgjigje të dhëna.",
- "Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span> Ndërtoj një kuiz që kontrollohet vetë.",
  "← 2 · Prozentrechnung": "← 2 · Përqindjet",
  "4 · WENN 2 →": "4 · WENN 2 (NËSE 2) →",
  "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN bën një pyetje: <strong>A ka A5 „Bus”?</strong> Po! Prandaj B5 tregon <strong>Ja</strong>.",
@@ -105,7 +97,6 @@
  "nicht gleich": "jo e barabartë me",
  "Gegenfrage: Dreh die Frage um und tausch die Antworten. Das Ergebnis bleibt gleich. =WENN(A5>=12;\"Ja\";\"Nein\") ist dasselbe wie =WENN(A5<12;\"Nein\";\"Ja\"). Aus >= wird <, aus <= wird >.": "<strong>Pyetja e kundërt:</strong> ktheje pyetjen përmbys dhe ndërro përgjigjet. Rezultati mbetet i njëjtë. <code class=\"long\">=WENN(A5&gt;=12;\"Ja\";\"Nein\")</code> është e njëjtë me <code class=\"long\">=WENN(A5&lt;12;\"Nein\";\"Ja\")</code>. <code>&gt;=</code> bëhet <code>&lt;</code>, <code>&lt;=</code> bëhet <code>&gt;</code>.",
  "Gegenfrage: Frage umdrehen und Antworten tauschen – das Ergebnis bleibt gleich. Aus <= wird >.": "Pyetja e kundërt: ktheje pyetjen dhe ndërro përgjigjet – rezultati mbetet i njëjtë. <code>&lt;=</code> bëhet <code>&gt;</code>.",
- "★ Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">★ Expedition</span> Ndërtoj një kuiz që e vlerëson veten.",
  "Üben Wer fährt Bus?": "<span class=\"badge ueben\">Üben</span> Kush shkon me autobus?",
  "Wer höchstens 5 km weit weg wohnt, fährt Fahrrad. Alle anderen fahren Bus. Du schreibst zwei Fragen. Die zweite ist die Gegenfrage zur ersten.": "Kush banon jo më larg se 5 km shkon me biçikletë. Të gjithë të tjerët shkojnë me autobus. Shkruan dy pyetje. E dyta është pyetja e kundërt e së parës.",
  "Probe: In jeder Zeile steht genau einmal Ja. Schau besonders auf die Kinder mit genau 5 km.": "<strong>Prova:</strong> Në çdo rresht ka saktësisht një Ja. Shiko sidomos fëmijët që banojnë saktësisht 5 km larg.",
@@ -137,5 +128,5 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>e barabartë · jo e barabartë</strong> – gleich: <code>=</code> · ungleich (jo e barabartë): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>pikëpresje</strong> – shenja <code>;</code>. Ndan tri pjesët e WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>nxjerr, shfaq</strong> – tregoj. WENN shfaq një përgjigje.",
- "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "Deri tani Calc llogarit njësoj në çdo rresht. Me <code>WENN</code> (IF) Calc bën një pyetje dhe sipas përgjigjes tregon diçka tjetër, për shembull „bestanden“ (kaloi) ose „nicht bestanden“ (nuk kaloi). Kështu tabela jote bëhet e zgjuar. <code>WENN</code> e mëson me hapa të vegjël."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Me <code>WENN</code> (IF) Calc bën një pyetje. Përgjigjja është po ose jo. Sipas përgjigjes Calc tregon diçka tjetër, për shembull „bestanden“ (kaloi) ose „nicht bestanden“ (nuk kaloi). <code>WENN</code> e mëson me hapa të vegjël."
 }

@@ -3,9 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (ЕСЛИ 1) – Calc задаёт вопрос",
  "Klasse 9 · Baustein 3": "9 класс · Модуль 3",
  "Teil 1 von 3 zu WENN": "Часть 1 из 3 о WENN (ЕСЛИ)",
- "Ich kann eine WENN-Formel als Ja/Nein-Frage lesen.": "Я читаю формулу с WENN как вопрос «да/нет».",
- "Ich kann =WENN(Frage;\"Ja\";\"Nein\") selbst schreiben.": "Я сам(а) пишу <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>.",
- "Ich kann statt Ja und Nein eigene Antworten ausgeben.": "Я показываю свои ответы вместо Ja и Nein.",
  "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 получает такую формулу: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
  "Überleg: Was zeigt B5?": "<strong>Подумай:</strong> что покажет B5?",
  "Nein": "Nein (нет)",
@@ -37,11 +34,6 @@
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "Вместо <code>\"Ja\"</code> и <code>\"Nein\"</code> можно взять любой текст, напр. <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Экспедиция: конструктор викторины <span class=\"badge expedition\">по желанию</span>",
  "Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll richtig stehen, wenn in B2 Paris steht, sonst falsch.": "Проверка в файлах с упражнениями – это тоже просто формула с WENN! Построй такую сам(а): C2 должна показывать <strong>richtig</strong> (правильно), если в B2 стоит Paris, иначе <strong>falsch</strong> (неправильно).",
- "Ich lese eine WENN-Formel als Frage.": "Я читаю формулу с WENN как вопрос.",
- "Ich schreibe =WENN(Frage;\"Ja\";\"Nein\") ohne Vorlage.": "Я пишу <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code> без образца.",
- "Ich kenne die Vergleichszeichen, besonders >= und <>.": "Я знаю знаки сравнения, особенно <code>&gt;=</code> и <code>&lt;&gt;</code>.",
- "Plus Ich finde zu fertigen Antworten die passende Frage.": "<span class=\"badge plus\">Plus</span> Я нахожу правильный вопрос к готовым ответам.",
- "Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span> Я строю викторину, которая проверяет себя сама.",
  "← 2 · Prozentrechnung": "← 2 · Проценты",
  "4 · WENN 2 →": "4 · WENN 2 (ЕСЛИ 2) →",
  "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN задаёт вопрос: <strong>стоит ли в A5 „Bus“?</strong> Да! Поэтому B5 показывает <strong>Ja</strong>.",
@@ -105,7 +97,6 @@
  "nicht gleich": "не равно",
  "Gegenfrage: Dreh die Frage um und tausch die Antworten. Das Ergebnis bleibt gleich. =WENN(A5>=12;\"Ja\";\"Nein\") ist dasselbe wie =WENN(A5<12;\"Nein\";\"Ja\"). Aus >= wird <, aus <= wird >.": "<strong>Обратный вопрос:</strong> переверни вопрос и поменяй ответы местами. Результат тот же. <code class=\"long\">=WENN(A5&gt;=12;\"Ja\";\"Nein\")</code> – то же самое, что <code class=\"long\">=WENN(A5&lt;12;\"Nein\";\"Ja\")</code>. <code>&gt;=</code> становится <code>&lt;</code>, <code>&lt;=</code> становится <code>&gt;</code>.",
  "Gegenfrage: Frage umdrehen und Antworten tauschen – das Ergebnis bleibt gleich. Aus <= wird >.": "Обратный вопрос: переверни вопрос и поменяй ответы – результат тот же. <code>&lt;=</code> становится <code>&gt;</code>.",
- "★ Expedition Ich baue ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">★ Expedition</span> Я создаю викторину, которая сама себя проверяет.",
  "Üben Wer fährt Bus?": "<span class=\"badge ueben\">Üben</span> Кто едет на автобусе?",
  "Wer höchstens 5 km weit weg wohnt, fährt Fahrrad. Alle anderen fahren Bus. Du schreibst zwei Fragen. Die zweite ist die Gegenfrage zur ersten.": "Кто живёт не дальше 5 км, едет на велосипеде. Все остальные едут на автобусе. Ты пишешь два вопроса. Второй – обратный к первому.",
  "Probe: In jeder Zeile steht genau einmal Ja. Schau besonders auf die Kinder mit genau 5 km.": "<strong>Проверка:</strong> в каждой строке ровно одно Ja. Особенно посмотри на детей, которые живут ровно в 5 км.",
@@ -137,5 +128,5 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>равно · не равно</strong> – gleich: <code>=</code> · ungleich (не равно): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>точка с запятой</strong> – знак <code>;</code>. Он разделяет три части WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>выводить</strong> – показывать. WENN выводит ответ.",
- "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "Пока Calc считает в каждой строке одинаково. С <code>WENN</code> (ЕСЛИ) Calc задаёт вопрос и в зависимости от ответа показывает разное, например «bestanden» (сдал) или «nicht bestanden» (не сдал). Так твоя таблица становится умной. <code>WENN</code> ты изучаешь маленькими шагами."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "С <code>WENN</code> (ЕСЛИ) Calc задаёт вопрос. Ответ – да или нет. В зависимости от ответа Calc показывает разное, например «bestanden» (сдал) или «nicht bestanden» (не сдал). <code>WENN</code> ты изучаешь маленькими шагами."
 }

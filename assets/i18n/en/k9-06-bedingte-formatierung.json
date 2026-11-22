@@ -3,9 +3,6 @@
  "Bedingte Formatierung 1 – Calc färbt selbst": "Bedingte Formatierung 1 (conditional formatting) – Calc colours by itself",
  "Klasse 9 · Baustein 6": "Grade 9 · Unit 6",
  "Vorwissen: WENN": "You need: WENN (IF)",
- "Ich kann Zellen mit Format → Bedingt → Bedingung … automatisch färben.": "I can colour cells automatically with <strong>Format → Bedingt → Bedingung …</strong> (Format → Conditional → Condition).",
- "Ich kann Bedingungen wie größer als, kleiner als und zwischen benutzen.": "I can use conditions like greater than, less than and between.",
- "Ich kann mit Farben Fragen zu großen Tabellen schnell beantworten.": "I can answer questions about big tables quickly with colours.",
  "💡 Lea hat die Hitzetage über 30 °C mit dem Farbeimer rot gefärbt. Dann merkt sie: Am Mittwoch waren es nur 27 °C. Sie tippt in B4 die 27 ein.": "💡 Lea coloured the hot days above 30 °C red with the <strong>paint bucket</strong>. Then she notices: on Wednesday it was only 27 °C. She types 27 into B4.",
  "Überleg: Was passiert mit der roten Farbe in B4?": "<strong>Think:</strong> What happens to the red colour in B4?",
  "Sie verschwindet von selbst.": "It disappears by itself.",
@@ -38,11 +35,6 @@
  "Bea": "Bea",
  "Emre": "Emre",
  "Hakan": "Hakan",
- "Ich finde Format → Bedingt → Bedingung …": "I can find <strong>Format → Bedingt → Bedingung …</strong>",
- "Ich lege eine Regel mit größer als oder kleiner als an.": "I create a rule with greater than or less than.",
- "Ich weiß: Ändert sich die Zahl, ändert sich die Farbe.": "I know: when the number changes, the colour changes.",
- "Plus Ich benutze „zwischen“ und mehrere Bedingungen.": "<span class=\"badge plus\">Plus</span> I use „zwischen“ (between) and several conditions.",
- "Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">Expedition</span> I know data bars and colour scales.",
  "← 5 · WENN 3": "← 5 · WENN 3 (IF 3)",
  "7 · Bedingte Formatierung 2 →": "7 · Bedingte Formatierung 2 →",
  "✨ Bedingte Formatierung: größer als 30 → Schlecht": "✨ Bedingte Formatierung: größer als 30 → Schlecht (greater than 30 → bad)",
@@ -72,7 +64,6 @@
  "Bei „zwischen“ gehören beide Grenzen dazu.": "With „zwischen“ (between) both limits are included.",
  "🏆 Richtig – Emre hat den längsten Balken und das kräftigste Grün. In der Übungsdatei wartet der ganze Spendenlauf.": "🏆 Correct – Emre has the longest bar and the strongest green. The whole charity run is waiting in the exercise file.",
  "Schau auf den längsten Balken: Emre ist 25 Runden gelaufen.": "Look at the longest bar: Emre ran 25 laps.",
- "★ Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">★ Expedition</span> I know data bars and colour scales.",
  "Üben Ein Preis, viele Grenzen": "<span class=\"badge ueben\">Üben</span> One price, many limits",
  "Ist 500 € viel? Für einen Schokoriegel schon, für ein Haus nicht. Jede Zelle bekommt ihre eigene Regel: rot = zu teuer, grün = verdächtig billig. Dann änderst du den Preis und schaust, was passiert.": "Is 500 € a lot? For a chocolate bar yes, for a house no. Every cell gets its own rule: red = too expensive, green = suspiciously cheap. Then you change the price and watch what happens.",
  "ODS Üben: Ein Preis, viele Grenzenk9-06-bedingte-formatierung-mehr-preis-grenzen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: One price, many limits</strong><small>k9-06-bedingte-formatierung-mehr-preis-grenzen.ods</small></span>",
@@ -112,5 +103,5 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>style</strong> – a ready-made look with a name: Gut (good) is green, Schlecht (bad) is red",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>between</strong> – from one number to another. Both numbers count.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>greater than · less than</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. The 30 does not count.",
- "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "In a long table it is easy to miss something important. With Bedingte Formatierung (conditional formatting) Calc colours cells by itself, for example all hot days above 30 °C. If a number changes, the colour adjusts on its own."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "In a long table it is hard to find important numbers. Calc can colour cells by itself, for example all days above 30 °C in red. If a number changes, the colour changes too."
 }

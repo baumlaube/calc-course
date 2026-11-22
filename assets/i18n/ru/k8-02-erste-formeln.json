@@ -3,9 +3,6 @@
  "Erste Formeln – Calc rechnet für dich": "Первые формулы – Calc считает за тебя",
  "Klasse 8 · Baustein 2": "8 класс · Модуль 2",
  "Vorwissen: Zellen und Eingeben": "Нужно знать: ячейки и ввод",
- "Ich kann eine Formel mit = beginnen und mit + − * / rechnen.": "Я начинаю формулу с <code>=</code> и считаю с + − * /.",
- "Ich kann in Formeln Zellen statt Zahlen verwenden.": "Я использую в формулах ячейки вместо чисел.",
- "Ich kann erklären, warum Calc dann von selbst neu rechnet.": "Я умею объяснить, почему Calc тогда пересчитывает сам.",
  "Mia kauft Schulsachen. Bei den Heften hat sie im Kopf gerechnet und in D5 einfach 4,50 eingetippt. Bei den Stiften steht in D6 eine Formel.": "Мия покупает школьные принадлежности. Для <strong>тетрадей</strong> она посчитала в уме и просто ввела <code>4,50</code> в D5. Для <strong>ручек</strong> в D6 стоит формула.",
  "Überleg: Beides wird teurer. Was zeigt D5 danach?": "<strong>Подумай:</strong> всё дорожает. Что потом покажет <strong>D5</strong>?",
  "Den neuen, höheren Betrag": "Новую, большую сумму",
@@ -43,11 +40,6 @@
  "★ Expedition: Punkt vor Strich freiwillig": "<span class=\"step-no\">★</span> Экспедиция: порядок действий <span class=\"badge expedition\">по желанию</span>",
  "Auch Calc rechnet Punkt vor Strich.Was in Klammern steht, kommt zuerst.": "Calc тоже выполняет <strong>умножение и деление раньше сложения и вычитания</strong>.<br/>То, что в <strong>скобках</strong>, – первым.",
  "Berechne in B6 deinen Notendurchschnitt: alle Noten zusammenzählen, dann durch 3 teilen.": "Посчитай в B6 свою среднюю оценку: сложи все оценки, потом раздели на 3.",
- "Ich beginne jede Formel mit =.": "Я начинаю каждую формулу с <code>=</code>.",
- "Ich kenne die Rechenzeichen + − * /.": "Я знаю знаки действий + − * /.",
- "Ich klicke Zellen an, statt Zahlen in die Formel zu tippen.": "Я щёлкаю по ячейкам вместо того, чтобы писать в формулу числа.",
- "Plus Ich kann Formeln bauen, die auf anderen Formeln aufbauen.": "<span class=\"badge plus\">Plus</span> Я строю формулы, которые используют другие формулы.",
- "Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">Expedition</span> Я правильно использую скобки.",
  "← 1 · Erste Schritte": "← 1 · Первые шаги",
  "3 · Funktionen →": "3 · Функции →",
  "Die Preise steigen … schau auf Spalte C und D!": "Цены растут … посмотри на столбцы C и D!",
@@ -86,7 +78,6 @@
  "D5 rechnet neu": "D5 пересчитывает",
  "D5 bleibt 4,50": "D5 остаётся 4,50",
  "B5 abtippen": "Ввести B5 вручную",
- "★ Expedition Ich setze Klammern richtig.": "<span class=\"badge expedition\">★ Expedition</span> Я правильно ставлю скобки.",
  "Üben Farbfelder": "<span class=\"badge ueben\">Üben</span> Цветные поля",
  "Zähl alle Felder mit derselben Farbe zusammen. Tipp in B8 =, klick das erste gelbe Feld an, tipp +, klick das nächste an … und drück Enter.": "Сложи все поля одного цвета. Введи в B8 <code>=</code>, щёлкни первое жёлтое поле, введи <code>+</code>, щёлкни следующее … и нажми <kbd>Enter</kbd>.",
  "Keine Zahlen abtippen! Nur Zellen anklicken. Dann rechnet die Summe mit, wenn sich eine Zahl ändert.": "<strong>Не переписывай числа!</strong> Только щёлкай ячейки. Тогда сумма изменится, когда изменится число.",
@@ -121,5 +112,5 @@
  "das, was bei einer Rechnung herauskommt": "<strong>результат</strong> – то, что получается при расчёте",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>строка ввода</strong> – длинная строка над таблицей. Там видна формула.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>пересчитать</strong> – Calc считает ещё раз, когда число меняется",
- "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "Пока ты только вводишь числа. Теперь Calc считает за тебя: формула начинается с <code>=</code> и считает с ячейками. Если число меняется, Calc сразу пересчитывает. Именно для этого берут таблицу, а не калькулятор."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Теперь Calc считает за тебя. Формула начинается с <code>=</code> и считает с ячейками. Если число меняется, Calc сразу пересчитывает. Калькулятор так не умеет."
 }

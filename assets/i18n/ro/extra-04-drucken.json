@@ -2,9 +2,6 @@
  "Drucken wie ein Profi · Calc-Kurs Zusatzmodul": "Tipărire ca un profesionist · Curs Calc modul suplimentar",
  "Drucken wie ein Profi": "Tipărire ca un profesionist",
  "brauchst du bei jeder Abgabe": "ai nevoie de asta la orice predare",
- "Ich prüfe mit der Druckvorschau, wie der Ausdruck aussieht.": "Verific cu previzualizarea la tipărire cum arată pagina tipărită.",
- "Ich stelle Querformat, „auf eine Seite“ und eine Kopfzeile ein.": "Setez orientarea vedere, „potrivire pe o pagină” și un antet.",
- "Ich lege fest, was gedruckt wird – und speichere als PDF.": "Decid ce se tipărește – și salvez ca PDF.",
  "💡 Deine Notenliste ist 30 cm breit. Auf ein A4-Blatt hochkant passen nur etwa 17 cm.": "💡 Lista ta de note are <strong>30 cm lățime</strong>. Pe o pagină A4 portret încap doar cam <strong>17 cm</strong>.",
  "Überleg: Was passiert, wenn du einfach auf Drucken klickst?": "<strong>Gândește-te:</strong> Ce se întâmplă dacă dai pur și simplu clic pe Tipărire?",
  "Calc macht alles kleiner – passt auf ein Blatt.": "Calc micșorează totul – încape pe o pagină.",
@@ -69,5 +66,5 @@
  "Datei → Druckvorschau": "Datei → Druckvorschau (Fișier → Previzualizare)",
  "Spalten löschen": "Șterge coloanele",
  "Klein schreiben": "Scrie cu litere mici",
- "Auf dem Bildschirm sieht die Tabelle gut aus, auf Papier fehlt plötzlich die Hälfte. Hier lernst du, mit Druckvorschau, Querformat und „auf eine Seite“ sauber zu drucken. Und du speicherst die Tabelle als PDF, zum Abgeben oder Verschicken.": "Pe ecran tabelul arată bine, pe hârtie lipsește brusc jumătate. Aici înveți să tipărești curat cu previzualizarea, formatul orizontal și „pe o singură pagină”. Și salvezi tabelul ca PDF, ca să-l predai sau să-l trimiți."
+ "Auf dem Bildschirm sieht die Tabelle gut aus. Auf dem Papier fehlt plötzlich die Hälfte. Hier lernst du, die Tabelle richtig auf ein Blatt zu bringen. Du speicherst sie auch als PDF, zum Abgeben oder Verschicken.": "Pe ecran tabelul arată bine. Pe hârtie lipsește brusc jumătate. Aici înveți să pui tabelul corect pe o singură foaie. Îl salvezi și ca PDF, ca să-l predai sau să-l trimiți."
 }

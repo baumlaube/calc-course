@@ -1,9 +1,6 @@
 {
  "Sortieren & Filtern · Calc-Kurs Zusatzmodul": "Сортировка и фильтр · Курс Calc, дополнительный модуль",
  "Sortieren & Filtern – große Tabellen bändigen": "Sortieren &amp; Filtern (сортировка и фильтр) – укротить большие таблицы",
- "Ich kann eine Tabelle auf- oder absteigend sortieren.": "Я умею сортировать таблицу по возрастанию или по убыванию.",
- "Ich kann mit dem AutoFilter nur bestimmte Zeilen anzeigen.": "Я умею показывать только определённые строки с помощью AutoFilter (автофильтр).",
- "Ich weiß, warum man nie nur eine Spalte sortiert.": "Я знаю, почему никогда нельзя сортировать только один столбец.",
  "💡 Tom will die Besten oben haben. Er markiert nur die Spalte C und sortiert sie absteigend.": "💡 Том хочет, чтобы лучшие были вверху. Он выделяет <strong>только столбец C</strong> и сортирует по убыванию.",
  "Überleg: Was passiert?": "<strong>Подумай:</strong> что произойдёт?",
  "Alles richtig – die Besten stehen oben.": "Всё в порядке – лучшие вверху.",
@@ -64,5 +61,5 @@
  "alphabetisch": "по алфавиту",
  "größte oben": "наибольшее сверху",
  "kleinste oben": "наименьшее сверху",
- "In einer Tabelle mit Hunderten Zeilen sucht niemand von Hand. Du sortierst sie, zum Beispiel nach Punkten, oder du filterst nur die Zeilen, die du brauchst. Das kennst du aus jedem Online-Shop: sortieren nach Preis, filtern nach Größe.": "В таблице с сотнями строк никто не ищет вручную. Ты сортируешь её, например по баллам, или фильтруешь только нужные строки. Это ты знаешь по любому интернет-магазину: сортировать по цене, фильтровать по размеру."
+ "Eine Tabelle hat hundert Zeilen. Du suchst nicht jede Zeile ab. Du sortierst die Tabelle, zum Beispiel nach Punkten. Oder du filterst: Dann siehst du nur die Zeilen, die du brauchst. Das kennst du aus Online-Shops: sortieren nach Preis, filtern nach Größe.": "В таблице сто строк. Ты не просматриваешь каждую строку. Ты сортируешь таблицу, например по баллам. Или фильтруешь: тогда видишь только нужные строки. Это ты знаешь по интернет-магазинам: сортировать по цене, фильтровать по размеру."
 }

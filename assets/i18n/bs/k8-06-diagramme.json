@@ -3,9 +3,6 @@
  "Diagramme – Zahlen auf einen Blick": "Dijagrami – brojevi na prvi pogled",
  "Klasse 8 · Baustein 6": "8. razred · Cjelina 6",
  "Vorwissen: Tabellen markieren": "Predznanje: označavanje tabela",
- "Ich kann aus einer Tabelle ein Diagramm erstellen.": "Mogu od tabele napraviti dijagram.",
- "Ich kann das passende Diagramm wählen: Säule, Kreis oder Linie.": "Mogu izabrati odgovarajući dijagram: stubni, kružni ili linijski.",
- "Ich kann ein Diagramm beschriften und richtig lesen.": "Mogu označiti dijagram i pravilno ga čitati.",
  "Jonas hat die Temperaturen einer Woche in ein Diagramm verwandelt. Irgendwas stimmt da nicht …": "Jonas je temperature jedne sedmice pretvorio u dijagram. Nešto tu nije u redu …",
  "Überleg: Was ist das Problem?": "<strong>Razmisli:</strong> Šta je problem?",
  "Die Legende ist zu lang.": "Legenda je preduga.",
@@ -37,10 +34,6 @@
  "Erstellen: Tabelle mit Überschriften markieren → Einfügen → Diagramm …": "Pravljenje: označi tabelu sa naslovima → <strong>Einfügen → Diagramm …</strong>",
  "Jedes Diagramm braucht einen Titel. Achsen bekommen eine Beschriftung (z. B. °C).": "Svakom dijagramu treba <strong>naslov</strong>. Ose dobijaju oznaku (npr. °C).",
  "Ändern sich die Zahlen in der Tabelle, ändert sich das Diagramm mit.": "Kad se brojevi u tabeli promijene, mijenja se i dijagram.",
- "Ich weiß, wann Säule, Kreis oder Linie passt.": "Znam kada odgovara stubni, kružni ili linijski dijagram.",
- "Ich gebe jedem Diagramm einen Titel und beschrifte die Achsen.": "Svakom dijagramu dajem naslov i označavam ose.",
- "Plus Ich kann Prozente im Kreisdiagramm anzeigen.": "<span class=\"badge plus\">Plus</span> Mogu prikazati procente u kružnom dijagramu.",
- "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> Prepoznajem namještene dijagrame po y-osi.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> Dvoboj tarifa za struju",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "Struja se plaća dvaput: <strong>osnovna cijena</strong> svaki mjesec i cijena za svaki <strong>kWh</strong>.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: dvoboj tarifa za struju</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
@@ -112,5 +105,6 @@
  "■ B6 nach rechts ausfüllen (bis D6)": "■ B6 nach rechts ausfüllen (popuni B6 udesno, do D6)",
  "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ B6 bis D6 nach unten ausfüllen (popuni B6:D6 nadolje, do D8)",
  "Erst nach rechts ausfüllen, bis D6!": "Prvo popuni udesno, do D6!",
- "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Još nije gotovo: {} ćelija je prazno. Povlači označeno područje dalje, dok sve do D8 ne bude puno."
+ "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Još nije gotovo: {} ćelija je prazno. Povlači označeno područje dalje, dok sve do D8 ne bude puno.",
+ "Viele Zahlen in einer Liste sind schwer zu lesen. Ein Diagramm zeigt sie als Bild. Dann siehst du sofort, was größer ist. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du oft, zum Beispiel im Wetterbericht.": "Mnogo brojeva u listi teško se čita. Dijagram ih pokazuje kao sliku. Tada odmah vidiš šta je veće. Učiš kada odgovara stubni, kružni ili linijski dijagram. Dijagrame često viđaš, na primjer u vremenskoj prognozi."
 }

@@ -2,9 +2,6 @@
  "Fehlerdetektiv · Calc-Kurs Klasse 9": "محقّق الأخطاء · دورة Calc الصف 9",
  "Fehlerdetektiv – Fehler finden und reparieren": "محقّق الأخطاء – اعثر على الأخطاء وأصلحها",
  "Klasse 9 · Baustein 1": "الصف 9 · الوحدة 1",
- "Ich kann Fehlermeldungen wie #WERT!, #DIV/0! und #NAME? deuten und beheben.": "أفهم رسائل الخطأ مثل <code>#WERT!</code> (#قيمة!) و<code>#DIV/0!</code> و<code>#NAME?</code> وأصلحها.",
- "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "أجد الأخطاء الصامتة التي لا يُظهرها Calc.",
- "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "أصلح الصيغ بكل ما تعلّمته في الصف 8.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>أنت تعرف هذا:</strong> <code>=C5/B5</code> تقسم النقاط على عدد المشاركين. في D5 تعمل. لكن D6 تُظهر فجأة <code>#DIV/0!</code>.",
  "Überleg: Warum?": "<strong>فكّر:</strong> لماذا؟",
  "Die Punktzahl ist zu hoch.": "عدد النقاط كبير جدًا.",
@@ -47,11 +44,6 @@
  "In Englisch gibt es noch keine Noten, darum zeigt der Durchschnitt #DIV/0!. Das sieht im Zeugnis nicht gut aus.": "لا توجد علامات في الإنجليزية بعد، لذلك يُظهر المتوسط <code>#DIV/0!</code>. هذا لا يبدو جيدًا في الشهادة.",
  "=WENNFEHLER(Formel; \"Ersatz\")Klappt die Formel, kommt ihr Ergebnis. Sonst kommt der Ersatz.": "<code>=WENNFEHLER(Formel; \"Ersatz\")</code><br/>إذا عملت الصيغة، تحصل على نتيجتها. وإلا تحصل على البديل.",
  "Ändere E3 so, dass statt des Fehlers keine Noten erscheint. Text steht in Anführungszeichen.": "غيّر E3 بحيث يظهر <code>keine Noten</code> (لا علامات) بدل الخطأ. النص بين علامتي تنصيص.",
- "Ich weiß, was #WERT!, #DIV/0! und #NAME? bedeuten.": "أعرف معنى <code>#WERT!</code> و<code>#DIV/0!</code> و<code>#NAME?</code>.",
- "Ich kann laute Fehler reparieren.": "أستطيع إصلاح الأخطاء الصاخبة.",
- "Ich finde stille Fehler mit den Detektiv-Tricks.": "أجد الأخطاء الصامتة بحيل المحقّق.",
- "Plus Ich kann Fehler absichtlich erzeugen und erklären.": "<span class=\"badge plus\">Plus</span> أستطيع صنع الأخطاء عن قصد وشرحها.",
- "Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">Expedition</span> أستطيع اعتراض الأخطاء باستخدام WENNFEHLER (إذا كان خطأ).",
  "← Klasse 8 · Projekt": "← الصف 8 · المشروع",
  "2 · Prozentrechnung →": "2 · النسب المئوية →",
  "Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.": "انقر على D6 لترى: الصيغة تستخدم B6، وB6 فارغة. الخلية الفارغة تُحسب 0، ولا يمكن القسمة على 0.",
@@ -92,7 +84,6 @@
  "Aus still wird laut: Wandert ein Bezug ohne $ auf eine leere Zelle oder auf Text, zeigt Calc weiter unten #DIV/0! oder #WERT!. Der Fehler steckt dann oben in der ersten Formel.": "<strong>من صامت إلى صاخب:</strong> إذا انزلق مرجع بدون <code>$</code> إلى خلية فارغة أو إلى نص، يعرض Calc في الأسفل <code>#DIV/0!</code> أو <code>#WERT!</code>. عندها يكون الخطأ في الأعلى، في الصيغة الأولى.",
  "Stille Fehler zeigt Calc nicht an: getippte Zahlen, fehlendes $, Bereich zu kurz oder zu groß.": "<strong>الأخطاء الصامتة</strong> لا يُظهرها Calc: أرقام مكتوبة باليد، <code>$</code> ناقصة، نطاق قصير جدًا أو كبير جدًا.",
  "MAX, MIN und MITTELWERT brauchen einen Bereich mit Doppelpunkt: =MAX(G5:G10).": "<code>MAX</code> و <code>MIN</code> و <code>MITTELWERT</code> تحتاج إلى نطاق بنقطتين: <code>=MAX(G5:G10)</code>.",
- "★ Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">★ Expedition</span> أستطيع التقاط الأخطاء بـ WENNFEHLER (إذا كان خطأ).",
  "Üben Aufwärmen: Waffelverkauf": "<span class=\"badge ueben\">Üben</span> إحماء: بيع الوافل",
  "Stückzahl und Umsatz für sechs Waffelsorten, dazu MAX, MIN und MITTELWERT. Die Kontrolle merkt, wenn der Preis mit in der Summe steckt.": "العدد والإيراد لستة أنواع من الوافل، ومعها MAX و MIN و MITTELWERT. التحقّق يلاحظ إذا دخل السعر في المجموع.",
  "ODS Üben: Waffelverkaufk9-01-fehlerdetektiv-mehr-waffelverkauf.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: بيع الوافل</strong><small>k9-01-fehlerdetektiv-mehr-waffelverkauf.ods</small></span>",
@@ -135,5 +126,5 @@
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>ضيق</strong> – غير عريض. <code>###</code> تعني: العمود ضيق جدًا.",
  "verstehen, was etwas bedeutet": "<strong>يفسّر</strong> – يفهم ماذا يعني شيء",
  "einen Fehler wieder richtig machen": "<strong>يصلح</strong> – يجعل الخطأ صحيحًا من جديد",
- "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "تحدث أخطاء في الجداول، حتى عند المحترفين. بعضها يُظهره Calc بصوت عالٍ، مثل <code>#DIV/0!</code>. وبعضها صامت: الرقم يبدو صحيحًا لكنه خاطئ. هنا تتعلم إيجاد النوعين وإصلاحهما. وفي الوقت نفسه تراجع كل ما في الصف الثامن."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "تحدث أخطاء في الجداول. بعض الأخطاء يُظهرها Calc، مثل <code>#DIV/0!</code>. وأخطاء أخرى لا يُظهرها Calc: الرقم يبدو صحيحًا لكنه خاطئ. هنا تتعلم إيجاد النوعين وإصلاحهما. وفي الوقت نفسه تراجع الصف الثامن."
 }

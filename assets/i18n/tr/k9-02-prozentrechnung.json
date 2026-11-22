@@ -3,9 +3,6 @@
  "Prozentrechnung – Rabatt, Anteile, Mehrwertsteuer": "Yüzde hesabı – indirim, paylar, KDV",
  "Klasse 9 · Baustein 2": "9. sınıf · Ünite 2",
  "Vorwissen: Prozente aus Mathe, $-Anker": "Gerekli: matematikten yüzde hesabı, $ çapası",
- "Ich kann Prozente in Calc richtig eingeben und als % formatieren.": "Calc'ta yüzdeleri doğru yazabilir ve % olarak biçimlendirebilirim.",
- "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "İndirim, pay ve KDV'yi formüllerle hesaplayabilirim.",
- "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "Tek bir yüzdeyi <code>$</code> çapasıyla birçok satır için kullanabilirim.",
  "💡 Aus Mathe kennst du: 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 20 %.": "💡 <strong>Matematikten biliyorsun:</strong> 50 €'nun %20'si = 50 € · 20 : 100 = 10 €. Yukarıdaki tabloda B2 <strong>%20</strong> gösteriyor.",
  "Überleg: Welche Zahl steht für Calc wirklich in B2?": "<strong>Düşün:</strong> Calc için B2'de gerçekte hangi sayı var?",
  "Gar keine Zahl, sondern der Text „20 %“": "Hiç sayı yok, „20 %“ metni var",
@@ -31,11 +28,6 @@
  "★ Expedition: Rabatt auf Rabatt freiwillig": "<span class=\"step-no\">★</span> Keşif: İndirim üstüne indirim <span class=\"badge expedition\">isteğe bağlı</span>",
  "Die Jacke kostet 80 €. Im Sale gibt es 20 %, an der Kasse nochmal 10 % extra. Die Werbung sagt: „30 % sparen!“": "Ceket 80 € tutuyor. İndirimde %20 düşük, kasada da ayrıca %10 daha. Reklamda “%30 tasarruf et!” yazıyor.",
  "Berechne in B5 den Endpreis und in B6, wie viel Prozent du wirklich sparst.": "<strong>B5</strong>'te son fiyatı, <strong>B6</strong>'da gerçekte yüzde kaç tasarruf ettiğini hesapla.",
- "Ich tippe Prozente richtig ein und formatiere Zahlen als %.": "Yüzdeleri doğru yazar ve sayıları % olarak biçimlendiririm.",
- "Ich berechne Rabatt und neuen Preis mit Formeln.": "İndirimi ve yeni fiyatı formüllerle hesaplarım.",
- "Ich berechne Anteile mit =Teil/Ganzes.": "Payları <code>=Teil/Ganzes</code> ile hesaplarım.",
- "Plus Ich berechne Brutto-Preise mit der Mehrwertsteuer.": "<span class=\"badge plus\">Plus</span> KDV'li brüt fiyatları hesaplarım.",
- "Expedition Ich weiß, warum 20 % + 10 % Rabatt keine 30 % sind.": "<span class=\"badge expedition\">Expedition</span> %20 + %10 indirimin neden %30 olmadığını biliyorum.",
  "← 1 · Fehlerdetektiv": "← 1 · Hata dedektifi",
  "3 · WENN 1 →": "3 · WENN 1 (EĞER 1) →",
  "C2 zeigt dieselbe Zahl ohne %-Format: 0,2. Das %-Format zeigt die Zahl nur mal 100 an und hängt ein % an.": "C2 aynı sayıyı % biçimi olmadan gösteriyor: <strong>0,2</strong>. % biçimi sayıyı sadece 100 ile çarpılmış gösterir ve bir % ekler.",
@@ -85,7 +77,6 @@
  "72 % ist der Anteil, den du noch zahlst. Gesucht ist, was du sparst: =(B1-B5)/B1": "%72 hâlâ ödediğin pay. İstediğimiz tasarruf ettiğin: <code>=(B1-B5)/B1</code>",
  "Noch nicht. Gespart in % = (alter Preis − neuer Preis) ÷ alter Preis.": "Henüz değil. % olarak tasarruf = (eski fiyat − yeni fiyat) ÷ eski fiyat.",
  "🏆 Expedition geschafft! Du sparst nur 28 %, nicht 30 %. Die 10 % gehen vom schon reduzierten Preis weg. Rabatte darf man nicht einfach addieren.": "🏆 Keşif tamam! Sadece <strong>%28</strong> tasarruf ediyorsun, %30 değil. %10 zaten düşürülmüş fiyattan düşülüyor. İndirimler basitçe toplanmaz.",
- "★ Expedition Ich weiß, warum 20 % + 10 % Rabatt keine 30 % sind.": "<span class=\"badge expedition\">★ Expedition</span> %20 + %10 indirimin neden %30 olmadığını biliyorum.",
  "★ Expedition Rabatt auf Rabatt": "<span class=\"badge expedition\">★ Expedition</span> İndirim üstüne indirim",
  "ODS ★ Expedition: Rabatt auf Rabattk9-02-prozentrechnung-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition: İndirim üstüne indirim</strong><small>k9-02-prozentrechnung-expedition.ods</small></span>",
  "Mal 25 heißt 2500 %. Und ändert sich B2, rechnet die Formel nicht mit.": "25 ile çarpmak %2500 demek. Ve B2 değişirse formül yeniden hesaplamaz.",
@@ -109,5 +100,5 @@
  "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "Her şey %20 daha ucuz! <strong>C5</strong>'e € olarak indirimi, <strong>D5</strong>'e yeni fiyatı yaz. Sonra C5 ve D5'i birlikte seç ve ikisini de <strong>Ausfüllkästchen</strong> (doldurma tutamacı) ile aşağı 7. satıra kadar sürükle.",
  "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "Henüz her şey doldurulmadı. C5 ve D5'i <strong>birlikte</strong> seç ve <strong>Ausfüllkästchen</strong>'i (doldurma tutamacı) aşağı 7. satıra kadar sürükle.",
  "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ 5. satır doğru! Şimdi C5 ve D5'i birlikte seç ve ikisini de <strong>Ausfüllkästchen</strong> (doldurma tutamacı) ile aşağı 7. satıra kadar sürükle.",
- "Prozentrechnen kennst du aus Mathe. Jetzt lernst du, wie Calc mit Prozenten umgeht und wie du einen Prozentsatz für eine ganze Liste festhältst. Rabatt im Schlussverkauf und die 19 % Mehrwertsteuer auf dem Kassenbon rechnest du dann in Sekunden aus.": "Yüzde hesabını matematikten biliyorsun. Şimdi Calc’ın yüzdelerle nasıl çalıştığını ve bir yüzdeyi bütün bir liste için nasıl sabitleyeceğini öğrenirsin. Sonra indirimi ve fişteki %19 KDV’yi saniyeler içinde hesaplarsın."
+ "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "Yüzde hesabını matematikten biliyorsun. Şimdi yüzdeleri Calc ile hesaplarsın. Böylece %30 indirimli bir pantolonun kaç para olduğunu hızlıca hesaplarsın. Ya da fişte ne kadar KDV yazdığını."
 }

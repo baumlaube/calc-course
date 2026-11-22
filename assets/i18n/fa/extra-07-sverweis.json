@@ -2,9 +2,6 @@
  "SVERWEIS · Calc-Kurs Zusatzmodul": "SVERWEIS (جستجوی عمودی) · دورهٔ Calc ماژول اضافی",
  "SVERWEIS – Calc schlägt nach": "SVERWEIS (جستجوی عمودی) – Calc خودش پیدا می‌کند",
  "Profi-Niveau (Klasse 10)": "سطح حرفه‌ای (کلاس 10)",
- "Ich kann mit SVERWEIS einen Wert in einer Liste nachschlagen.": "می‌توانم با SVERWEIS یک مقدار را در یک فهرست جستجو کنم.",
- "Ich kann die vier Teile von SVERWEIS erklären.": "می‌توانم چهار بخش SVERWEIS را توضیح بدهم.",
- "Ich halte die Liste mit $ fest und fülle die Formel aus.": "فهرست را با <code>$</code> ثابت می‌کنم و فرمول را به پایین پر می‌کنم.",
  "💡 Am Kiosk wird mit Nummern bestellt. In F2 steht die Nummer 103. In G2 kommt:=SVERWEIS(F2;A2:C7;3;0)": "💡 در بوفه با شماره سفارش می‌دهند. در F2 شمارهٔ <strong>103</strong> است. G2 این را می‌گیرد:<br/><code class=\"long\">=SVERWEIS(F2;A2:C7;3;0)</code>",
  "Überleg: Was zeigt G2?": "<strong>فکر کن:</strong> G2 چه نشان می‌دهد؟",
  "Kakao": "Kakao (کاکائو)",
@@ -60,5 +57,5 @@
  "Irgendwo": "هر جایی",
  "Null zurückgeben": "صفر برگرداند",
  "Das = fehlt": "= جا افتاده است",
- "Am Kiosk, im Lager oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht diese Nummer in einer Liste und holt den passenden Namen oder Preis. Du musst nichts mehr von Hand nachschlagen.": "در دکه، انبار یا فروشگاه اینترنتی هر کالا یک شماره دارد. <code>SVERWEIS</code> (VLOOKUP) این شماره را در یک فهرست پیدا می‌کند و نام یا قیمت مربوط را می‌آورد. دیگر لازم نیست با دست جست‌وجو کنی."
+ "Am Kiosk oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht die Nummer in einer Liste. Dann holt Calc den passenden Namen oder Preis. Du musst nicht mehr selbst suchen.": "در دکه یا فروشگاه اینترنتی هر کالا یک شماره دارد. <code>SVERWEIS</code> (VLOOKUP) شماره را در یک فهرست پیدا می‌کند. بعد Calc نام یا قیمت مربوط را می‌آورد. دیگر لازم نیست خودت بگردی."
 }

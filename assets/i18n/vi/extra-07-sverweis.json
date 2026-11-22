@@ -2,9 +2,6 @@
  "SVERWEIS · Calc-Kurs Zusatzmodul": "SVERWEIS (TRA CỨU DỌC) · Khóa học Calc mô-đun bổ sung",
  "SVERWEIS – Calc schlägt nach": "SVERWEIS (TRA CỨU DỌC) – Calc tự tra cứu",
  "Profi-Niveau (Klasse 10)": "Mức dân chuyên (lớp 10)",
- "Ich kann mit SVERWEIS einen Wert in einer Liste nachschlagen.": "Mình tra cứu được một giá trị trong danh sách bằng SVERWEIS.",
- "Ich kann die vier Teile von SVERWEIS erklären.": "Mình giải thích được bốn phần của SVERWEIS.",
- "Ich halte die Liste mit $ fest und fülle die Formel aus.": "Mình giữ cố định danh sách bằng <code>$</code> và điền công thức xuống dưới.",
  "💡 Am Kiosk wird mit Nummern bestellt. In F2 steht die Nummer 103. In G2 kommt:=SVERWEIS(F2;A2:C7;3;0)": "💡 Ở quầy bán hàng, người ta đặt hàng theo số. Trong F2 có số <strong>103</strong>. Vào G2 sẽ có:<br/><code class=\"long\">=SVERWEIS(F2;A2:C7;3;0)</code>",
  "Überleg: Was zeigt G2?": "<strong>Suy nghĩ:</strong> G2 hiện gì?",
  "Kakao": "Kakao (ca cao)",
@@ -60,5 +57,5 @@
  "Irgendwo": "Ở đâu cũng được",
  "Null zurückgeben": "Trả về số 0",
  "Das = fehlt": "Thiếu dấu =",
- "Am Kiosk, im Lager oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht diese Nummer in einer Liste und holt den passenden Namen oder Preis. Du musst nichts mehr von Hand nachschlagen.": "Ở quầy bán hàng, trong kho hay ở cửa hàng trực tuyến, mỗi món hàng có một số. <code>SVERWEIS</code> (TRA CỨU DỌC) tìm số này trong một danh sách và lấy ra tên hoặc giá phù hợp. Bạn không còn phải tra cứu bằng tay nữa."
+ "Am Kiosk oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht die Nummer in einer Liste. Dann holt Calc den passenden Namen oder Preis. Du musst nicht mehr selbst suchen.": "Ở quầy bán hàng hay ở cửa hàng trực tuyến, mỗi món hàng có một số. <code>SVERWEIS</code> (TRA CỨU DỌC) tìm số đó trong một danh sách. Rồi Calc lấy ra tên hoặc giá phù hợp. Bạn không phải tự tìm nữa."
 }

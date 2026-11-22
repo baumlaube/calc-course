@@ -3,9 +3,6 @@
  "Projekt: Welcher Handyvertrag passt zu mir?": "Proje: Hangi telefon tarifesi bana uyar?",
  "Zusatzmodul · Projekt": "Ek modül · proje",
  "Vorwissen: WENN, $-Anker, Diagramme": "Gerekli: WENN, $ çapası, grafikler",
- "Ich kann Tarife mit WENN und MIN vergleichen.": "Tarifeleri WENN ve MIN ile karşılaştırabilirim.",
- "Ich kann Kosten über zwei Jahre berechnen.": "İki yıllık maliyetleri hesaplayabilirim.",
- "Ich kann meine Entscheidung mit Zahlen und einem Diagramm begründen.": "Kararımı sayılar ve bir grafikle açıklayabilirim.",
  "📱 Euer Auftrag": "<span class=\"step-no\">📱</span> Görevin",
  "Vier Tarife, ein Ziel: Welcher ist für euren Datenbedarf über zwei Jahre am günstigsten? Die Tarife sind ausgedacht – die Rechnung ist echt.": "Dört tarife, bir hedef: iki yılda <strong>senin internet ihtiyacına göre</strong> en ucuzu hangisi? Tarifeler uydurma – matematik gerçek.",
  "ODS Projektdateix06-handyvertrag.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Projektdatei</strong> (proje dosyası)<small>x06-handyvertrag.ods</small></span>",
@@ -44,5 +41,5 @@
  "Kosten in 2 Jahren bei {} GB": "{} GB ile 2 yıllık maliyet",
  "Am günstigsten: {} mit {}.": "En ucuz: {} ile <strong>{}</strong>.",
  "Zu wenig Daten (auch mit Zusatzpaket): {}.": "İnternet yetmiyor (ek paketle bile): {}.",
- "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Her operatör en ucuz tarifeyi reklam eder. Hangisi gerçekten sana uygun? Bu projede tarifeleri iki yıl boyunca <code>WENN</code> (EĞER) ve <code>MIN</code> ile karşılaştırır, seçimini sayılarla ve bir grafikle gerekçelendirirsin."
+ "Jeder Anbieter sagt: Unser Tarif ist der beste. Welcher passt wirklich zu dir? Du vergleichst Tarife über zwei Jahre mit WENN und MIN. Deine Wahl zeigst du mit Zahlen und einem Diagramm.": "Her operatör der ki: Bizim tarifemiz en iyisi. Hangisi gerçekten sana uygun? Tarifeleri iki yıl boyunca <code>WENN</code> (EĞER) ve <code>MIN</code> ile karşılaştırırsın. Seçimini sayılar ve bir grafikle gösterirsin."
 }

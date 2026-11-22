@@ -3,9 +3,6 @@
  "Formeln ausfüllen – einmal schreiben, überall rechnen": "Umplerea formulelor – scrii o dată, calculezi peste tot",
  "Klasse 8 · Baustein 4": "Clasa a 8-a · Unitatea 4",
  "Vorwissen: Formeln, SUMME": "Cunoștințe anterioare: formule, SUMME",
- "Ich kann eine Formel nach unten und nach rechts ziehen.": "Pot trage o formulă în jos și la dreapta.",
- "Ich kann erklären, wie sich die Zellbezüge dabei verändern.": "Pot explica cum se schimbă referințele la celule.",
- "Ich kann vorhersagen, welche Formel danach in einer Zelle steht.": "Pot prezice ce formulă ajunge într-o celulă.",
  "Ihr kauft für die Klassenparty ein. In D5 steht schon die Formel =B5*C5 → 4 × 1,50 € = 6,00 €.Für die anderen Zeilen tippst du nicht alles neu, du ziehst die Formel einfach nach unten.": "Faci cumpărături pentru petrecerea clasei. În D5 e deja formula <code>=B5*C5</code> → 4 × 1,50 € = 6,00 €.<br/>Pentru celelalte rânduri nu scrii totul din nou – doar <strong>tragi</strong> formula în jos.",
  "=B5*C5 – genau dieselbe": "<code>=B5*C5</code> – exact aceeași",
  "gar keine – nur die Zahl 6,00 €": "niciuna – doar numărul 6,00 €",
@@ -41,11 +38,6 @@
  "Du sparst auf ein Fahrrad. Jede Woche kommt ein Betrag dazu. Wie viel hast du nach 8 Wochen?": "Strângi bani pentru o bicicletă. În fiecare săptămână se adaugă ceva bani. Cât ai după 8 săptămâni?",
  "Kontostand = Kontostand der Vorwoche + neuer Betrag": "Sold = <strong>soldul săptămânii trecute</strong> + suma nouă",
  "In C5 steht der Kontostand nach Woche 1. Schreib in C6 eine Formel für Woche 2 und zieh sie nach unten. Tipp: Die Vorwoche steht genau eine Zeile darüber.": "C5 arată soldul după săptămâna 1. Scrie în <strong>C6</strong> o formulă pentru săptămâna 2 și trage-o în jos. Sfat: săptămâna trecută e exact cu un rând mai sus.",
- "Ich finde das Ausfüllkästchen und kann eine Formel nach unten ziehen.": "Pot găsi mânerul de umplere și pot trage o formulă în jos.",
- "Ich kann eine Formel nach rechts ziehen.": "Pot trage o formulă la dreapta.",
- "Ich kann erklären, warum aus =B5*C5 eine Zeile tiefer =B6*C6 wird.": "Pot explica de ce <code>=B5*C5</code> devine <code>=B6*C6</code> un rând mai jos.",
- "Plus Ich kann vorhersagen, welche Formel nach dem Ziehen in einer Zelle steht.": "<span class=\"badge plus\">Plus</span> Pot prezice ce formulă e într-o celulă după tragere.",
- "Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">Expedition</span> Pot calcula un sold curent.",
  "← 3 · Funktionen": "← 3 · Funcții",
  "5 · Absolute Bezüge →": "5 · Referințe absolute →",
  "Calc füllt aus … schau auf Spalte D!": "Calc umple … uită-te la coloana D!",
@@ -92,7 +84,6 @@
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen. Mit Probe: Kommt auf beiden Wegen dasselbe heraus?": "<span class=\"badge basis\">Basis</span><span><strong>Sarcina 2 · Bani de buzunar:</strong> umple sumele spre dreapta <em>și</em> în jos. Cu probă: iese același rezultat pe ambele căi?</span>",
  "Calc setzt auch Reihen fort: Montag → Dienstag, Januar → Februar, 10 und 20 → 30.": "Calc continuă și serii: Montag → Dienstag (luni → marți), Januar → Februar, 10 și 20 → 30.",
  "Probe: Die Gesamtsumme auf zwei Wegen rechnen. Gleich? Dann stimmt alles.": "<strong>Proba:</strong> Calculează totalul general pe două căi. La fel? Atunci totul e corect.",
- "★ Expedition Ich kann einen laufenden Kontostand berechnen.": "<span class=\"badge expedition\">★ Expedition</span> Pot calcula soldul curent.",
  "Üben Das Ausfüll-Orakel": "<span class=\"badge ueben\">Üben</span> Oracolul umplerii",
  "Das Orakel aus Schritt 2 – jetzt selbst in Calc: Was macht Calc aus Montag, Quartal 1 oder 5, 3? Erst raten, dann ausfüllen.": "Oracolul de la pasul 2 – acum singur în Calc: ce face Calc din Montag, Quartal 1 sau 5, 3? Mai întâi ghicește, apoi umple.",
  "ODS Üben: Ausfüll-Orakelk8-04-ausfuellen-mehr-ausfuell-orakel.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Oracolul umplerii</strong><small>k8-04-ausfuellen-mehr-ausfuell-orakel.ods</small></span>",
@@ -149,5 +140,5 @@
  "Fehler": "Eroare",
  "Montag": "Montag (luni)",
  "Donnerstag": "Donnerstag (joi)",
- "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Adesea se calculează la fel pe fiecare rând: pentru fiecare produs, fiecare zi, fiecare elev. Scrii formula o singură dată și o tragi în jos. Calc ajustează singur celulele pe fiecare rând. Asta economisește mult tastat și multe greșeli."
+ "Oft rechnest du in jeder Zeile das Gleiche: für jeden Artikel, für jeden Tag. Du schreibst die Formel nur einmal. Dann ziehst du sie nach unten. Calc passt die Formel in jeder Zeile selbst an. So tippst du weniger und machst weniger Fehler.": "Adesea calculezi același lucru pe fiecare rând: pentru fiecare produs, pentru fiecare zi. Scrii formula o singură dată. Apoi o tragi în jos. Calc adaptează singur formula pe fiecare rând. Așa tastezi mai puțin și greșești mai puțin."
 }

@@ -3,9 +3,6 @@
  "Bedingte Formatierung 1 – Calc färbt selbst": "Bedingte Formatierung 1 (formatim me kusht) – Calc ngjyros vetë",
  "Klasse 9 · Baustein 6": "Klasa 9 · Njësia 6",
  "Vorwissen: WENN": "Të duhet: WENN (NËSE)",
- "Ich kann Zellen mit Format → Bedingt → Bedingung … automatisch färben.": "Mund t'i ngjyros qelizat automatikisht me <strong>Format → Bedingt → Bedingung …</strong> (format → me kusht → kusht).",
- "Ich kann Bedingungen wie größer als, kleiner als und zwischen benutzen.": "Mund të përdor kushte si më i madh se, më i vogël se dhe ndërmjet.",
- "Ich kann mit Farben Fragen zu großen Tabellen schnell beantworten.": "Mund t'u përgjigjem shpejt me ngjyra pyetjeve për tabela të mëdha.",
  "💡 Lea hat die Hitzetage über 30 °C mit dem Farbeimer rot gefärbt. Dann merkt sie: Am Mittwoch waren es nur 27 °C. Sie tippt in B4 die 27 ein.": "💡 Lea i ngjyrosi me <strong>kovën e bojës</strong> me të kuqe ditët e nxehta mbi 30 °C. Pastaj vëren: të mërkurën ishin vetëm 27 °C. Shkruan 27 në B4.",
  "Überleg: Was passiert mit der roten Farbe in B4?": "<strong>Mendo:</strong> Çfarë ndodh me ngjyrën e kuqe në B4?",
  "Sie verschwindet von selbst.": "Zhduket vetë.",
@@ -38,11 +35,6 @@
  "Bea": "Bea",
  "Emre": "Emre",
  "Hakan": "Hakan",
- "Ich finde Format → Bedingt → Bedingung …": "E gjej <strong>Format → Bedingt → Bedingung …</strong>",
- "Ich lege eine Regel mit größer als oder kleiner als an.": "Krijoj një rregull me më i madh se ose më i vogël se.",
- "Ich weiß: Ändert sich die Zahl, ändert sich die Farbe.": "E di: kur ndryshon numri, ndryshon ngjyra.",
- "Plus Ich benutze „zwischen“ und mehrere Bedingungen.": "<span class=\"badge plus\">Plus</span> Përdor „zwischen” (ndërmjet) dhe disa kushte.",
- "Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">Expedition</span> I njoh shiritat e të dhënave dhe shkallët e ngjyrave.",
  "← 5 · WENN 3": "← 5 · WENN 3 (NËSE 3)",
  "7 · Bedingte Formatierung 2 →": "7 · Bedingte Formatierung 2 →",
  "✨ Bedingte Formatierung: größer als 30 → Schlecht": "✨ Bedingte Formatierung: größer als 30 → Schlecht (më e madhe se 30 → keq)",
@@ -72,7 +64,6 @@
  "Bei „zwischen“ gehören beide Grenzen dazu.": "Me „zwischen” (ndërmjet) të dy kufijtë përfshihen.",
  "🏆 Richtig – Emre hat den längsten Balken und das kräftigste Grün. In der Übungsdatei wartet der ganze Spendenlauf.": "🏆 Saktë – Emre ka shiritin më të gjatë dhe të gjelbrën më të fortë. I gjithë vrapimi i bamirësisë të pret në skedarin e ushtrimeve.",
  "Schau auf den längsten Balken: Emre ist 25 Runden gelaufen.": "Shiko shiritin më të gjatë: Emre vrapoi 25 xhiro.",
- "★ Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">★ Expedition</span> I njoh shiritat e të dhënave dhe shkallën e ngjyrave.",
  "Üben Ein Preis, viele Grenzen": "<span class=\"badge ueben\">Üben</span> Një çmim, shumë kufij",
  "Ist 500 € viel? Für einen Schokoriegel schon, für ein Haus nicht. Jede Zelle bekommt ihre eigene Regel: rot = zu teuer, grün = verdächtig billig. Dann änderst du den Preis und schaust, was passiert.": "A është 500 € shumë? Për një çokollatë po, për një shtëpi jo. Çdo qelizë merr rregullin e vet: e kuqe = shumë e shtrenjtë, e gjelbër = çuditërisht e lirë. Pastaj ndryshon çmimin dhe shikon çfarë ndodh.",
  "ODS Üben: Ein Preis, viele Grenzenk9-06-bedingte-formatierung-mehr-preis-grenzen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Një çmim, shumë kufij</strong><small>k9-06-bedingte-formatierung-mehr-preis-grenzen.ods</small></span>",
@@ -112,5 +103,5 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>stil</strong> – një pamje e gatshme me emër: Gut (mirë) është e gjelbër, Schlecht (keq) është e kuqe",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>midis</strong> – nga një numër deri te një tjetër. Të dy numrat numërohen.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>më e madhe se · më e vogël se</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. Vetë 30 nuk numërohet.",
- "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "Në një tabelë të gjatë është e lehtë të mos e vësh re diçka të rëndësishme. Me Bedingte Formatierung (formatim i kushtëzuar) Calc i ngjyros vetë qelizat, për shembull të gjitha ditët e nxehta mbi 30 °C. Nëse ndryshon një numër, ngjyra përshtatet vetë."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "Në një tabelë të gjatë është e vështirë të gjesh numrat e rëndësishëm. Calc mund t’i ngjyrosë vetë qelizat, për shembull të gjitha ditët mbi 30 °C me të kuqe. Nëse ndryshon një numër, ndryshon edhe ngjyra."
 }

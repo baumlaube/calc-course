@@ -3,9 +3,6 @@
  "Projekt: Wir planen die Klassenfahrt": "Proje: Sınıf gezisini planlıyoruz",
  "Klasse 8 · Baustein 7–8": "8. sınıf · Ünite 7–8",
  "Vorwissen: Baustein 1–6": "Ön bilgi: Ünite 1–6",
- "Ich kann alles aus Baustein 1 bis 6 in einem echten Projekt anwenden.": "1'den 6'ya kadar ünitelerdeki her şeyi gerçek bir projede kullanabilirim.",
- "Ich kann einen Kostenplan mit Formeln, SUMME und absoluten Bezügen erstellen.": "Formüller, SUMME ve mutlak başvurularla bir maliyet planı yapabilirim.",
- "Ich kann Ergebnisse mit einem Diagramm zeigen und eine Entscheidung begründen.": "Sonuçları bir grafikle gösterebilir ve bir kararı gerekçelendirebilirim.",
  "🎒 Euer Auftrag": "<span class=\"step-no\">🎒</span> Görevin",
  "Eure Klasse fährt 3 Tage weg. Ihr seid das Planungsteam.Was kostet die Fahrt? Wie viel zahlt jeder selbst? Welches Ziel ist besser?": "Sınıfın 3 günlüğüne geziye gidiyor. Sen <strong>planlama ekibisin</strong>.<br/>Gezi ne tutar? Herkes ne kadar öder? Hangi yer daha iyi?",
  "Ihr arbeitet allein oder zu zweit. Die Projektdatei zeigt euch auf dem Startblatt, welche Meilensteine schon geschafft sind.": "Tek başına veya ikili çalışırsın. Proje dosyasının başlangıç sayfası hangi ara hedefleri tamamladığını gösterir.",
@@ -64,11 +61,6 @@
  "Für Lehrkräfte: ★ = 1, ★★ = 2, ★★★ = 3 Punkte je Zeile. Ohne Plus sind es 15 Punkte, mit Plus 18.": "Öğretmenler için: ★ = 1, ★★ = 2, ★★★ = 3 puan / satır. Plus olmadan 15 puan, Plus ile 18.",
  "Rückblick auf Klasse 8": "8. sınıfa geri bakış",
  "Hak ab, was du jetzt kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.": "Artık yapabildiklerini işaretle. Bunu sadece senin cihazın hatırlar – hiçbir şey gönderilmez.",
- "Ich kann einen Kostenplan mit Formeln aufbauen.": "Formüllerle bir maliyet planı kurabilirim.",
- "Ich setze SUMME, Ausfüllen und $ sinnvoll ein.": "SUMME, doldurmak ve <code>$</code> işaretini mantıklı kullanırım.",
- "Ich gestalte Tabellen so, dass andere sie gut lesen können.": "Tabloları başkalarının kolay okuyabileceği şekilde tasarlarım.",
- "Ich wähle das passende Diagramm und lese es richtig.": "Doğru grafiği seçer ve doğru okurum.",
- "Plus Ich kann zwei Angebote vergleichen und meine Entscheidung begründen.": "<span class=\"badge plus\">Plus</span> İki teklifi karşılaştırabilir ve kararımı gerekçelendirebilirim.",
  "← 6 · Diagramme": "← 6 · Grafikler",
  "Klasse 9 · Fehlerdetektiv →": "9. sınıf · Hata dedektifi →",
  "{} pro Person": "kişi başı <strong>{}</strong>",
@@ -83,5 +75,5 @@
  "Geld, das jemand dazugibt, z. B. die Schule": "<strong>destek, katkı</strong> – birinin eklediği para, örn. okul",
  "ein Vorschlag mit Preis. Ihr vergleicht zwei Angebote.": "<strong>teklif</strong> – fiyatı olan bir öneri. İki teklifi karşılaştırırsınız.",
  "sagen, warum. Hier: mit Zahlen.": "<strong>gerekçelendirmek</strong> – nedenini söylemek. Burada: sayılarla.",
- "Jetzt setzt du alles aus Klasse 8 zusammen. Ihr plant eine Klassenfahrt: Kosten pro Person ausrechnen, Angebote vergleichen und die Entscheidung mit einem Diagramm begründen. Diese Rechnung muss vor jeder echten Klassenfahrt jemand machen.": "Şimdi 8. sınıftaki her şeyi bir araya getiriyorsun. Bir sınıf gezisi planlıyorsunuz: kişi başı maliyeti hesaplıyor, teklifleri karşılaştırıyor ve kararı bir grafikle gerekçelendiriyorsunuz. Her gerçek sınıf gezisinden önce birinin bu hesabı yapması gerekir."
+ "Jetzt brauchst du alles aus Klasse 8. Ihr plant eine Klassenfahrt: Ihr rechnet die Kosten pro Person aus, vergleicht Angebote und zeigt eure Entscheidung in einem Diagramm. So eine Rechnung braucht jede echte Klassenfahrt.": "Şimdi 8. sınıftaki her şeye ihtiyacın var. Bir sınıf gezisi planlıyorsunuz: kişi başı maliyeti hesaplıyor, teklifleri karşılaştırıyor ve kararınızı bir grafikle gösteriyorsunuz. Her gerçek sınıf gezisi böyle bir hesaba ihtiyaç duyar."
 }

@@ -3,9 +3,6 @@
  "Prozentrechnung – Rabatt, Anteile, Mehrwertsteuer": "Procenty – rabat, udziały, VAT",
  "Klasse 9 · Baustein 2": "Klasa 9 · Jednostka 2",
  "Vorwissen: Prozente aus Mathe, $-Anker": "Potrzebujesz: procenty z matematyki, kotwica $",
- "Ich kann Prozente in Calc richtig eingeben und als % formatieren.": "Umiem poprawnie wpisywać procenty w Calc i formatować je jako %.",
- "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "Umiem liczyć rabat, udziały i VAT formułami.",
- "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "Umiem użyć jednego procentu dla wielu wierszy z kotwicą <code>$</code>.",
  "💡 Aus Mathe kennst du: 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 20 %.": "💡 <strong>Z matematyki wiesz:</strong> 20 % z 50 € = 50 € · 20 : 100 = 10 €. W tabeli powyżej B2 pokazuje <strong>20 %</strong>.",
  "Überleg: Welche Zahl steht für Calc wirklich in B2?": "<strong>Pomyśl:</strong> Jaka liczba jest naprawdę w B2 dla Calc?",
  "Gar keine Zahl, sondern der Text „20 %“": "Żadna liczba, tylko tekst „20 %”",
@@ -31,11 +28,6 @@
  "★ Expedition: Rabatt auf Rabatt freiwillig": "<span class=\"step-no\">★</span> Wyprawa: Rabat od rabatu <span class=\"badge expedition\">nieobowiązkowo</span>",
  "Die Jacke kostet 80 €. Im Sale gibt es 20 %, an der Kasse nochmal 10 % extra. Die Werbung sagt: „30 % sparen!“": "Kurtka kosztuje 80 €. Na wyprzedaży jest 20 % taniej, a przy kasie jeszcze dodatkowe 10 %. Reklama mówi: „Oszczędzasz 30 %!”",
  "Berechne in B5 den Endpreis und in B6, wie viel Prozent du wirklich sparst.": "W <strong>B5</strong> policz cenę końcową, w <strong>B6</strong> ile procent naprawdę oszczędzasz.",
- "Ich tippe Prozente richtig ein und formatiere Zahlen als %.": "Poprawnie wpisuję procenty i formatuję liczby jako %.",
- "Ich berechne Rabatt und neuen Preis mit Formeln.": "Liczę rabat i nową cenę formułami.",
- "Ich berechne Anteile mit =Teil/Ganzes.": "Liczę udziały za pomocą <code>=Teil/Ganzes</code>.",
- "Plus Ich berechne Brutto-Preise mit der Mehrwertsteuer.": "<span class=\"badge plus\">Plus</span> Liczę ceny brutto z VAT.",
- "Expedition Ich weiß, warum 20 % + 10 % Rabatt keine 30 % sind.": "<span class=\"badge expedition\">Expedition</span> Wiem, dlaczego 20 % + 10 % rabatu to nie 30 %.",
  "← 1 · Fehlerdetektiv": "← 1 · Detektyw błędów",
  "3 · WENN 1 →": "3 · WENN 1 (JEŻELI 1) →",
  "C2 zeigt dieselbe Zahl ohne %-Format: 0,2. Das %-Format zeigt die Zahl nur mal 100 an und hängt ein % an.": "C2 pokazuje tę samą liczbę bez formatu %: <strong>0,2</strong>. Format % tylko pokazuje liczbę razy 100 i dodaje %.",
@@ -85,7 +77,6 @@
  "72 % ist der Anteil, den du noch zahlst. Gesucht ist, was du sparst: =(B1-B5)/B1": "72 % to część, którą nadal płacisz. Chcemy oszczędność: <code>=(B1-B5)/B1</code>",
  "Noch nicht. Gespart in % = (alter Preis − neuer Preis) ÷ alter Preis.": "Jeszcze nie. Oszczędność w % = (stara cena − nowa cena) ÷ stara cena.",
  "🏆 Expedition geschafft! Du sparst nur 28 %, nicht 30 %. Die 10 % gehen vom schon reduzierten Preis weg. Rabatte darf man nicht einfach addieren.": "🏆 Wyprawa ukończona! Oszczędzasz tylko <strong>28 %</strong>, a nie 30 %. 10 % odejmuje się od już obniżonej ceny. Rabatów nie można po prostu dodawać.",
- "★ Expedition Ich weiß, warum 20 % + 10 % Rabatt keine 30 % sind.": "<span class=\"badge expedition\">★ Expedition</span> Wiem, dlaczego rabat 20 % + 10 % to nie 30 %.",
  "★ Expedition Rabatt auf Rabatt": "<span class=\"badge expedition\">★ Expedition</span> Rabat od rabatu",
  "ODS ★ Expedition: Rabatt auf Rabattk9-02-prozentrechnung-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition: Rabat od rabatu</strong><small>k9-02-prozentrechnung-expedition.ods</small></span>",
  "Mal 25 heißt 2500 %. Und ändert sich B2, rechnet die Formel nicht mit.": "Razy 25 to 2500 %. A gdy B2 się zmieni, formuła nie przelicza.",
@@ -109,5 +100,5 @@
  "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "Wszystko 20 % taniej! W <strong>C5</strong> wpisz rabat w €, w <strong>D5</strong> nową cenę. Potem zaznacz razem C5 i D5 i przeciągnij obie <strong>Ausfüllkästchen</strong> (uchwytem wypełniania) w dół do wiersza 7.",
  "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "Jeszcze nie wszystko wypełnione. Zaznacz C5 i D5 <strong>razem</strong> i przeciągnij <strong>Ausfüllkästchen</strong> (uchwyt wypełniania) w dół do wiersza 7.",
  "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ Wiersz 5 jest dobrze! Teraz zaznacz razem C5 i D5 i przeciągnij obie <strong>Ausfüllkästchen</strong> (uchwytem wypełniania) w dół do wiersza 7.",
- "Prozentrechnen kennst du aus Mathe. Jetzt lernst du, wie Calc mit Prozenten umgeht und wie du einen Prozentsatz für eine ganze Liste festhältst. Rabatt im Schlussverkauf und die 19 % Mehrwertsteuer auf dem Kassenbon rechnest du dann in Sekunden aus.": "Procenty znasz z matematyki. Teraz dowiesz się, jak Calc radzi sobie z procentami i jak unieruchomić jeden procent dla całej listy. Rabat na wyprzedaży i 19 % VAT na paragonie policzysz wtedy w kilka sekund."
+ "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "Procenty znasz z matematyki. Teraz liczysz procenty w Calc. Tak szybko policzysz, ile kosztują spodnie z rabatem 30 %. Albo ile VAT jest na paragonie."
 }

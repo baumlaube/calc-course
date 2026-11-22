@@ -3,9 +3,6 @@
  "Prozentrechnung – Rabatt, Anteile, Mehrwertsteuer": "Проценты – скидка, доли, НДС",
  "Klasse 9 · Baustein 2": "9 класс · Модуль 2",
  "Vorwissen: Prozente aus Mathe, $-Anker": "Нужно знать: проценты из математики, якорь $",
- "Ich kann Prozente in Calc richtig eingeben und als % formatieren.": "Я правильно ввожу проценты в Calc и форматирую их как %.",
- "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "Я считаю скидку, доли и НДС с помощью формул.",
- "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "Я использую один процент для многих строк благодаря якорю <code>$</code>.",
  "💡 Aus Mathe kennst du: 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 20 %.": "💡 <strong>Из математики ты знаешь:</strong> 20 % от 50 € = 50 € · 20 : 100 = 10 €. В таблице выше B2 показывает <strong>20 %</strong>.",
  "Überleg: Welche Zahl steht für Calc wirklich in B2?": "<strong>Подумай:</strong> какое число на самом деле стоит в B2 для Calc?",
  "Gar keine Zahl, sondern der Text „20 %“": "Вообще не число, а текст „20 %“",
@@ -31,11 +28,6 @@
  "★ Expedition: Rabatt auf Rabatt freiwillig": "<span class=\"step-no\">★</span> Экспедиция: скидка на скидку <span class=\"badge expedition\">по желанию</span>",
  "Die Jacke kostet 80 €. Im Sale gibt es 20 %, an der Kasse nochmal 10 % extra. Die Werbung sagt: „30 % sparen!“": "Куртка стоит 80 €. На распродаже минус 20 %, а на кассе ещё дополнительно 10 %. Реклама говорит: «Сэкономь 30 %!»",
  "Berechne in B5 den Endpreis und in B6, wie viel Prozent du wirklich sparst.": "В <strong>B5</strong> посчитай конечную цену, в <strong>B6</strong> – сколько процентов ты на самом деле экономишь.",
- "Ich tippe Prozente richtig ein und formatiere Zahlen als %.": "Я правильно ввожу проценты и форматирую числа как %.",
- "Ich berechne Rabatt und neuen Preis mit Formeln.": "Я считаю скидку и новую цену с помощью формул.",
- "Ich berechne Anteile mit =Teil/Ganzes.": "Я считаю доли с помощью <code>=Teil/Ganzes</code>.",
- "Plus Ich berechne Brutto-Preise mit der Mehrwertsteuer.": "<span class=\"badge plus\">Plus</span> Я считаю цены брутто с НДС.",
- "Expedition Ich weiß, warum 20 % + 10 % Rabatt keine 30 % sind.": "<span class=\"badge expedition\">Expedition</span> Я знаю, почему скидка 20 % + 10 % – это не 30 %.",
  "← 1 · Fehlerdetektiv": "← 1 · Детектив ошибок",
  "3 · WENN 1 →": "3 · WENN 1 (ЕСЛИ 1) →",
  "C2 zeigt dieselbe Zahl ohne %-Format: 0,2. Das %-Format zeigt die Zahl nur mal 100 an und hängt ein % an.": "C2 показывает то же число без формата %: <strong>0,2</strong>. Формат % только показывает число, умноженное на 100, и добавляет %.",
@@ -85,7 +77,6 @@
  "72 % ist der Anteil, den du noch zahlst. Gesucht ist, was du sparst: =(B1-B5)/B1": "72 % – это доля, которую ты ещё платишь. Нам нужно то, что ты экономишь: <code>=(B1-B5)/B1</code>",
  "Noch nicht. Gespart in % = (alter Preis − neuer Preis) ÷ alter Preis.": "Ещё нет. Сэкономлено в % = (старая цена − новая цена) ÷ старая цена.",
  "🏆 Expedition geschafft! Du sparst nur 28 %, nicht 30 %. Die 10 % gehen vom schon reduzierten Preis weg. Rabatte darf man nicht einfach addieren.": "🏆 Экспедиция пройдена! Ты экономишь всего <strong>28 %</strong>, а не 30 %. 10 % снимают с уже сниженной цены. Скидки нельзя просто складывать.",
- "★ Expedition Ich weiß, warum 20 % + 10 % Rabatt keine 30 % sind.": "<span class=\"badge expedition\">★ Expedition</span> Я знаю, почему скидка 20 % + 10 % – это не 30 %.",
  "★ Expedition Rabatt auf Rabatt": "<span class=\"badge expedition\">★ Expedition</span> Скидка на скидку",
  "ODS ★ Expedition: Rabatt auf Rabattk9-02-prozentrechnung-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition: Скидка на скидку</strong><small>k9-02-prozentrechnung-expedition.ods</small></span>",
  "Mal 25 heißt 2500 %. Und ändert sich B2, rechnet die Formel nicht mit.": "Умножить на 25 – это 2500 %. И если B2 изменится, формула не пересчитает.",
@@ -109,5 +100,5 @@
  "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "Всё на 20 % дешевле! В <strong>C5</strong> напиши скидку в €, в <strong>D5</strong> – новую цену. Потом выдели C5 и D5 вместе и потяни обе за <strong>Ausfüllkästchen</strong> (маркер заполнения) вниз до строки 7.",
  "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "Ещё не всё заполнено. Выдели C5 и D5 <strong>вместе</strong> и потяни за <strong>Ausfüllkästchen</strong> (маркер заполнения) вниз до строки 7.",
  "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ Строка 5 верна! Теперь выдели C5 и D5 вместе и потяни обе за <strong>Ausfüllkästchen</strong> (маркер заполнения) вниз до строки 7.",
- "Prozentrechnen kennst du aus Mathe. Jetzt lernst du, wie Calc mit Prozenten umgeht und wie du einen Prozentsatz für eine ganze Liste festhältst. Rabatt im Schlussverkauf und die 19 % Mehrwertsteuer auf dem Kassenbon rechnest du dann in Sekunden aus.": "Проценты ты знаешь по математике. Теперь узнаешь, как Calc работает с процентами и как закрепить один процент для целого списка. Скидку на распродаже и 19 % НДС в чеке ты тогда посчитаешь за секунды."
+ "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "Проценты ты знаешь по математике. Теперь ты считаешь проценты в Calc. Так ты быстро посчитаешь, сколько стоят брюки со скидкой 30 %. Или сколько НДС указано в чеке."
 }

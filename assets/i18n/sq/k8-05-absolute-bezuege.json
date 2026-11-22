@@ -3,9 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Referencat absolute – $ si spirancë",
  "Klasse 8 · Baustein 5": "Klasa 8 · Njësia 5",
  "Vorwissen: Formeln ausfüllen": "Njohuri paraprake: plotësimi i formulave",
- "Ich kann erklären, warum ein Zellbezug beim Ausfüllen „wandert“.": "Mund të shpjegoj pse një referencë qelize „rrëshqet” gjatë plotësimit.",
- "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Mund ta fiksoj një referencë me shenjën <code>$</code>.",
- "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Mund të vendos kur më duhet <code>$</code> – dhe kur jo.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena ka një punë verore në një akulloreri dhe fiton 11 € në orë. Në C5 llogariti pagën për të hënën: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Zgjidhja: shenja $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> është një <strong>spirancë</strong>.<br/><code>$B$2</code> mbetet gjithmonë <code>B2</code> gjatë plotësimit.",
@@ -44,11 +41,6 @@
  "nur die Spalte A": "vetëm kolona A",
  "nur die Zeile 1": "vetëm rreshti 1",
  "Tipp: Drück Umschalt + F4 mehrmals hintereinander – so springst du durch alle Varianten.": "Këshillë: shtyp disa herë radhazi <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd> – kështu kalon nëpër të gjitha variantet.",
- "Ich kann erklären, warum =B5*B2 beim Ausfüllen kaputtgeht.": "Mund të shpjegoj pse <code>=B5*B2</code> prishet gjatë plotësimit.",
- "Ich kann mit $ (oder Umschalt+F4) einen Bezug festhalten.": "Mund ta fiksoj një referencë me <code>$</code> (ose <kbd>Umschalt</kbd>+<kbd>F4</kbd>).",
- "Ich erkenne, wann eine Formel ein $ braucht.": "E shoh kur një formulë ka nevojë për <code>$</code>.",
- "Plus Ich finde versteckte Fehler in fremden Tabellen.": "<span class=\"badge plus\">Plus</span> Mund të gjej gabime të fshehura në tabelat e të tjerëve.",
- "Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">Expedition</span> Mund të përdor referenca të përziera si <code>$A2</code> dhe <code>B$1</code>.",
  "← 4 · Ausfüllen": "← 4 · Plotësimi",
  "6 · Diagramme →": "6 · Diagramet →",
  "Calc füllt aus … schau auf Spalte C!": "Calc po plotëson … shiko kolonën C!",
@@ -84,7 +76,6 @@
  "66,00 € (6 × 11 €)": "66,00 € (6 × 11 €)",
  "Profi-Trick: ein Name statt $. Klick B2 an, tipp oben links ins Namenfeld Lohn und drück Enter. Jetzt geht auch =B5*Lohn. Ein Name bleibt beim Ausfüllen immer fest.": "<strong>Truk profesionisti: një emër në vend të $.</strong> Kliko B2, shkruaj lart majtas në <strong>Namenfeld</strong> (kutia e emrit) <code>Lohn</code> (paga) dhe shtyp <kbd>Enter</kbd>. Tani funksionon edhe <code>=B5*Lohn</code>. Një emër mbetet gjithmonë i fiksuar gjatë mbushjes.",
  "Profi-Trick: Eine Zelle im Namenfeld benennen, z. B. Lohn. Ein Name bleibt beim Ausfüllen fest.": "Truk profesionisti: emërto një qelizë në <strong>Namenfeld</strong> (kutia e emrit), p.sh. <code>Lohn</code>. Emri mbetet i fiksuar gjatë mbushjes.",
- "★ Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">★ Expedition</span> Mund të përdor referenca të përziera si <code>$A2</code> dhe <code>B$1</code>.",
  "Üben Der Steuer-Schalter": "<span class=\"badge ueben\">Üben</span> Çelësi i tatimit",
  "Der Steuersatz steht nur einmal, in B1. Alle Formeln holen ihn sich von dort.": "Norma e tatimit shkruhet vetëm një herë, në B1. Të gjitha formulat e marrin prej andej.",
  "C4: Steuer = Netto × Steuersatz, mit $.": "C4: tatimi = neto × norma e tatimit, me <code>$</code>.",
@@ -153,5 +144,5 @@
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Ende jo gati: {} qeliza janë bosh. Vazhdo të tërheqësh zonën e shënuar derisa gjithçka deri te E9 të jetë plot.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Rreshti 4 është në rregull. Tani shëno C4 dhe D4 bashkë dhe tërhiqi poshtë deri në rreshtin 6.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Mendo:</strong> Lena e tërheq formulën poshtë deri te C9. Çfarë ka atëherë në <strong>C6</strong> (e martë)?",
- "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "Gjatë mbushjes çdo referencë qelize lëviz bashkë. Zakonisht kjo është e saktë. Por disa vlera vlejnë për të gjitha rreshtat, për shembull paga për orë. Me <code>$</code> e fikson një qelizë të tillë. Nëse ndryshon paga, ndryshon vetëm një qelizë dhe e gjithë tabela rillogaritet."
+ "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Kur tërheq, formula lëviz bashkë. Zakonisht kjo është e saktë. Por disa qeliza duhet të vlejnë për të gjitha rreshtat, për shembull paga për orë. Me <code>$</code> e fikson një qelizë të tillë."
 }

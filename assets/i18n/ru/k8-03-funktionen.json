@@ -3,9 +3,6 @@
  "Funktionen – ganze Bereiche auf einmal": "Функции – целые диапазоны сразу",
  "Klasse 8 · Baustein 3": "8 класс · Модуль 3",
  "Vorwissen: Formeln mit Zellen": "Нужно знать: формулы с ячейками",
- "Ich kann mit SUMME einen ganzen Bereich zusammenzählen.": "Я складываю целый диапазон с помощью <strong>SUMME</strong> (сумма).",
- "Ich kann MITTELWERT, MIN und MAX benutzen.": "Я использую <strong>MITTELWERT</strong> (среднее), <strong>MIN</strong> и <strong>MAX</strong>.",
- "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "Я пишу диапазон, например <code>B5:B9</code>, или выделяю его мышкой.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>Ты это уже знаешь:</strong> <code>=B5+B6+B7+B8+B9</code> складывает пять дней. А если дней 365? Для этого есть <strong>функции</strong>.<br/>В B10 стоит: <code>=SUMME(B5:B9)</code>",
  "Überleg: Was bedeutet B5:B9?": "<strong>Подумай:</strong> что означает <code>B5:B9</code>?",
  "Nur B5 und B9": "Только B5 и B9",
@@ -39,11 +36,6 @@
  "★ Expedition: Würfeln mit Calc freiwillig": "<span class=\"step-no\">★</span> Экспедиция: бросать кубик с Calc <span class=\"badge expedition\">по желанию</span>",
  "Jeder Würfel oben ist eine Formel: =ZUFALLSBEREICH(1;6). Berechne in B7 den Durchschnitt aller 20 Würfe. Dann würfle ein paar Mal neu.": "Каждый кубик выше – это формула: <code>=ZUFALLSBEREICH(1;6)</code> (случайное число между). Посчитай в B7 среднее всех 20 бросков. Потом брось заново несколько раз.",
  "Neu: Ein Bereich kann auch ein Rechteck sein: B2:F5 heißt von B2 oben links bis F5 unten rechts.": "Новое: диапазон может быть и прямоугольником: <code>B2:F5</code> значит от B2 слева вверху до F5 справа внизу.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren.": "Я читаю и выделяю диапазон, например <code>B5:B9</code>.",
- "Ich kann SUMME, MITTELWERT, MIN und MAX benutzen.": "Я использую SUMME, MITTELWERT, MIN и MAX.",
- "Ich weiß, wann ich welche Funktion brauche.": "Я знаю, какая функция нужна в каком случае.",
- "Plus Ich kann ANZAHL benutzen und zwei Funktionen in einer Formel verbinden.": "<span class=\"badge plus\">Plus</span> Я использую ANZAHL (количество) и объединяю две функции в одной формуле.",
- "Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">Expedition</span> Я анализирую прямоугольные диапазоны, например <code>B2:F5</code>.",
  "← 2 · Erste Formeln": "← 2 · Первые формулы",
  "4 · Ausfüllen →": "4 · Заполнение →",
  "Der Doppelpunkt heißt „bis“. Schau auf den farbigen Rahmen: B5:B9 umfasst alle fünf Zellen von B5 bis B9.": "Двоеточие означает <strong>«до»</strong>. Посмотри на цветную рамку: <code>B5:B9</code> включает все пять ячеек от B5 до B9.",
@@ -83,9 +75,6 @@
  "PlusAufgabe 1c · Summen-Fallen: Wann der Σ-Knopf danebenliegt.": "<span class=\"badge plus\">Plus</span><span><strong>Задание 1c · Ловушки суммы:</strong> когда кнопка Σ ошибается.</span>",
  "Bereich markieren: Nach =SUMME( mit gedrückter Maustaste von B5 bis B9 ziehen. Lange Liste: erste Zahl anklicken, dann Strg + ⇧ + ↓.": "Выделить диапазон: после <code>=SUMME(</code> зажми кнопку мыши и протяни от B5 до B9. Длинный список: щёлкни первое число, потом <kbd>Strg</kbd> + <kbd>⇧</kbd> + <kbd>↓</kbd>.",
  "Der Σ-Knopf rät den Bereich. Rahmen prüfen, dann erst Enter.": "Кнопка Σ угадывает диапазон. <strong>Проверь рамку</strong>, только потом <kbd>Enter</kbd>.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren, auch eine lange Liste.": "Я умею читать и выделять диапазон, например <code>B5:B9</code>, даже длинный список.",
- "Ich prüfe den Vorschlag vom Σ-Knopf, bevor ich Enter drücke.": "Я проверяю предложение кнопки Σ, прежде чем нажать <kbd>Enter</kbd>.",
- "★ Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">★ Expedition</span> Я умею анализировать прямоугольные диапазоны, например <code>B2:F5</code>.",
  "Üben Mein Zeugnis-Schnitt": "<span class=\"badge ueben\">Üben</span> Мой средний балл в табеле",
  "In Bayern zählen die Schulaufgaben (SA) doppelt. Spalte J zeigt den normalen Durchschnitt. Was steht im Zeugnis?": "В Баварии Schulaufgaben (SA, большие контрольные) считаются <strong>дважды</strong>. Столбец J показывает обычное среднее. Что будет в табеле?",
  "=(2*SUMME(B2:D2)+SUMME(E2:I2))/113 SA doppelt = 6, dazu 5 andere Noten = 11": "<code>=(2*SUMME(B2:D2)+SUMME(E2:I2))/11</code><br/>3 SA дважды = 6, плюс 5 других оценок = 11",
@@ -133,5 +122,5 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>среднее</strong> – всё сложить и разделить на количество. В Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>значение</strong> – то, что стоит в ячейке, чаще всего число",
  "Zellen mit der Maus auswählen": "<strong>выделить</strong> – выбрать ячейки мышкой",
- "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Пять чисел ты ещё сложишь через <code>+</code>. Но с 30 оценками или 365 днями это утомительно. Функции <code>SUMME</code> (СУММ), <code>MITTELWERT</code> (СРЗНАЧ), <code>MIN</code> и <code>MAX</code> вычисляют весь диапазон сразу. С <code>MITTELWERT</code> ты, например, посчитаешь свой средний балл."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Пять чисел можно сложить через <code>+</code>. Но 30 оценок? Или 365 дней? Это слишком долго. Функция <code>SUMME</code> (СУММ) считает много ячеек сразу. С <code>MITTELWERT</code> (СРЗНАЧ) ты, например, посчитаешь свой средний балл."
 }

@@ -3,9 +3,6 @@
  "Bedingte Formatierung 2 – Ampel, Text und Grenzen": "Bedingte Formatierung 2 – sygnalizacja świetlna, tekst i progi",
  "Klasse 9 · Baustein 7": "Klasa 9 · Jednostka 7",
  "Vorwissen: Bedingte Formatierung 1, WENN 3": "Potrzebujesz: formatowanie warunkowe 1, WENN 3",
- "Ich kann mehrere Bedingungen in der richtigen Reihenfolge anlegen.": "Umiem utworzyć kilka warunków we właściwej kolejności.",
- "Ich kann Text färben lassen, z. B. alles mit „fehlt“.": "Umiem kolorować tekst, np. wszystko z „fehlt” (brakuje).",
- "Ich kann eine Grenze aus einer Zelle mit $ benutzen.": "Umiem użyć progu z komórki za pomocą <code>$</code>.",
  "Überleg: Welche Farbe bekommt der Akku mit 15 %?": "<strong>Pomyśl:</strong> Jaki kolor dostaje bateria z <strong>15 %</strong>?",
  "gelb": "żółty",
  "rot": "czerwony",
@@ -31,11 +28,6 @@
  "★ Expedition: Ganze Zeile färben freiwillig": "<span class=\"step-no\">★</span> Wyprawa: Pokoloruj cały wiersz <span class=\"badge expedition\">nieobowiązkowo</span>",
  "OK": "OK",
  "Wer nicht bezahlt hat, soll mit der ganzen Zeile rot leuchten. Klick erst auf OK – was ist falsch? Dann verbessere die Formel.": "Każdy, kto nie zapłacił, ma świecić na czerwono <strong>całym wierszem</strong>. Najpierw kliknij OK – co jest źle? Potem popraw formułę.",
- "Ich baue eine Ampel mit drei Bedingungen.": "Buduję sygnalizację z trzema warunkami.",
- "Ich weiß: Die erste passende Bedingung gewinnt.": "Wiem: wygrywa pierwszy pasujący warunek.",
- "Ich färbe Text, z. B. \"fehlt\".": "Koloruję tekst, np. <code>\"fehlt\"</code>.",
- "Plus Ich nehme die Grenze aus einer Zelle mit $.": "<span class=\"badge plus\">Plus</span> Biorę próg z komórki za pomocą <code>$</code>.",
- "Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span> Koloruję całe wiersze przez „Formel ist”.",
  "← 6 · Bedingte Formatierung 1": "← 6 · Bedingte Formatierung 1",
  "8 · Fit für die Probe →": "8 · Gotowi na sprawdzian →",
  "✔ Jetzt steht „kleiner als 20 %“ zuerst – und Lea ist rot. Die strengste Bedingung gehört nach oben.": "✔ Teraz „kleiner als 20 %” jest pierwsze – i Lea jest czerwona. Najostrzejszy warunek należy na górę.",
@@ -76,7 +68,6 @@
  "🏆 Expedition geschafft! Das $ vor B hält die Spalte fest: Name, bezahlt? und Betrag schauen alle auf Spalte B. Die 2 ohne $ wandert mit – jede Zeile prüft sich selbst.": "🏆 Wyprawa ukończona! <code>$</code> przed B trzyma kolumnę w miejscu: imię, bezahlt? i kwota – wszystkie patrzą na kolumnę B. 2 bez $ się przesuwa – każdy wiersz sprawdza sam siebie.",
  "Fast. Prüfe die Zeilennummer: Die Formel gilt für die erste Zeile des Bereichs, also Zeile 2.": "Prawie. Sprawdź numer wiersza: formuła jest dla pierwszego wiersza zakresu, czyli wiersza 2.",
  "Nur Spalte A ist richtig gefärbt? Für Spalte B schaut Calc auf C, für Spalte C auf D – der Bezug wandert mit! Setz ein $ vor das B: $B2=\"nein\"": "Tylko kolumna A jest dobrze pokolorowana? Dla kolumny B Calc patrzy na C, dla kolumny C na D – odwołanie się przesuwa! Wstaw <code>$</code> przed B: <code>$B2=\"nein\"</code>",
- "★ Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">★ Expedition</span> Koloruję całe wiersze za pomocą „Formel ist“ (formuła).",
  "Üben Wer hat sich doppelt angemeldet?": "<span class=\"badge ueben\">Üben</span> Kto zapisał się dwa razy?",
  "18 Anmeldungen zum Skikurs, aber manche Namen stehen mehrmals da. Calc hat dafür eine eigene Bedingung: Format → Bedingt → Bedingung … → Zellwert ist · doppelt.": "18 zgłoszeń na kurs narciarski, ale niektóre nazwiska powtarzają się kilka razy. Calc ma na to osobny warunek: <strong>Format → Bedingt → Bedingung … → Zellwert ist · doppelt</strong> (wartość komórki · duplikat).",
  "Calc färbt jeden Namen, der mehr als einmal vorkommt, auch den ersten. Löschst du die Zeilen mit den doppelten Namen, verschwindet das Rot von selbst.": "Calc koloruje <em>każde</em> nazwisko, które występuje więcej niż raz, także pierwsze. Jeśli usuniesz wiersze z duplikatami, czerwień zniknie sama.",
@@ -105,5 +96,5 @@
  "drei Farben: rot, gelb, grün": "<strong>sygnalizacja świetlna</strong> – trzy kolory: czerwony, żółty, zielony",
  "etwas neu machen, z. B. eine Bedingung": "<strong>utworzyć</strong> – zrobić coś nowego, np. warunek",
  "ansehen, ändern und löschen": "<strong>zarządzać</strong> – oglądać, zmieniać i usuwać",
- "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Teraz Calc koloruje według kilku reguł – zielony, żółty i czerwony jak sygnalizacja świetlna. Dowiesz się, dlaczego ważna jest kolejność reguł, jak kolorować tekst i jak brać próg z komórki."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Teraz Calc koloruje według kilku reguł: zielony, żółty i czerwony jak sygnalizacja świetlna. Dowiesz się, dlaczego kolejność reguł jest ważna. Kolorujesz też tekst i bierzesz próg z komórki."
 }

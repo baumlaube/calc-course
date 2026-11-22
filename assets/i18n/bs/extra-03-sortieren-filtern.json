@@ -1,9 +1,6 @@
 {
  "Sortieren & Filtern · Calc-Kurs Zusatzmodul": "Sortieren & Filtern · Calc kurs dodatni modul",
  "Sortieren & Filtern – große Tabellen bändigen": "Sortieren & Filtern (sortiranje i filtriranje) – ukroti velike tabele",
- "Ich kann eine Tabelle auf- oder absteigend sortieren.": "Mogu sortirati tabelu uzlazno ili silazno.",
- "Ich kann mit dem AutoFilter nur bestimmte Zeilen anzeigen.": "Mogu sa AutoFilterom prikazati samo određene redove.",
- "Ich weiß, warum man nie nur eine Spalte sortiert.": "Znam zašto se nikad ne sortira samo jedna kolona.",
  "💡 Tom will die Besten oben haben. Er markiert nur die Spalte C und sortiert sie absteigend.": "💡 Tom želi najbolje imati gore. Označi <strong>samo kolonu C</strong> i sortira je silazno.",
  "Überleg: Was passiert?": "<strong>Razmisli:</strong> Šta se desi?",
  "Alles richtig – die Besten stehen oben.": "Sve tačno – najbolji stoje gore.",
@@ -61,5 +58,6 @@
  "Im Dialog Daten → Sortieren … gibt es Sortierschlüssel 1, 2, 3 …": "U dijalogu Daten → Sortieren … postoje Sortierschlüssel 1, 2, 3 …",
  "alphabetisch": "abecedno",
  "größte oben": "najveće gore",
- "kleinste oben": "najmanje gore"
+ "kleinste oben": "najmanje gore",
+ "Eine Tabelle hat hundert Zeilen. Du suchst nicht jede Zeile ab. Du sortierst die Tabelle, zum Beispiel nach Punkten. Oder du filterst: Dann siehst du nur die Zeilen, die du brauchst. Das kennst du aus Online-Shops: sortieren nach Preis, filtern nach Größe.": "Tabela ima sto redova. Ne pregledaš svaki red. Sortiraš tabelu, na primjer po bodovima. Ili filtriraš: tada vidiš samo redove koji ti trebaju. To znaš iz online prodavnica: sortiraj po cijeni, filtriraj po veličini."
 }

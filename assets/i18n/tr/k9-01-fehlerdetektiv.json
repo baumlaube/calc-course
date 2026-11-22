@@ -2,9 +2,6 @@
  "Fehlerdetektiv · Calc-Kurs Klasse 9": "Hata dedektifi · Calc kursu 9. sınıf",
  "Fehlerdetektiv – Fehler finden und reparieren": "Hata dedektifi – hataları bul ve düzelt",
  "Klasse 9 · Baustein 1": "9. sınıf · Ünite 1",
- "Ich kann Fehlermeldungen wie #WERT!, #DIV/0! und #NAME? deuten und beheben.": "<code>#WERT!</code> (#DEĞER!), <code>#DIV/0!</code> ve <code>#NAME?</code> gibi hata mesajlarını anlayıp düzeltebilirim.",
- "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "Calc'ın göstermediği sessiz hataları bulabilirim.",
- "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "Formülleri 8. sınıftan bildiğim her şeyle onarabilirim.",
  "💡 Du kennst das schon: =C5/B5 teilt die Punkte durch die Teilnehmer. In D5 klappt das. Aber D6 zeigt plötzlich #DIV/0!.": "💡 <strong>Bunu zaten biliyorsun:</strong> <code>=C5/B5</code> puanları katılımcı sayısına böler. D5'te çalışıyor. Ama D6 birden <code>#DIV/0!</code> gösteriyor.",
  "Überleg: Warum?": "<strong>Düşün:</strong> Neden?",
  "Die Punktzahl ist zu hoch.": "Puan çok yüksek.",
@@ -47,11 +44,6 @@
  "In Englisch gibt es noch keine Noten, darum zeigt der Durchschnitt #DIV/0!. Das sieht im Zeugnis nicht gut aus.": "İngilizcede henüz not yok, bu yüzden ortalama <code>#DIV/0!</code> gösteriyor. Bu bir karnede iyi görünmez.",
  "=WENNFEHLER(Formel; \"Ersatz\")Klappt die Formel, kommt ihr Ergebnis. Sonst kommt der Ersatz.": "<code>=WENNFEHLER(Formel; \"Ersatz\")</code><br/>Formül çalışırsa sonucunu alırsın. Çalışmazsa yerine geçen değeri alırsın.",
  "Ändere E3 so, dass statt des Fehlers keine Noten erscheint. Text steht in Anführungszeichen.": "E3'ü öyle değiştir ki hata yerine <code>keine Noten</code> (not yok) görünsün. Metin tırnak içine yazılır.",
- "Ich weiß, was #WERT!, #DIV/0! und #NAME? bedeuten.": "<code>#WERT!</code>, <code>#DIV/0!</code> ve <code>#NAME?</code> ne demek biliyorum.",
- "Ich kann laute Fehler reparieren.": "Gürültülü hataları onarabilirim.",
- "Ich finde stille Fehler mit den Detektiv-Tricks.": "Sessiz hataları dedektif hileleriyle bulurum.",
- "Plus Ich kann Fehler absichtlich erzeugen und erklären.": "<span class=\"badge plus\">Plus</span> Hataları bilerek yapıp açıklayabilirim.",
- "Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">Expedition</span> Hataları WENNFEHLER (EĞERHATA) ile yakalayabilirim.",
  "← Klasse 8 · Projekt": "← 8. sınıf · Proje",
  "2 · Prozentrechnung →": "2 · Yüzde hesabı →",
  "Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.": "D6'ya tıklayınca görülüyor: formül B6'yı kullanıyor ve B6 boş. Boş hücre 0 sayılır ve 0'a bölünemez.",
@@ -92,7 +84,6 @@
  "Aus still wird laut: Wandert ein Bezug ohne $ auf eine leere Zelle oder auf Text, zeigt Calc weiter unten #DIV/0! oder #WERT!. Der Fehler steckt dann oben in der ersten Formel.": "<strong>Sessizden gürültülüye:</strong> <code>$</code> olmayan bir başvuru boş bir hücreye ya da metne kayarsa, Calc aşağıda <code>#DIV/0!</code> veya <code>#WERT!</code> gösterir. Hata o zaman yukarıda, ilk formüldedir.",
  "Stille Fehler zeigt Calc nicht an: getippte Zahlen, fehlendes $, Bereich zu kurz oder zu groß.": "<strong>Sessiz hataları</strong> Calc göstermez: elle yazılmış sayılar, eksik <code>$</code>, çok kısa ya da çok büyük aralık.",
  "MAX, MIN und MITTELWERT brauchen einen Bereich mit Doppelpunkt: =MAX(G5:G10).": "<code>MAX</code>, <code>MIN</code> ve <code>MITTELWERT</code> iki noktalı bir aralık ister: <code>=MAX(G5:G10)</code>.",
- "★ Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">★ Expedition</span> Hataları WENNFEHLER (EĞERHATA) ile yakalayabilirim.",
  "Üben Aufwärmen: Waffelverkauf": "<span class=\"badge ueben\">Üben</span> Isınma: waffle satışı",
  "Stückzahl und Umsatz für sechs Waffelsorten, dazu MAX, MIN und MITTELWERT. Die Kontrolle merkt, wenn der Preis mit in der Summe steckt.": "Altı çeşit waffle için adet ve ciro, ayrıca MAX, MIN ve MITTELWERT. Kontrol, fiyat toplama karışmışsa fark eder.",
  "ODS Üben: Waffelverkaufk9-01-fehlerdetektiv-mehr-waffelverkauf.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Waffle satışı</strong><small>k9-01-fehlerdetektiv-mehr-waffelverkauf.ods</small></span>",
@@ -135,5 +126,5 @@
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>dar</strong> – geniş değil. <code>###</code> şu demek: Sütun çok dar.",
  "verstehen, was etwas bedeutet": "<strong>yorumlamak</strong> – bir şeyin ne anlama geldiğini anlamak",
  "einen Fehler wieder richtig machen": "<strong>gidermek, düzeltmek</strong> – bir hatayı yeniden doğru yapmak",
- "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "Tablolarda hatalar olur, profesyonellerde bile. Bazılarını Calc yüksek sesle gösterir, örneğin <code>#DIV/0!</code>. Bazıları sessizdir: sayı doğru görünür ama yine de yanlıştır. Burada ikisini de bulmayı ve düzeltmeyi öğrenirsin. Bu arada 8. sınıftaki her şeyi tekrar edersin."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "Tablolarda hatalar olur. Bazı hataları Calc gösterir, örneğin <code>#DIV/0!</code>. Diğer hataları Calc göstermez: sayı doğru görünür ama yanlıştır. Burada iki türü de bulmayı ve düzeltmeyi öğrenirsin. Bu arada 8. sınıfı tekrar edersin."
 }

@@ -2,9 +2,6 @@
  "Zufall & Spiele · Calc-Kurs Zusatzmodul": "Los i gry · Kurs Calc moduł dodatkowy",
  "Zufall & Spiele – würfeln, werfen, drehen": "Los i gry – kostka, moneta, koło",
  "Vorwissen: WENN, ZÄHLENWENN hilft": "Potrzebujesz: WENN, ZÄHLENWENN pomaga",
- "Ich würfle mit ZUFALLSBEREICH und würfle mit F9 neu.": "Rzucam kostką za pomocą <code>ZUFALLSBEREICH</code> (LOS.ZAKR) i rzucam jeszcze raz przez <kbd>F9</kbd>.",
- "Ich werfe eine Münze mit ZUFALLSZAHL und WENN.": "Rzucam monetą za pomocą <code>ZUFALLSZAHL</code> (LOS) i WENN.",
- "Ich probiere aus: Wie oft kommt die 6 wirklich?": "Sprawdzam: ile razy naprawdę wypada 6?",
  "💡 Du würfelst 60-mal. Im Schnitt kommt jede Zahl 10-mal.": "💡 Rzucasz kostką <strong>60 razy</strong>. Średnio każda liczba wypada 10 razy.",
  "Überleg: Wie oft kommt die 6 wirklich?": "<strong>Pomyśl:</strong> Ile razy naprawdę wypada 6?",
  "Genau 10-mal.": "Dokładnie 10 razy.",
@@ -55,5 +52,5 @@
  "Genau 100-mal": "Dokładnie 100 razy",
  "60-mal": "60 razy",
  "Eine Zahl": "Liczba",
- "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele und probierst aus, wie Zufall wirklich funktioniert: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc potrafi rzucać kostką, rzucać monetą i kręcić kołem fortuny. Budujesz z tym małe gry i sprawdzasz, jak naprawdę działa przypadek: czy 6 naprawdę wypada dziesięć razy na 60 rzutów?"
+ "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele. Und du probierst aus: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc potrafi rzucać kostką, rzucać monetą i kręcić kołem fortuny. Budujesz z tym małe gry. I sprawdzasz: czy 6 naprawdę wypada dziesięć razy na 60 rzutów?"
 }

@@ -2,9 +2,6 @@
  "Zufall & Spiele · Calc-Kurs Zusatzmodul": "May rủi &amp; trò chơi · Khóa học Calc mô-đun bổ sung",
  "Zufall & Spiele – würfeln, werfen, drehen": "May rủi &amp; trò chơi – tung xúc xắc, tung đồng xu, quay vòng",
  "Vorwissen: WENN, ZÄHLENWENN hilft": "Cần biết trước: WENN, ZÄHLENWENN sẽ có ích",
- "Ich würfle mit ZUFALLSBEREICH und würfle mit F9 neu.": "Mình tung xúc xắc bằng <code>ZUFALLSBEREICH</code> (SỐ NGẪU NHIÊN TRONG KHOẢNG) và tung lại bằng <kbd>F9</kbd>.",
- "Ich werfe eine Münze mit ZUFALLSZAHL und WENN.": "Mình tung đồng xu bằng <code>ZUFALLSZAHL</code> (SỐ NGẪU NHIÊN) và WENN.",
- "Ich probiere aus: Wie oft kommt die 6 wirklich?": "Mình thử xem: số 6 thật sự ra bao nhiêu lần?",
  "💡 Du würfelst 60-mal. Im Schnitt kommt jede Zahl 10-mal.": "💡 Bạn tung xúc xắc <strong>60 lần</strong>. Trung bình mỗi số ra 10 lần.",
  "Überleg: Wie oft kommt die 6 wirklich?": "<strong>Suy nghĩ:</strong> Số 6 thật sự ra bao nhiêu lần?",
  "Genau 10-mal.": "Đúng 10 lần.",
@@ -55,5 +52,5 @@
  "Genau 100-mal": "Đúng 100 lần",
  "60-mal": "60 lần",
  "Eine Zahl": "Một con số",
- "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele und probierst aus, wie Zufall wirklich funktioniert: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc biết tung xúc xắc, tung đồng xu và quay vòng quay may mắn. Với điều này, bạn làm những trò chơi nhỏ và thử xem sự ngẫu nhiên thật sự hoạt động thế nào: trong 60 lần tung, số 6 có thật sự ra mười lần không?"
+ "Calc kann würfeln, eine Münze werfen und ein Glücksrad drehen. Damit baust du kleine Spiele. Und du probierst aus: Kommt die 6 bei 60 Würfen wirklich zehnmal?": "Calc biết tung xúc xắc, tung đồng xu và quay vòng quay may mắn. Với điều này bạn làm những trò chơi nhỏ. Và bạn thử xem: trong 60 lần tung, số 6 có thật sự ra mười lần không?"
 }

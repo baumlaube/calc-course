@@ -3,9 +3,6 @@
  "Prozentrechnung – Rabatt, Anteile, Mehrwertsteuer": "Tính phần trăm – giảm giá, tỉ lệ, thuế giá trị gia tăng",
  "Klasse 9 · Baustein 2": "Lớp 9 · Bài 2",
  "Vorwissen: Prozente aus Mathe, $-Anker": "Cần biết trước: phần trăm trong môn toán, neo $",
- "Ich kann Prozente in Calc richtig eingeben und als % formatieren.": "Mình nhập đúng phần trăm trong Calc và định dạng được thành %.",
- "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "Mình tính được giảm giá, tỉ lệ và thuế giá trị gia tăng bằng công thức.",
- "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "Mình dùng được một tỉ lệ phần trăm cho nhiều hàng nhờ neo <code>$</code>.",
  "ein Teil von 100. 20 % sind 20 von 100.": "<strong>phần trăm</strong> – một phần của 100. 20 % là 20 trên 100.",
  "die Zahl mit dem %-Zeichen, z. B. 20 %": "<strong>tỉ lệ phần trăm</strong> – con số có dấu %, ví dụ 20 %",
  "der Preis wird kleiner, z. B. 20 % weniger": "<strong>giảm giá</strong> – giá trở nên nhỏ hơn, ví dụ ít hơn 20 %",
@@ -34,11 +31,6 @@
  "Neuer Preis nach Rabatt: =B5-C5 oder =B5*(1-$B$2)": "Giá mới sau khi giảm: <code>=B5-C5</code> hoặc <code>=B5*(1-$B$2)</code>",
  "Mit Mehrwertsteuer: =Netto*(1+Steuersatz)": "Có thuế giá trị gia tăng: <code>=Netto*(1+Steuersatz)</code> (giá chưa thuế · (1 + thuế suất))",
  "Anteil: =Teil/Ganzes, dann %-Knopf. Erst rechnen, dann formatieren!": "Tỉ lệ: <code>=Teil/Ganzes</code> (phần/tổng thể), rồi bấm nút %. Tính trước, định dạng sau!",
- "Ich tippe Prozente richtig ein und formatiere Zahlen als %.": "Mình gõ đúng phần trăm và định dạng số thành %.",
- "Ich berechne Rabatt und neuen Preis mit Formeln.": "Mình tính tiền giảm và giá mới bằng công thức.",
- "Ich berechne Anteile mit =Teil/Ganzes.": "Mình tính tỉ lệ bằng <code>=Teil/Ganzes</code>.",
- "Plus Ich berechne Brutto-Preise mit der Mehrwertsteuer.": "<span class=\"badge plus\">Plus</span> Mình tính được giá brutto có thuế giá trị gia tăng.",
- "★ Expedition Ich weiß, warum 20 % + 10 % Rabatt keine 30 % sind.": "<span class=\"badge expedition\">★ Expedition</span> Mình biết tại sao giảm 20 % + 10 % không phải là 30 %.",
  "★ Expedition Rabatt auf Rabatt": "<span class=\"badge expedition\">★ Expedition</span> Giảm giá chồng giảm giá",
  "Die Jacke kostet 80 €. Im Sale gibt es 20 %, an der Kasse nochmal 10 % extra. Die Werbung sagt: „30 % sparen!“": "Chiếc áo khoác giá 80 €. Khi khuyến mãi được giảm 20 %, ở quầy thu ngân lại giảm thêm 10 %. Quảng cáo nói: „Tiết kiệm 30 %!“",
  "Berechne in B5 den Endpreis und in B6, wie viel Prozent du wirklich sparst.": "Tính trong <strong>B5</strong> giá cuối cùng và trong <strong>B6</strong> bạn thật sự tiết kiệm được bao nhiêu phần trăm.",
@@ -106,5 +98,5 @@
  "Bei #NAME? kennt Calc ein Wort in der Formel nicht.": "Với <code>#NAME?</code>, Calc không biết một từ trong công thức.",
  "Was kostet das Buch mit Versand? Schreib die Formel in C4 so, dass du sie nach unten ziehen kannst.": "Quyển sách kèm phí gửi giá bao nhiêu? Viết công thức vào C4 sao cho bạn có thể <strong>kéo xuống dưới</strong>.",
  "Extra an der Kasse": "Giảm thêm ở quầy thu ngân",
- "Prozentrechnen kennst du aus Mathe. Jetzt lernst du, wie Calc mit Prozenten umgeht und wie du einen Prozentsatz für eine ganze Liste festhältst. Rabatt im Schlussverkauf und die 19 % Mehrwertsteuer auf dem Kassenbon rechnest du dann in Sekunden aus.": "Phần trăm thì bạn đã biết từ môn toán. Bây giờ bạn học Calc làm việc với phần trăm thế nào và cách giữ cố định một tỉ lệ phần trăm cho cả một danh sách. Khi đó bạn tính giảm giá mùa khuyến mãi và 19 % thuế giá trị gia tăng trên hóa đơn chỉ trong vài giây."
+ "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "Phần trăm thì bạn đã biết từ môn toán. Bây giờ bạn tính phần trăm bằng Calc. Như vậy bạn tính nhanh được một chiếc quần giảm giá 30 % còn bao nhiêu. Hoặc trên hóa đơn có bao nhiêu thuế giá trị gia tăng."
 }

@@ -2,9 +2,6 @@
  "Brutto und Netto · Calc-Kurs Zusatzmodul": "Брутто і нетто · Курс Calc, додатковий модуль",
  "Brutto und Netto – was bleibt vom Ausbildungsgehalt?": "Brutto und Netto (брутто і нетто) – що залишається від зарплати під час Ausbildung?",
  "Vorwissen: Prozentrechnung, $-Anker": "Попередні знання: відсотки, якір $",
- "Ich kann erklären, was Brutto und Netto bedeutet.": "Я вмію пояснити, що означають Brutto (брутто) і Netto (нетто).",
- "Ich kann die Abzüge mit Prozentsätzen und $ berechnen.": "Я рахую відрахування з відсотками і знаком <code>$</code>.",
- "Ich kann ausrechnen, wie viel am Monatsende übrig bleibt.": "Я визначаю, скільки залишається наприкінці місяця.",
  "💡 Im Ausbildungsvertrag steht: 1.050 € im Monat.": "💡 У договорі про навчання написано: <strong>1050 € на місяць</strong>.",
  "Überleg: Wie viel kommt ungefähr aufs Konto?": "<strong>Подумай:</strong> приблизно скільки надходить на банківський рахунок?",
  "etwa 830 €": "приблизно 830 €",
@@ -46,5 +43,5 @@
  "Gesamtsatz in B2 = 21 %. Welche Formel ergibt direkt das Netto von B6?": "Загальна ставка в B2 = 21 %. Яка формула одразу дає нетто з B6?",
  "100 % − 21 % = 79 % bleiben – wie beim Rabatt.": "100 % − 21 % = залишається 79 % – як знижка.",
  "Brutto 1.000 €, Abzüge 21 %. Wie viel Netto?": "Брутто 1000 €, відрахування 21 %. Скільки нетто?",
- "Im Ausbildungsvertrag steht ein Gehalt, auf dem Konto kommt weniger an. Du lernst, was Brutto und Netto bedeutet und welche Abzüge es gibt. Dann rechnest du aus, was dir am Monatsende wirklich bleibt.": "У договорі про навчання вказана одна зарплата, а на рахунок надходить менше. Ти дізнаєшся, що означають Brutto і Netto (до і після утримань) та які є утримання. Потім обчислюєш, що насправді залишається тобі наприкінці місяця."
+ "Im Ausbildungsvertrag steht ein Lohn. Auf dem Konto kommt aber weniger an. Du lernst, was Brutto und Netto heißt und was abgezogen wird. Dann rechnest du aus, wie viel Geld dir wirklich bleibt.": "У договорі про навчання вказана зарплата. Але на рахунок надходить менше. Ти дізнаєшся, що означають Brutto і Netto (до і після утримань) і що утримують. Потім обчислюєш, скільки грошей справді залишається."
 }

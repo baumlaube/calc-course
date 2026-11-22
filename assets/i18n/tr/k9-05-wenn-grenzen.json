@@ -3,9 +3,6 @@
  "WENN 3 – Grenzen in eigenen Zellen": "WENN 3 (EĞER 3) – sınırlar kendi hücrelerinde",
  "Klasse 9 · Baustein 5": "9. sınıf · Ünite 5",
  "Teil 3 von 3 zu WENN": "WENN (EĞER) hakkında 3 bölümden 3. bölüm",
- "Ich kann Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "Sınırları kendi hücrelerine yazıp <code>$</code> ile sabitleyebilirim.",
- "Ich kann WENN-Formeln mit Text, Zahlen und Rechnungen sicher schreiben.": "Metin, sayı ve hesaplı WENN formüllerini güvenle yazabilirim.",
- "Ich kann eine Probe-Aufgabe zu WENN allein lösen.": "WENN ile ilgili bir sınav görevini tek başıma çözebilirim.",
  "💡 Beim Erste-Hilfe-Quiz hat bestanden, wer mindestens 15 Punkte hat. In Spalte C steht überall so eine Formel: =WENN(B5>=15;\"bestanden\";\"durchgefallen\")": "💡 İlk yardım quizinde en az 15 puan alan geçti. C sütununda her yerde şöyle bir formül var: <code class=\"long\">=WENN(B5&gt;=15;\"bestanden\";\"durchgefallen\")</code>",
  "Überleg: Neue Regel – bestanden erst ab 16 Punkten. Wie viele Zellen musst du ändern?": "<strong>Düşün:</strong> Yeni kural – sadece <strong>16</strong> puandan itibaren geçer. Kaç hücreyi değiştirmen gerekir?",
  "nur eine": "sadece birini",
@@ -37,11 +34,6 @@
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> Keşif: UND (VE) <span class=\"badge expedition\">isteğe bağlı</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> sadece <strong>ikisi de</strong> doğruysa doğrudur.<br/><code>ODER(…; …)</code> (VEYA) ile biri yeterlidir.",
  "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "Hava <strong>en az 25 °C</strong> <strong>ve</strong> yağmursuz ise açık havuz günü. D5'e UND'lu bir WENN formülü yaz ve aşağı doldur.",
- "Ich schreibe Grenzen in eine eigene Zelle und nehme sie mit $.": "Sınırları kendi hücrelerine yazar ve <code>$</code> ile kullanırım.",
- "Ich wähle das richtige Vergleichszeichen, z. B. >= für „ab“.": "Doğru karşılaştırma işaretini seçerim, örneğin “-den itibaren” için <code>&gt;=</code>.",
- "Ich setze Text in Anführungszeichen und Zahlen ohne.": "Metni tırnak içine, sayıları tırnaksız yazarım.",
- "Plus Ich löse Probe-Aufgaben zu WENN ohne Vorlage.": "<span class=\"badge plus\">Plus</span> WENN ile ilgili sınav görevlerini örneksiz çözerim.",
- "Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">Expedition</span> WENN'i UND ile birleştirebilirim.",
  "← 4 · WENN 2": "← 4 · WENN 2 (EĞER 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (koşullu biçimlendirme) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -89,7 +81,6 @@
  "eine Fehlermeldung": "bir hata mesajı",
  "viel": "viel (çok)",
  "wenig": "wenig (az)",
- "★ Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">★ Expedition</span> WENN'i UND (VE) ile birleştirebilirim.",
  "Üben Wochenlohn mit Überstunden": "<span class=\"badge ueben\">Üben</span> Fazla mesaili haftalık ücret",
  "Bis 38,5 Stunden gibt es den normalen Stundenlohn. Jede Stunde mehr ist eine Überstunde mit 30 % Zuschlag. Tarif und Zuschlag stehen in blauen Zellen.": "38,5 saate kadar normal saat ücreti ödenir. Fazla her saat, %30 zamlı fazla mesaidir. Saat sınırı ve zam mavi hücrelerde.",
  "=WENN(B6>=$B$2;$B$2*C6;B6*C6) – hier wird in Dann und Sonst gerechnet.": "<code class=\"long\">=WENN(B6&gt;=$B$2;$B$2*C6;B6*C6)</code> – burada <strong>Dann</strong> (ise) ve <strong>Sonst</strong> (değilse) içinde hesap yapılır.",
@@ -119,5 +110,5 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Henüz en alta gelmedin. Hâlâ boş: {}. C5'ten C8'e kadar sürükle.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Pazartesi doğru! Şimdi <strong>Ausfüllkästchen</strong>'i (doldurma tutamacı) aşağı D7'ye kadar sürükle.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Henüz en alta gelmedin. D5'ten D7'ye kadar sürükle.",
- "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Kurallar değişir: yarın belki 15 yerine 16 puan geçerli olur. Sınır kendi hücresindeyse onu tek bir yerde değiştirirsin ve bütün formüller yeniden hesaplanır. Sonunda <code>WENN</code> görevlerini sınavdaki gibi tek başına çözersin."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Kurallar değişir. Bugün 15 puan gerekir, yarın belki 16. Bu yüzden sınırı ayrı bir hücreye yaz. O zaman sadece bu tek hücreyi değiştirirsin ve bütün formüller yeniden hesaplanır. Sonunda <code>WENN</code> görevlerini sınavdaki gibi tek başına çözersin."
 }

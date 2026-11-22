@@ -2,9 +2,6 @@
  "ZÄHLENWENN · Calc-Kurs Zusatzmodul": "ZÄHLENWENN (CONTAR.SI) · Curso de Calc módulo extra",
  "ZÄHLENWENN – zählen, was passt": "ZÄHLENWENN (CONTAR.SI) – contar lo que encaja",
  "Vorwissen: WENN, $-Anker": "Conocimientos previos: WENN, ancla $",
- "Ich kann mit ZÄHLENWENN zählen, wie oft etwas vorkommt.": "Cuento con <code>ZÄHLENWENN</code> cuántas veces aparece algo.",
- "Ich kann Kriterien wie \"Sport\", \">=4\" oder eine Zelle benutzen.": "Uso criterios como <code>\"Sport\"</code>, <code>\"&gt;=4\"</code> o una celda.",
- "Ich kann mit SUMMEWENN nur passende Beträge addieren.": "Sumo solo los importes que encajan con <code>SUMMEWENN</code> (SUMAR.SI).",
  "💡 Acht Schüler haben ihr Lieblingsfach genannt. In D2 kommt: =ZÄHLENWENN(B2:B9;\"Sport\")": "💡 Ocho alumnos han dicho su asignatura favorita. D2 recibe: <code class=\"long\">=ZÄHLENWENN(B2:B9;\"Sport\")</code>",
  "Überleg: Was zeigt D2?": "<strong>Piensa:</strong> ¿qué muestra D2?",
  "2 So zählt Calc 7 Min": "<span class=\"step-no\">2</span> Así cuenta Calc <span class=\"chip\">7 min</span>",
@@ -57,5 +54,5 @@
  "Gesucht wird in B, addiert wird aus C.": "Busca en B y suma de C.",
  "Anführungszeichen um D5": "Comillas alrededor de D5",
  "Ein $ bei D5": "Un $ en D5",
- "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "¿Cuántos en la clase prefieren el deporte? ¿Cuántas notas son mejores que 3? <code>ZÄHLENWENN</code> (CONTAR.SI) cuenta solo las celdas que cumplen tu condición. <code>SUMMEWENN</code> (SUMAR.SI) suma solo los importes que encajan, por ejemplo todos los gastos en comida."
+ "Wie viele in der Klasse mögen Sport am liebsten? ZÄHLENWENN zählt nur die Zellen, die passen. SUMMEWENN zählt nur passende Beträge zusammen, zum Beispiel alles, was du für Essen ausgegeben hast.": "¿Cuántos en la clase prefieren el deporte? <code>ZÄHLENWENN</code> (CONTAR.SI) cuenta solo las celdas que encajan. <code>SUMMEWENN</code> (SUMAR.SI) suma solo los importes que encajan, por ejemplo todo lo que has gastado en comida."
 }

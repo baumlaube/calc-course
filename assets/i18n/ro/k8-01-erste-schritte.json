@@ -3,9 +3,6 @@
  "Erste Schritte – Zellen, Eingeben, Formatieren": "Primii pași – celule, scriere, formatare",
  "Klasse 8 · Baustein 1": "Clasa a 8-a · Unitatea 1",
  "Vorwissen: keins": "Cunoștințe anterioare: niciuna",
- "Ich kann jede Zelle mit ihrer Adresse finden und benennen.": "Pot găsi orice celulă după adresa ei și o pot numi.",
- "Ich kann Text und Zahlen richtig eingeben.": "Pot scrie corect text și numere.",
- "Ich kann eine Tabelle übersichtlich formatieren.": "Pot formata un tabel astfel încât să se citească ușor.",
  "1 Zellen-Jagd 5 Min": "<span class=\"step-no\">1</span> Vânătoarea de celule <span class=\"chip\">5 min</span>",
  "Eine Tabelle ist wie das Spielfeld bei „Schiffe versenken“: Jedes Kästchen hat eine Adresse. Findest du sie?": "O foaie de calcul e ca tabla din jocul „Vapoare”: fiecare căsuță are o adresă. O poți găsi?",
  "Klick auf:": "Dă clic pe:",
@@ -51,11 +48,6 @@
  "Du springst ans Ende einer Zeile.": "Sari la sfârșitul unui rând.",
  "Strg + Pos1": "<kbd>Strg</kbd> (Ctrl) + <kbd>Pos1</kbd> (Home)",
  "Du springst zurück nach A1.": "Sari înapoi la A1.",
- "Ich finde jede Zelle über ihre Adresse, z. B. C4.": "Pot găsi orice celulă după adresă, de exemplu <code>C4</code>.",
- "Ich kann Text und Zahlen eingeben und korrigieren.": "Pot scrie și corecta text și numere.",
- "Ich erkenne, ob Calc etwas als Zahl oder als Text gespeichert hat.": "Pot recunoaște dacă Calc a salvat ceva ca număr sau ca text.",
- "Ich kann Schrift, Farbe, Währung, Spaltenbreite und Rahmen einstellen.": "Pot seta fontul, culoarea, moneda, lățimea coloanei și bordurile.",
- "Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">Expedition</span> Sar prin tabele cu <strong>Namenfeld</strong> (caseta de nume) și <kbd>Strg</kbd>+săgeată.",
  "← Kursübersicht": "← Prezentarea cursului",
  "2 · Erste Formeln →": "2 · Primele formule →",
  "geschafft!": "gata!",
@@ -92,8 +84,6 @@
  "Bei Höhe und Tempo tippst du nur die Zahl. Die Einheit kommt in die Überschrift: Ändere C1 in Höhe in m und D1 in Tempo in km/h.": "La înălțime și viteză scrii <strong>doar numărul</strong>. Unitatea se scrie în titlu: schimbă C1 în <code>Höhe in m</code> și D1 în <code>Tempo in km/h</code>.",
  "PlusAufgabe 4b · Achterbahn-Notizen: Eine Angabe pro Zelle, die Einheit in die Überschrift.": "<span class=\"badge plus\">Plus</span><span><strong>Sarcina 4b · Notițe montagne russe:</strong> o informație pe celulă, unitatea în titlu.</span>",
  "Eine Angabe pro Zelle. Einheiten wie m oder Stück gehören in die Überschrift: Höhe in m.": "<strong>O singură informație într-o celulă.</strong> Unități ca m sau bucăți se scriu în titlu: <code>Höhe in m</code>.",
- "Ich schreibe Einheiten in die Überschrift, nicht in die Zelle.": "Scriu unitățile în titlu, nu în celulă.",
- "★ Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">★ Expedition</span> Sar prin tabele cu Namenfeld (caseta de nume) și <kbd>Strg</kbd>+săgeată.",
  "Üben Das Hunderter-Puzzle": "<span class=\"badge ueben\">Üben</span> Puzzle-ul cu sute",
  "Auf der Hunderter-Tafel fehlen fünf Teile. Klick ein blaues Teil an, dann die Lücke, in die es passt.": "Pe tabla cu numere până la 100 lipsesc cinci piese. Dă clic pe o piesă albastră, apoi pe golul în care se potrivește.",
  "In Calc schiebst du die Teile mit der Maus: Teil markieren, auf den Rand zeigen, bis das Pfeilkreuz ✥ kommt, dann ziehen. Probier es in Calc aus – mit der Datei hier drunter.": "În Calc muți piesele cu mouse-ul: selectezi piesa, arăți spre <strong>margine</strong> până apare crucea de mutare ✥, apoi tragi. Încearcă în Calc – cu fișierul de mai jos.",
@@ -136,5 +126,5 @@
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>a formata</strong> – a schimba aspectul, de ex. € sau culoare. Numărul rămâne același.",
  "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>zecimală</strong> – o cifră după virgulă. 1,49 are două.",
  "Leertaste": "Leertaste (tasta spațiu)",
- "Eine Tabellenkalkulation ist ein großes Blatt aus Kästchen. Hier lernst du, dich darin zurechtzufinden: Jede Zelle hat eine Adresse, und Text und Zahlen kommen sauber in eigene Zellen. Darauf baut alles Weitere auf. Solche Tabellen benutzt man in fast jedem Beruf, im Büro genauso wie in der Werkstatt.": "Un tabel de calcul este o foaie mare din căsuțe. Aici înveți să te descurci în ea: fiecare celulă are o adresă, iar textul și numerele stau ordonat în celulele lor. Pe asta se construiește tot restul. Astfel de tabele se folosesc în aproape orice meserie, la birou la fel ca în atelier."
+ "Eine Tabelle besteht aus vielen Kästchen. Jedes Kästchen heißt Zelle und hat eine Adresse, zum Beispiel C4. Hier lernst du, Zellen zu finden und Text und Zahlen richtig einzutippen. Das brauchst du für alles, was danach kommt. Tabellen wie diese gibt es in fast jedem Beruf.": "Un tabel este format din multe căsuțe. Fiecare căsuță se numește Zelle (celulă) și are o adresă, de exemplu <code>C4</code>. Aici înveți să găsești celule și să scrii corect text și numere. Ai nevoie de asta pentru tot ce urmează. Astfel de tabele există în aproape orice meserie."
 }

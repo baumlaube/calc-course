@@ -3,9 +3,6 @@
  "Diagramme – Zahlen auf einen Blick": "Диаграммы – числа с одного взгляда",
  "Klasse 8 · Baustein 6": "8 класс · Модуль 6",
  "Vorwissen: Tabellen markieren": "Нужно знать: выделять таблицы",
- "Ich kann aus einer Tabelle ein Diagramm erstellen.": "Я умею создать диаграмму из таблицы.",
- "Ich kann das passende Diagramm wählen: Säule, Kreis oder Linie.": "Я умею выбрать подходящую диаграмму: <strong>Säule</strong> (гистограмма), <strong>Kreis</strong> (круговая) или <strong>Linie</strong> (график).",
- "Ich kann ein Diagramm beschriften und richtig lesen.": "Я умею подписать диаграмму и правильно её прочитать.",
  "Jonas hat die Temperaturen einer Woche in ein Diagramm verwandelt. Irgendwas stimmt da nicht …": "Йонас превратил температуры за неделю в диаграмму. Что-то тут не так …",
  "Überleg: Was ist das Problem?": "<strong>Подумай:</strong> в чём проблема?",
  "Die Legende ist zu lang.": "Легенда слишком длинная.",
@@ -41,10 +38,6 @@
  "★ Expedition: Lügen mit Diagrammen freiwillig": "<span class=\"step-no\">★</span> Экспедиция: обман с помощью диаграмм <span class=\"badge expedition\">по желанию</span>",
  "Abstimmung über die Klassenfahrt: Berlin 48 Stimmen, München 52 Stimmen. Verschieb den Regler. Wo fängt die y-Achse an?": "Голосование о классной поездке: Берлин 48 голосов, Мюнхен 52 голоса. Подвигай ползунок. Где начинается ось y?",
  "y-Achse beginnt bei:": "Ось y начинается с:",
- "Ich weiß, wann Säule, Kreis oder Linie passt.": "Я знаю, когда подходит гистограмма, круговая диаграмма или график.",
- "Ich gebe jedem Diagramm einen Titel und beschrifte die Achsen.": "Я даю каждой диаграмме заголовок и подписываю оси.",
- "Plus Ich kann Prozente im Kreisdiagramm anzeigen.": "<span class=\"badge plus\">Plus</span> Я умею показывать проценты в круговой диаграмме.",
- "Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">Expedition</span> Я узнаю обманные диаграммы по оси y.",
  "← 5 · Absolute Bezüge": "← 5 · Абсолютные ссылки",
  "7 · Projekt →": "7 · Проект →",
  "Wetterwoche – besser so": "Неделя погоды – лучше так",
@@ -81,7 +74,6 @@
  "Format → Diagramm": "Format → Diagramm",
  "Gar nichts": "Ничего",
  "Die Farben": "Цвета",
- "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> Я распознаю хитрые диаграммы по оси y.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> Дуэль тарифов на электричество",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "Электричество стоит дважды: <strong>базовая цена</strong> каждый месяц и цена за каждый <strong>кВт·ч</strong>.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Дуэль тарифов</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
@@ -120,5 +112,5 @@
  "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ Заполнить B6:D6 вниз (до D8)",
  "Erst nach rechts ausfüllen, bis D6!": "Сначала заполни вправо, до D6!",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Ещё не готово: {} ячеек пустые. Тяни выделенную область дальше, пока всё до D8 не заполнится.",
- "Eine lange Zahlenliste liest kaum jemand gern. Ein Diagramm zeigt auf einen Blick, was größer ist oder wie sich etwas entwickelt. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du jeden Tag, im Wetterbericht und in den Nachrichten.": "Длинный список чисел мало кто любит читать. Диаграмма сразу показывает, что больше или как что-то меняется. Ты узнаешь, когда подходит столбчатая, круговая или линейная диаграмма. Диаграммы ты видишь каждый день – в прогнозе погоды и в новостях."
+ "Viele Zahlen in einer Liste sind schwer zu lesen. Ein Diagramm zeigt sie als Bild. Dann siehst du sofort, was größer ist. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du oft, zum Beispiel im Wetterbericht.": "Много чисел в списке трудно читать. Диаграмма показывает их как картинку. Тогда сразу видно, что больше. Ты узнаешь, когда подходит столбчатая, круговая или линейная диаграмма. Диаграммы ты видишь часто, например в прогнозе погоды."
 }

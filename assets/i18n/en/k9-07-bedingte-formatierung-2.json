@@ -3,9 +3,6 @@
  "Bedingte Formatierung 2 – Ampel, Text und Grenzen": "Bedingte Formatierung 2 – traffic light, text and limits",
  "Klasse 9 · Baustein 7": "Grade 9 · Unit 7",
  "Vorwissen: Bedingte Formatierung 1, WENN 3": "You need: conditional formatting 1, WENN 3",
- "Ich kann mehrere Bedingungen in der richtigen Reihenfolge anlegen.": "I can create several conditions in the right order.",
- "Ich kann Text färben lassen, z. B. alles mit „fehlt“.": "I can colour text, e.g. everything with „fehlt“ (missing).",
- "Ich kann eine Grenze aus einer Zelle mit $ benutzen.": "I can use a limit from a cell with <code>$</code>.",
  "Überleg: Welche Farbe bekommt der Akku mit 15 %?": "<strong>Think:</strong> Which colour does the battery with <strong>15 %</strong> get?",
  "gelb": "yellow",
  "rot": "red",
@@ -31,11 +28,6 @@
  "★ Expedition: Ganze Zeile färben freiwillig": "<span class=\"step-no\">★</span> Expedition: Colour a whole row <span class=\"badge expedition\">optional</span>",
  "OK": "OK",
  "Wer nicht bezahlt hat, soll mit der ganzen Zeile rot leuchten. Klick erst auf OK – was ist falsch? Dann verbessere die Formel.": "Everyone who has not paid should glow red with the <strong>whole row</strong>. First click OK – what is wrong? Then improve the formula.",
- "Ich baue eine Ampel mit drei Bedingungen.": "I build a traffic light with three conditions.",
- "Ich weiß: Die erste passende Bedingung gewinnt.": "I know: the first condition that fits wins.",
- "Ich färbe Text, z. B. \"fehlt\".": "I colour text, e.g. <code>\"fehlt\"</code>.",
- "Plus Ich nehme die Grenze aus einer Zelle mit $.": "<span class=\"badge plus\">Plus</span> I take the limit from a cell with <code>$</code>.",
- "Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span> I colour whole rows with „Formel ist“.",
  "← 6 · Bedingte Formatierung 1": "← 6 · Bedingte Formatierung 1",
  "8 · Fit für die Probe →": "8 · Fit for the test →",
  "✔ Jetzt steht „kleiner als 20 %“ zuerst – und Lea ist rot. Die strengste Bedingung gehört nach oben.": "✔ Now „kleiner als 20 %“ comes first – and Lea is red. The strictest condition belongs at the top.",
@@ -76,7 +68,6 @@
  "🏆 Expedition geschafft! Das $ vor B hält die Spalte fest: Name, bezahlt? und Betrag schauen alle auf Spalte B. Die 2 ohne $ wandert mit – jede Zeile prüft sich selbst.": "🏆 Expedition done! The <code>$</code> before B keeps the column fixed: name, bezahlt? and amount all look at column B. The 2 without $ moves – every row checks itself.",
  "Fast. Prüfe die Zeilennummer: Die Formel gilt für die erste Zeile des Bereichs, also Zeile 2.": "Almost. Check the row number: the formula is for the first row of the range, so row 2.",
  "Nur Spalte A ist richtig gefärbt? Für Spalte B schaut Calc auf C, für Spalte C auf D – der Bezug wandert mit! Setz ein $ vor das B: $B2=\"nein\"": "Only column A is coloured correctly? For column B Calc looks at C, for column C at D – the reference moves! Put a <code>$</code> before the B: <code>$B2=\"nein\"</code>",
- "★ Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">★ Expedition</span> I colour whole rows with „Formel ist“ (formula is).",
  "Üben Wer hat sich doppelt angemeldet?": "<span class=\"badge ueben\">Üben</span> Who signed up twice?",
  "18 Anmeldungen zum Skikurs, aber manche Namen stehen mehrmals da. Calc hat dafür eine eigene Bedingung: Format → Bedingt → Bedingung … → Zellwert ist · doppelt.": "18 sign-ups for the ski course, but some names appear several times. Calc has its own condition for this: <strong>Format → Bedingt → Bedingung … → Zellwert ist · doppelt</strong> (cell value is · duplicate).",
  "Calc färbt jeden Namen, der mehr als einmal vorkommt, auch den ersten. Löschst du die Zeilen mit den doppelten Namen, verschwindet das Rot von selbst.": "Calc colours <em>every</em> name that appears more than once, the first one too. If you delete the rows with the duplicate names, the red disappears by itself.",
@@ -105,5 +96,5 @@
  "drei Farben: rot, gelb, grün": "<strong>traffic light</strong> – three colours: red, yellow, green",
  "etwas neu machen, z. B. eine Bedingung": "<strong>to create</strong> – to make something new, e.g. a condition",
  "ansehen, ändern und löschen": "<strong>to manage</strong> – to look at, change and delete",
- "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Now Calc colours by several rules – green, yellow and red like a traffic light. You learn why the order of the rules matters, how to colour text and how a limit can come from a cell."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Now Calc colours with several rules: green, yellow and red like a traffic light. You learn why the order of the rules matters. You also colour text and take a limit from a cell."
 }

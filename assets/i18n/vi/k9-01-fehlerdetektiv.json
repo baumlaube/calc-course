@@ -3,9 +3,6 @@
  "Fehlerdetektiv – Fehler finden und reparieren": "Thám tử tìm lỗi – tìm lỗi và sửa lỗi",
  "Klasse 9 · Baustein 1": "Lớp 9 · Bài 1",
  "⏱ ca. 40 Minuten": "⏱ khoảng 40 phút",
- "Ich kann Fehlermeldungen wie #WERT!, #DIV/0! und #NAME? deuten und beheben.": "Mình hiểu và sửa được các thông báo lỗi như <code>#WERT!</code> (lỗi giá trị), <code>#DIV/0!</code> và <code>#NAME?</code>.",
- "Ich kann stille Fehler finden, die Calc nicht anzeigt.": "Mình tìm được lỗi ngầm mà Calc không báo.",
- "Ich kann Formeln mit allem aus Klasse 8 reparieren.": "Mình sửa được công thức bằng tất cả những gì đã học ở lớp 8.",
  "Calc zeigt einen Fehler an, z. B. #WERT!": "<strong>thông báo lỗi</strong> – Calc báo một lỗi, ví dụ <code>#WERT!</code>",
  "ein Fehler, den Calc anzeigt": "<strong>lỗi hiện</strong> – lỗi mà Calc báo ra",
  "falsch getippt, z. B. SUMNE statt SUMME": "<strong>lỗi đánh máy</strong> – gõ sai, ví dụ <code>SUMNE</code> thay vì <code>SUMME</code>",
@@ -64,11 +61,6 @@
  "Stille Fehler zeigt Calc nicht an: getippte Zahlen, fehlendes $, Bereich zu kurz oder zu groß.": "<strong>Lỗi ngầm</strong> thì Calc không báo: số gõ tay, thiếu <code>$</code>, vùng ô quá ngắn hoặc quá lớn.",
  "MAX, MIN und MITTELWERT brauchen einen Bereich mit Doppelpunkt: =MAX(G5:G10).": "<code>MAX</code>, <code>MIN</code> và <code>MITTELWERT</code> cần một vùng ô có dấu hai chấm: <code>=MAX(G5:G10)</code>.",
  "Detektiv-Tricks: Formel lesen · Wert testweise ändern · Ansicht → Formel anzeigen.": "Mẹo thám tử: đọc công thức · thử đổi giá trị · <strong>Ansicht → Formel anzeigen</strong> (xem → hiện công thức).",
- "Ich weiß, was #WERT!, #DIV/0! und #NAME? bedeuten.": "Mình biết <code>#WERT!</code>, <code>#DIV/0!</code> và <code>#NAME?</code> có nghĩa là gì.",
- "Ich kann laute Fehler reparieren.": "Mình sửa được lỗi hiện.",
- "Ich finde stille Fehler mit den Detektiv-Tricks.": "Mình tìm được lỗi ngầm bằng các mẹo thám tử.",
- "Plus Ich kann Fehler absichtlich erzeugen und erklären.": "<span class=\"badge plus\">Plus</span> Mình cố ý tạo ra được lỗi và giải thích được chúng.",
- "★ Expedition Ich kann Fehler mit WENNFEHLER abfangen.": "<span class=\"badge expedition\">★ Expedition</span> Mình bắt được lỗi bằng WENNFEHLER (NẾU LỖI).",
  "Üben Aufwärmen: Waffelverkauf": "<span class=\"badge ueben\">Üben</span> Khởi động: bán bánh waffle",
  "Stückzahl und Umsatz für sechs Waffelsorten, dazu MAX, MIN und MITTELWERT. Die Kontrolle merkt, wenn der Preis mit in der Summe steckt.": "Số lượng và doanh thu của sáu loại bánh waffle, thêm MAX, MIN và MITTELWERT. Cột kiểm tra nhận ra khi giá bị cộng vào tổng.",
  "ODS Üben: Waffelverkaufk9-01-fehlerdetektiv-mehr-waffelverkauf.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Bán bánh waffle</strong><small>k9-01-fehlerdetektiv-mehr-waffelverkauf.ods</small></span>",
@@ -129,5 +121,5 @@
  "### heißt nur: Die Zahl passt nicht in die Spalte. Doppelklick auf die Linie zwischen den Spaltenköpfen.": "### chỉ có nghĩa là: con số không vừa với cột. Bấm đúp vào đường kẻ giữa các tiêu đề cột.",
  "#WERT! sieht man sofort. Ein stiller Fehler zeigt keine Meldung.": "<code>#WERT!</code> thì thấy ngay. Lỗi ngầm thì không có thông báo nào.",
  "### sieht man sofort. Und die Zahl dahinter stimmt.": "<code>###</code> thì thấy ngay. Và con số phía sau vẫn đúng.",
- "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "Trong bảng tính có lỗi xảy ra, kể cả với người giỏi. Có lỗi Calc báo rõ ràng, ví dụ <code>#DIV/0!</code>. Có lỗi thì ngầm: con số trông đúng nhưng vẫn sai. Ở đây bạn học cách tìm và sửa cả hai loại. Đồng thời bạn ôn lại tất cả kiến thức lớp 8."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "Trong bảng tính có lỗi xảy ra. Có lỗi Calc báo ra, ví dụ <code>#DIV/0!</code>. Có lỗi Calc không báo: con số trông đúng nhưng lại sai. Ở đây bạn học cách tìm và sửa cả hai loại. Đồng thời bạn ôn lại lớp 8."
 }

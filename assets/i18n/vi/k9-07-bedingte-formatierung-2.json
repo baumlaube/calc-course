@@ -3,9 +3,6 @@
  "Bedingte Formatierung 2 – Ampel, Text und Grenzen": "Bedingte Formatierung 2 – đèn giao thông, chữ và mốc",
  "Klasse 9 · Baustein 7": "Lớp 9 · Bài 7",
  "Vorwissen: Bedingte Formatierung 1, WENN 3": "Cần biết trước: định dạng có điều kiện 1, WENN 3",
- "Ich kann mehrere Bedingungen in der richtigen Reihenfolge anlegen.": "Mình tạo được nhiều điều kiện theo đúng thứ tự.",
- "Ich kann Text färben lassen, z. B. alles mit „fehlt“.": "Mình cho tô màu được chữ, ví dụ tất cả những ô có „fehlt“ (thiếu).",
- "Ich kann eine Grenze aus einer Zelle mit $ benutzen.": "Mình dùng được mốc lấy từ một ô với <code>$</code>.",
  "was zuerst kommt und was danach": "<strong>thứ tự</strong> – cái gì đến trước và cái gì đến sau",
  "die Bedingung stimmt für diese Zahl": "<strong>khớp</strong> – điều kiện đúng với con số này",
  "drei Farben: rot, gelb, grün": "<strong>đèn giao thông</strong> – ba màu: đỏ, vàng, xanh lá",
@@ -33,11 +30,6 @@
  "Text im Dialog in Anführungszeichen: Zellwert ist · gleich · \"fehlt\"": "Chữ trong hộp thoại nằm trong dấu ngoặc kép: Zellwert ist · gleich · <code>\"fehlt\"</code>",
  "Grenze aus einer Zelle: als Wert $B$2 eintragen – mit $, wie bei WENN.": "Mốc lấy từ một ô: điền giá trị là <code>$B$2</code> – có <code>$</code>, giống như ở WENN.",
  "Regeln ansehen, ändern, löschen: Format → Bedingt → Verwalten …": "Xem, sửa, xóa quy tắc: <strong>Format → Bedingt → Verwalten …</strong>",
- "Ich baue eine Ampel mit drei Bedingungen.": "Mình làm được đèn giao thông với ba điều kiện.",
- "Ich weiß: Die erste passende Bedingung gewinnt.": "Mình biết: điều kiện khớp đầu tiên sẽ thắng.",
- "Ich färbe Text, z. B. \"fehlt\".": "Mình tô màu được chữ, ví dụ <code>\"fehlt\"</code>.",
- "Plus Ich nehme die Grenze aus einer Zelle mit $.": "<span class=\"badge plus\">Plus</span> Mình lấy mốc từ một ô với <code>$</code>.",
- "★ Expedition Ich färbe ganze Zeilen mit „Formel ist“.": "<span class=\"badge expedition\">★ Expedition</span> Mình tô màu cả hàng bằng „Formel ist“ (công thức là).",
  "Üben Wer hat sich doppelt angemeldet?": "<span class=\"badge ueben\">Üben</span> Ai đã đăng ký hai lần?",
  "18 Anmeldungen zum Skikurs, aber manche Namen stehen mehrmals da. Calc hat dafür eine eigene Bedingung: Format → Bedingt → Bedingung … → Zellwert ist · doppelt.": "18 người đăng ký khóa học trượt tuyết, nhưng có tên xuất hiện nhiều lần. Calc có điều kiện riêng cho việc này: <strong>Format → Bedingt → Bedingung … → Zellwert ist · doppelt</strong> (giá trị ô · trùng lặp).",
  "Calc färbt jeden Namen, der mehr als einmal vorkommt, auch den ersten. Löschst du die Zeilen mit den doppelten Namen, verschwindet das Rot von selbst.": "Calc tô màu <em>mọi</em> tên xuất hiện hơn một lần, cả tên đầu tiên. Nếu bạn xóa các hàng có tên trùng, màu đỏ sẽ tự biến mất.",
@@ -103,5 +95,5 @@
  "„Unter 14“ heißt: 14 zählt nicht mehr. Nimm <.": "„Dưới 14“ nghĩa là: 14 không còn được tính. Hãy dùng <code>&lt;</code>.",
  "bezahlt?": "bezahlt? (đã trả tiền?)",
  "größer als 50%": "größer als 50% (lớn hơn 50%)",
- "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Bây giờ Calc tô màu theo nhiều quy tắc – xanh lá, vàng và đỏ như đèn giao thông. Bạn học tại sao thứ tự các quy tắc quan trọng, cách tô màu chữ và cách lấy mốc từ một ô."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Bây giờ Calc tô màu theo nhiều quy tắc: xanh lá, vàng và đỏ như đèn giao thông. Bạn học tại sao thứ tự các quy tắc quan trọng. Bạn cũng tô màu chữ và lấy mốc từ một ô."
 }

@@ -2,9 +2,6 @@
  "Brutto und Netto · Calc-Kurs Zusatzmodul": "Brut et net · Cours Calc module supplémentaire",
  "Brutto und Netto – was bleibt vom Ausbildungsgehalt?": "Brutto und Netto (brut et net) – que reste-t-il du salaire d'apprenti ?",
  "Vorwissen: Prozentrechnung, $-Anker": "Prérequis : pourcentages, ancre $",
- "Ich kann erklären, was Brutto und Netto bedeutet.": "Je sais expliquer ce que veulent dire Brutto (brut) et Netto (net).",
- "Ich kann die Abzüge mit Prozentsätzen und $ berechnen.": "Je calcule les retenues avec des pourcentages et <code>$</code>.",
- "Ich kann ausrechnen, wie viel am Monatsende übrig bleibt.": "Je calcule combien il reste à la fin du mois.",
  "💡 Im Ausbildungsvertrag steht: 1.050 € im Monat.": "💡 Le contrat d'apprentissage indique : <strong>1 050 € par mois</strong>.",
  "Überleg: Wie viel kommt ungefähr aufs Konto?": "<strong>Réfléchis :</strong> environ combien arrive sur le compte bancaire ?",
  "etwa 830 €": "environ 830 €",
@@ -46,5 +43,5 @@
  "Gesamtsatz in B2 = 21 %. Welche Formel ergibt direkt das Netto von B6?": "Taux total dans B2 = 21 %. Quelle formule donne directement le net de B6 ?",
  "100 % − 21 % = 79 % bleiben – wie beim Rabatt.": "100 % − 21 % = il reste 79 % – comme une remise.",
  "Brutto 1.000 €, Abzüge 21 %. Wie viel Netto?": "Brut 1 000 €, retenues 21 %. Combien de net ?",
- "Im Ausbildungsvertrag steht ein Gehalt, auf dem Konto kommt weniger an. Du lernst, was Brutto und Netto bedeutet und welche Abzüge es gibt. Dann rechnest du aus, was dir am Monatsende wirklich bleibt.": "Dans le contrat d’apprentissage il y a un salaire, mais moins arrive sur le compte. Tu apprends ce que veulent dire Brutto et Netto (brut et net) et quelles retenues il y a. Puis tu calcules ce qui te reste vraiment à la fin du mois."
+ "Im Ausbildungsvertrag steht ein Lohn. Auf dem Konto kommt aber weniger an. Du lernst, was Brutto und Netto heißt und was abgezogen wird. Dann rechnest du aus, wie viel Geld dir wirklich bleibt.": "Dans le contrat d’apprentissage, il y a un salaire. Mais moins arrive sur le compte. Tu apprends ce que veulent dire Brutto et Netto (brut et net) et ce qui est retenu. Puis tu calcules combien d’argent il te reste vraiment."
 }

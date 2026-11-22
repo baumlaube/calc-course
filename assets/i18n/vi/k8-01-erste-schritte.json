@@ -3,9 +3,6 @@
  "Erste Schritte – Zellen, Eingeben, Formatieren": "Những bước đầu tiên – ô, nhập dữ liệu, định dạng",
  "Klasse 8 · Baustein 1": "Lớp 8 · Bài 1",
  "Vorwissen: keins": "Cần biết trước: không có",
- "Ich kann jede Zelle mit ihrer Adresse finden und benennen.": "Mình tìm được mọi ô theo địa chỉ của nó và gọi được tên ô.",
- "Ich kann Text und Zahlen richtig eingeben.": "Mình nhập đúng chữ và số.",
- "Ich kann eine Tabelle übersichtlich formatieren.": "Mình định dạng được bảng cho dễ nhìn.",
  "ein Kästchen in der Tabelle, z. B. C4": "<strong>ô</strong> – một ô vuông trong bảng, ví dụ <code>C4</code>",
  "geht von oben nach unten. Sie hat einen Buchstaben: A, B, C …": "<strong>cột</strong> – đi từ trên xuống dưới. Cột có một chữ cái: A, B, C …",
  "geht von links nach rechts. Sie hat eine Zahl: 1, 2, 3 …": "<strong>hàng</strong> – đi từ trái sang phải. Hàng có một con số: 1, 2, 3 …",
@@ -53,12 +50,6 @@
  "Zahlen ohne € und mit Komma tippen: 1,49. Das € kommt durch Formatieren.": "Gõ số <strong>không có €</strong> và với <strong>dấu phẩy</strong>: <code>1,49</code>. Dấu € có được nhờ định dạng.",
  "Eine Angabe pro Zelle. Einheiten wie m oder Stück gehören in die Überschrift: Höhe in m.": "<strong>Mỗi ô một thông tin.</strong> Đơn vị như m hoặc cái thuộc về tiêu đề: <code>Höhe in m</code>.",
  "Formatieren: Rechtsklick → Zellen formatieren … Dort stellst du auch die Nachkommastellen ein. Die Anzeige wird gerundet, gespeichert bleibt der genaue Wert.": "<strong>Định dạng:</strong> bấm chuột phải → <strong>Zellen formatieren …</strong> (định dạng ô). Ở đó bạn cũng chỉnh <strong>Nachkommastellen</strong> (chữ số thập phân). Phần hiển thị được làm tròn, nhưng giá trị chính xác vẫn được lưu.",
- "Ich finde jede Zelle über ihre Adresse, z. B. C4.": "Mình tìm được mọi ô theo địa chỉ, ví dụ <code>C4</code>.",
- "Ich kann Text und Zahlen eingeben und korrigieren.": "Mình nhập và sửa được chữ và số.",
- "Ich erkenne, ob Calc etwas als Zahl oder als Text gespeichert hat.": "Mình nhận ra Calc đã lưu một thứ là số hay là chữ.",
- "Ich schreibe Einheiten in die Überschrift, nicht in die Zelle.": "Mình viết đơn vị vào tiêu đề, không viết vào ô.",
- "Ich kann Schrift, Farbe, Währung, Spaltenbreite und Rahmen einstellen.": "Mình chỉnh được phông chữ, màu, đơn vị tiền tệ, độ rộng cột và đường viền.",
- "★ Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">★ Expedition</span> Mình nhảy qua bảng bằng Namenfeld (hộp tên) và <kbd>Strg</kbd>+mũi tên.",
  "Üben Das Hunderter-Puzzle": "<span class=\"badge ueben\">Üben</span> Ghép hình bảng số 100",
  "Auf der Hunderter-Tafel fehlen fünf Teile. Klick ein blaues Teil an, dann die Lücke, in die es passt.": "Trên bảng số từ 1 đến 100 còn thiếu năm mảnh. Bấm vào một mảnh màu xanh, rồi bấm vào chỗ trống vừa với nó.",
  "In Calc schiebst du die Teile mit der Maus: Teil markieren, auf den Rand zeigen, bis das Pfeilkreuz ✥ kommt, dann ziehen. Probier es in Calc aus – mit der Datei hier drunter.": "Trong Calc, bạn dùng chuột để di chuyển các mảnh: chọn mảnh, trỏ vào <strong>mép</strong> cho tới khi hiện mũi tên chữ thập ✥, rồi kéo. Hãy thử trong Calc – với tệp ở dưới đây.",
@@ -133,5 +124,5 @@
  "Nachkommastelle hinzufügen": "Nachkommastelle hinzufügen (thêm chữ số thập phân)",
  "Nachkommastelle löschen": "Nachkommastelle löschen (bớt chữ số thập phân)",
  "Leertaste": "Leertaste (phím cách)",
- "Eine Tabellenkalkulation ist ein großes Blatt aus Kästchen. Hier lernst du, dich darin zurechtzufinden: Jede Zelle hat eine Adresse, und Text und Zahlen kommen sauber in eigene Zellen. Darauf baut alles Weitere auf. Solche Tabellen benutzt man in fast jedem Beruf, im Büro genauso wie in der Werkstatt.": "Bảng tính là một tờ giấy lớn gồm nhiều ô vuông. Ở đây bạn học cách định hướng trong đó: mỗi ô có một địa chỉ, chữ và số được đặt gọn gàng trong ô riêng. Mọi thứ sau này đều dựa trên điều đó. Những bảng như vậy được dùng trong hầu hết mọi nghề, ở văn phòng cũng như trong xưởng."
+ "Eine Tabelle besteht aus vielen Kästchen. Jedes Kästchen heißt Zelle und hat eine Adresse, zum Beispiel C4. Hier lernst du, Zellen zu finden und Text und Zahlen richtig einzutippen. Das brauchst du für alles, was danach kommt. Tabellen wie diese gibt es in fast jedem Beruf.": "Bảng gồm nhiều ô vuông. Mỗi ô vuông gọi là Zelle (ô) và có một địa chỉ, ví dụ <code>C4</code>. Ở đây bạn học cách tìm ô và gõ chữ và số cho đúng. Bạn cần điều này cho mọi thứ sau này. Những bảng như vậy có trong hầu hết mọi nghề."
 }

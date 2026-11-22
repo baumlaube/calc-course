@@ -3,9 +3,6 @@
  "WENN 3 – Grenzen in eigenen Zellen": "WENN 3 (SI 3) – les limites dans leurs propres cellules",
  "Klasse 9 · Baustein 5": "9e année · Unité 5",
  "Teil 3 von 3 zu WENN": "Partie 3 sur 3 sur WENN (SI)",
- "Ich kann Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "J'écris les limites dans leur propre cellule et je les fixe avec <code>$</code>.",
- "Ich kann WENN-Formeln mit Text, Zahlen und Rechnungen sicher schreiben.": "J'écris avec assurance des formules WENN avec du texte, des nombres et des calculs.",
- "Ich kann eine Probe-Aufgabe zu WENN allein lösen.": "Je résous seul(e) un exercice de contrôle sur WENN.",
  "💡 Beim Erste-Hilfe-Quiz hat bestanden, wer mindestens 15 Punkte hat. In Spalte C steht überall so eine Formel: =WENN(B5>=15;\"bestanden\";\"durchgefallen\")": "💡 Au quiz de premiers secours, a réussi celui qui a au moins 15 points. Dans la colonne C, il y a partout une formule comme celle-ci : <code class=\"long\">=WENN(B5&gt;=15;\"bestanden\";\"durchgefallen\")</code>",
  "Überleg: Neue Regel – bestanden erst ab 16 Punkten. Wie viele Zellen musst du ändern?": "<strong>Réfléchis :</strong> nouvelle règle – réussi seulement à partir de <strong>16</strong> points. Combien de cellules dois-tu modifier ?",
  "nur eine": "une seule",
@@ -37,11 +34,6 @@
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> Expédition : UND (ET) <span class=\"badge expedition\">facultatif</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> est vrai seulement si les <strong>deux</strong> sont vrais.<br/>Avec <code>ODER(…; …)</code> (OU), un seul suffit.",
  "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "C'est un jour de piscine s'il fait <strong>au moins 25 °C</strong> <strong>et</strong> qu'il ne pleut pas. Écris dans D5 une formule WENN avec UND et recopie-la vers le bas.",
- "Ich schreibe Grenzen in eine eigene Zelle und nehme sie mit $.": "J'écris les limites dans leur propre cellule et je les utilise avec <code>$</code>.",
- "Ich wähle das richtige Vergleichszeichen, z. B. >= für „ab“.": "Je choisis le bon signe de comparaison, p. ex. <code>&gt;=</code> pour « à partir de ».",
- "Ich setze Text in Anführungszeichen und Zahlen ohne.": "Je mets le texte entre guillemets et les nombres sans.",
- "Plus Ich löse Probe-Aufgaben zu WENN ohne Vorlage.": "<span class=\"badge plus\">Plus</span> Je résous des exercices de contrôle sur WENN sans modèle.",
- "Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">Expedition</span> Je sais combiner WENN avec UND.",
  "← 4 · WENN 2": "← 4 · WENN 2 (SI 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (mise en forme conditionnelle) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -89,7 +81,6 @@
  "eine Fehlermeldung": "un message d'erreur",
  "viel": "viel (beaucoup)",
  "wenig": "wenig (peu)",
- "★ Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">★ Expedition</span> Je sais combiner WENN avec UND (ET).",
  "Üben Wochenlohn mit Überstunden": "<span class=\"badge ueben\">Üben</span> Salaire hebdomadaire avec heures sup",
  "Bis 38,5 Stunden gibt es den normalen Stundenlohn. Jede Stunde mehr ist eine Überstunde mit 30 % Zuschlag. Tarif und Zuschlag stehen in blauen Zellen.": "Jusqu'à 38,5 heures, c'est le salaire horaire normal. Chaque heure en plus est une heure sup avec 30 % de majoration. Le nombre d'heures et la majoration sont dans des cellules bleues.",
  "=WENN(B6>=$B$2;$B$2*C6;B6*C6) – hier wird in Dann und Sonst gerechnet.": "<code class=\"long\">=WENN(B6&gt;=$B$2;$B$2*C6;B6*C6)</code> – ici on calcule dans <strong>Dann</strong> (alors) et <strong>Sonst</strong> (sinon).",
@@ -119,5 +110,5 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Pas encore tout en bas. Encore vides : {}. Tire de C5 jusqu'à C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Lundi est juste ! Maintenant tire la <strong>Ausfüllkästchen</strong> (poignée de recopie) vers le bas jusqu'à D7.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Pas encore tout en bas. Tire de D5 jusqu'à D7.",
- "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Les règles changent : demain, il faudra peut-être 16 points au lieu de 15. Si la limite est dans sa propre cellule, tu la changes à un seul endroit et toutes les formules recalculent. À la fin, tu résous seul des exercices avec <code>WENN</code>, comme à l’interro."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Les règles changent. Aujourd’hui il faut 15 points, demain peut-être 16. Écris donc la limite dans sa propre cellule. Tu ne changes alors que cette cellule, et toutes les formules recalculent. À la fin, tu résous seul des exercices avec <code>WENN</code>, comme à l’interro."
 }

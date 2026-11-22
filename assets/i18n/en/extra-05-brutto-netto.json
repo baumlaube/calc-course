@@ -2,9 +2,6 @@
  "Brutto und Netto · Calc-Kurs Zusatzmodul": "Gross and net · Calc course extra module",
  "Brutto und Netto – was bleibt vom Ausbildungsgehalt?": "Brutto und Netto (gross and net) – what is left of the apprentice pay?",
  "Vorwissen: Prozentrechnung, $-Anker": "You need: percentages, $ anchor",
- "Ich kann erklären, was Brutto und Netto bedeutet.": "I can explain what Brutto (gross) and Netto (net) mean.",
- "Ich kann die Abzüge mit Prozentsätzen und $ berechnen.": "I can calculate the deductions with percentages and <code>$</code>.",
- "Ich kann ausrechnen, wie viel am Monatsende übrig bleibt.": "I can work out how much is left at the end of the month.",
  "💡 Im Ausbildungsvertrag steht: 1.050 € im Monat.": "💡 The training contract says: <strong>1,050 € a month</strong>.",
  "Überleg: Wie viel kommt ungefähr aufs Konto?": "<strong>Think:</strong> About how much goes into the bank account?",
  "etwa 830 €": "about 830 €",
@@ -46,5 +43,5 @@
  "Gesamtsatz in B2 = 21 %. Welche Formel ergibt direkt das Netto von B6?": "Total rate in B2 = 21 %. Which formula gives the net of B6 directly?",
  "100 % − 21 % = 79 % bleiben – wie beim Rabatt.": "100 % − 21 % = 79 % are left – like a discount.",
  "Brutto 1.000 €, Abzüge 21 %. Wie viel Netto?": "Gross 1,000 €, deductions 21 %. How much net?",
- "Im Ausbildungsvertrag steht ein Gehalt, auf dem Konto kommt weniger an. Du lernst, was Brutto und Netto bedeutet und welche Abzüge es gibt. Dann rechnest du aus, was dir am Monatsende wirklich bleibt.": "Your training contract shows one salary, but less arrives in your account. You learn what Brutto (gross) and Netto (net) mean and which deductions there are. Then you work out what you really have left at the end of the month."
+ "Im Ausbildungsvertrag steht ein Lohn. Auf dem Konto kommt aber weniger an. Du lernst, was Brutto und Netto heißt und was abgezogen wird. Dann rechnest du aus, wie viel Geld dir wirklich bleibt.": "Your training contract shows a wage. But less arrives in your account. You learn what Brutto (gross) and Netto (net) mean and what is deducted. Then you work out how much money you really have left."
 }

@@ -3,9 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "ارجاع مطلق – $ به عنوان لنگر",
  "Klasse 8 · Baustein 5": "کلاس 8 · واحد 5",
  "Vorwissen: Formeln ausfüllen": "پیش‌نیاز: پر کردن فرمول‌ها",
- "Ich kann erklären, warum ein Zellbezug beim Ausfüllen „wandert“.": "می‌توانم توضیح بدهم چرا یک ارجاع خانه موقع پر کردن «جابه‌جا می‌شود».",
- "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "می‌توانم یک ارجاع را با علامت <code>$</code> ثابت کنم.",
- "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "می‌توانم تصمیم بگیرم کِی به <code>$</code> نیاز دارم – و کِی نه.",
  "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "لنا در یک بستنی‌فروشی کار تعطیلات دارد و ساعتی 11 € می‌گیرد. در C5 مزد دوشنبه را حساب کرد: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> راه حل: علامت $ <span class=\"chip\">5 دقیقه</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> یک <strong>لنگر</strong> است.<br/><code>$B$2</code> موقع پر کردن همیشه <code>B2</code> می‌ماند.",
@@ -44,11 +41,6 @@
  "nur die Spalte A": "فقط ستون A",
  "nur die Zeile 1": "فقط ردیف 1",
  "Tipp: Drück Umschalt + F4 mehrmals hintereinander – so springst du durch alle Varianten.": "نکته: <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd> را چند بار پشت سر هم بزن – این‌طور همهٔ حالت‌ها را می‌گردی.",
- "Ich kann erklären, warum =B5*B2 beim Ausfüllen kaputtgeht.": "می‌توانم توضیح بدهم چرا <code>=B5*B2</code> موقع پر کردن خراب می‌شود.",
- "Ich kann mit $ (oder Umschalt+F4) einen Bezug festhalten.": "می‌توانم یک ارجاع را با <code>$</code> (یا <kbd>Umschalt</kbd>+<kbd>F4</kbd>) ثابت کنم.",
- "Ich erkenne, wann eine Formel ein $ braucht.": "می‌بینم کِی یک فرمول <code>$</code> لازم دارد.",
- "Plus Ich finde versteckte Fehler in fremden Tabellen.": "<span class=\"badge plus\">Plus</span> می‌توانم خطاهای پنهان را در جدول‌های دیگران پیدا کنم.",
- "Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">Expedition</span> می‌توانم از ارجاع‌های ترکیبی مثل <code>$A2</code> و <code>B$1</code> استفاده کنم.",
  "← 4 · Ausfüllen": "← 4 · پر کردن",
  "6 · Diagramme →": "6 · نمودارها →",
  "Calc füllt aus … schau auf Spalte C!": "Calc دارد پر می‌کند … به ستون C نگاه کن!",
@@ -84,7 +76,6 @@
  "66,00 € (6 × 11 €)": "66,00 € (6 × 11 €)",
  "Profi-Trick: ein Name statt $. Klick B2 an, tipp oben links ins Namenfeld Lohn und drück Enter. Jetzt geht auch =B5*Lohn. Ein Name bleibt beim Ausfüllen immer fest.": "<strong>ترفند حرفه‌ای: نام به‌جای $.</strong> روی B2 کلیک کن، بالا سمت چپ در <strong>Namenfeld</strong> (کادر نام) <code>Lohn</code> (دستمزد) را تایپ کن و <kbd>Enter</kbd> را بزن. حالا <code>=B5*Lohn</code> هم کار می‌کند. نام هنگام پر کردن همیشه ثابت می‌ماند.",
  "Profi-Trick: Eine Zelle im Namenfeld benennen, z. B. Lohn. Ein Name bleibt beim Ausfüllen fest.": "ترفند حرفه‌ای: به یک خانه در <strong>Namenfeld</strong> (کادر نام) نام بده، مثلاً <code>Lohn</code>. نام هنگام پر کردن ثابت می‌ماند.",
- "★ Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">★ Expedition</span> می‌توانم ارجاع‌های ترکیبی مثل <code>$A2</code> و <code>B$1</code> را به کار ببرم.",
  "Üben Der Steuer-Schalter": "<span class=\"badge ueben\">Üben</span> کلید مالیات",
  "Der Steuersatz steht nur einmal, in B1. Alle Formeln holen ihn sich von dort.": "نرخ مالیات فقط یک بار نوشته شده، در B1. همه فرمول‌ها آن را از آن‌جا برمی‌دارند.",
  "C4: Steuer = Netto × Steuersatz, mit $.": "C4: مالیات = خالص × نرخ مالیات، با <code>$</code>.",
@@ -153,5 +144,5 @@
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "هنوز تمام نشده: {} خانه خالی است. ناحیهٔ انتخاب‌شده را ادامه بکش تا همه چیز تا E9 پر شود.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ ردیف 4 درست است. حالا C4 و D4 را با هم انتخاب کن و به پایین تا ردیف 6 بکش.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>فکر کن:</strong> لنا فرمول را تا C9 به پایین می‌کشد. آن‌وقت در <strong>C6</strong> (سه‌شنبه) چیست؟",
- "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "هنگام پر کردن، هر ارجاع خانه با آن جابه‌جا می‌شود. معمولاً این درست است. ولی بعضی مقدارها برای همهٔ ردیف‌ها هستند، مثلاً دستمزد ساعتی. با <code>$</code> چنین خانه‌ای را ثابت می‌کنی. اگر دستمزد عوض شود، فقط یک خانه را عوض می‌کنی و کل جدول دوباره حساب می‌شود."
+ "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "هنگام کشیدن، فرمول هم جابه‌جا می‌شود. معمولاً این درست است. ولی بعضی سلول‌ها باید برای همهٔ ردیف‌ها باشند، مثلاً دستمزد ساعتی. با <code>$</code> چنین سلولی را ثابت می‌کنی."
 }

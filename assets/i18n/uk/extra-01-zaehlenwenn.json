@@ -2,9 +2,6 @@
  "ZÄHLENWENN · Calc-Kurs Zusatzmodul": "ZÄHLENWENN (ПІДРАХУВАТИ, ЯКЩО) · Курс Calc, додатковий модуль",
  "ZÄHLENWENN – zählen, was passt": "ZÄHLENWENN (ПІДРАХУВАТИ, ЯКЩО) – порахувати те, що підходить",
  "Vorwissen: WENN, $-Anker": "Попередні знання: WENN, якір $",
- "Ich kann mit ZÄHLENWENN zählen, wie oft etwas vorkommt.": "Я рахую за допомогою <code>ZÄHLENWENN</code>, як часто щось трапляється.",
- "Ich kann Kriterien wie \"Sport\", \">=4\" oder eine Zelle benutzen.": "Я використовую критерії, як-от <code>\"Sport\"</code>, <code>\"&gt;=4\"</code> або клітинку.",
- "Ich kann mit SUMMEWENN nur passende Beträge addieren.": "Я додаю лише відповідні суми за допомогою <code>SUMMEWENN</code> (СУМА, ЯКЩО).",
  "💡 Acht Schüler haben ihr Lieblingsfach genannt. In D2 kommt: =ZÄHLENWENN(B2:B9;\"Sport\")": "💡 Восьмеро учнів назвали свій улюблений предмет. У D2 пишемо: <code class=\"long\">=ZÄHLENWENN(B2:B9;\"Sport\")</code>",
  "Überleg: Was zeigt D2?": "<strong>Подумай:</strong> що покаже D2?",
  "2 So zählt Calc 7 Min": "<span class=\"step-no\">2</span> Як рахує Calc <span class=\"chip\">7 хв</span>",
@@ -57,5 +54,5 @@
  "Gesucht wird in B, addiert wird aus C.": "Вона шукає в B і додає з C.",
  "Anführungszeichen um D5": "Лапки навколо D5",
  "Ein $ bei D5": "$ біля D5",
- "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "Скільки учнів у класі найбільше люблять фізкультуру? Скільки оцінок кращі за 3? <code>ZÄHLENWENN</code> (ЛІЧИЛЬНИК.ЯКЩО) рахує лише клітинки, які відповідають твоїй умові. <code>SUMMEWENN</code> (СУМ.ЯКЩО) додає лише потрібні суми, наприклад усі витрати на їжу."
+ "Wie viele in der Klasse mögen Sport am liebsten? ZÄHLENWENN zählt nur die Zellen, die passen. SUMMEWENN zählt nur passende Beträge zusammen, zum Beispiel alles, was du für Essen ausgegeben hast.": "Скільки учнів у класі найбільше люблять фізкультуру? <code>ZÄHLENWENN</code> (ЛІЧИЛЬНИК.ЯКЩО) рахує лише клітинки, які підходять. <code>SUMMEWENN</code> (СУМ.ЯКЩО) додає лише потрібні суми, наприклад усе, що ти витратив на їжу."
 }

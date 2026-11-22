@@ -2,9 +2,6 @@
  "Datum & Zeit · Calc-Kurs Zusatzmodul": "التاريخ والوقت · دورة Calc وحدة إضافية",
  "Datum & Zeit – wie viele Tage noch?": "التاريخ والوقت – كم يومًا بقي؟",
  "Vorwissen: Formeln, $-Anker": "المعرفة المسبقة: الصيغ، المرساة $",
- "Ich weiß: Ein Datum ist für Calc eine Zahl.": "أعرف: التاريخ بالنسبة لـ Calc رقم.",
- "Ich rechne mit HEUTE() aus, wie viele Tage es noch dauert.": "أحسب بـ <code>HEUTE()</code> (اليوم) كم يومًا بقي.",
- "Ich addiere Tage zu einem Datum.": "أضيف أيامًا إلى تاريخ.",
  "💡 In A2 steht der 10.11.2026, in B2 der Ferienbeginn 24.12.2026. In C2 kommt =B2-A2.": "💡 في A2 يوجد 10.11.2026، وفي B2 بداية العطلة 24.12.2026. في C2 توضع <code>=B2-A2</code>.",
  "2 Ein Datum ist eine Zahl 7 Min": "<span class=\"step-no\">2</span> التاريخ رقم <span class=\"chip\">7 د</span>",
  "Für Calc ist ein Datum die Zahl der Tage seit dem 30.12.1899.Darum kann man mit Daten rechnen.": "التاريخ بالنسبة لـ Calc هو عدد الأيام منذ <strong>30.12.1899</strong>.<br/>لذلك يمكنك الحساب بالتواريخ.",
@@ -47,5 +44,5 @@
  "Ein Text": "نص",
  "Neu tippen": "إعادة الكتابة",
  "Eine Formel": "صيغة",
- "Wie viele Tage sind es noch bis zu den Ferien? Für Calc ist ein Datum eine Zahl. Darum kann Calc mit Daten rechnen: Tage zählen, Fristen ausrechnen und mit HEUTE() immer vom aktuellen Tag aus.": "كم يومًا بقي حتى العطلة؟ التاريخ في Calc هو رقم. لذلك يستطيع Calc الحساب بالتواريخ: عدّ الأيام وحساب المواعيد النهائية – ومع <code>HEUTE()</code> (TODAY) دائمًا من اليوم الحالي."
+ "Wie viele Tage sind es noch bis zu den Ferien? Für Calc ist ein Datum eine Zahl. Darum kann Calc mit einem Datum rechnen. Mit HEUTE() rechnet Calc immer vom heutigen Tag aus.": "كم يومًا بقي حتى العطلة؟ التاريخ في Calc هو رقم. لذلك يستطيع Calc الحساب بالتاريخ. مع <code>HEUTE()</code> (TODAY) يحسب Calc دائمًا من اليوم الحالي."
 }

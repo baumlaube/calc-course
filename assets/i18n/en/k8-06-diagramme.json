@@ -3,9 +3,6 @@
  "Diagramme – Zahlen auf einen Blick": "Charts – numbers at a glance",
  "Klasse 8 · Baustein 6": "Grade 8 · Unit 6",
  "Vorwissen: Tabellen markieren": "Prior knowledge: selecting tables",
- "Ich kann aus einer Tabelle ein Diagramm erstellen.": "I can make a chart from a table.",
- "Ich kann das passende Diagramm wählen: Säule, Kreis oder Linie.": "I can choose the right chart: <strong>Säule</strong> (column), <strong>Kreis</strong> (pie) or <strong>Linie</strong> (line).",
- "Ich kann ein Diagramm beschriften und richtig lesen.": "I can label a chart and read it correctly.",
  "Jonas hat die Temperaturen einer Woche in ein Diagramm verwandelt. Irgendwas stimmt da nicht …": "Jonas turned a week of temperatures into a chart. Something is wrong …",
  "Überleg: Was ist das Problem?": "<strong>Think:</strong> What is the problem?",
  "Die Legende ist zu lang.": "The legend is too long.",
@@ -41,10 +38,6 @@
  "★ Expedition: Lügen mit Diagrammen freiwillig": "<span class=\"step-no\">★</span> Expedition: Lying with charts <span class=\"badge expedition\">optional</span>",
  "Abstimmung über die Klassenfahrt: Berlin 48 Stimmen, München 52 Stimmen. Verschieb den Regler. Wo fängt die y-Achse an?": "Vote on the class trip: Berlin 48 votes, Munich 52 votes. Move the slider. Where does the y-axis start?",
  "y-Achse beginnt bei:": "y-axis starts at:",
- "Ich weiß, wann Säule, Kreis oder Linie passt.": "I know when a column, pie or line chart fits.",
- "Ich gebe jedem Diagramm einen Titel und beschrifte die Achsen.": "I give every chart a title and label the axes.",
- "Plus Ich kann Prozente im Kreisdiagramm anzeigen.": "<span class=\"badge plus\">Plus</span> I can show percentages in a pie chart.",
- "Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">Expedition</span> I can spot tricky charts by looking at the y-axis.",
  "← 5 · Absolute Bezüge": "← 5 · Absolute references",
  "7 · Projekt →": "7 · Project →",
  "Wetterwoche (°C)": "Weather week (°C)",
@@ -81,7 +74,6 @@
  "Wo die y-Achse anfängt": "Where the y-axis starts",
  "Wie groß das Bild ist": "How big the picture is",
  "Fängt die y-Achse nicht bei 0 an, wirken kleine Unterschiede riesig. Das ist ein beliebter Trick!": "If the y-axis doesn't start at 0, small differences look huge. That's a popular trick!",
- "★ Expedition Ich erkenne getrickste Diagramme an der y-Achse.": "<span class=\"badge expedition\">★ Expedition</span> I can spot tricky charts by looking at the y-axis.",
  "Üben Das Stromtarif-Duell": "<span class=\"badge ueben\">Üben</span> The electricity tariff duel",
  "Strom kostet zweimal: einen Grundpreis jeden Monat und einen Preis für jede kWh.": "Electricity costs twice: a <strong>basic price</strong> every month and a price for every <strong>kWh</strong>.",
  "ODS Üben: Stromtarif-Duellk8-06-diagramme-mehr-stromtarif-duell.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Electricity tariff duel</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>",
@@ -120,5 +112,5 @@
  "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ Fill B6 to D6 down (to D8)",
  "Erst nach rechts ausfüllen, bis D6!": "First fill to the right, up to D6!",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Not finished yet: {} cells are empty. Keep dragging the selected range until everything up to D8 is full.",
- "Eine lange Zahlenliste liest kaum jemand gern. Ein Diagramm zeigt auf einen Blick, was größer ist oder wie sich etwas entwickelt. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du jeden Tag, im Wetterbericht und in den Nachrichten.": "Hardly anyone likes reading a long list of numbers. A chart shows at a glance what is bigger or how something develops. You learn when a column, a pie or a line chart fits. You see charts every day, in the weather forecast and in the news."
+ "Viele Zahlen in einer Liste sind schwer zu lesen. Ein Diagramm zeigt sie als Bild. Dann siehst du sofort, was größer ist. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du oft, zum Beispiel im Wetterbericht.": "Lots of numbers in a list are hard to read. A chart shows them as a picture. Then you see straight away what is bigger. You learn when a column, a pie or a line fits. You often see charts, for example in the weather forecast."
 }

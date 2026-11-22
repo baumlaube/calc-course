@@ -2,9 +2,6 @@
  "Brutto und Netto · Calc-Kurs Zusatzmodul": "Брутто и нетто · Курс Calc, дополнительный модуль",
  "Brutto und Netto – was bleibt vom Ausbildungsgehalt?": "Brutto und Netto (брутто и нетто) – что остаётся от зарплаты ученика?",
  "Vorwissen: Prozentrechnung, $-Anker": "Нужно знать: проценты, якорь $",
- "Ich kann erklären, was Brutto und Netto bedeutet.": "Я умею объяснить, что означают Brutto (брутто) и Netto (нетто).",
- "Ich kann die Abzüge mit Prozentsätzen und $ berechnen.": "Я считаю вычеты с процентами и знаком <code>$</code>.",
- "Ich kann ausrechnen, wie viel am Monatsende übrig bleibt.": "Я определяю, сколько остаётся в конце месяца.",
  "💡 Im Ausbildungsvertrag steht: 1.050 € im Monat.": "💡 В договоре об обучении написано: <strong>1050 € в месяц</strong>.",
  "Überleg: Wie viel kommt ungefähr aufs Konto?": "<strong>Подумай:</strong> примерно сколько приходит на банковский счёт?",
  "etwa 830 €": "примерно 830 €",
@@ -46,5 +43,5 @@
  "Gesamtsatz in B2 = 21 %. Welche Formel ergibt direkt das Netto von B6?": "Общая ставка в B2 = 21 %. Какая формула сразу даёт нетто из B6?",
  "100 % − 21 % = 79 % bleiben – wie beim Rabatt.": "100 % − 21 % = остаётся 79 % – как скидка.",
  "Brutto 1.000 €, Abzüge 21 %. Wie viel Netto?": "Брутто 1000 €, вычеты 21 %. Сколько нетто?",
- "Im Ausbildungsvertrag steht ein Gehalt, auf dem Konto kommt weniger an. Du lernst, was Brutto und Netto bedeutet und welche Abzüge es gibt. Dann rechnest du aus, was dir am Monatsende wirklich bleibt.": "В договоре об обучении указана одна зарплата, а на счёт приходит меньше. Ты узнаешь, что значат Brutto и Netto (до и после вычетов) и какие бывают вычеты. Потом считаешь, что действительно остаётся у тебя в конце месяца."
+ "Im Ausbildungsvertrag steht ein Lohn. Auf dem Konto kommt aber weniger an. Du lernst, was Brutto und Netto heißt und was abgezogen wird. Dann rechnest du aus, wie viel Geld dir wirklich bleibt.": "В договоре об обучении указана зарплата. Но на счёт приходит меньше. Ты узнаешь, что значат Brutto и Netto (до и после вычетов) и что вычитается. Потом считаешь, сколько денег действительно остаётся."
 }

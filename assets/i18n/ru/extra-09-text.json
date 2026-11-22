@@ -2,9 +2,6 @@
  "Text-Tricks · Calc-Kurs Zusatzmodul": "Хитрости с текстом · Курс Calc, дополнительный модуль",
  "Text-Tricks – Namen und E-Mail-Adressen bauen": "Хитрости с текстом – составлять имена и адреса e-mail",
  "Vorwissen: Formeln, WENN": "Нужно знать: формулы, WENN",
- "Ich klebe Texte mit & zusammen.": "Я соединяю тексты знаком <code>&amp;</code>.",
- "Ich zerlege und prüfe Texte mit LINKS, KLEIN und LÄNGE.": "Я разбираю и проверяю тексты с помощью LINKS (ЛЕВСИМВ), KLEIN (СТРОЧН) и LÄNGE (ДЛСТР).",
- "Ich baue automatisch Benutzernamen und E-Mail-Adressen.": "Я автоматически составляю имена пользователей и адреса e-mail.",
  "💡 In C2 kommt: =A2&B2": "💡 C2 получает: <code>=A2&amp;B2</code>",
  "Lea Müller": "Lea Müller",
  "LeaMüller": "LeaMüller",
@@ -46,5 +43,5 @@
  "Von rechts nach links": "Справа налево",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "Сначала LINKS, потом &amp;, в конце KLEIN.",
  "Gar nicht": "Никак",
- "Für 25 Schüler Benutzernamen von Hand tippen? Das dauert und bringt Tippfehler. Mit & und Funktionen wie LINKS und KLEIN baut Calc solche Texte selbst aus Vor- und Nachnamen. So legen Schulen und Firmen Zugänge für viele Personen an.": "Вводить вручную имена пользователей для 25 учеников? Это долго и с опечатками. С помощью <code>&amp;</code> и функций вроде <code>LINKS</code> (ЛЕВСИМВ) и <code>KLEIN</code> (СТРОЧН) Calc сам составляет такие тексты из имён и фамилий. Так школы и фирмы создают доступы для многих людей."
+ "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "Вводить вручную имена пользователей для 25 учеников? Это долго, и легко ошибиться. Calc сам составляет такие имена из имени и фамилии с помощью <code>&amp;</code>, <code>LINKS</code> (ЛЕВСИМВ) и <code>KLEIN</code> (СТРОЧН). Так делают и школы, и фирмы."
 }

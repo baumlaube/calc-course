@@ -2,9 +2,6 @@
  "ZÄHLENWENN · Calc-Kurs Zusatzmodul": "ZÄHLENWENN (LICZ.JEŻELI) · Kurs Calc moduł dodatkowy",
  "ZÄHLENWENN – zählen, was passt": "ZÄHLENWENN (LICZ.JEŻELI) – policz, co pasuje",
  "Vorwissen: WENN, $-Anker": "Potrzebujesz: WENN, kotwica $",
- "Ich kann mit ZÄHLENWENN zählen, wie oft etwas vorkommt.": "Umiem policzyć za pomocą <code>ZÄHLENWENN</code>, ile razy coś występuje.",
- "Ich kann Kriterien wie \"Sport\", \">=4\" oder eine Zelle benutzen.": "Umiem używać kryteriów jak <code>\"Sport\"</code>, <code>\"&gt;=4\"</code> albo komórki.",
- "Ich kann mit SUMMEWENN nur passende Beträge addieren.": "Umiem dodać tylko pasujące kwoty za pomocą <code>SUMMEWENN</code> (SUMA.JEŻELI).",
  "💡 Acht Schüler haben ihr Lieblingsfach genannt. In D2 kommt: =ZÄHLENWENN(B2:B9;\"Sport\")": "💡 Ośmioro uczniów podało ulubiony przedmiot. D2 dostaje: <code class=\"long\">=ZÄHLENWENN(B2:B9;\"Sport\")</code>",
  "Überleg: Was zeigt D2?": "<strong>Pomyśl:</strong> Co pokazuje D2?",
  "2 So zählt Calc 7 Min": "<span class=\"step-no\">2</span> Jak Calc liczy <span class=\"chip\">7 min</span>",
@@ -57,5 +54,5 @@
  "Gesucht wird in B, addiert wird aus C.": "Szuka w B i dodaje z C.",
  "Anführungszeichen um D5": "Cudzysłów wokół D5",
  "Ein $ bei D5": "$ przy D5",
- "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "Ile osób w klasie najbardziej lubi WF? Ile ocen jest lepszych niż 3? <code>ZÄHLENWENN</code> (LICZ.JEŻELI) liczy tylko komórki pasujące do twojego warunku. <code>SUMMEWENN</code> (SUMA.JEŻELI) dodaje tylko pasujące kwoty, na przykład wszystkie wydatki na jedzenie."
+ "Wie viele in der Klasse mögen Sport am liebsten? ZÄHLENWENN zählt nur die Zellen, die passen. SUMMEWENN zählt nur passende Beträge zusammen, zum Beispiel alles, was du für Essen ausgegeben hast.": "Ile osób w klasie najbardziej lubi WF? <code>ZÄHLENWENN</code> (LICZ.JEŻELI) liczy tylko pasujące komórki. <code>SUMMEWENN</code> (SUMA.JEŻELI) dodaje tylko pasujące kwoty, na przykład wszystko, co wydano na jedzenie."
 }

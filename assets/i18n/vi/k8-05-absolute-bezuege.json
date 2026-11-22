@@ -3,9 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Địa chỉ tuyệt đối – dấu $ như cái neo",
  "Klasse 8 · Baustein 5": "Lớp 8 · Bài 5",
  "Vorwissen: Formeln ausfüllen": "Cần biết trước: điền công thức",
- "Ich kann erklären, warum ein Zellbezug beim Ausfüllen „wandert“.": "Mình giải thích được tại sao địa chỉ ô „di chuyển“ khi điền.",
- "Ich kann mit dem $-Zeichen einen Bezug festhalten.": "Mình giữ cố định được một địa chỉ bằng dấu <code>$</code>.",
- "Ich kann entscheiden, wann ich ein $ brauche – und wann nicht.": "Mình quyết định được khi nào cần <code>$</code> – và khi nào không.",
  "kurz für Zellbezug: der Name einer Zelle in einer Formel, z. B. B2": "<strong>địa chỉ</strong> – viết tắt của Zellbezug: tên của một ô trong công thức, ví dụ <code>B2</code>",
  "sich beim Ausfüllen ändern: B5 → B6 → B7": "<strong>di chuyển theo</strong> – thay đổi khi điền: <code>B5</code> → <code>B6</code> → <code>B7</code>",
  "Ein Anker hält ein Schiff fest. Das $ hält eine Zelle fest.": "<strong>cái neo</strong> – Cái neo giữ con tàu đứng yên. Dấu <code>$</code> giữ một ô đứng yên.",
@@ -43,11 +40,6 @@
  "Schnell gesetzt: In der Formel auf den Bezug klicken und Umschalt + F4 drücken.": "Đặt nhanh: bấm vào địa chỉ trong công thức rồi nhấn <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd>.",
  "Profi-Trick: Eine Zelle im Namenfeld benennen, z. B. Lohn. Ein Name bleibt beim Ausfüllen fest.": "Mẹo của dân chuyên: đặt tên cho một ô trong <strong>Namenfeld</strong> (hộp tên), ví dụ <code>Lohn</code>. Tên giữ cố định khi điền.",
  "Faustregel: Zeigt die Formel auf EINE feste Zelle (Preis, Lohn, Anzahl …), braucht sie ein $.": "<strong>Quy tắc đơn giản:</strong> Nếu công thức trỏ tới MỘT ô cố định (giá, tiền công, số lượng …), nó cần <code>$</code>.",
- "Ich kann erklären, warum =B5*B2 beim Ausfüllen kaputtgeht.": "Mình giải thích được tại sao <code>=B5*B2</code> bị hỏng khi điền.",
- "Ich kann mit $ (oder Umschalt+F4) einen Bezug festhalten.": "Mình giữ cố định được một địa chỉ bằng <code>$</code> (hoặc <kbd>Umschalt</kbd>+<kbd>F4</kbd>).",
- "Ich erkenne, wann eine Formel ein $ braucht.": "Mình nhận ra khi nào một công thức cần <code>$</code>.",
- "Plus Ich finde versteckte Fehler in fremden Tabellen.": "<span class=\"badge plus\">Plus</span> Mình tìm được lỗi bị giấu trong bảng của người khác.",
- "★ Expedition Ich kann gemischte Bezüge wie $A2 und B$1 benutzen.": "<span class=\"badge expedition\">★ Expedition</span> Mình dùng được địa chỉ hỗn hợp như <code>$A2</code> và <code>B$1</code>.",
  "Üben Der Steuer-Schalter": "<span class=\"badge ueben\">Üben</span> Công tắc thuế",
  "Der Steuersatz steht nur einmal, in B1. Alle Formeln holen ihn sich von dort.": "Thuế suất chỉ được ghi một lần, trong B1. Tất cả công thức đều lấy nó từ đó.",
  "C4: Steuer = Netto × Steuersatz, mit $.": "C4: thuế = giá chưa thuế × thuế suất, có <code>$</code>.",
@@ -150,5 +142,5 @@
  "SUMME zählt alles zusammen. Gesucht ist die kleinste Zahl.": "SUMME cộng tất cả. Cần tìm số nhỏ nhất.",
  "Die schnellste Zeit ist der kleinste Wert, also MIN.": "Thời gian nhanh nhất là giá trị nhỏ nhất, tức là MIN.",
  "66,00 € (6 × 11 €)": "66,00 € (6 × 11 €)",
- "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "Khi điền, mỗi địa chỉ ô di chuyển theo. Thường thì như vậy là đúng. Nhưng có những giá trị áp dụng cho tất cả các hàng, ví dụ tiền công mỗi giờ. Với dấu <code>$</code> bạn giữ cố định một ô như vậy. Khi tiền công thay đổi, bạn chỉ sửa một ô và cả bảng tính lại."
+ "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Khi kéo, công thức di chuyển theo. Thường thì như vậy là đúng. Nhưng có những ô phải áp dụng cho tất cả các hàng, ví dụ tiền công mỗi giờ. Với dấu <code>$</code> bạn giữ cố định một ô như vậy."
 }

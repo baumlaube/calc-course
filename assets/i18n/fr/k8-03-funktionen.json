@@ -3,9 +3,6 @@
  "Funktionen – ganze Bereiche auf einmal": "Fonctions – des plages entières d'un coup",
  "Klasse 8 · Baustein 3": "8e année · Unité 3",
  "Vorwissen: Formeln mit Zellen": "Prérequis : formules avec des cellules",
- "Ich kann mit SUMME einen ganzen Bereich zusammenzählen.": "J'additionne une plage entière avec <strong>SUMME</strong> (somme).",
- "Ich kann MITTELWERT, MIN und MAX benutzen.": "J'utilise <strong>MITTELWERT</strong> (moyenne), <strong>MIN</strong> et <strong>MAX</strong>.",
- "Ich kann einen Bereich wie B5:B9 schreiben oder mit der Maus markieren.": "J'écris une plage comme <code>B5:B9</code> ou je la sélectionne avec la souris.",
  "💡 Du kennst das schon: =B5+B6+B7+B8+B9 zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es Funktionen.In B10 steht: =SUMME(B5:B9)": "💡 <strong>Tu connais déjà ça :</strong> <code>=B5+B6+B7+B8+B9</code> additionne cinq jours. Mais avec 365 jours ? C'est à ça que servent les <strong>fonctions</strong>.<br/>B10 contient : <code>=SUMME(B5:B9)</code>",
  "Überleg: Was bedeutet B5:B9?": "<strong>Réfléchis :</strong> que veut dire <code>B5:B9</code> ?",
  "Nur B5 und B9": "Seulement B5 et B9",
@@ -39,11 +36,6 @@
  "★ Expedition: Würfeln mit Calc freiwillig": "<span class=\"step-no\">★</span> Expédition : lancer des dés avec Calc <span class=\"badge expedition\">facultatif</span>",
  "Jeder Würfel oben ist eine Formel: =ZUFALLSBEREICH(1;6). Berechne in B7 den Durchschnitt aller 20 Würfe. Dann würfle ein paar Mal neu.": "Chaque dé ci-dessus est une formule : <code>=ZUFALLSBEREICH(1;6)</code> (alea entre bornes). Calcule dans B7 la moyenne des 20 lancers. Puis relance plusieurs fois.",
  "Neu: Ein Bereich kann auch ein Rechteck sein: B2:F5 heißt von B2 oben links bis F5 unten rechts.": "Nouveau : une plage peut aussi être un rectangle : <code>B2:F5</code> veut dire de B2 en haut à gauche à F5 en bas à droite.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren.": "Je lis et sélectionne une plage comme <code>B5:B9</code>.",
- "Ich kann SUMME, MITTELWERT, MIN und MAX benutzen.": "J'utilise SUMME, MITTELWERT, MIN et MAX.",
- "Ich weiß, wann ich welche Funktion brauche.": "Je sais quelle fonction il me faut et quand.",
- "Plus Ich kann ANZAHL benutzen und zwei Funktionen in einer Formel verbinden.": "<span class=\"badge plus\">Plus</span> J'utilise ANZAHL (nombre) et je combine deux fonctions dans une formule.",
- "Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">Expedition</span> J'analyse des plages rectangulaires comme <code>B2:F5</code>.",
  "← 2 · Erste Formeln": "← 2 · Premières formules",
  "4 · Ausfüllen →": "4 · Recopier →",
  "Der Doppelpunkt heißt „bis“. Schau auf den farbigen Rahmen: B5:B9 umfasst alle fünf Zellen von B5 bis B9.": "Les deux-points veulent dire <strong>« jusqu'à »</strong>. Regarde le cadre coloré : <code>B5:B9</code> comprend les cinq cellules de B5 à B9.",
@@ -83,9 +75,6 @@
  "PlusAufgabe 1c · Summen-Fallen: Wann der Σ-Knopf danebenliegt.": "<span class=\"badge plus\">Plus</span><span><strong>Exercice 1c · Pièges de la somme :</strong> quand le bouton Σ se trompe.</span>",
  "Bereich markieren: Nach =SUMME( mit gedrückter Maustaste von B5 bis B9 ziehen. Lange Liste: erste Zahl anklicken, dann Strg + ⇧ + ↓.": "Sélectionner une plage : après <code>=SUMME(</code>, garde le bouton de la souris enfoncé et fais glisser de B5 à B9. Longue liste : clique sur le premier nombre, puis <kbd>Strg</kbd> + <kbd>⇧</kbd> + <kbd>↓</kbd>.",
  "Der Σ-Knopf rät den Bereich. Rahmen prüfen, dann erst Enter.": "Le bouton Σ devine la plage. <strong>Vérifie le cadre</strong>, et seulement ensuite <kbd>Enter</kbd>.",
- "Ich kann einen Bereich wie B5:B9 lesen und markieren, auch eine lange Liste.": "Je sais lire et sélectionner une plage comme <code>B5:B9</code>, même une longue liste.",
- "Ich prüfe den Vorschlag vom Σ-Knopf, bevor ich Enter drücke.": "Je vérifie la proposition du bouton Σ avant d'appuyer sur <kbd>Enter</kbd>.",
- "★ Expedition Ich kann Rechteck-Bereiche wie B2:F5 auswerten.": "<span class=\"badge expedition\">★ Expedition</span> Je sais analyser des plages rectangulaires comme <code>B2:F5</code>.",
  "Üben Mein Zeugnis-Schnitt": "<span class=\"badge ueben\">Üben</span> Ma moyenne au bulletin",
  "In Bayern zählen die Schulaufgaben (SA) doppelt. Spalte J zeigt den normalen Durchschnitt. Was steht im Zeugnis?": "En Bavière, les Schulaufgaben (SA, grands contrôles) comptent <strong>double</strong>. La colonne J montre la moyenne normale. Qu'est-ce qui figure au bulletin ?",
  "=(2*SUMME(B2:D2)+SUMME(E2:I2))/113 SA doppelt = 6, dazu 5 andere Noten = 11": "<code>=(2*SUMME(B2:D2)+SUMME(E2:I2))/11</code><br/>3 SA en double = 6, plus 5 autres notes = 11",
@@ -133,5 +122,5 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>moyenne</strong> – tout additionner et diviser par le nombre de valeurs. Dans Calc : <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>valeur</strong> – ce qu'il y a dans une cellule, le plus souvent un nombre",
  "Zellen mit der Maus auswählen": "<strong>sélectionner</strong> – choisir des cellules avec la souris",
- "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Cinq nombres, tu les additionnes encore avec <code>+</code>. Avec 30 notes ou 365 jours, ça devient pénible. Des fonctions comme <code>SUMME</code> (SOMME), <code>MITTELWERT</code> (MOYENNE), <code>MIN</code> et <code>MAX</code> calculent toute une plage d’un coup. Avec <code>MITTELWERT</code>, tu calcules par exemple ta moyenne."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Cinq nombres, tu peux les additionner avec <code>+</code>. Mais 30 notes ? Ou 365 jours ? C’est trop long. Une fonction comme <code>SUMME</code> (SOMME) calcule beaucoup de cellules d’un coup. Avec <code>MITTELWERT</code> (MOYENNE), tu calcules par exemple ta moyenne."
 }

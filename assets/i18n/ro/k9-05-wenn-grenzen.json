@@ -3,9 +3,6 @@
  "WENN 3 – Grenzen in eigenen Zellen": "WENN 3 (DACĂ 3) – limite în celule proprii",
  "Klasse 9 · Baustein 5": "Clasa a 9-a · Unitatea 5",
  "Teil 3 von 3 zu WENN": "Partea 3 din 3 despre WENN (DACĂ)",
- "Ich kann Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "Pot scrie limitele într-o celulă proprie și le pot fixa cu <code>$</code>.",
- "Ich kann WENN-Formeln mit Text, Zahlen und Rechnungen sicher schreiben.": "Pot scrie sigur formule WENN cu text, numere și calcule.",
- "Ich kann eine Probe-Aufgabe zu WENN allein lösen.": "Pot rezolva singur o sarcină de test despre WENN.",
  "💡 Beim Erste-Hilfe-Quiz hat bestanden, wer mindestens 15 Punkte hat. In Spalte C steht überall so eine Formel: =WENN(B5>=15;\"bestanden\";\"durchgefallen\")": "💡 La quizul de prim ajutor a promovat oricine a avut cel puțin 15 puncte. În coloana C e peste tot o formulă ca asta: <code class=\"long\">=WENN(B5&gt;=15;\"bestanden\";\"durchgefallen\")</code>",
  "Überleg: Neue Regel – bestanden erst ab 16 Punkten. Wie viele Zellen musst du ändern?": "<strong>Gândește-te:</strong> Regulă nouă – promovat abia de la <strong>16</strong> puncte. Câte celule trebuie să schimbi?",
  "nur eine": "doar una",
@@ -37,11 +34,6 @@
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> Expediție: UND (ȘI) <span class=\"badge expedition\">opțional</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> e adevărat doar dacă <strong>amândouă</strong> sunt adevărate.<br/>Cu <code>ODER(…; …)</code> (SAU) ajunge una.",
  "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "E zi de ștrand dacă sunt <strong>cel puțin 25 °C</strong> <strong>și</strong> nu plouă. Scrie în D5 o formulă WENN cu UND și umple-o în jos.",
- "Ich schreibe Grenzen in eine eigene Zelle und nehme sie mit $.": "Scriu limitele în celula lor și le folosesc cu <code>$</code>.",
- "Ich wähle das richtige Vergleichszeichen, z. B. >= für „ab“.": "Aleg semnul de comparație potrivit, de exemplu <code>&gt;=</code> pentru „de la”.",
- "Ich setze Text in Anführungszeichen und Zahlen ohne.": "Pun textul între ghilimele, numerele fără.",
- "Plus Ich löse Probe-Aufgaben zu WENN ohne Vorlage.": "<span class=\"badge plus\">Plus</span> Rezolv sarcini de test despre WENN fără model.",
- "Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">Expedition</span> Pot combina WENN cu UND.",
  "← 4 · WENN 2": "← 4 · WENN 2 (DACĂ 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (formatare condiționată) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -89,7 +81,6 @@
  "eine Fehlermeldung": "un mesaj de eroare",
  "viel": "viel (mult)",
  "wenig": "wenig (puțin)",
- "★ Expedition Ich kann WENN mit UND kombinieren.": "<span class=\"badge expedition\">★ Expedition</span> Pot combina WENN cu UND (ȘI).",
  "Üben Wochenlohn mit Überstunden": "<span class=\"badge ueben\">Üben</span> Salariul săptămânal cu ore suplimentare",
  "Bis 38,5 Stunden gibt es den normalen Stundenlohn. Jede Stunde mehr ist eine Überstunde mit 30 % Zuschlag. Tarif und Zuschlag stehen in blauen Zellen.": "Până la 38,5 ore se plătește salariul orar normal. Fiecare oră în plus e oră suplimentară cu un spor de 30 %. Norma de ore și sporul sunt în celule albastre.",
  "=WENN(B6>=$B$2;$B$2*C6;B6*C6) – hier wird in Dann und Sonst gerechnet.": "<code class=\"long\">=WENN(B6&gt;=$B$2;$B$2*C6;B6*C6)</code> – aici se calculează în <strong>Dann</strong> (atunci) și <strong>Sonst</strong> (altfel).",
@@ -119,5 +110,5 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Încă nu ai ajuns jos. Mai sunt goale: {}. Trage de la C5 până la C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Lunea e corectă! Acum trage de <strong>Ausfüllkästchen</strong> (mânerul de umplere) în jos până la D7.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Încă nu ai ajuns jos. Trage de la D5 până la D7.",
- "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Regulile se schimbă: mâine poate e nevoie de 16 puncte în loc de 15. Dacă pragul e într-o celulă separată, îl schimbi într-un singur loc și toate formulele se recalculează. La final rezolvi singur sarcini cu <code>WENN</code>, ca la test."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Regulile se schimbă. Azi ai nevoie de 15 puncte, mâine poate de 16. De aceea scrie pragul într-o celulă separată. Atunci schimbi doar această celulă și toate formulele se recalculează. La final rezolvi singur sarcini cu <code>WENN</code>, ca la test."
 }

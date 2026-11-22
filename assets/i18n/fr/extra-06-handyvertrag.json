@@ -3,9 +3,6 @@
  "Projekt: Welcher Handyvertrag passt zu mir?": "Projet : quel forfait mobile me convient ?",
  "Zusatzmodul · Projekt": "Module supplémentaire · projet",
  "Vorwissen: WENN, $-Anker, Diagramme": "Prérequis : WENN, ancre $, graphiques",
- "Ich kann Tarife mit WENN und MIN vergleichen.": "Je compare des forfaits avec WENN et MIN.",
- "Ich kann Kosten über zwei Jahre berechnen.": "Je calcule des coûts sur deux ans.",
- "Ich kann meine Entscheidung mit Zahlen und einem Diagramm begründen.": "Je justifie ma décision avec des nombres et un graphique.",
  "📱 Euer Auftrag": "<span class=\"step-no\">📱</span> Ta mission",
  "Vier Tarife, ein Ziel: Welcher ist für euren Datenbedarf über zwei Jahre am günstigsten? Die Tarife sind ausgedacht – die Rechnung ist echt.": "Quatre forfaits, un objectif : lequel est le moins cher <strong>pour tes besoins en données</strong> sur deux ans ? Les forfaits sont inventés – les calculs sont réels.",
  "ODS Projektdateix06-handyvertrag.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Projektdatei</strong> (fichier de projet)<small>x06-handyvertrag.ods</small></span>",
@@ -44,5 +41,5 @@
  "Kosten in 2 Jahren bei {} GB": "Coût sur 2 ans pour {} Go",
  "Am günstigsten: {} mit {}.": "Le moins cher : <strong>{}</strong> avec {}.",
  "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Pas assez de données (même avec l'option) : {}.",
- "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Chaque opérateur vante le forfait le moins cher. Lequel te convient vraiment ? Dans ce projet, tu compares les forfaits sur deux ans avec <code>WENN</code> (SI) et <code>MIN</code> et tu justifies ton choix avec des chiffres et un graphique."
+ "Jeder Anbieter sagt: Unser Tarif ist der beste. Welcher passt wirklich zu dir? Du vergleichst Tarife über zwei Jahre mit WENN und MIN. Deine Wahl zeigst du mit Zahlen und einem Diagramm.": "Chaque opérateur dit : notre forfait est le meilleur. Lequel te convient vraiment ? Tu compares les forfaits sur deux ans avec <code>WENN</code> (SI) et <code>MIN</code>. Tu montres ton choix avec des chiffres et un graphique."
 }

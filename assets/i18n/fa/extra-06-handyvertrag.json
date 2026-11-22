@@ -3,9 +3,6 @@
  "Projekt: Welcher Handyvertrag passt zu mir?": "پروژه: کدام قرارداد موبایل مناسب من است؟",
  "Zusatzmodul · Projekt": "ماژول اضافی · پروژه",
  "Vorwissen: WENN, $-Anker, Diagramme": "لازم: WENN، لنگر $، نمودارها",
- "Ich kann Tarife mit WENN und MIN vergleichen.": "می‌توانم تعرفه‌ها را با WENN و MIN مقایسه کنم.",
- "Ich kann Kosten über zwei Jahre berechnen.": "می‌توانم هزینه‌ها را برای دو سال حساب کنم.",
- "Ich kann meine Entscheidung mit Zahlen und einem Diagramm begründen.": "می‌توانم تصمیمم را با عدد و نمودار توضیح بدهم.",
  "📱 Euer Auftrag": "<span class=\"step-no\">📱</span> کار تو",
  "Vier Tarife, ein Ziel: Welcher ist für euren Datenbedarf über zwei Jahre am günstigsten? Die Tarife sind ausgedacht – die Rechnung ist echt.": "چهار تعرفه، یک هدف: کدام در دو سال <strong>برای مصرف اینترنت تو</strong> ارزان‌ترین است؟ تعرفه‌ها ساختگی هستند – ریاضی واقعی است.",
  "ODS Projektdateix06-handyvertrag.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Projektdatei</strong> (فایل پروژه)<small>x06-handyvertrag.ods</small></span>",
@@ -44,5 +41,5 @@
  "Kosten in 2 Jahren bei {} GB": "هزینه در 2 سال با {} GB",
  "Am günstigsten: {} mit {}.": "ارزان‌ترین: <strong>{}</strong> با {}.",
  "Zu wenig Daten (auch mit Zusatzpaket): {}.": "اینترنت کافی نیست (حتی با بستهٔ اضافی): {}.",
- "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "هر شرکتی ارزان‌ترین تعرفه را تبلیغ می‌کند. کدام واقعاً به تو می‌خورد؟ در این پروژه تعرفه‌ها را در دو سال با <code>WENN</code> (IF) و <code>MIN</code> مقایسه می‌کنی و انتخابت را با عدد و نمودار توضیح می‌دهی."
+ "Jeder Anbieter sagt: Unser Tarif ist der beste. Welcher passt wirklich zu dir? Du vergleichst Tarife über zwei Jahre mit WENN und MIN. Deine Wahl zeigst du mit Zahlen und einem Diagramm.": "هر شرکتی می‌گوید: تعرفهٔ ما بهترین است. کدام واقعاً به تو می‌خورد؟ تعرفه‌ها را در دو سال با <code>WENN</code> (IF) و <code>MIN</code> مقایسه می‌کنی. انتخابت را با عدد و نمودار نشان می‌دهی."
 }

@@ -3,9 +3,6 @@
  "Projekt: Wir planen die Klassenfahrt": "Dự án: Chúng ta lên kế hoạch chuyến đi của lớp",
  "Klasse 8 · Baustein 7–8": "Lớp 8 · Bài 7–8",
  "Vorwissen: Baustein 1–6": "Cần biết trước: bài 1–6",
- "Ich kann alles aus Baustein 1 bis 6 in einem echten Projekt anwenden.": "Mình áp dụng được mọi thứ từ bài 1 đến 6 trong một dự án thật.",
- "Ich kann einen Kostenplan mit Formeln, SUMME und absoluten Bezügen erstellen.": "Mình lập được bảng chi phí với công thức, SUMME và địa chỉ tuyệt đối.",
- "Ich kann Ergebnisse mit einem Diagramm zeigen und eine Entscheidung begründen.": "Mình trình bày được kết quả bằng biểu đồ và giải thích được lý do cho một quyết định.",
  "eine Tabelle: Was kostet wie viel?": "<strong>bảng chi phí</strong> – một bảng: cái gì giá bao nhiêu?",
  "eine Zeile im Kostenplan, z. B. Bus oder Essen": "<strong>khoản</strong> – một hàng trong bảng chi phí, ví dụ xe buýt hoặc ăn uống",
  "alle Kosten zusammen": "<strong>tổng chi phí</strong> – tất cả chi phí cộng lại",
@@ -66,11 +63,6 @@
  "Für Lehrkräfte: ★ = 1, ★★ = 2, ★★★ = 3 Punkte je Zeile. Ohne Plus sind es 15 Punkte, mit Plus 18.": "Dành cho giáo viên: ★ = 1, ★★ = 2, ★★★ = 3 điểm mỗi hàng. Không có Plus là 15 điểm, có Plus là 18.",
  "Rückblick auf Klasse 8": "Nhìn lại lớp 8",
  "Hak ab, was du jetzt kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.": "Đánh dấu những gì bây giờ bạn làm được. Chỉ thiết bị của bạn ghi nhớ điều này, không có gì được gửi đi.",
- "Ich kann einen Kostenplan mit Formeln aufbauen.": "Mình lập được bảng chi phí với công thức.",
- "Ich setze SUMME, Ausfüllen und $ sinnvoll ein.": "Mình dùng SUMME, điền tự động và <code>$</code> một cách hợp lý.",
- "Ich gestalte Tabellen so, dass andere sie gut lesen können.": "Mình trình bày bảng sao cho người khác dễ đọc.",
- "Ich wähle das passende Diagramm und lese es richtig.": "Mình chọn biểu đồ phù hợp và đọc đúng.",
- "Plus Ich kann zwei Angebote vergleichen und meine Entscheidung begründen.": "<span class=\"badge plus\">Plus</span> Mình so sánh được hai báo giá và giải thích lý do cho quyết định của mình.",
  "★ Expedition Was wäre, wenn …?": "<span class=\"badge expedition\">★ Expedition</span> Nếu như … thì sao?",
  "Der Bus kostet immer 1.450 €, egal wie viele mitfahren. Alles andere kostet 186,50 € pro Person. Was heißt das für den Preis pro Kopf?": "Xe buýt luôn có giá <strong>1.450 €</strong>, dù có bao nhiêu người đi. Mọi thứ khác có giá <strong>186,50 € mỗi người</strong>. Điều đó có nghĩa gì với giá mỗi người?",
  "Teilnehmende:": "Người tham gia:",
@@ -81,5 +73,5 @@
  "{} pro Person": "<strong>{}</strong> mỗi người",
  "Preis pro Person": "Giá mỗi người",
  "· unter 250 € 🎉": " · dưới 250 € 🎉",
- "Jetzt setzt du alles aus Klasse 8 zusammen. Ihr plant eine Klassenfahrt: Kosten pro Person ausrechnen, Angebote vergleichen und die Entscheidung mit einem Diagramm begründen. Diese Rechnung muss vor jeder echten Klassenfahrt jemand machen.": "Bây giờ bạn kết hợp tất cả những gì đã học ở lớp 8. Các bạn lên kế hoạch chuyến đi của lớp: tính chi phí mỗi người, so sánh các báo giá và giải thích quyết định bằng biểu đồ. Trước mỗi chuyến đi thật của lớp, phải có người làm phép tính này."
+ "Jetzt brauchst du alles aus Klasse 8. Ihr plant eine Klassenfahrt: Ihr rechnet die Kosten pro Person aus, vergleicht Angebote und zeigt eure Entscheidung in einem Diagramm. So eine Rechnung braucht jede echte Klassenfahrt.": "Bây giờ bạn cần tất cả những gì đã học ở lớp 8. Các bạn lên kế hoạch chuyến đi của lớp: tính chi phí mỗi người, so sánh các báo giá và trình bày quyết định bằng biểu đồ. Chuyến đi thật nào của lớp cũng cần một phép tính như vậy."
 }

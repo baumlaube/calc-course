@@ -3,9 +3,6 @@
  "Erste Schritte – Zellen, Eingeben, Formatieren": "Перші кроки – клітинки, введення, форматування",
  "Klasse 8 · Baustein 1": "8 клас · Модуль 1",
  "Vorwissen: keins": "Попередні знання: не потрібні",
- "Ich kann jede Zelle mit ihrer Adresse finden und benennen.": "Я вмію знайти кожну клітинку за її адресою і назвати її.",
- "Ich kann Text und Zahlen richtig eingeben.": "Я вмію правильно вводити текст і числа.",
- "Ich kann eine Tabelle übersichtlich formatieren.": "Я вмію гарно і зрозуміло оформити таблицю.",
  "1 Zellen-Jagd 5 Min": "<span class=\"step-no\">1</span> Полювання на клітинки <span class=\"chip\">5 хв</span>",
  "Eine Tabelle ist wie das Spielfeld bei „Schiffe versenken“: Jedes Kästchen hat eine Adresse. Findest du sie?": "Таблиця – як поле в грі «Морський бій»: кожна клітинка має адресу. Знайдеш її?",
  "Klick auf:": "Клацни на:",
@@ -51,11 +48,6 @@
  "Du springst ans Ende einer Zeile.": "Ти переходиш у кінець рядка.",
  "Strg + Pos1": "<kbd>Strg</kbd> (Ctrl) + <kbd>Pos1</kbd> (Home)",
  "Du springst zurück nach A1.": "Ти повертаєшся до A1.",
- "Ich finde jede Zelle über ihre Adresse, z. B. C4.": "Я знаходжу кожну клітинку за адресою, напр. <code>C4</code>.",
- "Ich kann Text und Zahlen eingeben und korrigieren.": "Я вмію вводити і виправляти текст і числа.",
- "Ich erkenne, ob Calc etwas als Zahl oder als Text gespeichert hat.": "Я бачу, чи Calc зберіг щось як число чи як текст.",
- "Ich kann Schrift, Farbe, Währung, Spaltenbreite und Rahmen einstellen.": "Я вмію налаштувати шрифт, колір, валюту, ширину стовпця і рамки.",
- "Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">Expedition</span> Я пересуваюся таблицями за допомогою <strong>Namenfeld</strong> (поле імені) і <kbd>Strg</kbd>+стрілка.",
  "← Kursübersicht": "← Огляд курсу",
  "2 · Erste Formeln →": "2 · Перші формули →",
  "geschafft!": "готово!",
@@ -91,8 +83,6 @@
  "Bei Höhe und Tempo tippst du nur die Zahl. Die Einheit kommt in die Überschrift: Ändere C1 in Höhe in m und D1 in Tempo in km/h.": "Для висоти і швидкості вводь <strong>тільки число</strong>. Одиниця йде в заголовок: зміни C1 на <code>Höhe in m</code>, а D1 на <code>Tempo in km/h</code>.",
  "PlusAufgabe 4b · Achterbahn-Notizen: Eine Angabe pro Zelle, die Einheit in die Überschrift.": "<span class=\"badge plus\">Plus</span><span><strong>Завдання 4b · Нотатки про гірки:</strong> одне значення в клітинці, одиниця в заголовку.</span>",
  "Eine Angabe pro Zelle. Einheiten wie m oder Stück gehören in die Überschrift: Höhe in m.": "<strong>Одне значення в одній клітинці.</strong> Одиниці, як-от m або Stück (штуки), пишуть у заголовку: <code>Höhe in m</code>.",
- "Ich schreibe Einheiten in die Überschrift, nicht in die Zelle.": "Я пишу одиниці в заголовку, а не в клітинці.",
- "★ Expedition Ich springe mit Namenfeld und Strg+Pfeil durch Tabellen.": "<span class=\"badge expedition\">★ Expedition</span> Я стрибаю по таблицях за допомогою Namenfeld (поле імені) і <kbd>Strg</kbd>+стрілки.",
  "Üben Das Hunderter-Puzzle": "<span class=\"badge ueben\">Üben</span> Пазл-сотня",
  "Auf der Hunderter-Tafel fehlen fünf Teile. Klick ein blaues Teil an, dann die Lücke, in die es passt.": "На таблиці до ста бракує п'яти частин. Клацни синю частину, потім пропуск, куди вона підходить.",
  "In Calc schiebst du die Teile mit der Maus: Teil markieren, auf den Rand zeigen, bis das Pfeilkreuz ✥ kommt, dann ziehen. Probier es in Calc aus – mit der Datei hier drunter.": "У Calc частини пересувають мишею: виділи частину, наведи на <strong>край</strong>, поки не з'явиться хрестик ✥, потім тягни. Спробуй у Calc – з файлом нижче.",
@@ -135,5 +125,5 @@
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>форматувати</strong> – змінювати вигляд, наприклад € або колір. Число залишається тим самим.",
  "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>знак після коми</strong> – цифра після коми. У 1,49 їх дві.",
  "Leertaste": "Leertaste (пробіл)",
- "Eine Tabellenkalkulation ist ein großes Blatt aus Kästchen. Hier lernst du, dich darin zurechtzufinden: Jede Zelle hat eine Adresse, und Text und Zahlen kommen sauber in eigene Zellen. Darauf baut alles Weitere auf. Solche Tabellen benutzt man in fast jedem Beruf, im Büro genauso wie in der Werkstatt.": "Електронна таблиця – це великий аркуш із клітинок. Тут ти вчишся в ньому орієнтуватися: кожна клітинка має адресу, а текст і числа акуратно стоять в окремих клітинках. На цьому будується все інше. Такі таблиці використовують майже в кожній професії – і в офісі, і в майстерні."
+ "Eine Tabelle besteht aus vielen Kästchen. Jedes Kästchen heißt Zelle und hat eine Adresse, zum Beispiel C4. Hier lernst du, Zellen zu finden und Text und Zahlen richtig einzutippen. Das brauchst du für alles, was danach kommt. Tabellen wie diese gibt es in fast jedem Beruf.": "Таблиця складається з багатьох клітинок. Кожна клітинка називається Zelle і має адресу, наприклад <code>C4</code>. Тут ти вчишся знаходити клітинки й правильно вводити текст і числа. Це потрібно для всього, що буде далі. Такі таблиці є майже в кожній професії."
 }

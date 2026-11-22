@@ -3,9 +3,6 @@
  "Prozentrechnung – Rabatt, Anteile, Mehrwertsteuer": "Përqindjet – zbritje, pjesë, TVSH",
  "Klasse 9 · Baustein 2": "Klasa 9 · Njësia 2",
  "Vorwissen: Prozente aus Mathe, $-Anker": "Të duhet: përqindjet nga matematika, spiranca $",
- "Ich kann Prozente in Calc richtig eingeben und als % formatieren.": "Mund të shkruaj saktë përqindjet në Calc dhe t'i formatoj si %.",
- "Ich kann Rabatt, Anteile und Mehrwertsteuer mit Formeln berechnen.": "Mund të llogaris zbritjen, pjesët dhe TVSH-në me formula.",
- "Ich kann einen Prozentsatz mit dem $-Anker für viele Zeilen benutzen.": "Mund të përdor një përqindje për shumë rreshta me spirancën <code>$</code>.",
  "💡 Aus Mathe kennst du: 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 20 %.": "💡 <strong>Nga matematika e di:</strong> 20 % e 50 € = 50 € · 20 : 100 = 10 €. Në tabelën lart, B2 tregon <strong>20 %</strong>.",
  "Überleg: Welche Zahl steht für Calc wirklich in B2?": "<strong>Mendo:</strong> Cili numër është në të vërtetë në B2 për Calc?",
  "Gar keine Zahl, sondern der Text „20 %“": "Asnjë numër, por teksti „20 %”",
@@ -31,11 +28,6 @@
  "★ Expedition: Rabatt auf Rabatt freiwillig": "<span class=\"step-no\">★</span> Ekspeditë: Zbritje mbi zbritje <span class=\"badge expedition\">fakultative</span>",
  "Die Jacke kostet 80 €. Im Sale gibt es 20 %, an der Kasse nochmal 10 % extra. Die Werbung sagt: „30 % sparen!“": "Xhaketa kushton 80 €. Në ulje ka 20 % më pak, dhe në arkë edhe 10 % shtesë. Reklama thotë: „Kurse 30 %!”",
  "Berechne in B5 den Endpreis und in B6, wie viel Prozent du wirklich sparst.": "Në <strong>B5</strong> llogarit çmimin përfundimtar, në <strong>B6</strong> sa përqind kursen në të vërtetë.",
- "Ich tippe Prozente richtig ein und formatiere Zahlen als %.": "I shkruaj saktë përqindjet dhe i formatoj numrat si %.",
- "Ich berechne Rabatt und neuen Preis mit Formeln.": "E llogaris zbritjen dhe çmimin e ri me formula.",
- "Ich berechne Anteile mit =Teil/Ganzes.": "I llogaris pjesët me <code>=Teil/Ganzes</code>.",
- "Plus Ich berechne Brutto-Preise mit der Mehrwertsteuer.": "<span class=\"badge plus\">Plus</span> Llogaris çmime bruto me TVSH.",
- "Expedition Ich weiß, warum 20 % + 10 % Rabatt keine 30 % sind.": "<span class=\"badge expedition\">Expedition</span> E di pse 20 % + 10 % zbritje nuk bëjnë 30 %.",
  "← 1 · Fehlerdetektiv": "← 1 · Detektivi i gabimeve",
  "3 · WENN 1 →": "3 · WENN 1 (NËSE 1) →",
  "C2 zeigt dieselbe Zahl ohne %-Format: 0,2. Das %-Format zeigt die Zahl nur mal 100 an und hängt ein % an.": "C2 tregon të njëjtin numër pa formatin %: <strong>0,2</strong>. Formati % vetëm e tregon numrin herë 100 dhe shton një %.",
@@ -85,7 +77,6 @@
  "72 % ist der Anteil, den du noch zahlst. Gesucht ist, was du sparst: =(B1-B5)/B1": "72 % është pjesa që ende paguan. Ne duam kursimin: <code>=(B1-B5)/B1</code>",
  "Noch nicht. Gespart in % = (alter Preis − neuer Preis) ÷ alter Preis.": "Ende jo. Kursimi në % = (çmimi i vjetër − çmimi i ri) ÷ çmimi i vjetër.",
  "🏆 Expedition geschafft! Du sparst nur 28 %, nicht 30 %. Die 10 % gehen vom schon reduzierten Preis weg. Rabatte darf man nicht einfach addieren.": "🏆 Ekspedita përfundoi! Kursen vetëm <strong>28 %</strong>, jo 30 %. 10 % zbriten nga çmimi tashmë i ulur. Zbritjet nuk mblidhen thjesht.",
- "★ Expedition Ich weiß, warum 20 % + 10 % Rabatt keine 30 % sind.": "<span class=\"badge expedition\">★ Expedition</span> E di pse zbritja 20 % + 10 % nuk është 30 %.",
  "★ Expedition Rabatt auf Rabatt": "<span class=\"badge expedition\">★ Expedition</span> Zbritje mbi zbritje",
  "ODS ★ Expedition: Rabatt auf Rabattk9-02-prozentrechnung-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition: Zbritje mbi zbritje</strong><small>k9-02-prozentrechnung-expedition.ods</small></span>",
  "Mal 25 heißt 2500 %. Und ändert sich B2, rechnet die Formel nicht mit.": "Herë 25 do të thotë 2500 %. Dhe nëse ndryshon B2, formula nuk rillogarit.",
@@ -109,5 +100,5 @@
  "Alles 20 % billiger! Schreib in C5 den Rabatt in € und in D5 den neuen Preis. Dann markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "Gjithçka 20 % më lirë! Në <strong>C5</strong> shkruaj zbritjen në €, në <strong>D5</strong> çmimin e ri. Pastaj shëno C5 dhe D5 bashkë dhe tërhiqi të dyja me <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) poshtë deri në rreshtin 7.",
  "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "Ende nuk është plotësuar gjithçka. Shëno C5 dhe D5 <strong>bashkë</strong> dhe tërhiq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) poshtë deri në rreshtin 7.",
  "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ Rreshti 5 është në rregull! Tani shëno C5 dhe D5 bashkë dhe tërhiqi të dyja me <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) poshtë deri në rreshtin 7.",
- "Prozentrechnen kennst du aus Mathe. Jetzt lernst du, wie Calc mit Prozenten umgeht und wie du einen Prozentsatz für eine ganze Liste festhältst. Rabatt im Schlussverkauf und die 19 % Mehrwertsteuer auf dem Kassenbon rechnest du dann in Sekunden aus.": "Përqindjet i njeh nga matematika. Tani mëson si punon Calc me përqindjet dhe si e fikson një përqindje për një listë të tërë. Pastaj zbritjen në ulje çmimesh dhe TVSH-në 19 % në faturë i llogarit në sekonda."
+ "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "Përqindjet i njeh nga matematika. Tani i llogarit përqindjet me Calc. Kështu llogarit shpejt sa kushton një palë pantallona me 30 % zbritje. Ose sa TVSH shkruhet në faturë."
 }

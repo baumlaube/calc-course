@@ -1,9 +1,6 @@
 {
  "Sortieren & Filtern · Calc-Kurs Zusatzmodul": "Сортування і фільтр · Курс Calc, додатковий модуль",
  "Sortieren & Filtern – große Tabellen bändigen": "Sortieren &amp; Filtern (сортування і фільтр) – приборкати великі таблиці",
- "Ich kann eine Tabelle auf- oder absteigend sortieren.": "Я вмію сортувати таблицю за зростанням або за спаданням.",
- "Ich kann mit dem AutoFilter nur bestimmte Zeilen anzeigen.": "Я вмію показувати лише певні рядки за допомогою AutoFilter (автофільтр).",
- "Ich weiß, warum man nie nur eine Spalte sortiert.": "Я знаю, чому ніколи не можна сортувати лише один стовпець.",
  "💡 Tom will die Besten oben haben. Er markiert nur die Spalte C und sortiert sie absteigend.": "💡 Том хоче, щоб найкращі були вгорі. Він виділяє <strong>лише стовпець C</strong> і сортує за спаданням.",
  "Überleg: Was passiert?": "<strong>Подумай:</strong> що станеться?",
  "Alles richtig – die Besten stehen oben.": "Усе гаразд – найкращі вгорі.",
@@ -64,5 +61,5 @@
  "alphabetisch": "за абеткою",
  "größte oben": "найбільше вгорі",
  "kleinste oben": "найменше вгорі",
- "In einer Tabelle mit Hunderten Zeilen sucht niemand von Hand. Du sortierst sie, zum Beispiel nach Punkten, oder du filterst nur die Zeilen, die du brauchst. Das kennst du aus jedem Online-Shop: sortieren nach Preis, filtern nach Größe.": "У таблиці з сотнями рядків ніхто не шукає вручну. Ти сортуєш її, наприклад за балами, або фільтруєш лише потрібні рядки. Це ти знаєш з кожного інтернет-магазину: сортувати за ціною, фільтрувати за розміром."
+ "Eine Tabelle hat hundert Zeilen. Du suchst nicht jede Zeile ab. Du sortierst die Tabelle, zum Beispiel nach Punkten. Oder du filterst: Dann siehst du nur die Zeilen, die du brauchst. Das kennst du aus Online-Shops: sortieren nach Preis, filtern nach Größe.": "Таблиця має сто рядків. Ти не переглядаєш кожен рядок. Ти сортуєш таблицю, наприклад за балами. Або фільтруєш: тоді бачиш лише потрібні рядки. Це ти знаєш з інтернет-магазинів: сортувати за ціною, фільтрувати за розміром."
 }

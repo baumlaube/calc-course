@@ -3,9 +3,6 @@
  "Bedingte Formatierung 1 – Calc färbt selbst": "Bedingte Formatierung 1 (formato condicional) – Calc colorea solo",
  "Klasse 9 · Baustein 6": "9.º curso · Unidad 6",
  "Vorwissen: WENN": "Conocimientos previos: WENN (SI)",
- "Ich kann Zellen mit Format → Bedingt → Bedingung … automatisch färben.": "Coloreo celdas automáticamente con <strong>Format → Bedingt → Bedingung …</strong> (Formato → Condicional → Condición).",
- "Ich kann Bedingungen wie größer als, kleiner als und zwischen benutzen.": "Uso condiciones como mayor que, menor que y entre.",
- "Ich kann mit Farben Fragen zu großen Tabellen schnell beantworten.": "Gracias a los colores, respondo rápido a preguntas sobre tablas grandes.",
  "💡 Lea hat die Hitzetage über 30 °C mit dem Farbeimer rot gefärbt. Dann merkt sie: Am Mittwoch waren es nur 27 °C. Sie tippt in B4 die 27 ein.": "💡 Lea coloreó de rojo los días calurosos de más de 30 °C con el <strong>bote de pintura</strong>. Luego se da cuenta: el miércoles solo hubo 27 °C. Escribe 27 en B4.",
  "Überleg: Was passiert mit der roten Farbe in B4?": "<strong>Piensa:</strong> ¿qué pasa con el color rojo de B4?",
  "Sie verschwindet von selbst.": "Desaparece solo.",
@@ -38,11 +35,6 @@
  "Bea": "Bea",
  "Emre": "Emre",
  "Hakan": "Hakan",
- "Ich finde Format → Bedingt → Bedingung …": "Encuentro <strong>Format → Bedingt → Bedingung …</strong>",
- "Ich lege eine Regel mit größer als oder kleiner als an.": "Creo una regla con mayor que o menor que.",
- "Ich weiß: Ändert sich die Zahl, ändert sich die Farbe.": "Sé que: cuando el número cambia, el color cambia.",
- "Plus Ich benutze „zwischen“ und mehrere Bedingungen.": "<span class=\"badge plus\">Plus</span> Uso „zwischen“ (entre) y varias condiciones.",
- "Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">Expedition</span> Conozco las barras de datos y las escalas de colores.",
  "← 5 · WENN 3": "← 5 · WENN 3 (SI 3)",
  "7 · Bedingte Formatierung 2 →": "7 · Bedingte Formatierung 2 (formato condicional) →",
  "✨ Bedingte Formatierung: größer als 30 → Schlecht": "✨ Bedingte Formatierung: größer als 30 → Schlecht (mayor que 30 → malo)",
@@ -72,7 +64,6 @@
  "Bei „zwischen“ gehören beide Grenzen dazu.": "Con „zwischen“ (entre) los dos límites están incluidos.",
  "🏆 Richtig – Emre hat den längsten Balken und das kräftigste Grün. In der Übungsdatei wartet der ganze Spendenlauf.": "🏆 Correcto: Emre tiene la barra más larga y el verde más intenso. Toda la carrera solidaria te espera en el archivo de ejercicios.",
  "Schau auf den längsten Balken: Emre ist 25 Runden gelaufen.": "Mira la barra más larga: Emre corrió 25 vueltas.",
- "★ Expedition Ich kenne Datenbalken und Farbskala.": "<span class=\"badge expedition\">★ Expedition</span> Conozco las barras de datos y la escala de colores.",
  "Üben Ein Preis, viele Grenzen": "<span class=\"badge ueben\">Üben</span> Un precio, muchos límites",
  "Ist 500 € viel? Für einen Schokoriegel schon, für ein Haus nicht. Jede Zelle bekommt ihre eigene Regel: rot = zu teuer, grün = verdächtig billig. Dann änderst du den Preis und schaust, was passiert.": "¿500 € es mucho? Para una chocolatina sí, para una casa no. Cada celda recibe su propia regla: rojo = demasiado caro, verde = sospechosamente barato. Luego cambias el precio y miras qué pasa.",
  "ODS Üben: Ein Preis, viele Grenzenk9-06-bedingte-formatierung-mehr-preis-grenzen.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Un precio, muchos límites</strong><small>k9-06-bedingte-formatierung-mehr-preis-grenzen.ods</small></span>",
@@ -112,5 +103,5 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>estilo</strong> – un aspecto ya hecho con nombre: Gut (bueno) es verde, Schlecht (malo) es rojo",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>entre</strong> – de un número a otro. Los dos números cuentan.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>mayor que · menor que</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. El 30 no cuenta.",
- "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "En una tabla larga es fácil pasar por alto algo importante. Con Bedingte Formatierung (formato condicional), Calc colorea las celdas solo, por ejemplo todos los días de calor de más de 30 °C. Si cambia un número, el color se ajusta solo."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "En una tabla larga cuesta encontrar los números importantes. Calc puede colorear las celdas solo, por ejemplo todos los días de más de 30 °C en rojo. Si cambia un número, cambia también el color."
 }

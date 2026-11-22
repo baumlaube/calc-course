@@ -3,9 +3,6 @@
  "WENN 2 – Dann und Sonst rechnen": "WENN 2 (IF 2) – calculate in Dann and Sonst",
  "Klasse 9 · Baustein 4": "Grade 9 · Unit 4",
  "Teil 2 von 3 zu WENN": "Part 2 of 3 about WENN (IF)",
- "Ich kann WENN statt Ja und Nein eine Zahl ausgeben lassen.": "I can let WENN show a number instead of Ja and Nein.",
- "Ich kann im Dann- und Sonst-Teil rechnen.": "I can calculate in the Dann (then) and Sonst (else) part.",
- "Ich weiß, wann Anführungszeichen hingehören und wann nicht.": "I know when quotation marks belong there and when not.",
  "💡 Du kennst schon: =WENN(B5<18;\"Ja\";\"Nein\") – Ist Lisa jünger als 18?Im Kino steht in C5 aber: =WENN(B5<18;8;10)": "💡 <strong>You already know:</strong> <code class=\"long\">=WENN(B5&lt;18;\"Ja\";\"Nein\")</code> – Is Lisa younger than 18?<br/>But at the cinema, C5 contains: <code class=\"long\">=WENN(B5&lt;18;8;10)</code>",
  "Überleg: Lisa ist 16. Was zeigt C5?": "<strong>Think:</strong> Lisa is 16. What does C5 show?",
  "2 Statt Ja und Nein: rechnen 7 Min": "<span class=\"step-no\">2</span> Instead of yes and no: calculate <span class=\"chip\">7 min</span>",
@@ -26,11 +23,6 @@
  "Text in \"Anführungszeichen\" – Zahlen und Rechnungen ohne!": "Text in <code>\"Anführungszeichen\"</code> (quotation marks) – numbers and calculations without!",
  "Lies jede Formel als Satz: Wenn …, dann …, sonst …": "Read every formula as a sentence: if …, then …, else …",
  "★ Expedition: Rabatt ab 50 € freiwillig": "<span class=\"step-no\">★</span> Expedition: Discount from 50 € <span class=\"badge expedition\">optional</span>",
- "Ich lasse WENN eine Zahl ausgeben, z. B. Versandkosten.": "I let WENN show a number, e.g. shipping costs.",
- "Ich rechne im Dann-Teil, z. B. A6+4,95.": "I calculate in the Dann part, e.g. <code>A6+4,95</code>.",
- "Ich setze Anführungszeichen nur um Text.": "I put quotation marks only around text.",
- "Plus Ich vergleiche Text und gebe eine Zahl aus.": "<span class=\"badge plus\">Plus</span> I compare text and show a number.",
- "Expedition Ich verbinde WENN mit Prozentrechnung.": "<span class=\"badge expedition\">Expedition</span> I combine WENN with percentages.",
  "← 3 · WENN 1": "← 3 · WENN 1 (IF 1)",
  "5 · WENN 3 →": "5 · WENN 3 (IF 3) →",
  "=WENN(B5<18;8;10)": "=WENN(B5<18;8;10)",
@@ -70,7 +62,6 @@
  "64 € ist mindestens 50 €. Dann-Teil: A2*(1-10%) = 57,60 €.": "64 € is at least 50 €. Dann part: <code>A2*(1-10%)</code> = 57.60 €.",
  "38,50 € ist unter 50 € – Sonst-Teil: einfach A2.": "38.50 € is below 50 € – Sonst part: simply <code>A2</code>.",
  "🏆 Expedition geschafft! WENN und Prozentrechnung zusammen – das kommt in der Übungsdatei noch einmal.": "🏆 Expedition done! WENN and percentages together – you will meet this again in the exercise file.",
- "★ Expedition Ich verbinde WENN mit Prozentrechnung.": "<span class=\"badge expedition\">★ Expedition</span> I combine WENN with percentages.",
  "Üben Zinsen bei der Bank": "<span class=\"badge ueben\">Üben</span> Interest at the bank",
  "Wer mehr als 10.000 € auf dem Konto hat, bekommt 2,5 % Zinsen, alle anderen 1,75 %. WENN liefert den Zinssatz. Mit ihm rechnest du die Zinsen und das neue Guthaben aus.": "Whoever has more than 10,000 € in the account gets 2.5 % interest, everyone else 1.75 %. WENN delivers the interest rate. With it you calculate the interest and the new balance.",
  "=WENN(B5>10000;2,5%;1,75%)": "<code class=\"long\">=WENN(B5&gt;10000;2,5%;1,75%)</code>",
@@ -101,5 +92,5 @@
  "in allen anderen Fällen": "<strong>otherwise, else</strong> – in all other cases",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>calculation</strong> – here: something to work out, e.g. <code>A6+4,95</code>",
  "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>shipping</strong> – sending a parcel. That often costs money.",
- "WENN kann nicht nur Ja oder Nein sagen, sondern auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €, alle anderen 10 €. Solche Regeln gibt es überall, bei Eintrittspreisen, Versandkosten und Rabatten.": "<code>WENN</code> can do more than say yes or no – it can also calculate. For example: anyone under 18 pays 8 € at the cinema, everyone else 10 €. Rules like this are everywhere: for ticket prices, delivery costs and discounts."
+ "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> can also calculate. For example: anyone under 18 pays 8 € at the cinema. Everyone else pays 10 €. Rules like this are common, for example for entry, delivery and discounts."
 }

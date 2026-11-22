@@ -2,9 +2,6 @@
  "Brutto und Netto · Calc-Kurs Zusatzmodul": "Brutto và Netto · Khóa học Calc mô-đun bổ sung",
  "Brutto und Netto – was bleibt vom Ausbildungsgehalt?": "Brutto und Netto (lương trước và sau khấu trừ) – lương học nghề còn lại bao nhiêu?",
  "Vorwissen: Prozentrechnung, $-Anker": "Cần biết trước: tính phần trăm, neo $",
- "Ich kann erklären, was Brutto und Netto bedeutet.": "Mình giải thích được Brutto và Netto có nghĩa là gì.",
- "Ich kann die Abzüge mit Prozentsätzen und $ berechnen.": "Mình tính được các khoản khấu trừ bằng tỉ lệ phần trăm và <code>$</code>.",
- "Ich kann ausrechnen, wie viel am Monatsende übrig bleibt.": "Mình tính được cuối tháng còn lại bao nhiêu.",
  "💡 Im Ausbildungsvertrag steht: 1.050 € im Monat.": "💡 Trong hợp đồng học nghề có ghi: <strong>1.050 € mỗi tháng</strong>.",
  "Überleg: Wie viel kommt ungefähr aufs Konto?": "<strong>Suy nghĩ:</strong> Khoảng bao nhiêu tiền sẽ vào tài khoản?",
  "etwa 830 €": "khoảng 830 €",
@@ -46,5 +43,5 @@
  "Gesamtsatz in B2 = 21 %. Welche Formel ergibt direkt das Netto von B6?": "Tổng tỉ lệ trong B2 = 21 %. Công thức nào cho ra ngay Netto của B6?",
  "100 % − 21 % = 79 % bleiben – wie beim Rabatt.": "100 % − 21 % = còn lại 79 % – giống như giảm giá.",
  "Brutto 1.000 €, Abzüge 21 %. Wie viel Netto?": "Brutto 1.000 €, khấu trừ 21 %. Netto là bao nhiêu?",
- "Im Ausbildungsvertrag steht ein Gehalt, auf dem Konto kommt weniger an. Du lernst, was Brutto und Netto bedeutet und welche Abzüge es gibt. Dann rechnest du aus, was dir am Monatsende wirklich bleibt.": "Trong hợp đồng học nghề ghi một mức lương, nhưng vào tài khoản lại ít hơn. Bạn học Brutto và Netto (lương trước và sau khấu trừ) có nghĩa là gì và có những khoản khấu trừ nào. Rồi bạn tính xem cuối tháng thật sự còn lại bao nhiêu."
+ "Im Ausbildungsvertrag steht ein Lohn. Auf dem Konto kommt aber weniger an. Du lernst, was Brutto und Netto heißt und was abgezogen wird. Dann rechnest du aus, wie viel Geld dir wirklich bleibt.": "Trong hợp đồng học nghề có ghi một mức lương. Nhưng vào tài khoản lại ít hơn. Bạn học Brutto và Netto (lương trước và sau khấu trừ) có nghĩa là gì và cái gì bị trừ. Rồi bạn tính xem thật sự còn lại bao nhiêu tiền."
 }
