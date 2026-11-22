@@ -413,7 +413,8 @@
       // decimal: "comma" = wie LibreOffice mit deutscher Einstellung (1.49 bleibt Text), "any" = Komma oder Punkt
       this.o = Object.assign({ cols: 4, rows: 10, cells: {}, styles: {}, formats: {}, editable: [], actions: [], decimal: "any" }, opts);
       // wie LibreOffice (deutsch): "0,85 €" wird als Zahl erkannt, "0.85" bleibt Text
-      this.numRe = this.o.decimal === "comma" ? /^-?\d+(?:,\d+)?(?:\s*€)?$/ : /^-?\d+(?:[.,]\d+)?$/;
+      // Tausenderpunkt wie in Calc: 9.000 und 1.234,5 sind Zahlen (nur mit genau drei Ziffern nach jedem Punkt)
+      this.numRe = this.o.decimal === "comma" ? /^-?(?:\d{1,3}(?:\.\d{3})+|\d+)(?:,\d+)?(?:\s*€)?$/ : /^-?\d+(?:[.,]\d+)?$/;
       this.raw = Object.assign({}, this.o.cells);
       this.initial = Object.assign({}, this.o.cells);
       this.editable = new Set(this.o.editable);
@@ -447,12 +448,17 @@
           const [d, m, y] = String(raw).trim().split(".").map(Number);
           v = serial(y < 100 ? 2000 + y : y, m, d);
         } else if (PCT_RE.test(String(raw).trim())) v = parseFloat(String(raw).replace(",", ".")) / 100;
-        else if (this.numRe.test(String(raw).trim())) v = parseFloat(String(raw).replace(",", ".").replace("€", ""));
+        else if (this.numRe.test(String(raw).trim())) v = this.toNum(String(raw));
         else v = String(raw);
         memo.set(x, v);
         return v;
       };
       return val(a);
+    }
+    toNum(s) {
+      s = s.replace("€", "").trim();
+      if (this.o.decimal === "comma") s = s.replace(/\./g, "");
+      return parseFloat(s.replace(",", "."));
     }
     getRaw(a) {
       const r = this.raw[a];
@@ -566,7 +572,17 @@
       });
       this.input.addEventListener("input", () => { if (!this.input.readOnly) this.showRefs(this.input.value); });
       this.input.addEventListener("keydown", (ev) => {
-        if (ev.key === "Enter") { ev.preventDefault(); this.commit(); }
+        if (ev.key === "Enter" || ev.key === "Tab") {
+          const s = parseAddr(this.sel);
+          const next = ev.key === "Enter" ? addr(s.c, s.r + (ev.shiftKey ? -1 : 1)) : addr(s.c + (ev.shiftKey ? -1 : 1), s.r);
+          const go = this.editable.has(this.sel) && this.editable.has(next);
+          if (ev.key === "Tab" && !go) { this.commitPending(); return; }   // sonst verlässt Tab die Tabelle wie gewohnt
+          ev.preventDefault();
+          if (this.input.value !== this.getRaw(this.sel) || ev.key === "Enter") this.commit();
+          if (go) this.select(next, true, true);
+          return;
+        }
+        if (ev.key === "F4" && ev.shiftKey && !this.input.readOnly) { ev.preventDefault(); this.cycleRef(); return; }
         if (ev.key === "Escape") { this.input.value = this.getRaw(this.sel); }
       });
       this.input.addEventListener("blur", () => { if (this.editable.has(this.sel) && this.input.value !== this.getRaw(this.sel)) this.commit(); });
@@ -597,14 +613,31 @@
     commit() {
       if (!this.editable.has(this.sel)) return;
       let v = this.input.value.trim();
-      if (this.numRe.test(v)) v = parseFloat(v.replace(",", ".").replace("€", ""));
+      if (this.numRe.test(v)) v = this.toNum(v);
       this.raw[this.sel] = v;
       this.render();
       this.select(this.sel, false);
       this.emit("edit");
     }
 
-    select(a, focus) {
+    /** Umschalt+F4 wie in Calc: Bezug am Cursor durchschalten  B2 → $B$2 → B$2 → $B2 → B2 */
+    cycleRef() {
+      const inp = this.input, v = inp.value, pos = inp.selectionStart ?? v.length;
+      const re = /(?<![A-Za-zÄÖÜäöü])\$?[A-Za-z]\$?\d+(?![\d(])/g;
+      let m, hit = null;
+      while ((m = re.exec(v))) if (pos >= m.index && pos <= m.index + m[0].length) { hit = m; break; }
+      if (!hit) return;
+      const [, dC, col, dR, row] = /^(\$?)([A-Za-z])(\$?)(\d+)$/.exec(hit[0]);
+      const state = (dC ? 2 : 0) + (dR ? 1 : 0);   // 0 B2 · 3 $B$2 · 1 B$2 · 2 $B2
+      const nextState = { 0: 3, 3: 1, 1: 2, 2: 0 }[state];
+      const out = (nextState & 2 ? "$" : "") + col.toUpperCase() + (nextState & 1 ? "$" : "") + row;
+      inp.value = v.slice(0, hit.index) + out + v.slice(hit.index + hit[0].length);
+      const caret = hit.index + out.length;
+      inp.setSelectionRange(caret, caret);
+      this.showRefs(inp.value);
+    }
+
+    select(a, focus, quiet) {
       this.sel = a;
       const p = parseAddr(a);
       if (p) this.setRange(p, p);
@@ -617,7 +650,7 @@
       this.input.placeholder = editable ? T("Hier tippen und Enter drücken") : "";
       this.showRefs();
       if (focus && editable) { this.input.focus({ preventScroll: true }); this.input.select(); }
-      if (this.o.onSelect) this.o.onSelect(this, a);   // z. B. Erklärung zur angeklickten Zelle
+      if (this.o.onSelect && !quiet) this.o.onSelect(this, a);   // z. B. Erklärung zur angeklickten Zelle (nicht beim Weiterspringen nach Enter)
     }
 
     /** Tippt man gerade eine Formel und steht direkt vor dem Cursor ein Rechenzeichen oder =? */
