@@ -45,5 +45,6 @@
  "Von innen nach außen": "İçeriden dışarıya",
  "Von rechts nach links": "Sağdan sola",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "Önce LINKS, sonra &amp;, en sonda KLEIN.",
- "Gar nicht": "Hiçbir şekilde"
+ "Gar nicht": "Hiçbir şekilde",
+ "Für 25 Schüler Benutzernamen von Hand tippen? Das dauert und bringt Tippfehler. Mit & und Funktionen wie LINKS und KLEIN baut Calc solche Texte selbst aus Vor- und Nachnamen. So legen Schulen und Firmen Zugänge für viele Personen an.": "25 öğrencinin kullanıcı adlarını elle mi yazacaksın? Bu uzun sürer ve yazım hatası olur. <code>&amp;</code> ve <code>LINKS</code> (SOLDAN) ile <code>KLEIN</code> (KÜÇÜKHARF) gibi fonksiyonlarla Calc bu metinleri ad ve soyadlardan kendisi oluşturur. Okullar ve şirketler çok kişiye böyle hesap açar."
 }

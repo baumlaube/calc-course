@@ -149,5 +149,6 @@
  "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Think:</strong> Which formula is in <strong>D6</strong> (drinks) afterwards?",
  "Fehler": "Error",
  "Montag": "Montag (Monday)",
- "Donnerstag": "Donnerstag (Thursday)"
+ "Donnerstag": "Donnerstag (Thursday)",
+ "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Often the same calculation is done in every row: for every item, every day, every student. You write the formula only once and drag it down. Calc adjusts the cells in every row by itself. That saves a lot of typing and a lot of typos."
 }

@@ -43,5 +43,6 @@
  "SVERWEIS →": "SVERWEIS (вертикальний пошук) →",
  "Kosten in 2 Jahren bei {} GB": "Витрати за 2 роки при {} ГБ",
  "Am günstigsten: {} mit {}.": "Найдешевший: <strong>{}</strong> – {}.",
- "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Даних не вистачає (навіть із додатковим пакетом): {}."
+ "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Даних не вистачає (навіть із додатковим пакетом): {}.",
+ "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Кожен оператор рекламує найдешевший тариф. Який справді підходить тобі? У цьому проєкті ти порівнюєш тарифи за два роки за допомогою <code>WENN</code> (ЯКЩО) і <code>MIN</code> та обґрунтовуєш вибір числами й діаграмою."
 }

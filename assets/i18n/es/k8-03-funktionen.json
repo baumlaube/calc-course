@@ -132,5 +132,6 @@
  "plus rechnen, bis alle Zahlen dabei sind": "<strong>sumar</strong> – hacer más hasta que estén todos los números",
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>promedio</strong> – sumar todo y dividir entre la cantidad. En Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>valor</strong> – lo que hay en una celda, casi siempre un número",
- "Zellen mit der Maus auswählen": "<strong>seleccionar</strong> – elegir celdas con el ratón"
+ "Zellen mit der Maus auswählen": "<strong>seleccionar</strong> – elegir celdas con el ratón",
+ "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Cinco números todavía los sumas con <code>+</code>. Con 30 notas o 365 días se vuelve pesado. Funciones como <code>SUMME</code> (SUMA), <code>MITTELWERT</code> (PROMEDIO), <code>MIN</code> y <code>MAX</code> calculan un rango entero de una vez. Con <code>MITTELWERT</code> calculas, por ejemplo, tu nota media."
 }

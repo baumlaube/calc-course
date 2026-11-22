@@ -226,12 +226,14 @@
       const next = el("button", "btn", T(i + 1 < n ? "Weiter →" : "Ergebnis zeigen"));
       next.type = "button";
       next.hidden = true;
+      let answered = false;
       next.addEventListener("click", () => {
+        if (!answered) wrong.push(i);   // ohne Antwort weiter = nicht gekonnt
         if (i + 1 < n) { step(i + 1, wrong); return; }
         store.set(key, JSON.stringify(wrong));
         result(wrong);
       });
-      renderItem(items[i], box, true, (ok) => { if (!ok) wrong.push(i); next.hidden = false; });
+      renderItem(items[i], box, true, (ok) => { answered = true; if (!ok) wrong.push(i); next.hidden = false; });
       row.appendChild(next);
       box.appendChild(row);
     };

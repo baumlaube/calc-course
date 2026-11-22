@@ -45,5 +45,6 @@
  "Von innen nach außen": "Od środka na zewnątrz",
  "Von rechts nach links": "Od prawej do lewej",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "Najpierw LINKS, potem &amp;, na końcu KLEIN.",
- "Gar nicht": "Nijak"
+ "Gar nicht": "Nijak",
+ "Für 25 Schüler Benutzernamen von Hand tippen? Das dauert und bringt Tippfehler. Mit & und Funktionen wie LINKS und KLEIN baut Calc solche Texte selbst aus Vor- und Nachnamen. So legen Schulen und Firmen Zugänge für viele Personen an.": "Wpisywać ręcznie nazwy użytkowników dla 25 uczniów? To trwa i powoduje literówki. Za pomocą <code>&amp;</code> i funkcji takich jak <code>LINKS</code> (LEWY) i <code>KLEIN</code> (LITERY.MAŁE) Calc sam tworzy takie teksty z imion i nazwisk. Tak szkoły i firmy zakładają konta dla wielu osób."
 }

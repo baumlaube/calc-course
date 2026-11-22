@@ -43,5 +43,6 @@
  "SVERWEIS →": "SVERWEIS (WYSZUKAJ.PIONOWO) →",
  "Kosten in 2 Jahren bei {} GB": "Koszt przez 2 lata przy {} GB",
  "Am günstigsten: {} mit {}.": "Najtańszy: <strong>{}</strong> za {}.",
- "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Za mało internetu (nawet z pakietem dodatkowym): {}."
+ "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Za mało internetu (nawet z pakietem dodatkowym): {}.",
+ "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Każdy operator reklamuje najtańszy abonament. Który naprawdę do ciebie pasuje? W tym projekcie porównujesz abonamenty przez dwa lata za pomocą <code>WENN</code> (JEŻELI) i <code>MIN</code> i uzasadniasz wybór liczbami i wykresem."
 }

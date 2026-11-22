@@ -132,5 +132,6 @@
  "plus rechnen, bis alle Zahlen dabei sind": "<strong>сложить</strong> – прибавлять, пока не посчитаны все числа",
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>среднее</strong> – всё сложить и разделить на количество. В Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>значение</strong> – то, что стоит в ячейке, чаще всего число",
- "Zellen mit der Maus auswählen": "<strong>выделить</strong> – выбрать ячейки мышкой"
+ "Zellen mit der Maus auswählen": "<strong>выделить</strong> – выбрать ячейки мышкой",
+ "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Пять чисел ты ещё сложишь через <code>+</code>. Но с 30 оценками или 365 днями это утомительно. Функции <code>SUMME</code> (СУММ), <code>MITTELWERT</code> (СРЗНАЧ), <code>MIN</code> и <code>MAX</code> вычисляют весь диапазон сразу. С <code>MITTELWERT</code> ты, например, посчитаешь свой средний балл."
 }

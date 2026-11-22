@@ -111,5 +111,6 @@
  "das, was in der Zelle steht": "<strong>valor de la celda</strong> – lo que hay en la celda",
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>estilo</strong> – un aspecto ya hecho con nombre: Gut (bueno) es verde, Schlecht (malo) es rojo",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>entre</strong> – de un número a otro. Los dos números cuentan.",
- "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>mayor que · menor que</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. El 30 no cuenta."
+ "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>mayor que · menor que</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. El 30 no cuenta.",
+ "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "En una tabla larga es fácil pasar por alto algo importante. Con Bedingte Formatierung (formato condicional), Calc colorea las celdas solo, por ejemplo todos los días de calor de más de 30 °C. Si cambia un número, el color se ajusta solo."
 }

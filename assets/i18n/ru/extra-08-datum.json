@@ -46,5 +46,6 @@
  "Die Zahl stimmt – nur das Format fehlt.": "Число правильное – не хватает только формата.",
  "Ein Text": "Текст",
  "Neu tippen": "Ввести заново",
- "Eine Formel": "Формула"
+ "Eine Formel": "Формула",
+ "Wie viele Tage sind es noch bis zu den Ferien? Für Calc ist ein Datum eine Zahl. Darum kann Calc mit Daten rechnen: Tage zählen, Fristen ausrechnen und mit HEUTE() immer vom aktuellen Tag aus.": "Сколько дней осталось до каникул? Для Calc дата – это число. Поэтому Calc может считать с датами: считать дни, вычислять сроки – а с <code>HEUTE()</code> (СЕГОДНЯ) всегда от текущего дня."
 }

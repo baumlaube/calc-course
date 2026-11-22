@@ -111,5 +111,6 @@
  "das, was in der Zelle steht": "<strong>valoarea celulei</strong> – ce este în celulă",
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>stil</strong> – un aspect gata făcut, cu nume: Gut (bun) e verde, Schlecht (rău) e roșu",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>între</strong> – de la un număr până la altul. Amândouă numerele se pun.",
- "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>mai mare decât · mai mic decât</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. 30 nu se pune."
+ "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>mai mare decât · mai mic decât</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. 30 nu se pune.",
+ "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "Într-un tabel lung treci ușor cu vederea ceva important. Cu Bedingte Formatierung (formatare condiționată), Calc colorează singur celulele, de exemplu toate zilele caniculare peste 30 °C. Dacă un număr se schimbă, culoarea se adaptează singură."
 }

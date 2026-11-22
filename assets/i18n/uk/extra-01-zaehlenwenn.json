@@ -56,5 +56,6 @@
  "Wie oft „Essen“ vorkommt": "Скільки разів трапляється „Essen“",
  "Gesucht wird in B, addiert wird aus C.": "Вона шукає в B і додає з C.",
  "Anführungszeichen um D5": "Лапки навколо D5",
- "Ein $ bei D5": "$ біля D5"
+ "Ein $ bei D5": "$ біля D5",
+ "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "Скільки учнів у класі найбільше люблять фізкультуру? Скільки оцінок кращі за 3? <code>ZÄHLENWENN</code> (ЛІЧИЛЬНИК.ЯКЩО) рахує лише клітинки, які відповідають твоїй умові. <code>SUMMEWENN</code> (СУМ.ЯКЩО) додає лише потрібні суми, наприклад усі витрати на їжу."
 }

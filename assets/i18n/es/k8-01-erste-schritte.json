@@ -135,5 +135,6 @@
  "etwas in eine Zelle tippen und Enter drücken": "<strong>introducir</strong> – escribir algo en una celda y pulsar Enter",
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>dar formato</strong> – cambiar el aspecto, p. ej. € o color. El número sigue igual.",
  "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>decimal</strong> – una cifra después de la coma. 1,49 tiene dos.",
- "Leertaste": "Leertaste (barra espaciadora)"
+ "Leertaste": "Leertaste (barra espaciadora)",
+ "Eine Tabellenkalkulation ist ein großes Blatt aus Kästchen. Hier lernst du, dich darin zurechtzufinden: Jede Zelle hat eine Adresse, und Text und Zahlen kommen sauber in eigene Zellen. Darauf baut alles Weitere auf. Solche Tabellen benutzt man in fast jedem Beruf, im Büro genauso wie in der Werkstatt.": "Una hoja de cálculo es una hoja grande hecha de casillas. Aquí aprendes a orientarte en ella: cada celda tiene una dirección, y el texto y los números van ordenados en sus propias celdas. Todo lo demás se basa en esto. Estas tablas se usan en casi todas las profesiones, tanto en la oficina como en el taller."
 }

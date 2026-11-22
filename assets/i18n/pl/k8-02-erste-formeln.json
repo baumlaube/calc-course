@@ -120,5 +120,6 @@
  "+ plus · - minus · * mal · / geteilt": "<strong>znak działania</strong> – <code>+</code> plus · <code>-</code> minus · <code>*</code> mal (razy) · <code>/</code> geteilt (podzielić)",
  "das, was bei einer Rechnung herauskommt": "<strong>wynik</strong> – to, co wychodzi z rachunku",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>wiersz wprowadzania</strong> – długi wiersz nad tabelą. Tam widać formułę.",
- "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>przeliczyć</strong> – Calc liczy jeszcze raz, gdy zmieni się liczba"
+ "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>przeliczyć</strong> – Calc liczy jeszcze raz, gdy zmieni się liczba",
+ "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "Do tej pory tylko wpisujesz liczby. Teraz Calc liczy za ciebie: formuła zaczyna się od <code>=</code> i liczy z komórkami. Gdy liczba się zmieni, Calc od razu przelicza. Właśnie dlatego używa się arkusza, a nie kalkulatora."
 }

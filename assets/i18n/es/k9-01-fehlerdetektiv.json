@@ -134,5 +134,6 @@
  "falsch getippt, z. B. SUMNE statt SUMME": "<strong>error al teclear</strong> – mal escrito, p. ej. <code>SUMNE</code> en vez de <code>SUMME</code>",
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>estrecho</strong> – no ancho. <code>###</code> significa: la columna es demasiado estrecha.",
  "verstehen, was etwas bedeutet": "<strong>interpretar</strong> – entender lo que significa algo",
- "einen Fehler wieder richtig machen": "<strong>arreglar</strong> – hacer que un error vuelva a estar bien"
+ "einen Fehler wieder richtig machen": "<strong>arreglar</strong> – hacer que un error vuelva a estar bien",
+ "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "En las tablas hay errores, incluso de profesionales. Algunos Calc los muestra en voz alta, por ejemplo <code>#DIV/0!</code>. Otros son silenciosos: el número parece correcto pero aun así está mal. Aquí aprendes a encontrar y arreglar los dos. De paso repasas todo lo de 8.º."
 }

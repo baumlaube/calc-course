@@ -136,5 +136,6 @@
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>يقارن</strong> – يفحص: هل الشيء يساوي أم أكبر أم أصغر؟",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>يساوي · لا يساوي</strong> – gleich: <code>=</code> · ungleich (لا يساوي): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>فاصلة منقوطة</strong> – العلامة <code>;</code>. تفصل الأجزاء الثلاثة في WENN.",
- "anzeigen. WENN gibt eine Antwort aus.": "<strong>يُخرج، يعرض</strong> – يُظهر. WENN تعرض جوابًا."
+ "anzeigen. WENN gibt eine Antwort aus.": "<strong>يُخرج، يعرض</strong> – يُظهر. WENN تعرض جوابًا.",
+ "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "حتى الآن يحسب Calc بالطريقة نفسها في كل صف. مع <code>WENN</code> (IF) يطرح Calc سؤالًا ويُظهر شيئًا مختلفًا حسب الجواب، مثل «bestanden» (ناجح) أو «nicht bestanden» (راسب). هكذا يصبح جدولك ذكيًا. تتعلم <code>WENN</code> بخطوات صغيرة."
 }

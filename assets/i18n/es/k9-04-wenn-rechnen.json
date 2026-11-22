@@ -100,5 +100,6 @@
  "das macht Calc, wenn die Antwort Nein ist": "<strong>la parte «si no»</strong> – lo que hace Calc si la respuesta es no",
  "in allen anderen Fällen": "<strong>si no</strong> – en todos los demás casos",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>cuenta</strong> – aquí: algo para calcular, p. ej. <code>A6+4,95</code>",
- "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>envío</strong> – mandar un paquete. Eso suele costar dinero."
+ "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>envío</strong> – mandar un paquete. Eso suele costar dinero.",
+ "WENN kann nicht nur Ja oder Nein sagen, sondern auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €, alle anderen 10 €. Solche Regeln gibt es überall, bei Eintrittspreisen, Versandkosten und Rabatten.": "<code>WENN</code> no solo dice sí o no, también sabe calcular. Por ejemplo: quien tiene menos de 18 años paga 8 € en el cine, todos los demás 10 €. Reglas así hay en todas partes: en precios de entradas, gastos de envío y descuentos."
 }

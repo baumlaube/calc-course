@@ -119,5 +119,6 @@
  "■ B6 nach rechts ausfüllen (bis D6)": "■ B6 nach rechts ausfüllen (recopier B6 vers la droite jusqu'à D6)",
  "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ B6 bis D6 nach unten ausfüllen (recopier B6:D6 vers le bas jusqu'à D8)",
  "Erst nach rechts ausfüllen, bis D6!": "D'abord recopier vers la droite, jusqu'à D6 !",
- "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Pas encore fini : {} cellules sont vides. Continue à tirer la plage sélectionnée jusqu'à ce que tout soit rempli jusqu'à D8."
+ "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Pas encore fini : {} cellules sont vides. Continue à tirer la plage sélectionnée jusqu'à ce que tout soit rempli jusqu'à D8.",
+ "Eine lange Zahlenliste liest kaum jemand gern. Ein Diagramm zeigt auf einen Blick, was größer ist oder wie sich etwas entwickelt. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du jeden Tag, im Wetterbericht und in den Nachrichten.": "Presque personne n’aime lire une longue liste de nombres. Un graphique montre d’un coup d’œil ce qui est plus grand ou comment quelque chose évolue. Tu apprends quand un graphique en colonnes, en secteurs ou en courbe convient. Tu vois des graphiques tous les jours, à la météo et aux informations."
 }

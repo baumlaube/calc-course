@@ -120,5 +120,6 @@
  "+ plus · - minus · * mal · / geteilt": "<strong>arithmetic sign</strong> – <code>+</code> plus · <code>-</code> minus · <code>*</code> mal (times) · <code>/</code> geteilt (divided by)",
  "das, was bei einer Rechnung herauskommt": "<strong>result</strong> – what comes out of a calculation",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>input line</strong> – the long line above the table. There you see the formula.",
- "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>to recalculate</strong> – Calc calculates again when a number changes"
+ "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>to recalculate</strong> – Calc calculates again when a number changes",
+ "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "So far you only type numbers in. Now Calc calculates for you: a formula starts with <code>=</code> and calculates with the cells. If a number changes, Calc recalculates straight away. That is exactly why you use a spreadsheet and not a calculator."
 }

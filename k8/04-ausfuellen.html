@@ -22,11 +22,11 @@
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="stylesheet" href="../assets/kurs.css?v=e45ea12c22">
+<link rel="stylesheet" href="../assets/kurs.css?v=9b7d190553">
 <script src="../assets/i18n.js?v=831187eae3" data-page="k8-04-ausfuellen" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
-<script src="../assets/kurs.js?v=4fe431b784"></script>
+<script src="../assets/kurs.js?v=4ce1e43bf7"></script>
 <script src="../assets/minicalc.js?v=bc12a0384f" defer></script>
-<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+<script src="../assets/wdh.js?v=8ffe4254fc" defer></script>
 </head>
 <body>
 
@@ -60,7 +60,7 @@
       <span class="chip">⏱ ca. 37 Minuten</span>
       <span class="chip">Vorwissen: Formeln, SUMME</span>
     </div>
-    <p class="erklaerung">Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.</p>
+    <p class="erklaerung">Oft rechnest du in jeder Zeile das Gleiche: für jeden Artikel, für jeden Tag. Du schreibst die Formel nur einmal. Dann ziehst du sie nach unten. Calc passt die Formel in jeder Zeile selbst an. So tippst du weniger und machst weniger Fehler.</p>
   </section>
 
   <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
@@ -207,19 +207,6 @@
     <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
   </section>
 
-  <!-- Ich kann -->
-  <section class="card" id="ichkann">
-    <h2>Das kann ich jetzt</h2>
-    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
-    <ul class="checklist" id="checklist">
-      <li><label><input type="checkbox"> <span class="t">Ich finde das Ausfüllkästchen und kann eine Formel nach unten ziehen.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t">Ich kann eine Formel nach rechts ziehen.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t">Ich kann erklären, warum aus <code>=B5*C5</code> eine Zeile tiefer <code>=B6*C6</code> wird.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich kann vorhersagen, welche Formel nach dem Ziehen in einer Zelle steht.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich kann einen laufenden Kontostand berechnen.</span></label></li>
-    </ul>
-  </section>
-
   <!-- Freiwillig: Üben + ★ Expedition -->
   <section class="card frei" id="freiwillig">
     <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
@@ -298,7 +285,7 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const { feedback, quiz, checklist } = window.Kurs;
+  const { feedback, quiz } = window.Kurs;
   const T = (x) => (window.T ? window.T(x) : x);
 
   /* Gemeinsame Daten: Partyeinkauf */
@@ -521,7 +508,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   feedback(fbZw, T("Klick D3 an und tipp die Formel: Anzahl × Preis."), "info");
 
-  checklist(document.getElementById("checklist"), "k8-04");
 });
 </script>
 <script>

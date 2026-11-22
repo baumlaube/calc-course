@@ -152,5 +152,6 @@
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 doğru. Şimdi doldur: önce sağa E7'ye kadar, sonra aşağı E9'a kadar.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Henüz bitmedi: {} hücre boş. Seçili alanı E9'a kadar her yer dolana kadar sürüklemeye devam et.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ 4. satır doğru. Şimdi C4 ve D4'ü birlikte seç ve aşağı 6. satıra kadar sürükle.",
- "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Düşün:</strong> Lena formülü C9'a kadar aşağı sürüklüyor. O zaman <strong>C6</strong> (salı) hücresinde ne olur?"
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Düşün:</strong> Lena formülü C9'a kadar aşağı sürüklüyor. O zaman <strong>C6</strong> (salı) hücresinde ne olur?",
+ "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "Doldururken her hücre başvurusu birlikte kayar. Çoğu zaman bu doğrudur. Ama bazı değerler tüm satırlar için geçerlidir, örneğin saat ücreti. <code>$</code> ile böyle bir hücreyi sabitlersin. Ücret değişirse sadece bir hücreyi değiştirirsin ve bütün tablo yeniden hesaplanır."
 }

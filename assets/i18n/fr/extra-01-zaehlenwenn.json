@@ -56,5 +56,6 @@
  "Wie oft „Essen“ vorkommt": "Combien de fois „Essen“ apparaît",
  "Gesucht wird in B, addiert wird aus C.": "Elle cherche dans B et additionne dans C.",
  "Anführungszeichen um D5": "Des guillemets autour de D5",
- "Ein $ bei D5": "Un $ à D5"
+ "Ein $ bei D5": "Un $ à D5",
+ "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "Combien d’élèves de la classe préfèrent le sport ? Combien de notes sont meilleures que 3 ? <code>ZÄHLENWENN</code> (NB.SI) compte seulement les cellules qui correspondent à ta condition. <code>SUMMEWENN</code> (SOMME.SI) additionne seulement les montants qui correspondent, par exemple toutes les dépenses pour la nourriture."
 }

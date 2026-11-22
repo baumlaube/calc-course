@@ -104,5 +104,6 @@
  "die Bedingung stimmt für diese Zahl": "<strong>подходить</strong> – условие верно для этого числа",
  "drei Farben: rot, gelb, grün": "<strong>светофор</strong> – три цвета: красный, жёлтый, зелёный",
  "etwas neu machen, z. B. eine Bedingung": "<strong>создать</strong> – сделать что-то новое, например условие",
- "ansehen, ändern und löschen": "<strong>управлять</strong> – смотреть, менять и удалять"
+ "ansehen, ändern und löschen": "<strong>управлять</strong> – смотреть, менять и удалять",
+ "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Теперь Calc окрашивает по нескольким правилам – зелёный, жёлтый и красный, как светофор. Ты узнаешь, почему важен порядок правил, как окрасить текст и как брать границу из ячейки."
 }

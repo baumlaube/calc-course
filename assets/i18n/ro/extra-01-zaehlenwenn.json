@@ -56,5 +56,6 @@
  "Wie oft „Essen“ vorkommt": "De câte ori apare „Essen”",
  "Gesucht wird in B, addiert wird aus C.": "Caută în B și adună din C.",
  "Anführungszeichen um D5": "Ghilimele în jurul lui D5",
- "Ein $ bei D5": "Un $ la D5"
+ "Ein $ bei D5": "Un $ la D5",
+ "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "Câți din clasă preferă sportul? Câte note sunt mai bune decât 3? <code>ZÄHLENWENN</code> (COUNTIF) numără doar celulele care se potrivesc condiției tale. <code>SUMMEWENN</code> (SUMIF) adună doar sumele potrivite, de exemplu toate cheltuielile pentru mâncare."
 }

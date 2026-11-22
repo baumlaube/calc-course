@@ -45,5 +45,6 @@
  "Von innen nach außen": "De l'intérieur vers l'extérieur",
  "Von rechts nach links": "De droite à gauche",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "D'abord LINKS, puis &amp;, à la fin KLEIN.",
- "Gar nicht": "Impossible"
+ "Gar nicht": "Impossible",
+ "Für 25 Schüler Benutzernamen von Hand tippen? Das dauert und bringt Tippfehler. Mit & und Funktionen wie LINKS und KLEIN baut Calc solche Texte selbst aus Vor- und Nachnamen. So legen Schulen und Firmen Zugänge für viele Personen an.": "Taper à la main les noms d’utilisateur de 25 élèves ? C’est long et ça donne des fautes de frappe. Avec <code>&amp;</code> et des fonctions comme <code>LINKS</code> (GAUCHE) et <code>KLEIN</code> (MINUSCULE), Calc construit lui-même ces textes à partir des prénoms et des noms. C’est ainsi que les écoles et les entreprises créent des comptes pour beaucoup de personnes."
 }

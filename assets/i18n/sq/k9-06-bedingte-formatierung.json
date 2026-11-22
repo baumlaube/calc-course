@@ -111,5 +111,6 @@
  "das, was in der Zelle steht": "<strong>vlera e qelizës</strong> – ajo që është në qelizë",
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>stil</strong> – një pamje e gatshme me emër: Gut (mirë) është e gjelbër, Schlecht (keq) është e kuqe",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>midis</strong> – nga një numër deri te një tjetër. Të dy numrat numërohen.",
- "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>më e madhe se · më e vogël se</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. Vetë 30 nuk numërohet."
+ "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>më e madhe se · më e vogël se</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. Vetë 30 nuk numërohet.",
+ "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "Në një tabelë të gjatë është e lehtë të mos e vësh re diçka të rëndësishme. Me Bedingte Formatierung (formatim i kushtëzuar) Calc i ngjyros vetë qelizat, për shembull të gjitha ditët e nxehta mbi 30 °C. Nëse ndryshon një numër, ngjyra përshtatet vetë."
 }

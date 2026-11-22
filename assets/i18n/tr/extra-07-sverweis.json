@@ -59,5 +59,6 @@
  "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "0 olmadan SVERWEIS yaklaşık arar – not anahtarları için faydalı.",
  "Irgendwo": "Herhangi bir yerde",
  "Null zurückgeben": "Sıfır döndür",
- "Das = fehlt": "= eksik"
+ "Das = fehlt": "= eksik",
+ "Am Kiosk, im Lager oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht diese Nummer in einer Liste und holt den passenden Namen oder Preis. Du musst nichts mehr von Hand nachschlagen.": "Kantinde, depoda ya da online mağazada her ürünün bir numarası vardır. <code>SVERWEIS</code> (DÜŞEYARA) bu numarayı bir listede arar ve uygun adı ya da fiyatı getirir. Artık elle bir şey aramana gerek kalmaz."
 }

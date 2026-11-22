@@ -134,5 +134,6 @@
  "falsch getippt, z. B. SUMNE statt SUMME": "<strong>literówka</strong> – źle wpisane, np. <code>SUMNE</code> zamiast <code>SUMME</code>",
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>wąski</strong> – nie szeroki. <code>###</code> znaczy: kolumna jest za wąska.",
  "verstehen, was etwas bedeutet": "<strong>odczytać, zinterpretować</strong> – zrozumieć, co coś znaczy",
- "einen Fehler wieder richtig machen": "<strong>naprawić</strong> – sprawić, że błąd znów jest dobrze"
+ "einen Fehler wieder richtig machen": "<strong>naprawić</strong> – sprawić, że błąd znów jest dobrze",
+ "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "W tabelach zdarzają się błędy, nawet zawodowcom. Niektóre Calc pokazuje głośno, na przykład <code>#DIV/0!</code>. Inne są ciche: liczba wygląda dobrze, a mimo to jest zła. Tu uczysz się znajdować i naprawiać oba rodzaje. Przy okazji powtarzasz wszystko z klasy 8."
 }

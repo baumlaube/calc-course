@@ -46,5 +46,6 @@
  "Die Zahl stimmt – nur das Format fehlt.": "الرقم صحيح – ينقص التنسيق فقط.",
  "Ein Text": "نص",
  "Neu tippen": "إعادة الكتابة",
- "Eine Formel": "صيغة"
+ "Eine Formel": "صيغة",
+ "Wie viele Tage sind es noch bis zu den Ferien? Für Calc ist ein Datum eine Zahl. Darum kann Calc mit Daten rechnen: Tage zählen, Fristen ausrechnen und mit HEUTE() immer vom aktuellen Tag aus.": "كم يومًا بقي حتى العطلة؟ التاريخ في Calc هو رقم. لذلك يستطيع Calc الحساب بالتواريخ: عدّ الأيام وحساب المواعيد النهائية – ومع <code>HEUTE()</code> (TODAY) دائمًا من اليوم الحالي."
 }

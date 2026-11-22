@@ -100,5 +100,6 @@
  "das macht Calc, wenn die Antwort Nein ist": "<strong>جزء «وإلا»</strong> – ما يفعله Calc إذا كان الجواب لا",
  "in allen anderen Fällen": "<strong>وإلا</strong> – في كل الحالات الأخرى",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>عملية حسابية</strong> – هنا: شيء يُحسب، مثلًا <code>A6+4,95</code>",
- "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>شحن</strong> – إرسال طرد. هذا يكلف مالًا غالبًا."
+ "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>شحن</strong> – إرسال طرد. هذا يكلف مالًا غالبًا.",
+ "WENN kann nicht nur Ja oder Nein sagen, sondern auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €, alle anderen 10 €. Solche Regeln gibt es überall, bei Eintrittspreisen, Versandkosten und Rabatten.": "<code>WENN</code> لا يقول نعم أو لا فقط، بل يستطيع أن يحسب أيضًا. مثلًا: من عمره أقل من 18 يدفع في السينما 8 €، والباقون 10 €. هذه القواعد موجودة في كل مكان: في أسعار التذاكر وتكاليف الشحن والخصومات."
 }

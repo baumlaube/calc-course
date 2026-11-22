@@ -22,11 +22,11 @@
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="stylesheet" href="../assets/kurs.css?v=e45ea12c22">
+<link rel="stylesheet" href="../assets/kurs.css?v=9b7d190553">
 <script src="../assets/i18n.js?v=831187eae3" data-page="k8-02-erste-formeln" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
-<script src="../assets/kurs.js?v=4fe431b784"></script>
+<script src="../assets/kurs.js?v=4ce1e43bf7"></script>
 <script src="../assets/minicalc.js?v=bc12a0384f" defer></script>
-<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+<script src="../assets/wdh.js?v=8ffe4254fc" defer></script>
 </head>
 <body>
 
@@ -60,7 +60,7 @@
       <span class="chip">⏱ ca. 37 Minuten</span>
       <span class="chip">Vorwissen: Zellen und Eingeben</span>
     </div>
-    <p class="erklaerung">Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit <code>=</code> und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.</p>
+    <p class="erklaerung">Jetzt rechnet Calc für dich. Eine Formel beginnt mit <code>=</code> und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.</p>
   </section>
 
   <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
@@ -196,19 +196,6 @@
     <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
   </section>
 
-  <!-- Ich kann -->
-  <section class="card" id="ichkann">
-    <h2>Das kann ich jetzt</h2>
-    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
-    <ul class="checklist" id="checklist">
-      <li><label><input type="checkbox"> <span class="t">Ich beginne jede Formel mit <code>=</code>.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t">Ich kenne die Rechenzeichen + − * /.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t">Ich klicke Zellen an, statt Zahlen in die Formel zu tippen.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich kann Formeln bauen, die auf anderen Formeln aufbauen.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich setze Klammern richtig.</span></label></li>
-    </ul>
-  </section>
-
   <!-- Freiwillig: Üben + ★ Expedition -->
   <section class="card frei" id="freiwillig">
     <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
@@ -260,7 +247,7 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const { feedback, quiz, checklist } = window.Kurs;
+  const { feedback, quiz } = window.Kurs;
   const T = (x) => (window.T ? window.T(x) : x);
   const near = (a, b) => typeof a === "number" && Math.abs(a - b) < 0.005;
   const onlyNumbers = (raw) => /\d/.test(raw.replace(/\$?[A-Za-z]\$?\d+/g, ""));
@@ -419,7 +406,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   feedback(fbFarb, T("Klick B8 an und fang mit Gelb an."), "info");
 
-  checklist(document.getElementById("checklist"), "k8-02");
 });
 </script>
 <script>

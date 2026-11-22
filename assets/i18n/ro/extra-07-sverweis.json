@@ -59,5 +59,6 @@
  "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Fără 0, SVERWEIS caută aproximativ – util la grilele de note.",
  "Irgendwo": "Oriunde",
  "Null zurückgeben": "Returnează zero",
- "Das = fehlt": "Lipsește ="
+ "Das = fehlt": "Lipsește =",
+ "Am Kiosk, im Lager oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht diese Nummer in einer Liste und holt den passenden Namen oder Preis. Du musst nichts mehr von Hand nachschlagen.": "La chioșc, în depozit sau în magazinul online, fiecare produs are un număr. <code>SVERWEIS</code> (VLOOKUP) caută acest număr într-o listă și aduce numele sau prețul potrivit. Nu mai trebuie să cauți nimic de mână."
 }

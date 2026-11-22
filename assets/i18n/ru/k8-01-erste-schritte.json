@@ -135,5 +135,6 @@
  "etwas in eine Zelle tippen und Enter drücken": "<strong>вводить</strong> – напечатать что-то в ячейке и нажать Enter",
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>форматировать</strong> – менять вид, например € или цвет. Число остаётся тем же.",
  "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>знак после запятой</strong> – цифра после запятой. В 1,49 их две.",
- "Leertaste": "Leertaste (пробел)"
+ "Leertaste": "Leertaste (пробел)",
+ "Eine Tabellenkalkulation ist ein großes Blatt aus Kästchen. Hier lernst du, dich darin zurechtzufinden: Jede Zelle hat eine Adresse, und Text und Zahlen kommen sauber in eigene Zellen. Darauf baut alles Weitere auf. Solche Tabellen benutzt man in fast jedem Beruf, im Büro genauso wie in der Werkstatt.": "Электронная таблица – это большой лист из клеточек. Здесь ты учишься в нём ориентироваться: у каждой ячейки есть адрес, а текст и числа аккуратно стоят в отдельных ячейках. На этом строится всё остальное. Такие таблицы используют почти в каждой профессии – и в офисе, и в мастерской."
 }

@@ -56,5 +56,6 @@
  "Wie oft „Essen“ vorkommt": "این‌که „Essen“ چند بار آمده",
  "Gesucht wird in B, addiert wird aus C.": "در B جستجو می‌کند و از C جمع می‌زند.",
  "Anführungszeichen um D5": "گیومه دور D5",
- "Ein $ bei D5": "یک $ در D5"
+ "Ein $ bei D5": "یک $ در D5",
+ "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "چند نفر در کلاس ورزش را بیشتر از همه دوست دارند؟ چند نمره بهتر از ۳ است؟ <code>ZÄHLENWENN</code> (COUNTIF) فقط خانه‌هایی را می‌شمارد که با شرط تو جور هستند. <code>SUMMEWENN</code> (SUMIF) فقط مبلغ‌های جور را جمع می‌کند، مثلاً همهٔ هزینه‌های غذا."
 }

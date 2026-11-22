@@ -133,5 +133,6 @@
  "Ein Semikolon": "Một dấu chấm phẩy",
  "Ein $ vor A5": "Một dấu $ trước A5",
  "Genau umgedreht.": "Ngược hoàn toàn.",
- "Leer heißt A5=\"\".": "Trống nghĩa là <code>A5=\"\"</code>."
+ "Leer heißt A5=\"\".": "Trống nghĩa là <code>A5=\"\"</code>.",
+ "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "Đến giờ Calc tính giống nhau ở mọi hàng. Với <code>WENN</code> (NẾU), Calc đặt một câu hỏi và tùy câu trả lời mà hiện ra điều khác nhau, ví dụ „bestanden“ (đạt) hoặc „nicht bestanden“ (không đạt). Như vậy bảng của bạn trở nên thông minh. Bạn học <code>WENN</code> từng bước nhỏ."
 }

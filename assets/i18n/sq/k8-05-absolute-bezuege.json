@@ -152,5 +152,6 @@
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 është në rregull. Tani plotëso: fillimisht djathtas deri në E7, pastaj poshtë deri në E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Ende jo gati: {} qeliza janë bosh. Vazhdo të tërheqësh zonën e shënuar derisa gjithçka deri te E9 të jetë plot.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Rreshti 4 është në rregull. Tani shëno C4 dhe D4 bashkë dhe tërhiqi poshtë deri në rreshtin 6.",
- "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Mendo:</strong> Lena e tërheq formulën poshtë deri te C9. Çfarë ka atëherë në <strong>C6</strong> (e martë)?"
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Mendo:</strong> Lena e tërheq formulën poshtë deri te C9. Çfarë ka atëherë në <strong>C6</strong> (e martë)?",
+ "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "Gjatë mbushjes çdo referencë qelize lëviz bashkë. Zakonisht kjo është e saktë. Por disa vlera vlejnë për të gjitha rreshtat, për shembull paga për orë. Me <code>$</code> e fikson një qelizë të tillë. Nëse ndryshon paga, ndryshon vetëm një qelizë dhe e gjithë tabela rillogaritet."
 }

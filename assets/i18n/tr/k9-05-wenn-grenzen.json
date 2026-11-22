@@ -118,5 +118,6 @@
  "✔ C5 stimmt! Jetzt zieh am Ausfüllkästchen von C5 nach unten bis C8.": "✔ C5 doğru! Şimdi <strong>Ausfüllkästchen</strong>'i (doldurma tutamacı) C5'ten aşağı C8'e kadar sürükle.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Henüz en alta gelmedin. Hâlâ boş: {}. C5'ten C8'e kadar sürükle.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Pazartesi doğru! Şimdi <strong>Ausfüllkästchen</strong>'i (doldurma tutamacı) aşağı D7'ye kadar sürükle.",
- "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Henüz en alta gelmedin. D5'ten D7'ye kadar sürükle."
+ "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Henüz en alta gelmedin. D5'ten D7'ye kadar sürükle.",
+ "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Kurallar değişir: yarın belki 15 yerine 16 puan geçerli olur. Sınır kendi hücresindeyse onu tek bir yerde değiştirirsin ve bütün formüller yeniden hesaplanır. Sonunda <code>WENN</code> görevlerini sınavdaki gibi tek başına çözersin."
 }

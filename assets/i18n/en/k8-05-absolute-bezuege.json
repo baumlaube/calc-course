@@ -156,5 +156,6 @@
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 is correct. Now fill: first to the right to E7, then down to E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Not finished yet: {} cells are empty. Keep dragging the selected range until everything up to E9 is full.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Row 4 is correct. Now select C4 and D4 together and drag them down to row 6.",
- "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Think:</strong> Lena drags the formula down to C9. What is in <strong>C6</strong> (Tuesday) then?"
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Think:</strong> Lena drags the formula down to C9. What is in <strong>C6</strong> (Tuesday) then?",
+ "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "When you fill down, every cell reference moves along. Usually that is right. But some values apply to all rows, for example an hourly wage. With the <code>$</code> you fix such a cell. If the wage changes, you change just one cell and the whole table recalculates."
 }

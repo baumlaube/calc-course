@@ -132,5 +132,6 @@
  "plus rechnen, bis alle Zahlen dabei sind": "<strong>zsumować</strong> – dodawać, aż będą wszystkie liczby",
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>średnia</strong> – wszystko dodać i podzielić przez ilość. W Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>wartość</strong> – to, co jest w komórce, najczęściej liczba",
- "Zellen mit der Maus auswählen": "<strong>zaznaczyć</strong> – wybrać komórki myszką"
+ "Zellen mit der Maus auswählen": "<strong>zaznaczyć</strong> – wybrać komórki myszką",
+ "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Pięć liczb dodasz jeszcze za pomocą <code>+</code>. Przy 30 ocenach albo 365 dniach robi się to męczące. Funkcje takie jak <code>SUMME</code> (SUMA), <code>MITTELWERT</code> (ŚREDNIA), <code>MIN</code> i <code>MAX</code> liczą cały zakres naraz. Za pomocą <code>MITTELWERT</code> policzysz na przykład swoją średnią ocen."
 }

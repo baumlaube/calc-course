@@ -43,5 +43,6 @@
  "SVERWEIS →": "SVERWEIS (KËRKIMVERTIKAL) →",
  "Kosten in 2 Jahren bei {} GB": "Kosto në 2 vjet me {} GB",
  "Am günstigsten: {} mit {}.": "Më e lira: <strong>{}</strong> me {}.",
- "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Interneti nuk mjafton (edhe me paketë shtesë): {}."
+ "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Interneti nuk mjafton (edhe me paketë shtesë): {}.",
+ "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Çdo operator reklamon paketën më të lirë. Cila të përshtatet vërtet ty? Në këtë projekt krahason paketat për dy vjet me <code>WENN</code> (IF) dhe <code>MIN</code> dhe e arsyeton zgjedhjen me numra dhe një diagram."
 }

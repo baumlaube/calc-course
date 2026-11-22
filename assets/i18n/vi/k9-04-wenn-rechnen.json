@@ -97,5 +97,6 @@
  "=WENN(A5<29;A5+4,95;A5)": "=WENN(A5<29;A5+4,95;A5)",
  "=WENN(A6<29;A6+4,95;A6)": "=WENN(A6<29;A6+4,95;A6)",
  "Was ist an =WENN(A5>=29;\"0\";\"4,95\") ungünstig?": "<code>=WENN(A5&gt;=29;\"0\";\"4,95\")</code> có điểm gì không tốt?",
- "Es fehlt ein $": "Thiếu một dấu $"
+ "Es fehlt ein $": "Thiếu một dấu $",
+ "WENN kann nicht nur Ja oder Nein sagen, sondern auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €, alle anderen 10 €. Solche Regeln gibt es überall, bei Eintrittspreisen, Versandkosten und Rabatten.": "<code>WENN</code> không chỉ nói có hay không, mà còn biết tính toán. Ví dụ: ai dưới 18 tuổi trả 8 € ở rạp chiếu phim, tất cả những người khác trả 10 €. Những quy tắc như vậy có ở khắp nơi: giá vé, phí gửi hàng và giảm giá."
 }

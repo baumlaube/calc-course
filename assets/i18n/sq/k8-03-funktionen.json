@@ -132,5 +132,6 @@
  "plus rechnen, bis alle Zahlen dabei sind": "<strong>mbledh</strong> – bëj plus derisa të jenë të gjithë numrat",
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>mesatare</strong> – mbledh gjithçka dhe pjesëto me sasinë. Në Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>vlerë</strong> – ajo që është në një qelizë, zakonisht një numër",
- "Zellen mit der Maus auswählen": "<strong>zgjedh, shënoj</strong> – zgjedh qeliza me maus"
+ "Zellen mit der Maus auswählen": "<strong>zgjedh, shënoj</strong> – zgjedh qeliza me maus",
+ "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Pesë numra i mbledh ende me <code>+</code>. Por me 30 nota ose 365 ditë bëhet e lodhshme. Funksione si <code>SUMME</code> (SUM), <code>MITTELWERT</code> (AVERAGE), <code>MIN</code> dhe <code>MAX</code> llogarisin një zonë të tërë njëherësh. Me <code>MITTELWERT</code> llogarit për shembull mesataren e notave."
 }

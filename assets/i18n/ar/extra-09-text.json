@@ -45,5 +45,6 @@
  "Von innen nach außen": "من الداخل إلى الخارج",
  "Von rechts nach links": "من اليمين إلى اليسار",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "أولًا LINKS، ثم &amp;، وفي النهاية KLEIN.",
- "Gar nicht": "لا يمكن"
+ "Gar nicht": "لا يمكن",
+ "Für 25 Schüler Benutzernamen von Hand tippen? Das dauert und bringt Tippfehler. Mit & und Funktionen wie LINKS und KLEIN baut Calc solche Texte selbst aus Vor- und Nachnamen. So legen Schulen und Firmen Zugänge für viele Personen an.": "هل تكتب أسماء المستخدمين لـ 25 طالبًا باليد؟ هذا يأخذ وقتًا ويسبب أخطاء. مع <code>&amp;</code> ودوال مثل <code>LINKS</code> (LEFT) و<code>KLEIN</code> (LOWER) يبني Calc هذه النصوص بنفسه من الاسم الأول واسم العائلة. هكذا تنشئ المدارس والشركات حسابات لأشخاص كثيرين."
 }

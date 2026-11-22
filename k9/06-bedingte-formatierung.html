@@ -22,11 +22,11 @@
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="stylesheet" href="../assets/kurs.css?v=e45ea12c22">
+<link rel="stylesheet" href="../assets/kurs.css?v=9b7d190553">
 <script src="../assets/i18n.js?v=831187eae3" data-page="k9-06-bedingte-formatierung" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
-<script src="../assets/kurs.js?v=4fe431b784"></script>
+<script src="../assets/kurs.js?v=4ce1e43bf7"></script>
 <script src="../assets/minicalc.js?v=bc12a0384f" defer></script>
-<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+<script src="../assets/wdh.js?v=8ffe4254fc" defer></script>
 <script src="../assets/regeln.js?v=3fdc897ab9" defer></script>
 </head>
 <body>
@@ -61,7 +61,7 @@
       <span class="chip">⏱ ca. 37 Minuten</span>
       <span class="chip">Vorwissen: WENN</span>
     </div>
-    <p class="erklaerung">In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.</p>
+    <p class="erklaerung">In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.</p>
   </section>
 
   <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
@@ -173,19 +173,6 @@
     <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
   </section>
 
-  <!-- Ich kann -->
-  <section class="card" id="ichkann">
-    <h2>Das kann ich jetzt</h2>
-    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
-    <ul class="checklist" id="checklist">
-      <li><label><input type="checkbox"> <span class="t">Ich finde <strong>Format → Bedingt → Bedingung …</strong></span></label></li>
-      <li><label><input type="checkbox"> <span class="t">Ich lege eine Regel mit größer als oder kleiner als an.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t">Ich weiß: Ändert sich die Zahl, ändert sich die Farbe.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich benutze „zwischen“ und mehrere Bedingungen.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich kenne Datenbalken und Farbskala.</span></label></li>
-    </ul>
-  </section>
-
   <!-- Freiwillig: Üben + ★ Expedition -->
   <section class="card frei" id="freiwillig">
     <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
@@ -255,7 +242,7 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const { feedback, quiz, checklist } = window.Kurs;
+  const { feedback, quiz } = window.Kurs;
   const T = (x) => (window.T ? window.T(x) : x);
 
   /* ---------- 1 · Vorhersage: Farbeimer vs. Regel ---------- */
@@ -380,7 +367,6 @@ document.addEventListener("DOMContentLoaded", () => {
       : T("Schau auf den längsten Balken: Emre ist 25 Runden gelaufen."), b.dataset.v === "Emre" ? "ok" : "hint");
   });
 
-  checklist(document.getElementById("checklist"), "k9-06");
 });
 </script>
 <script>

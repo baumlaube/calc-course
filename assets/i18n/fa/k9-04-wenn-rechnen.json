@@ -100,5 +100,6 @@
  "das macht Calc, wenn die Antwort Nein ist": "<strong>بخش «وگرنه»</strong> – کاری که Calc می‌کند اگر جواب نه باشد",
  "in allen anderen Fällen": "<strong>وگرنه</strong> – در همهٔ حالت‌های دیگر",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>محاسبه</strong> – اینجا: چیزی برای حساب کردن، مثلاً <code>A6+4,95</code>",
- "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>ارسال</strong> – فرستادن یک بسته. بیشتر وقت‌ها پول می‌خواهد."
+ "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>ارسال</strong> – فرستادن یک بسته. بیشتر وقت‌ها پول می‌خواهد.",
+ "WENN kann nicht nur Ja oder Nein sagen, sondern auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €, alle anderen 10 €. Solche Regeln gibt es überall, bei Eintrittspreisen, Versandkosten und Rabatten.": "<code>WENN</code> فقط بله یا نه نمی‌گوید، بلکه می‌تواند حساب هم بکند. مثلاً: هر کس زیر ۱۸ سال است در سینما ۸ € می‌دهد، بقیه ۱۰ €. چنین قاعده‌هایی همه‌جا هست: در قیمت بلیت، هزینهٔ ارسال و تخفیف‌ها."
 }

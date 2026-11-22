@@ -152,5 +152,6 @@
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 صحيحة. الآن عبّئ: أولًا إلى اليمين حتى E7، ثم إلى الأسفل حتى E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "لم تنتهِ بعد: {} خلايا فارغة. واصل سحب المنطقة المحدّدة حتى يمتلئ كل شيء حتى E9.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ السطر 4 صحيح. الآن حدّد C4 وD4 معًا واسحبهما إلى الأسفل حتى السطر 6.",
- "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>فكّر:</strong> لينا تسحب الصيغة إلى الأسفل حتى C9. ماذا يوجد عندها في <strong>C6</strong> (الثلاثاء)؟"
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>فكّر:</strong> لينا تسحب الصيغة إلى الأسفل حتى C9. ماذا يوجد عندها في <strong>C6</strong> (الثلاثاء)؟",
+ "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "عند التعبئة ينتقل كل مرجع خلية معها. غالبًا هذا صحيح. لكن بعض القيم تصلح لكل الصفوف، مثل أجر الساعة. بعلامة <code>$</code> تثبّت هذه الخلية. إذا تغيّر الأجر تغيّر خلية واحدة فقط، ويعيد الجدول كله الحساب."
 }

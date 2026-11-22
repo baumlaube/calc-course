@@ -56,5 +56,6 @@
  "Wie oft „Essen“ vorkommt": "Sa herë shfaqet „Essen”",
  "Gesucht wird in B, addiert wird aus C.": "Kërkon në B dhe mbledh nga C.",
  "Anführungszeichen um D5": "Thonjëza rreth D5",
- "Ein $ bei D5": "Një $ te D5"
+ "Ein $ bei D5": "Një $ te D5",
+ "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "Sa veta në klasë e pëlqejnë më shumë sportin? Sa nota janë më të mira se 3? <code>ZÄHLENWENN</code> (COUNTIF) numëron vetëm qelizat që përputhen me kushtin tënd. <code>SUMMEWENN</code> (SUMIF) mbledh vetëm shumat që përputhen, për shembull të gjitha shpenzimet për ushqim."
 }

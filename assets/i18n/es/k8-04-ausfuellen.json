@@ -148,5 +148,6 @@
  "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Piensa:</strong> ¿qué fórmula hay después en <strong>D6</strong> (bebidas)?",
  "Fehler": "Error",
  "Montag": "Montag (lunes)",
- "Donnerstag": "Donnerstag (jueves)"
+ "Donnerstag": "Donnerstag (jueves)",
+ "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "A menudo se calcula igual en cada fila: para cada artículo, cada día, cada alumno. Escribes la fórmula una sola vez y la arrastras hacia abajo. Calc ajusta solo las celdas de cada fila. Eso ahorra mucho tecleo y muchas erratas."
 }

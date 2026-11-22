@@ -115,5 +115,6 @@
  "Nimm die Funktion WENN: =WENN(Prüfung;Dann;Sonst).": "Hãy dùng hàm WENN (NẾU): <code>=WENN(Prüfung;Dann;Sonst)</code>.",
  "eine Fehlermeldung": "một thông báo lỗi",
  "viel": "viel (nhiều)",
- "wenig": "wenig (ít)"
+ "wenig": "wenig (ít)",
+ "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Quy tắc thay đổi: ngày mai có thể là 16 điểm thay vì 15. Nếu mốc nằm trong một ô riêng, bạn sửa ở một chỗ và tất cả công thức tính lại. Cuối cùng bạn tự giải các bài <code>WENN</code> giống như trong bài kiểm tra."
 }

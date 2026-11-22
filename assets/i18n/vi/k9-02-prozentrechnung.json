@@ -105,5 +105,6 @@
  "Calc kennt ein Wort nicht, zum Beispiel wegen einem Tippfehler": "Calc không biết một từ, ví dụ vì lỗi đánh máy",
  "Bei #NAME? kennt Calc ein Wort in der Formel nicht.": "Với <code>#NAME?</code>, Calc không biết một từ trong công thức.",
  "Was kostet das Buch mit Versand? Schreib die Formel in C4 so, dass du sie nach unten ziehen kannst.": "Quyển sách kèm phí gửi giá bao nhiêu? Viết công thức vào C4 sao cho bạn có thể <strong>kéo xuống dưới</strong>.",
- "Extra an der Kasse": "Giảm thêm ở quầy thu ngân"
+ "Extra an der Kasse": "Giảm thêm ở quầy thu ngân",
+ "Prozentrechnen kennst du aus Mathe. Jetzt lernst du, wie Calc mit Prozenten umgeht und wie du einen Prozentsatz für eine ganze Liste festhältst. Rabatt im Schlussverkauf und die 19 % Mehrwertsteuer auf dem Kassenbon rechnest du dann in Sekunden aus.": "Phần trăm thì bạn đã biết từ môn toán. Bây giờ bạn học Calc làm việc với phần trăm thế nào và cách giữ cố định một tỉ lệ phần trăm cho cả một danh sách. Khi đó bạn tính giảm giá mùa khuyến mãi và 19 % thuế giá trị gia tăng trên hóa đơn chỉ trong vài giây."
 }

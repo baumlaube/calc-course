@@ -111,5 +111,6 @@
  "das, was in der Zelle steht": "<strong>hücre değeri</strong> – hücrede duran şey",
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>stil, şablon</strong> – adı olan hazır bir görünüş: Gut (iyi) yeşil, Schlecht (kötü) kırmızı",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>arasında</strong> – bir sayıdan diğerine kadar. İki sayı da sayılır.",
- "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>büyüktür · küçüktür</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. 30 sayılmaz."
+ "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>büyüktür · küçüktür</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. 30 sayılmaz.",
+ "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "Uzun bir tabloda önemli bir şeyi gözden kaçırmak kolaydır. Bedingte Formatierung (koşullu biçimlendirme) ile Calc hücreleri kendisi boyar, örneğin 30 °C’nin üzerindeki tüm sıcak günleri. Bir sayı değişince renk kendiliğinden uyum sağlar."
 }

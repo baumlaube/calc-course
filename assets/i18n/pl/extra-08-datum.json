@@ -46,5 +46,6 @@
  "Die Zahl stimmt – nur das Format fehlt.": "Liczba jest dobra – brakuje tylko formatu.",
  "Ein Text": "Tekst",
  "Neu tippen": "Wpisać od nowa",
- "Eine Formel": "Formuła"
+ "Eine Formel": "Formuła",
+ "Wie viele Tage sind es noch bis zu den Ferien? Für Calc ist ein Datum eine Zahl. Darum kann Calc mit Daten rechnen: Tage zählen, Fristen ausrechnen und mit HEUTE() immer vom aktuellen Tag aus.": "Ile dni zostało do wakacji? Dla Calc data jest liczbą. Dlatego Calc może liczyć z datami: liczyć dni, wyznaczać terminy – a z <code>HEUTE()</code> (DZIŚ) zawsze od bieżącego dnia."
 }

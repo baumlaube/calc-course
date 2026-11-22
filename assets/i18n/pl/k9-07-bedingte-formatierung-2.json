@@ -104,5 +104,6 @@
  "die Bedingung stimmt für diese Zahl": "<strong>pasować</strong> – warunek jest spełniony dla tej liczby",
  "drei Farben: rot, gelb, grün": "<strong>sygnalizacja świetlna</strong> – trzy kolory: czerwony, żółty, zielony",
  "etwas neu machen, z. B. eine Bedingung": "<strong>utworzyć</strong> – zrobić coś nowego, np. warunek",
- "ansehen, ändern und löschen": "<strong>zarządzać</strong> – oglądać, zmieniać i usuwać"
+ "ansehen, ändern und löschen": "<strong>zarządzać</strong> – oglądać, zmieniać i usuwać",
+ "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Teraz Calc koloruje według kilku reguł – zielony, żółty i czerwony jak sygnalizacja świetlna. Dowiesz się, dlaczego ważna jest kolejność reguł, jak kolorować tekst i jak brać próg z komórki."
 }

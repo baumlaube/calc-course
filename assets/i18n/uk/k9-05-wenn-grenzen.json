@@ -118,5 +118,6 @@
  "✔ C5 stimmt! Jetzt zieh am Ausfüllkästchen von C5 nach unten bis C8.": "✔ C5 правильно! Тепер потягни за <strong>Ausfüllkästchen</strong> (маркер заповнення) від C5 вниз до C8.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Ще не до кінця. Порожні ще: {}. Тягни від C5 до C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Понеділок правильно! Тепер потягни за <strong>Ausfüllkästchen</strong> (маркер заповнення) вниз до D7.",
- "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Ще не до кінця. Тягни від D5 до D7."
+ "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Ще не до кінця. Тягни від D5 до D7.",
+ "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Правила змінюються: завтра, може, діятиме 16 балів замість 15. Якщо межа стоїть в окремій клітинці, ти змінюєш її в одному місці – і всі формули перераховуються. Наприкінці ти сам розв’язуєш завдання з <code>WENN</code>, як на контрольній."
 }

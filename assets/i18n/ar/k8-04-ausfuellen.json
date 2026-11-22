@@ -148,5 +148,6 @@
  "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>فكّر:</strong> أيّ صيغة تكون في <strong>D6</strong> (المشروبات) بعد ذلك؟",
  "Fehler": "خطأ",
  "Montag": "Montag (الاثنين)",
- "Donnerstag": "Donnerstag (الخميس)"
+ "Donnerstag": "Donnerstag (الخميس)",
+ "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "غالبًا يكون الحساب نفسه في كل صف: لكل منتج، لكل يوم، لكل طالب. تكتب الصيغة مرة واحدة فقط وتسحبها إلى الأسفل. Calc يعدّل الخلايا في كل صف بنفسه. هذا يوفّر كثيرًا من الكتابة والأخطاء."
 }

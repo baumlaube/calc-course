@@ -136,5 +136,6 @@
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>krahasoj</strong> – kontrolloj: A është diçka e barabartë, më e madhe apo më e vogël?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>e barabartë · jo e barabartë</strong> – gleich: <code>=</code> · ungleich (jo e barabartë): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>pikëpresje</strong> – shenja <code>;</code>. Ndan tri pjesët e WENN.",
- "anzeigen. WENN gibt eine Antwort aus.": "<strong>nxjerr, shfaq</strong> – tregoj. WENN shfaq një përgjigje."
+ "anzeigen. WENN gibt eine Antwort aus.": "<strong>nxjerr, shfaq</strong> – tregoj. WENN shfaq një përgjigje.",
+ "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "Deri tani Calc llogarit njësoj në çdo rresht. Me <code>WENN</code> (IF) Calc bën një pyetje dhe sipas përgjigjes tregon diçka tjetër, për shembull „bestanden“ (kaloi) ose „nicht bestanden“ (nuk kaloi). Kështu tabela jote bëhet e zgjuar. <code>WENN</code> e mëson me hapa të vegjël."
 }

@@ -136,5 +136,6 @@
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>porównywać</strong> – sprawdzić: czy coś jest równe, większe czy mniejsze?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>równe · nierówne</strong> – gleich: <code>=</code> · ungleich (nierówne): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>średnik</strong> – znak <code>;</code>. Oddziela trzy części WENN.",
- "anzeigen. WENN gibt eine Antwort aus.": "<strong>wyświetlić</strong> – pokazać. WENN wyświetla odpowiedź."
+ "anzeigen. WENN gibt eine Antwort aus.": "<strong>wyświetlić</strong> – pokazać. WENN wyświetla odpowiedź.",
+ "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "Do tej pory Calc liczy w każdym wierszu tak samo. Z <code>WENN</code> (JEŻELI) Calc zadaje pytanie i zależnie od odpowiedzi pokazuje coś innego, na przykład „bestanden” (zdane) albo „nicht bestanden” (niezdane). Tak twoja tabela staje się mądra. <code>WENN</code> poznajesz małymi krokami."
 }

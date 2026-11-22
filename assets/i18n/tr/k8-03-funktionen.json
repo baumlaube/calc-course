@@ -132,5 +132,6 @@
  "plus rechnen, bis alle Zahlen dabei sind": "<strong>toplamak</strong> – bütün sayılar sayılana kadar artı yapmak",
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>ortalama</strong> – hepsini toplayıp adede bölmek. Calc'ta: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>değer</strong> – bir hücrede duran şey, çoğu zaman bir sayı",
- "Zellen mit der Maus auswählen": "<strong>seçmek, işaretlemek</strong> – hücreleri fareyle seçmek"
+ "Zellen mit der Maus auswählen": "<strong>seçmek, işaretlemek</strong> – hücreleri fareyle seçmek",
+ "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Beş sayıyı hâlâ <code>+</code> ile toplayabilirsin. Ama 30 not ya da 365 günle bu zahmetli olur. <code>SUMME</code> (TOPLA), <code>MITTELWERT</code> (ORTALAMA), <code>MIN</code> ve <code>MAX</code> gibi fonksiyonlar bütün bir aralığı tek seferde hesaplar. <code>MITTELWERT</code> ile örneğin not ortalamanı hesaplarsın."
 }

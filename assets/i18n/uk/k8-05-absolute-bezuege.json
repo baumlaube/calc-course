@@ -156,5 +156,6 @@
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 правильно. Тепер заповни: спочатку вправо до E7, потім униз до E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Ще не готово: {} клітинок порожні. Тягни виділену область далі, поки все до E9 не заповниться.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Рядок 4 правильний. Тепер виділи C4 і D4 разом і потягни вниз до рядка 6.",
- "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Подумай:</strong> Лена протягує формулу вниз до C9. Що тоді буде в <strong>C6</strong> (вівторок)?"
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Подумай:</strong> Лена протягує формулу вниз до C9. Що тоді буде в <strong>C6</strong> (вівторок)?",
+ "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "Під час заповнення кожне посилання на клітинку зсувається. Здебільшого це правильно. Але деякі значення діють для всіх рядків, наприклад погодинна оплата. Знаком <code>$</code> ти закріплюєш таку клітинку. Якщо оплата змінюється, ти змінюєш лише одну клітинку – і вся таблиця перераховується."
 }

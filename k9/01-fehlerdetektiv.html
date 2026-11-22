@@ -22,11 +22,11 @@
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="stylesheet" href="../assets/kurs.css?v=e45ea12c22">
+<link rel="stylesheet" href="../assets/kurs.css?v=9b7d190553">
 <script src="../assets/i18n.js?v=831187eae3" data-page="k9-01-fehlerdetektiv" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
-<script src="../assets/kurs.js?v=4fe431b784"></script>
+<script src="../assets/kurs.js?v=4ce1e43bf7"></script>
 <script src="../assets/minicalc.js?v=bc12a0384f" defer></script>
-<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+<script src="../assets/wdh.js?v=8ffe4254fc" defer></script>
 </head>
 <body>
 
@@ -60,7 +60,7 @@
       <span class="chip">⏱ ca. 40 Minuten</span>
       <span class="chip">Vorwissen: Klasse 8</span>
     </div>
-    <p class="erklaerung">In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel <code>#DIV/0!</code>. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.</p>
+    <p class="erklaerung">In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel <code>#DIV/0!</code>. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.</p>
   </section>
 
   <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
@@ -199,19 +199,6 @@
     <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
   </section>
 
-  <!-- Ich kann -->
-  <section class="card" id="ichkann">
-    <h2>Das kann ich jetzt</h2>
-    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
-    <ul class="checklist" id="checklist">
-      <li><label><input type="checkbox"> <span class="t">Ich weiß, was <code>#WERT!</code>, <code>#DIV/0!</code> und <code>#NAME?</code> bedeuten.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t">Ich kann laute Fehler reparieren.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t">Ich finde stille Fehler mit den Detektiv-Tricks.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich kann Fehler absichtlich erzeugen und erklären.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich kann Fehler mit WENNFEHLER abfangen.</span></label></li>
-    </ul>
-  </section>
-
   <!-- Freiwillig: Üben + ★ Expedition -->
   <section class="card frei" id="freiwillig">
     <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
@@ -275,7 +262,7 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const { feedback, quiz, checklist } = window.Kurs;
+  const { feedback, quiz } = window.Kurs;
   const T = (x) => (window.T ? window.T(x) : x);
   const isErr = (v) => v instanceof MiniCalc.CalcError;
   const near = (a, b) => typeof a === "number" && Math.abs(a - b) < 0.005;
@@ -372,7 +359,6 @@ document.addEventListener("DOMContentLoaded", () => {
     feedback(fb3, T("🏆 Expedition geschafft! Kein Fehler mehr. Sobald in Englisch Noten stehen, rechnet die Formel ganz normal weiter."), "ok");
   });
 
-  checklist(document.getElementById("checklist"), "k9-01");
 });
 </script>
 <script>

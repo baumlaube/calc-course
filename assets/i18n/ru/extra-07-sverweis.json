@@ -59,5 +59,6 @@
  "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Без 0 SVERWEIS ищет приблизительно – это полезно для шкалы оценок.",
  "Irgendwo": "Где угодно",
  "Null zurückgeben": "Вернуть ноль",
- "Das = fehlt": "Не хватает ="
+ "Das = fehlt": "Не хватает =",
+ "Am Kiosk, im Lager oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht diese Nummer in einer Liste und holt den passenden Namen oder Preis. Du musst nichts mehr von Hand nachschlagen.": "В киоске, на складе или в интернет-магазине у каждого товара есть номер. <code>SVERWEIS</code> (ВПР) ищет этот номер в списке и берёт подходящее название или цену. Тебе больше не нужно ничего искать вручную."
 }

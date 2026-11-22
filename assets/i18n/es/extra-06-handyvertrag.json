@@ -43,5 +43,6 @@
  "SVERWEIS →": "SVERWEIS (BUSCARV) →",
  "Kosten in 2 Jahren bei {} GB": "Coste en 2 años con {} GB",
  "Am günstigsten: {} mit {}.": "La más barata: <strong>{}</strong> con {}.",
- "Zu wenig Daten (auch mit Zusatzpaket): {}.": "No hay datos suficientes (ni con el paquete extra): {}."
+ "Zu wenig Daten (auch mit Zusatzpaket): {}.": "No hay datos suficientes (ni con el paquete extra): {}.",
+ "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Cada compañía anuncia la tarifa más barata. ¿Cuál te conviene de verdad? En este proyecto comparas tarifas durante dos años con <code>WENN</code> (SI) y <code>MIN</code> y justificas tu elección con números y un gráfico."
 }

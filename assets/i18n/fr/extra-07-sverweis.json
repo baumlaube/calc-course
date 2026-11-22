@@ -59,5 +59,6 @@
  "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Sans 0, SVERWEIS cherche approximativement – pratique pour un barème de notes.",
  "Irgendwo": "N’importe où",
  "Null zurückgeben": "Renvoyer zéro",
- "Das = fehlt": "Il manque le ="
+ "Das = fehlt": "Il manque le =",
+ "Am Kiosk, im Lager oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht diese Nummer in einer Liste und holt den passenden Namen oder Preis. Du musst nichts mehr von Hand nachschlagen.": "Au kiosque, à l’entrepôt ou dans une boutique en ligne, chaque article a un numéro. <code>SVERWEIS</code> (RECHERCHEV) cherche ce numéro dans une liste et va chercher le nom ou le prix correspondant. Tu n’as plus rien à chercher à la main."
 }

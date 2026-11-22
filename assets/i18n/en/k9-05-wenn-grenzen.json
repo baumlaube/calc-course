@@ -118,5 +118,6 @@
  "✔ C5 stimmt! Jetzt zieh am Ausfüllkästchen von C5 nach unten bis C8.": "✔ C5 is correct! Now drag the <strong>Ausfüllkästchen</strong> (fill handle) from C5 down to C8.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Not quite at the bottom yet. Still empty: {}. Drag from C5 down to C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Monday is correct! Now drag the <strong>Ausfüllkästchen</strong> (fill handle) down to D7.",
- "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Not quite at the bottom yet. Drag from D5 down to D7."
+ "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Not quite at the bottom yet. Drag from D5 down to D7.",
+ "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Rules change: tomorrow it may be 16 points instead of 15. If the limit is in its own cell, you change it in one place and all formulas recalculate. At the end you solve <code>WENN</code> tasks on your own, just like in the test."
 }

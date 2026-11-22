@@ -45,5 +45,6 @@
  "Von innen nach außen": "Từ trong ra ngoài",
  "Von rechts nach links": "Từ phải sang trái",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "Trước là LINKS, rồi &amp;, cuối cùng là KLEIN.",
- "Gar nicht": "Hoàn toàn không"
+ "Gar nicht": "Hoàn toàn không",
+ "Für 25 Schüler Benutzernamen von Hand tippen? Das dauert und bringt Tippfehler. Mit & und Funktionen wie LINKS und KLEIN baut Calc solche Texte selbst aus Vor- und Nachnamen. So legen Schulen und Firmen Zugänge für viele Personen an.": "Gõ tay tên người dùng cho 25 học sinh? Việc đó lâu và dễ gõ nhầm. Với <code>&amp;</code> và các hàm như <code>LINKS</code> (TRÁI) và <code>KLEIN</code> (CHỮ THƯỜNG), Calc tự ghép những chữ như vậy từ tên và họ. Trường học và công ty tạo tài khoản cho nhiều người theo cách này."
 }

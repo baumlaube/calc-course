@@ -45,5 +45,6 @@
  "Von innen nach außen": "Зсередини назовні",
  "Von rechts nach links": "Справа наліво",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "Спочатку LINKS, потім &amp;, наприкінці KLEIN.",
- "Gar nicht": "Ніяк"
+ "Gar nicht": "Ніяк",
+ "Für 25 Schüler Benutzernamen von Hand tippen? Das dauert und bringt Tippfehler. Mit & und Funktionen wie LINKS und KLEIN baut Calc solche Texte selbst aus Vor- und Nachnamen. So legen Schulen und Firmen Zugänge für viele Personen an.": "Вводити вручну імена користувачів для 25 учнів? Це довго і з помилками. За допомогою <code>&amp;</code> і функцій, як-от <code>LINKS</code> (ЛІВСИМВ) і <code>KLEIN</code> (НИЖНІЙ), Calc сам складає такі тексти з імен і прізвищ. Так школи й фірми створюють доступи для багатьох людей."
 }

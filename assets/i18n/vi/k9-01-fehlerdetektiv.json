@@ -128,5 +128,6 @@
  "### heißt nur: Die Spalte ist zu schmal.": "<code>###</code> chỉ có nghĩa là: cột quá hẹp.",
  "### heißt nur: Die Zahl passt nicht in die Spalte. Doppelklick auf die Linie zwischen den Spaltenköpfen.": "### chỉ có nghĩa là: con số không vừa với cột. Bấm đúp vào đường kẻ giữa các tiêu đề cột.",
  "#WERT! sieht man sofort. Ein stiller Fehler zeigt keine Meldung.": "<code>#WERT!</code> thì thấy ngay. Lỗi ngầm thì không có thông báo nào.",
- "### sieht man sofort. Und die Zahl dahinter stimmt.": "<code>###</code> thì thấy ngay. Và con số phía sau vẫn đúng."
+ "### sieht man sofort. Und die Zahl dahinter stimmt.": "<code>###</code> thì thấy ngay. Và con số phía sau vẫn đúng.",
+ "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "Trong bảng tính có lỗi xảy ra, kể cả với người giỏi. Có lỗi Calc báo rõ ràng, ví dụ <code>#DIV/0!</code>. Có lỗi thì ngầm: con số trông đúng nhưng vẫn sai. Ở đây bạn học cách tìm và sửa cả hai loại. Đồng thời bạn ôn lại tất cả kiến thức lớp 8."
 }

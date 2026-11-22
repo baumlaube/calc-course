@@ -100,5 +100,6 @@
  "das macht Calc, wenn die Antwort Nein ist": "<strong>la partie « sinon »</strong> – ce que fait Calc si la réponse est non",
  "in allen anderen Fällen": "<strong>sinon</strong> – dans tous les autres cas",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>calcul</strong> – ici : quelque chose à calculer, p. ex. <code>A6+4,95</code>",
- "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>livraison, envoi</strong> – envoyer un colis. Ça coûte souvent de l'argent."
+ "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>livraison, envoi</strong> – envoyer un colis. Ça coûte souvent de l'argent.",
+ "WENN kann nicht nur Ja oder Nein sagen, sondern auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €, alle anderen 10 €. Solche Regeln gibt es überall, bei Eintrittspreisen, Versandkosten und Rabatten.": "<code>WENN</code> ne sait pas seulement dire oui ou non, il sait aussi calculer. Par exemple : qui a moins de 18 ans paie 8 € au cinéma, tous les autres 10 €. Ces règles sont partout : prix des billets, frais d’envoi et remises."
 }

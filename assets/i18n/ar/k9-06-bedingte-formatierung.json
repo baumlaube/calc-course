@@ -111,5 +111,6 @@
  "das, was in der Zelle steht": "<strong>قيمة الخلية</strong> – ما يوجد في الخلية",
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>نمط</strong> – مظهر جاهز له اسم: Gut (جيد) أخضر، Schlecht (سيئ) أحمر",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>بين</strong> – من عدد إلى عدد آخر. العددان يُحسبان.",
- "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>أكبر من · أصغر من</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. العدد 30 نفسه لا يُحسب."
+ "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>أكبر من · أصغر من</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. العدد 30 نفسه لا يُحسب.",
+ "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "في جدول طويل يسهل أن يفوتك شيء مهم. مع Bedingte Formatierung (التنسيق الشرطي) يلوّن Calc الخلايا بنفسه، مثل كل الأيام الحارة فوق 30 °C. إذا تغيّر رقم يتغيّر اللون وحده."
 }

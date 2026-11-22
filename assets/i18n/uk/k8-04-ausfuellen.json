@@ -149,5 +149,6 @@
  "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Подумай:</strong> яка формула потім буде в <strong>D6</strong> (напої)?",
  "Fehler": "Помилка",
  "Montag": "Montag (понеділок)",
- "Donnerstag": "Donnerstag (четвер)"
+ "Donnerstag": "Donnerstag (четвер)",
+ "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Часто в кожному рядку рахують однаково: для кожного товару, кожного дня, кожного учня. Ти пишеш формулу лише один раз і тягнеш її вниз. Calc сам підлаштовує клітинки в кожному рядку. Це економить багато введення й помилок."
 }

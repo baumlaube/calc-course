@@ -56,5 +56,6 @@
  "Wie oft „Essen“ vorkommt": "Cuántas veces aparece „Essen“",
  "Gesucht wird in B, addiert wird aus C.": "Busca en B y suma de C.",
  "Anführungszeichen um D5": "Comillas alrededor de D5",
- "Ein $ bei D5": "Un $ en D5"
+ "Ein $ bei D5": "Un $ en D5",
+ "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "¿Cuántos en la clase prefieren el deporte? ¿Cuántas notas son mejores que 3? <code>ZÄHLENWENN</code> (CONTAR.SI) cuenta solo las celdas que cumplen tu condición. <code>SUMMEWENN</code> (SUMAR.SI) suma solo los importes que encajan, por ejemplo todos los gastos en comida."
 }

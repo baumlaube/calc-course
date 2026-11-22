@@ -148,5 +148,6 @@
  "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Mendo:</strong> Cila formulë është pastaj në <strong>D6</strong> (pije)?",
  "Fehler": "Gabim",
  "Montag": "Montag (e hënë)",
- "Donnerstag": "Donnerstag (e enjte)"
+ "Donnerstag": "Donnerstag (e enjte)",
+ "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Shpesh në çdo rresht llogaritet njësoj: për çdo artikull, çdo ditë, çdo nxënës. E shkruan formulën vetëm një herë dhe e tërheq poshtë. Calc i përshtat vetë qelizat në çdo rresht. Kjo kursen shumë shkrim dhe shumë gabime."
 }

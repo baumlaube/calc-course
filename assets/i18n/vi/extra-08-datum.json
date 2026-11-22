@@ -46,5 +46,6 @@
  "Tage bis Sommerferien": "Tage bis Sommerferien (số ngày đến kỳ nghỉ hè)",
  "Ein Text": "Một đoạn chữ",
  "Neu tippen": "Gõ lại",
- "Eine Formel": "Một công thức"
+ "Eine Formel": "Một công thức",
+ "Wie viele Tage sind es noch bis zu den Ferien? Für Calc ist ein Datum eine Zahl. Darum kann Calc mit Daten rechnen: Tage zählen, Fristen ausrechnen und mit HEUTE() immer vom aktuellen Tag aus.": "Còn bao nhiêu ngày nữa đến kỳ nghỉ? Với Calc, ngày tháng là một con số. Vì vậy Calc tính toán được với ngày tháng: đếm ngày, tính hạn chót – và với <code>HEUTE()</code> (HÔM NAY) luôn tính từ ngày hiện tại."
 }

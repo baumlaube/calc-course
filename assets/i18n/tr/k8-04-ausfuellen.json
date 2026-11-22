@@ -148,5 +148,6 @@
  "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Düşün:</strong> Sonra <strong>D6</strong> (içecekler) hücresinde hangi formül olur?",
  "Fehler": "Hata",
  "Montag": "Montag (pazartesi)",
- "Donnerstag": "Donnerstag (perşembe)"
+ "Donnerstag": "Donnerstag (perşembe)",
+ "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Çoğu zaman her satırda aynı hesap yapılır: her ürün, her gün, her öğrenci için. Formülü sadece bir kez yazar ve aşağı çekersin. Calc her satırdaki hücreleri kendisi ayarlar. Bu çok yazma işinden ve çok hatadan kurtarır."
 }

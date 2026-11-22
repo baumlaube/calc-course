@@ -148,5 +148,6 @@
  "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Gândește-te:</strong> Ce formulă e apoi în <strong>D6</strong> (băuturi)?",
  "Fehler": "Eroare",
  "Montag": "Montag (luni)",
- "Donnerstag": "Donnerstag (joi)"
+ "Donnerstag": "Donnerstag (joi)",
+ "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Adesea se calculează la fel pe fiecare rând: pentru fiecare produs, fiecare zi, fiecare elev. Scrii formula o singură dată și o tragi în jos. Calc ajustează singur celulele pe fiecare rând. Asta economisește mult tastat și multe greșeli."
 }

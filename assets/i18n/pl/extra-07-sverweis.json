@@ -59,5 +59,6 @@
  "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Bez 0 SVERWEIS szuka w przybliżeniu – przydatne przy skali ocen.",
  "Irgendwo": "Gdziekolwiek",
  "Null zurückgeben": "Zwrócić zero",
- "Das = fehlt": "Brakuje ="
+ "Das = fehlt": "Brakuje =",
+ "Am Kiosk, im Lager oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht diese Nummer in einer Liste und holt den passenden Namen oder Preis. Du musst nichts mehr von Hand nachschlagen.": "W sklepiku, w magazynie czy w sklepie internetowym każdy produkt ma numer. <code>SVERWEIS</code> (WYSZUKAJ.PIONOWO) szuka tego numeru na liście i pobiera pasującą nazwę albo cenę. Nie trzeba już niczego szukać ręcznie."
 }

@@ -56,5 +56,6 @@
  "Wie oft „Essen“ vorkommt": "How often „Essen“ appears",
  "Gesucht wird in B, addiert wird aus C.": "It searches in B and adds from C.",
  "Anführungszeichen um D5": "Quotation marks around D5",
- "Ein $ bei D5": "A $ at D5"
+ "Ein $ bei D5": "A $ at D5",
+ "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "How many people in the class like PE best? How many grades are better than 3? <code>ZÄHLENWENN</code> (COUNTIF) counts only the cells that match your condition. <code>SUMMEWENN</code> (SUMIF) adds only the matching amounts, for example all spending on food."
 }

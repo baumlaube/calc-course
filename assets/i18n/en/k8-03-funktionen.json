@@ -132,5 +132,6 @@
  "plus rechnen, bis alle Zahlen dabei sind": "<strong>to add up</strong> – to add until all numbers are included",
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>average</strong> – add everything up and divide by how many there are. In Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>value</strong> – what is in a cell, usually a number",
- "Zellen mit der Maus auswählen": "<strong>to select</strong> – to choose cells with the mouse"
+ "Zellen mit der Maus auswählen": "<strong>to select</strong> – to choose cells with the mouse",
+ "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "You can still add five numbers with <code>+</code>. With 30 grades or 365 days it gets tedious. Functions like <code>SUMME</code> (SUM), <code>MITTELWERT</code> (AVERAGE), <code>MIN</code> and <code>MAX</code> calculate a whole range at once. With <code>MITTELWERT</code> you can work out your grade average, for example."
 }

@@ -45,5 +45,6 @@
  "Von innen nach außen": "From the inside out",
  "Von rechts nach links": "From right to left",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "First LINKS, then &amp;, at the end KLEIN.",
- "Gar nicht": "Not at all"
+ "Gar nicht": "Not at all",
+ "Für 25 Schüler Benutzernamen von Hand tippen? Das dauert und bringt Tippfehler. Mit & und Funktionen wie LINKS und KLEIN baut Calc solche Texte selbst aus Vor- und Nachnamen. So legen Schulen und Firmen Zugänge für viele Personen an.": "Type user names for 25 students by hand? That takes ages and causes typos. With <code>&amp;</code> and functions like <code>LINKS</code> (LEFT) and <code>KLEIN</code> (LOWER), Calc builds such texts itself from first names and surnames. This is how schools and companies create accounts for many people."
 }

@@ -56,5 +56,6 @@
  "Wie oft „Essen“ vorkommt": "Ile razy występuje „Essen”",
  "Gesucht wird in B, addiert wird aus C.": "Szuka w B i dodaje z C.",
  "Anführungszeichen um D5": "Cudzysłów wokół D5",
- "Ein $ bei D5": "$ przy D5"
+ "Ein $ bei D5": "$ przy D5",
+ "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "Ile osób w klasie najbardziej lubi WF? Ile ocen jest lepszych niż 3? <code>ZÄHLENWENN</code> (LICZ.JEŻELI) liczy tylko komórki pasujące do twojego warunku. <code>SUMMEWENN</code> (SUMA.JEŻELI) dodaje tylko pasujące kwoty, na przykład wszystkie wydatki na jedzenie."
 }

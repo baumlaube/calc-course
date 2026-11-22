@@ -111,5 +111,6 @@
  "das, was in der Zelle steht": "<strong>valeur de la cellule</strong> – ce qu'il y a dans la cellule",
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>style</strong> – une apparence toute prête avec un nom : Gut (bon) est vert, Schlecht (mauvais) est rouge",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>entre</strong> – d'un nombre à un autre. Les deux nombres comptent.",
- "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>supérieur à · inférieur à</strong> – größer als 30 : <code>&gt;30</code> · kleiner als 30 : <code>&lt;30</code>. Le 30 ne compte pas."
+ "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>supérieur à · inférieur à</strong> – größer als 30 : <code>&gt;30</code> · kleiner als 30 : <code>&lt;30</code>. Le 30 ne compte pas.",
+ "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "Dans un long tableau, on rate facilement quelque chose d’important. Avec Bedingte Formatierung (mise en forme conditionnelle), Calc colorie lui-même les cellules, par exemple tous les jours de canicule au-dessus de 30 °C. Si un nombre change, la couleur s’adapte toute seule."
 }

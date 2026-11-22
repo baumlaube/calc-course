@@ -118,5 +118,6 @@
  "✔ C5 stimmt! Jetzt zieh am Ausfüllkästchen von C5 nach unten bis C8.": "✔ C5 është në rregull! Tani tërhiq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) nga C5 poshtë deri në C8.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Ende jo deri në fund. Ende bosh: {}. Tërhiq nga C5 deri në C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ E hëna është në rregull! Tani tërhiq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) poshtë deri në D7.",
- "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Ende jo deri në fund. Tërhiq nga D5 deri në D7."
+ "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Ende jo deri në fund. Tërhiq nga D5 deri në D7.",
+ "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Rregullat ndryshojnë: nesër ndoshta vlejnë 16 pikë në vend të 15. Nëse kufiri është në një qelizë të veçantë, e ndryshon në një vend dhe të gjitha formulat rillogariten. Në fund i zgjidh vetë detyrat me <code>WENN</code>, si në provim."
 }

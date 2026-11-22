@@ -118,5 +118,6 @@
  "✔ C5 stimmt! Jetzt zieh am Ausfüllkästchen von C5 nach unten bis C8.": "✔ C5 صحيحة! الآن اسحب <strong>Ausfüllkästchen</strong> (مقبض التعبئة) من C5 إلى الأسفل حتى C8.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "لم تصل إلى الأسفل بعد. ما زالت فارغة: {}. اسحب من C5 حتى C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ الاثنين صحيح! الآن اسحب <strong>Ausfüllkästchen</strong> (مقبض التعبئة) إلى الأسفل حتى D7.",
- "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "لم تصل إلى الأسفل بعد. اسحب من D5 حتى D7."
+ "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "لم تصل إلى الأسفل بعد. اسحب من D5 حتى D7.",
+ "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "القواعد تتغير: غدًا قد تصبح 16 نقطة بدل 15. إذا كان الحدّ في خلية خاصة به تغيّره في مكان واحد، وتعيد كل الصيغ الحساب. في النهاية تحل مهام <code>WENN</code> وحدك كما في الاختبار."
 }

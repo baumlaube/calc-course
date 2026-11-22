@@ -22,11 +22,11 @@
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="stylesheet" href="../assets/kurs.css?v=e45ea12c22">
+<link rel="stylesheet" href="../assets/kurs.css?v=9b7d190553">
 <script src="../assets/i18n.js?v=831187eae3" data-page="k9-03-wenn" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
-<script src="../assets/kurs.js?v=4fe431b784"></script>
+<script src="../assets/kurs.js?v=4ce1e43bf7"></script>
 <script src="../assets/minicalc.js?v=bc12a0384f" defer></script>
-<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+<script src="../assets/wdh.js?v=8ffe4254fc" defer></script>
 <script src="../assets/stufen.js?v=3b9707d658" defer></script>
 </head>
 <body>
@@ -61,7 +61,7 @@
       <span class="chip">⏱ ca. 37 Minuten</span>
       <span class="chip">Teil 1 von 3 zu WENN</span>
     </div>
-    <p class="erklaerung">Bisher rechnet Calc in jeder Zeile gleich. Mit <code>WENN</code> stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst <code>WENN</code> in kleinen Schritten.</p>
+    <p class="erklaerung">Mit <code>WENN</code> stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst <code>WENN</code> in kleinen Schritten.</p>
   </section>
 
   <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
@@ -200,19 +200,6 @@
     <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
   </section>
 
-  <!-- Ich kann -->
-  <section class="card" id="ichkann">
-    <h2>Das kann ich jetzt</h2>
-    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
-    <ul class="checklist" id="checklist">
-      <li><label><input type="checkbox"> <span class="t">Ich lese eine WENN-Formel als Frage.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t">Ich schreibe <code class="long">=WENN(Frage;"Ja";"Nein")</code> ohne Vorlage.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t">Ich kenne die Vergleichszeichen, besonders <code>&gt;=</code> und <code>&lt;&gt;</code>.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich finde zu fertigen Antworten die passende Frage.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich baue ein Quiz, das sich selbst auswertet.</span></label></li>
-    </ul>
-  </section>
-
   <!-- Freiwillig: Üben + ★ Expedition -->
   <section class="card frei" id="freiwillig">
     <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
@@ -262,7 +249,7 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const { feedback, quiz, checklist } = window.Kurs;
+  const { feedback, quiz } = window.Kurs;
   const T = (x) => (window.T ? window.T(x) : x);
   const isErr = (v) => v instanceof MiniCalc.CalcError;
   const clean = (s) => s.replace(/\s/g, "").toUpperCase();
@@ -384,7 +371,6 @@ document.addEventListener("DOMContentLoaded", () => {
       : T("✔ Bei einer falschen Antwort kommt „falsch“. Teste jetzt auch die richtige Antwort Paris."), "info");
   });
 
-  checklist(document.getElementById("checklist"), "k9-03");
 });
 </script>
 <script>

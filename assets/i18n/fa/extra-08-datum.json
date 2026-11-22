@@ -46,5 +46,6 @@
  "Die Zahl stimmt – nur das Format fehlt.": "عدد درست است – فقط قالب کم است.",
  "Ein Text": "یک متن",
  "Neu tippen": "دوباره تایپ کردن",
- "Eine Formel": "یک فرمول"
+ "Eine Formel": "یک فرمول",
+ "Wie viele Tage sind es noch bis zu den Ferien? Für Calc ist ein Datum eine Zahl. Darum kann Calc mit Daten rechnen: Tage zählen, Fristen ausrechnen und mit HEUTE() immer vom aktuellen Tag aus.": "چند روز تا تعطیلات مانده؟ برای Calc تاریخ یک عدد است. برای همین Calc می‌تواند با تاریخ حساب کند: روزها را بشمارد، مهلت‌ها را حساب کند – و با <code>HEUTE()</code> (TODAY) همیشه از روز جاری."
 }

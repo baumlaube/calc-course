@@ -118,5 +118,6 @@
  "✔ C5 stimmt! Jetzt zieh am Ausfüllkästchen von C5 nach unten bis C8.": "✔ C5 est juste ! Maintenant tire la <strong>Ausfüllkästchen</strong> (poignée de recopie) de C5 vers le bas jusqu'à C8.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Pas encore tout en bas. Encore vides : {}. Tire de C5 jusqu'à C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Lundi est juste ! Maintenant tire la <strong>Ausfüllkästchen</strong> (poignée de recopie) vers le bas jusqu'à D7.",
- "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Pas encore tout en bas. Tire de D5 jusqu'à D7."
+ "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Pas encore tout en bas. Tire de D5 jusqu'à D7.",
+ "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Les règles changent : demain, il faudra peut-être 16 points au lieu de 15. Si la limite est dans sa propre cellule, tu la changes à un seul endroit et toutes les formules recalculent. À la fin, tu résous seul des exercices avec <code>WENN</code>, comme à l’interro."
 }

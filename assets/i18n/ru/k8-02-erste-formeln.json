@@ -120,5 +120,6 @@
  "+ plus · - minus · * mal · / geteilt": "<strong>знак действия</strong> – <code>+</code> plus (плюс) · <code>-</code> minus (минус) · <code>*</code> mal (умножить) · <code>/</code> geteilt (разделить)",
  "das, was bei einer Rechnung herauskommt": "<strong>результат</strong> – то, что получается при расчёте",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>строка ввода</strong> – длинная строка над таблицей. Там видна формула.",
- "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>пересчитать</strong> – Calc считает ещё раз, когда число меняется"
+ "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>пересчитать</strong> – Calc считает ещё раз, когда число меняется",
+ "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "Пока ты только вводишь числа. Теперь Calc считает за тебя: формула начинается с <code>=</code> и считает с ячейками. Если число меняется, Calc сразу пересчитывает. Именно для этого берут таблицу, а не калькулятор."
 }

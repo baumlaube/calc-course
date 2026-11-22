@@ -104,5 +104,6 @@
  "die Bedingung stimmt für diese Zahl": "<strong>to fit, to match</strong> – the condition is true for this number",
  "drei Farben: rot, gelb, grün": "<strong>traffic light</strong> – three colours: red, yellow, green",
  "etwas neu machen, z. B. eine Bedingung": "<strong>to create</strong> – to make something new, e.g. a condition",
- "ansehen, ändern und löschen": "<strong>to manage</strong> – to look at, change and delete"
+ "ansehen, ändern und löschen": "<strong>to manage</strong> – to look at, change and delete",
+ "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Now Calc colours by several rules – green, yellow and red like a traffic light. You learn why the order of the rules matters, how to colour text and how a limit can come from a cell."
 }

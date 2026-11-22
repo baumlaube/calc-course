@@ -136,5 +136,6 @@
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>comparar</strong> – comprobar: ¿es igual, mayor o menor?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>igual · distinto</strong> – gleich: <code>=</code> · ungleich (no igual): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>punto y coma</strong> – el signo <code>;</code>. Separa las tres partes de WENN.",
- "anzeigen. WENN gibt eine Antwort aus.": "<strong>mostrar</strong> – enseñar. WENN muestra una respuesta."
+ "anzeigen. WENN gibt eine Antwort aus.": "<strong>mostrar</strong> – enseñar. WENN muestra una respuesta.",
+ "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "Hasta ahora Calc calcula igual en cada fila. Con <code>WENN</code> (SI), Calc hace una pregunta y según la respuesta muestra algo distinto, por ejemplo «bestanden» (aprobado) o «nicht bestanden» (suspenso). Así tu tabla se vuelve lista. Aprendes <code>WENN</code> en pasos pequeños."
 }

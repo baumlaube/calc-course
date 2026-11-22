@@ -59,5 +59,6 @@
  "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Pa 0 SVERWEIS kërkon përafërsisht – e dobishme për çelësat e notave.",
  "Irgendwo": "Kudo",
  "Null zurückgeben": "Kthen zero",
- "Das = fehlt": "Mungon ="
+ "Das = fehlt": "Mungon =",
+ "Am Kiosk, im Lager oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht diese Nummer in einer Liste und holt den passenden Namen oder Preis. Du musst nichts mehr von Hand nachschlagen.": "Në kiosk, në magazinë ose në dyqanin online çdo artikull ka një numër. <code>SVERWEIS</code> (VLOOKUP) e kërkon këtë numër në një listë dhe merr emrin ose çmimin përkatës. Nuk ke më nevojë të kërkosh asgjë me dorë."
 }

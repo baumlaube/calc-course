@@ -100,5 +100,6 @@
  "das macht Calc, wenn die Antwort Nein ist": "<strong>pjesa „përndryshe”</strong> – këtë bën Calc kur përgjigjja është jo",
  "in allen anderen Fällen": "<strong>përndryshe</strong> – në të gjitha rastet e tjera",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>llogari</strong> – këtu: diçka për të llogaritur, p.sh. <code>A6+4,95</code>",
- "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>dërgesë</strong> – dërgimi i një pakoje. Shpesh kushton para."
+ "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>dërgesë</strong> – dërgimi i një pakoje. Shpesh kushton para.",
+ "WENN kann nicht nur Ja oder Nein sagen, sondern auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €, alle anderen 10 €. Solche Regeln gibt es überall, bei Eintrittspreisen, Versandkosten und Rabatten.": "<code>WENN</code> nuk thotë vetëm po ose jo, por mund edhe të llogarisë. Për shembull: kush është nën 18 vjeç paguan në kinema 8 €, të gjithë të tjerët 10 €. Rregulla të tilla ka kudo: te çmimet e biletave, kostot e dërgesës dhe zbritjet."
 }

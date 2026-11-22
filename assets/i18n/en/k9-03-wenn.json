@@ -136,5 +136,6 @@
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>to compare</strong> – to check: is something equal, greater or smaller?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>equal · not equal</strong> – gleich: <code>=</code> · ungleich (not equal): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>semicolon</strong> – the sign <code>;</code>. It separates the three parts of WENN.",
- "anzeigen. WENN gibt eine Antwort aus.": "<strong>to output</strong> – to show. WENN outputs an answer."
+ "anzeigen. WENN gibt eine Antwort aus.": "<strong>to output</strong> – to show. WENN outputs an answer.",
+ "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "So far Calc calculates the same way in every row. With <code>WENN</code> (IF) Calc asks a question and shows something different depending on the answer, for example “bestanden” (passed) or “nicht bestanden” (failed). This makes your table smart. You learn <code>WENN</code> in small steps."
 }

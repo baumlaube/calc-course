@@ -45,5 +45,6 @@
  "Von innen nach außen": "Nga brenda jashtë",
  "Von rechts nach links": "Nga e djathta në të majtë",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "Fillimisht LINKS, pastaj &amp;, në fund KLEIN.",
- "Gar nicht": "Aspak"
+ "Gar nicht": "Aspak",
+ "Für 25 Schüler Benutzernamen von Hand tippen? Das dauert und bringt Tippfehler. Mit & und Funktionen wie LINKS und KLEIN baut Calc solche Texte selbst aus Vor- und Nachnamen. So legen Schulen und Firmen Zugänge für viele Personen an.": "T’i shkruash me dorë emrat e përdoruesve për 25 nxënës? Kjo zgjat dhe sjell gabime. Me <code>&amp;</code> dhe funksione si <code>LINKS</code> (LEFT) dhe <code>KLEIN</code> (LOWER), Calc i ndërton vetë këto tekste nga emri dhe mbiemri. Kështu shkollat dhe firmat krijojnë llogari për shumë njerëz."
 }

@@ -100,5 +100,6 @@
  "das macht Calc, wenn die Antwort Nein ist": "<strong>часть «иначе»</strong> – что делает Calc, если ответ «нет»",
  "in allen anderen Fällen": "<strong>иначе</strong> – во всех остальных случаях",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>расчёт</strong> – здесь: то, что нужно посчитать, например <code>A6+4,95</code>",
- "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>доставка</strong> – отправка посылки. Часто это стоит денег."
+ "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>доставка</strong> – отправка посылки. Часто это стоит денег.",
+ "WENN kann nicht nur Ja oder Nein sagen, sondern auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €, alle anderen 10 €. Solche Regeln gibt es überall, bei Eintrittspreisen, Versandkosten und Rabatten.": "<code>WENN</code> умеет не только говорить да или нет, но и считать. Например: кто младше 18, платит в кино 8 €, все остальные – 10 €. Такие правила есть везде: для цен на билеты, стоимости доставки и скидок."
 }

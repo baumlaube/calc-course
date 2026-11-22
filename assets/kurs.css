@@ -142,6 +142,7 @@ kbd {
 .fb.info { background: var(--surface-2); }
 
 /* Buttons */
+[hidden] { display: none !important; }   /* sonst zeigt display von .btn u. a. versteckte Knöpfe */
 .btn {
   font: inherit; font-weight: 700; padding: 9px 16px; border-radius: 10px; cursor: pointer;
   border: 0; background: var(--accent); color: #fff; display: inline-flex; gap: 8px; align-items: center; text-decoration: none;
@@ -254,9 +255,6 @@ table.plain th { color: var(--muted); font-weight: 700; }
 .merke li { margin: 4px 0; }
 
 /* Ich-kann-Checkliste */
-.checklist { list-style: none; padding: 0; margin: 8px 0 0; }
-.checklist label { display: flex; gap: 12px; align-items: flex-start; padding: 8px 0; cursor: pointer; }
-.checklist input { width: 22px; height: 22px; margin-top: 3px; accent-color: var(--basis); flex: none; }
 
 /* Navigation unten */
 .pager { display: flex; justify-content: space-between; gap: 12px; margin: 30px 0; flex-wrap: wrap; }
@@ -375,12 +373,6 @@ html:not(.mc-touch) .mc-touch-only { display: none !important; }
 .vorlagen span { padding: 3px 12px; border-radius: 6px; font-weight: 600; }
 
 /* Lernstand (Fit für die Probe) */
-.dash { list-style: none; padding: 0; margin: 8px 0; display: grid; gap: 8px; }
-.dash li { display: grid; grid-template-columns: minmax(0, 1fr) 90px 36px; gap: 10px; align-items: center; }
-.dash-bar { height: 10px; border-radius: 6px; background: var(--surface-2); border: 1px solid var(--line); overflow: hidden; }
-.dash-bar span { display: block; height: 100%; background: var(--plus); }
-.dash li.ok .dash-bar span { background: var(--basis); }
-.dash-n { font-weight: 700; font-size: 14px; color: var(--muted); text-align: right; }
 
 /* Calc-Wörter – aufklappbare Wortliste je Baustein (DaZ) */
 details.woerter { padding: 14px 22px; }

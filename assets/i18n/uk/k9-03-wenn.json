@@ -136,5 +136,6 @@
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>порівнювати</strong> – перевірити: це дорівнює, більше чи менше?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>дорівнює · не дорівнює</strong> – gleich: <code>=</code> · ungleich (не дорівнює): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>крапка з комою</strong> – знак <code>;</code>. Він розділяє три частини WENN.",
- "anzeigen. WENN gibt eine Antwort aus.": "<strong>виводити</strong> – показувати. WENN виводить відповідь."
+ "anzeigen. WENN gibt eine Antwort aus.": "<strong>виводити</strong> – показувати. WENN виводить відповідь.",
+ "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "Досі Calc рахує в кожному рядку однаково. З <code>WENN</code> (ЯКЩО) Calc ставить запитання і залежно від відповіді показує різне, наприклад «bestanden» (склав) або «nicht bestanden» (не склав). Так твоя таблиця стає розумною. <code>WENN</code> ти вивчаєш маленькими кроками."
 }

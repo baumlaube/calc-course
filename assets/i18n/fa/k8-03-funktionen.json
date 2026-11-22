@@ -132,5 +132,6 @@
  "plus rechnen, bis alle Zahlen dabei sind": "<strong>جمع کردن</strong> – آن‌قدر جمع بزنی تا همهٔ عددها حساب شوند",
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>میانگین</strong> – همه را جمع کن و بر تعداد تقسیم کن. در Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>مقدار</strong> – چیزی که در خانه است، بیشتر وقت‌ها یک عدد",
- "Zellen mit der Maus auswählen": "<strong>انتخاب کردن</strong> – خانه‌ها را با ماوس انتخاب کردن"
+ "Zellen mit der Maus auswählen": "<strong>انتخاب کردن</strong> – خانه‌ها را با ماوس انتخاب کردن",
+ "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "پنج عدد را هنوز با <code>+</code> جمع می‌کنی. ولی با ۳۰ نمره یا ۳۶۵ روز خسته‌کننده می‌شود. تابع‌هایی مثل <code>SUMME</code> (SUM)، <code>MITTELWERT</code> (AVERAGE)، <code>MIN</code> و <code>MAX</code> یک محدودهٔ کامل را یک‌جا حساب می‌کنند. با <code>MITTELWERT</code> مثلاً معدل نمره‌هایت را حساب می‌کنی."
 }

@@ -132,5 +132,6 @@
  "plus rechnen, bis alle Zahlen dabei sind": "<strong>يجمع</strong> – يجمع حتى تدخل كل الأرقام",
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>المتوسط</strong> – اجمع الكل واقسم على العدد. في Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>قيمة</strong> – ما يوجد في خلية، غالبًا رقم",
- "Zellen mit der Maus auswählen": "<strong>يحدّد</strong> – يختار خلايا بالفأرة"
+ "Zellen mit der Maus auswählen": "<strong>يحدّد</strong> – يختار خلايا بالفأرة",
+ "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "خمسة أرقام ما زلت تجمعها بـ <code>+</code>. لكن مع 30 علامة أو 365 يومًا يصبح ذلك متعبًا. دوال مثل <code>SUMME</code> (SUM) و<code>MITTELWERT</code> (AVERAGE) و<code>MIN</code> و<code>MAX</code> تحسب نطاقًا كاملًا مرة واحدة. مع <code>MITTELWERT</code> تحسب مثلًا معدل علاماتك."
 }

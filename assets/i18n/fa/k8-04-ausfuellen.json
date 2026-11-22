@@ -148,5 +148,6 @@
  "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>فکر کن:</strong> بعد در <strong>D6</strong> (نوشیدنی‌ها) کدام فرمول است؟",
  "Fehler": "خطا",
  "Montag": "Montag (دوشنبه)",
- "Donnerstag": "Donnerstag (پنجشنبه)"
+ "Donnerstag": "Donnerstag (پنجشنبه)",
+ "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "اغلب در هر ردیف همان حساب انجام می‌شود: برای هر کالا، هر روز، هر دانش‌آموز. فرمول را فقط یک بار می‌نویسی و آن را به پایین می‌کشی. Calc خودش خانه‌ها را در هر ردیف تنظیم می‌کند. این خیلی در تایپ و غلط تایپی صرفه‌جویی می‌کند."
 }

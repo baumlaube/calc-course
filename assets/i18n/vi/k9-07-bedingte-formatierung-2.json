@@ -102,5 +102,6 @@
  "Kinder unter 14 zahlen 5 €. Alle anderen zahlen 8 €. Schreib die Formel in B2.": "Trẻ em <strong>dưới 14 tuổi</strong> trả 5 €. Tất cả những người khác trả 8 €. Viết công thức vào B2.",
  "„Unter 14“ heißt: 14 zählt nicht mehr. Nimm <.": "„Dưới 14“ nghĩa là: 14 không còn được tính. Hãy dùng <code>&lt;</code>.",
  "bezahlt?": "bezahlt? (đã trả tiền?)",
- "größer als 50%": "größer als 50% (lớn hơn 50%)"
+ "größer als 50%": "größer als 50% (lớn hơn 50%)",
+ "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Bây giờ Calc tô màu theo nhiều quy tắc – xanh lá, vàng và đỏ như đèn giao thông. Bạn học tại sao thứ tự các quy tắc quan trọng, cách tô màu chữ và cách lấy mốc từ một ô."
 }

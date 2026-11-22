@@ -134,5 +134,6 @@
  "falsch getippt, z. B. SUMNE statt SUMME": "<strong>faute de frappe</strong> – mal tapé, p. ex. <code>SUMNE</code> au lieu de <code>SUMME</code>",
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>étroit</strong> – pas large. <code>###</code> veut dire : la colonne est trop étroite.",
  "verstehen, was etwas bedeutet": "<strong>interpréter</strong> – comprendre ce que quelque chose veut dire",
- "einen Fehler wieder richtig machen": "<strong>corriger</strong> – rendre une erreur juste à nouveau"
+ "einen Fehler wieder richtig machen": "<strong>corriger</strong> – rendre une erreur juste à nouveau",
+ "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "Dans les tableaux, il y a des erreurs, même chez les pros. Certaines, Calc les montre fort, par exemple <code>#DIV/0!</code>. D’autres sont silencieuses : le nombre a l’air juste mais il est faux. Ici tu apprends à trouver et à réparer les deux. En même temps, tu révises tout de la 8e."
 }

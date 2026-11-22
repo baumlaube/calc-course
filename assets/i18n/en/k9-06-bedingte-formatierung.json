@@ -111,5 +111,6 @@
  "das, was in der Zelle steht": "<strong>cell value</strong> – what is in the cell",
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>style</strong> – a ready-made look with a name: Gut (good) is green, Schlecht (bad) is red",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>between</strong> – from one number to another. Both numbers count.",
- "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>greater than · less than</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. The 30 does not count."
+ "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>greater than · less than</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. The 30 does not count.",
+ "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "In a long table it is easy to miss something important. With Bedingte Formatierung (conditional formatting) Calc colours cells by itself, for example all hot days above 30 °C. If a number changes, the colour adjusts on its own."
 }

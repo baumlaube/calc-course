@@ -152,5 +152,6 @@
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 e corect. Acum umple: întâi la dreapta până la E7, apoi în jos până la E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Încă nu e gata: {} celule sunt goale. Trage mai departe zona selectată, până se umple totul până la E9.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Rândul 4 e corect. Acum selectează C4 și D4 împreună și trage-le în jos până la rândul 6.",
- "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Gândește-te:</strong> Lena trage formula în jos până la C9. Ce e atunci în <strong>C6</strong> (marți)?"
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Gândește-te:</strong> Lena trage formula în jos până la C9. Ce e atunci în <strong>C6</strong> (marți)?",
+ "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "La completare, fiecare referință de celulă se mută odată cu formula. De obicei e corect. Dar unele valori sunt valabile pentru toate rândurile, de exemplu un salariu pe oră. Cu <code>$</code> fixezi o astfel de celulă. Dacă salariul se schimbă, modifici o singură celulă și tot tabelul se recalculează."
 }

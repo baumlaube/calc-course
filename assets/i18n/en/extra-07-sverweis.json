@@ -59,5 +59,6 @@
  "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Without 0 SVERWEIS searches approximately – useful for grading keys.",
  "Irgendwo": "Anywhere",
  "Null zurückgeben": "Return zero",
- "Das = fehlt": "The = is missing"
+ "Das = fehlt": "The = is missing",
+ "Am Kiosk, im Lager oder im Online-Shop hat jeder Artikel eine Nummer. SVERWEIS sucht diese Nummer in einer Liste und holt den passenden Namen oder Preis. Du musst nichts mehr von Hand nachschlagen.": "At the kiosk, in a warehouse or in an online shop, every item has a number. <code>SVERWEIS</code> (VLOOKUP) looks up this number in a list and fetches the matching name or price. You don’t have to look anything up by hand any more."
 }

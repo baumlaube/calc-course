@@ -149,5 +149,6 @@
  "Das ist der Durchschnitt. Gesucht ist die kleinste Zahl.": "Đó là trung bình. Cần tìm số nhỏ nhất.",
  "SUMME zählt alles zusammen. Gesucht ist die kleinste Zahl.": "SUMME cộng tất cả. Cần tìm số nhỏ nhất.",
  "Die schnellste Zeit ist der kleinste Wert, also MIN.": "Thời gian nhanh nhất là giá trị nhỏ nhất, tức là MIN.",
- "66,00 € (6 × 11 €)": "66,00 € (6 × 11 €)"
+ "66,00 € (6 × 11 €)": "66,00 € (6 × 11 €)",
+ "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "Khi điền, mỗi địa chỉ ô di chuyển theo. Thường thì như vậy là đúng. Nhưng có những giá trị áp dụng cho tất cả các hàng, ví dụ tiền công mỗi giờ. Với dấu <code>$</code> bạn giữ cố định một ô như vậy. Khi tiền công thay đổi, bạn chỉ sửa một ô và cả bảng tính lại."
 }

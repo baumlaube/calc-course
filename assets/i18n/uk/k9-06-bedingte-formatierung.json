@@ -111,5 +111,6 @@
  "das, was in der Zelle steht": "<strong>значення клітинки</strong> – те, що стоїть у клітинці",
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>стиль</strong> – готовий вигляд із назвою: Gut (добре) – зелений, Schlecht (погано) – червоний",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>між</strong> – від одного числа до іншого. Обидва числа рахуються.",
- "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>більше · менше</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. Саме 30 не рахується."
+ "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>більше · менше</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. Саме 30 не рахується.",
+ "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "У довгій таблиці легко пропустити важливе. За допомогою Bedingte Formatierung (умовне форматування) Calc сам зафарбовує клітинки, наприклад усі спекотні дні понад 30 °C. Якщо число змінюється, колір підлаштовується сам."
 }

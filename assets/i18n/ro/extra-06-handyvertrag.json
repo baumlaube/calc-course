@@ -43,5 +43,6 @@
  "SVERWEIS →": "SVERWEIS (CĂUTAREV) →",
  "Kosten in 2 Jahren bei {} GB": "Cost în 2 ani la {} GB",
  "Am günstigsten: {} mit {}.": "Cel mai ieftin: <strong>{}</strong> cu {}.",
- "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Date insuficiente (chiar și cu pachet extra): {}."
+ "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Date insuficiente (chiar și cu pachet extra): {}.",
+ "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Fiecare operator face reclamă la cel mai ieftin abonament. Care ți se potrivește cu adevărat? În acest proiect compari abonamentele pe doi ani cu <code>WENN</code> (IF) și <code>MIN</code> și îți argumentezi alegerea cu cifre și un grafic."
 }

@@ -127,5 +127,6 @@
  "den Durchschnitt": "điểm trung bình",
  "B5 und B9": "B5 và B9",
  "B5 bis B9": "từ B5 đến B9",
- "Weiter mit {}: Berechne {} mit ={}(…).": "Tiếp theo: <strong>{}</strong>. Tính {} bằng <code>={}(</code>…<code>)</code>."
+ "Weiter mit {}: Berechne {} mit ={}(…).": "Tiếp theo: <strong>{}</strong>. Tính {} bằng <code>={}(</code>…<code>)</code>.",
+ "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Năm số thì bạn vẫn cộng bằng <code>+</code> được. Nhưng với 30 điểm hay 365 ngày thì rất mất công. Các hàm như <code>SUMME</code> (TỔNG), <code>MITTELWERT</code> (TRUNG BÌNH), <code>MIN</code> và <code>MAX</code> tính cả một vùng ô cùng lúc. Với <code>MITTELWERT</code>, ví dụ bạn tính được điểm trung bình của mình."
 }

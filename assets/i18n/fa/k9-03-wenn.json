@@ -136,5 +136,6 @@
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>مقایسه کردن</strong> – بررسی کنی: آیا چیزی برابر، بزرگ‌تر یا کوچک‌تر است؟",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>برابر · نابرابر</strong> – gleich: <code>=</code> · ungleich (برابر نیست): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>نقطه‌ویرگول</strong> – علامت <code>;</code>. سه بخش WENN را جدا می‌کند.",
- "anzeigen. WENN gibt eine Antwort aus.": "<strong>نشان دادن خروجی</strong> – نشان دادن. WENN یک جواب نشان می‌دهد."
+ "anzeigen. WENN gibt eine Antwort aus.": "<strong>نشان دادن خروجی</strong> – نشان دادن. WENN یک جواب نشان می‌دهد.",
+ "Bisher rechnet Calc in jeder Zeile gleich. Mit WENN stellt Calc eine Frage und zeigt je nach Antwort etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. So wird deine Tabelle schlau. Du lernst WENN in kleinen Schritten.": "تا حالا Calc در هر ردیف یک‌جور حساب می‌کند. با <code>WENN</code> (IF)، Calc یک سؤال می‌پرسد و بسته به جواب چیز متفاوتی نشان می‌دهد، مثلاً «bestanden» (قبول) یا «nicht bestanden» (رد). این‌طور جدولت هوشمند می‌شود. <code>WENN</code> را قدم‌به‌قدم یاد می‌گیری."
 }

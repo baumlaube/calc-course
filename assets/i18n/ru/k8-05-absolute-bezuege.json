@@ -152,5 +152,6 @@
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 верно. Теперь заполни: сначала вправо до E7, потом вниз до E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Ещё не готово: {} ячеек пустые. Тяни выделенную область дальше, пока всё до E9 не заполнится.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Строка 4 верна. Теперь выдели C4 и D4 вместе и потяни вниз до строки 6.",
- "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Подумай:</strong> Лена протягивает формулу вниз до C9. Что тогда стоит в <strong>C6</strong> (вторник)?"
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Подумай:</strong> Лена протягивает формулу вниз до C9. Что тогда стоит в <strong>C6</strong> (вторник)?",
+ "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "При заполнении каждая ссылка на ячейку сдвигается. Обычно это правильно. Но некоторые значения действуют для всех строк, например почасовая оплата. Знаком <code>$</code> ты закрепляешь такую ячейку. Если оплата меняется, ты меняешь только одну ячейку – и вся таблица пересчитывается."
 }

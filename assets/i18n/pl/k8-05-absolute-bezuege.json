@@ -152,5 +152,6 @@
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 jest dobrze. Teraz wypełnij: najpierw w prawo do E7, potem w dół do E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "Jeszcze nie gotowe: {} komórek jest pustych. Przeciągaj zaznaczony obszar dalej, aż wszystko do E9 będzie pełne.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ Wiersz 4 jest dobrze. Teraz zaznacz razem C4 i D4 i przeciągnij w dół do wiersza 6.",
- "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Pomyśl:</strong> Lena przeciąga formułę w dół do C9. Co jest wtedy w <strong>C6</strong> (wtorek)?"
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Pomyśl:</strong> Lena przeciąga formułę w dół do C9. Co jest wtedy w <strong>C6</strong> (wtorek)?",
+ "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "Przy wypełnianiu każde odwołanie do komórki się przesuwa. Zwykle to dobrze. Ale niektóre wartości dotyczą wszystkich wierszy, na przykład stawka godzinowa. Znakiem <code>$</code> unieruchamiasz taką komórkę. Gdy stawka się zmieni, zmieniasz tylko jedną komórkę, a cała tabela się przelicza."
 }

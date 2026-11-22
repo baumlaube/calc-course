@@ -56,5 +56,6 @@
  "Wie oft „Essen“ vorkommt": "Bao nhiêu lần có „Essen“",
  "Gesucht wird in B, addiert wird aus C.": "Tìm trong B, cộng từ C.",
  "Anführungszeichen um D5": "Dấu ngoặc kép quanh D5",
- "Ein $ bei D5": "Một dấu $ ở D5"
+ "Ein $ bei D5": "Một dấu $ ở D5",
+ "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "Trong lớp có bao nhiêu bạn thích môn thể dục nhất? Có bao nhiêu điểm tốt hơn 3? <code>ZÄHLENWENN</code> (ĐẾM NẾU) chỉ đếm những ô khớp với điều kiện của bạn. <code>SUMMEWENN</code> (TỔNG NẾU) chỉ cộng những số tiền phù hợp, ví dụ tất cả tiền chi cho ăn uống."
 }

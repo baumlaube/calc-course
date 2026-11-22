@@ -100,5 +100,6 @@
  "das macht Calc, wenn die Antwort Nein ist": "<strong>the “else” part</strong> – what Calc does if the answer is no",
  "in allen anderen Fällen": "<strong>otherwise, else</strong> – in all other cases",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>calculation</strong> – here: something to work out, e.g. <code>A6+4,95</code>",
- "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>shipping</strong> – sending a parcel. That often costs money."
+ "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>shipping</strong> – sending a parcel. That often costs money.",
+ "WENN kann nicht nur Ja oder Nein sagen, sondern auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €, alle anderen 10 €. Solche Regeln gibt es überall, bei Eintrittspreisen, Versandkosten und Rabatten.": "<code>WENN</code> can do more than say yes or no – it can also calculate. For example: anyone under 18 pays 8 € at the cinema, everyone else 10 €. Rules like this are everywhere: for ticket prices, delivery costs and discounts."
 }

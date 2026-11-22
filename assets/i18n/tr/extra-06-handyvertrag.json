@@ -43,5 +43,6 @@
  "SVERWEIS →": "SVERWEIS (DÜŞEYARA) →",
  "Kosten in 2 Jahren bei {} GB": "{} GB ile 2 yıllık maliyet",
  "Am günstigsten: {} mit {}.": "En ucuz: {} ile <strong>{}</strong>.",
- "Zu wenig Daten (auch mit Zusatzpaket): {}.": "İnternet yetmiyor (ek paketle bile): {}."
+ "Zu wenig Daten (auch mit Zusatzpaket): {}.": "İnternet yetmiyor (ek paketle bile): {}.",
+ "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Her operatör en ucuz tarifeyi reklam eder. Hangisi gerçekten sana uygun? Bu projede tarifeleri iki yıl boyunca <code>WENN</code> (EĞER) ve <code>MIN</code> ile karşılaştırır, seçimini sayılarla ve bir grafikle gerekçelendirirsin."
 }

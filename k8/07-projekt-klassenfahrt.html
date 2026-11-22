@@ -22,9 +22,9 @@
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="stylesheet" href="../assets/kurs.css?v=e45ea12c22">
+<link rel="stylesheet" href="../assets/kurs.css?v=9b7d190553">
 <script src="../assets/i18n.js?v=831187eae3" data-page="k8-07-projekt-klassenfahrt" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
-<script src="../assets/kurs.js?v=4fe431b784"></script>
+<script src="../assets/kurs.js?v=4ce1e43bf7"></script>
 <script src="../assets/minichart.js?v=8eed7d4abd" defer></script>
 </head>
 <body>
@@ -59,7 +59,7 @@
       <span class="chip">⏱ 2 × 35 Minuten</span>
       <span class="chip">Vorwissen: Baustein 1–6</span>
     </div>
-    <p class="erklaerung">Jetzt setzt du alles aus Klasse 8 zusammen. Ihr plant eine Klassenfahrt: Kosten pro Person ausrechnen, Angebote vergleichen und die Entscheidung mit einem Diagramm begründen. Diese Rechnung muss vor jeder echten Klassenfahrt jemand machen.</p>
+    <p class="erklaerung">Jetzt brauchst du alles aus Klasse 8. Ihr plant eine Klassenfahrt: Ihr rechnet die Kosten pro Person aus, vergleicht Angebote und zeigt eure Entscheidung in einem Diagramm. So eine Rechnung braucht jede echte Klassenfahrt.</p>
   </section>
 
   <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
@@ -154,19 +154,6 @@
     <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Raster drucken</button></div>
   </section>
 
-  <!-- Ich kann -->
-  <section class="card" id="ichkann">
-    <h2>Rückblick auf Klasse 8</h2>
-    <p class="lead">Hak ab, was du jetzt kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
-    <ul class="checklist" id="checklist">
-      <li><label><input type="checkbox"> <span class="t">Ich kann einen Kostenplan mit Formeln aufbauen.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t">Ich setze SUMME, Ausfüllen und <code>$</code> sinnvoll ein.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t">Ich gestalte Tabellen so, dass andere sie gut lesen können.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t">Ich wähle das passende Diagramm und lese es richtig.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich kann zwei Angebote vergleichen und meine Entscheidung begründen.</span></label></li>
-    </ul>
-  </section>
-
   <!-- Freiwillig: Üben + ★ Expedition -->
   <section class="card frei" id="freiwillig">
     <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
@@ -217,8 +204,7 @@ document.addEventListener("DOMContentLoaded", () => {
   slider.addEventListener("input", draw);
   draw();
   document.addEventListener("i18n-ready", draw);
-  window.Kurs.checklist(document.getElementById("checklist"), "k8-07");
-});
+  window.Kurs.});
 </script>
 </body>
 </html>

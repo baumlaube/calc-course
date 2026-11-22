@@ -132,5 +132,6 @@
  "plus rechnen, bis alle Zahlen dabei sind": "<strong>additionner</strong> – faire plus jusqu'à ce que tous les nombres soient comptés",
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>moyenne</strong> – tout additionner et diviser par le nombre de valeurs. Dans Calc : <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>valeur</strong> – ce qu'il y a dans une cellule, le plus souvent un nombre",
- "Zellen mit der Maus auswählen": "<strong>sélectionner</strong> – choisir des cellules avec la souris"
+ "Zellen mit der Maus auswählen": "<strong>sélectionner</strong> – choisir des cellules avec la souris",
+ "Fünf Zahlen zählst du noch mit + zusammen. Bei 30 Noten oder 365 Tagen wird das mühsam. Funktionen wie SUMME, MITTELWERT, MIN und MAX rechnen einen ganzen Bereich auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Cinq nombres, tu les additionnes encore avec <code>+</code>. Avec 30 notes ou 365 jours, ça devient pénible. Des fonctions comme <code>SUMME</code> (SOMME), <code>MITTELWERT</code> (MOYENNE), <code>MIN</code> et <code>MAX</code> calculent toute une plage d’un coup. Avec <code>MITTELWERT</code>, tu calcules par exemple ta moyenne."
 }

@@ -119,5 +119,6 @@
  "■ B6 nach rechts ausfüllen (bis D6)": "■ Fill B6 to the right (to D6)",
  "■ B6 bis D6 nach unten ausfüllen (bis D8)": "■ Fill B6 to D6 down (to D8)",
  "Erst nach rechts ausfüllen, bis D6!": "First fill to the right, up to D6!",
- "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Not finished yet: {} cells are empty. Keep dragging the selected range until everything up to D8 is full."
+ "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.": "Not finished yet: {} cells are empty. Keep dragging the selected range until everything up to D8 is full.",
+ "Eine lange Zahlenliste liest kaum jemand gern. Ein Diagramm zeigt auf einen Blick, was größer ist oder wie sich etwas entwickelt. Du lernst, wann eine Säule, ein Kreis oder eine Linie passt. Diagramme siehst du jeden Tag, im Wetterbericht und in den Nachrichten.": "Hardly anyone likes reading a long list of numbers. A chart shows at a glance what is bigger or how something develops. You learn when a column, a pie or a line chart fits. You see charts every day, in the weather forecast and in the news."
 }

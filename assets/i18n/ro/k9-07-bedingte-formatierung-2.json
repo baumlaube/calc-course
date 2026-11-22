@@ -104,5 +104,6 @@
  "die Bedingung stimmt für diese Zahl": "<strong>a se potrivi</strong> – condiția e adevărată pentru acest număr",
  "drei Farben: rot, gelb, grün": "<strong>semafor</strong> – trei culori: roșu, galben, verde",
  "etwas neu machen, z. B. eine Bedingung": "<strong>a crea</strong> – a face ceva nou, de ex. o condiție",
- "ansehen, ändern und löschen": "<strong>a gestiona</strong> – a vedea, a schimba și a șterge"
+ "ansehen, ändern und löschen": "<strong>a gestiona</strong> – a vedea, a schimba și a șterge",
+ "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Acum Calc colorează după mai multe reguli – verde, galben și roșu ca un semafor. Înveți de ce contează ordinea regulilor, cum colorezi text și cum vine un prag dintr-o celulă."
 }

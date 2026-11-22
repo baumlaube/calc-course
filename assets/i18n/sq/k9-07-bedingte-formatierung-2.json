@@ -104,5 +104,6 @@
  "die Bedingung stimmt für diese Zahl": "<strong>përshtatem</strong> – kushti është i vërtetë për këtë numër",
  "drei Farben: rot, gelb, grün": "<strong>semafor</strong> – tri ngjyra: e kuqe, e verdhë, e gjelbër",
  "etwas neu machen, z. B. eine Bedingung": "<strong>krijoj</strong> – bëj diçka të re, p.sh. një kusht",
- "ansehen, ändern und löschen": "<strong>menaxhoj</strong> – shoh, ndryshoj dhe fshij"
+ "ansehen, ändern und löschen": "<strong>menaxhoj</strong> – shoh, ndryshoj dhe fshij",
+ "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Tani Calc ngjyros sipas disa rregullave – jeshile, e verdhë dhe e kuqe si semafori. Mëson pse ka rëndësi radha e rregullave, si ngjyros tekstin dhe si vjen një kufi nga një qelizë."
 }

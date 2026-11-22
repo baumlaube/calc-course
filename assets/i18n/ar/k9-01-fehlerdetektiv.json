@@ -134,5 +134,6 @@
  "falsch getippt, z. B. SUMNE statt SUMME": "<strong>خطأ في الكتابة</strong> – كُتب خطأً، مثلًا <code>SUMNE</code> بدل <code>SUMME</code>",
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>ضيق</strong> – غير عريض. <code>###</code> تعني: العمود ضيق جدًا.",
  "verstehen, was etwas bedeutet": "<strong>يفسّر</strong> – يفهم ماذا يعني شيء",
- "einen Fehler wieder richtig machen": "<strong>يصلح</strong> – يجعل الخطأ صحيحًا من جديد"
+ "einen Fehler wieder richtig machen": "<strong>يصلح</strong> – يجعل الخطأ صحيحًا من جديد",
+ "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "تحدث أخطاء في الجداول، حتى عند المحترفين. بعضها يُظهره Calc بصوت عالٍ، مثل <code>#DIV/0!</code>. وبعضها صامت: الرقم يبدو صحيحًا لكنه خاطئ. هنا تتعلم إيجاد النوعين وإصلاحهما. وفي الوقت نفسه تراجع كل ما في الصف الثامن."
 }

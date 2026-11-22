@@ -56,5 +56,6 @@
  "Wie oft „Essen“ vorkommt": "„Essen“ kaç kez geçiyor",
  "Gesucht wird in B, addiert wird aus C.": "B'de arar ve C'den toplar.",
  "Anführungszeichen um D5": "D5 etrafında tırnak işareti",
- "Ein $ bei D5": "D5’te bir $"
+ "Ein $ bei D5": "D5’te bir $",
+ "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "Sınıfta kaç kişi en çok beden eğitimini seviyor? Kaç not 3’ten daha iyi? <code>ZÄHLENWENN</code> (EĞERSAY) yalnızca koşuluna uyan hücreleri sayar. <code>SUMMEWENN</code> (ETOPLA) yalnızca uyan tutarları toplar, örneğin yemeğe yapılan tüm harcamaları."
 }

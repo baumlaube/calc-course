@@ -22,9 +22,9 @@
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="stylesheet" href="assets/kurs.css?v=e45ea12c22">
+<link rel="stylesheet" href="assets/kurs.css?v=9b7d190553">
 <script src="assets/i18n.js?v=831187eae3" data-page="index" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
-<script src="assets/kurs.js?v=4fe431b784"></script>
+<script src="assets/kurs.js?v=4ce1e43bf7"></script>
 <style>
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin-top: 10px; }
   .unit { display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--text); text-decoration: none; }
@@ -54,18 +54,10 @@
   .jg-tab[aria-selected="true"] { background: var(--surface); color: var(--navy); }
   .jg-tab.mehr { color: #f0d4ff; }
   .jg-tab.mehr[aria-selected="true"] { background: var(--surface); color: var(--expedition); }
-  .jg-tab .prog { font-size: 12.5px; font-weight: 800; margin-inline-start: 6px; padding: 1px 7px; border-radius: 999px; background: var(--basis); color: #fff; }
-  .jg-tab .prog:empty { display: none; }
   /* Die Karte des gewählten Reiters hängt direkt am Reiter */
   html.js-tabs .jg { margin-top: 0; border-top: 0; border-radius: 0 0 var(--radius) var(--radius); }
   html.js-tabs .jg[hidden] { display: none; }
   .jg { scroll-margin-top: 70px; }
-  /* Fertig = alles in „Das kann ich“ abgehakt */
-  .unit .no { position: relative; }
-  a.unit.fertig .no { background: var(--basis); }
-  a.unit.fertig .no::after { content: "✔"; position: absolute; right: -7px; top: -7px; width: 20px; height: 20px; border-radius: 50%;
-    display: grid; place-items: center; font-size: 12px; background: var(--surface); color: var(--basis); border: 2px solid var(--basis); }
-  [dir="rtl"] a.unit.fertig .no::after { right: auto; left: -7px; }
   @media (max-width: 560px) {
     .jg-tab { padding: 10px 15px 11px; font-size: 17px; }
     .jg-tab .voll, .jg-label { display: none; }
@@ -96,8 +88,8 @@
   <nav class="jg-tabs" aria-label="Wähle deine Klasse">
     <span class="jg-label t" aria-hidden="true">Wähle deine Klasse:</span>
     <span role="tablist" aria-label="Klassen" style="display:contents">
-    <button class="jg-tab" type="button" role="tab" data-jg="k8"><span class="voll">Klasse </span>8<span class="prog"></span></button>
-    <button class="jg-tab" type="button" role="tab" data-jg="k9"><span class="voll">Klasse </span>9<span class="prog"></span></button>
+    <button class="jg-tab" type="button" role="tab" data-jg="k8"><span class="voll">Klasse </span>8</button>
+    <button class="jg-tab" type="button" role="tab" data-jg="k9"><span class="voll">Klasse </span>9</button>
     <button class="jg-tab mehr" type="button" role="tab" data-jg="mehr">★ <span class="voll">Mehr</span></button>
     </span>
   </nav>
@@ -161,19 +153,6 @@
   const panels = [...document.querySelectorAll(".jg")];
   const ids = tabs.map((t) => t.dataset.jg);
   document.documentElement.classList.add("js-tabs");
-
-  /* Fortschritt: Häkchen an fertigen Bausteinen, „✔ 3“ am Reiter.
-     Erst nach der Sprachhilfe, damit die Reiter-Texte noch übersetzt werden können. */
-  function progress() {
-    panels.forEach((p) => {
-      let done = 0;
-      p.querySelectorAll("[data-key]").forEach((a) => { if (S.get("calc-fertig-" + a.dataset.key) === "1") { a.classList.add("fertig"); done++; } });
-      const prog = tabs.find((t) => t.dataset.jg === p.dataset.jg).querySelector(".prog");
-      if (prog && done) { prog.textContent = "✔ " + done; prog.title = done + " ✔"; }
-    });
-  }
-  if (window.I18N && window.I18N.lang !== "de" && !window.I18N.ready) document.addEventListener("i18n-ready", progress);
-  else progress();
 
   function show(id, push) {
     if (!ids.includes(id)) id = "k8";

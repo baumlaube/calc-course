@@ -120,5 +120,6 @@
  "+ plus · - minus · * mal · / geteilt": "<strong>signo de cálculo</strong> – <code>+</code> plus (más) · <code>-</code> minus (menos) · <code>*</code> mal (por) · <code>/</code> geteilt (entre)",
  "das, was bei einer Rechnung herauskommt": "<strong>resultado</strong> – lo que sale de una cuenta",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>línea de entrada</strong> – la línea larga encima de la tabla. Ahí ves la fórmula.",
- "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>recalcular</strong> – Calc calcula otra vez cuando cambia un número"
+ "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>recalcular</strong> – Calc calcula otra vez cuando cambia un número",
+ "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "Hasta ahora solo escribes números. Ahora Calc calcula por ti: una fórmula empieza con <code>=</code> y calcula con las celdas. Si cambia un número, Calc vuelve a calcular enseguida. Justo para eso se usa una hoja de cálculo y no una calculadora."
 }

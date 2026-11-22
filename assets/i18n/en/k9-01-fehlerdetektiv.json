@@ -134,5 +134,6 @@
  "falsch getippt, z. B. SUMNE statt SUMME": "<strong>typing mistake</strong> – typed wrongly, e.g. <code>SUMNE</code> instead of <code>SUMME</code>",
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>narrow</strong> – not wide. <code>###</code> means: the column is too narrow.",
  "verstehen, was etwas bedeutet": "<strong>to interpret</strong> – to understand what something means",
- "einen Fehler wieder richtig machen": "<strong>to fix</strong> – to make an error right again"
+ "einen Fehler wieder richtig machen": "<strong>to fix</strong> – to make an error right again",
+ "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "Mistakes happen in tables, even to professionals. Calc shows some of them loudly, for example <code>#DIV/0!</code>. Others are silent: the number looks right but is still wrong. Here you learn to find and fix both. Along the way you revise everything from Year 8."
 }

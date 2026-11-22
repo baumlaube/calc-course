@@ -100,5 +100,6 @@
  "das macht Calc, wenn die Antwort Nein ist": "<strong>część „inaczej”</strong> – to robi Calc, gdy odpowiedź brzmi nie",
  "in allen anderen Fällen": "<strong>inaczej, w przeciwnym razie</strong> – we wszystkich innych przypadkach",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>rachunek, działanie</strong> – tutaj: coś do policzenia, np. <code>A6+4,95</code>",
- "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>wysyłka</strong> – wysłanie paczki. To często kosztuje."
+ "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>wysyłka</strong> – wysłanie paczki. To często kosztuje.",
+ "WENN kann nicht nur Ja oder Nein sagen, sondern auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €, alle anderen 10 €. Solche Regeln gibt es überall, bei Eintrittspreisen, Versandkosten und Rabatten.": "<code>WENN</code> potrafi nie tylko mówić tak albo nie, ale też liczyć. Na przykład: kto ma mniej niż 18 lat, płaci w kinie 8 €, wszyscy inni 10 €. Takie reguły są wszędzie: przy cenach biletów, kosztach wysyłki i rabatach."
 }

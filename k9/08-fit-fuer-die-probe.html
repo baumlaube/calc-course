@@ -22,10 +22,11 @@
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="stylesheet" href="../assets/kurs.css?v=e45ea12c22">
+<link rel="stylesheet" href="../assets/kurs.css?v=9b7d190553">
 <script src="../assets/i18n.js?v=831187eae3" data-page="k9-08-fit-fuer-die-probe" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
-<script src="../assets/kurs.js?v=4fe431b784"></script>
+<script src="../assets/kurs.js?v=4ce1e43bf7"></script>
 <script src="../assets/minicalc.js?v=bc12a0384f" defer></script>
+<script src="../assets/wdh.js?v=8ffe4254fc" defer></script>
 <script src="../assets/stufen.js?v=3b9707d658" defer></script>
 </head>
 <body>
@@ -60,7 +61,7 @@
       <span class="chip">⏱ ca. 35 Minuten</span>
       <span class="chip">Wiederholung: alles aus Klasse 9</span>
     </div>
-    <p class="erklaerung">Hier prüfst du, was du schon sicher kannst und was du noch üben solltest. Du löst gemischte Aufgaben ohne Vorlage, so wie in der Probe. Zum Schluss wartet eine Übungsprobe in Calc.</p>
+    <p class="erklaerung">Was kannst du schon sicher? Was musst du noch üben? Das findest du hier heraus. Du löst gemischte Aufgaben wie in der Probe. Zum Schluss machst du eine Übungsprobe in Calc.</p>
   </section>
 
   <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
@@ -84,9 +85,8 @@
   <!-- 1 · Lernstand -->
   <section class="card" id="stand">
     <h2><span class="step-no">1</span> Wo stehst du? <span class="chip">3 Min</span></h2>
+    <p class="lead">Sieben Aufgaben, eine zu jedem Baustein. Pro Aufgabe hast du <strong>einen</strong> Versuch. Am Ende siehst du, was du noch wiederholen sollst. Es gibt keine Note.</p>
     <div id="dash"></div>
-    <p class="lead">Das sind deine Häkchen aus „Das kann ich jetzt“ auf jeder Seite. Wo es noch leer ist: Seite öffnen, Merke lesen, Labor wiederholen.</p>
-    <p class="note">Die Häkchen merkt sich nur dein Gerät. Auf einem anderen Gerät ist die Liste leer.</p>
   </section>
 
   <!-- 2 · Aufgaben-Würfel -->
@@ -192,20 +192,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const { feedback, quiz, store } = window.Kurs;
   const T = (x) => (window.T ? window.T(x) : x);
 
-  /* ---------- 1 · Lernstand aus den Ich-kann-Listen ---------- */
-  const units = [
-    ["01-fehlerdetektiv.html", "k9-01", "1 · Fehlerdetektiv"], ["02-prozentrechnung.html", "k9-02", "2 · Prozentrechnung"],
-    ["03-wenn.html", "k9-03", "3 · WENN 1"], ["04-wenn-rechnen.html", "k9-04", "4 · WENN 2"],
-    ["05-wenn-grenzen.html", "k9-05", "5 · WENN 3"], ["06-bedingte-formatierung.html", "k9-06", "6 · Bedingte Formatierung 1"],
-    ["07-bedingte-formatierung-2.html", "k9-07", "7 · Bedingte Formatierung 2"],
-  ];
-  document.getElementById("dash").innerHTML = '<ul class="dash">' + units.map(([href, key, title]) => {
-    let n = 0;
-    for (let i = 0; i < 5; i++) if (store.get(`calc-${key}-${i}`) === "1") n++;
-    const cls = n >= 3 ? "ok" : n > 0 ? "half" : "open";
-    return `<li class="${cls}"><a href="${href}">${T(title)}</a><span class="dash-bar"><span style="width:${n * 20}%"></span></span><span class="dash-n">${n}/5</span></li>`;
-  }).join("") + "</ul>";
-
   /* ---------- 2 · Aufgaben-Würfel ---------- */
   const rnd = (a, b) => a + Math.floor(Math.random() * (b - a + 1));
   const pick = (arr) => arr[rnd(0, arr.length - 1)];
@@ -275,6 +261,51 @@ document.addEventListener("DOMContentLoaded", () => {
       options: ["gelb", "rot"], right: 0,
       why: "Die erste passende Bedingung gewinnt. Darum gehört die strengste nach oben." },
   ]);
+});
+</script>
+<script>
+/* 1 · Wo stehst du? – eine Aufgabe pro Baustein, am Ende die Liste zum Wiederholen */
+document.addEventListener("DOMContentLoaded", () => {
+  Wdh(document.getElementById("dash"), [
+    { type: "wahl", href: "01-fehlerdetektiv.html", title: "1 · Fehlerdetektiv",
+      q: "D5 zeigt <code>#DIV/0!</code>. Was ist los?",
+      options: ["Calc rechnet mit einem Wort.", "Es wird durch 0 oder durch eine leere Zelle geteilt.", "Die Spalte ist zu schmal."], right: 1,
+      why: "DIV heißt teilen. Trag die fehlende Zahl ein.",
+      miss: ["Bei einem Wort zeigt Calc <code>#WERT!</code>.", null, "Bei einer zu schmalen Spalte zeigt Calc <code>###</code>."] },
+    { type: "tippen", href: "02-prozentrechnung.html", title: "2 · Prozentrechnung",
+      q: "Wie viel Euro spart man? Rechne den Rabatt in B4 aus.",
+      table: { cols: 2, rows: 4, cells: { A1: "Rabatt", B1: 0.2, A3: "Preis", B3: 50, A4: "Rabatt in €" },
+        styles: { A1: "label", A3: "label", A4: "label" }, formats: { B1: "pct", B3: "eur", B4: "eur" } },
+      cell: "B4", solution: "=B3*B1", check: Wdh.checks.formel({ refs: ["B3", "B1"], value: 10, bad: { "/100": "In B1 steht schon 20 %. Rechne einfach Preis mal B1." } }),
+      why: "Preis mal Prozentsatz: 50 € · 20 % = 10 €." },
+    { type: "wahl", href: "03-wenn.html", title: "3 · WENN 1",
+      q: "In B5 steht <code>=WENN(A5&gt;=10;\"Ja\";\"Nein\")</code>. In A5 steht 10. Was zeigt B5?",
+      options: ["Ja", "Nein", "10"], right: 0,
+      why: "<code>&gt;=</code> heißt größer oder gleich. Die 10 zählt mit.",
+      miss: [null, "<code>&gt;=</code> heißt größer <strong>oder gleich</strong>.", "WENN zeigt den Dann- oder den Sonst-Teil, hier also Ja oder Nein."] },
+    { type: "tippen", href: "04-wenn-rechnen.html", title: "4 · WENN 2",
+      q: "Kino: Wer <strong>unter 18</strong> ist, zahlt 8 €. Alle anderen zahlen 10 €. Schreib die Formel in B2.",
+      table: { cols: 2, rows: 2, cells: { A1: "Alter", B1: "Preis", A2: 16 }, styles: { A1: "head", B1: "head" }, formats: { B: "eur" } },
+      cell: "B2", solution: "=WENN(A2<18;8;10)",
+      check: Wdh.checks.wenn({ cell: "A2", cases: [[16, 8], [18, 10], [30, 10]], edge: [18, "Wer genau 18 ist, zahlt schon 10 €. „unter 18“ heißt <code>&lt;</code>."], at: "B2", number: true }),
+      why: "Zahlen stehen ohne Anführungszeichen." },
+    { type: "wahl", href: "05-wenn-grenzen.html", title: "5 · WENN 3",
+      q: "Die Grenze für „bestanden“ steht in B1. Welche Formel kannst du in C4 schreiben und nach unten ziehen?",
+      options: ["<code>=WENN(B4&gt;=15;\"bestanden\";\"nochmal\")</code>", "<code>=WENN(B4&gt;=B1;\"bestanden\";\"nochmal\")</code>", "<code>=WENN(B4&gt;=$B$1;\"bestanden\";\"nochmal\")</code>"], right: 2,
+      why: "Die Grenze kommt aus B1. Das <code>$</code> hält B1 beim Ziehen fest.",
+      miss: ["Die 15 steht fest in der Formel. Ändert sich die Grenze, musst du jede Formel ändern.", "Beim Ziehen rutscht B1 nach unten auf B2, B3 …", null] },
+    { type: "wahl", href: "06-bedingte-formatierung.html", title: "6 · Bedingte Formatierung 1",
+      q: "Alle Noten schlechter als 4 sollen rot sein, auch wenn sich später eine Note ändert. Was nimmst du?",
+      options: ["Den Farbeimer", "Format → Bedingt → Bedingung …", "Eine WENN-Formel"], right: 1,
+      why: "Die bedingte Formatierung prüft jede Zahl neu und passt die Farbe selbst an.",
+      miss: ["Die Farbe vom Farbeimer bleibt, auch wenn sich die Note ändert.", null, "WENN schreibt ein Ergebnis in eine Zelle. Färben kann WENN nicht."] },
+    { type: "wahl", href: "07-bedingte-formatierung-2.html", title: "7 · Bedingte Formatierung 2",
+      q: "Akku-Ampel: unter 50 % gelb, unter 20 % rot. Welche Regel muss <strong>oben</strong> stehen, damit 15 % rot wird?",
+      options: ["kleiner als 20 % → rot", "kleiner als 50 % → gelb", "Das ist egal."], right: 0,
+      why: "Calc nimmt die erste Regel, die passt. Die strengere Regel kommt nach oben.",
+      miss: [null, "15 % ist auch kleiner als 50 %. Dann bleibt der Akku gelb.", "Calc nimmt die erste Regel, die passt. Die Reihenfolge ist wichtig."] },
+  ], { mode: "diagnose", key: "k9-fit", allGood: "🏆 Alles sitzt. Weiter mit dem Aufgaben-Würfel!",
+       tip: "Lies dort das Merke und mach das Labor noch einmal. Dann komm hierher zurück." });
 });
 </script>
 </body>

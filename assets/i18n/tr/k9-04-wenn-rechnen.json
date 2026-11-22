@@ -100,5 +100,6 @@
  "das macht Calc, wenn die Antwort Nein ist": "<strong>“yoksa” kısmı</strong> – cevap hayır ise Calc'ın yaptığı şey",
  "in allen anderen Fällen": "<strong>yoksa, aksi halde</strong> – diğer bütün durumlarda",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>hesap</strong> – burada: hesaplanacak bir şey, örn. <code>A6+4,95</code>",
- "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>kargo, gönderim</strong> – bir paketi göndermek. Çoğu zaman para tutar."
+ "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>kargo, gönderim</strong> – bir paketi göndermek. Çoğu zaman para tutar.",
+ "WENN kann nicht nur Ja oder Nein sagen, sondern auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €, alle anderen 10 €. Solche Regeln gibt es überall, bei Eintrittspreisen, Versandkosten und Rabatten.": "<code>WENN</code> sadece evet ya da hayır demekle kalmaz, hesap da yapabilir. Örneğin: 18 yaşından küçük olan sinemada 8 € öder, diğer herkes 10 €. Bu tür kurallar her yerde vardır: bilet fiyatlarında, kargo ücretlerinde ve indirimlerde."
 }

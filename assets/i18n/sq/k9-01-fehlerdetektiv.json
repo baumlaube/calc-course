@@ -134,5 +134,6 @@
  "falsch getippt, z. B. SUMNE statt SUMME": "<strong>gabim shtypjeje</strong> – shkruar gabim, p.sh. <code>SUMNE</code> në vend të <code>SUMME</code>",
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>i ngushtë</strong> – jo i gjerë. <code>###</code> do të thotë: kolona është shumë e ngushtë.",
  "verstehen, was etwas bedeutet": "<strong>interpretoj</strong> – kuptoj çfarë do të thotë diçka",
- "einen Fehler wieder richtig machen": "<strong>ndreq</strong> – e bëj një gabim përsëri të saktë"
+ "einen Fehler wieder richtig machen": "<strong>ndreq</strong> – e bëj një gabim përsëri të saktë",
+ "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "Në tabela ndodhin gabime, edhe te profesionistët. Disa Calc i tregon me zë, për shembull <code>#DIV/0!</code>. Të tjerat janë të heshtura: numri duket i saktë, por prapë është gabim. Këtu mëson t’i gjesh dhe t’i rregullosh të dyja. Njëkohësisht përsërit gjithçka nga klasa e 8-të."
 }

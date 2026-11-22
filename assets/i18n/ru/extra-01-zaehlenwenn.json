@@ -56,5 +56,6 @@
  "Wie oft „Essen“ vorkommt": "Сколько раз встречается „Essen“",
  "Gesucht wird in B, addiert wird aus C.": "Она ищет в B и складывает из C.",
  "Anführungszeichen um D5": "Кавычки вокруг D5",
- "Ein $ bei D5": "$ у D5"
+ "Ein $ bei D5": "$ у D5",
+ "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "Сколько учеников в классе больше всего любят физкультуру? Сколько оценок лучше 3? <code>ZÄHLENWENN</code> (СЧЁТЕСЛИ) считает только ячейки, которые подходят под твоё условие. <code>SUMMEWENN</code> (СУММЕСЛИ) складывает только подходящие суммы, например все расходы на еду."
 }

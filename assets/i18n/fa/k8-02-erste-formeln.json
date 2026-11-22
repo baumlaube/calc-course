@@ -120,5 +120,6 @@
  "+ plus · - minus · * mal · / geteilt": "<strong>علامت حساب</strong> – <code>+</code> plus (به‌اضافه) · <code>-</code> minus (منها) · <code>*</code> mal (ضرب) · <code>/</code> geteilt (تقسیم)",
  "das, was bei einer Rechnung herauskommt": "<strong>نتیجه</strong> – چیزی که از حساب درمی‌آید",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>خط ورودی</strong> – خط بلند بالای جدول. آنجا فرمول را می‌بینی.",
- "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>دوباره حساب کردن</strong> – وقتی عددی عوض شود، Calc یک بار دیگر حساب می‌کند"
+ "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>دوباره حساب کردن</strong> – وقتی عددی عوض شود، Calc یک بار دیگر حساب می‌کند",
+ "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "تا حالا فقط عدد تایپ می‌کنی. حالا Calc برایت حساب می‌کند: فرمول با <code>=</code> شروع می‌شود و با خانه‌ها حساب می‌کند. اگر عددی عوض شود، Calc فوراً دوباره حساب می‌کند. دقیقاً برای همین از جدول استفاده می‌کنیم، نه ماشین‌حساب."
 }

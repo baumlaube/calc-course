@@ -104,5 +104,6 @@
  "die Bedingung stimmt für diese Zahl": "<strong>convenir</strong> – la condition est vraie pour ce nombre",
  "drei Farben: rot, gelb, grün": "<strong>feu tricolore</strong> – trois couleurs : rouge, jaune, vert",
  "etwas neu machen, z. B. eine Bedingung": "<strong>créer</strong> – faire quelque chose de nouveau, p. ex. une condition",
- "ansehen, ändern und löschen": "<strong>gérer</strong> – regarder, modifier et supprimer"
+ "ansehen, ändern und löschen": "<strong>gérer</strong> – regarder, modifier et supprimer",
+ "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Maintenant Calc colorie selon plusieurs règles – vert, jaune et rouge comme un feu tricolore. Tu apprends pourquoi l’ordre des règles compte, comment colorier du texte et comment une limite peut venir d’une cellule."
 }

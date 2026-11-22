@@ -148,5 +148,6 @@
  "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Réfléchis :</strong> quelle formule y a-t-il ensuite dans <strong>D6</strong> (boissons) ?",
  "Fehler": "Erreur",
  "Montag": "Montag (lundi)",
- "Donnerstag": "Donnerstag (jeudi)"
+ "Donnerstag": "Donnerstag (jeudi)",
+ "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Souvent, on calcule de la même façon à chaque ligne : pour chaque article, chaque jour, chaque élève. Tu écris la formule une seule fois et tu la tires vers le bas. Calc adapte lui-même les cellules à chaque ligne. Ça économise beaucoup de frappe et beaucoup de fautes."
 }

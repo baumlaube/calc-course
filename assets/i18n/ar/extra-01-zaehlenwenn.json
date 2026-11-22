@@ -56,5 +56,6 @@
  "Wie oft „Essen“ vorkommt": "كم مرة توجد „Essen“",
  "Gesucht wird in B, addiert wird aus C.": "تبحث في B وتجمع من C.",
  "Anführungszeichen um D5": "علامات اقتباس حول D5",
- "Ein $ bei D5": "علامة $ عند D5"
+ "Ein $ bei D5": "علامة $ عند D5",
+ "Wie viele in der Klasse mögen Sport am liebsten? Wie viele Noten sind besser als 3? ZÄHLENWENN zählt nur die Zellen, die zu deiner Bedingung passen. SUMMEWENN addiert nur die passenden Beträge, zum Beispiel alle Ausgaben für Essen.": "كم طالبًا في الصف يحب الرياضة أكثر؟ كم علامة أفضل من 3؟ <code>ZÄHLENWENN</code> (COUNTIF) يعدّ فقط الخلايا التي تناسب شرطك. <code>SUMMEWENN</code> (SUMIF) يجمع فقط المبالغ المناسبة، مثل كل مصاريف الطعام."
 }

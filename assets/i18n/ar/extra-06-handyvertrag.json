@@ -43,5 +43,6 @@
  "SVERWEIS →": "SVERWEIS (بحث عمودي) →",
  "Kosten in 2 Jahren bei {} GB": "التكلفة خلال سنتين عند {} GB",
  "Am günstigsten: {} mit {}.": "الأرخص: <strong>{}</strong> بـ {}.",
- "Zu wenig Daten (auch mit Zusatzpaket): {}.": "البيانات لا تكفي (حتى مع الباقة الإضافية): {}."
+ "Zu wenig Daten (auch mit Zusatzpaket): {}.": "البيانات لا تكفي (حتى مع الباقة الإضافية): {}.",
+ "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "كل شركة تعلن عن أرخص باقة. أيّها يناسبك حقًا؟ في هذا المشروع تقارن الباقات على مدى سنتين باستخدام <code>WENN</code> (IF) و<code>MIN</code> وتبرّر اختيارك بالأرقام ومخطط بياني."
 }

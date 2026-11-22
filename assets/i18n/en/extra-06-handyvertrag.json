@@ -43,5 +43,6 @@
  "SVERWEIS →": "SVERWEIS (VLOOKUP) →",
  "Kosten in 2 Jahren bei {} GB": "Cost in 2 years at {} GB",
  "Am günstigsten: {} mit {}.": "Cheapest: <strong>{}</strong> with {}.",
- "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Not enough data (even with the extra package): {}."
+ "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Not enough data (even with the extra package): {}.",
+ "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Every provider advertises the cheapest plan. Which one really suits you? In this project you compare plans over two years with <code>WENN</code> (IF) and <code>MIN</code> and back up your choice with numbers and a chart."
 }

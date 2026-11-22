@@ -148,5 +148,6 @@
  "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Pomyśl:</strong> Jaka formuła jest potem w <strong>D6</strong> (napoje)?",
  "Fehler": "Błąd",
  "Montag": "Montag (poniedziałek)",
- "Donnerstag": "Donnerstag (czwartek)"
+ "Donnerstag": "Donnerstag (czwartek)",
+ "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Często w każdym wierszu liczy się tak samo: dla każdego produktu, każdego dnia, każdego ucznia. Formułę piszesz tylko raz i przeciągasz w dół. Calc sam dopasowuje komórki w każdym wierszu. To oszczędza dużo pisania i wiele literówek."
 }

@@ -104,5 +104,6 @@
  "die Bedingung stimmt für diese Zahl": "<strong>uymak</strong> – koşul bu sayı için doğru",
  "drei Farben: rot, gelb, grün": "<strong>trafik ışığı</strong> – üç renk: kırmızı, sarı, yeşil",
  "etwas neu machen, z. B. eine Bedingung": "<strong>oluşturmak</strong> – yeni bir şey yapmak, örn. bir koşul",
- "ansehen, ändern und löschen": "<strong>yönetmek</strong> – bakmak, değiştirmek ve silmek"
+ "ansehen, ändern und löschen": "<strong>yönetmek</strong> – bakmak, değiştirmek ve silmek",
+ "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Şimdi Calc birkaç kurala göre boyar – trafik ışığı gibi yeşil, sarı ve kırmızı. Kuralların sırasının neden önemli olduğunu, metni nasıl boyayacağını ve bir sınırın bir hücreden nasıl geldiğini öğrenirsin."
 }

@@ -43,5 +43,6 @@
  "SVERWEIS →": "SVERWEIS (ВПР) →",
  "Kosten in 2 Jahren bei {} GB": "Расходы за 2 года при {} ГБ",
  "Am günstigsten: {} mit {}.": "Самый дешёвый: <strong>{}</strong> – {}.",
- "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Данных не хватает (даже с доп. пакетом): {}."
+ "Zu wenig Daten (auch mit Zusatzpaket): {}.": "Данных не хватает (даже с доп. пакетом): {}.",
+ "Jeder Anbieter wirbt mit dem günstigsten Tarif. Welcher passt wirklich zu dir? In diesem Projekt vergleichst du Tarife über zwei Jahre mit WENN und MIN und begründest deine Wahl mit Zahlen und einem Diagramm.": "Каждый оператор рекламирует самый дешёвый тариф. Какой действительно подходит тебе? В этом проекте ты сравниваешь тарифы за два года с помощью <code>WENN</code> (ЕСЛИ) и <code>MIN</code> и обосновываешь выбор числами и диаграммой."
 }

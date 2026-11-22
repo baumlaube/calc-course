@@ -134,5 +134,6 @@
  "falsch getippt, z. B. SUMNE statt SUMME": "<strong>помилка набору</strong> – надруковано неправильно, наприклад <code>SUMNE</code> замість <code>SUMME</code>",
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>вузький</strong> – не широкий. <code>###</code> означає: стовпець занадто вузький.",
  "verstehen, was etwas bedeutet": "<strong>тлумачити</strong> – зрозуміти, що щось означає",
- "einen Fehler wieder richtig machen": "<strong>виправити</strong> – зробити помилку знову правильною"
+ "einen Fehler wieder richtig machen": "<strong>виправити</strong> – зробити помилку знову правильною",
+ "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "У таблицях бувають помилки, навіть у професіоналів. Деякі Calc показує голосно, наприклад <code>#DIV/0!</code>. Інші тихі: число виглядає правильним, але все одно хибне. Тут ти вчишся знаходити й виправляти обидва види. Заодно повторюєш усе з 8 класу."
 }

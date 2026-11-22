@@ -118,5 +118,6 @@
  "✔ C5 stimmt! Jetzt zieh am Ausfüllkästchen von C5 nach unten bis C8.": "✔ ¡C5 está bien! Ahora arrastra el <strong>Ausfüllkästchen</strong> (controlador de relleno) de C5 hacia abajo hasta C8.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Todavía no llegas abajo. Siguen vacías: {}. Arrastra desde C5 hasta C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ ¡El lunes está bien! Ahora arrastra el <strong>Ausfüllkästchen</strong> (controlador de relleno) hacia abajo hasta D7.",
- "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Todavía no llegas abajo. Arrastra desde D5 hasta D7."
+ "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Todavía no llegas abajo. Arrastra desde D5 hasta D7.",
+ "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Las reglas cambian: mañana quizá valgan 16 puntos en lugar de 15. Si el límite está en su propia celda, lo cambias en un solo sitio y todas las fórmulas se recalculan. Al final resuelves tú solo tareas de <code>WENN</code> como en el examen."
 }

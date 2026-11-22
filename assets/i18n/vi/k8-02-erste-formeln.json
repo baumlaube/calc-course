@@ -117,5 +117,6 @@
  "Calc meldet einen Fehler": "Calc báo lỗi",
  "D5 rechnet neu": "D5 tính lại",
  "D5 bleibt 4,50": "D5 vẫn là 4,50",
- "B5 abtippen": "Gõ lại B5"
+ "B5 abtippen": "Gõ lại B5",
+ "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "Đến giờ bạn chỉ gõ số vào. Bây giờ Calc tính giúp bạn: công thức bắt đầu bằng <code>=</code> và tính với các ô. Khi một số thay đổi, Calc tính lại ngay. Chính vì vậy người ta dùng bảng tính chứ không dùng máy tính bỏ túi."
 }

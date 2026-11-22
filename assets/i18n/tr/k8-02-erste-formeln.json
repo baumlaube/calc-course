@@ -120,5 +120,6 @@
  "+ plus · - minus · * mal · / geteilt": "<strong>işlem işareti</strong> – <code>+</code> plus (artı) · <code>-</code> minus (eksi) · <code>*</code> mal (çarpı) · <code>/</code> geteilt (bölü)",
  "das, was bei einer Rechnung herauskommt": "<strong>sonuç</strong> – bir hesaptan çıkan şey",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>giriş satırı</strong> – tablonun üstündeki uzun satır. Formülü orada görürsün.",
- "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>yeniden hesaplamak</strong> – bir sayı değişince Calc bir daha hesaplar"
+ "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>yeniden hesaplamak</strong> – bir sayı değişince Calc bir daha hesaplar",
+ "Bisher tippst du Zahlen nur ein. Jetzt rechnet Calc für dich: Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Genau dafür nimmt man eine Tabelle und keinen Taschenrechner.": "Şimdiye kadar sadece sayı yazıyorsun. Artık Calc senin için hesaplar: formül <code>=</code> ile başlar ve hücrelerle hesap yapar. Bir sayı değişince Calc hemen yeniden hesaplar. Hesap makinesi değil de tablo kullanmanın sebebi tam olarak budur."
 }

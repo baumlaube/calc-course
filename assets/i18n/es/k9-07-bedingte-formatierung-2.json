@@ -104,5 +104,6 @@
  "die Bedingung stimmt für diese Zahl": "<strong>encajar</strong> – la condición se cumple para este número",
  "drei Farben: rot, gelb, grün": "<strong>semáforo</strong> – tres colores: rojo, amarillo, verde",
  "etwas neu machen, z. B. eine Bedingung": "<strong>crear</strong> – hacer algo nuevo, p. ej. una condición",
- "ansehen, ändern und löschen": "<strong>gestionar</strong> – ver, cambiar y borrar"
+ "ansehen, ändern und löschen": "<strong>gestionar</strong> – ver, cambiar y borrar",
+ "Jetzt färbt Calc nach mehreren Regeln, grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist, wie du Text färbst und wie eine Grenze aus einer Zelle kommt.": "Ahora Calc colorea según varias reglas: verde, amarillo y rojo como un semáforo. Aprendes por qué importa el orden de las reglas, cómo colorear texto y cómo un límite puede venir de una celda."
 }

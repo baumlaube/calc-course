@@ -45,5 +45,6 @@
  "9,3 % ist schon 0,093 – kein /100. Das $ hält das Brutto beim Ausfüllen fest.": "%9,3 zaten 0,093'tür – /100 yok. $ doldururken brütü sabit tutar.",
  "Gesamtsatz in B2 = 21 %. Welche Formel ergibt direkt das Netto von B6?": "B2'de toplam oran = %21. Hangi formül B6'nın netini doğrudan verir?",
  "100 % − 21 % = 79 % bleiben – wie beim Rabatt.": "%100 − %21 = %79 kalır – indirim gibi.",
- "Brutto 1.000 €, Abzüge 21 %. Wie viel Netto?": "Brüt 1.000 €, kesintiler %21. Net ne kadar?"
+ "Brutto 1.000 €, Abzüge 21 %. Wie viel Netto?": "Brüt 1.000 €, kesintiler %21. Net ne kadar?",
+ "Im Ausbildungsvertrag steht ein Gehalt, auf dem Konto kommt weniger an. Du lernst, was Brutto und Netto bedeutet und welche Abzüge es gibt. Dann rechnest du aus, was dir am Monatsende wirklich bleibt.": "Çıraklık sözleşmesinde bir maaş yazar, ama hesaba daha azı gelir. Brutto ve Netto’nun (brüt ve net) ne demek olduğunu ve hangi kesintiler olduğunu öğrenirsin. Sonra ay sonunda sana gerçekten ne kaldığını hesaplarsın."
 }

@@ -22,11 +22,11 @@
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="stylesheet" href="../assets/kurs.css?v=e45ea12c22">
+<link rel="stylesheet" href="../assets/kurs.css?v=9b7d190553">
 <script src="../assets/i18n.js?v=831187eae3" data-page="k8-05-absolute-bezuege" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
-<script src="../assets/kurs.js?v=4fe431b784"></script>
+<script src="../assets/kurs.js?v=4ce1e43bf7"></script>
 <script src="../assets/minicalc.js?v=bc12a0384f" defer></script>
-<script src="../assets/wdh.js?v=28e9e0c4a9" defer></script>
+<script src="../assets/wdh.js?v=8ffe4254fc" defer></script>
 </head>
 <body>
 
@@ -60,7 +60,7 @@
       <span class="chip">⏱ ca. 37 Minuten</span>
       <span class="chip">Vorwissen: Formeln ausfüllen</span>
     </div>
-    <p class="erklaerung">Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem <code>$</code> hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.</p>
+    <p class="erklaerung">Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem <code>$</code> hältst du so eine Zelle fest.</p>
   </section>
 
   <!-- Calc-Wörter: kleine Wortliste (DaZ) -->
@@ -201,19 +201,6 @@
     <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
   </section>
 
-  <!-- Ich kann -->
-  <section class="card" id="ichkann">
-    <h2>Das kann ich jetzt</h2>
-    <p class="lead">Hak ab, was du sicher kannst. Das merkt sich nur dein Gerät, es wird nichts gesendet.</p>
-    <ul class="checklist" id="checklist">
-      <li><label><input type="checkbox"> <span class="t">Ich kann erklären, warum <code>=B5*B2</code> beim Ausfüllen kaputtgeht.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t">Ich kann mit <code>$</code> (oder <kbd>Umschalt</kbd>+<kbd>F4</kbd>) einen Bezug festhalten.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t">Ich erkenne, wann eine Formel ein <code>$</code> braucht.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t"><span class="badge plus">Plus</span> Ich finde versteckte Fehler in fremden Tabellen.</span></label></li>
-      <li><label><input type="checkbox"> <span class="t"><span class="badge expedition">★ Expedition</span> Ich kann gemischte Bezüge wie <code>$A2</code> und <code>B$1</code> benutzen.</span></label></li>
-    </ul>
-  </section>
-
   <!-- Freiwillig: Üben + ★ Expedition -->
   <section class="card frei" id="freiwillig">
     <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
@@ -301,7 +288,7 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const { feedback, quiz, checklist } = window.Kurs;
+  const { feedback, quiz } = window.Kurs;
   const T = (x) => (window.T ? window.T(x) : x);
 
   /* Gemeinsame Daten: Lenas Ferienjob */
@@ -537,7 +524,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   feedback(fbSteuer, T("Klick C4 an: Steuer = Netto × Steuersatz."), "info");
 
-  checklist(document.getElementById("checklist"), "k8-05");
 });
 </script>
 <script>

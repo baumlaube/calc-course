@@ -111,5 +111,6 @@
  "das, was in der Zelle steht": "<strong>wartość komórki</strong> – to, co jest w komórce",
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>styl</strong> – gotowy wygląd z nazwą: Gut (dobry) jest zielony, Schlecht (zły) jest czerwony",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>między</strong> – od jednej liczby do drugiej. Obie liczby się liczą.",
- "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>większe niż · mniejsze niż</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. Samo 30 się nie liczy."
+ "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>większe niż · mniejsze niż</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. Samo 30 się nie liczy.",
+ "In einer langen Tabelle übersieht man Wichtiges leicht. Mit der bedingten Formatierung färbt Calc Zellen selbst, zum Beispiel alle Hitzetage über 30 °C. Ändert sich eine Zahl, passt sich die Farbe von allein an.": "W długiej tabeli łatwo przeoczyć coś ważnego. Dzięki Bedingte Formatierung (formatowanie warunkowe) Calc sam koloruje komórki, na przykład wszystkie upalne dni powyżej 30 °C. Gdy liczba się zmieni, kolor dopasuje się sam."
 }

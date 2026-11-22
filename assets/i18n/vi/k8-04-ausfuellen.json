@@ -144,5 +144,6 @@
  "Nach rechts ändern sich die Buchstaben, nicht die Zahlen.": "Sang phải thì chữ cái thay đổi, không phải số.",
  "Fehler": "Lỗi",
  "Montag": "Montag (thứ Hai)",
- "Donnerstag": "Donnerstag (thứ Năm)"
+ "Donnerstag": "Donnerstag (thứ Năm)",
+ "Oft wird in jeder Zeile gleich gerechnet: für jeden Artikel, jeden Tag, jeden Schüler. Du schreibst die Formel nur einmal und ziehst sie nach unten. Calc passt die Zellen in jeder Zeile selbst an. Das spart viel Tipparbeit und viele Tippfehler.": "Thường thì hàng nào cũng tính giống nhau: cho mỗi món hàng, mỗi ngày, mỗi học sinh. Bạn chỉ viết công thức một lần rồi kéo xuống dưới. Calc tự điều chỉnh các ô trong mỗi hàng. Việc này đỡ được rất nhiều công gõ và nhiều lỗi gõ nhầm."
 }

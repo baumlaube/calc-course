@@ -134,5 +134,6 @@
  "falsch getippt, z. B. SUMNE statt SUMME": "<strong>опечатка</strong> – напечатано неверно, например <code>SUMNE</code> вместо <code>SUMME</code>",
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>узкий</strong> – не широкий. <code>###</code> значит: столбец слишком узкий.",
  "verstehen, was etwas bedeutet": "<strong>толковать</strong> – понять, что что-то значит",
- "einen Fehler wieder richtig machen": "<strong>исправить</strong> – сделать ошибку снова правильной"
+ "einen Fehler wieder richtig machen": "<strong>исправить</strong> – сделать ошибку снова правильной",
+ "In Tabellen passieren Fehler, auch Profis. Manche zeigt Calc laut an, zum Beispiel #DIV/0!. Andere sind still: Die Zahl sieht richtig aus und ist trotzdem falsch. Hier lernst du, beide zu finden und zu reparieren. Dabei wiederholst du alles aus Klasse 8.": "В таблицах бывают ошибки, даже у профессионалов. Некоторые Calc показывает громко, например <code>#DIV/0!</code>. Другие тихие: число выглядит правильным, но всё равно неверно. Здесь ты учишься находить и исправлять оба вида. Заодно повторяешь всё из 8 класса."
 }

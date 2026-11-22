@@ -76,19 +76,6 @@
     el.appendChild(score);
   }
 
-  /** Ich-kann-Liste, die sich das Gerät merkt (nur lokal, nichts wird gesendet). */
-  function checklist(el, key) {
-    const boxes = [...el.querySelectorAll("input[type=checkbox]")];
-    // Für die Startseite: „calc-fertig-<key>“ = 1, wenn alles abgehakt ist (Häkchen am Baustein, Zahl am Reiter).
-    const summary = () => store.set("calc-fertig-" + key, boxes.every((b) => b.checked) ? "1" : "0");
-    boxes.forEach((cb, i) => {
-      const k = `calc-${key}-${i}`;
-      cb.checked = store.get(k) === "1";
-      cb.addEventListener("change", () => { store.set(k, cb.checked ? "1" : "0"); summary(); });
-    });
-    summary();
-  }
-
   /* Die Startseite öffnet beim nächsten Mal gleich den Reiter der zuletzt besuchten Seite. */
   const reiter = location.pathname.match(/\/(k\d|extra)\/[^/]+\.html$/);
   if (reiter) store.set("calc-klasse", reiter[1] === "extra" ? "mehr" : reiter[1]);
@@ -100,5 +87,5 @@
     }
   });
 
-  window.Kurs = { feedback, quiz, checklist, store };
+  window.Kurs = { feedback, quiz, store };
 })();

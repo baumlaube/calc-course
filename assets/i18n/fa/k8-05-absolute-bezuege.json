@@ -152,5 +152,6 @@
  "✔ C7 stimmt. Jetzt ausfüllen: erst nach rechts bis E7, dann nach unten bis E9.": "✔ C7 درست است. حالا پر کن: اول به راست تا E7، بعد به پایین تا E9.",
  "Noch nicht fertig: {} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis E9 voll ist.": "هنوز تمام نشده: {} خانه خالی است. ناحیهٔ انتخاب‌شده را ادامه بکش تا همه چیز تا E9 پر شود.",
  "✔ Zeile 4 stimmt. Jetzt C4 und D4 zusammen markieren und nach unten bis Zeile 6 ziehen.": "✔ ردیف 4 درست است. حالا C4 و D4 را با هم انتخاب کن و به پایین تا ردیف 6 بکش.",
- "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>فکر کن:</strong> لنا فرمول را تا C9 به پایین می‌کشد. آن‌وقت در <strong>C6</strong> (سه‌شنبه) چیست؟"
+ "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>فکر کن:</strong> لنا فرمول را تا C9 به پایین می‌کشد. آن‌وقت در <strong>C6</strong> (سه‌شنبه) چیست؟",
+ "Beim Ausfüllen wandert jeder Zellbezug mit. Meistens ist das richtig. Aber manche Werte gelten für alle Zeilen, zum Beispiel ein Stundenlohn. Mit dem $ hältst du so eine Zelle fest. Ändert sich der Lohn, änderst du nur eine Zelle, und die ganze Tabelle rechnet neu.": "هنگام پر کردن، هر ارجاع خانه با آن جابه‌جا می‌شود. معمولاً این درست است. ولی بعضی مقدارها برای همهٔ ردیف‌ها هستند، مثلاً دستمزد ساعتی. با <code>$</code> چنین خانه‌ای را ثابت می‌کنی. اگر دستمزد عوض شود، فقط یک خانه را عوض می‌کنی و کل جدول دوباره حساب می‌شود."
 }

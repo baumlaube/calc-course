@@ -118,5 +118,6 @@
  "✔ C5 stimmt! Jetzt zieh am Ausfüllkästchen von C5 nach unten bis C8.": "✔ C5 e corect! Acum trage de <strong>Ausfüllkästchen</strong> (mânerul de umplere) de la C5 în jos până la C8.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Încă nu ai ajuns jos. Mai sunt goale: {}. Trage de la C5 până la C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Lunea e corectă! Acum trage de <strong>Ausfüllkästchen</strong> (mânerul de umplere) în jos până la D7.",
- "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Încă nu ai ajuns jos. Trage de la D5 până la D7."
+ "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Încă nu ai ajuns jos. Trage de la D5 până la D7.",
+ "Regeln ändern sich: Morgen gilt vielleicht 16 statt 15 Punkte. Steht die Grenze in einer eigenen Zelle, änderst du sie an einer Stelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Regulile se schimbă: mâine poate e nevoie de 16 puncte în loc de 15. Dacă pragul e într-o celulă separată, îl schimbi într-un singur loc și toate formulele se recalculează. La final rezolvi singur sarcini cu <code>WENN</code>, ca la test."
 }
