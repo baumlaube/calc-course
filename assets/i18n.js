@@ -19,6 +19,7 @@
     ro: { name: "Română", flag: "🇷🇴" },
     sq: { name: "Shqip", flag: "🇦🇱" },
     pl: { name: "Polski", flag: "🇵🇱" },
+    vi: { name: "Tiếng Việt", flag: "🇻🇳" },
     bs: { name: "Bosanski", flag: "🇧🇦" },
   };
   const AVAILABLE = (document.currentScript && document.currentScript.dataset.langs || "de").split(",");
