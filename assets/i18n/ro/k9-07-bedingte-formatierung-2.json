@@ -44,7 +44,6 @@
  "✔ Die Ampel leuchtet richtig!": "✔ Semaforul arată culorile corecte!",
  "Stufe 2 · Text färben": "Nivelul 2 · Colorează text",
  "Alle fehlenden Hausaufgaben sollen rot werden: Zellwert ist · gleich · … → Schlecht.": "Toate temele lipsă trebuie să devină roșii: Zellwert ist · gleich · … → Schlecht.",
- "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne sucht Calc nach einem Namen – und färbt nichts.": "Textul din fereastră stă între ghilimele: <code>\"fehlt\"</code>. Fără ele, Calc caută un nume – și nu colorează nimic.",
  "Nur die Zellen mit „fehlt“ sollen rot sein. Bedingung: gleich.": "Doar celulele cu „fehlt” trebuie să fie roșii. Condiție: gleich (egal).",
  "✔ Alle 4 fehlenden Hausaufgaben leuchten rot.": "✔ Toate cele 4 teme lipsă strălucesc roșu.",
  "Stufe 3 · Grenze aus Zelle": "Nivelul 3 · Limită dintr-o celulă",
@@ -96,5 +95,8 @@
  "drei Farben: rot, gelb, grün": "<strong>semafor</strong> – trei culori: roșu, galben, verde",
  "etwas neu machen, z. B. eine Bedingung": "<strong>a crea</strong> – a face ceva nou, de ex. o condiție",
  "ansehen, ändern und löschen": "<strong>a gestiona</strong> – a vedea, a schimba și a șterge",
- "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Acum Calc colorează cu mai multe reguli: verde, galben și roșu ca un semafor. Înveți de ce contează ordinea regulilor. Colorezi și text și iei pragul dintr-o celulă."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Acum Calc colorează cu mai multe reguli: verde, galben și roșu ca un semafor. Înveți de ce contează ordinea regulilor. Colorezi și text și iei pragul dintr-o celulă.",
+ "Ohne %-Zeichen ist 20 für Calc 2000 %. Tippe die Grenzen so: 20% und 50%.": "Fără semnul %, 20 e pentru Calc 2000 %. Tastează limitele așa: <code>20%</code> și <code>50%</code>.",
+ "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne Anführungszeichen erkennt Calc den Text nicht – und färbt nichts.": "În fereastră textul stă între ghilimele: <code>\"fehlt\"</code>. Fără ghilimele Calc nu recunoaște textul – și nu colorează nimic.",
+ "Jetzt ist auch die Zeile fest: Jede Zeile schaut auf Zeile 2. Nur vor das B gehört ein $: $B2=\"nein\"": "Acum e fix și rândul: fiecare rând se uită la rândul 2. <code>$</code> trebuie doar în fața lui B: <code>$B2=\"nein\"</code>"
 }

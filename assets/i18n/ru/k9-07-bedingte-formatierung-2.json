@@ -44,7 +44,6 @@
  "✔ Die Ampel leuchtet richtig!": "✔ Светофор показывает правильные цвета!",
  "Stufe 2 · Text färben": "Уровень 2 · Раскрасить текст",
  "Alle fehlenden Hausaufgaben sollen rot werden: Zellwert ist · gleich · … → Schlecht.": "Все невыполненные домашние задания должны стать красными: Zellwert ist · gleich · … → Schlecht.",
- "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne sucht Calc nach einem Namen – und färbt nichts.": "Текст в диалоге пишут в кавычках: <code>\"fehlt\"</code>. Без них Calc ищет имя – и ничего не раскрашивает.",
  "Nur die Zellen mit „fehlt“ sollen rot sein. Bedingung: gleich.": "Красными должны быть только ячейки с „fehlt“. Условие: gleich (равно).",
  "✔ Alle 4 fehlenden Hausaufgaben leuchten rot.": "✔ Все 4 невыполненных домашних задания светятся красным.",
  "Stufe 3 · Grenze aus Zelle": "Уровень 3 · Граница из ячейки",
@@ -96,5 +95,8 @@
  "drei Farben: rot, gelb, grün": "<strong>светофор</strong> – три цвета: красный, жёлтый, зелёный",
  "etwas neu machen, z. B. eine Bedingung": "<strong>создать</strong> – сделать что-то новое, например условие",
  "ansehen, ändern und löschen": "<strong>управлять</strong> – смотреть, менять и удалять",
- "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Теперь Calc окрашивает по нескольким правилам: зелёный, жёлтый и красный, как светофор. Ты узнаешь, почему важен порядок правил. Ты также окрашиваешь текст и берёшь границу из ячейки."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Теперь Calc окрашивает по нескольким правилам: зелёный, жёлтый и красный, как светофор. Ты узнаешь, почему важен порядок правил. Ты также окрашиваешь текст и берёшь границу из ячейки.",
+ "Ohne %-Zeichen ist 20 für Calc 2000 %. Tippe die Grenzen so: 20% und 50%.": "Без знака % число 20 для Calc – это 2000 %. Введи границы так: <code>20%</code> и <code>50%</code>.",
+ "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne Anführungszeichen erkennt Calc den Text nicht – und färbt nichts.": "В диалоге текст стоит в кавычках: <code>\"fehlt\"</code>. Без кавычек Calc не узнаёт текст – и ничего не окрашивает.",
+ "Jetzt ist auch die Zeile fest: Jede Zeile schaut auf Zeile 2. Nur vor das B gehört ein $: $B2=\"nein\"": "Теперь закреплена и строка: каждая строка смотрит на строку 2. <code>$</code> нужен только перед B: <code>$B2=\"nein\"</code>"
 }

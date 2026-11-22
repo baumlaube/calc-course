@@ -128,5 +128,6 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>e barabartë · jo e barabartë</strong> – gleich: <code>=</code> · ungleich (jo e barabartë): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>pikëpresje</strong> – shenja <code>;</code>. Ndan tri pjesët e WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>nxjerr, shfaq</strong> – tregoj. WENN shfaq një përgjigje.",
- "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Me <code>WENN</code> (IF) Calc bën një pyetje. Përgjigjja është po ose jo. Sipas përgjigjes Calc tregon diçka tjetër, për shembull „bestanden“ (kaloi) ose „nicht bestanden“ (nuk kaloi). <code>WENN</code> e mëson me hapa të vegjël."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Me <code>WENN</code> (IF) Calc bën një pyetje. Përgjigjja është po ose jo. Sipas përgjigjes Calc tregon diçka tjetër, për shembull „bestanden“ (kaloi) ose „nicht bestanden“ (nuk kaloi). <code>WENN</code> e mëson me hapa të vegjël.",
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 tregon një gabim: teksti shkon gjithmonë në thonjëza: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."
 }

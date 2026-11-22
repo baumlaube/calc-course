@@ -211,5 +211,14 @@
  "Du kannst es verbessern oder weitergehen.": "می‌توانی درستش کنی یا ادامه بدهی.",
  "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc خطای Err:522 را نشان می‌دهد: فرمولت خانهٔ خودش را هم می‌شمارد. فقط خانه‌های بالای آن را بگیر.",
  "Prüfe deine Formel.": "فرمولت را بررسی کن.",
- "Stimmt der Name? Ist die Klammer zu?": "نام درست است؟ پرانتز بسته است؟"
+ "Stimmt der Name? Ist die Klammer zu?": "نام درست است؟ پرانتز بسته است؟",
+ "In deiner Formel steht eine Zahl. Nimm die Grenze aus C2 – dann kannst du sie später ändern.": "در فرمولت یک عدد هست. حد را از <code>C2</code> بگیر – آن‌وقت بعداً می‌توانی آن را عوض کنی.",
+ "Im deutschen Calc schreibst du Kommazahlen mit Komma, z. B. 4,95.": "در Calc آلمانی عددهای اعشاری را با <strong>ویرگول</strong> می‌نویسی، مثلاً <code>4,95</code>.",
+ "Die Zahl in der Frage steht ohne Anführungszeichen, z. B. A2>=50. Mit Anführungszeichen ist sie für Calc Text.": "عدد در سؤال <strong>بدون</strong> گیومه نوشته می‌شود، مثلاً <code>A2&gt;=50</code>. با گیومه برای Calc متن است.",
+ "Ohne $ rutscht C2 beim Ziehen nach C3 – dort steht keine Grenze. Halte sie fest: $C$2.": "بدون <code>$</code>، C2 هنگام کشیدن به C3 می‌لغزد – آنجا حدی نیست. آن را ثابت کن: <code>$C$2</code>.",
+ "Calc kennt diese Funktion nicht (#NAME?). Sie heißt {}.": "Calc این تابع را نمی‌شناسد (#NAME?). اسمش <code>{}</code> است.",
+ "Du kannst eine andere Antwort wählen oder weitergehen.": "می‌توانی جواب دیگری انتخاب کنی یا ادامه بدهی.",
+ "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "با این سه تا شروع کن. آنجا قدم 2 و 3 را انجام بده. بعد آزمون اینجا را دوباره انجام بده.",
+ "Eine zu große Zahl zeigt Calc als ###.": "Calc عدد خیلی بزرگ را به شکل <code>###</code> نشان می‌دهد.",
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "بخش Dann همان A5+15 است. A5 هم جزء آن است."
 }

@@ -37,7 +37,6 @@
  "ODS Üben: Wochenlohnk9-05-wenn-grenzen-mehr-wochenlohn.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: sedmična plata</strong><small>k9-05-wenn-grenzen-mehr-wochenlohn.ods</small></span>",
  "★ Expedition UND": "<span class=\"badge expedition\">★ Expedition</span> UND (i)",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> je tačno samo ako su <strong>obje</strong> tačne.<br/>Kod <code>ODER(…; …)</code> (ili) dovoljna je jedna.",
- "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "Dan za bazen je kad je <strong>najmanje 25 °C</strong> <strong>i</strong> ne pada kiša. Napiši u D5 WENN formulu sa UND i popuni je.",
  "In der Datei: der Notenrechner. WENN in WENN macht aus Punkten die Note, UND entscheidet, wer einen Lob-Brief bekommt.": "<strong>U datoteci:</strong> kalkulator ocjena. WENN u WENN od bodova pravi ocjenu, UND odlučuje ko dobija pismo pohvale.",
  "ODS ★ Expedition: UNDk9-05-wenn-grenzen-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition: UND</strong><small>k9-05-wenn-grenzen-expedition.ods</small></span>",
  "← 4 · WENN 2": "← 4 · WENN 2",
@@ -107,5 +106,8 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Još nije skroz dolje. Još su prazne: {}. Povuci od C5 do C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Ponedjeljak je tačan! Sada povuci kvadratić za popunjavanje (<strong>Ausfüllkästchen</strong>) nadolje do D7.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Još nije skroz dolje. Povuci od D5 do D7.",
- "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Pravila se mijenjaju. Danas treba 15 bodova, sutra možda 16. Zato granicu upiši u posebnu ćeliju. Tada mijenjaš samo tu jednu ćeliju, i sve formule ponovo računaju. Na kraju sam rješavaš zadatke s <code>WENN</code> kao na testu."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Pravila se mijenjaju. Danas treba 15 bodova, sutra možda 16. Zato granicu upiši u posebnu ćeliju. Tada mijenjaš samo tu jednu ćeliju, i sve formule ponovo računaju. Na kraju sam rješavaš zadatke s <code>WENN</code> kao na testu.",
+ "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Dann steht in D „Freibad!“, sonst „daheim“. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "Dan za bazen je kad je <strong>najmanje 25 °C</strong> <strong>i</strong> ne pada kiša. Tada u D piše „Freibad!“ (bazen!), inače „daheim“ (kod kuće). Napiši u D5 WENN-formulu sa UND i popuni je prema dolje.",
+ "B2 zeigt jetzt {}. Tipp die Grenze mit %-Zeichen ein, z. B. 30%.": "B2 sada pokazuje {}. Ukucaj granicu sa znakom %, npr. <code>30%</code>.",
+ "Fast! Schreib die Antwort genau wie vorgegeben: \"laden!\" mit Ausrufezeichen.": "Skoro! Napiši odgovor tačno kako je zadano: <code>\"laden!\"</code> sa uzvičnikom."
 }

@@ -103,5 +103,7 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>سبک</strong> – یک ظاهر آماده با نام: Gut (خوب) سبز است، Schlecht (بد) قرمز است",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>بین</strong> – از یک عدد تا عدد دیگر. هر دو عدد حساب می‌شوند.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>بزرگ‌تر از · کوچک‌تر از</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. خود 30 حساب نمی‌شود.",
- "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "در یک جدول بلند پیدا کردن عددهای مهم سخت است. Calc می‌تواند خودش سلول‌ها را رنگ کند، مثلاً همهٔ روزهای بالای ۳۰ °C را قرمز. اگر عددی عوض شود، رنگ هم عوض می‌شود."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "در یک جدول بلند پیدا کردن عددهای مهم سخت است. Calc می‌تواند خودش سلول‌ها را رنگ کند، مثلاً همهٔ روزهای بالای ۳۰ °C را قرمز. اگر عددی عوض شود، رنگ هم عوض می‌شود.",
+ "zwischen braucht zwei Zahlen, z. B. zwischen 120 und 160. Beide Grenzen zählen mit: 120 und 160 werden auch gefärbt.": "<strong>zwischen</strong> (بین) دو عدد لازم دارد، مثلاً بین 120 و 160. هر دو حد حساب می‌شوند: 120 و 160 هم رنگ می‌شوند.",
+ "Die Bedingung stimmt, aber die Farbe nicht: Nimm die Vorlage Schlecht (rot).": "شرط درست است، ولی رنگ نه: سبک <strong>Schlecht</strong> (بد، قرمز) را بگیر."
 }

@@ -44,7 +44,6 @@
  "✔ Die Ampel leuchtet richtig!": "✔ چراغ راهنما رنگ‌های درست را نشان می‌دهد!",
  "Stufe 2 · Text färben": "مرحلهٔ 2 · رنگ کردن متن",
  "Alle fehlenden Hausaufgaben sollen rot werden: Zellwert ist · gleich · … → Schlecht.": "همهٔ تکلیف‌های جاافتاده باید قرمز شوند: Zellwert ist · gleich · … → Schlecht.",
- "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne sucht Calc nach einem Namen – und färbt nichts.": "متن در پنجره داخل گیومه است: <code>\"fehlt\"</code>. بدون آن Calc دنبال یک اسم می‌گردد – و هیچ چیز را رنگ نمی‌کند.",
  "Nur die Zellen mit „fehlt“ sollen rot sein. Bedingung: gleich.": "فقط خانه‌هایی که „fehlt“ دارند باید قرمز باشند. شرط: gleich (مساوی).",
  "✔ Alle 4 fehlenden Hausaufgaben leuchten rot.": "✔ هر 4 تکلیف جاافتاده قرمز می‌درخشند.",
  "Stufe 3 · Grenze aus Zelle": "مرحلهٔ 3 · مرز از یک خانه",
@@ -96,5 +95,8 @@
  "drei Farben: rot, gelb, grün": "<strong>چراغ راهنمایی</strong> – سه رنگ: قرمز، زرد، سبز",
  "etwas neu machen, z. B. eine Bedingung": "<strong>ساختن</strong> – چیز تازه‌ای درست کردن، مثلاً یک شرط",
  "ansehen, ändern und löschen": "<strong>مدیریت کردن</strong> – دیدن، عوض کردن و پاک کردن",
- "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "حالا Calc با چند قاعده رنگ می‌کند: سبز، زرد و قرمز مثل چراغ راهنمایی. یاد می‌گیری چرا ترتیب قاعده‌ها مهم است. متن را هم رنگ می‌کنی و مرز را از یک سلول می‌گیری."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "حالا Calc با چند قاعده رنگ می‌کند: سبز، زرد و قرمز مثل چراغ راهنمایی. یاد می‌گیری چرا ترتیب قاعده‌ها مهم است. متن را هم رنگ می‌کنی و مرز را از یک سلول می‌گیری.",
+ "Ohne %-Zeichen ist 20 für Calc 2000 %. Tippe die Grenzen so: 20% und 50%.": "بدون علامت %، عدد 20 برای Calc یعنی 2000 %. حدها را این‌طور تایپ کن: <code>20%</code> و <code>50%</code>.",
+ "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne Anführungszeichen erkennt Calc den Text nicht – und färbt nichts.": "در پنجره متن داخل گیومه می‌آید: <code>\"fehlt\"</code>. بدون گیومه Calc متن را نمی‌شناسد – و هیچ چیز را رنگ نمی‌کند.",
+ "Jetzt ist auch die Zeile fest: Jede Zeile schaut auf Zeile 2. Nur vor das B gehört ein $: $B2=\"nein\"": "حالا سطر هم ثابت شده: هر سطر به سطر 2 نگاه می‌کند. فقط قبل از B علامت <code>$</code> لازم است: <code>$B2=\"nein\"</code>"
 }

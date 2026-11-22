@@ -101,5 +101,7 @@
  "121 bis 159": "từ 121 đến 159",
  "120 bis 159": "từ 120 đến 159",
  "120 bis 160": "từ 120 đến 160",
- "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "Trong một bảng dài, khó tìm những con số quan trọng. Calc có thể tự tô màu ô, ví dụ tô đỏ tất cả những ngày trên 30 °C. Khi một số thay đổi, màu cũng thay đổi."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "Trong một bảng dài, khó tìm những con số quan trọng. Calc có thể tự tô màu ô, ví dụ tô đỏ tất cả những ngày trên 30 °C. Khi một số thay đổi, màu cũng thay đổi.",
+ "zwischen braucht zwei Zahlen, z. B. zwischen 120 und 160. Beide Grenzen zählen mit: 120 und 160 werden auch gefärbt.": "<strong>zwischen</strong> (giữa) cần hai con số, ví dụ giữa 120 và 160. Cả hai mức giới hạn đều được tính: 120 và 160 cũng được tô màu.",
+ "Die Bedingung stimmt, aber die Farbe nicht: Nimm die Vorlage Schlecht (rot).": "Điều kiện đúng, nhưng màu thì không: hãy chọn kiểu mẫu <strong>Schlecht</strong> (kém, màu đỏ)."
 }

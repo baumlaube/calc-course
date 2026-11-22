@@ -33,7 +33,6 @@
  "Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "Sınırları kendi hücrelerine yaz ve <code>$</code> ile sabitle.",
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> Keşif: UND (VE) <span class=\"badge expedition\">isteğe bağlı</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> sadece <strong>ikisi de</strong> doğruysa doğrudur.<br/><code>ODER(…; …)</code> (VEYA) ile biri yeterlidir.",
- "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "Hava <strong>en az 25 °C</strong> <strong>ve</strong> yağmursuz ise açık havuz günü. D5'e UND'lu bir WENN formülü yaz ve aşağı doldur.",
  "← 4 · WENN 2": "← 4 · WENN 2 (EĞER 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (koşullu biçimlendirme) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -110,5 +109,8 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Henüz en alta gelmedin. Hâlâ boş: {}. C5'ten C8'e kadar sürükle.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Pazartesi doğru! Şimdi <strong>Ausfüllkästchen</strong>'i (doldurma tutamacı) aşağı D7'ye kadar sürükle.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Henüz en alta gelmedin. D5'ten D7'ye kadar sürükle.",
- "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Kurallar değişir. Bugün 15 puan gerekir, yarın belki 16. Bu yüzden sınırı ayrı bir hücreye yaz. O zaman sadece bu tek hücreyi değiştirirsin ve bütün formüller yeniden hesaplanır. Sonunda <code>WENN</code> görevlerini sınavdaki gibi tek başına çözersin."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Kurallar değişir. Bugün 15 puan gerekir, yarın belki 16. Bu yüzden sınırı ayrı bir hücreye yaz. O zaman sadece bu tek hücreyi değiştirirsin ve bütün formüller yeniden hesaplanır. Sonunda <code>WENN</code> görevlerini sınavdaki gibi tek başına çözersin.",
+ "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Dann steht in D „Freibad!“, sonst „daheim“. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "Hava <strong>en az 25 °C</strong> <strong>ve</strong> yağmursuz ise açık havuz günü. O zaman D'de „Freibad!“ (havuz!), değilse „daheim“ (evde) yazar. D5'e UND'lu bir WENN formülü yaz ve aşağı doldur.",
+ "B2 zeigt jetzt {}. Tipp die Grenze mit %-Zeichen ein, z. B. 30%.": "B2 şimdi {} gösteriyor. Sınırı % işaretiyle yaz, örneğin <code>30%</code>.",
+ "Fast! Schreib die Antwort genau wie vorgegeben: \"laden!\" mit Ausrufezeichen.": "Az kaldı! Cevabı tam verildiği gibi yaz: ünlem işaretiyle <code>\"laden!\"</code>."
 }

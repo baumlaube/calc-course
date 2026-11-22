@@ -59,7 +59,6 @@
  "WENN soll „gratis“ oder den Preis aus A5 zeigen. Welche Formel stimmt?": "WENN trebuie să arate „gratis” (gratuit) sau prețul din A5. Ce formulă e corectă?",
  "Text in Anführungszeichen, Zellen ohne. \"A5\" wäre nur der Text A5.": "Textul între ghilimele, celulele fără. \"A5\" ar fi doar textul A5.",
  "Ab 50 € gibt es 10 % Rabatt, sonst zahlt man den vollen Betrag. Aus Baustein 2 weißt du: 10 % weniger heißt *(1-10%).": "De la 50 € e <strong>10 % reducere</strong>, altfel plătești toată suma. Din unitatea 2 știi: 10 % mai puțin înseamnă <code>*(1-10%)</code>.",
- "64 € ist mindestens 50 €. Dann-Teil: A2*(1-10%) = 57,60 €.": "64 € e cel puțin 50 €. Partea Dann: <code>A2*(1-10%)</code> = 57,60 €.",
  "38,50 € ist unter 50 € – Sonst-Teil: einfach A2.": "38,50 € e sub 50 € – partea Sonst: pur și simplu <code>A2</code>.",
  "🏆 Expedition geschafft! WENN und Prozentrechnung zusammen – das kommt in der Übungsdatei noch einmal.": "🏆 Expediție terminată! WENN și procente împreună – o să le întâlnești din nou în fișierul de exerciții.",
  "Üben Zinsen bei der Bank": "<span class=\"badge ueben\">Üben</span> Dobânda la bancă",
@@ -92,5 +91,6 @@
  "in allen anderen Fällen": "<strong>altfel</strong> – în toate celelalte cazuri",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>calcul</strong> – aici: ceva de calculat, de ex. <code>A6+4,95</code>",
  "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>livrare, expediere</strong> – trimiterea unui pachet. Costă adesea bani.",
- "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> poate și să calculeze. De exemplu: cine are sub 18 ani plătește la cinema 8 €. Toți ceilalți plătesc 10 €. Astfel de reguli sunt des întâlnite, de exemplu la intrare, livrare și reduceri."
+ "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> poate și să calculeze. De exemplu: cine are sub 18 ani plătește la cinema 8 €. Toți ceilalți plătesc 10 €. Astfel de reguli sunt des întâlnite, de exemplu la intrare, livrare și reduceri.",
+ "Genau 50 € – „ab 50 €“ heißt: 50 € zählt schon mit, also >=. Dann-Teil: A2*(1-10%) = 45,00 €.": "Exact 50 € – „de la 50 €” înseamnă: 50 € se numără deja, deci <code>&gt;=</code>. Partea Dann: <code>A2*(1-10%)</code> = 45,00 €."
 }

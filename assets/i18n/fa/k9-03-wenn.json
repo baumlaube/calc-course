@@ -128,5 +128,6 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>برابر · نابرابر</strong> – gleich: <code>=</code> · ungleich (برابر نیست): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>نقطه‌ویرگول</strong> – علامت <code>;</code>. سه بخش WENN را جدا می‌کند.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>نشان دادن خروجی</strong> – نشان دادن. WENN یک جواب نشان می‌دهد.",
- "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "با <code>WENN</code> (IF) Calc یک سؤال می‌پرسد. جواب بله یا نه است. بسته به جواب، Calc چیز متفاوتی نشان می‌دهد، مثلاً «bestanden» (قبول) یا «nicht bestanden» (رد). <code>WENN</code> را قدم‌به‌قدم یاد می‌گیری."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "با <code>WENN</code> (IF) Calc یک سؤال می‌پرسد. جواب بله یا نه است. بسته به جواب، Calc چیز متفاوتی نشان می‌دهد، مثلاً «bestanden» (قبول) یا «nicht bestanden» (رد). <code>WENN</code> را قدم‌به‌قدم یاد می‌گیری.",
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 خطا نشان می‌دهد: متن همیشه داخل گیومه است: <code>\"Paris\"</code>، <code>\"richtig\"</code>، <code>\"falsch\"</code>."
 }

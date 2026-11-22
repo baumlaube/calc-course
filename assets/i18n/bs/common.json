@@ -211,5 +211,14 @@
  "Du kannst es verbessern oder weitergehen.": "Možeš ispraviti ili ići dalje.",
  "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc pokazuje Err:522: tvoja formula broji i svoju vlastitu ćeliju. Uzmi samo ćelije iznad.",
  "Prüfe deine Formel.": "Provjeri svoju formulu.",
- "Stimmt der Name? Ist die Klammer zu?": "Je li naziv tačan? Je li zagrada zatvorena?"
+ "Stimmt der Name? Ist die Klammer zu?": "Je li naziv tačan? Je li zagrada zatvorena?",
+ "In deiner Formel steht eine Zahl. Nimm die Grenze aus C2 – dann kannst du sie später ändern.": "U tvojoj formuli je broj. Uzmi granicu iz <code>C2</code> – onda je kasnije možeš promijeniti.",
+ "Im deutschen Calc schreibst du Kommazahlen mit Komma, z. B. 4,95.": "U njemačkom Calcu decimalne brojeve pišeš sa <strong>zarezom</strong>, npr. <code>4,95</code>.",
+ "Die Zahl in der Frage steht ohne Anführungszeichen, z. B. A2>=50. Mit Anführungszeichen ist sie für Calc Text.": "Broj u pitanju piše se <strong>bez</strong> navodnika, npr. <code>A2&gt;=50</code>. Sa navodnicima je za Calc tekst.",
+ "Ohne $ rutscht C2 beim Ziehen nach C3 – dort steht keine Grenze. Halte sie fest: $C$2.": "Bez <code>$</code> C2 pri povlačenju sklizne u C3 – tamo nema granice. Učvrsti je: <code>$C$2</code>.",
+ "Calc kennt diese Funktion nicht (#NAME?). Sie heißt {}.": "Calc ne poznaje ovu funkciju (#NAME?). Ona se zove <code>{}</code>.",
+ "Du kannst eine andere Antwort wählen oder weitergehen.": "Možeš izabrati drugi odgovor ili ići dalje.",
+ "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "Počni sa ove tri. Uradi tamo korake 2 i 3. Onda ponovo uradi test ovdje.",
+ "Eine zu große Zahl zeigt Calc als ###.": "Prevelik broj Calc pokazuje kao <code>###</code>.",
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Dio Dann je A5+15. I A5 pripada tome."
 }

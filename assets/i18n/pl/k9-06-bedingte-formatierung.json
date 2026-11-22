@@ -103,5 +103,7 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>styl</strong> – gotowy wygląd z nazwą: Gut (dobry) jest zielony, Schlecht (zły) jest czerwony",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>między</strong> – od jednej liczby do drugiej. Obie liczby się liczą.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>większe niż · mniejsze niż</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. Samo 30 się nie liczy.",
- "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "W długiej tabeli trudno znaleźć ważne liczby. Calc może sam kolorować komórki, na przykład wszystkie dni powyżej 30 °C na czerwono. Gdy liczba się zmieni, zmieni się też kolor."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "W długiej tabeli trudno znaleźć ważne liczby. Calc może sam kolorować komórki, na przykład wszystkie dni powyżej 30 °C na czerwono. Gdy liczba się zmieni, zmieni się też kolor.",
+ "zwischen braucht zwei Zahlen, z. B. zwischen 120 und 160. Beide Grenzen zählen mit: 120 und 160 werden auch gefärbt.": "<strong>zwischen</strong> (między) potrzebuje dwóch liczb, np. między 120 a 160. Obie granice się liczą: 120 i 160 też są kolorowane.",
+ "Die Bedingung stimmt, aber die Farbe nicht: Nimm die Vorlage Schlecht (rot).": "Warunek jest dobry, ale kolor nie: weź styl <strong>Schlecht</strong> (źle, czerwony)."
 }

@@ -103,5 +103,7 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>estilo</strong> – un aspecto ya hecho con nombre: Gut (bueno) es verde, Schlecht (malo) es rojo",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>entre</strong> – de un número a otro. Los dos números cuentan.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>mayor que · menor que</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. El 30 no cuenta.",
- "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "En una tabla larga cuesta encontrar los números importantes. Calc puede colorear las celdas solo, por ejemplo todos los días de más de 30 °C en rojo. Si cambia un número, cambia también el color."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "En una tabla larga cuesta encontrar los números importantes. Calc puede colorear las celdas solo, por ejemplo todos los días de más de 30 °C en rojo. Si cambia un número, cambia también el color.",
+ "zwischen braucht zwei Zahlen, z. B. zwischen 120 und 160. Beide Grenzen zählen mit: 120 und 160 werden auch gefärbt.": "<strong>zwischen</strong> (entre) necesita dos números, p. ej. entre 120 y 160. Los dos límites cuentan: 120 y 160 también se colorean.",
+ "Die Bedingung stimmt, aber die Farbe nicht: Nimm die Vorlage Schlecht (rot).": "La condición está bien, pero el color no: toma el estilo <strong>Schlecht</strong> (malo, rojo)."
 }

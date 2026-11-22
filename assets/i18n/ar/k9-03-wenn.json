@@ -128,5 +128,6 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>يساوي · لا يساوي</strong> – gleich: <code>=</code> · ungleich (لا يساوي): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>فاصلة منقوطة</strong> – العلامة <code>;</code>. تفصل الأجزاء الثلاثة في WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>يُخرج، يعرض</strong> – يُظهر. WENN تعرض جوابًا.",
- "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "مع <code>WENN</code> (IF) يطرح Calc سؤالًا. الجواب نعم أو لا. حسب الجواب يُظهر Calc شيئًا مختلفًا، مثل «bestanden» (ناجح) أو «nicht bestanden» (راسب). تتعلم <code>WENN</code> بخطوات صغيرة."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "مع <code>WENN</code> (IF) يطرح Calc سؤالًا. الجواب نعم أو لا. حسب الجواب يُظهر Calc شيئًا مختلفًا، مثل «bestanden» (ناجح) أو «nicht bestanden» (راسب). تتعلم <code>WENN</code> بخطوات صغيرة.",
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 تعرض خطأ: النص يوضع دائمًا بين علامات تنصيص: <code>\"Paris\"</code>، <code>\"richtig\"</code>، <code>\"falsch\"</code>."
 }

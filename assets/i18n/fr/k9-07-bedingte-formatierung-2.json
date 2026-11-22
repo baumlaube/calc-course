@@ -44,7 +44,6 @@
  "✔ Die Ampel leuchtet richtig!": "✔ Le feu tricolore montre les bonnes couleurs !",
  "Stufe 2 · Text färben": "Niveau 2 · Colorier du texte",
  "Alle fehlenden Hausaufgaben sollen rot werden: Zellwert ist · gleich · … → Schlecht.": "Tous les devoirs manquants doivent devenir rouges : Zellwert ist · gleich · … → Schlecht.",
- "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne sucht Calc nach einem Namen – und färbt nichts.": "Le texte dans la boîte de dialogue se met entre guillemets : <code>\"fehlt\"</code>. Sans eux, Calc cherche un nom – et ne colorie rien.",
  "Nur die Zellen mit „fehlt“ sollen rot sein. Bedingung: gleich.": "Seules les cellules avec „fehlt“ doivent être rouges. Condition : gleich (égal).",
  "✔ Alle 4 fehlenden Hausaufgaben leuchten rot.": "✔ Les 4 devoirs manquants brillent en rouge.",
  "Stufe 3 · Grenze aus Zelle": "Niveau 3 · Limite tirée d'une cellule",
@@ -96,5 +95,8 @@
  "drei Farben: rot, gelb, grün": "<strong>feu tricolore</strong> – trois couleurs : rouge, jaune, vert",
  "etwas neu machen, z. B. eine Bedingung": "<strong>créer</strong> – faire quelque chose de nouveau, p. ex. une condition",
  "ansehen, ändern und löschen": "<strong>gérer</strong> – regarder, modifier et supprimer",
- "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Maintenant Calc colorie avec plusieurs règles : vert, jaune et rouge comme un feu tricolore. Tu apprends pourquoi l’ordre des règles compte. Tu colories aussi du texte et tu prends une limite dans une cellule."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Maintenant Calc colorie avec plusieurs règles : vert, jaune et rouge comme un feu tricolore. Tu apprends pourquoi l’ordre des règles compte. Tu colories aussi du texte et tu prends une limite dans une cellule.",
+ "Ohne %-Zeichen ist 20 für Calc 2000 %. Tippe die Grenzen so: 20% und 50%.": "Sans le signe %, 20 vaut 2000 % pour Calc. Tape les limites ainsi : <code>20%</code> et <code>50%</code>.",
+ "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne Anführungszeichen erkennt Calc den Text nicht – und färbt nichts.": "Dans la boîte de dialogue, le texte est entre guillemets : <code>\"fehlt\"</code>. Sans guillemets, Calc ne reconnaît pas le texte – et ne colore rien.",
+ "Jetzt ist auch die Zeile fest: Jede Zeile schaut auf Zeile 2. Nur vor das B gehört ein $: $B2=\"nein\"": "Maintenant la ligne est fixée aussi : chaque ligne regarde la ligne 2. Il faut un <code>$</code> seulement devant le B : <code>$B2=\"nein\"</code>"
 }

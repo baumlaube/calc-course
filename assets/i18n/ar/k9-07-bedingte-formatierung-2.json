@@ -44,7 +44,6 @@
  "✔ Die Ampel leuchtet richtig!": "✔ إشارة المرور تُظهر الألوان الصحيحة!",
  "Stufe 2 · Text färben": "المستوى 2 · تلوين النص",
  "Alle fehlenden Hausaufgaben sollen rot werden: Zellwert ist · gleich · … → Schlecht.": "كل الواجبات الناقصة يجب أن تصبح حمراء: Zellwert ist · gleich · … → Schlecht.",
- "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne sucht Calc nach einem Namen – und färbt nichts.": "النص في مربع الحوار بين علامتي تنصيص: <code>\"fehlt\"</code>. بدونها يبحث Calc عن اسم – ولا يلوّن شيئًا.",
  "Nur die Zellen mit „fehlt“ sollen rot sein. Bedingung: gleich.": "يجب أن تكون الخلايا التي فيها „fehlt“ فقط حمراء. الشرط: gleich (يساوي).",
  "✔ Alle 4 fehlenden Hausaufgaben leuchten rot.": "✔ الواجبات الناقصة الأربعة كلها تتوهّج بالأحمر.",
  "Stufe 3 · Grenze aus Zelle": "المستوى 3 · حدّ من خلية",
@@ -96,5 +95,8 @@
  "drei Farben: rot, gelb, grün": "<strong>إشارة المرور</strong> – ثلاثة ألوان: أحمر، أصفر، أخضر",
  "etwas neu machen, z. B. eine Bedingung": "<strong>ينشئ</strong> – يعمل شيئًا جديدًا، مثلًا شرطًا",
  "ansehen, ändern und löschen": "<strong>يدير</strong> – يرى ويغيّر ويحذف",
- "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "الآن يلوّن Calc بعدة قواعد: أخضر وأصفر وأحمر مثل إشارة المرور. تتعلم لماذا ترتيب القواعد مهم. وتلوّن النص أيضًا وتأخذ الحدّ من خلية."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "الآن يلوّن Calc بعدة قواعد: أخضر وأصفر وأحمر مثل إشارة المرور. تتعلم لماذا ترتيب القواعد مهم. وتلوّن النص أيضًا وتأخذ الحدّ من خلية.",
+ "Ohne %-Zeichen ist 20 für Calc 2000 %. Tippe die Grenzen so: 20% und 50%.": "بدون علامة % تكون 20 بالنسبة إلى Calc هي 2000 %. اكتب الحدود هكذا: <code>20%</code> و<code>50%</code>.",
+ "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne Anführungszeichen erkennt Calc den Text nicht – und färbt nichts.": "النص في مربع الحوار يوضع بين علامات تنصيص: <code>\"fehlt\"</code>. بدونها لا يتعرّف Calc على النص – ولا يلوّن شيئًا.",
+ "Jetzt ist auch die Zeile fest: Jede Zeile schaut auf Zeile 2. Nur vor das B gehört ein $: $B2=\"nein\"": "الآن صار السطر ثابتًا أيضًا: كل سطر ينظر إلى السطر 2. علامة <code>$</code> تأتي قبل B فقط: <code>$B2=\"nein\"</code>"
 }

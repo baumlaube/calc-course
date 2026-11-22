@@ -33,7 +33,6 @@
  "Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "Escribe los límites en su propia celda y fíjalos con <code>$</code>.",
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> Expedición: UND (Y) <span class=\"badge expedition\">opcional</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> solo es verdadero si <strong>ambas</strong> lo son.<br/>Con <code>ODER(…; …)</code> (O) basta con una.",
- "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "Es día de piscina si hace <strong>como mínimo 25 °C</strong> <strong>y</strong> no llueve. Escribe en D5 una fórmula WENN con UND y rellénala hacia abajo.",
  "← 4 · WENN 2": "← 4 · WENN 2 (SI 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (formato condicional) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -110,5 +109,8 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Todavía no llegas abajo. Siguen vacías: {}. Arrastra desde C5 hasta C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ ¡El lunes está bien! Ahora arrastra el <strong>Ausfüllkästchen</strong> (controlador de relleno) hacia abajo hasta D7.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Todavía no llegas abajo. Arrastra desde D5 hasta D7.",
- "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Las reglas cambian. Hoy hacen falta 15 puntos, mañana quizá 16. Por eso escribe el límite en su propia celda. Así solo cambias esa celda y todas las fórmulas se recalculan. Al final resuelves tú solo tareas de <code>WENN</code> como en el examen."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Las reglas cambian. Hoy hacen falta 15 puntos, mañana quizá 16. Por eso escribe el límite en su propia celda. Así solo cambias esa celda y todas las fórmulas se recalculan. Al final resuelves tú solo tareas de <code>WENN</code> como en el examen.",
+ "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Dann steht in D „Freibad!“, sonst „daheim“. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "Es día de piscina cuando hace <strong>al menos 25 °C</strong> <strong>y</strong> no llueve. Entonces en D pone «Freibad!» (¡piscina!) y, si no, «daheim» (en casa). Escribe en D5 una fórmula WENN con UND y rellénala hacia abajo.",
+ "B2 zeigt jetzt {}. Tipp die Grenze mit %-Zeichen ein, z. B. 30%.": "B2 muestra ahora {}. Escribe el límite con el signo %, p. ej. <code>30%</code>.",
+ "Fast! Schreib die Antwort genau wie vorgegeben: \"laden!\" mit Ausrufezeichen.": "¡Casi! Escribe la respuesta exactamente como se pide: <code>\"laden!\"</code> con signo de exclamación."
 }

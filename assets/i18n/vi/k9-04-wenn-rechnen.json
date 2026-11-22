@@ -74,7 +74,6 @@
  "Genau verdreht: Der Text braucht Anführungszeichen, die Zelle nicht.": "Ngược hoàn toàn: chữ cần dấu ngoặc kép, ô thì không.",
  "\"A5\" zeigt nur die Buchstaben A5, nicht den Preis.": "<code>\"A5\"</code> chỉ hiện chữ cái A5, không phải giá.",
  "Ab 50 € gibt es 10 % Rabatt, sonst zahlt man den vollen Betrag. Aus Baustein 2 weißt du: 10 % weniger heißt *(1-10%).": "Từ 50 € trở lên được <strong>giảm 10 %</strong>, nếu không thì trả đủ số tiền. Từ bài 2 bạn đã biết: ít hơn 10 % nghĩa là <code>*(1-10%)</code>.",
- "64 € ist mindestens 50 €. Dann-Teil: A2*(1-10%) = 57,60 €.": "64 € là ít nhất 50 €. Phần Dann: <code>A2*(1-10%)</code> = 57,60 €.",
  "38,50 € ist unter 50 € – Sonst-Teil: einfach A2.": "38,50 € là dưới 50 € – phần Sonst: chỉ cần <code>A2</code>.",
  "🏆 Expedition geschafft! WENN und Prozentrechnung zusammen – das kommt in der Übungsdatei noch einmal.": "🏆 Hoàn thành Expedition! WENN và tính phần trăm cùng nhau – điều này còn gặp lại trong tệp bài tập.",
  "Steht in A2 das Wort Regen? Dann soll in B2 Ja stehen, sonst Nein. Schreib die WENN-Formel.": "Trong A2 có chữ Regen (mưa) không? Nếu có thì B2 phải là <strong>Ja</strong>, nếu không thì <strong>Nein</strong>. Hãy viết công thức WENN.",
@@ -90,5 +89,6 @@
  "=WENN(A6<29;A6+4,95;A6)": "=WENN(A6<29;A6+4,95;A6)",
  "Was ist an =WENN(A5>=29;\"0\";\"4,95\") ungünstig?": "<code>=WENN(A5&gt;=29;\"0\";\"4,95\")</code> có điểm gì không tốt?",
  "Es fehlt ein $": "Thiếu một dấu $",
- "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> cũng biết tính toán. Ví dụ: ai dưới 18 tuổi trả 8 € ở rạp chiếu phim. Tất cả những người khác trả 10 €. Những quy tắc như vậy rất hay gặp, ví dụ ở vé vào cửa, phí gửi hàng và giảm giá."
+ "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> cũng biết tính toán. Ví dụ: ai dưới 18 tuổi trả 8 € ở rạp chiếu phim. Tất cả những người khác trả 10 €. Những quy tắc như vậy rất hay gặp, ví dụ ở vé vào cửa, phí gửi hàng và giảm giá.",
+ "Genau 50 € – „ab 50 €“ heißt: 50 € zählt schon mit, also >=. Dann-Teil: A2*(1-10%) = 45,00 €.": "Đúng 50 € – „từ 50 €“ nghĩa là: 50 € cũng được tính, vậy là <code>&gt;=</code>. Phần Dann: <code>A2*(1-10%)</code> = 45,00 €."
 }

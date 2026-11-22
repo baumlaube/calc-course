@@ -211,5 +211,14 @@
  "Du kannst es verbessern oder weitergehen.": "Düzeltebilir ya da devam edebilirsin.",
  "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc Err:522 gösteriyor: Formülün kendi hücresini de sayıyor. Sadece üstündeki hücreleri al.",
  "Prüfe deine Formel.": "Formülünü kontrol et.",
- "Stimmt der Name? Ist die Klammer zu?": "İsim doğru mu? Parantez kapalı mı?"
+ "Stimmt der Name? Ist die Klammer zu?": "İsim doğru mu? Parantez kapalı mı?",
+ "In deiner Formel steht eine Zahl. Nimm die Grenze aus C2 – dann kannst du sie später ändern.": "Formülünde bir sayı var. Sınırı <code>C2</code>'den al – o zaman onu sonra değiştirebilirsin.",
+ "Im deutschen Calc schreibst du Kommazahlen mit Komma, z. B. 4,95.": "Almanca Calc'ta ondalık sayıları <strong>virgülle</strong> yazarsın, örneğin <code>4,95</code>.",
+ "Die Zahl in der Frage steht ohne Anführungszeichen, z. B. A2>=50. Mit Anführungszeichen ist sie für Calc Text.": "Sorudaki sayı tırnak işareti <strong>olmadan</strong> yazılır, örneğin <code>A2&gt;=50</code>. Tırnak işaretiyle Calc için metindir.",
+ "Ohne $ rutscht C2 beim Ziehen nach C3 – dort steht keine Grenze. Halte sie fest: $C$2.": "<code>$</code> olmadan C2 sürüklerken C3'e kayar – orada sınır yok. Onu sabitle: <code>$C$2</code>.",
+ "Calc kennt diese Funktion nicht (#NAME?). Sie heißt {}.": "Calc bu fonksiyonu tanımıyor (#NAME?). Adı <code>{}</code>.",
+ "Du kannst eine andere Antwort wählen oder weitergehen.": "Başka bir cevap seçebilir ya da devam edebilirsin.",
+ "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "Bu üçüyle başla. Orada 2. ve 3. adımı yap. Sonra buradaki testi bir daha yap.",
+ "Eine zu große Zahl zeigt Calc als ###.": "Calc çok büyük bir sayıyı <code>###</code> olarak gösterir.",
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Dann kısmı A5+15'tir. A5 de buna dahil."
 }

@@ -128,5 +128,6 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>równe · nierówne</strong> – gleich: <code>=</code> · ungleich (nierówne): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>średnik</strong> – znak <code>;</code>. Oddziela trzy części WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>wyświetlić</strong> – pokazać. WENN wyświetla odpowiedź.",
- "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Z <code>WENN</code> (JEŻELI) Calc zadaje pytanie. Odpowiedź to tak albo nie. Zależnie od odpowiedzi Calc pokazuje coś innego, na przykład „bestanden” (zdane) albo „nicht bestanden” (niezdane). <code>WENN</code> poznajesz małymi krokami."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Z <code>WENN</code> (JEŻELI) Calc zadaje pytanie. Odpowiedź to tak albo nie. Zależnie od odpowiedzi Calc pokazuje coś innego, na przykład „bestanden” (zdane) albo „nicht bestanden” (niezdane). <code>WENN</code> poznajesz małymi krokami.",
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 pokazuje błąd: tekst zawsze jest w cudzysłowie: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."
 }

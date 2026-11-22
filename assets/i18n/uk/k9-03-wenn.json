@@ -128,5 +128,6 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>дорівнює · не дорівнює</strong> – gleich: <code>=</code> · ungleich (не дорівнює): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>крапка з комою</strong> – знак <code>;</code>. Він розділяє три частини WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>виводити</strong> – показувати. WENN виводить відповідь.",
- "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "З <code>WENN</code> (ЯКЩО) Calc ставить запитання. Відповідь – так або ні. Залежно від відповіді Calc показує різне, наприклад «bestanden» (склав) або «nicht bestanden» (не склав). <code>WENN</code> ти вивчаєш маленькими кроками."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "З <code>WENN</code> (ЯКЩО) Calc ставить запитання. Відповідь – так або ні. Залежно від відповіді Calc показує різне, наприклад «bestanden» (склав) або «nicht bestanden» (не склав). <code>WENN</code> ти вивчаєш маленькими кроками.",
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 показує помилку: текст завжди стоїть у лапках: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."
 }

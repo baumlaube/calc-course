@@ -103,5 +103,7 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>стиль</strong> – готовий вигляд із назвою: Gut (добре) – зелений, Schlecht (погано) – червоний",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>між</strong> – від одного числа до іншого. Обидва числа рахуються.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>більше · менше</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. Саме 30 не рахується.",
- "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "У довгій таблиці важко знайти важливі числа. Calc може сам зафарбовувати клітинки, наприклад усі дні понад 30 °C червоним. Якщо число змінюється, змінюється й колір."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "У довгій таблиці важко знайти важливі числа. Calc може сам зафарбовувати клітинки, наприклад усі дні понад 30 °C червоним. Якщо число змінюється, змінюється й колір.",
+ "zwischen braucht zwei Zahlen, z. B. zwischen 120 und 160. Beide Grenzen zählen mit: 120 und 160 werden auch gefärbt.": "<strong>zwischen</strong> (між) потребує двох чисел, напр. між 120 і 160. Обидві межі враховуються: 120 і 160 теж фарбуються.",
+ "Die Bedingung stimmt, aber die Farbe nicht: Nimm die Vorlage Schlecht (rot).": "Умова правильна, а колір ні: візьми стиль <strong>Schlecht</strong> (погано, червоний)."
 }

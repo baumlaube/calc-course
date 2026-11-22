@@ -211,5 +211,14 @@
  "Du kannst es verbessern oder weitergehen.": "Ты можешь исправить или идти дальше.",
  "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc показывает Err:522: твоя формула считает и свою собственную ячейку. Бери только ячейки над ней.",
  "Prüfe deine Formel.": "Проверь свою формулу.",
- "Stimmt der Name? Ist die Klammer zu?": "Имя верное? Скобка закрыта?"
+ "Stimmt der Name? Ist die Klammer zu?": "Имя верное? Скобка закрыта?",
+ "In deiner Formel steht eine Zahl. Nimm die Grenze aus C2 – dann kannst du sie später ändern.": "В твоей формуле стоит число. Возьми границу из <code>C2</code> – тогда её можно будет потом изменить.",
+ "Im deutschen Calc schreibst du Kommazahlen mit Komma, z. B. 4,95.": "В немецком Calc десятичные числа пишут через <strong>запятую</strong>, напр. <code>4,95</code>.",
+ "Die Zahl in der Frage steht ohne Anführungszeichen, z. B. A2>=50. Mit Anführungszeichen ist sie für Calc Text.": "Число в вопросе пишется <strong>без</strong> кавычек, напр. <code>A2&gt;=50</code>. С кавычками для Calc это текст.",
+ "Ohne $ rutscht C2 beim Ziehen nach C3 – dort steht keine Grenze. Halte sie fest: $C$2.": "Без <code>$</code> C2 при перетаскивании съезжает на C3 – там границы нет. Закрепи её: <code>$C$2</code>.",
+ "Calc kennt diese Funktion nicht (#NAME?). Sie heißt {}.": "Calc не знает этой функции (#NAME?). Она называется <code>{}</code>.",
+ "Du kannst eine andere Antwort wählen oder weitergehen.": "Ты можешь выбрать другой ответ или идти дальше.",
+ "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "Начни с этих трёх. Сделай там шаги 2 и 3. Потом пройди тест здесь ещё раз.",
+ "Eine zu große Zahl zeigt Calc als ###.": "Слишком большое число Calc показывает как <code>###</code>.",
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Часть Dann – это A5+15. A5 тоже входит сюда."
 }

@@ -211,5 +211,14 @@
  "Du kannst es verbessern oder weitergehen.": "Mund ta korrigjosh ose të vazhdosh.",
  "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc tregon Err:522: formula jote numëron edhe qelizën e vet. Merr vetëm qelizat sipër saj.",
  "Prüfe deine Formel.": "Kontrollo formulën tënde.",
- "Stimmt der Name? Ist die Klammer zu?": "A është emri i saktë? A është kllapa e mbyllur?"
+ "Stimmt der Name? Ist die Klammer zu?": "A është emri i saktë? A është kllapa e mbyllur?",
+ "In deiner Formel steht eine Zahl. Nimm die Grenze aus C2 – dann kannst du sie später ändern.": "Në formulën tënde ka një numër. Merr kufirin nga <code>C2</code> – atëherë mund ta ndryshosh më vonë.",
+ "Im deutschen Calc schreibst du Kommazahlen mit Komma, z. B. 4,95.": "Në Calc-un gjerman numrat dhjetorë i shkruan me <strong>presje</strong>, p.sh. <code>4,95</code>.",
+ "Die Zahl in der Frage steht ohne Anführungszeichen, z. B. A2>=50. Mit Anführungszeichen ist sie für Calc Text.": "Numri në pyetje shkruhet <strong>pa</strong> thonjëza, p.sh. <code>A2&gt;=50</code>. Me thonjëza për Calc është tekst.",
+ "Ohne $ rutscht C2 beim Ziehen nach C3 – dort steht keine Grenze. Halte sie fest: $C$2.": "Pa <code>$</code>, C2 rrëshqet gjatë tërheqjes te C3 – aty nuk ka kufi. Fiksoje: <code>$C$2</code>.",
+ "Calc kennt diese Funktion nicht (#NAME?). Sie heißt {}.": "Calc nuk e njeh këtë funksion (#NAME?). Ai quhet <code>{}</code>.",
+ "Du kannst eine andere Antwort wählen oder weitergehen.": "Mund të zgjedhësh një përgjigje tjetër ose të vazhdosh.",
+ "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "Fillo me këto tre. Bëj aty hapat 2 dhe 3. Pastaj bëje testin këtu edhe një herë.",
+ "Eine zu große Zahl zeigt Calc als ###.": "Një numër shumë të madh Calc e tregon si <code>###</code>.",
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Pjesa Dann është A5+15. Edhe A5 bën pjesë."
 }

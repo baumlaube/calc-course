@@ -48,7 +48,6 @@
  "2 · Prozentrechnung →": "2 · Përqindjet →",
  "Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.": "Klikimi në D6 e tregon: formula përdor B6, dhe B6 është bosh. Një qelizë bosh llogaritet si 0, dhe me 0 nuk mund të pjesëtosh.",
  "Die Formel selbst ist richtig – es fehlt nur eine Zahl.": "Formula vetë është saktë – mungon vetëm një numër.",
- "D6 zeigt #WERT!: In C6 steht „25 Stück“. Das ist Text. Tippe nur die Zahl.": "D6 tregon #WERT!: C6 ka „25 Stück”. Kjo është tekst. Shkruaj vetëm numrin.",
  "D7 zeigt #NAME?: Zwischen B7 und C7 fehlt das Rechenzeichen. Schreib =B7*C7.": "D7 tregon #NAME?: Mungon shenja e veprimit midis B7 dhe C7. Shkruaj =B7*C7.",
  "D9 zeigt #NAME?: Die Funktion heißt SUMME, nicht SUMM.": "D9 tregon #NAME?: Funksioni quhet SUMME, jo SUMM.",
  "D12 zeigt #DIV/0!: B11 ist leer. Wie viele Verkaufstage waren es? Steht oben im Text.": "D12 tregon #DIV/0!: B11 është bosh. Për sa ditë u shit? Shkruan në tekstin lart.",
@@ -126,5 +125,18 @@
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>i ngushtë</strong> – jo i gjerë. <code>###</code> do të thotë: kolona është shumë e ngushtë.",
  "verstehen, was etwas bedeutet": "<strong>interpretoj</strong> – kuptoj çfarë do të thotë diçka",
  "einen Fehler wieder richtig machen": "<strong>ndreq</strong> – e bëj një gabim përsëri të saktë",
- "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "Në tabela ndodhin gabime. Disa gabime Calc i tregon, për shembull <code>#DIV/0!</code>. Gabime të tjera Calc nuk i tregon: numri duket i saktë, por është gabim. Këtu mëson t’i gjesh dhe t’i rregullosh të dyja llojet. Njëkohësisht përsërit klasën e 8-të."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "Në tabela ndodhin gabime. Disa gabime Calc i tregon, për shembull <code>#DIV/0!</code>. Gabime të tjera Calc nuk i tregon: numri duket i saktë, por është gabim. Këtu mëson t’i gjesh dhe t’i rregullosh të dyja llojet. Njëkohësisht përsërit klasën e 8-të.",
+ "D6 zeigt #WERT!: In C6 steht „{}“. Das ist Text. Tippe nur die Zahl.": "D6 tregon #WERT!: te C6 shkruan „{}“. Ky është tekst. Shkruaj vetëm numrin.",
+ "Prüfe C6: Es wurden 25 Kakao verkauft. Tippe nur die Zahl 25.": "Kontrollo C6: u shitën 25 kakao. Shkruaj vetëm numrin 25.",
+ "Prüfe D6: Dort soll =B6*C6 stehen.": "Kontrollo D6: aty duhet të jetë =B6*C6.",
+ "In D7 steht keine Formel. Lass Calc rechnen: =B7*C7.": "Te D7 nuk ka formulë. Lëre Calc të llogarisë: =B7*C7.",
+ "D7 zeigt {}. Gesucht ist Preis mal Anzahl: =B7*C7.": "D7 tregon {}. Kërkohet çmimi herë sasia: =B7*C7.",
+ "D7 rechnet noch nicht richtig. Gesucht ist Preis mal Anzahl: =B7*C7.": "D7 ende nuk llogarit saktë. Kërkohet çmimi herë sasia: =B7*C7.",
+ "D9 zeigt {}. Prüfe die Schreibweise: =SUMME(D5:D8).": "D9 tregon {}. Kontrollo drejtshkrimin: =SUMME(D5:D8).",
+ "D9 zeigt eine Zahl, aber sie ist falsch: Der Bereich ist zu kurz oder zu lang. Das ist ein stiller Fehler! Nimm D5:D8.": "D9 tregon një numër, por është gabim: zona është shumë e shkurtër ose shumë e gjatë. Ky është një <strong>gabim i heshtur</strong>! Merr D5:D8.",
+ "D9: Zähl alle Einnahmen mit SUMME zusammen: =SUMME(D5:D8).": "D9: Mblidh të gjitha të ardhurat me SUMME: =SUMME(D5:D8).",
+ "D12 zeigt #WERT!: In B11 steht Text. Tippe nur die Zahl der Verkaufstage.": "D12 tregon #WERT!: te B11 ka tekst. Shkruaj vetëm numrin e ditëve të shitjes.",
+ "Prüfe B11: Wie viele Verkaufstage waren es? Steht oben im Text.": "Kontrollo B11: Sa ditë shitjeje ishin? Shkruhet në tekstin sipër.",
+ "D12 soll die Summe durch die Tage teilen: =D9/B11.": "D12 duhet ta pjesëtojë shumën me ditët: =D9/B11.",
+ "Fast! Der Ersatz ist Text und steht darum in Anführungszeichen: \"keine Noten\".": "Gati! Zëvendësimi është tekst, prandaj shkon në thonjëza: <code>\"keine Noten\"</code>."
 }

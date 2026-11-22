@@ -59,7 +59,6 @@
  "WENN soll „gratis“ oder den Preis aus A5 zeigen. Welche Formel stimmt?": "WENN ma pokazać „gratis” (za darmo) albo cenę z A5. Która formuła jest dobra?",
  "Text in Anführungszeichen, Zellen ohne. \"A5\" wäre nur der Text A5.": "Tekst w cudzysłowie, komórki bez. \"A5\" byłoby po prostu tekstem A5.",
  "Ab 50 € gibt es 10 % Rabatt, sonst zahlt man den vollen Betrag. Aus Baustein 2 weißt du: 10 % weniger heißt *(1-10%).": "Od 50 € jest <strong>10 % rabatu</strong>, w przeciwnym razie płacisz całą kwotę. Z jednostki 2 wiesz: 10 % mniej to <code>*(1-10%)</code>.",
- "64 € ist mindestens 50 €. Dann-Teil: A2*(1-10%) = 57,60 €.": "64 € to co najmniej 50 €. Część Dann: <code>A2*(1-10%)</code> = 57,60 €.",
  "38,50 € ist unter 50 € – Sonst-Teil: einfach A2.": "38,50 € to mniej niż 50 € – część Sonst: po prostu <code>A2</code>.",
  "🏆 Expedition geschafft! WENN und Prozentrechnung zusammen – das kommt in der Übungsdatei noch einmal.": "🏆 Wyprawa ukończona! WENN i procenty razem – spotkasz to znowu w pliku ćwiczeń.",
  "Üben Zinsen bei der Bank": "<span class=\"badge ueben\">Üben</span> Odsetki w banku",
@@ -92,5 +91,6 @@
  "in allen anderen Fällen": "<strong>inaczej, w przeciwnym razie</strong> – we wszystkich innych przypadkach",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>rachunek, działanie</strong> – tutaj: coś do policzenia, np. <code>A6+4,95</code>",
  "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>wysyłka</strong> – wysłanie paczki. To często kosztuje.",
- "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> potrafi też liczyć. Na przykład: kto ma mniej niż 18 lat, płaci w kinie 8 €. Wszyscy inni płacą 10 €. Takie reguły są częste, na przykład przy wstępie, wysyłce i rabatach."
+ "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> potrafi też liczyć. Na przykład: kto ma mniej niż 18 lat, płaci w kinie 8 €. Wszyscy inni płacą 10 €. Takie reguły są częste, na przykład przy wstępie, wysyłce i rabatach.",
+ "Genau 50 € – „ab 50 €“ heißt: 50 € zählt schon mit, also >=. Dann-Teil: A2*(1-10%) = 45,00 €.": "Dokładnie 50 € – „od 50 €” znaczy: 50 € już się liczy, czyli <code>&gt;=</code>. Część Dann: <code>A2*(1-10%)</code> = 45,00 €."
 }

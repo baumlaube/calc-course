@@ -103,5 +103,7 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>stil</strong> – un aspect gata făcut, cu nume: Gut (bun) e verde, Schlecht (rău) e roșu",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>între</strong> – de la un număr până la altul. Amândouă numerele se pun.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>mai mare decât · mai mic decât</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. 30 nu se pune.",
- "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "Într-un tabel lung găsești greu numerele importante. Calc poate colora singur celulele, de exemplu toate zilele de peste 30 °C cu roșu. Dacă un număr se schimbă, se schimbă și culoarea."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "Într-un tabel lung găsești greu numerele importante. Calc poate colora singur celulele, de exemplu toate zilele de peste 30 °C cu roșu. Dacă un număr se schimbă, se schimbă și culoarea.",
+ "zwischen braucht zwei Zahlen, z. B. zwischen 120 und 160. Beide Grenzen zählen mit: 120 und 160 werden auch gefärbt.": "<strong>zwischen</strong> (între) are nevoie de două numere, de ex. între 120 și 160. Ambele limite contează: și 120, și 160 se colorează.",
+ "Die Bedingung stimmt, aber die Farbe nicht: Nimm die Vorlage Schlecht (rot).": "Condiția e corectă, dar culoarea nu: ia stilul <strong>Schlecht</strong> (rău, roșu)."
 }

@@ -211,5 +211,14 @@
  "Du kannst es verbessern oder weitergehen.": "Ти можеш виправити або йти далі.",
  "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc показує Err:522: твоя формула рахує й свою власну клітинку. Бери тільки клітинки над нею.",
  "Prüfe deine Formel.": "Перевір свою формулу.",
- "Stimmt der Name? Ist die Klammer zu?": "Назва правильна? Дужка закрита?"
+ "Stimmt der Name? Ist die Klammer zu?": "Назва правильна? Дужка закрита?",
+ "In deiner Formel steht eine Zahl. Nimm die Grenze aus C2 – dann kannst du sie später ändern.": "У твоїй формулі стоїть число. Візьми межу з <code>C2</code> – тоді її можна буде змінити пізніше.",
+ "Im deutschen Calc schreibst du Kommazahlen mit Komma, z. B. 4,95.": "У німецькому Calc десяткові числа пишуть через <strong>кому</strong>, напр. <code>4,95</code>.",
+ "Die Zahl in der Frage steht ohne Anführungszeichen, z. B. A2>=50. Mit Anführungszeichen ist sie für Calc Text.": "Число в питанні стоїть <strong>без</strong> лапок, напр. <code>A2&gt;=50</code>. З лапками для Calc це текст.",
+ "Ohne $ rutscht C2 beim Ziehen nach C3 – dort steht keine Grenze. Halte sie fest: $C$2.": "Без <code>$</code> C2 під час перетягування з'їжджає на C3 – там немає межі. Закріпи її: <code>$C$2</code>.",
+ "Calc kennt diese Funktion nicht (#NAME?). Sie heißt {}.": "Calc не знає цієї функції (#NAME?). Вона називається <code>{}</code>.",
+ "Du kannst eine andere Antwort wählen oder weitergehen.": "Ти можеш вибрати іншу відповідь або йти далі.",
+ "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "Почни з цих трьох. Зроби там кроки 2 і 3. Потім пройди тест тут ще раз.",
+ "Eine zu große Zahl zeigt Calc als ###.": "Завелике число Calc показує як <code>###</code>.",
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Частина Dann – це A5+15. A5 теж належить сюди."
 }

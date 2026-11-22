@@ -44,7 +44,6 @@
  "✔ Die Ampel leuchtet richtig!": "✔ ¡El semáforo muestra los colores correctos!",
  "Stufe 2 · Text färben": "Nivel 2 · Colorear texto",
  "Alle fehlenden Hausaufgaben sollen rot werden: Zellwert ist · gleich · … → Schlecht.": "Todos los deberes que faltan deben ponerse en rojo: Zellwert ist · gleich · … → Schlecht.",
- "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne sucht Calc nach einem Namen – und färbt nichts.": "El texto en el cuadro de diálogo va entre comillas: <code>\"fehlt\"</code>. Sin ellas, Calc busca un nombre y no colorea nada.",
  "Nur die Zellen mit „fehlt“ sollen rot sein. Bedingung: gleich.": "Solo las celdas con „fehlt“ deben estar en rojo. Condición: gleich (igual).",
  "✔ Alle 4 fehlenden Hausaufgaben leuchten rot.": "✔ Los 4 deberes que faltan brillan en rojo.",
  "Stufe 3 · Grenze aus Zelle": "Nivel 3 · Límite desde una celda",
@@ -96,5 +95,8 @@
  "drei Farben: rot, gelb, grün": "<strong>semáforo</strong> – tres colores: rojo, amarillo, verde",
  "etwas neu machen, z. B. eine Bedingung": "<strong>crear</strong> – hacer algo nuevo, p. ej. una condición",
  "ansehen, ändern und löschen": "<strong>gestionar</strong> – ver, cambiar y borrar",
- "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Ahora Calc colorea con varias reglas: verde, amarillo y rojo como un semáforo. Aprendes por qué importa el orden de las reglas. También coloreas texto y tomas un límite de una celda."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Ahora Calc colorea con varias reglas: verde, amarillo y rojo como un semáforo. Aprendes por qué importa el orden de las reglas. También coloreas texto y tomas un límite de una celda.",
+ "Ohne %-Zeichen ist 20 für Calc 2000 %. Tippe die Grenzen so: 20% und 50%.": "Sin el signo %, 20 es 2000 % para Calc. Escribe los límites así: <code>20%</code> y <code>50%</code>.",
+ "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne Anführungszeichen erkennt Calc den Text nicht – und färbt nichts.": "En el cuadro de diálogo el texto va entre comillas: <code>\"fehlt\"</code>. Sin comillas Calc no reconoce el texto y no colorea nada.",
+ "Jetzt ist auch die Zeile fest: Jede Zeile schaut auf Zeile 2. Nur vor das B gehört ein $: $B2=\"nein\"": "Ahora también la fila está fija: cada fila mira la fila 2. Solo delante de la B va un <code>$</code>: <code>$B2=\"nein\"</code>"
 }

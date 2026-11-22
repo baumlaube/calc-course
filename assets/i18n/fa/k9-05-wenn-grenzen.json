@@ -33,7 +33,6 @@
  "Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "مرزها را در خانهٔ خودشان بنویس و با <code>$</code> ثابت کن.",
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> اکتشاف: UND (و) <span class=\"badge expedition\">اختیاری</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> فقط وقتی درست است که <strong>هر دو</strong> درست باشند.<br/>با <code>ODER(…; …)</code> (یا) یکی کافی است.",
- "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "روز استخر است اگر هوا <strong>حداقل 25 °C</strong> <strong>و</strong> بدون باران باشد. در D5 یک فرمول WENN با UND بنویس و به پایین پر کن.",
  "← 4 · WENN 2": "← 4 · WENN 2 (اگر 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (قالب‌بندی شرطی) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -110,5 +109,8 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "هنوز تا پایین نرسیده. هنوز خالی: {}. از C5 تا C8 بکش.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ دوشنبه درست است! حالا <strong>Ausfüllkästchen</strong> (دستگیرهٔ پر کردن) را به پایین تا D7 بکش.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "هنوز تا پایین نرسیده. از D5 تا D7 بکش.",
- "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "قاعده‌ها عوض می‌شوند. امروز ۱۵ امتیاز لازم است، فردا شاید ۱۶. برای همین مرز را در یک سلول جداگانه بنویس. بعد فقط همین یک سلول را عوض می‌کنی و همهٔ فرمول‌ها دوباره حساب می‌شوند. در پایان تمرین‌های <code>WENN</code> را مثل امتحان خودت تنها حل می‌کنی."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "قاعده‌ها عوض می‌شوند. امروز ۱۵ امتیاز لازم است، فردا شاید ۱۶. برای همین مرز را در یک سلول جداگانه بنویس. بعد فقط همین یک سلول را عوض می‌کنی و همهٔ فرمول‌ها دوباره حساب می‌شوند. در پایان تمرین‌های <code>WENN</code> را مثل امتحان خودت تنها حل می‌کنی.",
+ "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Dann steht in D „Freibad!“, sonst „daheim“. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "روز استخر یعنی هوا <strong>دست‌کم 25 °C</strong> باشد <strong>و</strong> باران نبارد. آن‌وقت در D می‌آید „Freibad!“ (استخر!)، وگرنه „daheim“ (در خانه). در D5 یک فرمول WENN با UND بنویس و آن را پایین بکش.",
+ "B2 zeigt jetzt {}. Tipp die Grenze mit %-Zeichen ein, z. B. 30%.": "B2 حالا {} نشان می‌دهد. حد را با علامت % تایپ کن، مثلاً <code>30%</code>.",
+ "Fast! Schreib die Antwort genau wie vorgegeben: \"laden!\" mit Ausrufezeichen.": "تقریباً! جواب را دقیقاً همان‌طور که داده شده بنویس: <code>\"laden!\"</code> با علامت تعجب."
 }

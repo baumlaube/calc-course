@@ -101,5 +101,7 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>stil, predložak</strong> – gotov izgled s nazivom: Gut (dobro) je zeleno, Schlecht (loše) je crveno",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>između</strong> – od jednog broja do drugog. Oba broja se računaju.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>veće od · manje od</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. Sam broj 30 se ne računa.",
- "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "U dugoj tabeli teško nalaziš važne brojeve. Calc može sam bojiti ćelije, na primjer sve dane iznad 30 °C crveno. Ako se broj promijeni, mijenja se i boja."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "U dugoj tabeli teško nalaziš važne brojeve. Calc može sam bojiti ćelije, na primjer sve dane iznad 30 °C crveno. Ako se broj promijeni, mijenja se i boja.",
+ "zwischen braucht zwei Zahlen, z. B. zwischen 120 und 160. Beide Grenzen zählen mit: 120 und 160 werden auch gefärbt.": "<strong>zwischen</strong> (između) treba dva broja, npr. između 120 i 160. Obje granice se računaju: i 120 i 160 se boje.",
+ "Die Bedingung stimmt, aber die Farbe nicht: Nimm die Vorlage Schlecht (rot).": "Uslov je tačan, ali boja nije: uzmi stil <strong>Schlecht</strong> (loše, crveno)."
 }

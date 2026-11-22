@@ -98,5 +98,6 @@
  "Bei #NAME? kennt Calc ein Wort in der Formel nicht.": "Với <code>#NAME?</code>, Calc không biết một từ trong công thức.",
  "Was kostet das Buch mit Versand? Schreib die Formel in C4 so, dass du sie nach unten ziehen kannst.": "Quyển sách kèm phí gửi giá bao nhiêu? Viết công thức vào C4 sao cho bạn có thể <strong>kéo xuống dưới</strong>.",
  "Extra an der Kasse": "Giảm thêm ở quầy thu ngân",
- "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "Phần trăm thì bạn đã biết từ môn toán. Bây giờ bạn tính phần trăm bằng Calc. Như vậy bạn tính nhanh được một chiếc quần giảm giá 30 % còn bao nhiêu. Hoặc trên hóa đơn có bao nhiêu thuế giá trị gia tăng."
+ "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "Phần trăm thì bạn đã biết từ môn toán. Bây giờ bạn tính phần trăm bằng Calc. Như vậy bạn tính nhanh được một chiếc quần giảm giá 30 % còn bao nhiêu. Hoặc trên hóa đơn có bao nhiêu thuế giá trị gia tăng.",
+ "🏆 Genau! 40% mit Zeichen ist für Calc 0,4 – angezeigt als 40 %. Experiment geschafft.": "🏆 Chính xác! <code>40%</code> có dấu thì với Calc là 0,4 – hiển thị là 40 %. Thí nghiệm thành công."
 }

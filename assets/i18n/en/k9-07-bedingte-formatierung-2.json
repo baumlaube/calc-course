@@ -44,7 +44,6 @@
  "✔ Die Ampel leuchtet richtig!": "✔ The traffic light shows the right colours!",
  "Stufe 2 · Text färben": "Level 2 · Colour text",
  "Alle fehlenden Hausaufgaben sollen rot werden: Zellwert ist · gleich · … → Schlecht.": "All missing homework should turn red: Zellwert ist · gleich · … → Schlecht.",
- "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne sucht Calc nach einem Namen – und färbt nichts.": "Text in the dialog goes in quotation marks: <code>\"fehlt\"</code>. Without them Calc looks for a name – and colours nothing.",
  "Nur die Zellen mit „fehlt“ sollen rot sein. Bedingung: gleich.": "Only the cells with „fehlt“ should be red. Condition: gleich (equal).",
  "✔ Alle 4 fehlenden Hausaufgaben leuchten rot.": "✔ All 4 missing homeworks glow red.",
  "Stufe 3 · Grenze aus Zelle": "Level 3 · Limit from a cell",
@@ -96,5 +95,8 @@
  "drei Farben: rot, gelb, grün": "<strong>traffic light</strong> – three colours: red, yellow, green",
  "etwas neu machen, z. B. eine Bedingung": "<strong>to create</strong> – to make something new, e.g. a condition",
  "ansehen, ändern und löschen": "<strong>to manage</strong> – to look at, change and delete",
- "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Now Calc colours with several rules: green, yellow and red like a traffic light. You learn why the order of the rules matters. You also colour text and take a limit from a cell."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Now Calc colours with several rules: green, yellow and red like a traffic light. You learn why the order of the rules matters. You also colour text and take a limit from a cell.",
+ "Ohne %-Zeichen ist 20 für Calc 2000 %. Tippe die Grenzen so: 20% und 50%.": "Without the % sign, 20 is 2000 % for Calc. Type the limits like this: <code>20%</code> and <code>50%</code>.",
+ "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne Anführungszeichen erkennt Calc den Text nicht – und färbt nichts.": "In the dialog, text goes in quotation marks: <code>\"fehlt\"</code>. Without quotation marks Calc doesn't recognise the text – and colours nothing.",
+ "Jetzt ist auch die Zeile fest: Jede Zeile schaut auf Zeile 2. Nur vor das B gehört ein $: $B2=\"nein\"": "Now the row is fixed too: every row looks at row 2. Only the B needs a <code>$</code>: <code>$B2=\"nein\"</code>"
 }

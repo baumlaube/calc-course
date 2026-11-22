@@ -103,5 +103,7 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>stil, şablon</strong> – adı olan hazır bir görünüş: Gut (iyi) yeşil, Schlecht (kötü) kırmızı",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>arasında</strong> – bir sayıdan diğerine kadar. İki sayı da sayılır.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>büyüktür · küçüktür</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. 30 sayılmaz.",
- "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "Uzun bir tabloda önemli sayıları bulmak zordur. Calc hücreleri kendisi boyayabilir, örneğin 30 °C’nin üzerindeki tüm günleri kırmızıya. Bir sayı değişince renk de değişir."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "Uzun bir tabloda önemli sayıları bulmak zordur. Calc hücreleri kendisi boyayabilir, örneğin 30 °C’nin üzerindeki tüm günleri kırmızıya. Bir sayı değişince renk de değişir.",
+ "zwischen braucht zwei Zahlen, z. B. zwischen 120 und 160. Beide Grenzen zählen mit: 120 und 160 werden auch gefärbt.": "<strong>zwischen</strong> (arasında) iki sayı ister, örneğin 120 ile 160 arasında. İki sınır da sayılır: 120 ve 160 da boyanır.",
+ "Die Bedingung stimmt, aber die Farbe nicht: Nimm die Vorlage Schlecht (rot).": "Koşul doğru ama renk değil: <strong>Schlecht</strong> (kötü, kırmızı) stilini al."
 }

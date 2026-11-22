@@ -211,5 +211,14 @@
  "Du kannst es verbessern oder weitergehen.": "Bạn có thể sửa lại hoặc đi tiếp.",
  "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc hiện Err:522: công thức của bạn đếm cả chính ô của nó. Chỉ lấy các ô ở phía trên.",
  "Prüfe deine Formel.": "Hãy kiểm tra công thức của bạn.",
- "Stimmt der Name? Ist die Klammer zu?": "Tên có đúng không? Đã đóng ngoặc chưa?"
+ "Stimmt der Name? Ist die Klammer zu?": "Tên có đúng không? Đã đóng ngoặc chưa?",
+ "In deiner Formel steht eine Zahl. Nimm die Grenze aus C2 – dann kannst du sie später ändern.": "Trong công thức của bạn có một con số. Hãy lấy mức giới hạn từ <code>C2</code> – như vậy sau này bạn có thể đổi nó.",
+ "Im deutschen Calc schreibst du Kommazahlen mit Komma, z. B. 4,95.": "Trong Calc tiếng Đức, bạn viết số thập phân bằng <strong>dấu phẩy</strong>, ví dụ <code>4,95</code>.",
+ "Die Zahl in der Frage steht ohne Anführungszeichen, z. B. A2>=50. Mit Anführungszeichen ist sie für Calc Text.": "Con số trong câu hỏi viết <strong>không có</strong> dấu ngoặc kép, ví dụ <code>A2&gt;=50</code>. Có dấu ngoặc kép thì với Calc nó là chữ.",
+ "Ohne $ rutscht C2 beim Ziehen nach C3 – dort steht keine Grenze. Halte sie fest: $C$2.": "Không có <code>$</code>, khi kéo C2 sẽ trượt xuống C3 – ở đó không có mức giới hạn. Hãy giữ cố định: <code>$C$2</code>.",
+ "Calc kennt diese Funktion nicht (#NAME?). Sie heißt {}.": "Calc không biết hàm này (#NAME?). Hàm này tên là <code>{}</code>.",
+ "Du kannst eine andere Antwort wählen oder weitergehen.": "Bạn có thể chọn đáp án khác hoặc đi tiếp.",
+ "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "Hãy bắt đầu với ba phần này. Làm bước 2 và 3 ở đó. Sau đó làm lại bài kiểm tra ở đây.",
+ "Eine zu große Zahl zeigt Calc als ###.": "Số quá lớn thì Calc hiện thành <code>###</code>.",
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Phần Dann là A5+15. A5 cũng thuộc về nó."
 }

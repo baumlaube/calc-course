@@ -211,5 +211,14 @@
  "Du kannst es verbessern oder weitergehen.": "Tu peux corriger ou continuer.",
  "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc affiche Err:522 : ta formule compte aussi sa propre cellule. Prends seulement les cellules au-dessus.",
  "Prüfe deine Formel.": "Vérifie ta formule.",
- "Stimmt der Name? Ist die Klammer zu?": "Le nom est-il juste ? La parenthèse est-elle fermée ?"
+ "Stimmt der Name? Ist die Klammer zu?": "Le nom est-il juste ? La parenthèse est-elle fermée ?",
+ "In deiner Formel steht eine Zahl. Nimm die Grenze aus C2 – dann kannst du sie später ändern.": "Dans ta formule, il y a un nombre. Prends la limite dans <code>C2</code> – comme ça, tu pourras la changer plus tard.",
+ "Im deutschen Calc schreibst du Kommazahlen mit Komma, z. B. 4,95.": "Dans Calc en allemand, tu écris les nombres décimaux avec une <strong>virgule</strong>, par ex. <code>4,95</code>.",
+ "Die Zahl in der Frage steht ohne Anführungszeichen, z. B. A2>=50. Mit Anführungszeichen ist sie für Calc Text.": "Le nombre dans la question s'écrit <strong>sans</strong> guillemets, par ex. <code>A2&gt;=50</code>. Avec des guillemets, c'est du texte pour Calc.",
+ "Ohne $ rutscht C2 beim Ziehen nach C3 – dort steht keine Grenze. Halte sie fest: $C$2.": "Sans <code>$</code>, C2 glisse vers C3 quand tu tires – là, il n'y a pas de limite. Fixe-la : <code>$C$2</code>.",
+ "Calc kennt diese Funktion nicht (#NAME?). Sie heißt {}.": "Calc ne connaît pas cette fonction (#NAME?). Elle s'appelle <code>{}</code>.",
+ "Du kannst eine andere Antwort wählen oder weitergehen.": "Tu peux choisir une autre réponse ou continuer.",
+ "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "Commence par ces trois-là. Fais-y les étapes 2 et 3. Ensuite, refais le test ici.",
+ "Eine zu große Zahl zeigt Calc als ###.": "Calc affiche un nombre trop grand sous la forme <code>###</code>.",
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "La partie Dann, c'est A5+15. A5 en fait partie."
 }

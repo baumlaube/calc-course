@@ -41,7 +41,6 @@
  "ODS Üben: Wochenlohnk9-05-wenn-grenzen-mehr-wochenlohn.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Üben: Lương tuần</strong><small>k9-05-wenn-grenzen-mehr-wochenlohn.ods</small></span>",
  "★ Expedition UND": "<span class=\"badge expedition\">★ Expedition</span> UND (VÀ)",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> chỉ đúng khi <strong>cả hai</strong> đều đúng.<br/>Với <code>ODER(…; …)</code> (HOẶC) thì chỉ cần một.",
- "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "Là ngày đi bể bơi khi trời <strong>ít nhất 25 °C</strong> <strong>và</strong> không mưa. Viết vào D5 một công thức WENN có UND rồi điền xuống dưới.",
  "In der Datei: der Notenrechner. WENN in WENN macht aus Punkten die Note, UND entscheidet, wer einen Lob-Brief bekommt.": "<strong>Trong tệp:</strong> máy tính điểm. WENN trong WENN biến điểm số thành điểm học bạ, UND quyết định ai được thư khen.",
  "ODS ★ Expedition: UNDk9-05-wenn-grenzen-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition: UND</strong><small>k9-05-wenn-grenzen-expedition.ods</small></span>",
  "← 4 · WENN 2": "← 4 · WENN 2 (NẾU 2)",
@@ -108,5 +107,8 @@
  "eine Fehlermeldung": "một thông báo lỗi",
  "viel": "viel (nhiều)",
  "wenig": "wenig (ít)",
- "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Quy tắc thay đổi. Hôm nay cần 15 điểm, ngày mai có thể là 16. Vì vậy hãy viết mốc vào một ô riêng. Khi đó bạn chỉ sửa một ô này, và tất cả công thức tính lại. Cuối cùng bạn tự giải các bài <code>WENN</code> giống như trong bài kiểm tra."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Quy tắc thay đổi. Hôm nay cần 15 điểm, ngày mai có thể là 16. Vì vậy hãy viết mốc vào một ô riêng. Khi đó bạn chỉ sửa một ô này, và tất cả công thức tính lại. Cuối cùng bạn tự giải các bài <code>WENN</code> giống như trong bài kiểm tra.",
+ "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Dann steht in D „Freibad!“, sonst „daheim“. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "Là ngày đi bể bơi khi trời <strong>ít nhất 25 °C</strong> <strong>và</strong> không mưa. Khi đó trong D hiện „Freibad!“ (đi bơi!), nếu không thì „daheim“ (ở nhà). Viết vào D5 một công thức WENN có UND rồi điền xuống dưới.",
+ "B2 zeigt jetzt {}. Tipp die Grenze mit %-Zeichen ein, z. B. 30%.": "B2 bây giờ hiện {}. Hãy gõ mức giới hạn có dấu %, ví dụ <code>30%</code>.",
+ "Fast! Schreib die Antwort genau wie vorgegeben: \"laden!\" mit Ausrufezeichen.": "Gần đúng rồi! Viết đáp án đúng y như đề cho: <code>\"laden!\"</code> có dấu chấm than."
 }

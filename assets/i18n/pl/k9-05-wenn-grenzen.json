@@ -33,7 +33,6 @@
  "Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "Wpisuj progi do własnej komórki i unieruchamiaj je za pomocą <code>$</code>.",
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> Wyprawa: UND (ORAZ) <span class=\"badge expedition\">nieobowiązkowo</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> jest prawdziwe tylko wtedy, gdy <strong>oba</strong> są prawdziwe.<br/>Przy <code>ODER(…; …)</code> (LUB) wystarczy jedno.",
- "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "Jest dzień basenowy, jeśli jest <strong>co najmniej 25 °C</strong> <strong>i</strong> nie pada. Wpisz w D5 formułę WENN z UND i wypełnij w dół.",
  "← 4 · WENN 2": "← 4 · WENN 2 (JEŻELI 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (formatowanie warunkowe) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -110,5 +109,8 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Jeszcze nie do końca. Puste są jeszcze: {}. Przeciągnij od C5 do C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Poniedziałek jest dobrze! Teraz przeciągnij <strong>Ausfüllkästchen</strong> (uchwyt wypełniania) w dół do D7.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Jeszcze nie do końca. Przeciągnij od D5 do D7.",
- "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Reguły się zmieniają. Dziś potrzeba 15 punktów, jutro może 16. Dlatego wpisz próg do osobnej komórki. Wtedy zmieniasz tylko tę jedną komórkę, a wszystkie formuły się przeliczają. Na końcu samodzielnie rozwiązujesz zadania z <code>WENN</code>, jak na sprawdzianie."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Reguły się zmieniają. Dziś potrzeba 15 punktów, jutro może 16. Dlatego wpisz próg do osobnej komórki. Wtedy zmieniasz tylko tę jedną komórkę, a wszystkie formuły się przeliczają. Na końcu samodzielnie rozwiązujesz zadania z <code>WENN</code>, jak na sprawdzianie.",
+ "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Dann steht in D „Freibad!“, sonst „daheim“. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "Dzień na basen jest wtedy, gdy jest <strong>co najmniej 25 °C</strong> <strong>i</strong> nie pada. Wtedy w D jest „Freibad!” (basen!), w innym razie „daheim” (w domu). Napisz w D5 formułę WENN z UND i wypełnij w dół.",
+ "B2 zeigt jetzt {}. Tipp die Grenze mit %-Zeichen ein, z. B. 30%.": "B2 pokazuje teraz {}. Wpisz granicę ze znakiem %, np. <code>30%</code>.",
+ "Fast! Schreib die Antwort genau wie vorgegeben: \"laden!\" mit Ausrufezeichen.": "Prawie! Napisz odpowiedź dokładnie tak, jak podano: <code>\"laden!\"</code> z wykrzyknikiem."
 }

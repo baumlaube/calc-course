@@ -128,5 +128,6 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>egal · diferit</strong> – gleich: <code>=</code> · ungleich (nu e egal): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>punct și virgulă</strong> – semnul <code>;</code>. Desparte cele trei părți ale lui WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>a afișa</strong> – a arăta. WENN afișează un răspuns.",
- "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Cu <code>WENN</code> (IF), Calc pune o întrebare. Răspunsul e da sau nu. În funcție de răspuns, Calc arată altceva, de exemplu „bestanden” (promovat) sau „nicht bestanden” (nepromovat). Înveți <code>WENN</code> în pași mici."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Cu <code>WENN</code> (IF), Calc pune o întrebare. Răspunsul e da sau nu. În funcție de răspuns, Calc arată altceva, de exemplu „bestanden” (promovat) sau „nicht bestanden” (nepromovat). Înveți <code>WENN</code> în pași mici.",
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 arată o eroare: textul stă mereu între ghilimele: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."
 }

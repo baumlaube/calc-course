@@ -211,5 +211,14 @@
  "Du kannst es verbessern oder weitergehen.": "Możesz poprawić albo iść dalej.",
  "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc pokazuje Err:522: twoja formuła liczy też własną komórkę. Weź tylko komórki nad nią.",
  "Prüfe deine Formel.": "Sprawdź swoją formułę.",
- "Stimmt der Name? Ist die Klammer zu?": "Czy nazwa jest dobra? Czy nawias jest zamknięty?"
+ "Stimmt der Name? Ist die Klammer zu?": "Czy nazwa jest dobra? Czy nawias jest zamknięty?",
+ "In deiner Formel steht eine Zahl. Nimm die Grenze aus C2 – dann kannst du sie später ändern.": "W twojej formule jest liczba. Weź granicę z <code>C2</code> – wtedy możesz ją później zmienić.",
+ "Im deutschen Calc schreibst du Kommazahlen mit Komma, z. B. 4,95.": "W niemieckim Calc liczby dziesiętne piszesz z <strong>przecinkiem</strong>, np. <code>4,95</code>.",
+ "Die Zahl in der Frage steht ohne Anführungszeichen, z. B. A2>=50. Mit Anführungszeichen ist sie für Calc Text.": "Liczba w pytaniu jest <strong>bez</strong> cudzysłowu, np. <code>A2&gt;=50</code>. W cudzysłowie dla Calc jest tekstem.",
+ "Ohne $ rutscht C2 beim Ziehen nach C3 – dort steht keine Grenze. Halte sie fest: $C$2.": "Bez <code>$</code> C2 przy przeciąganiu zjeżdża na C3 – tam nie ma granicy. Przytrzymaj ją: <code>$C$2</code>.",
+ "Calc kennt diese Funktion nicht (#NAME?). Sie heißt {}.": "Calc nie zna tej funkcji (#NAME?). Nazywa się <code>{}</code>.",
+ "Du kannst eine andere Antwort wählen oder weitergehen.": "Możesz wybrać inną odpowiedź albo iść dalej.",
+ "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "Zacznij od tych trzech. Zrób tam kroki 2 i 3. Potem zrób tu test jeszcze raz.",
+ "Eine zu große Zahl zeigt Calc als ###.": "Za dużą liczbę Calc pokazuje jako <code>###</code>.",
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Część Dann to A5+15. A5 też do niej należy."
 }

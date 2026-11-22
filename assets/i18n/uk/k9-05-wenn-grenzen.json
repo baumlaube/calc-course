@@ -32,7 +32,6 @@
  "Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "Записуй межі у власну клітинку й закріплюй знаком <code>$</code>.",
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> Експедиція: UND (І) <span class=\"badge expedition\">за бажанням</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> правдиве лише тоді, коли правдиві <strong>обидві</strong> перевірки.<br/>З <code>ODER(…; …)</code> (АБО) достатньо однієї.",
- "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "День для басейну – коли <strong>щонайменше 25 °C</strong> <strong>і</strong> немає дощу. Напиши в D5 формулу з WENN і UND та заповни вниз.",
  "← 4 · WENN 2": "← 4 · WENN 2 (ЯКЩО 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (умовне форматування) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -110,5 +109,8 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Ще не до кінця. Порожні ще: {}. Тягни від C5 до C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Понеділок правильно! Тепер потягни за <strong>Ausfüllkästchen</strong> (маркер заповнення) вниз до D7.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Ще не до кінця. Тягни від D5 до D7.",
- "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Правила змінюються. Сьогодні потрібно 15 балів, завтра, може, 16. Тому пиши межу в окрему клітинку. Тоді змінюєш лише цю одну клітинку, і всі формули перераховуються. Наприкінці ти сам розв’язуєш завдання з <code>WENN</code>, як на контрольній."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Правила змінюються. Сьогодні потрібно 15 балів, завтра, може, 16. Тому пиши межу в окрему клітинку. Тоді змінюєш лише цю одну клітинку, і всі формули перераховуються. Наприкінці ти сам розв’язуєш завдання з <code>WENN</code>, як на контрольній.",
+ "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Dann steht in D „Freibad!“, sonst „daheim“. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "День басейну – це коли <strong>щонайменше 25 °C</strong> <strong>і</strong> немає дощу. Тоді в D стоїть «Freibad!» (басейн!), інакше «daheim» (вдома). Напиши в D5 формулу WENN з UND і заповни нею стовпець.",
+ "B2 zeigt jetzt {}. Tipp die Grenze mit %-Zeichen ein, z. B. 30%.": "B2 тепер показує {}. Введи межу зі знаком %, напр. <code>30%</code>.",
+ "Fast! Schreib die Antwort genau wie vorgegeben: \"laden!\" mit Ausrufezeichen.": "Майже! Напиши відповідь точно так, як задано: <code>\"laden!\"</code> зі знаком оклику."
 }

@@ -128,5 +128,6 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>eşit · eşit değil</strong> – gleich: <code>=</code> · ungleich (eşit değil): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>noktalı virgül</strong> – <code>;</code> işareti. WENN'in üç kısmını ayırır.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>çıktı vermek</strong> – göstermek. WENN bir cevap gösterir.",
- "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "<code>WENN</code> (EĞER) ile Calc bir soru sorar. Cevap evet ya da hayırdır. Cevaba göre Calc farklı bir şey gösterir, örneğin „bestanden“ (geçti) ya da „nicht bestanden“ (kaldı). <code>WENN</code>’i küçük adımlarla öğrenirsin."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "<code>WENN</code> (EĞER) ile Calc bir soru sorar. Cevap evet ya da hayırdır. Cevaba göre Calc farklı bir şey gösterir, örneğin „bestanden“ (geçti) ya da „nicht bestanden“ (kaldı). <code>WENN</code>’i küçük adımlarla öğrenirsin.",
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 bir hata gösteriyor: Metin her zaman tırnak içinde yazılır: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."
 }

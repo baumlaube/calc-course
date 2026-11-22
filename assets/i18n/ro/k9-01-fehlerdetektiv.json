@@ -48,7 +48,6 @@
  "2 · Prozentrechnung →": "2 · Procente →",
  "Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.": "Un clic pe D6 arată: formula folosește B6, iar B6 e gol. O celulă goală contează ca 0, iar la 0 nu se poate împărți.",
  "Die Formel selbst ist richtig – es fehlt nur eine Zahl.": "Formula în sine e corectă – lipsește doar un număr.",
- "D6 zeigt #WERT!: In C6 steht „25 Stück“. Das ist Text. Tippe nur die Zahl.": "D6 arată #WERT!: În C6 scrie „25 Stück”. Asta e text. Scrie doar numărul.",
  "D7 zeigt #NAME?: Zwischen B7 und C7 fehlt das Rechenzeichen. Schreib =B7*C7.": "D7 arată #NAME?: Lipsește semnul de calcul dintre B7 și C7. Scrie =B7*C7.",
  "D9 zeigt #NAME?: Die Funktion heißt SUMME, nicht SUMM.": "D9 arată #NAME?: Funcția se numește SUMME, nu SUMM.",
  "D12 zeigt #DIV/0!: B11 ist leer. Wie viele Verkaufstage waren es? Steht oben im Text.": "D12 arată #DIV/0!: B11 e gol. În câte zile s-a vândut? Scrie în textul de mai sus.",
@@ -126,5 +125,18 @@
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>îngust</strong> – nu lat. <code>###</code> înseamnă: coloana e prea îngustă.",
  "verstehen, was etwas bedeutet": "<strong>a interpreta</strong> – a înțelege ce înseamnă ceva",
  "einen Fehler wieder richtig machen": "<strong>a repara</strong> – a face o eroare din nou corectă",
- "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "În tabele apar greșeli. Pe unele Calc le arată, de exemplu <code>#DIV/0!</code>. Pe altele Calc nu le arată: numărul pare corect, dar e greșit. Aici înveți să le găsești și să le repari pe amândouă. Totodată repeți clasa a 8-a."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "În tabele apar greșeli. Pe unele Calc le arată, de exemplu <code>#DIV/0!</code>. Pe altele Calc nu le arată: numărul pare corect, dar e greșit. Aici înveți să le găsești și să le repari pe amândouă. Totodată repeți clasa a 8-a.",
+ "D6 zeigt #WERT!: In C6 steht „{}“. Das ist Text. Tippe nur die Zahl.": "D6 arată #WERT!: în C6 scrie „{}”. E text. Tastează doar numărul.",
+ "Prüfe C6: Es wurden 25 Kakao verkauft. Tippe nur die Zahl 25.": "Verifică C6: s-au vândut 25 de cacao. Tastează doar numărul 25.",
+ "Prüfe D6: Dort soll =B6*C6 stehen.": "Verifică D6: acolo trebuie să fie =B6*C6.",
+ "In D7 steht keine Formel. Lass Calc rechnen: =B7*C7.": "În D7 nu e nicio formulă. Lasă Calc să calculeze: =B7*C7.",
+ "D7 zeigt {}. Gesucht ist Preis mal Anzahl: =B7*C7.": "D7 arată {}. Se caută preț ori cantitate: =B7*C7.",
+ "D7 rechnet noch nicht richtig. Gesucht ist Preis mal Anzahl: =B7*C7.": "D7 încă nu calculează corect. Se caută preț ori cantitate: =B7*C7.",
+ "D9 zeigt {}. Prüfe die Schreibweise: =SUMME(D5:D8).": "D9 arată {}. Verifică scrierea: =SUMME(D5:D8).",
+ "D9 zeigt eine Zahl, aber sie ist falsch: Der Bereich ist zu kurz oder zu lang. Das ist ein stiller Fehler! Nimm D5:D8.": "D9 arată un număr, dar e greșit: zona e prea scurtă sau prea lungă. E o <strong>greșeală tăcută</strong>! Ia D5:D8.",
+ "D9: Zähl alle Einnahmen mit SUMME zusammen: =SUMME(D5:D8).": "D9: Adună toate încasările cu SUMME: =SUMME(D5:D8).",
+ "D12 zeigt #WERT!: In B11 steht Text. Tippe nur die Zahl der Verkaufstage.": "D12 arată #WERT!: în B11 e text. Tastează doar numărul zilelor de vânzare.",
+ "Prüfe B11: Wie viele Verkaufstage waren es? Steht oben im Text.": "Verifică B11: câte zile de vânzare au fost? Scrie în textul de sus.",
+ "D12 soll die Summe durch die Tage teilen: =D9/B11.": "D12 trebuie să împartă suma la zile: =D9/B11.",
+ "Fast! Der Ersatz ist Text und steht darum in Anführungszeichen: \"keine Noten\".": "Aproape! Înlocuitorul e text, de aceea stă între ghilimele: <code>\"keine Noten\"</code>."
 }

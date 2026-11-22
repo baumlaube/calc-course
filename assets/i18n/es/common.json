@@ -211,5 +211,14 @@
  "Du kannst es verbessern oder weitergehen.": "Puedes corregirlo o seguir.",
  "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc muestra Err:522: tu fórmula cuenta también su propia celda. Toma solo las celdas de arriba.",
  "Prüfe deine Formel.": "Revisa tu fórmula.",
- "Stimmt der Name? Ist die Klammer zu?": "¿Está bien el nombre? ¿Está cerrado el paréntesis?"
+ "Stimmt der Name? Ist die Klammer zu?": "¿Está bien el nombre? ¿Está cerrado el paréntesis?",
+ "In deiner Formel steht eine Zahl. Nimm die Grenze aus C2 – dann kannst du sie später ändern.": "En tu fórmula hay un número. Toma el límite de <code>C2</code>; así podrás cambiarlo más tarde.",
+ "Im deutschen Calc schreibst du Kommazahlen mit Komma, z. B. 4,95.": "En el Calc alemán escribes los decimales con <strong>coma</strong>, p. ej. <code>4,95</code>.",
+ "Die Zahl in der Frage steht ohne Anführungszeichen, z. B. A2>=50. Mit Anführungszeichen ist sie für Calc Text.": "El número de la pregunta va <strong>sin</strong> comillas, p. ej. <code>A2&gt;=50</code>. Con comillas, para Calc es texto.",
+ "Ohne $ rutscht C2 beim Ziehen nach C3 – dort steht keine Grenze. Halte sie fest: $C$2.": "Sin <code>$</code>, C2 se desliza a C3 al arrastrar, y ahí no hay límite. Fíjalo: <code>$C$2</code>.",
+ "Calc kennt diese Funktion nicht (#NAME?). Sie heißt {}.": "Calc no conoce esta función (#NAME?). Se llama <code>{}</code>.",
+ "Du kannst eine andere Antwort wählen oder weitergehen.": "Puedes elegir otra respuesta o seguir.",
+ "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "Empieza con estas tres. Haz allí los pasos 2 y 3. Después haz otra vez el test aquí.",
+ "Eine zu große Zahl zeigt Calc als ###.": "Un número demasiado grande Calc lo muestra como <code>###</code>.",
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "La parte Dann es A5+15. A5 también forma parte."
 }

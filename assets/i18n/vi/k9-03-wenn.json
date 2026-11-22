@@ -126,5 +126,6 @@
  "Ein $ vor A5": "Một dấu $ trước A5",
  "Genau umgedreht.": "Ngược hoàn toàn.",
  "Leer heißt A5=\"\".": "Trống nghĩa là <code>A5=\"\"</code>.",
- "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Với <code>WENN</code> (NẾU), Calc đặt một câu hỏi. Câu trả lời là có hoặc không. Tùy câu trả lời, Calc hiện ra điều khác nhau, ví dụ „bestanden“ (đạt) hoặc „nicht bestanden“ (không đạt). Bạn học <code>WENN</code> từng bước nhỏ."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Với <code>WENN</code> (NẾU), Calc đặt một câu hỏi. Câu trả lời là có hoặc không. Tùy câu trả lời, Calc hiện ra điều khác nhau, ví dụ „bestanden“ (đạt) hoặc „nicht bestanden“ (không đạt). Bạn học <code>WENN</code> từng bước nhỏ.",
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 hiện lỗi: chữ luôn nằm trong dấu ngoặc kép: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."
 }

@@ -128,5 +128,6 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>igual · distinto</strong> – gleich: <code>=</code> · ungleich (no igual): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>punto y coma</strong> – el signo <code>;</code>. Separa las tres partes de WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>mostrar</strong> – enseñar. WENN muestra una respuesta.",
- "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Con <code>WENN</code> (SI), Calc hace una pregunta. La respuesta es sí o no. Según la respuesta, Calc muestra algo distinto, por ejemplo «bestanden» (aprobado) o «nicht bestanden» (suspenso). Aprendes <code>WENN</code> en pasos pequeños."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Con <code>WENN</code> (SI), Calc hace una pregunta. La respuesta es sí o no. Según la respuesta, Calc muestra algo distinto, por ejemplo «bestanden» (aprobado) o «nicht bestanden» (suspenso). Aprendes <code>WENN</code> en pasos pequeños.",
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 muestra un error: el texto siempre va entre comillas: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."
 }

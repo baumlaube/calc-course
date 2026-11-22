@@ -211,5 +211,14 @@
  "Du kannst es verbessern oder weitergehen.": "يمكنك أن تصحّح أو تتابع.",
  "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "يعرض Calc الخطأ Err:522: صيغتك تحسب خليتها نفسها أيضًا. خذ الخلايا التي فوقها فقط.",
  "Prüfe deine Formel.": "راجع صيغتك.",
- "Stimmt der Name? Ist die Klammer zu?": "هل الاسم صحيح؟ هل القوس مغلق؟"
+ "Stimmt der Name? Ist die Klammer zu?": "هل الاسم صحيح؟ هل القوس مغلق؟",
+ "In deiner Formel steht eine Zahl. Nimm die Grenze aus C2 – dann kannst du sie später ändern.": "في صيغتك رقم. خذ الحدّ من <code>C2</code> – عندها يمكنك تغييره لاحقًا.",
+ "Im deutschen Calc schreibst du Kommazahlen mit Komma, z. B. 4,95.": "في Calc الألماني تكتب الأعداد العشرية <strong>بفاصلة</strong>، مثلًا <code>4,95</code>.",
+ "Die Zahl in der Frage steht ohne Anführungszeichen, z. B. A2>=50. Mit Anführungszeichen ist sie für Calc Text.": "الرقم في السؤال يُكتب <strong>بدون</strong> علامات تنصيص، مثلًا <code>A2&gt;=50</code>. مع علامات التنصيص يصبح نصًّا بالنسبة إلى Calc.",
+ "Ohne $ rutscht C2 beim Ziehen nach C3 – dort steht keine Grenze. Halte sie fest: $C$2.": "بدون <code>$</code> تنزلق C2 عند السحب إلى C3 – ولا يوجد حدّ هناك. ثبّته: <code>$C$2</code>.",
+ "Calc kennt diese Funktion nicht (#NAME?). Sie heißt {}.": "Calc لا يعرف هذه الدالة (#NAME?). اسمها <code>{}</code>.",
+ "Du kannst eine andere Antwort wählen oder weitergehen.": "يمكنك أن تختار إجابة أخرى أو تتابع.",
+ "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "ابدأ بهذه الثلاثة. نفّذ هناك الخطوتين 2 و3. بعد ذلك أعد الاختبار هنا.",
+ "Eine zu große Zahl zeigt Calc als ###.": "العدد الكبير جدًا يعرضه Calc على شكل <code>###</code>.",
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "جزء Dann هو A5+15. A5 جزء منه."
 }

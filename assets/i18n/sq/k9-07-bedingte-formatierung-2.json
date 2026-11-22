@@ -44,7 +44,6 @@
  "✔ Die Ampel leuchtet richtig!": "✔ Semafori tregon ngjyrat e duhura!",
  "Stufe 2 · Text färben": "Niveli 2 · Ngjyros tekst",
  "Alle fehlenden Hausaufgaben sollen rot werden: Zellwert ist · gleich · … → Schlecht.": "Të gjitha detyrat që mungojnë duhet të bëhen të kuqe: Zellwert ist · gleich · … → Schlecht.",
- "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne sucht Calc nach einem Namen – und färbt nichts.": "Teksti në dritare shkon në thonjëza: <code>\"fehlt\"</code>. Pa to Calc kërkon një emër – dhe nuk ngjyros asgjë.",
  "Nur die Zellen mit „fehlt“ sollen rot sein. Bedingung: gleich.": "Vetëm qelizat me „fehlt” duhet të jenë të kuqe. Kushti: gleich (e barabartë).",
  "✔ Alle 4 fehlenden Hausaufgaben leuchten rot.": "✔ Të 4 detyrat që mungojnë shkëlqejnë kuq.",
  "Stufe 3 · Grenze aus Zelle": "Niveli 3 · Kufi nga një qelizë",
@@ -96,5 +95,8 @@
  "drei Farben: rot, gelb, grün": "<strong>semafor</strong> – tri ngjyra: e kuqe, e verdhë, e gjelbër",
  "etwas neu machen, z. B. eine Bedingung": "<strong>krijoj</strong> – bëj diçka të re, p.sh. një kusht",
  "ansehen, ändern und löschen": "<strong>menaxhoj</strong> – shoh, ndryshoj dhe fshij",
- "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Tani Calc ngjyros me disa rregulla: jeshile, e verdhë dhe e kuqe si semafori. Mëson pse ka rëndësi radha e rregullave. Ngjyros edhe tekst dhe e merr kufirin nga një qelizë."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Tani Calc ngjyros me disa rregulla: jeshile, e verdhë dhe e kuqe si semafori. Mëson pse ka rëndësi radha e rregullave. Ngjyros edhe tekst dhe e merr kufirin nga një qelizë.",
+ "Ohne %-Zeichen ist 20 für Calc 2000 %. Tippe die Grenzen so: 20% und 50%.": "Pa shenjën %, 20 për Calc është 2000 %. Shkruaji kufijtë kështu: <code>20%</code> dhe <code>50%</code>.",
+ "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne Anführungszeichen erkennt Calc den Text nicht – und färbt nichts.": "Në dritare teksti shkon në thonjëza: <code>\"fehlt\"</code>. Pa thonjëza Calc nuk e njeh tekstin – dhe nuk ngjyros asgjë.",
+ "Jetzt ist auch die Zeile fest: Jede Zeile schaut auf Zeile 2. Nur vor das B gehört ein $: $B2=\"nein\"": "Tani edhe rreshti është i fiksuar: çdo rresht shikon rreshtin 2. <code>$</code> duhet vetëm para B-së: <code>$B2=\"nein\"</code>"
 }

@@ -68,7 +68,6 @@
  "2 · Prozentrechnung →": "2 · Procenti →",
  "Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.": "Klik na D6 to pokazuje: formula koristi B6, a B6 je prazno. Prazna ćelija se računa kao 0, a sa 0 se ne može dijeliti.",
  "Die Formel selbst ist richtig – es fehlt nur eine Zahl.": "Sama formula je tačna – nedostaje samo jedan broj.",
- "D6 zeigt #WERT!: In C6 steht „25 Stück“. Das ist Text. Tippe nur die Zahl.": "D6 pokazuje #WERT!: u C6 stoji „25 Stück“. To je tekst. Upiši samo broj.",
  "D7 zeigt #NAME?: Zwischen B7 und C7 fehlt das Rechenzeichen. Schreib =B7*C7.": "D7 pokazuje #NAME?: između B7 i C7 nedostaje računski znak. Napiši =B7*C7.",
  "D9 zeigt #NAME?: Die Funktion heißt SUMME, nicht SUMM.": "D9 pokazuje #NAME?: funkcija se zove SUMME, ne SUMM.",
  "D12 zeigt #DIV/0!: B11 ist leer. Wie viele Verkaufstage waren es? Steht oben im Text.": "D12 pokazuje #DIV/0!: B11 je prazno. Koliko je bilo dana prodaje? Piše gore u tekstu.",
@@ -121,5 +120,18 @@
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>uzak</strong> – nije širok. <code>###</code> znači: kolona je preuska.",
  "verstehen, was etwas bedeutet": "<strong>protumačiti</strong> – razumjeti šta nešto znači",
  "einen Fehler wieder richtig machen": "<strong>otkloniti, popraviti</strong> – grešku opet učiniti tačnom",
- "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "U tabelama se dešavaju greške. Neke greške Calc pokaže, na primjer <code>#DIV/0!</code>. Druge greške Calc ne pokaže: broj izgleda ispravno, ali je pogrešan. Ovdje učiš pronaći i popraviti obje vrste. Usput ponavljaš 8. razred."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "U tabelama se dešavaju greške. Neke greške Calc pokaže, na primjer <code>#DIV/0!</code>. Druge greške Calc ne pokaže: broj izgleda ispravno, ali je pogrešan. Ovdje učiš pronaći i popraviti obje vrste. Usput ponavljaš 8. razred.",
+ "D6 zeigt #WERT!: In C6 steht „{}“. Das ist Text. Tippe nur die Zahl.": "D6 pokazuje #WERT!: u C6 piše „{}“. To je tekst. Ukucaj samo broj.",
+ "Prüfe C6: Es wurden 25 Kakao verkauft. Tippe nur die Zahl 25.": "Provjeri C6: prodano je 25 kakaa. Ukucaj samo broj 25.",
+ "Prüfe D6: Dort soll =B6*C6 stehen.": "Provjeri D6: tamo treba stajati =B6*C6.",
+ "In D7 steht keine Formel. Lass Calc rechnen: =B7*C7.": "U D7 nema formule. Pusti Calc da računa: =B7*C7.",
+ "D7 zeigt {}. Gesucht ist Preis mal Anzahl: =B7*C7.": "D7 pokazuje {}. Traži se cijena puta količina: =B7*C7.",
+ "D7 rechnet noch nicht richtig. Gesucht ist Preis mal Anzahl: =B7*C7.": "D7 još ne računa tačno. Traži se cijena puta količina: =B7*C7.",
+ "D9 zeigt {}. Prüfe die Schreibweise: =SUMME(D5:D8).": "D9 pokazuje {}. Provjeri pisanje: =SUMME(D5:D8).",
+ "D9 zeigt eine Zahl, aber sie ist falsch: Der Bereich ist zu kurz oder zu lang. Das ist ein stiller Fehler! Nimm D5:D8.": "D9 pokazuje broj, ali je pogrešan: područje je prekratko ili predugo. To je <strong>tiha greška</strong>! Uzmi D5:D8.",
+ "D9: Zähl alle Einnahmen mit SUMME zusammen: =SUMME(D5:D8).": "D9: Saberi sve prihode sa SUMME: =SUMME(D5:D8).",
+ "D12 zeigt #WERT!: In B11 steht Text. Tippe nur die Zahl der Verkaufstage.": "D12 pokazuje #WERT!: u B11 je tekst. Ukucaj samo broj prodajnih dana.",
+ "Prüfe B11: Wie viele Verkaufstage waren es? Steht oben im Text.": "Provjeri B11: Koliko je bilo prodajnih dana? Piše u tekstu gore.",
+ "D12 soll die Summe durch die Tage teilen: =D9/B11.": "D12 treba podijeliti zbir sa danima: =D9/B11.",
+ "Fast! Der Ersatz ist Text und steht darum in Anführungszeichen: \"keine Noten\".": "Skoro! Zamjena je tekst i zato stoji u navodnicima: <code>\"keine Noten\"</code>."
 }

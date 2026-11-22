@@ -48,7 +48,6 @@
  "2 · Prozentrechnung →": "2 · Procenty →",
  "Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.": "Kliknięcie D6 to pokazuje: formuła używa B6, a B6 jest puste. Pusta komórka liczy się jako 0, a przez 0 nie da się dzielić.",
  "Die Formel selbst ist richtig – es fehlt nur eine Zahl.": "Sama formuła jest dobra – brakuje tylko liczby.",
- "D6 zeigt #WERT!: In C6 steht „25 Stück“. Das ist Text. Tippe nur die Zahl.": "D6 pokazuje #WERT!: W C6 jest „25 Stück”. To tekst. Wpisz tylko liczbę.",
  "D7 zeigt #NAME?: Zwischen B7 und C7 fehlt das Rechenzeichen. Schreib =B7*C7.": "D7 pokazuje #NAME?: Brakuje znaku działania między B7 a C7. Napisz =B7*C7.",
  "D9 zeigt #NAME?: Die Funktion heißt SUMME, nicht SUMM.": "D9 pokazuje #NAME?: Funkcja nazywa się SUMME, a nie SUMM.",
  "D12 zeigt #DIV/0!: B11 ist leer. Wie viele Verkaufstage waren es? Steht oben im Text.": "D12 pokazuje #DIV/0!: B11 jest puste. Przez ile dni trwała sprzedaż? Jest to w tekście powyżej.",
@@ -126,5 +125,18 @@
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>wąski</strong> – nie szeroki. <code>###</code> znaczy: kolumna jest za wąska.",
  "verstehen, was etwas bedeutet": "<strong>odczytać, zinterpretować</strong> – zrozumieć, co coś znaczy",
  "einen Fehler wieder richtig machen": "<strong>naprawić</strong> – sprawić, że błąd znów jest dobrze",
- "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "W tabelach zdarzają się błędy. Niektóre błędy Calc pokazuje, na przykład <code>#DIV/0!</code>. Innych Calc nie pokazuje: liczba wygląda dobrze, ale jest zła. Tu uczysz się znajdować i naprawiać oba rodzaje. Przy okazji powtarzasz klasę 8."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "W tabelach zdarzają się błędy. Niektóre błędy Calc pokazuje, na przykład <code>#DIV/0!</code>. Innych Calc nie pokazuje: liczba wygląda dobrze, ale jest zła. Tu uczysz się znajdować i naprawiać oba rodzaje. Przy okazji powtarzasz klasę 8.",
+ "D6 zeigt #WERT!: In C6 steht „{}“. Das ist Text. Tippe nur die Zahl.": "D6 pokazuje #WERT!: w C6 jest „{}”. To tekst. Wpisz tylko liczbę.",
+ "Prüfe C6: Es wurden 25 Kakao verkauft. Tippe nur die Zahl 25.": "Sprawdź C6: sprzedano 25 kakao. Wpisz tylko liczbę 25.",
+ "Prüfe D6: Dort soll =B6*C6 stehen.": "Sprawdź D6: powinno tam być =B6*C6.",
+ "In D7 steht keine Formel. Lass Calc rechnen: =B7*C7.": "W D7 nie ma formuły. Niech Calc liczy: =B7*C7.",
+ "D7 zeigt {}. Gesucht ist Preis mal Anzahl: =B7*C7.": "D7 pokazuje {}. Szukamy ceny razy liczba sztuk: =B7*C7.",
+ "D7 rechnet noch nicht richtig. Gesucht ist Preis mal Anzahl: =B7*C7.": "D7 jeszcze nie liczy dobrze. Szukamy ceny razy liczba sztuk: =B7*C7.",
+ "D9 zeigt {}. Prüfe die Schreibweise: =SUMME(D5:D8).": "D9 pokazuje {}. Sprawdź pisownię: =SUMME(D5:D8).",
+ "D9 zeigt eine Zahl, aber sie ist falsch: Der Bereich ist zu kurz oder zu lang. Das ist ein stiller Fehler! Nimm D5:D8.": "D9 pokazuje liczbę, ale złą: zakres jest za krótki albo za długi. To <strong>cichy błąd</strong>! Weź D5:D8.",
+ "D9: Zähl alle Einnahmen mit SUMME zusammen: =SUMME(D5:D8).": "D9: Dodaj wszystkie wpływy za pomocą SUMME: =SUMME(D5:D8).",
+ "D12 zeigt #WERT!: In B11 steht Text. Tippe nur die Zahl der Verkaufstage.": "D12 pokazuje #WERT!: w B11 jest tekst. Wpisz tylko liczbę dni sprzedaży.",
+ "Prüfe B11: Wie viele Verkaufstage waren es? Steht oben im Text.": "Sprawdź B11: ile było dni sprzedaży? Jest to w tekście powyżej.",
+ "D12 soll die Summe durch die Tage teilen: =D9/B11.": "D12 ma podzielić sumę przez dni: =D9/B11.",
+ "Fast! Der Ersatz ist Text und steht darum in Anführungszeichen: \"keine Noten\".": "Prawie! Zamiennik to tekst, dlatego jest w cudzysłowie: <code>\"keine Noten\"</code>."
 }

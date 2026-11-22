@@ -48,7 +48,6 @@
  "2 · Prozentrechnung →": "2 · Percentages →",
  "Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.": "Clicking D6 shows it: the formula uses B6, and B6 is empty. An empty cell counts as 0, and you cannot divide by 0.",
  "Die Formel selbst ist richtig – es fehlt nur eine Zahl.": "The formula itself is right – only a number is missing.",
- "D6 zeigt #WERT!: In C6 steht „25 Stück“. Das ist Text. Tippe nur die Zahl.": "D6 shows #WERT!: C6 contains „25 Stück“. That is text. Type only the number.",
  "D7 zeigt #NAME?: Zwischen B7 und C7 fehlt das Rechenzeichen. Schreib =B7*C7.": "D7 shows #NAME?: The operator between B7 and C7 is missing. Write =B7*C7.",
  "D9 zeigt #NAME?: Die Funktion heißt SUMME, nicht SUMM.": "D9 shows #NAME?: The function is called SUMME, not SUMM.",
  "D12 zeigt #DIV/0!: B11 ist leer. Wie viele Verkaufstage waren es? Steht oben im Text.": "D12 shows #DIV/0!: B11 is empty. On how many days did they sell? It says so in the text above.",
@@ -126,5 +125,18 @@
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>narrow</strong> – not wide. <code>###</code> means: the column is too narrow.",
  "verstehen, was etwas bedeutet": "<strong>to interpret</strong> – to understand what something means",
  "einen Fehler wieder richtig machen": "<strong>to fix</strong> – to make an error right again",
- "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "Mistakes happen in tables. Calc shows some mistakes, for example <code>#DIV/0!</code>. Other mistakes Calc doesn’t show: the number looks right but is wrong. Here you learn to find and fix both kinds. Along the way you revise Year 8."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "Mistakes happen in tables. Calc shows some mistakes, for example <code>#DIV/0!</code>. Other mistakes Calc doesn’t show: the number looks right but is wrong. Here you learn to find and fix both kinds. Along the way you revise Year 8.",
+ "D6 zeigt #WERT!: In C6 steht „{}“. Das ist Text. Tippe nur die Zahl.": "D6 shows #WERT!: C6 contains „{}“. That is text. Type only the number.",
+ "Prüfe C6: Es wurden 25 Kakao verkauft. Tippe nur die Zahl 25.": "Check C6: 25 cocoas were sold. Type only the number 25.",
+ "Prüfe D6: Dort soll =B6*C6 stehen.": "Check D6: it should contain =B6*C6.",
+ "In D7 steht keine Formel. Lass Calc rechnen: =B7*C7.": "There is no formula in D7. Let Calc calculate: =B7*C7.",
+ "D7 zeigt {}. Gesucht ist Preis mal Anzahl: =B7*C7.": "D7 shows {}. You need price times quantity: =B7*C7.",
+ "D7 rechnet noch nicht richtig. Gesucht ist Preis mal Anzahl: =B7*C7.": "D7 does not calculate correctly yet. You need price times quantity: =B7*C7.",
+ "D9 zeigt {}. Prüfe die Schreibweise: =SUMME(D5:D8).": "D9 shows {}. Check the spelling: =SUMME(D5:D8).",
+ "D9 zeigt eine Zahl, aber sie ist falsch: Der Bereich ist zu kurz oder zu lang. Das ist ein stiller Fehler! Nimm D5:D8.": "D9 shows a number, but it is wrong: the range is too short or too long. That is a <strong>silent error</strong>! Take D5:D8.",
+ "D9: Zähl alle Einnahmen mit SUMME zusammen: =SUMME(D5:D8).": "D9: Add up all the takings with SUMME: =SUMME(D5:D8).",
+ "D12 zeigt #WERT!: In B11 steht Text. Tippe nur die Zahl der Verkaufstage.": "D12 shows #WERT!: B11 contains text. Type only the number of sales days.",
+ "Prüfe B11: Wie viele Verkaufstage waren es? Steht oben im Text.": "Check B11: How many sales days were there? It says so in the text above.",
+ "D12 soll die Summe durch die Tage teilen: =D9/B11.": "D12 should divide the sum by the days: =D9/B11.",
+ "Fast! Der Ersatz ist Text und steht darum in Anführungszeichen: \"keine Noten\".": "Almost! The replacement is text, so it goes in quotation marks: <code>\"keine Noten\"</code>."
 }

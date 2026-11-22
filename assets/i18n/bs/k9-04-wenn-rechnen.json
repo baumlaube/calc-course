@@ -64,7 +64,6 @@
  "WENN soll „gratis“ oder den Preis aus A5 zeigen. Welche Formel stimmt?": "WENN treba pokazati „gratis“ ili cijenu iz A5. Koja formula je tačna?",
  "Text in Anführungszeichen, Zellen ohne. \"A5\" wäre nur der Text A5.": "Tekst pod navodnicima, ćelije bez. \"A5\" bi bio samo tekst A5.",
  "Ab 50 € gibt es 10 % Rabatt, sonst zahlt man den vollen Betrag. Aus Baustein 2 weißt du: 10 % weniger heißt *(1-10%).": "Od 50 € ima <strong>10 % popusta</strong>, inače se plaća puni iznos. Iz cjeline 2 znaš: 10 % manje znači <code>*(1-10%)</code>.",
- "64 € ist mindestens 50 €. Dann-Teil: A2*(1-10%) = 57,60 €.": "64 € je najmanje 50 €. Dio Dann: <code>A2*(1-10%)</code> = 57,60 €.",
  "38,50 € ist unter 50 € – Sonst-Teil: einfach A2.": "38,50 € je ispod 50 € – dio Sonst: jednostavno <code>A2</code>.",
  "🏆 Expedition geschafft! WENN und Prozentrechnung zusammen – das kommt in der Übungsdatei noch einmal.": "🏆 Ekspedicija uspjela! WENN i procenti zajedno – to dolazi još jednom u datoteci s vježbama.",
  "WENN zeigt, was im Dann-Teil steht. Hier ist das 0, nicht Ja.": "WENN pokazuje ono što stoji u dijelu Dann. Ovdje je to 0, a ne Ja.",
@@ -90,5 +89,6 @@
  "in allen anderen Fällen": "<strong>inače</strong> – u svim drugim slučajevima",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>račun</strong> – ovdje: nešto za izračunati, npr. <code>A6+4,95</code>",
  "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>dostava, slanje</strong> – slanje paketa. To često košta.",
- "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> zna i računati. Na primjer: ko je mlađi od 18, u kinu plaća 8 €. Svi ostali plaćaju 10 €. Takva pravila su česta, na primjer kod ulaza, dostave i popusta."
+ "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> zna i računati. Na primjer: ko je mlađi od 18, u kinu plaća 8 €. Svi ostali plaćaju 10 €. Takva pravila su česta, na primjer kod ulaza, dostave i popusta.",
+ "Genau 50 € – „ab 50 €“ heißt: 50 € zählt schon mit, also >=. Dann-Teil: A2*(1-10%) = 45,00 €.": "Tačno 50 € – „od 50 €“ znači: 50 € se već računa, dakle <code>&gt;=</code>. Dio Dann: <code>A2*(1-10%)</code> = 45,00 €."
 }

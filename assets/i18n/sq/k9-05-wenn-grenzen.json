@@ -33,7 +33,6 @@
  "Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "Shkruaji kufijtë në qelizë të veçantë dhe fiksoji me <code>$</code>.",
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> Ekspeditë: UND (DHE) <span class=\"badge expedition\">fakultative</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> është e vërtetë vetëm nëse <strong>të dyja</strong> janë të vërteta.<br/>Me <code>ODER(…; …)</code> (OSE) mjafton njëra.",
- "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "Është ditë pishine nëse ka <strong>të paktën 25 °C</strong> <strong>dhe</strong> nuk bie shi. Shkruaj në D5 një formulë WENN me UND dhe plotësoje poshtë.",
  "← 4 · WENN 2": "← 4 · WENN 2 (NËSE 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (formatim me kusht) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -110,5 +109,8 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Ende jo deri në fund. Ende bosh: {}. Tërhiq nga C5 deri në C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ E hëna është në rregull! Tani tërhiq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) poshtë deri në D7.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Ende jo deri në fund. Tërhiq nga D5 deri në D7.",
- "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Rregullat ndryshojnë. Sot duhen 15 pikë, nesër ndoshta 16. Prandaj shkruaje kufirin në një qelizë më vete. Atëherë ndryshon vetëm këtë qelizë dhe të gjitha formulat rillogariten. Në fund i zgjidh vetë detyrat me <code>WENN</code>, si në provim."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Rregullat ndryshojnë. Sot duhen 15 pikë, nesër ndoshta 16. Prandaj shkruaje kufirin në një qelizë më vete. Atëherë ndryshon vetëm këtë qelizë dhe të gjitha formulat rillogariten. Në fund i zgjidh vetë detyrat me <code>WENN</code>, si në provim.",
+ "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Dann steht in D „Freibad!“, sonst „daheim“. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "Është ditë pishine kur ka <strong>të paktën 25 °C</strong> <strong>dhe</strong> nuk bie shi. Atëherë te D shkruhet „Freibad!“ (pishinë!), përndryshe „daheim“ (në shtëpi). Shkruaj te D5 një formulë WENN me UND dhe tërhiqe poshtë.",
+ "B2 zeigt jetzt {}. Tipp die Grenze mit %-Zeichen ein, z. B. 30%.": "B2 tani tregon {}. Shkruaj kufirin me shenjën %, p.sh. <code>30%</code>.",
+ "Fast! Schreib die Antwort genau wie vorgegeben: \"laden!\" mit Ausrufezeichen.": "Gati! Shkruaje përgjigjen saktësisht siç jepet: <code>\"laden!\"</code> me pikëçuditëse."
 }

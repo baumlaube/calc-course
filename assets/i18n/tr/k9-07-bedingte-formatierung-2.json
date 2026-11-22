@@ -44,7 +44,6 @@
  "✔ Die Ampel leuchtet richtig!": "✔ Trafik ışığı doğru renkleri gösteriyor!",
  "Stufe 2 · Text färben": "Seviye 2 · Metni boya",
  "Alle fehlenden Hausaufgaben sollen rot werden: Zellwert ist · gleich · … → Schlecht.": "Eksik bütün ödevler kırmızı olmalı: Zellwert ist · gleich · … → Schlecht.",
- "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne sucht Calc nach einem Namen – und färbt nichts.": "Penceredeki metin tırnak içine yazılır: <code>\"fehlt\"</code>. Tırnaksız Calc bir ad arar – ve hiçbir şeyi boyamaz.",
  "Nur die Zellen mit „fehlt“ sollen rot sein. Bedingung: gleich.": "Sadece „fehlt“ olan hücreler kırmızı olmalı. Koşul: gleich (eşit).",
  "✔ Alle 4 fehlenden Hausaufgaben leuchten rot.": "✔ Eksik 4 ödevin hepsi kırmızı parlıyor.",
  "Stufe 3 · Grenze aus Zelle": "Seviye 3 · Hücreden sınır",
@@ -96,5 +95,8 @@
  "drei Farben: rot, gelb, grün": "<strong>trafik ışığı</strong> – üç renk: kırmızı, sarı, yeşil",
  "etwas neu machen, z. B. eine Bedingung": "<strong>oluşturmak</strong> – yeni bir şey yapmak, örn. bir koşul",
  "ansehen, ändern und löschen": "<strong>yönetmek</strong> – bakmak, değiştirmek ve silmek",
- "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Şimdi Calc birkaç kuralla boyar: trafik ışığı gibi yeşil, sarı ve kırmızı. Kuralların sırasının neden önemli olduğunu öğrenirsin. Metni de boyar ve sınırı bir hücreden alırsın."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Şimdi Calc birkaç kuralla boyar: trafik ışığı gibi yeşil, sarı ve kırmızı. Kuralların sırasının neden önemli olduğunu öğrenirsin. Metni de boyar ve sınırı bir hücreden alırsın.",
+ "Ohne %-Zeichen ist 20 für Calc 2000 %. Tippe die Grenzen so: 20% und 50%.": "% işareti olmadan 20, Calc için 2000 %'dir. Sınırları şöyle yaz: <code>20%</code> ve <code>50%</code>.",
+ "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne Anführungszeichen erkennt Calc den Text nicht – und färbt nichts.": "Pencerede metin tırnak içinde yazılır: <code>\"fehlt\"</code>. Tırnak olmadan Calc metni tanımaz – ve hiçbir şeyi boyamaz.",
+ "Jetzt ist auch die Zeile fest: Jede Zeile schaut auf Zeile 2. Nur vor das B gehört ein $: $B2=\"nein\"": "Şimdi satır da sabit: Her satır 2. satıra bakıyor. <code>$</code> sadece B'nin önüne gelir: <code>$B2=\"nein\"</code>"
 }

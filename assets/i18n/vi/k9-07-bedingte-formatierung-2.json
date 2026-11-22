@@ -54,7 +54,6 @@
  "✔ Die Ampel leuchtet richtig!": "✔ Đèn giao thông sáng đúng màu!",
  "Stufe 2 · Text färben": "Cấp 2 · Tô màu chữ",
  "Alle fehlenden Hausaufgaben sollen rot werden: Zellwert ist · gleich · … → Schlecht.": "Tất cả bài tập về nhà còn thiếu phải thành màu đỏ: Zellwert ist · gleich · … → Schlecht.",
- "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne sucht Calc nach einem Namen – und färbt nichts.": "Chữ trong hộp thoại nằm trong dấu ngoặc kép: <code>\"fehlt\"</code>. Không có dấu ngoặc kép, Calc sẽ tìm một cái tên – và không tô màu gì cả.",
  "Nur die Zellen mit „fehlt“ sollen rot sein. Bedingung: gleich.": "Chỉ các ô có „fehlt“ mới được đỏ. Điều kiện: gleich (bằng).",
  "✔ Alle 4 fehlenden Hausaufgaben leuchten rot.": "✔ Cả 4 bài tập về nhà còn thiếu đều sáng màu đỏ.",
  "Stufe 3 · Grenze aus Zelle": "Cấp 3 · Mốc lấy từ ô",
@@ -95,5 +94,8 @@
  "„Unter 14“ heißt: 14 zählt nicht mehr. Nimm <.": "„Dưới 14“ nghĩa là: 14 không còn được tính. Hãy dùng <code>&lt;</code>.",
  "bezahlt?": "bezahlt? (đã trả tiền?)",
  "größer als 50%": "größer als 50% (lớn hơn 50%)",
- "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Bây giờ Calc tô màu theo nhiều quy tắc: xanh lá, vàng và đỏ như đèn giao thông. Bạn học tại sao thứ tự các quy tắc quan trọng. Bạn cũng tô màu chữ và lấy mốc từ một ô."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Bây giờ Calc tô màu theo nhiều quy tắc: xanh lá, vàng và đỏ như đèn giao thông. Bạn học tại sao thứ tự các quy tắc quan trọng. Bạn cũng tô màu chữ và lấy mốc từ một ô.",
+ "Ohne %-Zeichen ist 20 für Calc 2000 %. Tippe die Grenzen so: 20% und 50%.": "Không có dấu %, số 20 với Calc là 2000 %. Hãy gõ các mức giới hạn như sau: <code>20%</code> và <code>50%</code>.",
+ "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne Anführungszeichen erkennt Calc den Text nicht – und färbt nichts.": "Trong hộp thoại, chữ nằm trong dấu ngoặc kép: <code>\"fehlt\"</code>. Không có dấu ngoặc kép thì Calc không nhận ra chữ – và không tô màu gì cả.",
+ "Jetzt ist auch die Zeile fest: Jede Zeile schaut auf Zeile 2. Nur vor das B gehört ein $: $B2=\"nein\"": "Bây giờ hàng cũng bị cố định: hàng nào cũng nhìn vào hàng 2. Chỉ cần <code>$</code> trước chữ B: <code>$B2=\"nein\"</code>"
 }

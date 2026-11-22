@@ -103,5 +103,7 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>стиль</strong> – готовый вид с именем: Gut (хорошо) – зелёный, Schlecht (плохо) – красный",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>между</strong> – от одного числа до другого. Оба числа считаются.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>больше · меньше</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. Само 30 не считается.",
- "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "В длинной таблице трудно найти важные числа. Calc может сам окрашивать ячейки, например все дни выше 30 °C красным. Если число меняется, меняется и цвет."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "В длинной таблице трудно найти важные числа. Calc может сам окрашивать ячейки, например все дни выше 30 °C красным. Если число меняется, меняется и цвет.",
+ "zwischen braucht zwei Zahlen, z. B. zwischen 120 und 160. Beide Grenzen zählen mit: 120 und 160 werden auch gefärbt.": "<strong>zwischen</strong> (между) нужны два числа, напр. между 120 и 160. Обе границы считаются: 120 и 160 тоже окрашиваются.",
+ "Die Bedingung stimmt, aber die Farbe nicht: Nimm die Vorlage Schlecht (rot).": "Условие верное, а цвет нет: возьми стиль <strong>Schlecht</strong> (плохо, красный)."
 }

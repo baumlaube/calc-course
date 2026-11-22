@@ -33,7 +33,6 @@
  "Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "Scrie limitele într-o celulă proprie și fixează-le cu <code>$</code>.",
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> Expediție: UND (ȘI) <span class=\"badge expedition\">opțional</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> e adevărat doar dacă <strong>amândouă</strong> sunt adevărate.<br/>Cu <code>ODER(…; …)</code> (SAU) ajunge una.",
- "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "E zi de ștrand dacă sunt <strong>cel puțin 25 °C</strong> <strong>și</strong> nu plouă. Scrie în D5 o formulă WENN cu UND și umple-o în jos.",
  "← 4 · WENN 2": "← 4 · WENN 2 (DACĂ 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (formatare condiționată) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -110,5 +109,8 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Încă nu ai ajuns jos. Mai sunt goale: {}. Trage de la C5 până la C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Lunea e corectă! Acum trage de <strong>Ausfüllkästchen</strong> (mânerul de umplere) în jos până la D7.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Încă nu ai ajuns jos. Trage de la D5 până la D7.",
- "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Regulile se schimbă. Azi ai nevoie de 15 puncte, mâine poate de 16. De aceea scrie pragul într-o celulă separată. Atunci schimbi doar această celulă și toate formulele se recalculează. La final rezolvi singur sarcini cu <code>WENN</code>, ca la test."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Regulile se schimbă. Azi ai nevoie de 15 puncte, mâine poate de 16. De aceea scrie pragul într-o celulă separată. Atunci schimbi doar această celulă și toate formulele se recalculează. La final rezolvi singur sarcini cu <code>WENN</code>, ca la test.",
+ "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Dann steht in D „Freibad!“, sonst „daheim“. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "E zi de ștrand când sunt <strong>cel puțin 25 °C</strong> <strong>și</strong> nu plouă. Atunci în D apare „Freibad!” (ștrand!), altfel „daheim” (acasă). Scrie în D5 o formulă WENN cu UND și trage-o în jos.",
+ "B2 zeigt jetzt {}. Tipp die Grenze mit %-Zeichen ein, z. B. 30%.": "B2 arată acum {}. Tastează limita cu semnul %, de ex. <code>30%</code>.",
+ "Fast! Schreib die Antwort genau wie vorgegeben: \"laden!\" mit Ausrufezeichen.": "Aproape! Scrie răspunsul exact cum e dat: <code>\"laden!\"</code> cu semn de exclamare."
 }

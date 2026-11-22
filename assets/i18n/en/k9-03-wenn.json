@@ -128,5 +128,6 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>equal · not equal</strong> – gleich: <code>=</code> · ungleich (not equal): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>semicolon</strong> – the sign <code>;</code>. It separates the three parts of WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>to output</strong> – to show. WENN outputs an answer.",
- "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "With <code>WENN</code> (IF) Calc asks a question. The answer is yes or no. Depending on the answer, Calc shows something different, for example “bestanden” (passed) or “nicht bestanden” (failed). You learn <code>WENN</code> in small steps."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "With <code>WENN</code> (IF) Calc asks a question. The answer is yes or no. Depending on the answer, Calc shows something different, for example “bestanden” (passed) or “nicht bestanden” (failed). You learn <code>WENN</code> in small steps.",
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 shows an error: text always goes in quotation marks: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."
 }

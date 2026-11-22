@@ -59,7 +59,6 @@
  "WENN soll „gratis“ oder den Preis aus A5 zeigen. Welche Formel stimmt?": "WENN должна показывать „gratis“ (бесплатно) или цену из A5. Какая формула правильная?",
  "Text in Anführungszeichen, Zellen ohne. \"A5\" wäre nur der Text A5.": "Текст в кавычках, ячейки без. \"A5\" было бы просто текстом A5.",
  "Ab 50 € gibt es 10 % Rabatt, sonst zahlt man den vollen Betrag. Aus Baustein 2 weißt du: 10 % weniger heißt *(1-10%).": "От 50 € есть <strong>скидка 10 %</strong>, иначе платишь полную сумму. Из модуля 2 ты знаешь: на 10 % меньше – это <code>*(1-10%)</code>.",
- "64 € ist mindestens 50 €. Dann-Teil: A2*(1-10%) = 57,60 €.": "64 € – это не меньше 50 €. Часть Dann: <code>A2*(1-10%)</code> = 57,60 €.",
  "38,50 € ist unter 50 € – Sonst-Teil: einfach A2.": "38,50 € меньше 50 € – часть Sonst: просто <code>A2</code>.",
  "🏆 Expedition geschafft! WENN und Prozentrechnung zusammen – das kommt in der Übungsdatei noch einmal.": "🏆 Экспедиция пройдена! WENN и проценты вместе – это ещё встретится в файле с упражнениями.",
  "Üben Zinsen bei der Bank": "<span class=\"badge ueben\">Üben</span> Проценты в банке",
@@ -92,5 +91,6 @@
  "in allen anderen Fällen": "<strong>иначе</strong> – во всех остальных случаях",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>расчёт</strong> – здесь: то, что нужно посчитать, например <code>A6+4,95</code>",
  "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>доставка</strong> – отправка посылки. Часто это стоит денег.",
- "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> умеет и считать. Например: кто младше 18, платит в кино 8 €. Все остальные платят 10 €. Такие правила встречаются часто, например для входных билетов, доставки и скидок."
+ "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> умеет и считать. Например: кто младше 18, платит в кино 8 €. Все остальные платят 10 €. Такие правила встречаются часто, например для входных билетов, доставки и скидок.",
+ "Genau 50 € – „ab 50 €“ heißt: 50 € zählt schon mit, also >=. Dann-Teil: A2*(1-10%) = 45,00 €.": "Ровно 50 € – «от 50 €» значит: 50 € уже считается, значит <code>&gt;=</code>. Часть Dann: <code>A2*(1-10%)</code> = 45,00 €."
 }

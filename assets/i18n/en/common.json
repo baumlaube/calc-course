@@ -211,5 +211,14 @@
  "Du kannst es verbessern oder weitergehen.": "You can correct it or go on.",
  "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc shows Err:522: your formula counts its own cell. Only take the cells above.",
  "Prüfe deine Formel.": "Check your formula.",
- "Stimmt der Name? Ist die Klammer zu?": "Is the name right? Is the bracket closed?"
+ "Stimmt der Name? Ist die Klammer zu?": "Is the name right? Is the bracket closed?",
+ "In deiner Formel steht eine Zahl. Nimm die Grenze aus C2 – dann kannst du sie später ändern.": "In your formula there is a number. Take the limit from <code>C2</code> – then you can change it later.",
+ "Im deutschen Calc schreibst du Kommazahlen mit Komma, z. B. 4,95.": "In German Calc you write decimal numbers with a <strong>comma</strong>, e.g. <code>4,95</code>.",
+ "Die Zahl in der Frage steht ohne Anführungszeichen, z. B. A2>=50. Mit Anführungszeichen ist sie für Calc Text.": "The number in the question is <strong>without</strong> quotation marks, e.g. <code>A2&gt;=50</code>. With quotation marks it is text for Calc.",
+ "Ohne $ rutscht C2 beim Ziehen nach C3 – dort steht keine Grenze. Halte sie fest: $C$2.": "Without <code>$</code>, C2 slides to C3 when you drag – there is no limit there. Fix it: <code>$C$2</code>.",
+ "Calc kennt diese Funktion nicht (#NAME?). Sie heißt {}.": "Calc doesn't know this function (#NAME?). It is called <code>{}</code>.",
+ "Du kannst eine andere Antwort wählen oder weitergehen.": "You can choose another answer or go on.",
+ "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "Start with these three. Do steps 2 and 3 there. Then do the test here again.",
+ "Eine zu große Zahl zeigt Calc als ###.": "Calc shows a number that is too big as <code>###</code>.",
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "The Dann part is A5+15. A5 belongs to it."
 }

@@ -33,7 +33,6 @@
  "Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "اكتب الحدود في خلية خاصة وثبّتها بـ <code>$</code>.",
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> رحلة استكشاف: UND (و) <span class=\"badge expedition\">اختياري</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> تكون صحيحة فقط إذا كان <strong>الاثنان</strong> صحيحين.<br/>مع <code>ODER(…; …)</code> (أو) يكفي واحد.",
- "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "يكون يوم مسبح إذا كانت الحرارة <strong>25 °C على الأقل</strong> <strong>و</strong>لا تمطر. اكتب في D5 صيغة WENN مع UND وعبّئها إلى الأسفل.",
  "← 4 · WENN 2": "← 4 · WENN 2 (إذا 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (التنسيق الشرطي) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -110,5 +109,8 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "لم تصل إلى الأسفل بعد. ما زالت فارغة: {}. اسحب من C5 حتى C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ الاثنين صحيح! الآن اسحب <strong>Ausfüllkästchen</strong> (مقبض التعبئة) إلى الأسفل حتى D7.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "لم تصل إلى الأسفل بعد. اسحب من D5 حتى D7.",
- "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "القواعد تتغير. اليوم تحتاج 15 نقطة، وغدًا ربما 16. لذلك اكتب الحدّ في خلية خاصة به. عندها تغيّر هذه الخلية فقط، وتعيد كل الصيغ الحساب. في النهاية تحل مهام <code>WENN</code> وحدك كما في الاختبار."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "القواعد تتغير. اليوم تحتاج 15 نقطة، وغدًا ربما 16. لذلك اكتب الحدّ في خلية خاصة به. عندها تغيّر هذه الخلية فقط، وتعيد كل الصيغ الحساب. في النهاية تحل مهام <code>WENN</code> وحدك كما في الاختبار.",
+ "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Dann steht in D „Freibad!“, sonst „daheim“. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "يكون يوم مسبح إذا كانت الحرارة <strong>25 °C على الأقل</strong> <strong>و</strong>لا تمطر. عندها يظهر في D „Freibad!“ (مسبح!)، وإلا „daheim“ (في البيت). اكتب في D5 صيغة WENN مع UND وعبّئها إلى الأسفل.",
+ "B2 zeigt jetzt {}. Tipp die Grenze mit %-Zeichen ein, z. B. 30%.": "B2 تعرض الآن {}. اكتب الحدّ مع علامة %، مثلًا <code>30%</code>.",
+ "Fast! Schreib die Antwort genau wie vorgegeben: \"laden!\" mit Ausrufezeichen.": "تقريبًا! اكتب الإجابة تمامًا كما هي مطلوبة: <code>\"laden!\"</code> مع علامة التعجب."
 }

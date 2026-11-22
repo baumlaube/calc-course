@@ -77,7 +77,6 @@
  "2 · Prozentrechnung →": "2 · Tính phần trăm →",
  "Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.": "Bấm vào D6 sẽ thấy: công thức dùng B6, mà B6 thì trống. Ô trống được tính là 0, và không thể chia cho 0.",
  "Die Formel selbst ist richtig – es fehlt nur eine Zahl.": "Bản thân công thức đúng – chỉ thiếu một con số.",
- "D6 zeigt #WERT!: In C6 steht „25 Stück“. Das ist Text. Tippe nur die Zahl.": "D6 hiện #WERT!: Trong C6 có „25 Stück“. Đó là chữ. Chỉ gõ số thôi.",
  "D7 zeigt #NAME?: Zwischen B7 und C7 fehlt das Rechenzeichen. Schreib =B7*C7.": "D7 hiện #NAME?: Giữa B7 và C7 thiếu dấu phép tính. Hãy viết =B7*C7.",
  "D9 zeigt #NAME?: Die Funktion heißt SUMME, nicht SUMM.": "D9 hiện #NAME?: Hàm tên là SUMME, không phải SUMM.",
  "D12 zeigt #DIV/0!: B11 ist leer. Wie viele Verkaufstage waren es? Steht oben im Text.": "D12 hiện #DIV/0!: B11 trống. Bán hàng trong bao nhiêu ngày? Có ghi trong đoạn văn ở trên.",
@@ -121,5 +120,18 @@
  "### heißt nur: Die Zahl passt nicht in die Spalte. Doppelklick auf die Linie zwischen den Spaltenköpfen.": "### chỉ có nghĩa là: con số không vừa với cột. Bấm đúp vào đường kẻ giữa các tiêu đề cột.",
  "#WERT! sieht man sofort. Ein stiller Fehler zeigt keine Meldung.": "<code>#WERT!</code> thì thấy ngay. Lỗi ngầm thì không có thông báo nào.",
  "### sieht man sofort. Und die Zahl dahinter stimmt.": "<code>###</code> thì thấy ngay. Và con số phía sau vẫn đúng.",
- "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "Trong bảng tính có lỗi xảy ra. Có lỗi Calc báo ra, ví dụ <code>#DIV/0!</code>. Có lỗi Calc không báo: con số trông đúng nhưng lại sai. Ở đây bạn học cách tìm và sửa cả hai loại. Đồng thời bạn ôn lại lớp 8."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "Trong bảng tính có lỗi xảy ra. Có lỗi Calc báo ra, ví dụ <code>#DIV/0!</code>. Có lỗi Calc không báo: con số trông đúng nhưng lại sai. Ở đây bạn học cách tìm và sửa cả hai loại. Đồng thời bạn ôn lại lớp 8.",
+ "D6 zeigt #WERT!: In C6 steht „{}“. Das ist Text. Tippe nur die Zahl.": "D6 hiện #WERT!: trong C6 là „{}“. Đó là chữ. Chỉ gõ số thôi.",
+ "Prüfe C6: Es wurden 25 Kakao verkauft. Tippe nur die Zahl 25.": "Kiểm tra C6: đã bán 25 ly ca cao. Chỉ gõ số 25.",
+ "Prüfe D6: Dort soll =B6*C6 stehen.": "Kiểm tra D6: ở đó phải là =B6*C6.",
+ "In D7 steht keine Formel. Lass Calc rechnen: =B7*C7.": "Trong D7 không có công thức. Hãy để Calc tính: =B7*C7.",
+ "D7 zeigt {}. Gesucht ist Preis mal Anzahl: =B7*C7.": "D7 hiện {}. Cần tính giá nhân số lượng: =B7*C7.",
+ "D7 rechnet noch nicht richtig. Gesucht ist Preis mal Anzahl: =B7*C7.": "D7 vẫn tính chưa đúng. Cần tính giá nhân số lượng: =B7*C7.",
+ "D9 zeigt {}. Prüfe die Schreibweise: =SUMME(D5:D8).": "D9 hiện {}. Kiểm tra cách viết: =SUMME(D5:D8).",
+ "D9 zeigt eine Zahl, aber sie ist falsch: Der Bereich ist zu kurz oder zu lang. Das ist ein stiller Fehler! Nimm D5:D8.": "D9 hiện một con số, nhưng sai: vùng quá ngắn hoặc quá dài. Đây là một <strong>lỗi im lặng</strong>! Hãy lấy D5:D8.",
+ "D9: Zähl alle Einnahmen mit SUMME zusammen: =SUMME(D5:D8).": "D9: Cộng tất cả tiền thu bằng SUMME: =SUMME(D5:D8).",
+ "D12 zeigt #WERT!: In B11 steht Text. Tippe nur die Zahl der Verkaufstage.": "D12 hiện #WERT!: trong B11 là chữ. Chỉ gõ số ngày bán hàng.",
+ "Prüfe B11: Wie viele Verkaufstage waren es? Steht oben im Text.": "Kiểm tra B11: có bao nhiêu ngày bán hàng? Có ghi trong đoạn văn ở trên.",
+ "D12 soll die Summe durch die Tage teilen: =D9/B11.": "D12 phải chia tổng cho số ngày: =D9/B11.",
+ "Fast! Der Ersatz ist Text und steht darum in Anführungszeichen: \"keine Noten\".": "Gần đúng rồi! Phần thay thế là chữ nên phải nằm trong dấu ngoặc kép: <code>\"keine Noten\"</code>."
 }

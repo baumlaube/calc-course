@@ -44,7 +44,6 @@
  "✔ Die Ampel leuchtet richtig!": "✔ Світлофор показує правильні кольори!",
  "Stufe 2 · Text färben": "Рівень 2 · Фарбувати текст",
  "Alle fehlenden Hausaufgaben sollen rot werden: Zellwert ist · gleich · … → Schlecht.": "Усі невиконані домашні завдання мають стати червоними: Zellwert ist · gleich · … → Schlecht.",
- "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne sucht Calc nach einem Namen – und färbt nichts.": "Текст у діалозі пишуть у лапках: <code>\"fehlt\"</code>. Без них Calc шукає назву – і нічого не фарбує.",
  "Nur die Zellen mit „fehlt“ sollen rot sein. Bedingung: gleich.": "Червоними мають бути лише клітинки з „fehlt“. Умова: gleich (дорівнює).",
  "✔ Alle 4 fehlenden Hausaufgaben leuchten rot.": "✔ Усі 4 невиконані домашні завдання світяться червоним.",
  "Stufe 3 · Grenze aus Zelle": "Рівень 3 · Межа з клітинки",
@@ -96,5 +95,8 @@
  "drei Farben: rot, gelb, grün": "<strong>світлофор</strong> – три кольори: червоний, жовтий, зелений",
  "etwas neu machen, z. B. eine Bedingung": "<strong>створити</strong> – зробити щось нове, наприклад умову",
  "ansehen, ändern und löschen": "<strong>керувати</strong> – дивитися, змінювати й видаляти",
- "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Тепер Calc зафарбовує за кількома правилами: зелений, жовтий і червоний, як світлофор. Ти дізнаєшся, чому важливий порядок правил. Ти також зафарбовуєш текст і береш межу з клітинки."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Тепер Calc зафарбовує за кількома правилами: зелений, жовтий і червоний, як світлофор. Ти дізнаєшся, чому важливий порядок правил. Ти також зафарбовуєш текст і береш межу з клітинки.",
+ "Ohne %-Zeichen ist 20 für Calc 2000 %. Tippe die Grenzen so: 20% und 50%.": "Без знака % число 20 для Calc – це 2000 %. Введи межі так: <code>20%</code> і <code>50%</code>.",
+ "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne Anführungszeichen erkennt Calc den Text nicht – und färbt nichts.": "У діалозі текст стоїть у лапках: <code>\"fehlt\"</code>. Без лапок Calc не розпізнає текст – і нічого не фарбує.",
+ "Jetzt ist auch die Zeile fest: Jede Zeile schaut auf Zeile 2. Nur vor das B gehört ein $: $B2=\"nein\"": "Тепер закріплено й рядок: кожен рядок дивиться на рядок 2. <code>$</code> потрібен тільки перед B: <code>$B2=\"nein\"</code>"
 }

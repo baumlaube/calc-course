@@ -33,7 +33,6 @@
  "Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "Записывай границы в отдельную ячейку и закрепляй знаком <code>$</code>.",
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> Экспедиция: UND (И) <span class=\"badge expedition\">по желанию</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> верно, только если верны <strong>обе</strong> проверки.<br/>С <code>ODER(…; …)</code> (ИЛИ) достаточно одной.",
- "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "День для бассейна – когда <strong>не меньше 25 °C</strong> <strong>и</strong> нет дождя. Напиши в D5 формулу с WENN и UND и заполни вниз.",
  "← 4 · WENN 2": "← 4 · WENN 2 (ЕСЛИ 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (условное форматирование) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -110,5 +109,8 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Ещё не до конца. Пустые ещё: {}. Тяни от C5 до C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Понедельник верно! Теперь потяни за <strong>Ausfüllkästchen</strong> (маркер заполнения) вниз до D7.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Ещё не до конца. Тяни от D5 до D7.",
- "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Правила меняются. Сегодня нужно 15 баллов, завтра, может быть, 16. Поэтому пиши границу в отдельную ячейку. Тогда меняешь только эту одну ячейку, и все формулы пересчитываются. В конце ты сам решаешь задания с <code>WENN</code>, как на контрольной."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Правила меняются. Сегодня нужно 15 баллов, завтра, может быть, 16. Поэтому пиши границу в отдельную ячейку. Тогда меняешь только эту одну ячейку, и все формулы пересчитываются. В конце ты сам решаешь задания с <code>WENN</code>, как на контрольной.",
+ "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Dann steht in D „Freibad!“, sonst „daheim“. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "День бассейна – это когда <strong>не меньше 25 °C</strong> <strong>и</strong> нет дождя. Тогда в D стоит «Freibad!» (бассейн!), иначе «daheim» (дома). Напиши в D5 формулу WENN с UND и заполни ею столбец.",
+ "B2 zeigt jetzt {}. Tipp die Grenze mit %-Zeichen ein, z. B. 30%.": "B2 теперь показывает {}. Введи границу со знаком %, напр. <code>30%</code>.",
+ "Fast! Schreib die Antwort genau wie vorgegeben: \"laden!\" mit Ausrufezeichen.": "Почти! Напиши ответ точно так, как задано: <code>\"laden!\"</code> с восклицательным знаком."
 }

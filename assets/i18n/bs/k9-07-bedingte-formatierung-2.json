@@ -49,7 +49,6 @@
  "✔ Die Ampel leuchtet richtig!": "✔ Semafor svijetli tačno!",
  "Stufe 2 · Text färben": "Nivo 2 · Bojenje teksta",
  "Alle fehlenden Hausaufgaben sollen rot werden: Zellwert ist · gleich · … → Schlecht.": "Sve domaće zadaće koje nedostaju trebaju postati crvene: Zellwert ist · gleich · … → Schlecht.",
- "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne sucht Calc nach einem Namen – und färbt nichts.": "Tekst u dijalogu stoji pod navodnicima: <code>\"fehlt\"</code>. Bez njih Calc traži ime – i ne boji ništa.",
  "Nur die Zellen mit „fehlt“ sollen rot sein. Bedingung: gleich.": "Samo ćelije sa „fehlt“ trebaju biti crvene. Uslov: gleich (jednako).",
  "✔ Alle 4 fehlenden Hausaufgaben leuchten rot.": "✔ Sve 4 zadaće koje nedostaju svijetle crveno.",
  "Stufe 3 · Grenze aus Zelle": "Nivo 3 · Granica iz ćelije",
@@ -95,5 +94,8 @@
  "drei Farben: rot, gelb, grün": "<strong>semafor</strong> – tri boje: crvena, žuta, zelena",
  "etwas neu machen, z. B. eine Bedingung": "<strong>napraviti, kreirati</strong> – napraviti nešto novo, npr. uslov",
  "ansehen, ändern und löschen": "<strong>upravljati</strong> – pogledati, mijenjati i brisati",
- "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Sada Calc boji po više pravila: zeleno, žuto i crveno kao semafor. Učiš zašto je redoslijed pravila važan. Bojiš i tekst i uzimaš granicu iz ćelije."
+ "Jetzt färbt Calc mit mehreren Regeln: grün, gelb und rot wie eine Ampel. Du lernst, warum die Reihenfolge der Regeln wichtig ist. Du färbst auch Text und nimmst eine Grenze aus einer Zelle.": "Sada Calc boji po više pravila: zeleno, žuto i crveno kao semafor. Učiš zašto je redoslijed pravila važan. Bojiš i tekst i uzimaš granicu iz ćelije.",
+ "Ohne %-Zeichen ist 20 für Calc 2000 %. Tippe die Grenzen so: 20% und 50%.": "Bez znaka % je 20 za Calc 2000 %. Ukucaj granice ovako: <code>20%</code> i <code>50%</code>.",
+ "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne Anführungszeichen erkennt Calc den Text nicht – und färbt nichts.": "U dijalogu tekst stoji u navodnicima: <code>\"fehlt\"</code>. Bez navodnika Calc ne prepoznaje tekst – i ništa ne boji.",
+ "Jetzt ist auch die Zeile fest: Jede Zeile schaut auf Zeile 2. Nur vor das B gehört ein $: $B2=\"nein\"": "Sada je i red fiksan: svaki red gleda na red 2. Samo ispred B ide <code>$</code>: <code>$B2=\"nein\"</code>"
 }

@@ -113,5 +113,6 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>jednako · nije jednako</strong> – gleich: <code>=</code> · ungleich (nije jednako): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>tačka-zarez</strong> – znak <code>;</code>. Odvaja tri dijela WENN-a.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>ispisati</strong> – prikazati. WENN ispisuje odgovor.",
- "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Sa <code>WENN</code> (IF) Calc postavlja pitanje. Odgovor je da ili ne. Zavisno od odgovora Calc pokazuje nešto drugo, na primjer „bestanden“ (položio) ili „nicht bestanden“ (pao). <code>WENN</code> učiš u malim koracima."
+ "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Sa <code>WENN</code> (IF) Calc postavlja pitanje. Odgovor je da ili ne. Zavisno od odgovora Calc pokazuje nešto drugo, na primjer „bestanden“ (položio) ili „nicht bestanden“ (pao). <code>WENN</code> učiš u malim koracima.",
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 pokazuje grešku: tekst uvijek stoji u navodnicima: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."
 }

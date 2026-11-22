@@ -48,7 +48,6 @@
  "2 · Prozentrechnung →": "2 · Відсотки →",
  "Klick auf D6 zeigt es: Die Formel benutzt B6, und B6 ist leer. Eine leere Zelle zählt als 0, und durch 0 kann man nicht teilen.": "Клацни на D6 – і побачиш: формула використовує B6, а B6 порожня. Порожня клітинка – це 0, а на 0 ділити не можна.",
  "Die Formel selbst ist richtig – es fehlt nur eine Zahl.": "Сама формула правильна – бракує лише числа.",
- "D6 zeigt #WERT!: In C6 steht „25 Stück“. Das ist Text. Tippe nur die Zahl.": "D6 показує #WERT!: у C6 стоїть „25 Stück“. Це текст. Пиши тільки число.",
  "D7 zeigt #NAME?: Zwischen B7 und C7 fehlt das Rechenzeichen. Schreib =B7*C7.": "D7 показує #NAME?: між B7 і C7 бракує знака дії. Пиши =B7*C7.",
  "D9 zeigt #NAME?: Die Funktion heißt SUMME, nicht SUMM.": "D9 показує #NAME?: функція називається SUMME, а не SUMM.",
  "D12 zeigt #DIV/0!: B11 ist leer. Wie viele Verkaufstage waren es? Steht oben im Text.": "D12 показує #DIV/0!: B11 порожня. Скільки днів продавали? Це написано в тексті вгорі.",
@@ -126,5 +125,18 @@
  "nicht breit. ### heißt: Die Spalte ist zu schmal.": "<strong>вузький</strong> – не широкий. <code>###</code> означає: стовпець занадто вузький.",
  "verstehen, was etwas bedeutet": "<strong>тлумачити</strong> – зрозуміти, що щось означає",
  "einen Fehler wieder richtig machen": "<strong>виправити</strong> – зробити помилку знову правильною",
- "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "У таблицях бувають помилки. Деякі помилки Calc показує, наприклад <code>#DIV/0!</code>. Інших Calc не показує: число виглядає правильним, але воно хибне. Тут ти вчишся знаходити й виправляти обидва види. Заодно повторюєш 8 клас."
+ "In Tabellen passieren Fehler. Manche Fehler zeigt Calc an, zum Beispiel #DIV/0!. Andere Fehler zeigt Calc nicht an: Die Zahl sieht richtig aus, ist aber falsch. Hier lernst du, beide Arten zu finden und zu reparieren. Dabei wiederholst du Klasse 8.": "У таблицях бувають помилки. Деякі помилки Calc показує, наприклад <code>#DIV/0!</code>. Інших Calc не показує: число виглядає правильним, але воно хибне. Тут ти вчишся знаходити й виправляти обидва види. Заодно повторюєш 8 клас.",
+ "D6 zeigt #WERT!: In C6 steht „{}“. Das ist Text. Tippe nur die Zahl.": "D6 показує #WERT!: у C6 стоїть «{}». Це текст. Введи тільки число.",
+ "Prüfe C6: Es wurden 25 Kakao verkauft. Tippe nur die Zahl 25.": "Перевір C6: продали 25 какао. Введи тільки число 25.",
+ "Prüfe D6: Dort soll =B6*C6 stehen.": "Перевір D6: там має стояти =B6*C6.",
+ "In D7 steht keine Formel. Lass Calc rechnen: =B7*C7.": "У D7 немає формули. Нехай Calc рахує: =B7*C7.",
+ "D7 zeigt {}. Gesucht ist Preis mal Anzahl: =B7*C7.": "D7 показує {}. Потрібно ціну помножити на кількість: =B7*C7.",
+ "D7 rechnet noch nicht richtig. Gesucht ist Preis mal Anzahl: =B7*C7.": "D7 ще рахує неправильно. Потрібно ціну помножити на кількість: =B7*C7.",
+ "D9 zeigt {}. Prüfe die Schreibweise: =SUMME(D5:D8).": "D9 показує {}. Перевір написання: =SUMME(D5:D8).",
+ "D9 zeigt eine Zahl, aber sie ist falsch: Der Bereich ist zu kurz oder zu lang. Das ist ein stiller Fehler! Nimm D5:D8.": "D9 показує число, але воно неправильне: діапазон закороткий або задовгий. Це <strong>тиха помилка</strong>! Візьми D5:D8.",
+ "D9: Zähl alle Einnahmen mit SUMME zusammen: =SUMME(D5:D8).": "D9: Додай усі виторги за допомогою SUMME: =SUMME(D5:D8).",
+ "D12 zeigt #WERT!: In B11 steht Text. Tippe nur die Zahl der Verkaufstage.": "D12 показує #WERT!: у B11 стоїть текст. Введи тільки кількість днів продажу.",
+ "Prüfe B11: Wie viele Verkaufstage waren es? Steht oben im Text.": "Перевір B11: скільки було днів продажу? Це написано в тексті вгорі.",
+ "D12 soll die Summe durch die Tage teilen: =D9/B11.": "D12 має поділити суму на кількість днів: =D9/B11.",
+ "Fast! Der Ersatz ist Text und steht darum in Anführungszeichen: \"keine Noten\".": "Майже! Заміна – це текст, тому вона стоїть у лапках: <code>\"keine Noten\"</code>."
 }

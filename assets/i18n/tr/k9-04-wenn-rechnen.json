@@ -59,7 +59,6 @@
  "WENN soll „gratis“ oder den Preis aus A5 zeigen. Welche Formel stimmt?": "WENN „gratis“ (bedava) veya A5'teki fiyatı göstermeli. Hangi formül doğru?",
  "Text in Anführungszeichen, Zellen ohne. \"A5\" wäre nur der Text A5.": "Metin tırnak içinde, hücreler tırnaksız. \"A5\" sadece A5 metni olurdu.",
  "Ab 50 € gibt es 10 % Rabatt, sonst zahlt man den vollen Betrag. Aus Baustein 2 weißt du: 10 % weniger heißt *(1-10%).": "50 €'dan itibaren <strong>%10 indirim</strong> var, değilse tam tutarı ödersin. 2. üniteden biliyorsun: %10 daha az <code>*(1-10%)</code> demektir.",
- "64 € ist mindestens 50 €. Dann-Teil: A2*(1-10%) = 57,60 €.": "64 € en az 50 €. Dann kısmı: <code>A2*(1-10%)</code> = 57,60 €.",
  "38,50 € ist unter 50 € – Sonst-Teil: einfach A2.": "38,50 € 50 €'nun altında – Sonst kısmı: sadece <code>A2</code>.",
  "🏆 Expedition geschafft! WENN und Prozentrechnung zusammen – das kommt in der Übungsdatei noch einmal.": "🏆 Keşif tamam! WENN ve yüzde birlikte – buna alıştırma dosyasında tekrar rastlayacaksın.",
  "Üben Zinsen bei der Bank": "<span class=\"badge ueben\">Üben</span> Bankada faiz",
@@ -92,5 +91,6 @@
  "in allen anderen Fällen": "<strong>yoksa, aksi halde</strong> – diğer bütün durumlarda",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>hesap</strong> – burada: hesaplanacak bir şey, örn. <code>A6+4,95</code>",
  "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>kargo, gönderim</strong> – bir paketi göndermek. Çoğu zaman para tutar.",
- "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> hesap da yapabilir. Örneğin: 18 yaşından küçük olan sinemada 8 € öder. Diğer herkes 10 € öder. Bu tür kurallar sık görülür, örneğin giriş, kargo ve indirimde."
+ "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> hesap da yapabilir. Örneğin: 18 yaşından küçük olan sinemada 8 € öder. Diğer herkes 10 € öder. Bu tür kurallar sık görülür, örneğin giriş, kargo ve indirimde.",
+ "Genau 50 € – „ab 50 €“ heißt: 50 € zählt schon mit, also >=. Dann-Teil: A2*(1-10%) = 45,00 €.": "Tam 50 € – „50 €'dan itibaren“ demek: 50 € de sayılır, yani <code>&gt;=</code>. Dann kısmı: <code>A2*(1-10%)</code> = 45,00 €."
 }

@@ -59,7 +59,6 @@
  "WENN soll „gratis“ oder den Preis aus A5 zeigen. Welche Formel stimmt?": "WENN має показати „gratis“ (безкоштовно) або ціну з A5. Яка формула правильна?",
  "Text in Anführungszeichen, Zellen ohne. \"A5\" wäre nur der Text A5.": "Текст у лапках, клітинки без. \"A5\" було б просто текстом A5.",
  "Ab 50 € gibt es 10 % Rabatt, sonst zahlt man den vollen Betrag. Aus Baustein 2 weißt du: 10 % weniger heißt *(1-10%).": "Від 50 € є <strong>знижка 10 %</strong>, інакше платиш повну суму. З модуля 2 ти знаєш: на 10 % менше – це <code>*(1-10%)</code>.",
- "64 € ist mindestens 50 €. Dann-Teil: A2*(1-10%) = 57,60 €.": "64 € – це щонайменше 50 €. Частина Dann: <code>A2*(1-10%)</code> = 57,60 €.",
  "38,50 € ist unter 50 € – Sonst-Teil: einfach A2.": "38,50 € менше 50 € – частина Sonst: просто <code>A2</code>.",
  "🏆 Expedition geschafft! WENN und Prozentrechnung zusammen – das kommt in der Übungsdatei noch einmal.": "🏆 Експедицію пройдено! WENN і відсотки разом – це ще зустрінеться у файлі з вправами.",
  "Üben Zinsen bei der Bank": "<span class=\"badge ueben\">Üben</span> Відсотки в банку",
@@ -92,5 +91,6 @@
  "in allen anderen Fällen": "<strong>інакше</strong> – у всіх інших випадках",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>обчислення</strong> – тут: те, що треба порахувати, наприклад <code>A6+4,95</code>",
  "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>доставка</strong> – надсилання посилки. Часто це коштує грошей.",
- "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> уміє й рахувати. Наприклад: хто молодший за 18, платить у кіно 8 €. Усі інші платять 10 €. Такі правила трапляються часто, наприклад для вхідних квитків, доставки й знижок."
+ "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> уміє й рахувати. Наприклад: хто молодший за 18, платить у кіно 8 €. Усі інші платять 10 €. Такі правила трапляються часто, наприклад для вхідних квитків, доставки й знижок.",
+ "Genau 50 € – „ab 50 €“ heißt: 50 € zählt schon mit, also >=. Dann-Teil: A2*(1-10%) = 45,00 €.": "Рівно 50 € – «від 50 €» означає: 50 € уже рахується, отже <code>&gt;=</code>. Частина Dann: <code>A2*(1-10%)</code> = 45,00 €."
 }

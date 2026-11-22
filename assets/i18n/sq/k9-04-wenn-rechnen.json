@@ -59,7 +59,6 @@
  "WENN soll „gratis“ oder den Preis aus A5 zeigen. Welche Formel stimmt?": "WENN duhet të tregojë „gratis” (falas) ose çmimin nga A5. Cila formulë është saktë?",
  "Text in Anführungszeichen, Zellen ohne. \"A5\" wäre nur der Text A5.": "Teksti në thonjëza, qelizat pa to. \"A5\" do të ishte thjesht teksti A5.",
  "Ab 50 € gibt es 10 % Rabatt, sonst zahlt man den vollen Betrag. Aus Baustein 2 weißt du: 10 % weniger heißt *(1-10%).": "Nga 50 € ka <strong>10 % zbritje</strong>, përndryshe paguan shumën e plotë. Nga njësia 2 e di: 10 % më pak do të thotë <code>*(1-10%)</code>.",
- "64 € ist mindestens 50 €. Dann-Teil: A2*(1-10%) = 57,60 €.": "64 € është të paktën 50 €. Pjesa Dann: <code>A2*(1-10%)</code> = 57,60 €.",
  "38,50 € ist unter 50 € – Sonst-Teil: einfach A2.": "38,50 € është nën 50 € – pjesa Sonst: thjesht <code>A2</code>.",
  "🏆 Expedition geschafft! WENN und Prozentrechnung zusammen – das kommt in der Übungsdatei noch einmal.": "🏆 Ekspedita përfundoi! WENN dhe përqindjet bashkë – do t'i hasësh përsëri në skedarin e ushtrimeve.",
  "Üben Zinsen bei der Bank": "<span class=\"badge ueben\">Üben</span> Interesi në bankë",
@@ -92,5 +91,6 @@
  "in allen anderen Fällen": "<strong>përndryshe</strong> – në të gjitha rastet e tjera",
  "hier: etwas zum Ausrechnen, z. B. A6+4,95": "<strong>llogari</strong> – këtu: diçka për të llogaritur, p.sh. <code>A6+4,95</code>",
  "das Schicken von einem Paket. Das kostet oft Geld.": "<strong>dërgesë</strong> – dërgimi i një pakoje. Shpesh kushton para.",
- "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> mund edhe të llogarisë. Për shembull: kush është nën 18 vjeç paguan në kinema 8 €. Të gjithë të tjerët paguajnë 10 €. Rregulla të tilla ka shpesh, për shembull për hyrjen, dërgesën dhe zbritjet."
+ "WENN kann auch rechnen. Zum Beispiel: Wer unter 18 ist, zahlt im Kino 8 €. Alle anderen zahlen 10 €. Solche Regeln gibt es oft, zum Beispiel bei Eintritt, Versand und Rabatt.": "<code>WENN</code> mund edhe të llogarisë. Për shembull: kush është nën 18 vjeç paguan në kinema 8 €. Të gjithë të tjerët paguajnë 10 €. Rregulla të tilla ka shpesh, për shembull për hyrjen, dërgesën dhe zbritjet.",
+ "Genau 50 € – „ab 50 €“ heißt: 50 € zählt schon mit, also >=. Dann-Teil: A2*(1-10%) = 45,00 €.": "Saktësisht 50 € – „nga 50 €“ do të thotë: 50 € numërohet tashmë, pra <code>&gt;=</code>. Pjesa Dann: <code>A2*(1-10%)</code> = 45,00 €."
 }

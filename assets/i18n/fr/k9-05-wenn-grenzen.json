@@ -33,7 +33,6 @@
  "Grenzwerte in eine eigene Zelle schreiben und mit $ festhalten.": "Écris les limites dans leur propre cellule et fixe-les avec <code>$</code>.",
  "★ Expedition: UND freiwillig": "<span class=\"step-no\">★</span> Expédition : UND (ET) <span class=\"badge expedition\">facultatif</span>",
  "UND(Prüfung1; Prüfung2) stimmt nur, wenn beide stimmen.ODER(…; …) reicht eine.": "<code>UND(Prüfung1; Prüfung2)</code> est vrai seulement si les <strong>deux</strong> sont vrais.<br/>Avec <code>ODER(…; …)</code> (OU), un seul suffit.",
- "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "C'est un jour de piscine s'il fait <strong>au moins 25 °C</strong> <strong>et</strong> qu'il ne pleut pas. Écris dans D5 une formule WENN avec UND et recopie-la vers le bas.",
  "← 4 · WENN 2": "← 4 · WENN 2 (SI 2)",
  "6 · Bedingte Formatierung 1 →": "6 · Bedingte Formatierung 1 (mise en forme conditionnelle) →",
  "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")": "=WENN(B{}>=$B$2;\"bestanden\";\"durchgefallen\")",
@@ -110,5 +109,8 @@
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C8.": "Pas encore tout en bas. Encore vides : {}. Tire de C5 jusqu'à C8.",
  "✔ Montag stimmt! Jetzt zieh am Ausfüllkästchen nach unten bis D7.": "✔ Lundi est juste ! Maintenant tire la <strong>Ausfüllkästchen</strong> (poignée de recopie) vers le bas jusqu'à D7.",
  "Noch nicht ganz unten. Zieh von D5 aus bis D7.": "Pas encore tout en bas. Tire de D5 jusqu'à D7.",
- "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Les règles changent. Aujourd’hui il faut 15 points, demain peut-être 16. Écris donc la limite dans sa propre cellule. Tu ne changes alors que cette cellule, et toutes les formules recalculent. À la fin, tu résous seul des exercices avec <code>WENN</code>, comme à l’interro."
+ "Regeln ändern sich. Heute braucht man 15 Punkte, morgen vielleicht 16. Schreib die Grenze deshalb in eine eigene Zelle. Dann änderst du nur diese eine Zelle, und alle Formeln rechnen neu. Am Ende löst du WENN-Aufgaben wie in der Probe allein.": "Les règles changent. Aujourd’hui il faut 15 points, demain peut-être 16. Écris donc la limite dans sa propre cellule. Tu ne changes alors que cette cellule, et toutes les formules recalculent. À la fin, tu résous seul des exercices avec <code>WENN</code>, comme à l’interro.",
+ "Freibad-Tag ist, wenn es mindestens 25 °C hat und nicht regnet. Dann steht in D „Freibad!“, sonst „daheim“. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.": "C'est un jour de piscine quand il fait <strong>au moins 25 °C</strong> <strong>et</strong> qu'il ne pleut pas. Alors D affiche « Freibad! » (piscine !), sinon « daheim » (à la maison). Écris dans D5 une formule WENN avec UND et recopie-la vers le bas.",
+ "B2 zeigt jetzt {}. Tipp die Grenze mit %-Zeichen ein, z. B. 30%.": "B2 affiche maintenant {}. Tape la limite avec le signe %, par ex. <code>30%</code>.",
+ "Fast! Schreib die Antwort genau wie vorgegeben: \"laden!\" mit Ausrufezeichen.": "Presque ! Écris la réponse exactement comme demandé : <code>\"laden!\"</code> avec le point d'exclamation."
 }

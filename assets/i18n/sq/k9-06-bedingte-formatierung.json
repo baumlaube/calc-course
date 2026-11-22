@@ -103,5 +103,7 @@
  "ein fertiges Aussehen mit Namen: Gut ist grün, Schlecht ist rot": "<strong>stil</strong> – një pamje e gatshme me emër: Gut (mirë) është e gjelbër, Schlecht (keq) është e kuqe",
  "von einer Zahl bis zu einer anderen. Beide Zahlen zählen mit.": "<strong>midis</strong> – nga një numër deri te një tjetër. Të dy numrat numërohen.",
  "größer als 30: >30 · kleiner als 30: <30. Die 30 zählt nicht mit.": "<strong>më e madhe se · më e vogël se</strong> – größer als 30: <code>&gt;30</code> · kleiner als 30: <code>&lt;30</code>. Vetë 30 nuk numërohet.",
- "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "Në një tabelë të gjatë është e vështirë të gjesh numrat e rëndësishëm. Calc mund t’i ngjyrosë vetë qelizat, për shembull të gjitha ditët mbi 30 °C me të kuqe. Nëse ndryshon një numër, ndryshon edhe ngjyra."
+ "In einer langen Tabelle findest du wichtige Zahlen schwer. Calc kann Zellen selbst färben, zum Beispiel alle Tage über 30 °C rot. Ändert sich eine Zahl, ändert sich auch die Farbe.": "Në një tabelë të gjatë është e vështirë të gjesh numrat e rëndësishëm. Calc mund t’i ngjyrosë vetë qelizat, për shembull të gjitha ditët mbi 30 °C me të kuqe. Nëse ndryshon një numër, ndryshon edhe ngjyra.",
+ "zwischen braucht zwei Zahlen, z. B. zwischen 120 und 160. Beide Grenzen zählen mit: 120 und 160 werden auch gefärbt.": "<strong>zwischen</strong> (ndërmjet) kërkon dy numra, p.sh. ndërmjet 120 dhe 160. Të dy kufijtë numërohen: edhe 120 e 160 ngjyrosen.",
+ "Die Bedingung stimmt, aber die Farbe nicht: Nimm die Vorlage Schlecht (rot).": "Kushti është i saktë, por ngjyra jo: merr stilin <strong>Schlecht</strong> (keq, e kuqe)."
 }
