@@ -22,11 +22,11 @@
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="stylesheet" href="../assets/kurs.css?v=9b7d190553">
+<link rel="stylesheet" href="../assets/kurs.css?v=2b5dc467bd">
 <script src="../assets/i18n.js?v=831187eae3" data-page="k8-06-diagramme" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=212bffdf00"></script>
 <script src="../assets/minicalc.js?v=6501b0841f" defer></script>
-<script src="../assets/wdh.js?v=efc5c8a580" defer></script>
+<script src="../assets/wdh.js?v=e5b4f9b446" defer></script>
 <script src="../assets/minichart.js?v=8eed7d4abd" defer></script>
 </head>
 <body>
@@ -312,22 +312,24 @@ document.addEventListener("DOMContentLoaded", () => {
   calc2.on((c, src) => {
     if (src === "reset") return;
     draw();
+    const text = ["B5", "B6", "B7", "B8", "B9"].find((x) => { const v = c.get(x); return v !== null && typeof v !== "number"; });
+    if (text) { feedback(fb2, `In ${text} steht Text. Das Diagramm kann nur Zahlen zeichnen. Tippe eine Zahl.`, "hint"); return; }
     if (type) feedback(fb2, "🎉 Das Diagramm hat sich sofort angepasst. So ist es in Calc auch: Tabelle ändern, Diagramm zieht mit.", "ok");
   });
 
   /* ---------- 5 · Quiz ---------- */
   quiz(document.getElementById("quiz"), [
-    { q: "Du misst 6 Wochen lang, wie groß deine Bohnenpflanze ist. Welches Diagramm passt?",
+    { q: "Du misst 6 Wochen lang, wie groß deine Pflanze ist. Welches Diagramm passt?",
       options: ["Kreis", "Linie", "gar keins"], right: 1,
       why: "Die Größe ändert sich über die Zeit. Das ist ein Verlauf, also eine Linie.",
-      miss: ["Ein Kreis zeigt Teile von einem Ganzen. Die Größen der Bohne ergeben kein Ganzes.", null, "Ein Diagramm zeigt hier auf einen Blick, wie schnell die Bohne wächst."] },
-    { q: "Welcher Anteil der Klasse hat ein Haustier und welcher nicht?",
+      miss: ["Ein Kreis zeigt Teile von einem Ganzen. Die Größen der Pflanze ergeben kein Ganzes.", null, "Ein Diagramm zeigt hier auf einen Blick, wie schnell die Pflanze wächst."] },
+    { q: "Welches Diagramm zeigt, wie viele in der Klasse ein Haustier haben und wie viele nicht?",
       options: ["Kreis", "Linie", "gar keins"], right: 0,
       why: "Ja und Nein ergeben zusammen die ganze Klasse. Anteile vom Ganzen zeigt der Kreis.",
       miss: [null, "Eine Linie zeigt einen Verlauf über die Zeit. Hier gibt es keine Zeit.", "Mit einem Kreis sieht man sofort, ob es mehr oder weniger als die Hälfte ist."] },
     { q: "Wie startest du in Calc ein Diagramm?",
       options: ["Format → Diagramm", "Ansicht → Diagramm", "Einfügen → Diagramm …"], right: 2,
-      why: "Vorher die Tabelle mit Überschriften markieren, dann Einfügen → Diagramm …",
+      why: "Ein Diagramm ist etwas Neues. Neues holst du über Einfügen → Diagramm …",
       miss: ["Ein Diagramm ist etwas Neues. Neues holst du über Einfügen.", "Ein Diagramm ist etwas Neues. Neues holst du über Einfügen.", null] },
     { q: "Was markierst du, bevor du ein Diagramm erstellst?",
       options: ["Die Tabelle mit den Überschriften", "Nur die Zahlen", "Gar nichts"], right: 0,

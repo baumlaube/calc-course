@@ -22,11 +22,11 @@
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="stylesheet" href="../assets/kurs.css?v=9b7d190553">
+<link rel="stylesheet" href="../assets/kurs.css?v=2b5dc467bd">
 <script src="../assets/i18n.js?v=831187eae3" data-page="k8-02-erste-formeln" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=212bffdf00"></script>
 <script src="../assets/minicalc.js?v=6501b0841f" defer></script>
-<script src="../assets/wdh.js?v=efc5c8a580" defer></script>
+<script src="../assets/wdh.js?v=e5b4f9b446" defer></script>
 </head>
 <body>
 
@@ -294,13 +294,15 @@ document.addEventListener("DOMContentLoaded", () => {
              A8: "Summe", A9: "Budget", D9: 30, A10: "Rest" },
     styles: { A1: "label", A4: "head", B4: "head", C4: "head", D4: "head", A8: "label", A9: "label", D9: "fix", A10: "label" },
     formats: { C: "eur", D: "eur" },
-    editable: ["D5", "D8", "D10", "C5"], select: "D5",
-    actions: [{ label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { stage = 0; c.reset(); fb2.className = "fb"; } }],
+    editable: ["D5", "D8", "D10"], select: "D5",   // C5 wird erst für den Bonus gelb
+    actions: [{ label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { stage = 0; c.editable.delete("C5"); c.tds.C5.classList.remove("input"); c.reset(); fb2.className = "fb"; } }],
   });
   const check = (c, cell, want, hintWrong) => {
     const raw = c.getRaw(cell).replace(/\s/g, "");
     if (!raw) return { ok: false, msg: null };
-    if (!raw.startsWith("=")) return { ok: false, msg: `In ${cell} steht nur eine getippte Zahl. Was passiert, wenn sich ein Preis ändert? Beginne mit <code>=</code>.` };
+    if (!raw.startsWith("=")) return { ok: false, msg: typeof c.get(cell) === "string"
+      ? `In ${cell} steht Text, keine Formel. Eine Formel beginnt mit <code>=</code>.`
+      : `In ${cell} steht nur eine getippte Zahl. Was passiert, wenn sich ein Preis ändert? Beginne mit <code>=</code>.` };
     const v = c.get(cell);
     if (v instanceof MiniCalc.CalcError) return { ok: false, msg: `In ${cell} steht der Fehler <strong>${v.code}</strong>. Prüfe die Schreibweise.` };
     if (onlyNumbers(raw)) return { ok: false, msg: `In deiner Formel in ${cell} steht eine <strong>Zahl</strong>. Klick lieber die Zellen an, dann rechnet Calc bei Änderungen neu.` };
@@ -321,6 +323,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const d10 = check(c, "D10", c.get("D9") - sum, "Der Rest stimmt noch nicht: Budget (D9) − Summe (D8).");
     if (!d10.ok) { feedback(fb2, d10.msg || "✔ Summe stimmt! Jetzt D10: Was bleibt vom Budget übrig?", d10.msg ? "hint" : "ok"); stage = 2; return; }
     stage = 3;
+    c.editable.add("C5"); c.tds.C5.classList.add("input");
     feedback(fb2, "✔ Alles richtig! <strong>Bonus:</strong> Die Hefte werden teurer. Ändere den Preis in C5 auf 2. Was passiert?", "ok");
   });
 

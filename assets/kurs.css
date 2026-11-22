@@ -300,7 +300,7 @@ footer .legal a { color: inherit; }
 .mc-fillbox { display: none; border: 2px dashed var(--navy); }
 .mc-handle { position: absolute; z-index: 4; box-sizing: border-box; width: 9px; height: 9px; margin: -9px 0 0 -9px;
   background: var(--navy); border: 1px solid var(--surface); cursor: crosshair; touch-action: none; }
-.mc-handle::before { content: ""; position: absolute; left: -3px; top: -3px; right: 0; bottom: 0; }
+.mc-handle::before { content: ""; position: absolute; left: -8px; top: -8px; right: -5px; bottom: -5px; }   /* größere Greiffläche, das Kästchen bleibt klein wie in Calc */
 .mc-touch .mc-handle { width: 16px; height: 16px; margin: -16px 0 0 -16px; border-radius: 3px; border-width: 2px; }
 .mc-touch .mc-handle::before { left: -22px; top: -22px; }
 .mc-filling, .mc-filling * { cursor: crosshair !important; }

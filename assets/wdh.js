@@ -28,6 +28,10 @@
   }
 
   /* ---------- fertige Prüfungen für typische Aufgaben ---------- */
+  /** Fehlerwert erklären. Err:522 heißt: Die Formel zählt ihre eigene Zelle mit. */
+  const errMsg = (v, rest) => v.code === "Err:522"
+    ? "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber."
+    : `Calc zeigt ${v.code}. ` + rest;
   const NEED_EQ = "Eine Formel beginnt <strong>immer</strong> mit <code>=</code>.";
   const NO_REF = "Tippe keine Zahlen in die Formel. Nimm die Zellen, dann rechnet Calc neu.";
   const checks = {
@@ -37,7 +41,7 @@
       if (/\dX\d|[A-Z]\dX/.test(raw)) return "Mal ist in Calc das Sternchen <code>*</code>, nicht x.";
       for (const k of Object.keys(o.bad || {})) if (raw.includes(k)) return o.bad[k];
       if (!o.refs.every((r) => raw.replace(/\$/g, "").includes(r))) return NO_REF;
-      if (v instanceof MiniCalc.CalcError) return `Calc zeigt ${v.code}. Prüfe deine Formel.`;
+      if (v instanceof MiniCalc.CalcError) return errMsg(v, "Prüfe deine Formel.");
       return near(v, o.value) || "Das Ergebnis stimmt noch nicht. Welches Rechenzeichen brauchst du?";
     },
     /** Funktion über einen Bereich: o = { fn:"SUMME", en:"SUM", range:"B2:B5", value, wrong:{MAX:"…"} } */
@@ -50,7 +54,7 @@
           : "Hier brauchst du eine Funktion mit einem Bereich in Klammern.";
       }
       if (raw.includes(";") && !raw.includes(":")) return "Mit <code>;</code> nimmt Calc nur die zwei Zellen. „bis“ ist der Doppelpunkt.";
-      if (v instanceof MiniCalc.CalcError) return `Calc zeigt ${v.code}. Stimmt der Name? Ist die Klammer zu?`;
+      if (v instanceof MiniCalc.CalcError) return errMsg(v, "Stimmt der Name? Ist die Klammer zu?");
       return near(v, o.value) || "Das Ergebnis stimmt noch nicht. Hast du den ganzen Bereich genommen?";
     },
     /** Formel zum Ausfüllen mit einer festen Zelle: o = { fix:"B1", move:"B4", value } */
@@ -58,7 +62,7 @@
       if (!raw.startsWith("=")) return NEED_EQ;
       const plain = raw.replace(/\$/g, "");
       if (!plain.includes(o.fix) || !plain.includes(o.move)) return NO_REF;
-      if (v instanceof MiniCalc.CalcError) return `Calc zeigt ${v.code}. Prüfe deine Formel.`;
+      if (v instanceof MiniCalc.CalcError) return errMsg(v, "Prüfe deine Formel.");
       if (!near(v, o.value)) return "Das Ergebnis stimmt noch nicht. Welches Rechenzeichen brauchst du?";
       const m = o.move, f = o.fix;
       if (raw.includes(m[0] + "$" + m.slice(1))) return `${m} soll beim Ziehen mitwandern. Nur ${f} bekommt <code>$</code>.`;

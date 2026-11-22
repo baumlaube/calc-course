@@ -22,11 +22,11 @@
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="stylesheet" href="../assets/kurs.css?v=9b7d190553">
+<link rel="stylesheet" href="../assets/kurs.css?v=2b5dc467bd">
 <script src="../assets/i18n.js?v=831187eae3" data-page="k8-05-absolute-bezuege" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=212bffdf00"></script>
 <script src="../assets/minicalc.js?v=6501b0841f" defer></script>
-<script src="../assets/wdh.js?v=efc5c8a580" defer></script>
+<script src="../assets/wdh.js?v=e5b4f9b446" defer></script>
 </head>
 <body>
 
@@ -395,7 +395,7 @@ document.addEventListener("DOMContentLoaded", () => {
   quiz(document.getElementById("quiz"), [
     { q: "Der Preis für ein Kinoticket steht in <code>D2</code>. Welche Formel in E5 kannst du für alle Zeilen nach unten ziehen?",
       options: ["<code>=C5*D2</code>", "<code>=C5*$D$2</code>", "<code>=$C$5*$D$2</code>"], right: 1,
-      why: "Der Ticketpreis steht nur einmal in D2, also braucht er den Anker. C5 muss aber mitwandern, sonst rechnet jede Zeile mit der Anzahl aus Zeile 5.",
+      why: "Der Preis steht nur einmal in D2. Darum bekommt D2 den Anker, C5 wandert mit.",
       miss: ["Ohne $ rutscht D2 beim Ziehen mit: D3, D4 … Dort steht kein Preis.", null, "Jetzt hältst du zu viel fest."] },
     { q: "Die Formel <code>=A7*$B$1</code> wird eine Zeile nach unten gezogen. Was entsteht?",
       options: ["<code>=A8*$B$1</code>", "<code>=A8*$B$2</code>", "<code>=A7*$B$1</code>"], right: 0,
@@ -407,7 +407,7 @@ document.addEventListener("DOMContentLoaded", () => {
       miss: ["C2 rutscht beim Ziehen zu C3, C4 … Der eine Preis braucht ein $.", "Ein $ brauchst du nur für eine feste Zelle.", null] },
     { q: "Mit welcher Tastenkombination setzt LibreOffice Calc die $-Zeichen?",
       options: ["<kbd>F4</kbd>", "<kbd>Umschalt</kbd> + <kbd>F4</kbd>", "<kbd>Strg</kbd> + <kbd>$</kbd>"], right: 1,
-      why: "In LibreOffice Calc ist es Umschalt+F4. (F4 allein ist der Trick in Excel.)",
+      why: "In LibreOffice Calc ist es Umschalt+F4.",
       miss: ["Fast! Es fehlt eine Taste.", null, "Diese Kombination gibt es nicht."] },
   ]);
 

@@ -22,11 +22,11 @@
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="stylesheet" href="../assets/kurs.css?v=9b7d190553">
+<link rel="stylesheet" href="../assets/kurs.css?v=2b5dc467bd">
 <script src="../assets/i18n.js?v=831187eae3" data-page="k8-03-funktionen" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=212bffdf00"></script>
 <script src="../assets/minicalc.js?v=6501b0841f" defer></script>
-<script src="../assets/wdh.js?v=efc5c8a580" defer></script>
+<script src="../assets/wdh.js?v=e5b4f9b446" defer></script>
 </head>
 <body>
 
@@ -91,6 +91,7 @@
   <section class="card" id="problem">
     <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
     <div id="calc1"></div>
+    <p class="note">Der Punkt in 6.200 trennt nur die Tausender. So liest man große Zahlen leichter. Tippen musst du ihn nicht.</p>
     <p class="lead">💡 <strong>Du kennst das schon:</strong> <code>=B5+B6+B7+B8+B9</code> zählt fünf Tage zusammen. Aber was ist bei 365 Tagen? Dafür gibt es <strong>Funktionen</strong>.<br>In B10 steht: <code>=SUMME(B5:B9)</code></p>
     <p><strong>Überleg:</strong> Was bedeutet <code>B5:B9</code>?</p>
     <div class="choices" id="predict">
@@ -287,7 +288,7 @@ document.addEventListener("DOMContentLoaded", () => {
     cols: 2, rows: 13,
     cells: Object.assign({ A10: "ganze Woche", A11: "Durchschnitt", A12: "wenigste", A13: "meiste" }, woche),
     styles: Object.assign({ A10: "label", A11: "label", A12: "label", A13: "label" }, wocheStyles),
-    editable: ["B10", "B11", "B12", "B13"], select: "B10",
+    editable: ["B10", "B11", "B12", "B13"], select: "B10", decimal: "comma",
     actions: [{ label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { done = false; c.editable.delete("B7"); c.tds.B7.classList.remove("input"); c.reset(); fb2.className = "fb"; } }],
   });
   const tasks = [
@@ -300,13 +301,19 @@ document.addEventListener("DOMContentLoaded", () => {
     if (src === "reset") return;
     const vals = ["B5", "B6", "B7", "B8", "B9"].map((a) => c.get(a));
     if (done && c.sel === "B7") {
+      if (typeof c.get("B7") !== "number") { feedback(fb2, "In B7 steht jetzt Text. Tippe nur die Zahl, zum Beispiel <code>9000</code>.", "hint"); return; }
       feedback(fb2, `🎉 Alle vier Ergebnisse haben sich von selbst angepasst! Durchschnitt jetzt: <strong>${nf(c.get("B11"))}</strong> Schritte.`, "ok");
       return;
     }
     for (const t of tasks) {
       const raw = c.getRaw(t.cell).replace(/\s/g, "").toUpperCase();
       if (!raw) { feedback(fb2, `Weiter mit <strong>${t.cell}</strong>: Berechne ${T(t.what)} mit <code>=${t.name}(</code>…<code>)</code>.`, "info"); return; }
-      if (!raw.startsWith("=")) { feedback(fb2, `In ${t.cell} steht eine getippte Zahl. Lass Calc rechnen: <code>=${t.name}(B5:B9)</code>`, "hint"); return; }
+      if (!raw.startsWith("=")) {
+        feedback(fb2, typeof c.get(t.cell) === "string"
+          ? `In ${t.cell} steht Text, keine Formel. Eine Formel beginnt mit <code>=</code>: <code>=${t.name}(B5:B9)</code>`
+          : `In ${t.cell} steht eine getippte Zahl. Lass Calc rechnen: <code>=${t.name}(B5:B9)</code>`, "hint");
+        return;
+      }
       if (/^=B5\+B6\+B7\+B8\+B9$/.test(raw)) { feedback(fb2, `Das stimmt, aber es geht kürzer: <code>=SUMME(B5:B9)</code>. Stell dir 365 Tage vor!`, "hint"); return; }
       if (/;/.test(raw) && !/:/.test(raw)) { feedback(fb2, `Mit <code>;</code> nimmt Calc nur die einzelnen Zellen, also nur B5 und B9. Für „bis“ brauchst du den Doppelpunkt: <code>B5:B9</code>.`, "hint"); return; }
       if (!t.fn.test(raw)) { feedback(fb2, `Für ${T(t.what)} in ${t.cell} brauchst du die Funktion <strong>${t.name}</strong>.`, "hint"); return; }
@@ -325,9 +332,9 @@ document.addEventListener("DOMContentLoaded", () => {
       options: ["B5 bis B9", "B5 und B9", "B5 geteilt durch B9"], right: 0,
       why: "Der Doppelpunkt heißt „bis“: B5, B6, B7, B8 und B9.",
       miss: [null, "Nur B5 und B9 wäre <code>B5;B9</code> mit Semikolon.", "In Mathe heißt <code>:</code> geteilt. In Calc heißt er „bis“. Geteilt ist <code>/</code>."] },
-    { q: "Welche Funktion findet die <strong>Bestweite</strong> beim Weitsprung?",
+    { q: "Welche Funktion findet den <strong>weitesten Sprung</strong> beim Weitsprung?",
       options: ["MIN", "SUMME", "MAX"], right: 2,
-      why: "Die Bestweite ist der größte Wert, also MAX.",
+      why: "Der weiteste Sprung ist der größte Wert, also MAX.",
       miss: ["MIN findet den kleinsten Wert. Beim Laufen wäre das die Bestzeit, beim Springen nicht.", "SUMME zählt alle Sprünge zusammen. Gesucht ist nur der weiteste.", null] },
     { q: "In B5 bis B9 stehen 1, 2, 3, 4 und 10. Was ergibt <code>=MITTELWERT(B5:B9)</code>?",
       options: ["3", "4", "5", "20"], right: 1,
@@ -407,7 +414,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!near(v, want[a])) { feedback(fbSigma, T(`${a}: Prüf den Bereich. Alle sechs Monate, ohne Überschrift.`), "hint"); return; }
       ok++;
     }
-    feedback(fbSigma, ok === 2 ? T("🏆 Beide Fallen entschärft! Merke: Σ ist schnell, aber <strong>prüf immer den Rahmen</strong>.")
+    feedback(fbSigma, ok === 2 ? T("🏆 Beide Fallen entschärft! Falle 1: Σ nimmt die Jahreszahl aus der Überschrift mit. Falle 2: Bei einer leeren Zelle hört Σ zu früh auf. Merke: Σ ist schnell, aber <strong>prüf immer den Rahmen</strong>.")
       : T(`${ok} von 2 Summen richtig.`), ok === 2 ? "ok" : "info");
   });
   feedback(fbSigma, T("Klick B8 an und dann auf „Σ Summe“."), "info");
