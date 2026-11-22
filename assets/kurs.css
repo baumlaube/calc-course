@@ -334,7 +334,7 @@ html:not(.mc-touch) .mc-touch-only { display: none !important; }
 
 /* ===================== Sprachhilfe (i18n.js) ===================== */
 .lang-menu { position: relative; }
-.lang-menu ul { position: absolute; right: 0; top: calc(100% + 6px); z-index: 20; list-style: none; margin: 0; padding: 6px;
+.lang-menu ul { position: absolute; right: 0; top: calc(100% + 6px); z-index: 100; list-style: none; margin: 0; padding: 6px;
   background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); min-width: 170px; }
 .lang-menu ul a { display: block; padding: 6px 10px; border-radius: 6px; color: var(--text); text-decoration: none; font-weight: 400; }
 .lang-menu ul a:hover, .lang-menu ul a[aria-current] { background: var(--surface-2); }
