@@ -103,9 +103,7 @@ kbd {
 .card > h2 { margin: 0 0 6px; font-size: 24px; color: var(--navy); display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 .step-no { display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; background: var(--navy); color: var(--surface); font-size: 18px; flex: none; }
 .lead { color: var(--muted); margin-top: 0; }
-.goals { margin: 0; padding-left: 0; list-style: none; }
-.goals li { padding: 6px 0 6px 30px; position: relative; }
-.goals li::before { content: "🎯"; position: absolute; left: 0; }
+.erklaerung { margin: 0; max-width: 68ch; font-size: 1.08em; line-height: 1.6; }
 .card.expedition { border: 2px solid var(--expedition); }
 .card.expedition > h2 { color: var(--expedition); }
 .card.expedition .step-no { background: var(--expedition); }
@@ -342,8 +340,6 @@ html:not(.mc-touch) .mc-touch-only { display: none !important; }
 /* Arabisch: Seite von rechts nach links – Tabellen, Formeln und Diagramme bleiben links nach rechts wie in Calc */
 [dir="rtl"] .mc, [dir="rtl"] .ui, [dir="rtl"] .chart-box, [dir="rtl"] code, [dir="rtl"] kbd,
 [dir="rtl"] .compare code, [dir="rtl"] .slider input { direction: ltr; unicode-bidi: isolate; }
-[dir="rtl"] .goals li { padding: 6px 30px 6px 0; }
-[dir="rtl"] .goals li::before { left: auto; right: 0; }
 [dir="rtl"] .merke ul { padding: 0 20px 0 0; }
 [dir="rtl"] .lang-menu ul { right: auto; left: 0; }
 [dir="rtl"] .choice { text-align: right; }
