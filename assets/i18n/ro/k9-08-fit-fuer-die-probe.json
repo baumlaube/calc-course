@@ -91,5 +91,8 @@
  "ein Test in der Schule mit Note": "<strong>lucrare de control</strong> – un test la școală cu notă",
  "ein Test nur zum Üben, ohne Note": "<strong>lucrare de probă</strong> – un test numai pentru exercițiu, fără notă",
  "Für jede richtige Antwort gibt es einen Punkt.": "<strong>punct</strong> – Pentru fiecare răspuns corect primești un punct.",
- "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>fițuică, foaie de ajutor</strong> – o foaie cu cele mai importante lucruri de învățat"
+ "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>fițuică, foaie de ajutor</strong> – o foaie cu cele mai importante lucruri de învățat",
+ "rot": "roșu",
+ "gelb": "galben",
+ "Nein": "Nein (nu)"
 }

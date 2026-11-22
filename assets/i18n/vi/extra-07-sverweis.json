@@ -56,5 +56,8 @@
  "Ohne $ rutscht die Liste beim Ausfüllen nach unten – oben fehlen dann Zeilen.": "Không có $ thì khi điền, danh sách trượt xuống dưới – khi đó thiếu các hàng ở trên.",
  "Was heißt die 0 am Ende?": "Số 0 ở cuối có nghĩa là gì?",
  "Ab Zeile 0 suchen": "Tìm từ hàng 0",
- "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Không có 0 thì SVERWEIS tìm gần đúng – tiện cho thang điểm."
+ "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Không có 0 thì SVERWEIS tìm gần đúng – tiện cho thang điểm.",
+ "Irgendwo": "Ở đâu cũng được",
+ "Null zurückgeben": "Trả về số 0",
+ "Das = fehlt": "Thiếu dấu ="
 }

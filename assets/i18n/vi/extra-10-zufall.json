@@ -47,5 +47,12 @@
  "Die Zufallszahl ist in etwa der Hälfte der Fälle unter 0,5.": "Số ngẫu nhiên nằm dưới 0,5 trong khoảng một nửa số lần.",
  "Du würfelst 600-mal. Wie oft kommt etwa die 6?": "Bạn tung xúc xắc 600 lần. Số 6 ra khoảng bao nhiêu lần?",
  "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 của 600 là 100 – nhưng sự ngẫu nhiên lúc nào cũng dao động một chút.",
- "Gewinn?": "Gewinn? (trúng thưởng?)"
+ "Gewinn?": "Gewinn? (trúng thưởng?)",
+ "Speichern": "Lưu",
+ "Drucken": "In",
+ "Immer Kopf": "Luôn là Kopf (mặt hình)",
+ "Ungefähr 100-mal": "Khoảng 100 lần",
+ "Genau 100-mal": "Đúng 100 lần",
+ "60-mal": "60 lần",
+ "Eine Zahl": "Một con số"
 }

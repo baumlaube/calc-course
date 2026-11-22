@@ -134,5 +134,6 @@
  "der Name einer Zelle: erst Buchstabe, dann Zahl, z. B. C4": "<strong>adres</strong> – bir hücrenin adı: önce harf, sonra sayı, örn. <code>C4</code>",
  "etwas in eine Zelle tippen und Enter drücken": "<strong>girmek</strong> – bir hücreye bir şey yazmak ve Enter'a basmak",
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>biçimlendirmek</strong> – görünüşü değiştirmek, örn. € veya renk. Sayı aynı kalır.",
- "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>ondalık basamak</strong> – virgülden sonraki bir rakam. 1,49'da iki tane var."
+ "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>ondalık basamak</strong> – virgülden sonraki bir rakam. 1,49'da iki tane var.",
+ "Leertaste": "Leertaste (boşluk tuşu)"
 }

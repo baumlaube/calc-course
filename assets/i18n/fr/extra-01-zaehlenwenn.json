@@ -54,5 +54,7 @@
  "Alle Beträge in C": "Tous les montants de C",
  "Nur die Beträge, bei denen in B „Essen“ steht": "Seulement les montants pour lesquels B contient „Essen“ (nourriture)",
  "Wie oft „Essen“ vorkommt": "Combien de fois „Essen“ apparaît",
- "Gesucht wird in B, addiert wird aus C.": "Elle cherche dans B et additionne dans C."
+ "Gesucht wird in B, addiert wird aus C.": "Elle cherche dans B et additionne dans C.",
+ "Anführungszeichen um D5": "Des guillemets autour de D5",
+ "Ein $ bei D5": "Un $ à D5"
 }

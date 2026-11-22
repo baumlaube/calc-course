@@ -47,5 +47,12 @@
  "Etwa in der Hälfte der Fälle Kopf": "Kopf w mniej więcej połowie przypadków",
  "Die Zufallszahl ist in etwa der Hälfte der Fälle unter 0,5.": "Liczba losowa jest poniżej 0,5 w mniej więcej połowie przypadków.",
  "Du würfelst 600-mal. Wie oft kommt etwa die 6?": "Rzucasz 600 razy. Mniej więcej ile razy wypada 6?",
- "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 z 600 to 100 – ale los zawsze trochę się waha."
+ "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 z 600 to 100 – ale los zawsze trochę się waha.",
+ "Speichern": "Zapisuje",
+ "Drucken": "Drukuje",
+ "Immer Kopf": "Zawsze Kopf (orzeł)",
+ "Ungefähr 100-mal": "Około 100 razy",
+ "Genau 100-mal": "Dokładnie 100 razy",
+ "60-mal": "60 razy",
+ "Eine Zahl": "Liczba"
 }

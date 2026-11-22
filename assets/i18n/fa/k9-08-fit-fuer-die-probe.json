@@ -91,5 +91,8 @@
  "ein Test in der Schule mit Note": "<strong>امتحان کلاسی</strong> – یک آزمون در مدرسه با نمره",
  "ein Test nur zum Üben, ohne Note": "<strong>امتحان تمرینی</strong> – یک آزمون فقط برای تمرین، بدون نمره",
  "Für jede richtige Antwort gibt es einen Punkt.": "<strong>امتیاز</strong> – برای هر جواب درست یک امتیاز هست.",
- "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>برگهٔ خلاصه</strong> – برگه‌ای با مهم‌ترین چیزها برای یاد گرفتن"
+ "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>برگهٔ خلاصه</strong> – برگه‌ای با مهم‌ترین چیزها برای یاد گرفتن",
+ "rot": "قرمز",
+ "gelb": "زرد",
+ "Nein": "Nein (نه)"
 }

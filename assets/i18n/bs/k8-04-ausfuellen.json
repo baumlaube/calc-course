@@ -141,5 +141,8 @@
  "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 pokazuje 6,00 €. Sada popuni: povuci mali kvadratić dolje desno na D5 nadolje do D9.",
  "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Malo predaleko: sada i u D10 stoji formula. Ali tu treba doći zbir. Klikni D10 i upiši tu <code>=SUMME(D5:D9)</code>.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Još nije skroz dolje. Još su prazne: {}. Povuci od D5 do D9.",
- "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Razmisli:</strong> Koja formula onda stoji u <strong>D6</strong> (pića)?"
+ "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Razmisli:</strong> Koja formula onda stoji u <strong>D6</strong> (pića)?",
+ "Fehler": "Greška",
+ "Montag": "Montag (ponedjeljak)",
+ "Donnerstag": "Donnerstag (četvrtak)"
 }

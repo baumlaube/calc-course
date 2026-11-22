@@ -56,5 +56,8 @@
  "Ohne $ rutscht die Liste beim Ausfüllen nach unten – oben fehlen dann Zeilen.": "Без $ список при заполнении сдвигается вниз – тогда не хватает строк вверху.",
  "Was heißt die 0 am Ende?": "Что означает 0 в конце?",
  "Ab Zeile 0 suchen": "Искать со строки 0",
- "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Без 0 SVERWEIS ищет приблизительно – это полезно для шкалы оценок."
+ "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Без 0 SVERWEIS ищет приблизительно – это полезно для шкалы оценок.",
+ "Irgendwo": "Где угодно",
+ "Null zurückgeben": "Вернуть ноль",
+ "Das = fehlt": "Не хватает ="
 }

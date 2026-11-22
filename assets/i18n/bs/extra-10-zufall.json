@@ -47,5 +47,12 @@
  "Etwa in der Hälfte der Fälle Kopf": "Otprilike u polovini slučajeva Kopf",
  "Die Zufallszahl ist in etwa der Hälfte der Fälle unter 0,5.": "Slučajni broj je otprilike u polovini slučajeva ispod 0,5.",
  "Du würfelst 600-mal. Wie oft kommt etwa die 6?": "Baciš kocku 600 puta. Koliko puta otprilike padne 6?",
- "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 od 600 je 100 – ali slučajnost uvijek malo varira."
+ "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 od 600 je 100 – ali slučajnost uvijek malo varira.",
+ "Speichern": "Sprema",
+ "Drucken": "Štampa",
+ "Immer Kopf": "Uvijek Kopf (glava)",
+ "Ungefähr 100-mal": "Otprilike 100 puta",
+ "Genau 100-mal": "Tačno 100 puta",
+ "60-mal": "60 puta",
+ "Eine Zahl": "Broj"
 }

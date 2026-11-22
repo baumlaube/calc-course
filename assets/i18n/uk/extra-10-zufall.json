@@ -47,5 +47,12 @@
  "Etwa in der Hälfte der Fälle Kopf": "Kopf приблизно в половині випадків",
  "Die Zufallszahl ist in etwa der Hälfte der Fälle unter 0,5.": "Випадкове число менше 0,5 приблизно в половині випадків.",
  "Du würfelst 600-mal. Wie oft kommt etwa die 6?": "Ти кидаєш 600 разів. Приблизно скільки разів випаде 6?",
- "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 від 600 – це 100, але випадковість завжди трохи коливається."
+ "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 від 600 – це 100, але випадковість завжди трохи коливається.",
+ "Speichern": "Зберегти",
+ "Drucken": "Друкувати",
+ "Immer Kopf": "Завжди Kopf (орел)",
+ "Ungefähr 100-mal": "Приблизно 100 разів",
+ "Genau 100-mal": "Рівно 100 разів",
+ "60-mal": "60 разів",
+ "Eine Zahl": "Число"
 }

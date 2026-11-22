@@ -47,5 +47,12 @@
  "Etwa in der Hälfte der Fälle Kopf": "Kopf in about half of the cases",
  "Die Zufallszahl ist in etwa der Hälfte der Fälle unter 0,5.": "The random number is below 0.5 in about half of the cases.",
  "Du würfelst 600-mal. Wie oft kommt etwa die 6?": "You roll 600 times. About how often does the 6 come up?",
- "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 of 600 is 100 – but chance always varies a bit."
+ "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 of 600 is 100 – but chance always varies a bit.",
+ "Speichern": "Save",
+ "Drucken": "Print",
+ "Immer Kopf": "Always Kopf (heads)",
+ "Ungefähr 100-mal": "About 100 times",
+ "Genau 100-mal": "Exactly 100 times",
+ "60-mal": "60 times",
+ "Eine Zahl": "A number"
 }

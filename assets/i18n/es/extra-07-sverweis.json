@@ -56,5 +56,8 @@
  "Ohne $ rutscht die Liste beim Ausfüllen nach unten – oben fehlen dann Zeilen.": "Sin $, la lista se desliza hacia abajo al rellenar y faltan filas arriba.",
  "Was heißt die 0 am Ende?": "¿Qué significa el 0 del final?",
  "Ab Zeile 0 suchen": "Buscar desde la fila 0",
- "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Sin 0, SVERWEIS busca de forma aproximada: útil para tablas de notas."
+ "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Sin 0, SVERWEIS busca de forma aproximada: útil para tablas de notas.",
+ "Irgendwo": "En cualquier lugar",
+ "Null zurückgeben": "Devolver cero",
+ "Das = fehlt": "Falta el ="
 }

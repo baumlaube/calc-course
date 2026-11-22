@@ -91,5 +91,8 @@
  "ein Test in der Schule mit Note": "<strong>examen</strong> – una prueba en el colegio con nota",
  "ein Test nur zum Üben, ohne Note": "<strong>examen de práctica</strong> – una prueba solo para practicar, sin nota",
  "Für jede richtige Antwort gibt es einen Punkt.": "<strong>punto</strong> – Por cada respuesta correcta hay un punto.",
- "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>chuleta</strong> – una hoja con lo más importante para estudiar"
+ "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>chuleta</strong> – una hoja con lo más importante para estudiar",
+ "rot": "rojo",
+ "gelb": "amarillo",
+ "Nein": "Nein (no)"
 }

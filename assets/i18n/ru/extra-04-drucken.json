@@ -61,5 +61,12 @@
  "Der Druckbereich legt fest, was gedruckt wird – ohne etwas zu löschen.": "Диапазон печати определяет, что печатается, – ничего не удаляя.",
  "Spalten": "Столбцы",
  "Seite": "Страница",
- "von": "из"
+ "von": "из",
+ "Ansicht → Zoom": "Ansicht → Zoom (Вид → Масштаб)",
+ "Einfügen → Seite": "Einfügen → Seite (Вставка → Страница)",
+ "Daten → Kopfzeile": "Daten → Kopfzeile (Данные → Верхний колонтитул)",
+ "Einfügen → Kopf": "Einfügen → Kopf (Вставка → Заголовок)",
+ "Datei → Druckvorschau": "Datei → Druckvorschau (Файл → Предпросмотр печати)",
+ "Spalten löschen": "Удалить столбцы",
+ "Klein schreiben": "Писать мелко"
 }

@@ -54,5 +54,7 @@
  "Alle Beträge in C": "كل المبالغ في C",
  "Nur die Beträge, bei denen in B „Essen“ steht": "فقط المبالغ التي في B بجانبها „Essen“ (طعام)",
  "Wie oft „Essen“ vorkommt": "كم مرة توجد „Essen“",
- "Gesucht wird in B, addiert wird aus C.": "تبحث في B وتجمع من C."
+ "Gesucht wird in B, addiert wird aus C.": "تبحث في B وتجمع من C.",
+ "Anführungszeichen um D5": "علامات اقتباس حول D5",
+ "Ein $ bei D5": "علامة $ عند D5"
 }

@@ -56,5 +56,8 @@
  "Ohne $ rutscht die Liste beim Ausfüllen nach unten – oben fehlen dann Zeilen.": "Bez $ lista pri popunjavanju sklizne nadolje – gore onda nedostaju redovi.",
  "Was heißt die 0 am Ende?": "Šta znači 0 na kraju?",
  "Ab Zeile 0 suchen": "Traži od reda 0",
- "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Bez 0 SVERWEIS traži približno – praktično za ključ ocjena."
+ "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Bez 0 SVERWEIS traži približno – praktično za ključ ocjena.",
+ "Irgendwo": "Bilo gdje",
+ "Null zurückgeben": "Vratiti nulu",
+ "Das = fehlt": "Nedostaje ="
 }

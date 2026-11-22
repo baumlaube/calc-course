@@ -54,5 +54,7 @@
  "Alle Beträge in C": "Усі суми в C",
  "Nur die Beträge, bei denen in B „Essen“ steht": "Лише суми, де в B стоїть „Essen“ (їжа)",
  "Wie oft „Essen“ vorkommt": "Скільки разів трапляється „Essen“",
- "Gesucht wird in B, addiert wird aus C.": "Вона шукає в B і додає з C."
+ "Gesucht wird in B, addiert wird aus C.": "Вона шукає в B і додає з C.",
+ "Anführungszeichen um D5": "Лапки навколо D5",
+ "Ein $ bei D5": "$ біля D5"
 }

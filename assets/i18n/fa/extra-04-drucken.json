@@ -61,5 +61,12 @@
  "Der Druckbereich legt fest, was gedruckt wird – ohne etwas zu löschen.": "محدودهٔ چاپ تعیین می‌کند چه چیزی چاپ شود – بدون پاک کردن چیزی.",
  "Spalten": "ستون‌ها",
  "Seite": "صفحه",
- "von": "از"
+ "von": "از",
+ "Ansicht → Zoom": "Ansicht → Zoom (نما → بزرگ‌نمایی)",
+ "Einfügen → Seite": "Einfügen → Seite (درج → صفحه)",
+ "Daten → Kopfzeile": "Daten → Kopfzeile (داده → سرصفحه)",
+ "Einfügen → Kopf": "Einfügen → Kopf (درج → سر)",
+ "Datei → Druckvorschau": "Datei → Druckvorschau (پرونده → پیش‌نمایش چاپ)",
+ "Spalten löschen": "حذف ستون‌ها",
+ "Klein schreiben": "کوچک نوشتن"
 }

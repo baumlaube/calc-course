@@ -56,5 +56,8 @@
  "Ohne $ rutscht die Liste beim Ausfüllen nach unten – oben fehlen dann Zeilen.": "Fără $ lista alunecă în jos la umplere – atunci lipsesc rânduri de sus.",
  "Was heißt die 0 am Ende?": "Ce înseamnă 0 de la sfârșit?",
  "Ab Zeile 0 suchen": "Caută de la rândul 0",
- "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Fără 0, SVERWEIS caută aproximativ – util la grilele de note."
+ "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Fără 0, SVERWEIS caută aproximativ – util la grilele de note.",
+ "Irgendwo": "Oriunde",
+ "Null zurückgeben": "Returnează zero",
+ "Das = fehlt": "Lipsește ="
 }

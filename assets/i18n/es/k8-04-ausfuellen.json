@@ -145,5 +145,8 @@
  "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 muestra 6,00 €. Ahora rellena: arrastra el cuadradito de abajo a la derecha de D5 hacia abajo hasta D9.",
  "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Has arrastrado un poco de más: ahora también hay una fórmula en D10. Pero ahí va la suma. Haz clic en D10 y escribe ahí <code>=SUMME(D5:D9)</code>.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Todavía no llegas abajo. Siguen vacías: {}. Arrastra desde D5 hasta D9.",
- "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Piensa:</strong> ¿qué fórmula hay después en <strong>D6</strong> (bebidas)?"
+ "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Piensa:</strong> ¿qué fórmula hay después en <strong>D6</strong> (bebidas)?",
+ "Fehler": "Error",
+ "Montag": "Montag (lunes)",
+ "Donnerstag": "Donnerstag (jueves)"
 }

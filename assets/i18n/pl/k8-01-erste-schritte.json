@@ -134,5 +134,6 @@
  "der Name einer Zelle: erst Buchstabe, dann Zahl, z. B. C4": "<strong>adres</strong> – nazwa komórki: najpierw litera, potem liczba, np. <code>C4</code>",
  "etwas in eine Zelle tippen und Enter drücken": "<strong>wpisać</strong> – napisać coś w komórce i nacisnąć Enter",
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>formatować</strong> – zmieniać wygląd, np. € albo kolor. Liczba zostaje ta sama.",
- "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>miejsce po przecinku</strong> – cyfra po przecinku. 1,49 ma dwie."
+ "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>miejsce po przecinku</strong> – cyfra po przecinku. 1,49 ma dwie.",
+ "Leertaste": "Leertaste (spacja)"
 }

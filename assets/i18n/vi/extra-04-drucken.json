@@ -61,5 +61,12 @@
  "Der Druckbereich legt fest, was gedruckt wird – ohne etwas zu löschen.": "Vùng in quyết định cái gì sẽ được in – mà không xóa gì cả.",
  "Spalten": "Cột",
  "Seite": "Trang",
- "von": "trên"
+ "von": "trên",
+ "Ansicht → Zoom": "Ansicht → Zoom (xem → thu phóng)",
+ "Einfügen → Seite": "Einfügen → Seite (chèn → trang)",
+ "Daten → Kopfzeile": "Daten → Kopfzeile (dữ liệu → đầu trang)",
+ "Einfügen → Kopf": "Einfügen → Kopf (chèn → đầu)",
+ "Datei → Druckvorschau": "Datei → Druckvorschau (tệp → xem trước khi in)",
+ "Spalten löschen": "Xóa cột",
+ "Klein schreiben": "Viết chữ nhỏ"
 }

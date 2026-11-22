@@ -61,5 +61,12 @@
  "Der Druckbereich legt fest, was gedruckt wird – ohne etwas zu löschen.": "La zone d'impression décide de ce qui est imprimé – sans rien supprimer.",
  "Spalten": "Colonnes",
  "Seite": "Page",
- "von": "sur"
+ "von": "sur",
+ "Ansicht → Zoom": "Ansicht → Zoom (Affichage → Zoom)",
+ "Einfügen → Seite": "Einfügen → Seite (Insertion → Page)",
+ "Daten → Kopfzeile": "Daten → Kopfzeile (Données → En-tête)",
+ "Einfügen → Kopf": "Einfügen → Kopf (Insertion → En-tête)",
+ "Datei → Druckvorschau": "Datei → Druckvorschau (Fichier → Aperçu)",
+ "Spalten löschen": "Supprimer des colonnes",
+ "Klein schreiben": "Écrire en petit"
 }

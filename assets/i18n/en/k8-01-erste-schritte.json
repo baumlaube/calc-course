@@ -133,5 +133,6 @@
  "der Name einer Zelle: erst Buchstabe, dann Zahl, z. B. C4": "<strong>address</strong> – the name of a cell: first the letter, then the number, e.g. <code>C4</code>",
  "etwas in eine Zelle tippen und Enter drücken": "<strong>to enter</strong> – to type something into a cell and press Enter",
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>to format</strong> – to change the look, e.g. € or colour. The number stays the same.",
- "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>decimal place</strong> – a digit after the comma. 1,49 has two."
+ "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>decimal place</strong> – a digit after the comma. 1,49 has two.",
+ "Leertaste": "Leertaste (space bar)"
 }

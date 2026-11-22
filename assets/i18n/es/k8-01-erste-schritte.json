@@ -134,5 +134,6 @@
  "der Name einer Zelle: erst Buchstabe, dann Zahl, z. B. C4": "<strong>dirección</strong> – el nombre de una celda: primero la letra, luego el número, p. ej. <code>C4</code>",
  "etwas in eine Zelle tippen und Enter drücken": "<strong>introducir</strong> – escribir algo en una celda y pulsar Enter",
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>dar formato</strong> – cambiar el aspecto, p. ej. € o color. El número sigue igual.",
- "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>decimal</strong> – una cifra después de la coma. 1,49 tiene dos."
+ "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>decimal</strong> – una cifra después de la coma. 1,49 tiene dos.",
+ "Leertaste": "Leertaste (barra espaciadora)"
 }

@@ -61,5 +61,12 @@
  "Der Druckbereich legt fest, was gedruckt wird – ohne etwas zu löschen.": "نطاق الطباعة يحدّد ما يُطبع – بدون حذف أي شيء.",
  "Spalten": "أعمدة",
  "Seite": "صفحة",
- "von": "من"
+ "von": "من",
+ "Ansicht → Zoom": "Ansicht → Zoom (عرض → تكبير)",
+ "Einfügen → Seite": "Einfügen → Seite (إدراج → صفحة)",
+ "Daten → Kopfzeile": "Daten → Kopfzeile (بيانات → رأس الصفحة)",
+ "Einfügen → Kopf": "Einfügen → Kopf (إدراج → رأس)",
+ "Datei → Druckvorschau": "Datei → Druckvorschau (ملف → معاينة الطباعة)",
+ "Spalten löschen": "حذف الأعمدة",
+ "Klein schreiben": "الكتابة بخط صغير"
 }

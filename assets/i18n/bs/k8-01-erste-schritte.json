@@ -127,5 +127,6 @@
  "der Name einer Zelle: erst Buchstabe, dann Zahl, z. B. C4": "<strong>adresa</strong> – naziv ćelije: prvo slovo, onda broj, npr. <code>C4</code>",
  "etwas in eine Zelle tippen und Enter drücken": "<strong>unijeti</strong> – ukucati nešto u ćeliju i pritisnuti Enter",
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>formatirati</strong> – promijeniti izgled, npr. € ili boju. Broj ostaje isti.",
- "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>decimalno mjesto</strong> – cifra iza zareza. 1,49 ima dvije."
+ "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>decimalno mjesto</strong> – cifra iza zareza. 1,49 ima dvije.",
+ "Leertaste": "Leertaste (razmaknica)"
 }

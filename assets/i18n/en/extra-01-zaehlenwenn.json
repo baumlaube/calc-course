@@ -54,5 +54,7 @@
  "Alle Beträge in C": "All amounts in C",
  "Nur die Beträge, bei denen in B „Essen“ steht": "Only the amounts where B contains „Essen“ (food)",
  "Wie oft „Essen“ vorkommt": "How often „Essen“ appears",
- "Gesucht wird in B, addiert wird aus C.": "It searches in B and adds from C."
+ "Gesucht wird in B, addiert wird aus C.": "It searches in B and adds from C.",
+ "Anführungszeichen um D5": "Quotation marks around D5",
+ "Ein $ bei D5": "A $ at D5"
 }

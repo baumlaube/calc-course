@@ -61,5 +61,12 @@
  "Der Druckbereich legt fest, was gedruckt wird – ohne etwas zu löschen.": "The print range decides what gets printed – without deleting anything.",
  "Spalten": "Columns",
  "Seite": "Page",
- "von": "of"
+ "von": "of",
+ "Ansicht → Zoom": "Ansicht → Zoom (View → Zoom)",
+ "Einfügen → Seite": "Einfügen → Seite (Insert → Page)",
+ "Daten → Kopfzeile": "Daten → Kopfzeile (Data → Header)",
+ "Einfügen → Kopf": "Einfügen → Kopf (Insert → Head)",
+ "Datei → Druckvorschau": "Datei → Druckvorschau (File → Print Preview)",
+ "Spalten löschen": "Delete columns",
+ "Klein schreiben": "Use small text"
 }

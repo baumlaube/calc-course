@@ -47,5 +47,12 @@
  "Etwa in der Hälfte der Fälle Kopf": "Durumların yaklaşık yarısında Kopf",
  "Die Zufallszahl ist in etwa der Hälfte der Fälle unter 0,5.": "Rastgele sayı durumların yaklaşık yarısında 0,5'in altındadır.",
  "Du würfelst 600-mal. Wie oft kommt etwa die 6?": "600 kez atıyorsun. 6 yaklaşık kaç kez gelir?",
- "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "600'ün 1/6'sı 100'dür – ama şans hep biraz değişir."
+ "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "600'ün 1/6'sı 100'dür – ama şans hep biraz değişir.",
+ "Speichern": "Kaydet",
+ "Drucken": "Yazdır",
+ "Immer Kopf": "Hep Kopf (yazı-tura: tura)",
+ "Ungefähr 100-mal": "Yaklaşık 100 kez",
+ "Genau 100-mal": "Tam 100 kez",
+ "60-mal": "60 kez",
+ "Eine Zahl": "Bir sayı"
 }

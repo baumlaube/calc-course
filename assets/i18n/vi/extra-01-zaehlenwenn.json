@@ -54,5 +54,7 @@
  "Alle Beträge in C": "Tất cả số tiền trong C",
  "Nur die Beträge, bei denen in B „Essen“ steht": "Chỉ những số tiền mà trong B có „Essen“ (ăn uống)",
  "Wie oft „Essen“ vorkommt": "Bao nhiêu lần có „Essen“",
- "Gesucht wird in B, addiert wird aus C.": "Tìm trong B, cộng từ C."
+ "Gesucht wird in B, addiert wird aus C.": "Tìm trong B, cộng từ C.",
+ "Anführungszeichen um D5": "Dấu ngoặc kép quanh D5",
+ "Ein $ bei D5": "Một dấu $ ở D5"
 }

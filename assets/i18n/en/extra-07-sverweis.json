@@ -56,5 +56,8 @@
  "Ohne $ rutscht die Liste beim Ausfüllen nach unten – oben fehlen dann Zeilen.": "Without $ the list slides down when filling – then rows at the top are missing.",
  "Was heißt die 0 am Ende?": "What does the 0 at the end mean?",
  "Ab Zeile 0 suchen": "Search from row 0",
- "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Without 0 SVERWEIS searches approximately – useful for grading keys."
+ "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Without 0 SVERWEIS searches approximately – useful for grading keys.",
+ "Irgendwo": "Anywhere",
+ "Null zurückgeben": "Return zero",
+ "Das = fehlt": "The = is missing"
 }

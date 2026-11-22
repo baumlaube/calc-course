@@ -134,5 +134,6 @@
  "der Name einer Zelle: erst Buchstabe, dann Zahl, z. B. C4": "<strong>نشانی</strong> – نام یک خانه: اول حرف، بعد عدد، مثلاً <code>C4</code>",
  "etwas in eine Zelle tippen und Enter drücken": "<strong>وارد کردن</strong> – چیزی را در خانه بنویسی و Enter را بزنی",
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>قالب‌بندی کردن</strong> – ظاهر را عوض کردن، مثلاً € یا رنگ. عدد همان می‌ماند.",
- "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>رقم اعشار</strong> – یک رقم بعد از ویرگول. 1,49 دو تا دارد."
+ "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>رقم اعشار</strong> – یک رقم بعد از ویرگول. 1,49 دو تا دارد.",
+ "Leertaste": "Leertaste (کلید فاصله)"
 }

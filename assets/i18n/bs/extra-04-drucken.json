@@ -58,5 +58,12 @@
  "Du willst nur A1:D10 drucken. Was tust du?": "Želiš štampati samo A1:D10. Šta radiš?",
  "Den Rest löschen": "Obrišem ostatak",
  "A1:D10 markieren → Format → Druckbereiche → Festlegen": "Označim A1:D10 → Format → Druckbereiche → Festlegen",
- "Der Druckbereich legt fest, was gedruckt wird – ohne etwas zu löschen.": "Područje štampe određuje šta se štampa – bez brisanja ičega."
+ "Der Druckbereich legt fest, was gedruckt wird – ohne etwas zu löschen.": "Područje štampe određuje šta se štampa – bez brisanja ičega.",
+ "Ansicht → Zoom": "Ansicht → Zoom (Prikaz → Zum)",
+ "Einfügen → Seite": "Einfügen → Seite (Umetni → Stranica)",
+ "Daten → Kopfzeile": "Daten → Kopfzeile (Podaci → Zaglavlje)",
+ "Einfügen → Kopf": "Einfügen → Kopf (Umetni → Zaglavlje)",
+ "Datei → Druckvorschau": "Datei → Druckvorschau (Datoteka → Pregled ispisa)",
+ "Spalten löschen": "Obrisati kolone",
+ "Klein schreiben": "Pisati sitno"
 }

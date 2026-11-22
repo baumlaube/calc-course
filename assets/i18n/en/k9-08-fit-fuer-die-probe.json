@@ -91,5 +91,8 @@
  "ein Test in der Schule mit Note": "<strong>test, exam</strong> – a test at school with a mark",
  "ein Test nur zum Üben, ohne Note": "<strong>practice test</strong> – a test only for practice, without a mark",
  "Für jede richtige Antwort gibt es einen Punkt.": "<strong>point</strong> – You get one point for every correct answer.",
- "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>cheat sheet</strong> – a note with the most important things for learning"
+ "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>cheat sheet</strong> – a note with the most important things for learning",
+ "rot": "red",
+ "gelb": "yellow",
+ "Nein": "Nein (no)"
 }

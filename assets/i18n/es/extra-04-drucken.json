@@ -61,5 +61,12 @@
  "Der Druckbereich legt fest, was gedruckt wird – ohne etwas zu löschen.": "El rango de impresión decide qué se imprime, sin borrar nada.",
  "Spalten": "Columnas",
  "Seite": "Página",
- "von": "de"
+ "von": "de",
+ "Ansicht → Zoom": "Ansicht → Zoom (Ver → Zoom)",
+ "Einfügen → Seite": "Einfügen → Seite (Insertar → Página)",
+ "Daten → Kopfzeile": "Daten → Kopfzeile (Datos → Encabezado)",
+ "Einfügen → Kopf": "Einfügen → Kopf (Insertar → Cabecera)",
+ "Datei → Druckvorschau": "Datei → Druckvorschau (Archivo → Vista previa)",
+ "Spalten löschen": "Borrar columnas",
+ "Klein schreiben": "Escribir con letra pequeña"
 }

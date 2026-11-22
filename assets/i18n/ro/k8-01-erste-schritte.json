@@ -134,5 +134,6 @@
  "der Name einer Zelle: erst Buchstabe, dann Zahl, z. B. C4": "<strong>adresă</strong> – numele unei celule: întâi litera, apoi numărul, de ex. <code>C4</code>",
  "etwas in eine Zelle tippen und Enter drücken": "<strong>a introduce</strong> – a tasta ceva într-o celulă și a apăsa Enter",
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>a formata</strong> – a schimba aspectul, de ex. € sau culoare. Numărul rămâne același.",
- "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>zecimală</strong> – o cifră după virgulă. 1,49 are două."
+ "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>zecimală</strong> – o cifră după virgulă. 1,49 are două.",
+ "Leertaste": "Leertaste (tasta spațiu)"
 }

@@ -145,5 +145,8 @@
  "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 arată 6,00 €. Acum umple: trage pătrățelul din dreapta jos al lui D5 în jos până la D9.",
  "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Ai tras puțin prea departe: acum și în D10 e o formulă. Dar acolo trebuie suma. Dă clic pe D10 și scrie acolo <code>=SUMME(D5:D9)</code>.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Încă nu ai ajuns jos. Mai sunt goale: {}. Trage de la D5 până la D9.",
- "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Gândește-te:</strong> Ce formulă e apoi în <strong>D6</strong> (băuturi)?"
+ "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Gândește-te:</strong> Ce formulă e apoi în <strong>D6</strong> (băuturi)?",
+ "Fehler": "Eroare",
+ "Montag": "Montag (luni)",
+ "Donnerstag": "Donnerstag (joi)"
 }

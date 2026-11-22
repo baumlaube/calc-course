@@ -134,5 +134,6 @@
  "der Name einer Zelle: erst Buchstabe, dann Zahl, z. B. C4": "<strong>عنوان</strong> – اسم الخلية: أولًا الحرف ثم الرقم، مثلًا <code>C4</code>",
  "etwas in eine Zelle tippen und Enter drücken": "<strong>يُدخل</strong> – يكتب شيئًا في خلية ويضغط Enter",
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>ينسّق</strong> – يغيّر المظهر، مثلًا € أو اللون. الرقم يبقى كما هو.",
- "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>منزلة عشرية</strong> – رقم بعد الفاصلة. في 1,49 توجد منزلتان."
+ "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>منزلة عشرية</strong> – رقم بعد الفاصلة. في 1,49 توجد منزلتان.",
+ "Leertaste": "Leertaste (مفتاح المسافة)"
 }

@@ -56,5 +56,8 @@
  "Ohne $ rutscht die Liste beim Ausfüllen nach unten – oben fehlen dann Zeilen.": "بدون $ فهرست موقع پر کردن پایین می‌لغزد – آن‌وقت ردیف‌های بالا کم می‌شوند.",
  "Was heißt die 0 am Ende?": "0 در آخر یعنی چه؟",
  "Ab Zeile 0 suchen": "از ردیف 0 جستجو کن",
- "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "بدون 0 SVERWEIS تقریبی جستجو می‌کند – برای کلید نمره مفید است."
+ "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "بدون 0 SVERWEIS تقریبی جستجو می‌کند – برای کلید نمره مفید است.",
+ "Irgendwo": "هر جایی",
+ "Null zurückgeben": "صفر برگرداند",
+ "Das = fehlt": "= جا افتاده است"
 }

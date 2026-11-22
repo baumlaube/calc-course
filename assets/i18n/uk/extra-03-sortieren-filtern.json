@@ -60,5 +60,8 @@
  "Zweimal auf Absteigend klicken": "Двічі натиснути Absteigend",
  "Im Dialog Daten → Sortieren … gibt es Sortierschlüssel 1, 2, 3 …": "У діалозі Daten → Sortieren … є Sortierschlüssel (ключі сортування) 1, 2, 3 …",
  "Gar nicht": "Ніяк",
- "(alle)": "(alle) (усі)"
+ "(alle)": "(alle) (усі)",
+ "alphabetisch": "за абеткою",
+ "größte oben": "найбільше вгорі",
+ "kleinste oben": "найменше вгорі"
 }

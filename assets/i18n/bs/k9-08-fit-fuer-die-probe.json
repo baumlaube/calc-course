@@ -90,5 +90,8 @@
  "ein Test in der Schule mit Note": "<strong>kontrolni rad</strong> – test u školi s ocjenom",
  "ein Test nur zum Üben, ohne Note": "<strong>probni kontrolni</strong> – test samo za vježbu, bez ocjene",
  "Für jede richtige Antwort gibt es einen Punkt.": "<strong>bod</strong> – Za svaki tačan odgovor dobija se jedan bod.",
- "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>podsjetnik, puškica</strong> – papir s najvažnijim stvarima za učenje"
+ "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>podsjetnik, puškica</strong> – papir s najvažnijim stvarima za učenje",
+ "rot": "crvena",
+ "gelb": "žuta",
+ "Nein": "Nein (ne)"
 }

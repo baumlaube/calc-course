@@ -91,5 +91,8 @@
  "ein Test in der Schule mit Note": "<strong>sprawdzian</strong> – test w szkole z oceną",
  "ein Test nur zum Üben, ohne Note": "<strong>sprawdzian próbny</strong> – test tylko do ćwiczenia, bez oceny",
  "Für jede richtige Antwort gibt es einen Punkt.": "<strong>punkt</strong> – Za każdą dobrą odpowiedź jest jeden punkt.",
- "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>ściąga</strong> – kartka z najważniejszymi rzeczami do nauki"
+ "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>ściąga</strong> – kartka z najważniejszymi rzeczami do nauki",
+ "rot": "czerwony",
+ "gelb": "żółty",
+ "Nein": "Nein (nie)"
 }

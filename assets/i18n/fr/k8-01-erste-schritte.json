@@ -134,5 +134,6 @@
  "der Name einer Zelle: erst Buchstabe, dann Zahl, z. B. C4": "<strong>adresse</strong> – le nom d'une cellule : d'abord la lettre, puis le nombre, p. ex. <code>C4</code>",
  "etwas in eine Zelle tippen und Enter drücken": "<strong>saisir</strong> – taper quelque chose dans une cellule et appuyer sur Entrée",
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>mettre en forme</strong> – changer l'apparence, p. ex. € ou couleur. Le nombre reste le même.",
- "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>décimale</strong> – un chiffre après la virgule. 1,49 en a deux."
+ "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>décimale</strong> – un chiffre après la virgule. 1,49 en a deux.",
+ "Leertaste": "Leertaste (barre d’espace)"
 }

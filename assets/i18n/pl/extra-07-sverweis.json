@@ -56,5 +56,8 @@
  "Ohne $ rutscht die Liste beim Ausfüllen nach unten – oben fehlen dann Zeilen.": "Bez $ lista przesuwa się w dół przy wypełnianiu – wtedy brakuje wierszy z góry.",
  "Was heißt die 0 am Ende?": "Co znaczy 0 na końcu?",
  "Ab Zeile 0 suchen": "Szukaj od wiersza 0",
- "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Bez 0 SVERWEIS szuka w przybliżeniu – przydatne przy skali ocen."
+ "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Bez 0 SVERWEIS szuka w przybliżeniu – przydatne przy skali ocen.",
+ "Irgendwo": "Gdziekolwiek",
+ "Null zurückgeben": "Zwrócić zero",
+ "Das = fehlt": "Brakuje ="
 }

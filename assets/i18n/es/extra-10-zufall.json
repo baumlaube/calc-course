@@ -47,5 +47,12 @@
  "Etwa in der Hälfte der Fälle Kopf": "Kopf en más o menos la mitad de los casos",
  "Die Zufallszahl ist in etwa der Hälfte der Fälle unter 0,5.": "El número aleatorio es menor que 0,5 en más o menos la mitad de los casos.",
  "Du würfelst 600-mal. Wie oft kommt etwa die 6?": "Tiras 600 veces. ¿Más o menos cuántas veces sale el 6?",
- "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 de 600 es 100, pero el azar siempre varía un poco."
+ "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 de 600 es 100, pero el azar siempre varía un poco.",
+ "Speichern": "Guarda",
+ "Drucken": "Imprime",
+ "Immer Kopf": "Siempre Kopf (cara)",
+ "Ungefähr 100-mal": "Unas 100 veces",
+ "Genau 100-mal": "Exactamente 100 veces",
+ "60-mal": "60 veces",
+ "Eine Zahl": "Un número"
 }

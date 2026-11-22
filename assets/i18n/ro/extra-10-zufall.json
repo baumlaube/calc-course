@@ -47,5 +47,12 @@
  "Etwa in der Hälfte der Fälle Kopf": "Kopf în cam jumătate din cazuri",
  "Die Zufallszahl ist in etwa der Hälfte der Fälle unter 0,5.": "Numărul aleator e sub 0,5 în cam jumătate din cazuri.",
  "Du würfelst 600-mal. Wie oft kommt etwa die 6?": "Arunci de 600 de ori. Cam de câte ori iese 6?",
- "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 din 600 e 100 – dar norocul variază mereu puțin."
+ "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 din 600 e 100 – dar norocul variază mereu puțin.",
+ "Speichern": "Salvează",
+ "Drucken": "Tipărește",
+ "Immer Kopf": "Mereu Kopf (cap)",
+ "Ungefähr 100-mal": "Cam de 100 de ori",
+ "Genau 100-mal": "Exact de 100 de ori",
+ "60-mal": "De 60 de ori",
+ "Eine Zahl": "Un număr"
 }

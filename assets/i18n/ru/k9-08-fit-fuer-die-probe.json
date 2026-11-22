@@ -91,5 +91,8 @@
  "ein Test in der Schule mit Note": "<strong>контрольная работа</strong> – тест в школе с оценкой",
  "ein Test nur zum Üben, ohne Note": "<strong>пробная контрольная</strong> – тест только для тренировки, без оценки",
  "Für jede richtige Antwort gibt es einen Punkt.": "<strong>балл</strong> – За каждый правильный ответ даётся один балл.",
- "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>шпаргалка</strong> – листок с самым важным для учёбы"
+ "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>шпаргалка</strong> – листок с самым важным для учёбы",
+ "rot": "красный",
+ "gelb": "жёлтый",
+ "Nein": "Nein (нет)"
 }

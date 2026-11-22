@@ -60,5 +60,8 @@
  "Zweimal auf Absteigend klicken": "Click Absteigend twice",
  "Im Dialog Daten → Sortieren … gibt es Sortierschlüssel 1, 2, 3 …": "In the dialog Daten → Sortieren … there are sort keys 1, 2, 3 …",
  "Gar nicht": "Not at all",
- "(alle)": "(alle) (all)"
+ "(alle)": "(alle) (all)",
+ "alphabetisch": "alphabetical",
+ "größte oben": "largest at the top",
+ "kleinste oben": "smallest at the top"
 }

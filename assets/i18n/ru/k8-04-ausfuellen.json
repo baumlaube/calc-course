@@ -145,5 +145,8 @@
  "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 показывает 6,00 €. Теперь заполни: потяни маленький квадратик справа внизу у D5 вниз до D9.",
  "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Чуть-чуть дальше, чем нужно: теперь и в D10 стоит формула. Но там должна быть сумма. Щёлкни D10 и введи там <code>=SUMME(D5:D9)</code>.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Ещё не до конца. Пустые ещё: {}. Тяни от D5 до D9.",
- "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Подумай:</strong> какая формула потом стоит в <strong>D6</strong> (напитки)?"
+ "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Подумай:</strong> какая формула потом стоит в <strong>D6</strong> (напитки)?",
+ "Fehler": "Ошибка",
+ "Montag": "Montag (понедельник)",
+ "Donnerstag": "Donnerstag (четверг)"
 }

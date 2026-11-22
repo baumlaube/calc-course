@@ -133,5 +133,6 @@
  "der Name einer Zelle: erst Buchstabe, dann Zahl, z. B. C4": "<strong>адреса</strong> – назва клітинки: спочатку літера, потім число, наприклад <code>C4</code>",
  "etwas in eine Zelle tippen und Enter drücken": "<strong>вводити</strong> – надрукувати щось у клітинці й натиснути Enter",
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>форматувати</strong> – змінювати вигляд, наприклад € або колір. Число залишається тим самим.",
- "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>знак після коми</strong> – цифра після коми. У 1,49 їх дві."
+ "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>знак після коми</strong> – цифра після коми. У 1,49 їх дві.",
+ "Leertaste": "Leertaste (пробіл)"
 }

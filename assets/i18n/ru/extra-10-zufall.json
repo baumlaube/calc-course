@@ -47,5 +47,12 @@
  "Etwa in der Hälfte der Fälle Kopf": "Kopf примерно в половине случаев",
  "Die Zufallszahl ist in etwa der Hälfte der Fälle unter 0,5.": "Случайное число меньше 0,5 примерно в половине случаев.",
  "Du würfelst 600-mal. Wie oft kommt etwa die 6?": "Ты бросаешь 600 раз. Примерно сколько раз выпадет 6?",
- "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 от 600 – это 100, но случайность всегда немного колеблется."
+ "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 от 600 – это 100, но случайность всегда немного колеблется.",
+ "Speichern": "Сохранить",
+ "Drucken": "Печатать",
+ "Immer Kopf": "Всегда Kopf (орёл)",
+ "Ungefähr 100-mal": "Примерно 100 раз",
+ "Genau 100-mal": "Ровно 100 раз",
+ "60-mal": "60 раз",
+ "Eine Zahl": "Число"
 }

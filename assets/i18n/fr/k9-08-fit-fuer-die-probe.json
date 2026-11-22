@@ -91,5 +91,8 @@
  "ein Test in der Schule mit Note": "<strong>contrôle</strong> – un test à l'école avec une note",
  "ein Test nur zum Üben, ohne Note": "<strong>contrôle d'entraînement</strong> – un test seulement pour s'exercer, sans note",
  "Für jede richtige Antwort gibt es einen Punkt.": "<strong>point</strong> – Pour chaque bonne réponse, il y a un point.",
- "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>antisèche, aide-mémoire</strong> – une feuille avec le plus important pour apprendre"
+ "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>antisèche, aide-mémoire</strong> – une feuille avec le plus important pour apprendre",
+ "rot": "rouge",
+ "gelb": "jaune",
+ "Nein": "Nein (non)"
 }

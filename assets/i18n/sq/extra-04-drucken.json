@@ -61,5 +61,12 @@
  "Der Druckbereich legt fest, was gedruckt wird – ohne etwas zu löschen.": "Zona e printimit vendos çfarë printohet – pa fshirë asgjë.",
  "Spalten": "Kolona",
  "Seite": "Faqja",
- "von": "nga"
+ "von": "nga",
+ "Ansicht → Zoom": "Ansicht → Zoom (Pamja → Zmadhimi)",
+ "Einfügen → Seite": "Einfügen → Seite (Fut → Faqe)",
+ "Daten → Kopfzeile": "Daten → Kopfzeile (Të dhëna → Kokë faqeje)",
+ "Einfügen → Kopf": "Einfügen → Kopf (Fut → Kokë)",
+ "Datei → Druckvorschau": "Datei → Druckvorschau (Skedar → Parapamje e shtypjes)",
+ "Spalten löschen": "Fshi kolonat",
+ "Klein schreiben": "Shkruaj me shkronja të vogla"
 }

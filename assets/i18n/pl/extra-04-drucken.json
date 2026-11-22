@@ -61,5 +61,12 @@
  "Der Druckbereich legt fest, was gedruckt wird – ohne etwas zu löschen.": "Zakres wydruku decyduje, co zostanie wydrukowane – bez usuwania czegokolwiek.",
  "Spalten": "Kolumny",
  "Seite": "Strona",
- "von": "z"
+ "von": "z",
+ "Ansicht → Zoom": "Ansicht → Zoom (Widok → Powiększenie)",
+ "Einfügen → Seite": "Einfügen → Seite (Wstaw → Strona)",
+ "Daten → Kopfzeile": "Daten → Kopfzeile (Dane → Nagłówek)",
+ "Einfügen → Kopf": "Einfügen → Kopf (Wstaw → Nagłówek)",
+ "Datei → Druckvorschau": "Datei → Druckvorschau (Plik → Podgląd wydruku)",
+ "Spalten löschen": "Usunąć kolumny",
+ "Klein schreiben": "Pisać małymi literami"
 }

@@ -56,5 +56,8 @@
  "Ohne $ rutscht die Liste beim Ausfüllen nach unten – oben fehlen dann Zeilen.": "Sans $, la liste glisse vers le bas quand tu recopies – il manque alors des lignes en haut.",
  "Was heißt die 0 am Ende?": "Que veut dire le 0 à la fin ?",
  "Ab Zeile 0 suchen": "Chercher à partir de la ligne 0",
- "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Sans 0, SVERWEIS cherche approximativement – pratique pour un barème de notes."
+ "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Sans 0, SVERWEIS cherche approximativement – pratique pour un barème de notes.",
+ "Irgendwo": "N’importe où",
+ "Null zurückgeben": "Renvoyer zéro",
+ "Das = fehlt": "Il manque le ="
 }

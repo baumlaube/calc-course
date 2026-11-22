@@ -145,5 +145,8 @@
  "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 مقدار 6,00 € نشان می‌دهد. حالا پر کن: مربع کوچک پایین سمت راست D5 را به پایین تا D9 بکش.",
  "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "کمی زیادی کشیدی: حالا در D10 هم فرمول هست. اما آنجا باید جمع بیاید. روی D10 کلیک کن و آنجا <code>=SUMME(D5:D9)</code> بنویس.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "هنوز تا پایین نرسیده. هنوز خالی: {}. از D5 تا D9 بکش.",
- "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>فکر کن:</strong> بعد در <strong>D6</strong> (نوشیدنی‌ها) کدام فرمول است؟"
+ "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>فکر کن:</strong> بعد در <strong>D6</strong> (نوشیدنی‌ها) کدام فرمول است؟",
+ "Fehler": "خطا",
+ "Montag": "Montag (دوشنبه)",
+ "Donnerstag": "Donnerstag (پنجشنبه)"
 }

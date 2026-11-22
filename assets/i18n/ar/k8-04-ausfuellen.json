@@ -145,5 +145,8 @@
  "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 تُظهر 6,00 €. الآن قم بالتعبئة: اسحب المربّع الصغير أسفل يمين D5 إلى الأسفل حتى D9.",
  "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "سحبتَ أبعد قليلًا من اللازم: الآن توجد صيغة في D10 أيضًا. لكن هناك يجب أن يكون المجموع. انقر على D10 واكتب هناك <code>=SUMME(D5:D9)</code>.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "لم تصل إلى الأسفل بعد. ما زالت فارغة: {}. اسحب من D5 حتى D9.",
- "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>فكّر:</strong> أيّ صيغة تكون في <strong>D6</strong> (المشروبات) بعد ذلك؟"
+ "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>فكّر:</strong> أيّ صيغة تكون في <strong>D6</strong> (المشروبات) بعد ذلك؟",
+ "Fehler": "خطأ",
+ "Montag": "Montag (الاثنين)",
+ "Donnerstag": "Donnerstag (الخميس)"
 }

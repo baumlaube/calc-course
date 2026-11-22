@@ -60,5 +60,8 @@
  "Zweimal auf Absteigend klicken": "Hacer clic dos veces en Absteigend",
  "Im Dialog Daten → Sortieren … gibt es Sortierschlüssel 1, 2, 3 …": "En el cuadro de diálogo Daten → Sortieren … hay criterios de ordenación 1, 2, 3 …",
  "Gar nicht": "De ninguna manera",
- "(alle)": "(alle) (todos)"
+ "(alle)": "(alle) (todos)",
+ "alphabetisch": "por orden alfabético",
+ "größte oben": "el mayor arriba",
+ "kleinste oben": "el menor arriba"
 }

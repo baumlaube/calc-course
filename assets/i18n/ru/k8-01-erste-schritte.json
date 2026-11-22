@@ -134,5 +134,6 @@
  "der Name einer Zelle: erst Buchstabe, dann Zahl, z. B. C4": "<strong>адрес</strong> – имя ячейки: сначала буква, потом число, например <code>C4</code>",
  "etwas in eine Zelle tippen und Enter drücken": "<strong>вводить</strong> – напечатать что-то в ячейке и нажать Enter",
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>форматировать</strong> – менять вид, например € или цвет. Число остаётся тем же.",
- "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>знак после запятой</strong> – цифра после запятой. В 1,49 их две."
+ "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>знак после запятой</strong> – цифра после запятой. В 1,49 их две.",
+ "Leertaste": "Leertaste (пробел)"
 }

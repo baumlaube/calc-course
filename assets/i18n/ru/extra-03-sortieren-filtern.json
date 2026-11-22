@@ -60,5 +60,8 @@
  "Zweimal auf Absteigend klicken": "Дважды нажать Absteigend",
  "Im Dialog Daten → Sortieren … gibt es Sortierschlüssel 1, 2, 3 …": "В диалоге Daten → Sortieren … есть ключи сортировки 1, 2, 3 …",
  "Gar nicht": "Никак",
- "(alle)": "(alle) (все)"
+ "(alle)": "(alle) (все)",
+ "alphabetisch": "по алфавиту",
+ "größte oben": "наибольшее сверху",
+ "kleinste oben": "наименьшее сверху"
 }

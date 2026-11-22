@@ -91,5 +91,8 @@
  "ein Test in der Schule mit Note": "<strong>اختبار مدرسي</strong> – اختبار في المدرسة مع علامة",
  "ein Test nur zum Üben, ohne Note": "<strong>اختبار تدريبي</strong> – اختبار للتمرين فقط، بدون علامة",
  "Für jede richtige Antwort gibt es einen Punkt.": "<strong>نقطة</strong> – لكل جواب صحيح توجد نقطة.",
- "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>ورقة ملخّص</strong> – ورقة فيها أهم الأشياء للتعلّم"
+ "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>ورقة ملخّص</strong> – ورقة فيها أهم الأشياء للتعلّم",
+ "rot": "أحمر",
+ "gelb": "أصفر",
+ "Nein": "Nein (لا)"
 }

@@ -54,5 +54,7 @@
  "Alle Beträge in C": "Все суммы в C",
  "Nur die Beträge, bei denen in B „Essen“ steht": "Только суммы, где в B стоит „Essen“ (еда)",
  "Wie oft „Essen“ vorkommt": "Сколько раз встречается „Essen“",
- "Gesucht wird in B, addiert wird aus C.": "Она ищет в B и складывает из C."
+ "Gesucht wird in B, addiert wird aus C.": "Она ищет в B и складывает из C.",
+ "Anführungszeichen um D5": "Кавычки вокруг D5",
+ "Ein $ bei D5": "$ у D5"
 }

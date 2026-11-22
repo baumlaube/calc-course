@@ -60,5 +60,8 @@
  "Zweimal auf Absteigend klicken": "Cliquer deux fois sur Absteigend",
  "Im Dialog Daten → Sortieren … gibt es Sortierschlüssel 1, 2, 3 …": "Dans la boîte de dialogue Daten → Sortieren …, il y a les clés de tri 1, 2, 3 …",
  "Gar nicht": "Impossible",
- "(alle)": "(alle) (tous)"
+ "(alle)": "(alle) (tous)",
+ "alphabetisch": "par ordre alphabétique",
+ "größte oben": "le plus grand en haut",
+ "kleinste oben": "le plus petit en haut"
 }

@@ -134,5 +134,6 @@
  "der Name einer Zelle: erst Buchstabe, dann Zahl, z. B. C4": "<strong>adresë</strong> – emri i një qelize: së pari shkronja, pastaj numri, p.sh. <code>C4</code>",
  "etwas in eine Zelle tippen und Enter drücken": "<strong>fut, shkruaj</strong> – shkruaj diçka në një qelizë dhe shtyp Enter",
  "das Aussehen ändern, z. B. € oder Farbe. Die Zahl bleibt gleich.": "<strong>formatoj</strong> – ndryshoj pamjen, p.sh. € ose ngjyrë. Numri mbetet i njëjtë.",
- "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>shifër pas presjes</strong> – një shifër pas presjes. 1,49 ka dy."
+ "eine Ziffer nach dem Komma. 1,49 hat zwei.": "<strong>shifër pas presjes</strong> – një shifër pas presjes. 1,49 ka dy.",
+ "Leertaste": "Leertaste (tasti i hapësirës)"
 }

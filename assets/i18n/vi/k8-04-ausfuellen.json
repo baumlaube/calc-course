@@ -141,5 +141,8 @@
  "Das ist nur eine getippte Zahl. Calc rechnet nichts.": "Đó chỉ là một con số được gõ tay. Calc không tính gì cả.",
  "Überall steht 6,00 €": "Chỗ nào cũng là 6,00 €",
  "Beim Ziehen wandert die Formel mit. Sie bleibt nicht gleich.": "Khi kéo, công thức di chuyển theo. Nó không giữ nguyên.",
- "Nach rechts ändern sich die Buchstaben, nicht die Zahlen.": "Sang phải thì chữ cái thay đổi, không phải số."
+ "Nach rechts ändern sich die Buchstaben, nicht die Zahlen.": "Sang phải thì chữ cái thay đổi, không phải số.",
+ "Fehler": "Lỗi",
+ "Montag": "Montag (thứ Hai)",
+ "Donnerstag": "Donnerstag (thứ Năm)"
 }

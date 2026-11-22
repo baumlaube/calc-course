@@ -47,5 +47,12 @@
  "Etwa in der Hälfte der Fälle Kopf": "Kopf dans environ la moitié des cas",
  "Die Zufallszahl ist in etwa der Hälfte der Fälle unter 0,5.": "Le nombre aléatoire est inférieur à 0,5 dans environ la moitié des cas.",
  "Du würfelst 600-mal. Wie oft kommt etwa die 6?": "Tu lances 600 fois. Environ combien de fois le 6 sort-il ?",
- "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 de 600, c'est 100 – mais le hasard varie toujours un peu."
+ "1/6 von 600 ist 100 – aber Zufall schwankt immer etwas.": "1/6 de 600, c'est 100 – mais le hasard varie toujours un peu.",
+ "Speichern": "Enregistre",
+ "Drucken": "Imprime",
+ "Immer Kopf": "Toujours Kopf (face)",
+ "Ungefähr 100-mal": "Environ 100 fois",
+ "Genau 100-mal": "Exactement 100 fois",
+ "60-mal": "60 fois",
+ "Eine Zahl": "Un nombre"
 }

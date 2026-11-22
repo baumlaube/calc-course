@@ -54,5 +54,7 @@
  "Alle Beträge in C": "C'deki bütün tutarları",
  "Nur die Beträge, bei denen in B „Essen“ steht": "Sadece B'de „Essen“ (yemek) olan tutarları",
  "Wie oft „Essen“ vorkommt": "„Essen“ kaç kez geçiyor",
- "Gesucht wird in B, addiert wird aus C.": "B'de arar ve C'den toplar."
+ "Gesucht wird in B, addiert wird aus C.": "B'de arar ve C'den toplar.",
+ "Anführungszeichen um D5": "D5 etrafında tırnak işareti",
+ "Ein $ bei D5": "D5’te bir $"
 }

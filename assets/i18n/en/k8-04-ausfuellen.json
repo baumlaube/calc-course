@@ -146,5 +146,8 @@
  "D5 zeigt 6,00 €. Jetzt füll aus: Zieh das kleine Quadrat unten rechts an D5 nach unten bis D9.": "D5 shows 6,00 €. Now fill: drag the small square at the bottom right of D5 down to D9.",
  "Ein Stück zu weit gezogen: Jetzt steht auch in D10 eine Formel. Da soll aber die Summe hin. Klick D10 an und tipp dort =SUMME(D5:D9).": "Dragged a bit too far: now D10 has a formula too. But the total belongs there. Click D10 and type <code>=SUMME(D5:D9)</code> there.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von D5 aus bis D9.": "Not quite at the bottom yet. Still empty: {}. Drag from D5 down to D9.",
- "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Think:</strong> Which formula is in <strong>D6</strong> (drinks) afterwards?"
+ "Überleg: Welche Formel steht danach in D6 (Getränke)?": "<strong>Think:</strong> Which formula is in <strong>D6</strong> (drinks) afterwards?",
+ "Fehler": "Error",
+ "Montag": "Montag (Monday)",
+ "Donnerstag": "Donnerstag (Thursday)"
 }

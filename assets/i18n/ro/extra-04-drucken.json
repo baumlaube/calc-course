@@ -61,5 +61,12 @@
  "Der Druckbereich legt fest, was gedruckt wird – ohne etwas zu löschen.": "Zona de tipărire decide ce se tipărește – fără să ștergi nimic.",
  "Spalten": "Coloane",
  "Seite": "Pagina",
- "von": "din"
+ "von": "din",
+ "Ansicht → Zoom": "Ansicht → Zoom (Vizualizare → Zoom)",
+ "Einfügen → Seite": "Einfügen → Seite (Inserare → Pagină)",
+ "Daten → Kopfzeile": "Daten → Kopfzeile (Date → Antet)",
+ "Einfügen → Kopf": "Einfügen → Kopf (Inserare → Antet)",
+ "Datei → Druckvorschau": "Datei → Druckvorschau (Fișier → Previzualizare)",
+ "Spalten löschen": "Șterge coloanele",
+ "Klein schreiben": "Scrie cu litere mici"
 }

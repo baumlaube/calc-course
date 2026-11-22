@@ -56,5 +56,8 @@
  "Ohne $ rutscht die Liste beim Ausfüllen nach unten – oben fehlen dann Zeilen.": "Pa $ lista rrëshqet poshtë gjatë plotësimit – atëherë mungojnë rreshtat lart.",
  "Was heißt die 0 am Ende?": "Çfarë do të thotë 0 në fund?",
  "Ab Zeile 0 suchen": "Kërko nga rreshti 0",
- "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Pa 0 SVERWEIS kërkon përafërsisht – e dobishme për çelësat e notave."
+ "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "Pa 0 SVERWEIS kërkon përafërsisht – e dobishme për çelësat e notave.",
+ "Irgendwo": "Kudo",
+ "Null zurückgeben": "Kthen zero",
+ "Das = fehlt": "Mungon ="
 }

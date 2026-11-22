@@ -54,5 +54,7 @@
  "Alle Beträge in C": "Todos los importes de C",
  "Nur die Beträge, bei denen in B „Essen“ steht": "Solo los importes en los que B contiene „Essen“ (comida)",
  "Wie oft „Essen“ vorkommt": "Cuántas veces aparece „Essen“",
- "Gesucht wird in B, addiert wird aus C.": "Busca en B y suma de C."
+ "Gesucht wird in B, addiert wird aus C.": "Busca en B y suma de C.",
+ "Anführungszeichen um D5": "Comillas alrededor de D5",
+ "Ein $ bei D5": "Un $ en D5"
 }

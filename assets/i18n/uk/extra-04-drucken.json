@@ -61,5 +61,12 @@
  "Der Druckbereich legt fest, was gedruckt wird – ohne etwas zu löschen.": "Діапазон друку визначає, що друкується, – нічого не видаляючи.",
  "Spalten": "Стовпці",
  "Seite": "Сторінка",
- "von": "з"
+ "von": "з",
+ "Ansicht → Zoom": "Ansicht → Zoom (Вигляд → Масштаб)",
+ "Einfügen → Seite": "Einfügen → Seite (Вставка → Сторінка)",
+ "Daten → Kopfzeile": "Daten → Kopfzeile (Дані → Верхній колонтитул)",
+ "Einfügen → Kopf": "Einfügen → Kopf (Вставка → Заголовок)",
+ "Datei → Druckvorschau": "Datei → Druckvorschau (Файл → Попередній перегляд)",
+ "Spalten löschen": "Видалити стовпці",
+ "Klein schreiben": "Писати дрібно"
 }

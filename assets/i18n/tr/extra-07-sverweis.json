@@ -56,5 +56,8 @@
  "Ohne $ rutscht die Liste beim Ausfüllen nach unten – oben fehlen dann Zeilen.": "$ olmadan liste doldururken aşağı kayar – o zaman üstteki satırlar eksik olur.",
  "Was heißt die 0 am Ende?": "Sondaki 0 ne demek?",
  "Ab Zeile 0 suchen": "0. satırdan ara",
- "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "0 olmadan SVERWEIS yaklaşık arar – not anahtarları için faydalı."
+ "Ohne 0 sucht SVERWEIS ungefähr – praktisch für Notenschlüssel.": "0 olmadan SVERWEIS yaklaşık arar – not anahtarları için faydalı.",
+ "Irgendwo": "Herhangi bir yerde",
+ "Null zurückgeben": "Sıfır döndür",
+ "Das = fehlt": "= eksik"
 }

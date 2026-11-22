@@ -61,5 +61,12 @@
  "Der Druckbereich legt fest, was gedruckt wird – ohne etwas zu löschen.": "Baskı aralığı neyin yazdırılacağına karar verir – hiçbir şey silmeden.",
  "Spalten": "Sütunlar",
  "Seite": "Sayfa",
- "von": "/"
+ "von": "/",
+ "Ansicht → Zoom": "Ansicht → Zoom (Görünüm → Yakınlaştır)",
+ "Einfügen → Seite": "Einfügen → Seite (Ekle → Sayfa)",
+ "Daten → Kopfzeile": "Daten → Kopfzeile (Veri → Üst bilgi)",
+ "Einfügen → Kopf": "Einfügen → Kopf (Ekle → Başlık)",
+ "Datei → Druckvorschau": "Datei → Druckvorschau (Dosya → Baskı önizleme)",
+ "Spalten löschen": "Sütunları sil",
+ "Klein schreiben": "Küçük yazmak"
 }

@@ -91,5 +91,8 @@
  "ein Test in der Schule mit Note": "<strong>yazılı sınav</strong> – okulda notlu bir sınav",
  "ein Test nur zum Üben, ohne Note": "<strong>deneme sınavı</strong> – sadece alıştırma için, notsuz bir sınav",
  "Für jede richtige Antwort gibt es einen Punkt.": "<strong>puan</strong> – Her doğru cevap için bir puan var.",
- "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>kopya kâğıdı, özet</strong> – öğrenmek için en önemli şeylerin yazılı olduğu kâğıt"
+ "ein Zettel mit dem Wichtigsten zum Lernen": "<strong>kopya kâğıdı, özet</strong> – öğrenmek için en önemli şeylerin yazılı olduğu kâğıt",
+ "rot": "kırmızı",
+ "gelb": "sarı",
+ "Nein": "Nein (hayır)"
 }
