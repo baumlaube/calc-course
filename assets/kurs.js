@@ -31,12 +31,14 @@
   /**
    * Quiz: questions = [{ q, options:[...], right: index, why, miss:[...] }]
    * miss (optional): pro Antwort ein Satz zum typischen Denkfehler dahinter (null bei der richtigen).
+   * Ablauf: Antworten wählen (änderbar) → „Prüfen“. Richtige werden fest, falsche bleiben offen
+   * und können verbessert werden → „Nochmal prüfen“. Gezählt wird das erste Prüfen.
    */
   function quiz(el, questions) {
-    let answered = 0, correct = 0;
-    const score = document.createElement("p");
-    score.className = "quiz-score";
-    score.setAttribute("aria-live", "polite");
+    const pick = questions.map(() => null);
+    const done = questions.map(() => false);
+    let first = null;                       // Punkte beim ersten Prüfen
+    const parts = [];
     questions.forEach((item, qi) => {
       const q = document.createElement("p");
       q.className = "quiz-q";
@@ -46,34 +48,77 @@
       box.className = "choices";
       const why = document.createElement("p");
       why.className = "fb quiz-why";
-      item.options.forEach((opt, oi) => {
+      why.setAttribute("aria-live", "polite");
+      const btns = item.options.map((opt, oi) => {
         const b = document.createElement("button");
         b.type = "button";
         b.className = "choice";
         b.innerHTML = opt;
+        b.setAttribute("aria-pressed", "false");
         b.addEventListener("click", () => {
-          box.querySelectorAll("button").forEach((x, xi) => {
-            x.disabled = true;
-            if (xi === item.right) x.classList.add("right");
+          if (done[qi]) return;
+          pick[qi] = oi;
+          btns.forEach((x, xi) => {
+            x.classList.toggle("picked", xi === oi);
+            x.classList.remove("wrong");
+            x.setAttribute("aria-pressed", String(xi === oi));
           });
-          const ok = oi === item.right;
-          if (!ok) b.classList.add("wrong");
-          answered++; if (ok) correct++;
-          // Falsche Antwort: erst der Denkfehler hinter genau dieser Antwort (miss), dann die Erklärung
-          const miss = !ok && item.miss && item.miss[oi] ? T(item.miss[oi]) + " " : "";
-          feedback(why, T(ok ? "✔ Richtig!" : "✘ Nicht ganz.") + " " + miss + T(item.why), ok ? "ok" : "hint");
-          if (answered === questions.length) {
-            score.innerHTML = T(correct === questions.length
-              ? `🏆 ${correct} von ${questions.length} – stark!`
-              : `${correct} von ${questions.length} richtig. Lies dir die Erklärungen noch einmal durch.`);
-          }
+          why.className = "fb quiz-why";      // alte Rückmeldung weg, sobald neu gewählt wird
         });
         box.appendChild(b);
+        return b;
       });
       el.appendChild(box);
       el.appendChild(why);
+      parts.push({ btns, why });
     });
+
+    const row = document.createElement("div");
+    row.className = "btn-row";
+    const check = document.createElement("button");
+    check.type = "button";
+    check.className = "btn";
+    check.textContent = T("Prüfen");
+    row.appendChild(check);
+    el.appendChild(row);
+    const score = document.createElement("p");
+    score.className = "quiz-score";
+    score.setAttribute("aria-live", "polite");
     el.appendChild(score);
+
+    check.addEventListener("click", () => {
+      const open = pick.map((p, i) => (p === null && !done[i] ? i + 1 : 0)).filter(Boolean);
+      if (open.length) {
+        score.innerHTML = T(open.length === 1
+          ? `Frage ${open[0]} fehlt noch.`
+          : `Diese Fragen fehlen noch: ${open.join(", ")}`);
+        return;
+      }
+      let correct = 0;
+      questions.forEach((item, qi) => {
+        const { btns, why } = parts[qi];
+        if (done[qi]) { correct++; return; }
+        const oi = pick[qi], ok = oi === item.right;
+        if (ok) {
+          done[qi] = true; correct++;
+          btns.forEach((x, xi) => { x.disabled = true; x.classList.remove("picked"); if (xi === item.right) x.classList.add("right"); });
+          window.Kurs.feedback(why, T("✔ Richtig!") + " " + T(item.why), "ok"); why.classList.add("quiz-why");
+        } else {
+          btns[oi].classList.add("wrong");
+          const miss = item.miss && item.miss[oi] ? T(item.miss[oi]) : T("Überleg noch einmal und wähle eine andere Antwort.");
+          window.Kurs.feedback(why, T("✘ Nicht ganz.") + " " + miss, "hint"); why.classList.add("quiz-why");
+        }
+      });
+      const n = questions.length;
+      if (first === null) first = correct;
+      if (correct === n) {
+        check.hidden = true;
+        score.innerHTML = T(first === n ? `🏆 ${n} von ${n} – stark!` : `✔ Jetzt stimmt alles. Beim ersten Prüfen: ${first} von ${n}.`);
+      } else {
+        check.textContent = T("Nochmal prüfen");
+        score.innerHTML = T(`${correct} von ${n} richtig. Ändere die markierten Antworten und prüfe noch einmal.`);
+      }
+    });
   }
 
   /* Die Startseite öffnet beim nächsten Mal gleich den Reiter der zuletzt besuchten Seite. */

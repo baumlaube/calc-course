@@ -168,8 +168,8 @@
           feedback(fb, T("✔ Richtig!") + " " + T(item.why || ""), "ok");
           finish(true);
         } else if (diag) {
-          lock(c);
-          feedback(fb, T("✘ Nicht ganz.") + " " + T(r) + " " + T("So geht es:") + ` <code>${esc(item.solution)}</code>` + more(), "hint");
+          // Zählt als „noch nicht sicher“, aber verbessern darf man trotzdem (Lösung nur über „Weiß ich nicht“).
+          feedback(fb, T("✘ Nicht ganz.") + " " + T(r) + " " + T("Du kannst es verbessern oder weitergehen.") + more(), "hint");
           finish(false);
         } else {
           feedback(fb, T(r), "hint");   // weiter probieren ist erlaubt
