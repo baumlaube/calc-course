@@ -105,5 +105,6 @@
  "das, was bei einer Rechnung herauskommt": "<strong>rezultat</strong> – ono što se dobije računanjem",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>red za unos</strong> – dugi red iznad tabele. Tamo vidiš formulu.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>računati ponovo</strong> – Calc računa još jednom kad se neki broj promijeni",
- "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Sada Calc računa umjesto tebe. Formula počinje sa <code>=</code> i računa s ćelijama. Ako se neki broj promijeni, Calc odmah ponovo računa. Kalkulator to ne može."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Sada Calc računa umjesto tebe. Formula počinje sa <code>=</code> i računa s ćelijama. Ako se neki broj promijeni, Calc odmah ponovo računa. Kalkulator to ne može.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =.": "U {} je tekst, a ne formula. Formula počinje sa <code>=</code>."
 }

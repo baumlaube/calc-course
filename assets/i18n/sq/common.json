@@ -208,5 +208,8 @@
  "Überleg noch einmal und wähle eine andere Antwort.": "Mendohu edhe një herë dhe zgjidh një përgjigje tjetër.",
  "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Tani gjithçka është në rregull. Në kontrollin e parë: {} nga {}.",
  "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} nga {} të sakta. Ndrysho përgjigjet e shënuara dhe kontrollo përsëri.",
- "Du kannst es verbessern oder weitergehen.": "Mund ta korrigjosh ose të vazhdosh."
+ "Du kannst es verbessern oder weitergehen.": "Mund ta korrigjosh ose të vazhdosh.",
+ "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc tregon Err:522: formula jote numëron edhe qelizën e vet. Merr vetëm qelizat sipër saj.",
+ "Prüfe deine Formel.": "Kontrollo formulën tënde.",
+ "Stimmt der Name? Ist die Klammer zu?": "A është emri i saktë? A është kllapa e mbyllur?"
 }

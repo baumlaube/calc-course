@@ -110,5 +110,6 @@
  "D5 rechnet neu": "D5 tính lại",
  "D5 bleibt 4,50": "D5 vẫn là 4,50",
  "B5 abtippen": "Gõ lại B5",
- "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Bây giờ Calc tính giúp bạn. Công thức bắt đầu bằng <code>=</code> và tính với các ô. Khi một số thay đổi, Calc tính lại ngay. Máy tính bỏ túi không làm được như vậy."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Bây giờ Calc tính giúp bạn. Công thức bắt đầu bằng <code>=</code> và tính với các ô. Khi một số thay đổi, Calc tính lại ngay. Máy tính bỏ túi không làm được như vậy.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =.": "Trong {} là chữ, không phải công thức. Công thức bắt đầu bằng <code>=</code>."
 }

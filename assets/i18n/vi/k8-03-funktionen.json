@@ -74,8 +74,8 @@
  "Der Doppelpunkt heißt „bis“: B5, B6, B7, B8 und B9.": "Dấu hai chấm có nghĩa là „đến“: B5, B6, B7, B8 và B9.",
  "Nur B5 und B9 wäre B5;B9 mit Semikolon.": "Chỉ B5 và B9 thì sẽ là <code>B5;B9</code> với dấu chấm phẩy.",
  "In Mathe heißt : geteilt. In Calc heißt er „bis“. Geteilt ist /.": "Trong môn toán, <code>:</code> là phép chia. Trong Calc nó có nghĩa là „đến“. Phép chia là <code>/</code>.",
- "Welche Funktion findet die Bestweite beim Weitsprung?": "Hàm nào tìm ra <strong>thành tích xa nhất</strong> trong môn nhảy xa?",
- "Die Bestweite ist der größte Wert, also MAX.": "Thành tích xa nhất là giá trị lớn nhất, tức là MAX.",
+ "Welche Funktion findet den weitesten Sprung beim Weitsprung?": "Hàm nào tìm ra <strong>cú nhảy xa nhất</strong> trong môn nhảy xa?",
+ "Der weiteste Sprung ist der größte Wert, also MAX.": "Cú nhảy xa nhất là giá trị lớn nhất, vậy là MAX.",
  "MIN findet den kleinsten Wert. Beim Laufen wäre das die Bestzeit, beim Springen nicht.": "MIN tìm giá trị nhỏ nhất. Khi chạy thì đó là thời gian tốt nhất, khi nhảy thì không.",
  "SUMME zählt alle Sprünge zusammen. Gesucht ist nur der weiteste.": "SUMME cộng tất cả các lần nhảy. Cần tìm chỉ lần nhảy xa nhất.",
  "In B5 bis B9 stehen 1, 2, 3, 4 und 10. Was ergibt =MITTELWERT(B5:B9)?": "Trong B5 đến B9 có 1, 2, 3, 4 và 10. <code>=MITTELWERT(B5:B9)</code> cho ra bao nhiêu?",
@@ -101,7 +101,7 @@
  "Falle 1 zugeschnappt! In B8 ist die Jahreszahl 2024 mitgezählt. Richtig ist =SUMME(B2:B7).": "Dính bẫy 1 rồi! Trong B8 có cả <strong>năm 2024</strong> bị cộng vào. Đúng là <code>=SUMME(B2:B7)</code>.",
  "Falle 2 zugeschnappt! Calc hat in C8 nur bis zur Lücke im März markiert. Richtig ist =SUMME(C2:C7).": "Dính bẫy 2 rồi! Trong C8, Calc chỉ chọn <strong>tới chỗ trống</strong> ở tháng Ba. Đúng là <code>=SUMME(C2:C7)</code>.",
  "{}: Prüf den Bereich. Alle sechs Monate, ohne Überschrift.": "{}: Kiểm tra vùng ô. Đủ sáu tháng, không có tiêu đề.",
- "🏆 Beide Fallen entschärft! Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Đã gỡ cả hai bẫy! Ghi nhớ: Σ nhanh, nhưng <strong>luôn kiểm tra khung</strong>.",
+ "🏆 Beide Fallen entschärft! Falle 1: Σ nimmt die Jahreszahl aus der Überschrift mit. Falle 2: Bei einer leeren Zelle hört Σ zu früh auf. Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Đã gỡ cả hai bẫy! Bẫy 1: Σ lấy luôn cả năm trong tiêu đề. Bẫy 2: gặp một ô trống, Σ dừng quá sớm. Ghi nhớ: Σ nhanh, nhưng <strong>luôn kiểm tra khung</strong>.",
  "{} von 2 Summen richtig.": "Đúng {} trên 2 tổng.",
  "Klick B8 an und dann auf „Σ Summe“.": "Bấm vào B8 rồi bấm „Σ Summe“.",
  "{}: Das ist der normale Durchschnitt. Die Schulaufgaben zählen doppelt!": "{}: Đây là điểm trung bình bình thường. Bài kiểm tra lớn được tính hệ số hai!",
@@ -119,5 +119,8 @@
  "B5 und B9": "B5 và B9",
  "B5 bis B9": "từ B5 đến B9",
  "Weiter mit {}: Berechne {} mit ={}(…).": "Tiếp theo: <strong>{}</strong>. Tính {} bằng <code>={}(</code>…<code>)</code>.",
- "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Năm số thì bạn cộng bằng <code>+</code> được. Nhưng 30 điểm? Hay 365 ngày? Như vậy quá lâu. Một hàm như <code>SUMME</code> (TỔNG) tính nhiều ô cùng lúc. Với <code>MITTELWERT</code> (TRUNG BÌNH), ví dụ bạn tính được điểm trung bình của mình."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Năm số thì bạn cộng bằng <code>+</code> được. Nhưng 30 điểm? Hay 365 ngày? Như vậy quá lâu. Một hàm như <code>SUMME</code> (TỔNG) tính nhiều ô cùng lúc. Với <code>MITTELWERT</code> (TRUNG BÌNH), ví dụ bạn tính được điểm trung bình của mình.",
+ "Der Punkt in 6.200 trennt nur die Tausender. So liest man große Zahlen leichter. Tippen musst du ihn nicht.": "Dấu chấm trong 6.200 chỉ dùng để tách hàng nghìn. Như vậy số lớn dễ đọc hơn. Bạn không cần gõ nó.",
+ "In B7 steht jetzt Text. Tippe nur die Zahl, zum Beispiel 9000.": "Bây giờ trong B7 là chữ. Chỉ gõ số thôi, ví dụ <code>9000</code>.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =: ={}(B5:B9)": "Trong {} là chữ, không phải công thức. Công thức bắt đầu bằng <code>=</code>: <code>={}(B5:B9)</code>"
 }

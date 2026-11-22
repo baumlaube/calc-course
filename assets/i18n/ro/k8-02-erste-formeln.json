@@ -112,5 +112,6 @@
  "das, was bei einer Rechnung herauskommt": "<strong>rezultat</strong> – ce iese dintr-un calcul",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>linia de introducere</strong> – linia lungă de deasupra tabelului. Acolo vezi formula.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>a recalcula</strong> – Calc calculează încă o dată când se schimbă un număr",
- "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Acum Calc calculează pentru tine. O formulă începe cu <code>=</code> și calculează cu celulele. Dacă un număr se schimbă, Calc recalculează imediat. Un calculator nu poate face asta."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Acum Calc calculează pentru tine. O formulă începe cu <code>=</code> și calculează cu celulele. Dacă un număr se schimbă, Calc recalculează imediat. Un calculator nu poate face asta.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =.": "În {} e text, nu o formulă. O formulă începe cu <code>=</code>."
 }

@@ -208,5 +208,8 @@
  "Überleg noch einmal und wähle eine andere Antwort.": "Piénsalo otra vez y elige otra respuesta.",
  "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Ahora todo está bien. En la primera comprobación: {} de {}.",
  "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} de {} correctas. Cambia las respuestas marcadas y comprueba otra vez.",
- "Du kannst es verbessern oder weitergehen.": "Puedes corregirlo o seguir."
+ "Du kannst es verbessern oder weitergehen.": "Puedes corregirlo o seguir.",
+ "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc muestra Err:522: tu fórmula cuenta también su propia celda. Toma solo las celdas de arriba.",
+ "Prüfe deine Formel.": "Revisa tu fórmula.",
+ "Stimmt der Name? Ist die Klammer zu?": "¿Está bien el nombre? ¿Está cerrado el paréntesis?"
 }

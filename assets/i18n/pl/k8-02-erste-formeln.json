@@ -112,5 +112,6 @@
  "das, was bei einer Rechnung herauskommt": "<strong>wynik</strong> – to, co wychodzi z rachunku",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>wiersz wprowadzania</strong> – długi wiersz nad tabelą. Tam widać formułę.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>przeliczyć</strong> – Calc liczy jeszcze raz, gdy zmieni się liczba",
- "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Teraz Calc liczy za ciebie. Formuła zaczyna się od <code>=</code> i liczy z komórkami. Gdy liczba się zmieni, Calc od razu przelicza. Kalkulator tego nie potrafi."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Teraz Calc liczy za ciebie. Formuła zaczyna się od <code>=</code> i liczy z komórkami. Gdy liczba się zmieni, Calc od razu przelicza. Kalkulator tego nie potrafi.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =.": "W {} jest tekst, a nie formuła. Formuła zaczyna się od <code>=</code>."
 }

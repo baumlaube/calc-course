@@ -208,5 +208,8 @@
  "Überleg noch einmal und wähle eine andere Antwort.": "Zastanów się jeszcze raz i wybierz inną odpowiedź.",
  "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Teraz wszystko się zgadza. Przy pierwszym sprawdzeniu: {} z {}.",
  "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} z {} dobrze. Zmień zaznaczone odpowiedzi i sprawdź jeszcze raz.",
- "Du kannst es verbessern oder weitergehen.": "Możesz poprawić albo iść dalej."
+ "Du kannst es verbessern oder weitergehen.": "Możesz poprawić albo iść dalej.",
+ "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc pokazuje Err:522: twoja formuła liczy też własną komórkę. Weź tylko komórki nad nią.",
+ "Prüfe deine Formel.": "Sprawdź swoją formułę.",
+ "Stimmt der Name? Ist die Klammer zu?": "Czy nazwa jest dobra? Czy nawias jest zamknięty?"
 }

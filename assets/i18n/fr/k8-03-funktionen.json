@@ -53,8 +53,8 @@
  "✔ Alle vier richtig! Bonus: Am Mittwoch warst du doch fleißiger. Ändere B7 auf 9000. Was passiert?": "✔ Les quatre sont justes ! <strong>Bonus :</strong> mercredi, tu as finalement marché plus. Change B7 en 9000. Que se passe-t-il ?",
  "B5:B9 bedeutet …": "<code>B5:B9</code> veut dire …",
  "Der Doppelpunkt heißt „bis“: B5, B6, B7, B8 und B9.": "Les deux-points veulent dire « jusqu'à » : B5, B6, B7, B8 et B9.",
- "Welche Funktion findet die Bestweite beim Weitsprung?": "Quelle fonction trouve la <strong>meilleure distance</strong> au saut en longueur ?",
- "Die Bestweite ist der größte Wert, also MAX.": "La meilleure distance est la plus grande valeur – donc MAX.",
+ "Welche Funktion findet den weitesten Sprung beim Weitsprung?": "Quelle fonction trouve le <strong>saut le plus long</strong> au saut en longueur ?",
+ "Der weiteste Sprung ist der größte Wert, also MAX.": "Le saut le plus long est la plus grande valeur, donc MAX.",
  "Welche Formel ist gleich wie =B5+B6+B7+B8+B9?": "Quelle formule fait la même chose que <code>=B5+B6+B7+B8+B9</code> ?",
  "Nur der Doppelpunkt nimmt alle Zellen dazwischen. Mit ; oder + wären es nur B5 und B9.": "Seuls les deux-points prennent toutes les cellules entre les deux. Avec ; ou +, ce serait seulement B5 et B9.",
  "🎲 Neu würfeln (in Calc: F9)": "🎲 Relancer (dans Calc : F9)",
@@ -90,7 +90,7 @@
  "Falle 1 zugeschnappt! In B8 ist die Jahreszahl 2024 mitgezählt. Richtig ist =SUMME(B2:B7).": "Piège 1 refermé ! En B8, <strong>l'année 2024</strong> a aussi été comptée. Juste : <code>=SUMME(B2:B7)</code>.",
  "Falle 2 zugeschnappt! Calc hat in C8 nur bis zur Lücke im März markiert. Richtig ist =SUMME(C2:C7).": "Piège 2 refermé ! En C8, Calc n'a sélectionné que <strong>jusqu'au trou</strong> de mars. Juste : <code>=SUMME(C2:C7)</code>.",
  "{}: Prüf den Bereich. Alle sechs Monate, ohne Überschrift.": "{} : Vérifie la plage. Les six mois, sans le titre.",
- "🏆 Beide Fallen entschärft! Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Les deux pièges désamorcés ! Retiens : Σ est rapide, mais <strong>vérifie toujours le cadre</strong>.",
+ "🏆 Beide Fallen entschärft! Falle 1: Σ nimmt die Jahreszahl aus der Überschrift mit. Falle 2: Bei einer leeren Zelle hört Σ zu früh auf. Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Les deux pièges désamorcés ! Piège 1 : Σ prend aussi l'année du titre. Piège 2 : à une cellule vide, Σ s'arrête trop tôt. Retiens : Σ est rapide, mais <strong>vérifie toujours le cadre</strong>.",
  "{} von 2 Summen richtig.": "{} sommes sur 2 justes.",
  "Klick B8 an und dann auf „Σ Summe“.": "Clique sur B8 puis sur „Σ Summe“.",
  "{}: Das ist der normale Durchschnitt. Die Schulaufgaben zählen doppelt!": "{} : C'est la moyenne normale. Les Schulaufgaben comptent double !",
@@ -122,5 +122,8 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>moyenne</strong> – tout additionner et diviser par le nombre de valeurs. Dans Calc : <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>valeur</strong> – ce qu'il y a dans une cellule, le plus souvent un nombre",
  "Zellen mit der Maus auswählen": "<strong>sélectionner</strong> – choisir des cellules avec la souris",
- "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Cinq nombres, tu peux les additionner avec <code>+</code>. Mais 30 notes ? Ou 365 jours ? C’est trop long. Une fonction comme <code>SUMME</code> (SOMME) calcule beaucoup de cellules d’un coup. Avec <code>MITTELWERT</code> (MOYENNE), tu calcules par exemple ta moyenne."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Cinq nombres, tu peux les additionner avec <code>+</code>. Mais 30 notes ? Ou 365 jours ? C’est trop long. Une fonction comme <code>SUMME</code> (SOMME) calcule beaucoup de cellules d’un coup. Avec <code>MITTELWERT</code> (MOYENNE), tu calcules par exemple ta moyenne.",
+ "Der Punkt in 6.200 trennt nur die Tausender. So liest man große Zahlen leichter. Tippen musst du ihn nicht.": "Le point dans 6.200 sépare seulement les milliers. Comme ça, les grands nombres se lisent plus facilement. Tu n'as pas besoin de le taper.",
+ "In B7 steht jetzt Text. Tippe nur die Zahl, zum Beispiel 9000.": "Maintenant, il y a du texte dans B7. Tape seulement le nombre, par exemple <code>9000</code>.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =: ={}(B5:B9)": "Dans {}, il y a du texte, pas une formule. Une formule commence par <code>=</code> : <code>={}(B5:B9)</code>"
 }

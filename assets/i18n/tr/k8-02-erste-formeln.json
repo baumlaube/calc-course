@@ -112,5 +112,6 @@
  "das, was bei einer Rechnung herauskommt": "<strong>sonuç</strong> – bir hesaptan çıkan şey",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>giriş satırı</strong> – tablonun üstündeki uzun satır. Formülü orada görürsün.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>yeniden hesaplamak</strong> – bir sayı değişince Calc bir daha hesaplar",
- "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Artık Calc senin için hesaplar. Formül <code>=</code> ile başlar ve hücrelerle hesap yapar. Bir sayı değişince Calc hemen yeniden hesaplar. Hesap makinesi bunu yapamaz."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Artık Calc senin için hesaplar. Formül <code>=</code> ile başlar ve hücrelerle hesap yapar. Bir sayı değişince Calc hemen yeniden hesaplar. Hesap makinesi bunu yapamaz.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =.": "{} hücresinde formül değil, metin var. Formül <code>=</code> ile başlar."
 }

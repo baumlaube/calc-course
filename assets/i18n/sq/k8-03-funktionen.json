@@ -53,8 +53,8 @@
  "✔ Alle vier richtig! Bonus: Am Mittwoch warst du doch fleißiger. Ändere B7 auf 9000. Was passiert?": "✔ Të katra saktë! <strong>Bonus:</strong> Të mërkurën ece më shumë në fakt. Ndrysho B7 në 9000. Çfarë ndodh?",
  "B5:B9 bedeutet …": "<code>B5:B9</code> do të thotë …",
  "Der Doppelpunkt heißt „bis“: B5, B6, B7, B8 und B9.": "Dy pikat do të thonë „deri te”: B5, B6, B7, B8 dhe B9.",
- "Welche Funktion findet die Bestweite beim Weitsprung?": "Cili funksion gjen <strong>distancën më të mirë</strong> në kërcimin së gjati?",
- "Die Bestweite ist der größte Wert, also MAX.": "Distanca më e mirë është vlera më e madhe – pra MAX.",
+ "Welche Funktion findet den weitesten Sprung beim Weitsprung?": "Cili funksion gjen <strong>kërcimin më të gjatë</strong> te kërcimi së gjati?",
+ "Der weiteste Sprung ist der größte Wert, also MAX.": "Kërcimi më i gjatë është vlera më e madhe, pra MAX.",
  "Welche Formel ist gleich wie =B5+B6+B7+B8+B9?": "Cila formulë është e njëjtë me <code>=B5+B6+B7+B8+B9</code>?",
  "Nur der Doppelpunkt nimmt alle Zellen dazwischen. Mit ; oder + wären es nur B5 und B9.": "Vetëm dy pikat marrin të gjitha qelizat ndërmjet. Me ; ose + do të ishin vetëm B5 dhe B9.",
  "🎲 Neu würfeln (in Calc: F9)": "🎲 Hidh përsëri (në Calc: F9)",
@@ -90,7 +90,7 @@
  "Falle 1 zugeschnappt! In B8 ist die Jahreszahl 2024 mitgezählt. Richtig ist =SUMME(B2:B7).": "Kurthi 1 u mbyll! Në B8 u numërua edhe <strong>viti 2024</strong>. E saktë është <code>=SUMME(B2:B7)</code>.",
  "Falle 2 zugeschnappt! Calc hat in C8 nur bis zur Lücke im März markiert. Richtig ist =SUMME(C2:C7).": "Kurthi 2 u mbyll! Në C8 Calc zgjodhi vetëm <strong>deri te vendi bosh</strong> në mars. E saktë është <code>=SUMME(C2:C7)</code>.",
  "{}: Prüf den Bereich. Alle sechs Monate, ohne Überschrift.": "{}: Kontrollo zonën. Të gjashtë muajt, pa titullin.",
- "🏆 Beide Fallen entschärft! Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Të dy kurthet u çaktivizuan! Mbaje mend: Σ është i shpejtë, por <strong>kontrollo gjithmonë kornizën</strong>.",
+ "🏆 Beide Fallen entschärft! Falle 1: Σ nimmt die Jahreszahl aus der Überschrift mit. Falle 2: Bei einer leeren Zelle hört Σ zu früh auf. Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Të dy kurthet u çaktivizuan! Kurthi 1: Σ merr edhe vitin nga titulli. Kurthi 2: te një qelizë bosh, Σ ndalon shumë herët. Mbaje mend: Σ është i shpejtë, por <strong>kontrollo gjithmonë kornizën</strong>.",
  "{} von 2 Summen richtig.": "{} nga 2 shuma të sakta.",
  "Klick B8 an und dann auf „Σ Summe“.": "Kliko B8 dhe pastaj „Σ Summe“.",
  "{}: Das ist der normale Durchschnitt. Die Schulaufgaben zählen doppelt!": "{}: Kjo është mesatarja normale. Schulaufgaben llogariten dyfish!",
@@ -122,5 +122,8 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>mesatare</strong> – mbledh gjithçka dhe pjesëto me sasinë. Në Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>vlerë</strong> – ajo që është në një qelizë, zakonisht një numër",
  "Zellen mit der Maus auswählen": "<strong>zgjedh, shënoj</strong> – zgjedh qeliza me maus",
- "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Pesë numra mund t’i mbledhësh me <code>+</code>. Po 30 nota? Apo 365 ditë? Kjo zgjat shumë. Një funksion si <code>SUMME</code> (SUM) llogarit shumë qeliza njëherësh. Me <code>MITTELWERT</code> (AVERAGE) llogarit për shembull mesataren e notave."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Pesë numra mund t’i mbledhësh me <code>+</code>. Po 30 nota? Apo 365 ditë? Kjo zgjat shumë. Një funksion si <code>SUMME</code> (SUM) llogarit shumë qeliza njëherësh. Me <code>MITTELWERT</code> (AVERAGE) llogarit për shembull mesataren e notave.",
+ "Der Punkt in 6.200 trennt nur die Tausender. So liest man große Zahlen leichter. Tippen musst du ihn nicht.": "Pika në 6.200 vetëm ndan mijëshet. Kështu numrat e mëdhenj lexohen më lehtë. Nuk ke nevojë ta shkruash.",
+ "In B7 steht jetzt Text. Tippe nur die Zahl, zum Beispiel 9000.": "Tani në B7 ka tekst. Shkruaj vetëm numrin, për shembull <code>9000</code>.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =: ={}(B5:B9)": "Në {} ka tekst, jo formulë. Një formulë fillon me <code>=</code>: <code>={}(B5:B9)</code>"
 }

@@ -112,5 +112,6 @@
  "das, was bei einer Rechnung herauskommt": "<strong>نتيجة</strong> – ما يخرج من الحساب",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>سطر الإدخال</strong> – السطر الطويل فوق الجدول. هناك ترى الصيغة.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>يحسب من جديد</strong> – يحسب Calc مرة أخرى عندما يتغير رقم",
- "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "الآن يحسب Calc عنك. الصيغة تبدأ بـ <code>=</code> وتحسب بالخلايا. إذا تغيّر رقم يعيد Calc الحساب فورًا. الآلة الحاسبة لا تستطيع ذلك."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "الآن يحسب Calc عنك. الصيغة تبدأ بـ <code>=</code> وتحسب بالخلايا. إذا تغيّر رقم يعيد Calc الحساب فورًا. الآلة الحاسبة لا تستطيع ذلك.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =.": "في {} نص، وليس صيغة. الصيغة تبدأ بـ <code>=</code>."
 }

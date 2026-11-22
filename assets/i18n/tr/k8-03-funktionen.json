@@ -52,8 +52,8 @@
  "✔ Alle vier richtig! Bonus: Am Mittwoch warst du doch fleißiger. Ändere B7 auf 9000. Was passiert?": "✔ Dördü de doğru! <strong>Bonus:</strong> Çarşamba aslında daha çok yürüdün. B7'yi 9000 yap. Ne olur?",
  "B5:B9 bedeutet …": "<code>B5:B9</code> şu demek …",
  "Der Doppelpunkt heißt „bis“: B5, B6, B7, B8 und B9.": "İki nokta “-e kadar” demektir: B5, B6, B7, B8 ve B9.",
- "Welche Funktion findet die Bestweite beim Weitsprung?": "Uzun atlamada <strong>en iyi mesafeyi</strong> hangi fonksiyon bulur?",
- "Die Bestweite ist der größte Wert, also MAX.": "En iyi mesafe en büyük değerdir – yani MAX.",
+ "Welche Funktion findet den weitesten Sprung beim Weitsprung?": "Uzun atlamada <strong>en uzun atlayışı</strong> hangi fonksiyon bulur?",
+ "Der weiteste Sprung ist der größte Wert, also MAX.": "En uzun atlayış en büyük değerdir, yani MAX.",
  "Welche Formel ist gleich wie =B5+B6+B7+B8+B9?": "Hangi formül <code>=B5+B6+B7+B8+B9</code> ile aynıdır?",
  "Nur der Doppelpunkt nimmt alle Zellen dazwischen. Mit ; oder + wären es nur B5 und B9.": "Sadece iki nokta aradaki bütün hücreleri alır. ; veya + ile sadece B5 ve B9 olurdu.",
  "🎲 Neu würfeln (in Calc: F9)": "🎲 Yeniden at (Calc'ta: F9)",
@@ -90,7 +90,7 @@
  "Falle 1 zugeschnappt! In B8 ist die Jahreszahl 2024 mitgezählt. Richtig ist =SUMME(B2:B7).": "Tuzak 1 kapandı! B8'de <strong>2024 yılı</strong> da sayılmış. Doğrusu <code>=SUMME(B2:B7)</code>.",
  "Falle 2 zugeschnappt! Calc hat in C8 nur bis zur Lücke im März markiert. Richtig ist =SUMME(C2:C7).": "Tuzak 2 kapandı! C8'de Calc Mart'taki <strong>boşluğa kadar</strong> seçmiş. Doğrusu <code>=SUMME(C2:C7)</code>.",
  "{}: Prüf den Bereich. Alle sechs Monate, ohne Überschrift.": "{}: Aralığı kontrol et. Altı ayın hepsi, başlık olmadan.",
- "🏆 Beide Fallen entschärft! Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 İki tuzak da etkisiz! Unutma: Σ hızlıdır ama <strong>çerçeveyi her zaman kontrol et</strong>.",
+ "🏆 Beide Fallen entschärft! Falle 1: Σ nimmt die Jahreszahl aus der Überschrift mit. Falle 2: Bei einer leeren Zelle hört Σ zu früh auf. Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 İki tuzak da etkisiz! Tuzak 1: Σ başlıktaki yılı da alır. Tuzak 2: Boş bir hücrede Σ çok erken durur. Unutma: Σ hızlıdır ama <strong>çerçeveyi her zaman kontrol et</strong>.",
  "{} von 2 Summen richtig.": "2 toplamdan {} tanesi doğru.",
  "Klick B8 an und dann auf „Σ Summe“.": "B8'e, sonra „Σ Summe“ye tıkla.",
  "{}: Das ist der normale Durchschnitt. Die Schulaufgaben zählen doppelt!": "{}: Bu normal ortalama. Schulaufgaben iki kat sayılır!",
@@ -122,5 +122,8 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>ortalama</strong> – hepsini toplayıp adede bölmek. Calc'ta: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>değer</strong> – bir hücrede duran şey, çoğu zaman bir sayı",
  "Zellen mit der Maus auswählen": "<strong>seçmek, işaretlemek</strong> – hücreleri fareyle seçmek",
- "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Beş sayıyı <code>+</code> ile toplayabilirsin. Ama 30 not? Ya da 365 gün? Bu çok uzun sürer. <code>SUMME</code> (TOPLA) gibi bir fonksiyon birçok hücreyi tek seferde hesaplar. <code>MITTELWERT</code> (ORTALAMA) ile örneğin not ortalamanı hesaplarsın."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Beş sayıyı <code>+</code> ile toplayabilirsin. Ama 30 not? Ya da 365 gün? Bu çok uzun sürer. <code>SUMME</code> (TOPLA) gibi bir fonksiyon birçok hücreyi tek seferde hesaplar. <code>MITTELWERT</code> (ORTALAMA) ile örneğin not ortalamanı hesaplarsın.",
+ "Der Punkt in 6.200 trennt nur die Tausender. So liest man große Zahlen leichter. Tippen musst du ihn nicht.": "6.200'deki nokta sadece binleri ayırır. Böylece büyük sayılar daha kolay okunur. Onu yazman gerekmez.",
+ "In B7 steht jetzt Text. Tippe nur die Zahl, zum Beispiel 9000.": "B7'de şimdi metin var. Sadece sayıyı yaz, örneğin <code>9000</code>.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =: ={}(B5:B9)": "{} hücresinde formül değil, metin var. Formül <code>=</code> ile başlar: <code>={}(B5:B9)</code>"
 }

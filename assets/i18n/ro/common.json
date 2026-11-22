@@ -208,5 +208,8 @@
  "Überleg noch einmal und wähle eine andere Antwort.": "Mai gândește-te o dată și alege alt răspuns.",
  "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Acum totul e corect. La prima verificare: {} din {}.",
  "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} din {} corecte. Schimbă răspunsurile marcate și verifică din nou.",
- "Du kannst es verbessern oder weitergehen.": "Poți să corectezi sau să mergi mai departe."
+ "Du kannst es verbessern oder weitergehen.": "Poți să corectezi sau să mergi mai departe.",
+ "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc arată Err:522: formula ta numără și propria celulă. Ia doar celulele de deasupra.",
+ "Prüfe deine Formel.": "Verifică formula ta.",
+ "Stimmt der Name? Ist die Klammer zu?": "E corect numele? E închisă paranteza?"
 }

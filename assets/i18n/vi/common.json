@@ -208,5 +208,8 @@
  "Überleg noch einmal und wähle eine andere Antwort.": "Hãy nghĩ lại và chọn một đáp án khác.",
  "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Giờ thì tất cả đều đúng. Lần kiểm tra đầu tiên: {} trên {}.",
  "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "Đúng {} trên {}. Hãy đổi các đáp án được đánh dấu và kiểm tra lại.",
- "Du kannst es verbessern oder weitergehen.": "Bạn có thể sửa lại hoặc đi tiếp."
+ "Du kannst es verbessern oder weitergehen.": "Bạn có thể sửa lại hoặc đi tiếp.",
+ "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc hiện Err:522: công thức của bạn đếm cả chính ô của nó. Chỉ lấy các ô ở phía trên.",
+ "Prüfe deine Formel.": "Hãy kiểm tra công thức của bạn.",
+ "Stimmt der Name? Ist die Klammer zu?": "Tên có đúng không? Đã đóng ngoặc chưa?"
 }

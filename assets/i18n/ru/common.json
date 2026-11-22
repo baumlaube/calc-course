@@ -208,5 +208,8 @@
  "Überleg noch einmal und wähle eine andere Antwort.": "Подумай ещё раз и выбери другой ответ.",
  "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Теперь всё правильно. При первой проверке: {} из {}.",
  "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} из {} правильно. Измени отмеченные ответы и проверь ещё раз.",
- "Du kannst es verbessern oder weitergehen.": "Ты можешь исправить или идти дальше."
+ "Du kannst es verbessern oder weitergehen.": "Ты можешь исправить или идти дальше.",
+ "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc показывает Err:522: твоя формула считает и свою собственную ячейку. Бери только ячейки над ней.",
+ "Prüfe deine Formel.": "Проверь свою формулу.",
+ "Stimmt der Name? Ist die Klammer zu?": "Имя верное? Скобка закрыта?"
 }

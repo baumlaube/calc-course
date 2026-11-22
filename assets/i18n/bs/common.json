@@ -208,5 +208,8 @@
  "Überleg noch einmal und wähle eine andere Antwort.": "Razmisli još jednom i izaberi drugi odgovor.",
  "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Sada je sve tačno. Pri prvoj provjeri: {} od {}.",
  "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} od {} tačno. Promijeni označene odgovore i provjeri ponovo.",
- "Du kannst es verbessern oder weitergehen.": "Možeš ispraviti ili ići dalje."
+ "Du kannst es verbessern oder weitergehen.": "Možeš ispraviti ili ići dalje.",
+ "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc pokazuje Err:522: tvoja formula broji i svoju vlastitu ćeliju. Uzmi samo ćelije iznad.",
+ "Prüfe deine Formel.": "Provjeri svoju formulu.",
+ "Stimmt der Name? Ist die Klammer zu?": "Je li naziv tačan? Je li zagrada zatvorena?"
 }

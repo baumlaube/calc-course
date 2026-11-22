@@ -53,8 +53,8 @@
  "✔ Alle vier richtig! Bonus: Am Mittwoch warst du doch fleißiger. Ändere B7 auf 9000. Was passiert?": "✔ Wszystkie cztery dobrze! <strong>Bonus:</strong> W środę było jednak więcej kroków. Zmień B7 na 9000. Co się dzieje?",
  "B5:B9 bedeutet …": "<code>B5:B9</code> znaczy …",
  "Der Doppelpunkt heißt „bis“: B5, B6, B7, B8 und B9.": "Dwukropek znaczy „do”: B5, B6, B7, B8 i B9.",
- "Welche Funktion findet die Bestweite beim Weitsprung?": "Która funkcja znajduje <strong>najlepszą odległość</strong> w skoku w dal?",
- "Die Bestweite ist der größte Wert, also MAX.": "Najlepsza odległość to największa wartość – czyli MAX.",
+ "Welche Funktion findet den weitesten Sprung beim Weitsprung?": "Która funkcja znajduje <strong>najdłuższy skok</strong> w skoku w dal?",
+ "Der weiteste Sprung ist der größte Wert, also MAX.": "Najdłuższy skok to największa wartość – czyli MAX.",
  "Welche Formel ist gleich wie =B5+B6+B7+B8+B9?": "Która formuła jest taka sama jak <code>=B5+B6+B7+B8+B9</code>?",
  "Nur der Doppelpunkt nimmt alle Zellen dazwischen. Mit ; oder + wären es nur B5 und B9.": "Tylko dwukropek bierze wszystkie komórki pomiędzy. Z ; albo + byłyby tylko B5 i B9.",
  "🎲 Neu würfeln (in Calc: F9)": "🎲 Rzuć jeszcze raz (w Calc: F9)",
@@ -90,7 +90,7 @@
  "Falle 1 zugeschnappt! In B8 ist die Jahreszahl 2024 mitgezählt. Richtig ist =SUMME(B2:B7).": "Pułapka 1 zadziałała! W B8 policzono też <strong>rok 2024</strong>. Poprawnie: <code>=SUMME(B2:B7)</code>.",
  "Falle 2 zugeschnappt! Calc hat in C8 nur bis zur Lücke im März markiert. Richtig ist =SUMME(C2:C7).": "Pułapka 2 zadziałała! W C8 Calc zaznaczył tylko <strong>do luki</strong> w marcu. Poprawnie: <code>=SUMME(C2:C7)</code>.",
  "{}: Prüf den Bereich. Alle sechs Monate, ohne Überschrift.": "{}: Sprawdź zakres. Wszystkie sześć miesięcy, bez nagłówka.",
- "🏆 Beide Fallen entschärft! Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Obie pułapki rozbrojone! Zapamiętaj: Σ jest szybka, ale <strong>zawsze sprawdzaj ramkę</strong>.",
+ "🏆 Beide Fallen entschärft! Falle 1: Σ nimmt die Jahreszahl aus der Überschrift mit. Falle 2: Bei einer leeren Zelle hört Σ zu früh auf. Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Obie pułapki rozbrojone! Pułapka 1: Σ bierze też rok z nagłówka. Pułapka 2: przy pustej komórce Σ kończy za wcześnie. Zapamiętaj: Σ jest szybka, ale <strong>zawsze sprawdzaj ramkę</strong>.",
  "{} von 2 Summen richtig.": "Dobrze {} z 2 sum.",
  "Klick B8 an und dann auf „Σ Summe“.": "Kliknij B8, a potem „Σ Summe“.",
  "{}: Das ist der normale Durchschnitt. Die Schulaufgaben zählen doppelt!": "{}: To zwykła średnia. Schulaufgaben liczą się podwójnie!",
@@ -122,5 +122,8 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>średnia</strong> – wszystko dodać i podzielić przez ilość. W Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>wartość</strong> – to, co jest w komórce, najczęściej liczba",
  "Zellen mit der Maus auswählen": "<strong>zaznaczyć</strong> – wybrać komórki myszką",
- "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Pięć liczb możesz dodać za pomocą <code>+</code>. Ale 30 ocen? Albo 365 dni? To trwa za długo. Funkcja taka jak <code>SUMME</code> (SUMA) liczy wiele komórek naraz. Za pomocą <code>MITTELWERT</code> (ŚREDNIA) policzysz na przykład swoją średnią ocen."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Pięć liczb możesz dodać za pomocą <code>+</code>. Ale 30 ocen? Albo 365 dni? To trwa za długo. Funkcja taka jak <code>SUMME</code> (SUMA) liczy wiele komórek naraz. Za pomocą <code>MITTELWERT</code> (ŚREDNIA) policzysz na przykład swoją średnią ocen.",
+ "Der Punkt in 6.200 trennt nur die Tausender. So liest man große Zahlen leichter. Tippen musst du ihn nicht.": "Kropka w 6.200 tylko oddziela tysiące. Tak łatwiej czytać duże liczby. Nie musisz jej wpisywać.",
+ "In B7 steht jetzt Text. Tippe nur die Zahl, zum Beispiel 9000.": "Teraz w B7 jest tekst. Wpisz tylko liczbę, na przykład <code>9000</code>.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =: ={}(B5:B9)": "W {} jest tekst, a nie formuła. Formuła zaczyna się od <code>=</code>: <code>={}(B5:B9)</code>"
 }

@@ -57,8 +57,8 @@
  "B5 und B9": "B5 and B9",
  "B5 bis B9": "B5 to B9",
  "Der Doppelpunkt heißt „bis“: B5, B6, B7, B8 und B9.": "The colon means “to”: B5, B6, B7, B8 and B9.",
- "Welche Funktion findet die Bestweite beim Weitsprung?": "Which function finds the <strong>best distance</strong> in the long jump?",
- "Die Bestweite ist der größte Wert, also MAX.": "The best distance is the biggest value – so MAX.",
+ "Welche Funktion findet den weitesten Sprung beim Weitsprung?": "Which function finds the <strong>longest jump</strong> in the long jump?",
+ "Der weiteste Sprung ist der größte Wert, also MAX.": "The longest jump is the biggest value – so MAX.",
  "Welche Formel ist gleich wie =B5+B6+B7+B8+B9?": "Which formula is the same as <code>=B5+B6+B7+B8+B9</code>?",
  "Nur der Doppelpunkt nimmt alle Zellen dazwischen. Mit ; oder + wären es nur B5 und B9.": "Only the colon takes all cells in between. With ; or + it would only be B5 and B9.",
  "🎲 Neu würfeln (in Calc: F9)": "🎲 Roll again (in Calc: F9)",
@@ -90,7 +90,7 @@
  "Falle 1 zugeschnappt! In B8 ist die Jahreszahl 2024 mitgezählt. Richtig ist =SUMME(B2:B7).": "Trap 1 snapped shut! In B8 the <strong>year 2024</strong> was counted too. Correct is <code>=SUMME(B2:B7)</code>.",
  "Falle 2 zugeschnappt! Calc hat in C8 nur bis zur Lücke im März markiert. Richtig ist =SUMME(C2:C7).": "Trap 2 snapped shut! In C8 Calc only selected <strong>up to the gap</strong> in March. Correct is <code>=SUMME(C2:C7)</code>.",
  "{}: Prüf den Bereich. Alle sechs Monate, ohne Überschrift.": "{}: Check the range. All six months, without the heading.",
- "🏆 Beide Fallen entschärft! Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Both traps defused! Remember: Σ is fast, but <strong>always check the frame</strong>.",
+ "🏆 Beide Fallen entschärft! Falle 1: Σ nimmt die Jahreszahl aus der Überschrift mit. Falle 2: Bei einer leeren Zelle hört Σ zu früh auf. Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Both traps defused! Trap 1: Σ also takes the year from the heading. Trap 2: at an empty cell, Σ stops too early. Remember: Σ is fast, but <strong>always check the frame</strong>.",
  "{} von 2 Summen richtig.": "{} of 2 sums correct.",
  "Klick B8 an und dann auf „Σ Summe“.": "Click B8 and then „Σ Summe“.",
  "{}: Das ist der normale Durchschnitt. Die Schulaufgaben zählen doppelt!": "{}: That is the normal average. The Schulaufgaben count double!",
@@ -122,5 +122,8 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>average</strong> – add everything up and divide by how many there are. In Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>value</strong> – what is in a cell, usually a number",
  "Zellen mit der Maus auswählen": "<strong>to select</strong> – to choose cells with the mouse",
- "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "You can add five numbers with <code>+</code>. But 30 grades? Or 365 days? That takes too long. A function like <code>SUMME</code> (SUM) calculates many cells at once. With <code>MITTELWERT</code> (AVERAGE) you can work out your grade average, for example."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "You can add five numbers with <code>+</code>. But 30 grades? Or 365 days? That takes too long. A function like <code>SUMME</code> (SUM) calculates many cells at once. With <code>MITTELWERT</code> (AVERAGE) you can work out your grade average, for example.",
+ "Der Punkt in 6.200 trennt nur die Tausender. So liest man große Zahlen leichter. Tippen musst du ihn nicht.": "The dot in 6.200 only separates the thousands. It makes big numbers easier to read. You don't have to type it.",
+ "In B7 steht jetzt Text. Tippe nur die Zahl, zum Beispiel 9000.": "Now there is text in B7. Type only the number, for example <code>9000</code>.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =: ={}(B5:B9)": "In {} there is text, not a formula. A formula starts with <code>=</code>: <code>={}(B5:B9)</code>"
 }

@@ -112,5 +112,6 @@
  "das, was bei einer Rechnung herauskommt": "<strong>resultado</strong> – lo que sale de una cuenta",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>línea de entrada</strong> – la línea larga encima de la tabla. Ahí ves la fórmula.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>recalcular</strong> – Calc calcula otra vez cuando cambia un número",
- "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Ahora Calc calcula por ti. Una fórmula empieza con <code>=</code> y calcula con las celdas. Si cambia un número, Calc vuelve a calcular enseguida. Una calculadora no puede hacer eso."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Ahora Calc calcula por ti. Una fórmula empieza con <code>=</code> y calcula con las celdas. Si cambia un número, Calc vuelve a calcular enseguida. Una calculadora no puede hacer eso.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =.": "En {} hay texto, no una fórmula. Una fórmula empieza con <code>=</code>."
 }

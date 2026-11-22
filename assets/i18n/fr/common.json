@@ -208,5 +208,8 @@
  "Überleg noch einmal und wähle eine andere Antwort.": "Réfléchis encore et choisis une autre réponse.",
  "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Maintenant tout est juste. À la première vérification : {} sur {}.",
  "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} sur {} justes. Change les réponses marquées et vérifie encore.",
- "Du kannst es verbessern oder weitergehen.": "Tu peux corriger ou continuer."
+ "Du kannst es verbessern oder weitergehen.": "Tu peux corriger ou continuer.",
+ "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc affiche Err:522 : ta formule compte aussi sa propre cellule. Prends seulement les cellules au-dessus.",
+ "Prüfe deine Formel.": "Vérifie ta formule.",
+ "Stimmt der Name? Ist die Klammer zu?": "Le nom est-il juste ? La parenthèse est-elle fermée ?"
 }

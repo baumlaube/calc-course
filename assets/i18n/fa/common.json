@@ -208,5 +208,8 @@
  "Überleg noch einmal und wähle eine andere Antwort.": "یک بار دیگر فکر کن و جواب دیگری انتخاب کن.",
  "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ حالا همه درست است. در بررسی اول: {} از {}.",
  "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} از {} درست. جواب‌های علامت‌خورده را عوض کن و دوباره بررسی کن.",
- "Du kannst es verbessern oder weitergehen.": "می‌توانی درستش کنی یا ادامه بدهی."
+ "Du kannst es verbessern oder weitergehen.": "می‌توانی درستش کنی یا ادامه بدهی.",
+ "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc خطای Err:522 را نشان می‌دهد: فرمولت خانهٔ خودش را هم می‌شمارد. فقط خانه‌های بالای آن را بگیر.",
+ "Prüfe deine Formel.": "فرمولت را بررسی کن.",
+ "Stimmt der Name? Ist die Klammer zu?": "نام درست است؟ پرانتز بسته است؟"
 }

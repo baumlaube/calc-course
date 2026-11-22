@@ -53,8 +53,8 @@
  "✔ Alle vier richtig! Bonus: Am Mittwoch warst du doch fleißiger. Ändere B7 auf 9000. Was passiert?": "✔ ¡Las cuatro están bien! <strong>Extra:</strong> el miércoles al final caminaste más. Cambia B7 a 9000. ¿Qué pasa?",
  "B5:B9 bedeutet …": "<code>B5:B9</code> significa …",
  "Der Doppelpunkt heißt „bis“: B5, B6, B7, B8 und B9.": "Los dos puntos significan «hasta»: B5, B6, B7, B8 y B9.",
- "Welche Funktion findet die Bestweite beim Weitsprung?": "¿Qué función encuentra la <strong>mejor marca</strong> en el salto de longitud?",
- "Die Bestweite ist der größte Wert, also MAX.": "La mejor marca es el valor más grande: o sea, MAX.",
+ "Welche Funktion findet den weitesten Sprung beim Weitsprung?": "¿Qué función encuentra el <strong>salto más largo</strong> en el salto de longitud?",
+ "Der weiteste Sprung ist der größte Wert, also MAX.": "El salto más largo es el valor más grande, o sea MAX.",
  "Welche Formel ist gleich wie =B5+B6+B7+B8+B9?": "¿Qué fórmula da lo mismo que <code>=B5+B6+B7+B8+B9</code>?",
  "Nur der Doppelpunkt nimmt alle Zellen dazwischen. Mit ; oder + wären es nur B5 und B9.": "Solo los dos puntos toman todas las celdas de en medio. Con ; o + serían solo B5 y B9.",
  "🎲 Neu würfeln (in Calc: F9)": "🎲 Volver a tirar (en Calc: F9)",
@@ -90,7 +90,7 @@
  "Falle 1 zugeschnappt! In B8 ist die Jahreszahl 2024 mitgezählt. Richtig ist =SUMME(B2:B7).": "¡Trampa 1 activada! En B8 se ha contado también <strong>el año 2024</strong>. Lo correcto es <code>=SUMME(B2:B7)</code>.",
  "Falle 2 zugeschnappt! Calc hat in C8 nur bis zur Lücke im März markiert. Richtig ist =SUMME(C2:C7).": "¡Trampa 2 activada! En C8 Calc solo seleccionó <strong>hasta el hueco</strong> de marzo. Lo correcto es <code>=SUMME(C2:C7)</code>.",
  "{}: Prüf den Bereich. Alle sechs Monate, ohne Überschrift.": "{}: Revisa el rango. Los seis meses, sin el encabezado.",
- "🏆 Beide Fallen entschärft! Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 ¡Las dos trampas desactivadas! Recuerda: Σ es rápido, pero <strong>revisa siempre el marco</strong>.",
+ "🏆 Beide Fallen entschärft! Falle 1: Σ nimmt die Jahreszahl aus der Überschrift mit. Falle 2: Bei einer leeren Zelle hört Σ zu früh auf. Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 ¡Las dos trampas desactivadas! Trampa 1: Σ toma también el año del título. Trampa 2: en una celda vacía, Σ se detiene demasiado pronto. Recuerda: Σ es rápido, pero <strong>revisa siempre el marco</strong>.",
  "{} von 2 Summen richtig.": "{} de 2 sumas bien.",
  "Klick B8 an und dann auf „Σ Summe“.": "Haz clic en B8 y luego en „Σ Summe“.",
  "{}: Das ist der normale Durchschnitt. Die Schulaufgaben zählen doppelt!": "{}: Esa es la media normal. ¡Las Schulaufgaben cuentan doble!",
@@ -122,5 +122,8 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>promedio</strong> – sumar todo y dividir entre la cantidad. En Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>valor</strong> – lo que hay en una celda, casi siempre un número",
  "Zellen mit der Maus auswählen": "<strong>seleccionar</strong> – elegir celdas con el ratón",
- "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Cinco números los puedes sumar con <code>+</code>. ¿Pero 30 notas? ¿O 365 días? Eso tarda demasiado. Una función como <code>SUMME</code> (SUMA) calcula muchas celdas a la vez. Con <code>MITTELWERT</code> (PROMEDIO) calculas, por ejemplo, tu nota media."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Cinco números los puedes sumar con <code>+</code>. ¿Pero 30 notas? ¿O 365 días? Eso tarda demasiado. Una función como <code>SUMME</code> (SUMA) calcula muchas celdas a la vez. Con <code>MITTELWERT</code> (PROMEDIO) calculas, por ejemplo, tu nota media.",
+ "Der Punkt in 6.200 trennt nur die Tausender. So liest man große Zahlen leichter. Tippen musst du ihn nicht.": "El punto en 6.200 solo separa los miles. Así los números grandes se leen mejor. No tienes que escribirlo.",
+ "In B7 steht jetzt Text. Tippe nur die Zahl, zum Beispiel 9000.": "Ahora en B7 hay texto. Escribe solo el número, por ejemplo <code>9000</code>.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =: ={}(B5:B9)": "En {} hay texto, no una fórmula. Una fórmula empieza con <code>=</code>: <code>={}(B5:B9)</code>"
 }

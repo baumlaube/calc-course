@@ -53,8 +53,8 @@
  "✔ Alle vier richtig! Bonus: Am Mittwoch warst du doch fleißiger. Ändere B7 auf 9000. Was passiert?": "✔ Все четыре правильно! <strong>Бонус:</strong> в среду ты всё-таки прошёл(а) больше. Измени B7 на 9000. Что произойдёт?",
  "B5:B9 bedeutet …": "<code>B5:B9</code> означает …",
  "Der Doppelpunkt heißt „bis“: B5, B6, B7, B8 und B9.": "Двоеточие означает «до»: B5, B6, B7, B8 и B9.",
- "Welche Funktion findet die Bestweite beim Weitsprung?": "Какая функция находит <strong>лучший результат</strong> в прыжке в длину?",
- "Die Bestweite ist der größte Wert, also MAX.": "Лучший результат – это наибольшее значение, значит MAX.",
+ "Welche Funktion findet den weitesten Sprung beim Weitsprung?": "Какая функция находит <strong>самый длинный прыжок</strong> в прыжках в длину?",
+ "Der weiteste Sprung ist der größte Wert, also MAX.": "Самый длинный прыжок – это самое большое значение, значит MAX.",
  "Welche Formel ist gleich wie =B5+B6+B7+B8+B9?": "Какая формула даёт то же, что <code>=B5+B6+B7+B8+B9</code>?",
  "Nur der Doppelpunkt nimmt alle Zellen dazwischen. Mit ; oder + wären es nur B5 und B9.": "Только двоеточие берёт все ячейки между ними. С ; или + были бы только B5 и B9.",
  "🎲 Neu würfeln (in Calc: F9)": "🎲 Бросить снова (в Calc: F9)",
@@ -90,7 +90,7 @@
  "Falle 1 zugeschnappt! In B8 ist die Jahreszahl 2024 mitgezählt. Richtig ist =SUMME(B2:B7).": "Ловушка 1 сработала! В B8 посчитан и <strong>год 2024</strong>. Правильно: <code>=SUMME(B2:B7)</code>.",
  "Falle 2 zugeschnappt! Calc hat in C8 nur bis zur Lücke im März markiert. Richtig ist =SUMME(C2:C7).": "Ловушка 2 сработала! В C8 Calc выделил только <strong>до пропуска</strong> в марте. Правильно: <code>=SUMME(C2:C7)</code>.",
  "{}: Prüf den Bereich. Alle sechs Monate, ohne Überschrift.": "{}: Проверь диапазон. Все шесть месяцев, без заголовка.",
- "🏆 Beide Fallen entschärft! Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Обе ловушки обезврежены! Запомни: Σ быстрая, но <strong>всегда проверяй рамку</strong>.",
+ "🏆 Beide Fallen entschärft! Falle 1: Σ nimmt die Jahreszahl aus der Überschrift mit. Falle 2: Bei einer leeren Zelle hört Σ zu früh auf. Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Обе ловушки обезврежены! Ловушка 1: Σ берёт и год из заголовка. Ловушка 2: на пустой ячейке Σ останавливается слишком рано. Запомни: Σ быстрая, но <strong>всегда проверяй рамку</strong>.",
  "{} von 2 Summen richtig.": "Верно {} из 2 сумм.",
  "Klick B8 an und dann auf „Σ Summe“.": "Щёлкни B8, а потом „Σ Summe“.",
  "{}: Das ist der normale Durchschnitt. Die Schulaufgaben zählen doppelt!": "{}: Это обычное среднее. Schulaufgaben считаются дважды!",
@@ -122,5 +122,8 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>среднее</strong> – всё сложить и разделить на количество. В Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>значение</strong> – то, что стоит в ячейке, чаще всего число",
  "Zellen mit der Maus auswählen": "<strong>выделить</strong> – выбрать ячейки мышкой",
- "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Пять чисел можно сложить через <code>+</code>. Но 30 оценок? Или 365 дней? Это слишком долго. Функция <code>SUMME</code> (СУММ) считает много ячеек сразу. С <code>MITTELWERT</code> (СРЗНАЧ) ты, например, посчитаешь свой средний балл."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Пять чисел можно сложить через <code>+</code>. Но 30 оценок? Или 365 дней? Это слишком долго. Функция <code>SUMME</code> (СУММ) считает много ячеек сразу. С <code>MITTELWERT</code> (СРЗНАЧ) ты, например, посчитаешь свой средний балл.",
+ "Der Punkt in 6.200 trennt nur die Tausender. So liest man große Zahlen leichter. Tippen musst du ihn nicht.": "Точка в 6.200 только отделяет тысячи. Так большие числа легче читать. Вводить её не нужно.",
+ "In B7 steht jetzt Text. Tippe nur die Zahl, zum Beispiel 9000.": "Теперь в B7 стоит текст. Введи только число, например <code>9000</code>.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =: ={}(B5:B9)": "В {} стоит текст, а не формула. Формула начинается с <code>=</code>: <code>={}(B5:B9)</code>"
 }

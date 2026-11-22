@@ -208,5 +208,8 @@
  "Überleg noch einmal und wähle eine andere Antwort.": "Bir daha düşün ve başka bir cevap seç.",
  "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Şimdi hepsi doğru. İlk kontrolde: {} / {} doğru.",
  "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "Doğru: {} / {}. İşaretli cevapları değiştir ve tekrar kontrol et.",
- "Du kannst es verbessern oder weitergehen.": "Düzeltebilir ya da devam edebilirsin."
+ "Du kannst es verbessern oder weitergehen.": "Düzeltebilir ya da devam edebilirsin.",
+ "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc Err:522 gösteriyor: Formülün kendi hücresini de sayıyor. Sadece üstündeki hücreleri al.",
+ "Prüfe deine Formel.": "Formülünü kontrol et.",
+ "Stimmt der Name? Ist die Klammer zu?": "İsim doğru mu? Parantez kapalı mı?"
 }

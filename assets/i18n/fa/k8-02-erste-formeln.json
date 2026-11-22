@@ -112,5 +112,6 @@
  "das, was bei einer Rechnung herauskommt": "<strong>نتیجه</strong> – چیزی که از حساب درمی‌آید",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>خط ورودی</strong> – خط بلند بالای جدول. آنجا فرمول را می‌بینی.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>دوباره حساب کردن</strong> – وقتی عددی عوض شود، Calc یک بار دیگر حساب می‌کند",
- "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "حالا Calc برایت حساب می‌کند. فرمول با <code>=</code> شروع می‌شود و با سلول‌ها حساب می‌کند. اگر عددی عوض شود، Calc فوراً دوباره حساب می‌کند. ماشین‌حساب این کار را نمی‌تواند."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "حالا Calc برایت حساب می‌کند. فرمول با <code>=</code> شروع می‌شود و با سلول‌ها حساب می‌کند. اگر عددی عوض شود، Calc فوراً دوباره حساب می‌کند. ماشین‌حساب این کار را نمی‌تواند.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =.": "در {} متن هست، نه فرمول. فرمول با <code>=</code> شروع می‌شود."
 }

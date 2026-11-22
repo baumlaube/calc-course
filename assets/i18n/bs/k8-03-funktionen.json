@@ -65,8 +65,8 @@
  "✔ Alle vier richtig! Bonus: Am Mittwoch warst du doch fleißiger. Ändere B7 auf 9000. Was passiert?": "✔ Sva četiri tačna! <strong>Bonus:</strong> U srijedu si ipak bio/la vrijedniji/a. Promijeni B7 na 9000. Šta se desi?",
  "B5:B9 bedeutet …": "<code>B5:B9</code> znači …",
  "Der Doppelpunkt heißt „bis“: B5, B6, B7, B8 und B9.": "Dvotačka znači „do“: B5, B6, B7, B8 i B9.",
- "Welche Funktion findet die Bestweite beim Weitsprung?": "Koja funkcija nalazi <strong>najbolji skok</strong> u skoku u dalj?",
- "Die Bestweite ist der größte Wert, also MAX.": "Najbolji skok je najveća vrijednost, dakle MAX.",
+ "Welche Funktion findet den weitesten Sprung beim Weitsprung?": "Koja funkcija nalazi <strong>najduži skok</strong> u skoku u dalj?",
+ "Der weiteste Sprung ist der größte Wert, also MAX.": "Najduži skok je najveća vrijednost, dakle MAX.",
  "Welche Formel ist gleich wie =B5+B6+B7+B8+B9?": "Koja formula je isto što i <code>=B5+B6+B7+B8+B9</code>?",
  "Nur der Doppelpunkt nimmt alle Zellen dazwischen. Mit ; oder + wären es nur B5 und B9.": "Samo dvotačka uzima sve ćelije između. Sa ; ili + bili bi samo B5 i B9.",
  "🎲 Neu würfeln (in Calc: F9)": "🎲 Baci ponovo (u Calcu: F9)",
@@ -83,7 +83,7 @@
  "Falle 1 zugeschnappt! In B8 ist die Jahreszahl 2024 mitgezählt. Richtig ist =SUMME(B2:B7).": "Zamka 1 je uhvatila! U B8 je uračunata i <strong>godina 2024</strong>. Tačno je <code>=SUMME(B2:B7)</code>.",
  "Falle 2 zugeschnappt! Calc hat in C8 nur bis zur Lücke im März markiert. Richtig ist =SUMME(C2:C7).": "Zamka 2 je uhvatila! Calc je u C8 označio samo <strong>do praznine</strong> u martu. Tačno je <code>=SUMME(C2:C7)</code>.",
  "{}: Prüf den Bereich. Alle sechs Monate, ohne Überschrift.": "{}: Provjeri raspon. Svih šest mjeseci, bez naslova.",
- "🏆 Beide Fallen entschärft! Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Obje zamke razoružane! Zapamti: Σ je brz, ali <strong>uvijek provjeri okvir</strong>.",
+ "🏆 Beide Fallen entschärft! Falle 1: Σ nimmt die Jahreszahl aus der Überschrift mit. Falle 2: Bei einer leeren Zelle hört Σ zu früh auf. Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Obje zamke razoružane! Zamka 1: Σ uzima i godinu iz naslova. Zamka 2: kod prazne ćelije Σ stane prerano. Zapamti: Σ je brz, ali <strong>uvijek provjeri okvir</strong>.",
  "{} von 2 Summen richtig.": "{} od 2 zbira tačno.",
  "Klick B8 an und dann auf „Σ Summe“.": "Klikni na B8, pa na „Σ Summe“.",
  "{}: Das ist der normale Durchschnitt. Die Schulaufgaben zählen doppelt!": "{}: To je običan prosjek. Pismeni zadaci se računaju dvostruko!",
@@ -117,5 +117,8 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>prosjek</strong> – sve sabrati i podijeliti s brojem vrijednosti. U Calcu: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>vrijednost</strong> – ono što stoji u ćeliji, najčešće broj",
  "Zellen mit der Maus auswählen": "<strong>označiti</strong> – odabrati ćelije mišem",
- "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Pet brojeva možeš sabrati sa <code>+</code>. Ali 30 ocjena? Ili 365 dana? To traje predugo. Funkcija kao <code>SUMME</code> (SUM) računa mnogo ćelija odjednom. Pomoću <code>MITTELWERT</code> (AVERAGE) izračunaš, na primjer, svoj prosjek ocjena."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Pet brojeva možeš sabrati sa <code>+</code>. Ali 30 ocjena? Ili 365 dana? To traje predugo. Funkcija kao <code>SUMME</code> (SUM) računa mnogo ćelija odjednom. Pomoću <code>MITTELWERT</code> (AVERAGE) izračunaš, na primjer, svoj prosjek ocjena.",
+ "Der Punkt in 6.200 trennt nur die Tausender. So liest man große Zahlen leichter. Tippen musst du ihn nicht.": "Tačka u 6.200 samo odvaja hiljade. Tako se veliki brojevi lakše čitaju. Ne moraš je kucati.",
+ "In B7 steht jetzt Text. Tippe nur die Zahl, zum Beispiel 9000.": "Sada je u B7 tekst. Ukucaj samo broj, na primjer <code>9000</code>.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =: ={}(B5:B9)": "U {} je tekst, a ne formula. Formula počinje sa <code>=</code>: <code>={}(B5:B9)</code>"
 }

@@ -112,5 +112,6 @@
  "das, was bei einer Rechnung herauskommt": "<strong>результат</strong> – то, что получается при расчёте",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>строка ввода</strong> – длинная строка над таблицей. Там видна формула.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>пересчитать</strong> – Calc считает ещё раз, когда число меняется",
- "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Теперь Calc считает за тебя. Формула начинается с <code>=</code> и считает с ячейками. Если число меняется, Calc сразу пересчитывает. Калькулятор так не умеет."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Теперь Calc считает за тебя. Формула начинается с <code>=</code> и считает с ячейками. Если число меняется, Calc сразу пересчитывает. Калькулятор так не умеет.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =.": "В {} стоит текст, а не формула. Формула начинается с <code>=</code>."
 }

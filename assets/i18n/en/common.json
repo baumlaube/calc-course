@@ -208,5 +208,8 @@
  "Überleg noch einmal und wähle eine andere Antwort.": "Think again and choose another answer.",
  "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Now everything is right. At the first check: {} out of {}.",
  "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} out of {} correct. Change the marked answers and check again.",
- "Du kannst es verbessern oder weitergehen.": "You can correct it or go on."
+ "Du kannst es verbessern oder weitergehen.": "You can correct it or go on.",
+ "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc shows Err:522: your formula counts its own cell. Only take the cells above.",
+ "Prüfe deine Formel.": "Check your formula.",
+ "Stimmt der Name? Ist die Klammer zu?": "Is the name right? Is the bracket closed?"
 }

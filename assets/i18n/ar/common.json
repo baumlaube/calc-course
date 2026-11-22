@@ -208,5 +208,8 @@
  "Überleg noch einmal und wähle eine andere Antwort.": "فكّر مرة أخرى واختر إجابة أخرى.",
  "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ الآن كل شيء صحيح. في التحقّق الأول: {} من {}.",
  "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} من {} صحيح. غيّر الإجابات المعلَّمة وتحقّق مرة أخرى.",
- "Du kannst es verbessern oder weitergehen.": "يمكنك أن تصحّح أو تتابع."
+ "Du kannst es verbessern oder weitergehen.": "يمكنك أن تصحّح أو تتابع.",
+ "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "يعرض Calc الخطأ Err:522: صيغتك تحسب خليتها نفسها أيضًا. خذ الخلايا التي فوقها فقط.",
+ "Prüfe deine Formel.": "راجع صيغتك.",
+ "Stimmt der Name? Ist die Klammer zu?": "هل الاسم صحيح؟ هل القوس مغلق؟"
 }

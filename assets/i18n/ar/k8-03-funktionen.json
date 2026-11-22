@@ -53,8 +53,8 @@
  "✔ Alle vier richtig! Bonus: Am Mittwoch warst du doch fleißiger. Ändere B7 auf 9000. Was passiert?": "✔ الأربع كلها صحيحة! <strong>إضافة:</strong> يوم الأربعاء مشيت أكثر في النهاية. غيّر B7 إلى 9000. ماذا يحدث؟",
  "B5:B9 bedeutet …": "<code>B5:B9</code> تعني …",
  "Der Doppelpunkt heißt „bis“: B5, B6, B7, B8 und B9.": "النقطتان تعنيان «إلى»: B5 وB6 وB7 وB8 وB9.",
- "Welche Funktion findet die Bestweite beim Weitsprung?": "أيّ دالة تجد <strong>أفضل مسافة</strong> في الوثب الطويل؟",
- "Die Bestweite ist der größte Wert, also MAX.": "أفضل مسافة هي أكبر قيمة – إذن MAX.",
+ "Welche Funktion findet den weitesten Sprung beim Weitsprung?": "أيّ دالة تجد <strong>أطول قفزة</strong> في الوثب الطويل؟",
+ "Der weiteste Sprung ist der größte Wert, also MAX.": "أطول قفزة هي أكبر قيمة، إذن MAX.",
  "Welche Formel ist gleich wie =B5+B6+B7+B8+B9?": "أيّ صيغة تساوي <code>=B5+B6+B7+B8+B9</code>؟",
  "Nur der Doppelpunkt nimmt alle Zellen dazwischen. Mit ; oder + wären es nur B5 und B9.": "النقطتان فقط تأخذان كل الخلايا بينهما. مع ; أو + ستكون B5 وB9 فقط.",
  "🎲 Neu würfeln (in Calc: F9)": "🎲 Neu würfeln (ارمِ من جديد، في Calc: F9)",
@@ -90,7 +90,7 @@
  "Falle 1 zugeschnappt! In B8 ist die Jahreszahl 2024 mitgezählt. Richtig ist =SUMME(B2:B7).": "وقعت في الفخ 1! في B8 حُسبت <strong>السنة 2024</strong> أيضًا. الصحيح هو <code>=SUMME(B2:B7)</code>.",
  "Falle 2 zugeschnappt! Calc hat in C8 nur bis zur Lücke im März markiert. Richtig ist =SUMME(C2:C7).": "وقعت في الفخ 2! في C8 حدّد Calc فقط <strong>حتى الفراغ</strong> في مارس. الصحيح هو <code>=SUMME(C2:C7)</code>.",
  "{}: Prüf den Bereich. Alle sechs Monate, ohne Überschrift.": "{}: تحقّق من النطاق. كل الأشهر الستة، بدون العنوان.",
- "🏆 Beide Fallen entschärft! Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 أبطلت الفخّين! تذكّر: Σ سريع، لكن <strong>تحقّق دائمًا من الإطار</strong>.",
+ "🏆 Beide Fallen entschärft! Falle 1: Σ nimmt die Jahreszahl aus der Überschrift mit. Falle 2: Bei einer leeren Zelle hört Σ zu früh auf. Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 أبطلت الفخّين! الفخ 1: Σ تأخذ السنة من العنوان أيضًا. الفخ 2: عند خلية فارغة تتوقف Σ مبكرًا جدًا. تذكّر: Σ سريع، لكن <strong>تحقّق دائمًا من الإطار</strong>.",
  "{} von 2 Summen richtig.": "{} من 2 مجاميع صحيحة.",
  "Klick B8 an und dann auf „Σ Summe“.": "انقر B8 ثم „Σ Summe“.",
  "{}: Das ist der normale Durchschnitt. Die Schulaufgaben zählen doppelt!": "{}: هذا هو المعدّل العادي. Schulaufgaben تُحسب مرتين!",
@@ -122,5 +122,8 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>المتوسط</strong> – اجمع الكل واقسم على العدد. في Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>قيمة</strong> – ما يوجد في خلية، غالبًا رقم",
  "Zellen mit der Maus auswählen": "<strong>يحدّد</strong> – يختار خلايا بالفأرة",
- "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "خمسة أرقام تستطيع جمعها بـ <code>+</code>. لكن 30 علامة؟ أو 365 يومًا؟ هذا يأخذ وقتًا طويلًا. دالة مثل <code>SUMME</code> (SUM) تحسب خلايا كثيرة مرة واحدة. مع <code>MITTELWERT</code> (AVERAGE) تحسب مثلًا معدل علاماتك."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "خمسة أرقام تستطيع جمعها بـ <code>+</code>. لكن 30 علامة؟ أو 365 يومًا؟ هذا يأخذ وقتًا طويلًا. دالة مثل <code>SUMME</code> (SUM) تحسب خلايا كثيرة مرة واحدة. مع <code>MITTELWERT</code> (AVERAGE) تحسب مثلًا معدل علاماتك.",
+ "Der Punkt in 6.200 trennt nur die Tausender. So liest man große Zahlen leichter. Tippen musst du ihn nicht.": "النقطة في 6.200 تفصل الآلاف فقط. هكذا تُقرأ الأعداد الكبيرة بسهولة أكبر. لا تحتاج إلى كتابتها.",
+ "In B7 steht jetzt Text. Tippe nur die Zahl, zum Beispiel 9000.": "في B7 الآن نص. اكتب العدد فقط، مثلًا <code>9000</code>.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =: ={}(B5:B9)": "في {} نص، وليس صيغة. الصيغة تبدأ بـ <code>=</code>: <code>={}(B5:B9)</code>"
 }

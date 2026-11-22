@@ -208,5 +208,8 @@
  "Überleg noch einmal und wähle eine andere Antwort.": "Подумай ще раз і вибери іншу відповідь.",
  "✔ Jetzt stimmt alles. Beim ersten Prüfen: {} von {}.": "✔ Тепер усе правильно. Під час першої перевірки: {} з {}.",
  "{} von {} richtig. Ändere die markierten Antworten und prüfe noch einmal.": "{} з {} правильно. Зміни позначені відповіді й перевір ще раз.",
- "Du kannst es verbessern oder weitergehen.": "Ти можеш виправити або йти далі."
+ "Du kannst es verbessern oder weitergehen.": "Ти можеш виправити або йти далі.",
+ "Calc zeigt Err:522: Deine Formel zählt ihre eigene Zelle mit. Nimm nur die Zellen darüber.": "Calc показує Err:522: твоя формула рахує й свою власну клітинку. Бери тільки клітинки над нею.",
+ "Prüfe deine Formel.": "Перевір свою формулу.",
+ "Stimmt der Name? Ist die Klammer zu?": "Назва правильна? Дужка закрита?"
 }

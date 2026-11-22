@@ -112,5 +112,6 @@
  "das, was bei einer Rechnung herauskommt": "<strong>rezultat</strong> – ajo që del nga një llogari",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>rreshti i hyrjes</strong> – rreshti i gjatë mbi tabelë. Atje e sheh formulën.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>rillogarit</strong> – Calc llogarit edhe një herë kur ndryshon një numër",
- "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Tani Calc llogarit për ty. Një formulë fillon me <code>=</code> dhe llogarit me qelizat. Nëse ndryshon një numër, Calc rillogarit menjëherë. Një makinë llogaritëse nuk e bën dot këtë."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Tani Calc llogarit për ty. Një formulë fillon me <code>=</code> dhe llogarit me qelizat. Nëse ndryshon një numër, Calc rillogarit menjëherë. Një makinë llogaritëse nuk e bën dot këtë.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =.": "Në {} ka tekst, jo formulë. Një formulë fillon me <code>=</code>."
 }

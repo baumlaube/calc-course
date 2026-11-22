@@ -53,8 +53,8 @@
  "✔ Alle vier richtig! Bonus: Am Mittwoch warst du doch fleißiger. Ändere B7 auf 9000. Was passiert?": "✔ Toate patru corecte! <strong>Bonus:</strong> Miercuri ai mers totuși mai mult. Schimbă B7 în 9000. Ce se întâmplă?",
  "B5:B9 bedeutet …": "<code>B5:B9</code> înseamnă …",
  "Der Doppelpunkt heißt „bis“: B5, B6, B7, B8 und B9.": "Două puncte înseamnă „până la”: B5, B6, B7, B8 și B9.",
- "Welche Funktion findet die Bestweite beim Weitsprung?": "Ce funcție găsește <strong>cea mai bună distanță</strong> la săritura în lungime?",
- "Die Bestweite ist der größte Wert, also MAX.": "Cea mai bună distanță e cea mai mare valoare – deci MAX.",
+ "Welche Funktion findet den weitesten Sprung beim Weitsprung?": "Ce funcție găsește <strong>cea mai lungă săritură</strong> la săritura în lungime?",
+ "Der weiteste Sprung ist der größte Wert, also MAX.": "Cea mai lungă săritură e cea mai mare valoare, deci MAX.",
  "Welche Formel ist gleich wie =B5+B6+B7+B8+B9?": "Ce formulă e la fel ca <code>=B5+B6+B7+B8+B9</code>?",
  "Nur der Doppelpunkt nimmt alle Zellen dazwischen. Mit ; oder + wären es nur B5 und B9.": "Doar cele două puncte iau toate celulele dintre ele. Cu ; sau + ar fi doar B5 și B9.",
  "🎲 Neu würfeln (in Calc: F9)": "🎲 Aruncă din nou (în Calc: F9)",
@@ -90,7 +90,7 @@
  "Falle 1 zugeschnappt! In B8 ist die Jahreszahl 2024 mitgezählt. Richtig ist =SUMME(B2:B7).": "Capcana 1 s-a închis! În B8 a fost numărat și <strong>anul 2024</strong>. Corect este <code>=SUMME(B2:B7)</code>.",
  "Falle 2 zugeschnappt! Calc hat in C8 nur bis zur Lücke im März markiert. Richtig ist =SUMME(C2:C7).": "Capcana 2 s-a închis! În C8 Calc a selectat doar <strong>până la golul</strong> din martie. Corect este <code>=SUMME(C2:C7)</code>.",
  "{}: Prüf den Bereich. Alle sechs Monate, ohne Überschrift.": "{}: Verifică zona. Toate cele șase luni, fără titlu.",
- "🏆 Beide Fallen entschärft! Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Ambele capcane dezamorsate! Reține: Σ e rapid, dar <strong>verifică mereu chenarul</strong>.",
+ "🏆 Beide Fallen entschärft! Falle 1: Σ nimmt die Jahreszahl aus der Überschrift mit. Falle 2: Bei einer leeren Zelle hört Σ zu früh auf. Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 Ambele capcane dezamorsate! Capcana 1: Σ ia și anul din titlu. Capcana 2: la o celulă goală, Σ se oprește prea devreme. Reține: Σ e rapid, dar <strong>verifică mereu chenarul</strong>.",
  "{} von 2 Summen richtig.": "{} din 2 sume corecte.",
  "Klick B8 an und dann auf „Σ Summe“.": "Dă clic pe B8 și apoi pe „Σ Summe“.",
  "{}: Das ist der normale Durchschnitt. Die Schulaufgaben zählen doppelt!": "{}: Aceasta e media normală. Schulaufgaben contează dublu!",
@@ -122,5 +122,8 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>medie</strong> – aduni tot și împarți la câte numere sunt. În Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>valoare</strong> – ce este într-o celulă, de obicei un număr",
  "Zellen mit der Maus auswählen": "<strong>a selecta</strong> – a alege celule cu mouse-ul",
- "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Cinci numere le poți aduna cu <code>+</code>. Dar 30 de note? Sau 365 de zile? Durează prea mult. O funcție ca <code>SUMME</code> (SUM) calculează multe celule dintr-odată. Cu <code>MITTELWERT</code> (AVERAGE) îți calculezi, de exemplu, media notelor."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "Cinci numere le poți aduna cu <code>+</code>. Dar 30 de note? Sau 365 de zile? Durează prea mult. O funcție ca <code>SUMME</code> (SUM) calculează multe celule dintr-odată. Cu <code>MITTELWERT</code> (AVERAGE) îți calculezi, de exemplu, media notelor.",
+ "Der Punkt in 6.200 trennt nur die Tausender. So liest man große Zahlen leichter. Tippen musst du ihn nicht.": "Punctul din 6.200 doar desparte miile. Așa numerele mari se citesc mai ușor. Nu trebuie să-l tastezi.",
+ "In B7 steht jetzt Text. Tippe nur die Zahl, zum Beispiel 9000.": "Acum în B7 e text. Tastează doar numărul, de exemplu <code>9000</code>.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =: ={}(B5:B9)": "În {} e text, nu o formulă. O formulă începe cu <code>=</code>: <code>={}(B5:B9)</code>"
 }

@@ -112,5 +112,6 @@
  "das, was bei einer Rechnung herauskommt": "<strong>résultat</strong> – ce que donne un calcul",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>ligne de saisie</strong> – la longue ligne au-dessus du tableau. Tu y vois la formule.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>recalculer</strong> – Calc calcule encore une fois quand un nombre change",
- "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Maintenant Calc calcule pour toi. Une formule commence par <code>=</code> et calcule avec les cellules. Si un nombre change, Calc recalcule tout de suite. Une calculatrice ne sait pas faire ça."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Maintenant Calc calcule pour toi. Une formule commence par <code>=</code> et calcule avec les cellules. Si un nombre change, Calc recalcule tout de suite. Une calculatrice ne sait pas faire ça.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =.": "Dans {}, il y a du texte, pas une formule. Une formule commence par <code>=</code>."
 }

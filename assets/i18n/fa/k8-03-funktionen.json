@@ -53,8 +53,8 @@
  "✔ Alle vier richtig! Bonus: Am Mittwoch warst du doch fleißiger. Ändere B7 auf 9000. Was passiert?": "✔ هر چهار درست! <strong>جایزه:</strong> چهارشنبه بالاخره بیشتر راه رفتی. B7 را 9000 کن. چه می‌شود؟",
  "B5:B9 bedeutet …": "<code>B5:B9</code> یعنی …",
  "Der Doppelpunkt heißt „bis“: B5, B6, B7, B8 und B9.": "دو نقطه یعنی «تا»: B5، B6، B7، B8 و B9.",
- "Welche Funktion findet die Bestweite beim Weitsprung?": "کدام تابع در پرش طول <strong>بهترین فاصله</strong> را پیدا می‌کند؟",
- "Die Bestweite ist der größte Wert, also MAX.": "بهترین فاصله بزرگ‌ترین مقدار است – پس MAX.",
+ "Welche Funktion findet den weitesten Sprung beim Weitsprung?": "کدام تابع <strong>بلندترین پرش</strong> را در پرش طول پیدا می‌کند؟",
+ "Der weiteste Sprung ist der größte Wert, also MAX.": "بلندترین پرش بزرگ‌ترین مقدار است، پس MAX.",
  "Welche Formel ist gleich wie =B5+B6+B7+B8+B9?": "کدام فرمول با <code>=B5+B6+B7+B8+B9</code> یکی است؟",
  "Nur der Doppelpunkt nimmt alle Zellen dazwischen. Mit ; oder + wären es nur B5 und B9.": "فقط دو نقطه همهٔ خانه‌های بین را می‌گیرد. با ; یا + فقط B5 و B9 می‌شد.",
  "🎲 Neu würfeln (in Calc: F9)": "🎲 دوباره تاس بینداز (در Calc: F9)",
@@ -90,7 +90,7 @@
  "Falle 1 zugeschnappt! In B8 ist die Jahreszahl 2024 mitgezählt. Richtig ist =SUMME(B2:B7).": "تله ۱ گرفت! در B8 <strong>سال ۲۰۲۴</strong> هم شمرده شده. درست این است: <code>=SUMME(B2:B7)</code>.",
  "Falle 2 zugeschnappt! Calc hat in C8 nur bis zur Lücke im März markiert. Richtig ist =SUMME(C2:C7).": "تله ۲ گرفت! Calc در C8 فقط <strong>تا جای خالی</strong> در مارس را انتخاب کرده. درست این است: <code>=SUMME(C2:C7)</code>.",
  "{}: Prüf den Bereich. Alle sechs Monate, ohne Überschrift.": "{}: محدوده را بررسی کن. هر شش ماه، بدون عنوان.",
- "🏆 Beide Fallen entschärft! Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 هر دو تله خنثی شد! یادت باشد: Σ سریع است، اما <strong>همیشه قاب را بررسی کن</strong>.",
+ "🏆 Beide Fallen entschärft! Falle 1: Σ nimmt die Jahreszahl aus der Überschrift mit. Falle 2: Bei einer leeren Zelle hört Σ zu früh auf. Merke: Σ ist schnell, aber prüf immer den Rahmen.": "🏆 هر دو تله خنثی شد! تلهٔ 1: Σ سال را هم از عنوان برمی‌دارد. تلهٔ 2: در یک خانهٔ خالی Σ خیلی زود می‌ایستد. یادت باشد: Σ سریع است، اما <strong>همیشه قاب را بررسی کن</strong>.",
  "{} von 2 Summen richtig.": "{} از 2 جمع درست است.",
  "Klick B8 an und dann auf „Σ Summe“.": "روی B8 و بعد روی „Σ Summe“ کلیک کن.",
  "{}: Das ist der normale Durchschnitt. Die Schulaufgaben zählen doppelt!": "{}: این معدل معمولی است. Schulaufgaben دو برابر حساب می‌شوند!",
@@ -122,5 +122,8 @@
  "alles zusammenzählen und durch die Anzahl teilen. In Calc: MITTELWERT": "<strong>میانگین</strong> – همه را جمع کن و بر تعداد تقسیم کن. در Calc: <code>MITTELWERT</code>",
  "das, was in einer Zelle steht, meistens eine Zahl": "<strong>مقدار</strong> – چیزی که در خانه است، بیشتر وقت‌ها یک عدد",
  "Zellen mit der Maus auswählen": "<strong>انتخاب کردن</strong> – خانه‌ها را با ماوس انتخاب کردن",
- "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "پنج عدد را می‌توانی با <code>+</code> جمع کنی. ولی ۳۰ نمره؟ یا ۳۶۵ روز؟ این خیلی طول می‌کشد. تابعی مثل <code>SUMME</code> (SUM) سلول‌های زیادی را یک‌جا حساب می‌کند. با <code>MITTELWERT</code> (AVERAGE) مثلاً معدل نمره‌هایت را حساب می‌کنی."
+ "Fünf Zahlen kannst du mit + zusammenzählen. Aber 30 Noten? Oder 365 Tage? Das dauert zu lange. Eine Funktion wie SUMME rechnet viele Zellen auf einmal. Mit MITTELWERT rechnest du zum Beispiel deinen Notenschnitt aus.": "پنج عدد را می‌توانی با <code>+</code> جمع کنی. ولی ۳۰ نمره؟ یا ۳۶۵ روز؟ این خیلی طول می‌کشد. تابعی مثل <code>SUMME</code> (SUM) سلول‌های زیادی را یک‌جا حساب می‌کند. با <code>MITTELWERT</code> (AVERAGE) مثلاً معدل نمره‌هایت را حساب می‌کنی.",
+ "Der Punkt in 6.200 trennt nur die Tausender. So liest man große Zahlen leichter. Tippen musst du ihn nicht.": "نقطه در 6.200 فقط هزارگان را جدا می‌کند. این‌طور عددهای بزرگ راحت‌تر خوانده می‌شوند. لازم نیست آن را تایپ کنی.",
+ "In B7 steht jetzt Text. Tippe nur die Zahl, zum Beispiel 9000.": "حالا در B7 متن هست. فقط عدد را تایپ کن، مثلاً <code>9000</code>.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =: ={}(B5:B9)": "در {} متن هست، نه فرمول. فرمول با <code>=</code> شروع می‌شود: <code>={}(B5:B9)</code>"
 }

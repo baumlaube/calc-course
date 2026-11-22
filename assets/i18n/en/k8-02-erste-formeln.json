@@ -112,5 +112,6 @@
  "das, was bei einer Rechnung herauskommt": "<strong>result</strong> – what comes out of a calculation",
  "die lange Zeile über der Tabelle. Dort siehst du die Formel.": "<strong>input line</strong> – the long line above the table. There you see the formula.",
  "Calc rechnet noch einmal, wenn sich eine Zahl ändert": "<strong>to recalculate</strong> – Calc calculates again when a number changes",
- "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Now Calc calculates for you. A formula starts with <code>=</code> and calculates with the cells. If a number changes, Calc recalculates straight away. A calculator can’t do that."
+ "Jetzt rechnet Calc für dich. Eine Formel beginnt mit = und rechnet mit den Zellen. Ändert sich eine Zahl, rechnet Calc sofort neu. Das kann ein Taschenrechner nicht.": "Now Calc calculates for you. A formula starts with <code>=</code> and calculates with the cells. If a number changes, Calc recalculates straight away. A calculator can’t do that.",
+ "In {} steht Text, keine Formel. Eine Formel beginnt mit =.": "In {} there is text, not a formula. A formula starts with <code>=</code>."
 }
