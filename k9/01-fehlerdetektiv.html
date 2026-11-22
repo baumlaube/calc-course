@@ -26,7 +26,7 @@
 <script src="../assets/i18n.js?v=831187eae3" data-page="k9-01-fehlerdetektiv" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=212bffdf00"></script>
 <script src="../assets/minicalc.js?v=6501b0841f" defer></script>
-<script src="../assets/wdh.js?v=e5b4f9b446" defer></script>
+<script src="../assets/wdh.js?v=fb9881572e" defer></script>
 </head>
 <body>
 
@@ -306,15 +306,47 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   const lab = (c, src) => {
     if (src === "reset") return;
+    // Hinweise aus dem aktuellen Zustand, nicht fest pro Zelle: Der Schüler soll lesen, was er wirklich sieht.
+    const raw = (a) => c.getRaw(a).replace(/\s/g, "");
+    const isErr = (v) => v instanceof MiniCalc.CalcError;
+    const d6 = () => {
+      const v = c.get("C6");
+      if (typeof v === "string") return T(`D6 zeigt #WERT!: In C6 steht „${c.getRaw("C6")}“. Das ist Text. Tippe nur die Zahl.`);
+      if (v !== 25) return T("Prüfe C6: Es wurden 25 Kakao verkauft. Tippe nur die Zahl 25.");
+      return T("Prüfe D6: Dort soll =B6*C6 stehen.");
+    };
+    const d7 = () => {
+      const r = raw("D7"), v = c.get("D7");
+      if (/^=B7C7$/i.test(r)) return T("D7 zeigt #NAME?: Zwischen B7 und C7 fehlt das Rechenzeichen. Schreib =B7*C7.");
+      if (!r.startsWith("=")) return T("In D7 steht keine Formel. Lass Calc rechnen: =B7*C7.");
+      if (isErr(v)) return T(`D7 zeigt ${v.code}. Gesucht ist Preis mal Anzahl: =B7*C7.`);
+      return T("D7 rechnet noch nicht richtig. Gesucht ist Preis mal Anzahl: =B7*C7.");
+    };
+    const d9 = () => {
+      const r = raw("D9").toUpperCase(), v = c.get("D9");
+      const soll = ["D5", "D6", "D7", "D8"].reduce((s, a) => s + (Number(c.get(a)) || 0), 0);
+      if (/^=SUMM\(/.test(r)) return T("D9 zeigt #NAME?: Die Funktion heißt SUMME, nicht SUMM.");
+      if (isErr(v)) return T(`D9 zeigt ${v.code}. Prüfe die Schreibweise: =SUMME(D5:D8).`);
+      if (/^=(SUMME|SUM)\(/.test(r) && typeof v === "number" && !near(v, soll))
+        return T("D9 zeigt eine Zahl, aber sie ist falsch: Der Bereich ist zu kurz oder zu lang. Das ist ein <strong>stiller Fehler</strong>! Nimm D5:D8.");
+      return T("D9: Zähl alle Einnahmen mit SUMME zusammen: =SUMME(D5:D8).");
+    };
+    const d12 = () => {
+      const b = c.get("B11");
+      if (b === null) return T("D12 zeigt #DIV/0!: B11 ist leer. Wie viele Verkaufstage waren es? Steht oben im Text.");
+      if (typeof b === "string") return T("D12 zeigt #WERT!: In B11 steht Text. Tippe nur die Zahl der Verkaufstage.");
+      if (b !== 2) return T("Prüfe B11: Wie viele Verkaufstage waren es? Steht oben im Text.");
+      return T("D12 soll die Summe durch die Tage teilen: =D9/B11.");
+    };
     const checks = [
-      { cell: "D6", ok: near(c.get("D6"), 30), hint: T("D6 zeigt #WERT!: In C6 steht „25 Stück“. Das ist Text. Tippe nur die Zahl.") },
-      { cell: "D7", ok: near(c.get("D7"), 27) && /^=B7\*C7$/i.test(c.getRaw("D7").replace(/\s/g, "")), hint: T("D7 zeigt #NAME?: Zwischen B7 und C7 fehlt das Rechenzeichen. Schreib =B7*C7.") },
-      { cell: "D9", ok: near(c.get("D9"), 34 + 30 + 27 + 15) && /^=(SUMME|SUM)\(D5:D8\)$/i.test(c.getRaw("D9").replace(/\s/g, "")), hint: T("D9 zeigt #NAME?: Die Funktion heißt SUMME, nicht SUMM.") },
-      { cell: "D12", ok: near(c.get("D12"), (34 + 30 + 27 + 15) / 2), hint: T("D12 zeigt #DIV/0!: B11 ist leer. Wie viele Verkaufstage waren es? Steht oben im Text.") },
+      { ok: near(c.get("D6"), 30), hint: d6 },
+      { ok: near(c.get("D7"), 27) && /^=B7\*C7$/i.test(raw("D7")), hint: d7 },
+      { ok: near(c.get("D9"), 34 + 30 + 27 + 15) && /^=(SUMME|SUM)\(D5:D8\)$/i.test(raw("D9")), hint: d9 },
+      { ok: near(c.get("D12"), (34 + 30 + 27 + 15) / 2), hint: d12 },
     ];
     const open = checks.filter((x) => !x.ok);
     if (!open.length) { feedback(fb2, T("🏆 Alle vier Fehler repariert! Der Kiosk hat 106,00 € eingenommen, also 53,00 € pro Tag."), "ok"); return; }
-    feedback(fb2, `${T(`Noch ${open.length} von 4 Fehlern.`)} ${open[0].hint}`, open.length === 4 ? "info" : "hint");
+    feedback(fb2, `${T(`Noch ${open.length} von 4 Fehlern.`)} ${open[0].hint()}`, open.length === 4 ? "info" : "hint");
   };
   calc2.on(lab);
   lab(calc2, "start");
@@ -354,6 +386,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (src === "reset") return;
     const raw = c.getRaw("E3").replace(/\s/g, "").toUpperCase();
     const v = c.get("E3");
+    if (isErr(v) && /^=(WENNFEHLER|IFERROR)\(/.test(raw)) { feedback(fb3, T("Fast! Der Ersatz ist Text und steht darum in Anführungszeichen: <code>\"keine Noten\"</code>."), "hint"); return; }
     if (isErr(v)) { feedback(fb3, T("Noch ein Fehler. Pack die MITTELWERT-Formel in WENNFEHLER: =WENNFEHLER(MITTELWERT(B3:D3);\"keine Noten\")"), "hint"); return; }
     if (!/^=(WENNFEHLER|IFERROR)\(/.test(raw)) { feedback(fb3, T("Der Fehler ist weg, aber nimm WENNFEHLER – dann rechnet die Formel weiter, sobald Noten da sind."), "info"); return; }
     feedback(fb3, T("🏆 Expedition geschafft! Kein Fehler mehr. Sobald in Englisch Noten stehen, rechnet die Formel ganz normal weiter."), "ok");

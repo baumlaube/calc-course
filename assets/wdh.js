@@ -48,6 +48,8 @@
     funktion: (o) => (c, raw, v) => {
       if (!raw.startsWith("=")) return NEED_EQ;
       for (const k of Object.keys(o.wrong || {})) if (raw.includes(k + "(")) return o.wrong[k];
+      if (!raw.includes(o.fn + "(") && !raw.includes(o.en + "(") && v instanceof MiniCalc.CalcError && v.code === "#NAME?" && /^=[A-ZÄÖÜ]+\(/.test(raw))
+        return `Calc kennt diese Funktion nicht (#NAME?). Sie heißt <code>${o.fn}</code>.`;
       if (!raw.includes(o.fn + "(") && !raw.includes(o.en + "(")) {
         return /^=[A-Z]\d+([+][A-Z]\d+)+$/.test(raw)
           ? "Das geht, aber nur bei wenigen Zellen. Nimm eine Funktion für den ganzen Bereich."
@@ -110,8 +112,16 @@
         const b = el("button", "choice", T(opt));
         b.type = "button";
         b.addEventListener("click", () => {
-          box.querySelectorAll("button").forEach((x, xi) => { x.disabled = true; if (xi === item.right) x.classList.add("right"); });
           const ok = oi === item.right;
+          if (diag && !ok) {
+            // Start-Check/Selbsttest: zählt als „noch nicht sicher“, aber man darf eine andere Antwort wählen
+            b.disabled = true; b.classList.add("wrong");
+            const why = item.miss && item.miss[oi] ? T(item.miss[oi]) + " " : "";
+            feedback(fb, T("✘ Nicht ganz.") + " " + why + T("Du kannst eine andere Antwort wählen oder weitergehen.") + more(), "hint");
+            finish(false);
+            return;
+          }
+          box.querySelectorAll("button").forEach((x, xi) => { x.disabled = true; if (xi === item.right) x.classList.add("right"); });
           if (!ok) b.classList.add("wrong");
           const miss = !ok && item.miss && item.miss[oi] ? T(item.miss[oi]) + " " : "";
           feedback(fb, T(ok ? "✔ Richtig!" : "✘ Nicht ganz.") + " " + miss + T(item.why) + (ok ? "" : more()), ok ? "ok" : "hint");
@@ -211,9 +221,12 @@
       else {
         box.appendChild(el("p", "", T(opts.repeat || "Das solltest du zuerst wiederholen. Fang oben an:")));
         const ul = el("ul", "wdh-list");
-        wrong.forEach((i) => ul.appendChild(el("li", "", `<a href="${items[i].href}">${T(items[i].title)}</a>`)));
+        const first = wrong.slice().sort((a, b) => a - b).slice(0, 3);   // höchstens drei, in Kurs-Reihenfolge
+        first.forEach((i) => ul.appendChild(el("li", "", `<a href="${items[i].href}">${T(items[i].title)}</a>`)));
         box.appendChild(ul);
-        box.appendChild(el("p", "", T(opts.tip || "Mach dort Schritt 2 und 3. Dann komm hierher zurück.")));
+        box.appendChild(el("p", "", wrong.length > 3
+          ? T("Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.")
+          : T(opts.tip || "Mach dort Schritt 2 und 3. Dann komm hierher zurück.")));
       }
       if (good && wrong.length) {
         box.appendChild(el("p", "wdh-good", T("Das sitzt:") + " " + items.map((it, i) => (wrong.includes(i) ? null : T(it.title))).filter(Boolean).join(", ")));

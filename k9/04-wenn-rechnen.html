@@ -26,8 +26,8 @@
 <script src="../assets/i18n.js?v=831187eae3" data-page="k9-04-wenn-rechnen" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=212bffdf00"></script>
 <script src="../assets/minicalc.js?v=6501b0841f" defer></script>
-<script src="../assets/wdh.js?v=e5b4f9b446" defer></script>
-<script src="../assets/stufen.js?v=3b9707d658" defer></script>
+<script src="../assets/wdh.js?v=fb9881572e" defer></script>
+<script src="../assets/stufen.js?v=ec04fd49b4" defer></script>
 </head>
 <body>
 
@@ -266,19 +266,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /* ---------- 3 · Rechen-Training ---------- */
   Stufen(document.getElementById("calc2"), document.getElementById("fb2"), [
-    { title: "Stufe 1 · Zahl statt Ja", head: "Warenwert", vals: [34.9, 12.5], fmt: "eur", ansFmt: "eur", textOnly: false,
+    { title: "Stufe 1 · Zahl statt Ja", head: "Warenwert", ansHead: "Versand", vals: [34.9, 12.5], fmt: "eur", ansFmt: "eur", textOnly: false,
       q: "Ab 29 € kostet der Versand <strong>0 €</strong>, sonst <strong>4,95 €</strong>. Schreib in B2: <code class=\"long\">=WENN(A2&gt;=29;0;4,95)</code>",
       want: (v) => (v >= 29 ? 0 : 4.95),
       hint2: () => T("34,90 € ist mindestens 29 € – also 0. Schreib die Zahlen ohne Anführungszeichen."),
       hint3: () => T("12,50 € ist unter 29 € – also 4,95 €."),
       done: T("✔ Stufe 1 geschafft! Statt „Ja“ steht 0, statt „Nein“ steht 4,95.") },
-    { title: "Stufe 2 · Rechnung im Dann-Teil", head: "Warenwert", vals: [12.5, 34.9], fmt: "eur", ansFmt: "eur", textOnly: false,
+    { title: "Stufe 2 · Rechnung im Dann-Teil", head: "Warenwert", ansHead: "Gesamtpreis", vals: [12.5, 34.9], fmt: "eur", ansFmt: "eur", textOnly: false,
       q: "Jetzt der <strong>Gesamtpreis</strong>: Unter 29 € kommen 4,95 € dazu, sonst bleibt der Warenwert. Tipp: Dann-Teil <code>A2+4,95</code>, Sonst-Teil <code>A2</code>.",
       want: (v) => (v < 29 ? v + 4.95 : v),
       hint2: () => T("12,50 € ist unter 29 €. Dann soll 12,50 € + 4,95 € = 17,45 € herauskommen: <code>A2+4,95</code>."),
       hint3: () => T("34,90 € ist nicht unter 29 €. Im Sonst-Teil steht einfach <code>A2</code> – dann bleibt der Wert."),
       done: T("✔ Stufe 2 geschafft! WENN kann rechnen.") },
-    { title: "Stufe 3 · Ohne Vorlage", head: "Guthaben", vals: [3.2, 12], fmt: "eur", ansFmt: "eur", textOnly: false,
+    { title: "Stufe 3 · Ohne Vorlage", head: "Guthaben", ansHead: "neues Guthaben", vals: [3.2, 12], fmt: "eur", ansFmt: "eur", textOnly: false,
       q: "Handy-Guthaben: <strong>Unter 5 €</strong> werden <strong>15 € aufgeladen</strong>, sonst bleibt es gleich.",
       want: (v) => (v < 5 ? v + 15 : v),
       hint2: () => T("3,20 € ist unter 5 € – dann 3,20 € + 15 € = 18,20 €. Lies deine Formel als Satz: Wenn …, dann …, sonst …"),
@@ -308,10 +308,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /* ---------- Expedition: Rabatt ---------- */
   Stufen(document.getElementById("calc3"), document.getElementById("fb3"), [
-    { title: "Rabatt ab 50 €", head: "Einkauf", vals: [64, 38.5], fmt: "eur", ansFmt: "eur", textOnly: false,
+    { title: "Rabatt ab 50 €", head: "Einkauf", ansHead: "zu zahlen", vals: [50, 38.5], fmt: "eur", ansFmt: "eur", textOnly: false,
       q: "Ab 50 € gibt es <strong>10 % Rabatt</strong>, sonst zahlt man den vollen Betrag. Aus Baustein 2 weißt du: 10 % weniger heißt <code>*(1-10%)</code>.",
       want: (v) => (v >= 50 ? v * 0.9 : v),
-      hint2: () => T("64 € ist mindestens 50 €. Dann-Teil: <code>A2*(1-10%)</code> = 57,60 €."),
+      hint2: () => T("Genau 50 € – „ab 50 €“ heißt: 50 € zählt schon mit, also <code>&gt;=</code>. Dann-Teil: <code>A2*(1-10%)</code> = 45,00 €."),
       hint3: () => T("38,50 € ist unter 50 € – Sonst-Teil: einfach <code>A2</code>."),
       done: T("🏆 Expedition geschafft! WENN und Prozentrechnung zusammen – das kommt in der Übungsdatei noch einmal.") },
   ]);

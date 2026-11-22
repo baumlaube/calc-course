@@ -26,8 +26,9 @@
 <script src="../assets/i18n.js?v=831187eae3" data-page="k9-08-fit-fuer-die-probe" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=212bffdf00"></script>
 <script src="../assets/minicalc.js?v=6501b0841f" defer></script>
-<script src="../assets/wdh.js?v=e5b4f9b446" defer></script>
-<script src="../assets/stufen.js?v=3b9707d658" defer></script>
+<script src="../assets/wdh.js?v=fb9881572e" defer></script>
+<script src="../assets/regeln.js?v=3fdc897ab9" defer></script>
+<script src="../assets/stufen.js?v=ec04fd49b4" defer></script>
 </head>
 <body>
 
@@ -94,6 +95,11 @@
     <h2><span class="step-no">2</span> Aufgaben-Würfel <span class="chip">10 Min</span></h2>
     <div id="calc2"></div>
     <p class="fb" id="fb2" aria-live="polite"></p>
+    <h3 class="sub">Und eine Farb-Aufgabe</h3>
+    <p class="lead" id="task2f"></p>
+    <div id="calc2f"></div>
+    <div id="dlg2f"></div>
+    <p class="fb" id="fb2f" aria-live="polite"></p>
     <div class="btn-row"><button class="btn" type="button" id="neu2">🎲 Neue Aufgaben würfeln</button></div>
     <p class="note">Jedes Mal andere Zahlen und Fragen – du kannst so lange üben, wie du willst.</p>
   </section>
@@ -199,26 +205,33 @@ document.addEventListener("DOMContentLoaded", () => {
   const gens = [
     () => { const g = rnd(10, 20), ctx = pick([["Punkte", "Quiz"], ["Punkte", "Test"], ["Treffer", "Basketball"]]);
       return { title: "WENN mit Text", head: ctx[0], vals: [g, g - rnd(1, 4)],
-        q: `${ctx[1]}: Wer <strong>mindestens ${g} ${ctx[0]}</strong> hat, hat „bestanden“, sonst „nochmal“.`,
-        want: (v) => (v >= g ? "bestanden" : "nochmal"),
+        q: `${ctx[1]}: Wer <strong>mindestens ${g} ${ctx[0]}</strong> hat, hat „bestanden“, sonst „durchgefallen“.`,
+        want: (v) => (v >= g ? "bestanden" : "durchgefallen"),
         hint2: () => T(`A2 hat genau ${g}. „mindestens“ heißt <code>&gt;=</code> – die Grenze zählt mit.`) }; },
     () => { const g = rnd(2, 6);
-      return { title: "Ja/Nein-Frage", head: "Preis", vals: [g - 0.5, g + 1], fmt: "eur",
+      return { title: "Ja/Nein-Frage", head: "Preis", vals: [g - 0.5, g], fmt: "eur",
         q: `Kostet der Snack <strong>weniger als ${g} €</strong>? Antwort Ja oder Nein.`,
         want: (v) => (v < g ? "Ja" : "Nein"),
-        hint2: () => T(`„weniger als“ heißt <code>&lt;</code>. Schreib die Zahl ${g} ohne Anführungszeichen.`) }; },
+        hint2: () => T(`„weniger als“ heißt <code>&lt;</code>. Schreib die Zahl ${g} ohne Anführungszeichen.`),
+        hint3: () => T(`A3 kostet genau ${g} €. Das ist nicht weniger als ${g} € – also Nein. Nimm <code>&lt;</code>, nicht <code>&lt;=</code>.`) }; },
     () => { const g = pick([25, 29, 30, 39, 50]), x = pick([3.95, 4.95, 5.90]);
-      return { title: "Zahl als Antwort", head: "Warenwert", vals: [g + rnd(1, 20), g - rnd(1, 9)], fmt: "eur", ansFmt: "eur", textOnly: false,
+      return { title: "Zahl als Antwort", head: "Warenwert", ansHead: "Versand", vals: [g, g - rnd(1, 9)], fmt: "eur", ansFmt: "eur", textOnly: false,
         q: `Ab <strong>${g} €</strong> ist der Versand kostenlos (0), sonst kostet er <strong>${eur(x)} €</strong>.`,
         want: (v) => (v >= g ? 0 : x),
-        hint2: () => T(`Zahlen ohne Anführungszeichen: <code>=WENN(A2&gt;=${g};0;${eur(x)})</code>`) }; },
+        hint2: () => T(`A2 hat genau ${g} €. „Ab ${g} €“ heißt: ${g} € zählt schon mit, also <code>&gt;=</code>. Zahlen ohne Anführungszeichen.`) }; },
     () => { const g = pick([5, 10, 15]), x = pick([10, 15, 20]);
-      return { title: "Rechnung im Dann-Teil", head: "Guthaben", vals: [g - rnd(1, 4), g + rnd(2, 10)], fmt: "eur", ansFmt: "eur", textOnly: false,
+      return { title: "Rechnung im Dann-Teil", head: "Guthaben", ansHead: "neues Guthaben", vals: [g - rnd(1, 4), g], fmt: "eur", ansFmt: "eur", textOnly: false,
         q: `Unter <strong>${g} €</strong> Guthaben werden <strong>${x} €</strong> aufgeladen, sonst bleibt es gleich.`,
         want: (v) => (v < g ? v + x : v),
-        hint2: () => T(`Dann-Teil: <code>A2+${x}</code>, Sonst-Teil: <code>A2</code>.`) }; },
+        hint2: () => T(`Dann-Teil: <code>A2+${x}</code>, Sonst-Teil: <code>A2</code>.`),
+        hint3: () => T(`A3 hat genau ${g} €. Das ist nicht unter ${g} € – es bleibt gleich. Nimm <code>&lt;</code>, nicht <code>&lt;=</code>.`) }; },
+    () => { const g = rnd(12, 20);
+      return { title: "Grenze in einer Zelle", head: "Punkte", ansHead: "Ergebnis", limit: { head: "Grenze", value: g }, vals: [g, g - rnd(1, 4)],
+        q: `Die Grenze steht in <strong>C2</strong>. Wer mindestens so viele Punkte hat, hat „bestanden“, sonst „durchgefallen“. Nimm die Grenze aus C2 – mit <code>$</code>.`,
+        want: (v) => (v >= g ? "bestanden" : "durchgefallen"),
+        hint2: () => T(`A2 hat genau ${g} Punkte, so viel wie die Grenze. „mindestens“ heißt <code>&gt;=</code>.`) }; },
     () => { const p = pick([10, 20, 25, 30]);
-      return { title: "Prozent", head: "Preis", vals: [rnd(2, 9) * 10, rnd(2, 9) * 10 + 5], fmt: "eur", ansFmt: "eur", textOnly: false, wenn: false,
+      return { title: "Prozent", head: "Preis", ansHead: "neuer Preis", vals: [rnd(2, 9) * 10, rnd(2, 9) * 10 + 5], fmt: "eur", ansFmt: "eur", textOnly: false, wenn: false,
         q: `Alles <strong>${p} % billiger</strong>! Was kostet es dann? (Ohne WENN)`,
         want: (v) => v * (1 - p / 100),
         tip: T(`Tipp: <code>=A2*(1-${p}%)</code>`),
@@ -227,39 +240,87 @@ document.addEventListener("DOMContentLoaded", () => {
   const box2 = document.getElementById("calc2");
   const roll = () => {
     box2.innerHTML = "";
-    const order = [0, 1, 2, 3, 4].sort(() => Math.random() - 0.5);
+    const order = gens.map((_, i) => i).sort(() => Math.random() - 0.5);
     Stufen(box2, document.getElementById("fb2"), order.map((i) => gens[i]()).map((L, j, all) =>
-      Object.assign(L, { done: j === all.length - 1 ? T("🏆 Alle 5 Aufgaben geschafft! Würfel neue – oder ab in die Übungsprobe.") : T("✔ Richtig!") })));
+      Object.assign(L, { done: j === all.length - 1 ? T("🏆 Alle Formel-Aufgaben geschafft! Jetzt noch die Farb-Aufgabe darunter.") : T("✔ Richtig!") })));
   };
-  document.getElementById("neu2").addEventListener("click", roll);
+  /* Farb-Aufgabe: bedingte Formatierung mit Zufallswerten, ein Wert liegt genau auf der Grenze */
+  const fb2f = document.getElementById("fb2f");
+  const farbe = () => {
+    const box = document.getElementById("calc2f"), dlg = document.getElementById("dlg2f");
+    box.innerHTML = ""; dlg.innerHTML = ""; dlg.className = ""; fb2f.className = "fb";
+    const kids = ["Ali", "Bea", "Can", "Dila", "Emre", "Fiona"];
+    const g = rnd(10, 20);
+    const kinds = [
+      { text: `Färbe alle <strong>unter ${g} Punkten</strong> rot (Vorlage <strong>Schlecht</strong>). Dann <strong>OK</strong>.`,
+        style: "bad", target: (v) => (v < g ? "bad" : null),
+        edge: `Wer genau ${g} Punkte hat, ist nicht „unter ${g}“: Nimm <strong>kleiner als</strong>.` },
+      { text: `Färbe alle <strong>ab ${g} Punkten</strong> grün (Vorlage <strong>Gut</strong>). Dann <strong>OK</strong>.`,
+        style: "good", target: (v) => (v >= g ? "good" : null),
+        edge: `„ab ${g}“ heißt: ${g} gehört dazu. Nimm <strong>größer oder gleich</strong>.` },
+      { text: `Färbe alle <strong>über ${g} Punkten</strong> grün (Vorlage <strong>Gut</strong>). Dann <strong>OK</strong>.`,
+        style: "good", target: (v) => (v > g ? "good" : null),
+        edge: `Wer genau ${g} Punkte hat, ist nicht „über ${g}“: Nimm <strong>größer als</strong>.` },
+    ];
+    const K = pick(kinds);
+    const vals = kids.map(() => rnd(g - 8, g + 8));
+    vals[rnd(0, kids.length - 1)] = g;                         // einer genau auf der Grenze
+    const cells = kids.map((_, i) => "B" + (i + 2));
+    const init = { A1: "Name", B1: "Punkte" };
+    kids.forEach((n, i) => { init["A" + (i + 2)] = n; init["B" + (i + 2)] = vals[i]; });
+    document.getElementById("task2f").innerHTML = T(K.text);
+    const el = document.createElement("div"); box.appendChild(el);
+    const calc = new MiniCalc(el, { cols: 2, rows: kids.length + 1, cells: init, styles: { A1: "head", B1: "head" }, select: "B2" });
+    Regeln.dialog(dlg, { calc, cells, range: `B2:B${kids.length + 1}`, max: 3,
+      onOk: (rules, res) => {
+        if (!rules.length) return;
+        if (cells.every((a) => (res[a] || null) === K.target(calc.get(a)))) {
+          feedback(fb2f, T("🏆 Richtig gefärbt – auch die Grenze! Würfel neue Aufgaben oder ab in die Übungsprobe."), "ok"); return;
+        }
+        if (cells.some((a) => res[a] && res[a] !== K.style)) { feedback(fb2f, T("Die Farbe stimmt nicht. Prüfe die Vorlage."), "hint"); return; }
+        const edge = cells.find((a) => calc.get(a) === g);
+        if ((res[edge] || null) !== K.target(g)) { feedback(fb2f, T(K.edge), "hint"); return; }
+        feedback(fb2f, T("Noch nicht ganz. Prüfe Bedingung und Zahl."), "hint");
+      } });
+  };
+  document.getElementById("neu2").addEventListener("click", () => { roll(); farbe(); });
   roll();
+  farbe();
 
   /* ---------- 4 · Große Wiederholung ---------- */
   quiz(document.getElementById("quiz"), [
     { q: "Eine Zelle zeigt <code>#DIV/0!</code>. Was ist los?",
       options: ["Es wird durch 0 oder eine leere Zelle geteilt", "Die Zahl ist zu groß", "Text in einer Formel"], right: 0,
-      why: "DIV = dividieren. Durch 0 kann man nicht teilen." },
+      why: "DIV = dividieren. Durch 0 kann man nicht teilen.",
+      miss: [null, "Eine zu große Zahl zeigt Calc als <code>###</code>.", "Text in einer Rechnung meldet Calc mit <code>#WERT!</code>."] },
     { q: "In B2 steht 20 %. Welche Formel berechnet 20 % von B5?",
       options: ["<code>=B5*B2/100</code>", "<code>=B5*B2</code>", "<code>=B5+B2</code>"], right: 1,
-      why: "20 % ist schon 0,2 – kein /100." },
+      why: "20 % ist schon 0,2 – kein /100.",
+      miss: ["Das /100 ist zu viel. In B2 steht schon 0,2.", null, "Plus rechnet 20 % dazu, nicht davon."] },
     { q: "Was zeigt <code>=WENN(A5=\"Hund\";\"Ja\";\"Nein\")</code>, wenn in A5 Katze steht?",
       options: ["Ja", "Nein", "#NAME?"], right: 1,
-      why: "Die Frage „Steht in A5 Hund?“ wird mit Nein beantwortet." },
+      why: "Die Frage „Steht in A5 Hund?“ wird mit Nein beantwortet.",
+      miss: ["Ja käme nur, wenn in A5 Hund stünde.", null, "Die Formel ist richtig geschrieben. Text steht in Anführungszeichen."] },
     { q: "„Ab 50 Punkten“ – welches Zeichen?",
       options: ["<code>&gt;</code>", "<code>&gt;=</code>", "<code>=</code>"], right: 1,
-      why: "Ab 50 heißt: 50 zählt schon mit." },
+      why: "Ab 50 heißt: 50 zählt schon mit.",
+      miss: ["Bei &gt; zählt 50 nicht mit. Wer genau 50 hat, fällt heraus.", null, "= trifft nur genau 50, nicht 51 oder mehr."] },
     { q: "In A5 stehen 3 €. Was zeigt <code>=WENN(A5&lt;5;A5+15;A5)</code>?",
       options: ["3 €", "15 €", "18 €"], right: 2,
-      why: "3 ist kleiner als 5 → Dann-Teil: 3 + 15 = 18." },
+      why: "3 ist kleiner als 5 → Dann-Teil: 3 + 15 = 18.",
+      miss: ["3 € wäre der Sonst-Teil. Aber 3 ist kleiner als 5, die Frage stimmt.", "Der Dann-Teil heißt A5+15. A5 gehört dazu.", null] },
     { q: "Warum schreibt man die Grenze in eine eigene Zelle mit <code>$</code>?",
       options: ["Damit man sie an einer Stelle für alle Formeln ändern kann", "Weil WENN sonst nicht geht", "Damit die Zelle blau wird"], right: 0,
-      why: "Eine Zelle ändern – alles rechnet neu. Das $ hält den Bezug beim Ausfüllen fest." },
+      why: "Eine Zelle ändern – alles rechnet neu. Das $ hält den Bezug beim Ausfüllen fest.",
+      miss: [null, "WENN geht auch mit einer Zahl. Aber dann musst du jede Formel ändern.", "Die Farbe hat damit nichts zu tun."] },
     { q: "Eine Note ändert sich von 5 auf 2. Die Zelle war rot (bedingte Formatierung). Was passiert?",
       options: ["Sie bleibt rot", "Die Farbe passt sich von selbst an", "Calc meldet einen Fehler"], right: 1,
-      why: "Bedingte Formatierung prüft bei jeder Änderung neu." },
+      why: "Bedingte Formatierung prüft bei jeder Änderung neu.",
+      miss: ["Von Hand gefärbt bliebe sie rot. Die bedingte Formatierung prüft neu.", null, "Das ist kein Fehler. Calc prüft einfach neu."] },
     { q: "Ampel: Bedingung 1 kleiner als 50 → gelb, Bedingung 2 kleiner als 20 → rot. Welche Farbe hat 10?",
       options: ["gelb", "rot"], right: 0,
-      why: "Die erste passende Bedingung gewinnt. Darum gehört die strengste nach oben." },
+      why: "Die erste passende Bedingung gewinnt. Darum gehört die strengste nach oben.",
+      miss: [null, "10 passt zu beiden. Aber Bedingung 1 kommt zuerst und gewinnt."] },
   ]);
 });
 </script>

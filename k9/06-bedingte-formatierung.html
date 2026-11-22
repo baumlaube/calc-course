@@ -26,7 +26,7 @@
 <script src="../assets/i18n.js?v=831187eae3" data-page="k9-06-bedingte-formatierung" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=212bffdf00"></script>
 <script src="../assets/minicalc.js?v=6501b0841f" defer></script>
-<script src="../assets/wdh.js?v=e5b4f9b446" defer></script>
+<script src="../assets/wdh.js?v=fb9881572e" defer></script>
 <script src="../assets/regeln.js?v=3fdc897ab9" defer></script>
 </head>
 <body>
@@ -114,6 +114,7 @@
     </ol>
     <p>Die drei wichtigsten Vorlagen:</p>
     <div class="vorlagen"><span class="cf-good">Gut</span><span class="cf-neutral">Neutral</span><span class="cf-bad">Schlecht</span></div>
+    <p class="note"><strong>zwischen</strong> braucht zwei Zahlen, z. B. zwischen 120 und 160. Beide Grenzen zählen mit: 120 und 160 werden auch gefärbt.</p>
     <p class="note">Weitere Bedingungen für dieselben Zellen: im Dialog auf <strong>Hinzufügen</strong>. Ändern oder löschen: <strong>Format → Bedingt → Verwalten …</strong></p>
 
     <div class="video-ph">
@@ -292,6 +293,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { text: "Aufgabe 1: Färbe alle Noten <strong>5 und 6</strong> rot (Vorlage <strong>Schlecht</strong>). Dann <strong>OK</strong>.",
       target: (v) => (v >= 5 ? "bad" : null),
       hint: (res, c) => {
+        if (cells2.some((a) => c.get(a) >= 5 && res[a] && res[a] !== "bad")) return T("Die Bedingung stimmt, aber die Farbe nicht: Nimm die Vorlage <strong>Schlecht</strong> (rot).");
         const five = cells2.find((a) => c.get(a) === 5 && res[a] !== "bad");
         if (five) return T("Die 5er sind noch nicht rot. „5 und 6“ heißt: größer oder gleich 5 – oder größer als 4.");
         return T("Nur die 5er und 6er sollen rot sein. Prüfe Bedingung, Zahl und Vorlage.");

@@ -26,8 +26,8 @@
 <script src="../assets/i18n.js?v=831187eae3" data-page="k9-03-wenn" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=212bffdf00"></script>
 <script src="../assets/minicalc.js?v=6501b0841f" defer></script>
-<script src="../assets/wdh.js?v=e5b4f9b446" defer></script>
-<script src="../assets/stufen.js?v=3b9707d658" defer></script>
+<script src="../assets/wdh.js?v=fb9881572e" defer></script>
+<script src="../assets/stufen.js?v=ec04fd49b4" defer></script>
 </head>
 <body>
 
@@ -360,6 +360,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const raw = clean(c.getRaw("C2"));
     if (!raw) { feedback(fb3, T("Tippe in B2 eine Antwort und in C2 die WENN-Formel."), "info"); return; }
     const v = c.get("C2");
+    if (/^=(WENN|IF)\(/.test(raw) && isErr(v)) { feedback(fb3, T("C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."), "hint"); return; }
     if (!raw.startsWith("=") || isErr(v)) { feedback(fb3, T("C2 braucht eine WENN-Formel. Tipp: <code class=\"long\">=WENN(B2=\"Paris\";\"richtig\";\"falsch\")</code>"), "hint"); return; }
     if (!/^=(WENN|IF)\(/.test(raw) || !raw.includes('"PARIS"')) { feedback(fb3, T("Die Frage in der Formel lautet: Steht in B2 „Paris“? Also <code>B2=\"Paris\"</code>."), "hint"); return; }
     const want = String(c.get("B2") || "").trim().toLowerCase() === "paris" ? "richtig" : "falsch";

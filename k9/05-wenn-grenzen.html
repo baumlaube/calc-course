@@ -26,7 +26,7 @@
 <script src="../assets/i18n.js?v=831187eae3" data-page="k9-05-wenn-grenzen" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=212bffdf00"></script>
 <script src="../assets/minicalc.js?v=6501b0841f" defer></script>
-<script src="../assets/wdh.js?v=e5b4f9b446" defer></script>
+<script src="../assets/wdh.js?v=fb9881572e" defer></script>
 </head>
 <body>
 
@@ -204,7 +204,7 @@
     <h3 class="sub"><span class="badge expedition">★ Expedition</span> UND</h3>
     <div id="calc3"></div>
     <div class="rule"><code>UND(Prüfung1; Prüfung2)</code> stimmt nur, wenn <strong>beide</strong> stimmen.<br><code>ODER(…; …)</code> reicht eine.</div>
-    <p>Freibad-Tag ist, wenn es <strong>mindestens 25 °C</strong> hat <strong>und</strong> nicht regnet. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.</p>
+    <p>Freibad-Tag ist, wenn es <strong>mindestens 25 °C</strong> hat <strong>und</strong> nicht regnet. Dann steht in D „Freibad!“, sonst „daheim“. Schreib in D5 eine WENN-Formel mit UND und füll sie aus.</p>
     <p class="fb" id="fb3" aria-live="polite"></p>
     <p class="note"><strong>In der Datei:</strong> der Notenrechner. WENN in WENN macht aus Punkten die Note, UND entscheidet, wer einen Lob-Brief bekommt.</p>
     <div class="dl">
@@ -325,6 +325,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const akku = (c, src) => {
     if (src === "reset") return;
     if (src === "fill") filled = true;
+    const g = c.get("B2");
+    if (typeof g === "number" && g > 1) {
+      feedback(fb2, T(`B2 zeigt jetzt ${c.format("B2", g)}. Tipp die Grenze mit %-Zeichen ein, z. B. <code>30%</code>.`), "hint");
+      return;
+    }
     if (solved && c.sel === "B2") {
       const n = ["5", ...rows].filter((r) => c.get("C" + r) === "laden!").length;
       feedback(fb2, T(`🎉 Alles entscheidet neu! Bei ${c.format("B2", c.get("B2"))} müssen ${n} Handys an die Steckdose.`), "ok");
@@ -342,6 +347,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     if (!/^=(WENN|IF)\(/.test(raw)) { feedback(fb2, T("Nimm die Funktion WENN: <code>=WENN(Prüfung;Dann;Sonst)</code>."), "hint"); return; }
     if (hasNumber(raw)) { feedback(fb2, T("In der Formel steht eine Zahl. Nimm die Grenze aus <code>$B$2</code> – dann kannst du sie später ändern."), "hint"); return; }
+    if (typeof v === "string" && /^laden$/i.test(v.trim())) { feedback(fb2, T("Fast! Schreib die Antwort genau wie vorgegeben: <code>\"laden!\"</code> mit Ausrufezeichen."), "hint"); return; }
     if (v !== want(c, "5")) { feedback(fb2, T("Lea hat 15 %. Das ist unter 20 %, also soll „laden!“ erscheinen. Prüfe Vergleichszeichen und Reihenfolge von Dann und Sonst."), "hint"); return; }
     if (!filled) { feedback(fb2, T("✔ C5 stimmt! Jetzt zieh am Ausfüllkästchen von C5 nach unten bis C8."), "info"); return; }
     const leer = rows.map((r) => "C" + r).filter((a) => !c.getRaw(a));
@@ -376,7 +382,7 @@ document.addEventListener("DOMContentLoaded", () => {
       why: "B5 soll mitwandern, die Grenze in B2 nicht. Darum $B$2 – wie in Klasse 8.",
       miss: ["Die 18 steht fest in der Formel. Ändert jemand B2, rechnet sie nicht mit.", "Ohne $ rutscht B2 beim Ziehen zu B3, B4 … Dort steht keine Grenze.", null] },
     { q: "WENN soll 0 € oder den Betrag aus B3 ausgeben. Welche Formel ist richtig?",
-      options: ["<code>=WENN(B6&gt;=B2;\"0\";\"B3\")</code>", "<code>=WENN(B6&gt;=B2;0;B3)</code>", "<code>=WENN(B6&gt;=B2;0;\"B3\")</code>"], right: 1,
+      options: ["<code>=WENN(B6&gt;=$B$2;\"0\";\"B3\")</code>", "<code>=WENN(B6&gt;=$B$2;0;B3)</code>", "<code>=WENN(B6&gt;=$B$2;0;\"B3\")</code>"], right: 1,
       why: "Zahlen und Zellen stehen ohne Anführungszeichen. \"B3\" wäre nur der Text B3.",
       miss: ["In Anführungszeichen wird alles Text, auch die 0.", null, "<code>\"B3\"</code> zeigt nur die Buchstaben B3, nicht den Betrag."] },
   ]);
