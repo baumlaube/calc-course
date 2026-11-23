@@ -106,7 +106,6 @@
  "Nächste Stufe →": "Nächste Stufe → (siguiente nivel)",
  "↺ Neu": "↺ Otra vez",
  "Fehler gefunden oder eine Idee? → Kurs auf GitHub": "¿Un error o una idea? → <a href=\"https://github.com/baumlaube/calc-course\">El curso en GitHub</a>",
- "FreiwilligÜben und ★ Expedition – jeweils mit eigener Datei und Lösung: ganz unten auf dieser Seite.": "<span class=\"badge expedition\">Freiwillig</span><span>Üben y ★ Expedition (opcional) – cada uno con su propio archivo y solución: <a href=\"#freiwillig\">abajo del todo en esta página</a>.</span>",
  "+ Freiwillig für alle, die mehr wollen": "<span class=\"step-no\">+</span> Freiwillig (opcional) <span class=\"badge expedition\">para todos los que quieren más</span>",
  "Üben heißt: dasselbe wie oben, nur mehr davon. ★ Expedition heißt: etwas Neues für Profis.": "<span class=\"badge ueben\">Üben</span> significa: lo mismo que arriba, solo que más. <span class=\"badge expedition\">★ Expedition</span> significa: algo nuevo para profesionales.",
  "ODS LösungErst selbst probieren, dann vergleichen!": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Lösung</strong> (solución)<small>¡Primero inténtalo tú, luego compara!</small></span>",

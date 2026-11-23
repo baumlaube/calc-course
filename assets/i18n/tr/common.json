@@ -106,7 +106,6 @@
  "Nächste Stufe →": "Nächste Stufe → (sonraki seviye)",
  "↺ Neu": "↺ Yeniden",
  "Fehler gefunden oder eine Idee? → Kurs auf GitHub": "Bir hata ya da bir fikir mi? → <a href=\"https://github.com/baumlaube/calc-course\">GitHub'da kurs</a>",
- "FreiwilligÜben und ★ Expedition – jeweils mit eigener Datei und Lösung: ganz unten auf dieser Seite.": "<span class=\"badge expedition\">Freiwillig</span><span>Üben ve ★ Expedition (isteğe bağlı) – her birinin kendi dosyası ve çözümü var: <a href=\"#freiwillig\">bu sayfanın en altında</a>.</span>",
  "+ Freiwillig für alle, die mehr wollen": "<span class=\"step-no\">+</span> Freiwillig (isteğe bağlı) <span class=\"badge expedition\">daha fazlasını isteyen herkes için</span>",
  "Üben heißt: dasselbe wie oben, nur mehr davon. ★ Expedition heißt: etwas Neues für Profis.": "<span class=\"badge ueben\">Üben</span> demek: yukarıdakinin aynısı, sadece daha fazla. <span class=\"badge expedition\">★ Expedition</span> demek: profiler için yeni bir şey.",
  "ODS LösungErst selbst probieren, dann vergleichen!": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Lösung</strong> (çözüm)<small>Önce kendin dene, sonra karşılaştır!</small></span>",

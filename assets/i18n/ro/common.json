@@ -106,7 +106,6 @@
  "Nächste Stufe →": "Nächste Stufe → (nivelul următor)",
  "↺ Neu": "↺ Din nou",
  "Fehler gefunden oder eine Idee? → Kurs auf GitHub": "O greșeală sau o idee? → <a href=\"https://github.com/baumlaube/calc-course\">Cursul pe GitHub</a>",
- "FreiwilligÜben und ★ Expedition – jeweils mit eigener Datei und Lösung: ganz unten auf dieser Seite.": "<span class=\"badge expedition\">Freiwillig</span><span>Üben și ★ Expedition (opțional) – fiecare cu fișierul și soluția lui: <a href=\"#freiwillig\">chiar jos pe această pagină</a>.</span>",
  "+ Freiwillig für alle, die mehr wollen": "<span class=\"step-no\">+</span> Freiwillig (opțional) <span class=\"badge expedition\">pentru toți cei care vor mai mult</span>",
  "Üben heißt: dasselbe wie oben, nur mehr davon. ★ Expedition heißt: etwas Neues für Profis.": "<span class=\"badge ueben\">Üben</span> înseamnă: același lucru ca mai sus, doar mai mult. <span class=\"badge expedition\">★ Expedition</span> înseamnă: ceva nou pentru profesioniști.",
  "ODS LösungErst selbst probieren, dann vergleichen!": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Lösung</strong> (soluție)<small>Încearcă mai întâi singur, apoi compară!</small></span>",

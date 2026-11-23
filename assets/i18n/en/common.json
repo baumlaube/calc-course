@@ -106,7 +106,6 @@
  "B2 zeigt #NAME?: Text steht immer in Anführungszeichen – auch die Antworten, z. B. \"Ja\". Und die Funktion heißt WENN.": "B2 shows #NAME?: Text always goes in quotation marks – the answers too, e.g. <code>\"Ja\"</code>. And the function is called WENN.",
  "<>ja": "<>ja",
  "Fehler gefunden oder eine Idee? → Kurs auf GitHub": "Found a mistake or have an idea? → <a href=\"https://github.com/baumlaube/calc-course\">Course on GitHub</a>",
- "FreiwilligÜben und ★ Expedition – jeweils mit eigener Datei und Lösung: ganz unten auf dieser Seite.": "<span class=\"badge expedition\">Freiwillig</span><span>Üben and ★ Expedition (optional) – each with its own file and solution: <a href=\"#freiwillig\">at the very bottom of this page</a>.</span>",
  "+ Freiwillig für alle, die mehr wollen": "<span class=\"step-no\">+</span> Freiwillig (optional) <span class=\"badge expedition\">for everyone who wants more</span>",
  "Üben heißt: dasselbe wie oben, nur mehr davon. ★ Expedition heißt: etwas Neues für Profis.": "<span class=\"badge ueben\">Üben</span> means: the same as above, just more of it. <span class=\"badge expedition\">★ Expedition</span> means: something new for pros.",
  "ODS LösungErst selbst probieren, dann vergleichen!": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Lösung</strong> (solution)<small>Try it yourself first, then compare!</small></span>",
