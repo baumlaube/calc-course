@@ -220,5 +220,6 @@
  "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "Start with these three. Do steps 2 and 3 there. Then do the test here again.",
  "Eine zu große Zahl zeigt Calc als ###.": "Calc shows a number that is too big as <code>###</code>.",
  "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "The Dann part is A5+15. A5 belongs to it.",
- "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Quick check <span class=\"chip\">3 min</span>"
+ "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Quick check <span class=\"chip\">3 min</span>",
+ "Weiter zu den Übungen in Calc ↓": "On to the exercises in Calc ↓"
 }

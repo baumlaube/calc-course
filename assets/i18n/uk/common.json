@@ -220,5 +220,6 @@
  "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "Почни з цих трьох. Зроби там кроки 2 і 3. Потім пройди тест тут ще раз.",
  "Eine zu große Zahl zeigt Calc als ###.": "Завелике число Calc показує як <code>###</code>.",
  "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Частина Dann – це A5+15. A5 теж належить сюди.",
- "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Коротка перевірка <span class=\"chip\">3 хв</span>"
+ "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Коротка перевірка <span class=\"chip\">3 хв</span>",
+ "Weiter zu den Übungen in Calc ↓": "Далі до вправ у Calc ↓"
 }
