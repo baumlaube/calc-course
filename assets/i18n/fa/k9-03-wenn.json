@@ -95,12 +95,8 @@
  "Wie viel Euro Rabatt gibt es auf die Jacke? Rechne in C4.": "تخفیف کاپشن چند یورو است؟ در C4 حساب کن.",
  "20 % ist für Calc schon 0,2. Teile nicht noch einmal durch 100.": "برای Calc، ‏20 % خودش 0,2 است. دوباره بر 100 تقسیم نکن.",
  "80 € mal 20 % sind 16 €. Calc rechnet mit 0,2.": "80 € ضرب در 20 % می‌شود 16 €. ‏Calc با 0,2 حساب می‌کند.",
- "D5 zeigt 12,00 €. In der Eingabezeile steht nur 12. Was ist das Problem?": "D5 مقدار 12,00 € را نشان می‌دهد. در خط ورودی فقط <code>12</code> نوشته شده. مشکل چیست؟",
  "Kein Problem, das Ergebnis stimmt": "مشکلی نیست، نتیجه درست است",
  "Calc zeigt gleich #WERT!": "Calc فوراً <code>#WERT!</code> نشان می‌دهد",
- "Die Zahl ist getippt. Ändert sich der Preis, bleibt 12 stehen.": "عدد با دست نوشته شده. اگر قیمت عوض شود، 12 می‌ماند.",
- "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht mit.": "این یک خطای بی‌صدا است: درست به نظر می‌رسد، ولی Calc دوباره حساب نمی‌کند.",
- "Heute stimmt es. Aber wenn sich etwas ändert, rechnet Calc nicht neu.": "امروز درست است. ولی اگر چیزی عوض شود، Calc دوباره حساب نمی‌کند.",
  "Calc meldet hier nichts. Darum heißt es stiller Fehler.": "Calc اینجا چیزی اعلام نمی‌کند. برای همین نامش خطای بی‌صدا است.",
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>مقایسه کردن</strong> – بررسی کنی: آیا چیزی برابر، بزرگ‌تر یا کوچک‌تر است؟",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>برابر · نابرابر</strong> – gleich: <code>=</code> · ungleich (برابر نیست): <code>&lt;&gt;</code>",
@@ -123,5 +119,9 @@
  "Ja/Nein-Frage": "سؤال بله/نه",
  "Training": "تمرین",
  "Kurz-Check": "بررسی کوتاه",
- "📋 Spicker: So schreibst du WENN": "📋 برگهٔ یادآوری: WENN را این‌طور بنویس"
+ "📋 Spicker: So schreibst du WENN": "📋 برگهٔ یادآوری: WENN را این‌طور بنویس",
+ "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "در D2 باید Calc حساب کند: مقدار ضرب در قیمت. D2 مقدار 12,00 € را نشان می‌دهد. ولی در خط ورودی فقط <code>12</code> هست. مشکل چیست؟",
+ "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "عدد 12 با دست تایپ شده. اگر مقدار یا قیمت عوض شود، 12 می‌ماند.",
+ "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "این یک خطای بی‌صداست: درست به نظر می‌رسد، ولی Calc حساب نمی‌کند. درستش <code>=B2*C2</code> است.",
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "امروز درست است. ولی اگر مقدار یا قیمت عوض شود، Calc دوباره حساب نمی‌کند."
 }

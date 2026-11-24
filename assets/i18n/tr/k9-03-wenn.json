@@ -95,12 +95,8 @@
  "Wie viel Euro Rabatt gibt es auf die Jacke? Rechne in C4.": "Cekette kaç euro indirim var? C4'te hesapla.",
  "20 % ist für Calc schon 0,2. Teile nicht noch einmal durch 100.": "Calc için %20 zaten 0,2'dir. Bir daha 100'e bölme.",
  "80 € mal 20 % sind 16 €. Calc rechnet mit 0,2.": "80 € çarpı %20, 16 € eder. Calc 0,2 ile hesaplar.",
- "D5 zeigt 12,00 €. In der Eingabezeile steht nur 12. Was ist das Problem?": "D5, 12,00 € gösteriyor. Giriş satırında sadece <code>12</code> yazıyor. Sorun ne?",
  "Kein Problem, das Ergebnis stimmt": "Sorun yok, sonuç doğru",
  "Calc zeigt gleich #WERT!": "Calc hemen <code>#WERT!</code> gösterir",
- "Die Zahl ist getippt. Ändert sich der Preis, bleibt 12 stehen.": "Sayı elle yazılmış. Fiyat değişirse 12 öyle kalır.",
- "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht mit.": "Bu sessiz bir hata: Doğru görünür, ama Calc yeniden hesaplamaz.",
- "Heute stimmt es. Aber wenn sich etwas ändert, rechnet Calc nicht neu.": "Bugün doğru. Ama bir şey değişirse Calc yeniden hesaplamaz.",
  "Calc meldet hier nichts. Darum heißt es stiller Fehler.": "Calc burada bir şey bildirmez. Bu yüzden adı sessiz hata.",
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>karşılaştırmak</strong> – kontrol etmek: Eşit mi, büyük mü, küçük mü?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>eşit · eşit değil</strong> – gleich: <code>=</code> · ungleich (eşit değil): <code>&lt;&gt;</code>",
@@ -123,5 +119,9 @@
  "Ja/Nein-Frage": "Evet/hayır sorusu",
  "Training": "Antrenman",
  "Kurz-Check": "Kısa kontrol",
- "📋 Spicker: So schreibst du WENN": "📋 Kopya kâğıdı: WENN böyle yazılır"
+ "📋 Spicker: So schreibst du WENN": "📋 Kopya kâğıdı: WENN böyle yazılır",
+ "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "D2'de Calc miktar çarpı fiyatı hesaplamalı. D2 12,00 € gösteriyor. Ama giriş satırında sadece <code>12</code> yazıyor. Sorun ne?",
+ "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "12 elle yazılmış. Miktar veya fiyat değişirse 12 olarak kalır.",
+ "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "Bu sessiz bir hata: Doğru görünüyor ama Calc hesaplamıyor. Doğrusu <code>=B2*C2</code> olurdu.",
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Bugün doğru. Ama miktar veya fiyat değişirse Calc yeniden hesaplamaz."
 }

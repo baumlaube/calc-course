@@ -95,12 +95,8 @@
  "Wie viel Euro Rabatt gibt es auf die Jacke? Rechne in C4.": "Combien d'euros de réduction y a-t-il sur la veste ? Calcule en C4.",
  "20 % ist für Calc schon 0,2. Teile nicht noch einmal durch 100.": "Pour Calc, 20 % c'est déjà 0,2. Ne divise pas encore une fois par 100.",
  "80 € mal 20 % sind 16 €. Calc rechnet mit 0,2.": "80 € fois 20 %, ça fait 16 €. Calc calcule avec 0,2.",
- "D5 zeigt 12,00 €. In der Eingabezeile steht nur 12. Was ist das Problem?": "D5 affiche 12,00 €. Dans la ligne de saisie, il y a seulement <code>12</code>. Quel est le problème ?",
  "Kein Problem, das Ergebnis stimmt": "Pas de problème, le résultat est juste",
  "Calc zeigt gleich #WERT!": "Calc va afficher <code>#WERT!</code>",
- "Die Zahl ist getippt. Ändert sich der Preis, bleibt 12 stehen.": "Le nombre est tapé. Si le prix change, 12 reste là.",
- "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht mit.": "C'est une erreur silencieuse : ça a l'air juste, mais Calc ne recalcule pas.",
- "Heute stimmt es. Aber wenn sich etwas ändert, rechnet Calc nicht neu.": "Aujourd'hui, c'est juste. Mais si quelque chose change, Calc ne recalcule pas.",
  "Calc meldet hier nichts. Darum heißt es stiller Fehler.": "Calc ne signale rien ici. C'est pour ça qu'on dit erreur silencieuse.",
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>comparer</strong> – vérifier : est-ce égal, plus grand ou plus petit ?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>égal · différent</strong> – gleich : <code>=</code> · ungleich (pas égal) : <code>&lt;&gt;</code>",
@@ -123,5 +119,9 @@
  "Ja/Nein-Frage": "Question oui/non",
  "Training": "Entraînement",
  "Kurz-Check": "Vérification rapide",
- "📋 Spicker: So schreibst du WENN": "📋 Antisèche : comment écrire WENN"
+ "📋 Spicker: So schreibst du WENN": "📋 Antisèche : comment écrire WENN",
+ "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "Dans D2, Calc doit calculer la quantité fois le prix. D2 affiche 12,00 €. Mais dans la ligne de saisie, il y a seulement <code>12</code>. Quel est le problème ?",
+ "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "Le 12 est tapé. Si la quantité ou le prix change, ça reste 12.",
+ "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "C'est une erreur silencieuse : ça a l'air juste, mais Calc ne calcule pas. Il faudrait <code>=B2*C2</code>.",
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Aujourd'hui c'est juste. Mais si la quantité ou le prix change, Calc ne recalcule pas."
 }

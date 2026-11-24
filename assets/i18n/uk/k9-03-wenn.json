@@ -95,12 +95,8 @@
  "Wie viel Euro Rabatt gibt es auf die Jacke? Rechne in C4.": "Скільки євро знижки на куртку? Порахуй у C4.",
  "20 % ist für Calc schon 0,2. Teile nicht noch einmal durch 100.": "Для Calc 20 % – це вже 0,2. Не діли ще раз на 100.",
  "80 € mal 20 % sind 16 €. Calc rechnet mit 0,2.": "80 € помножити на 20 % – це 16 €. Calc рахує з 0,2.",
- "D5 zeigt 12,00 €. In der Eingabezeile steht nur 12. Was ist das Problem?": "D5 показує 12,00 €. У Eingabezeile (рядок введення) стоїть тільки <code>12</code>. У чому проблема?",
  "Kein Problem, das Ergebnis stimmt": "Проблеми немає, результат правильний",
  "Calc zeigt gleich #WERT!": "Calc зараз покаже <code>#WERT!</code>",
- "Die Zahl ist getippt. Ändert sich der Preis, bleibt 12 stehen.": "Число набрано вручну. Якщо ціна зміниться, 12 залишиться.",
- "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht mit.": "Це тиха помилка: виглядає правильно, але Calc не перераховує.",
- "Heute stimmt es. Aber wenn sich etwas ändert, rechnet Calc nicht neu.": "Сьогодні все правильно. Але якщо щось зміниться, Calc не перерахує.",
  "Calc meldet hier nichts. Darum heißt es stiller Fehler.": "Calc тут нічого не повідомляє. Тому це називають тихою помилкою.",
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>порівнювати</strong> – перевірити: це дорівнює, більше чи менше?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>дорівнює · не дорівнює</strong> – gleich: <code>=</code> · ungleich (не дорівнює): <code>&lt;&gt;</code>",
@@ -123,5 +119,9 @@
  "Ja/Nein-Frage": "Запитання «так/ні»",
  "Training": "Тренування",
  "Kurz-Check": "Коротка перевірка",
- "📋 Spicker: So schreibst du WENN": "📋 Шпаргалка: як писати WENN"
+ "📋 Spicker: So schreibst du WENN": "📋 Шпаргалка: як писати WENN",
+ "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "У D2 Calc має обчислити: кількість помножити на ціну. D2 показує 12,00 €. Але в рядку введення стоїть тільки <code>12</code>. У чому проблема?",
+ "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "Число 12 введено вручну. Якщо зміниться кількість або ціна, залишиться 12.",
+ "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "Це тиха помилка: виглядає правильно, але Calc не рахує. Правильно було б <code>=B2*C2</code>.",
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Сьогодні це правильно. Але якщо зміниться кількість або ціна, Calc не перерахує."
 }

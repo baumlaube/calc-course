@@ -95,12 +95,8 @@
  "Wie viel Euro Rabatt gibt es auf die Jacke? Rechne in C4.": "Sa euro zbritje ka xhaketa? Llogarit në C4.",
  "20 % ist für Calc schon 0,2. Teile nicht noch einmal durch 100.": "Për Calc, 20 % është tashmë 0,2. Mos pjesëto edhe një herë me 100.",
  "80 € mal 20 % sind 16 €. Calc rechnet mit 0,2.": "80 € herë 20 % bëjnë 16 €. Calc llogarit me 0,2.",
- "D5 zeigt 12,00 €. In der Eingabezeile steht nur 12. Was ist das Problem?": "D5 tregon 12,00 €. Në rreshtin e hyrjes shkruan vetëm <code>12</code>. Cili është problemi?",
  "Kein Problem, das Ergebnis stimmt": "S'ka problem, rezultati është i saktë",
  "Calc zeigt gleich #WERT!": "Calc tregon menjëherë <code>#WERT!</code>",
- "Die Zahl ist getippt. Ändert sich der Preis, bleibt 12 stehen.": "Numri është shkruar me dorë. Nëse çmimi ndryshon, 12 mbetet.",
- "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht mit.": "Ky është një gabim i heshtur: duket i saktë, por Calc nuk rillogarit.",
- "Heute stimmt es. Aber wenn sich etwas ändert, rechnet Calc nicht neu.": "Sot është i saktë. Por nëse diçka ndryshon, Calc nuk rillogarit.",
  "Calc meldet hier nichts. Darum heißt es stiller Fehler.": "Calc nuk lajmëron asgjë këtu. Prandaj quhet gabim i heshtur.",
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>krahasoj</strong> – kontrolloj: A është diçka e barabartë, më e madhe apo më e vogël?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>e barabartë · jo e barabartë</strong> – gleich: <code>=</code> · ungleich (jo e barabartë): <code>&lt;&gt;</code>",
@@ -123,5 +119,9 @@
  "Ja/Nein-Frage": "Pyetje po/jo",
  "Training": "Stërvitje",
  "Kurz-Check": "Kontroll i shpejtë",
- "📋 Spicker: So schreibst du WENN": "📋 Fletë ndihmëse: kështu shkruan WENN"
+ "📋 Spicker: So schreibst du WENN": "📋 Fletë ndihmëse: kështu shkruan WENN",
+ "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "Te D2 Calc duhet të llogarisë: sasia herë çmimi. D2 tregon 12,00 €. Por në rreshtin e hyrjes shkruan vetëm <code>12</code>. Cili është problemi?",
+ "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "12 është shkruar me dorë. Nëse ndryshon sasia ose çmimi, mbetet 12.",
+ "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "Ky është një gabim i heshtur: duket saktë, por Calc nuk llogarit. E saktë do të ishte <code>=B2*C2</code>.",
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Sot është saktë. Por nëse ndryshon sasia ose çmimi, Calc nuk llogarit përsëri."
 }

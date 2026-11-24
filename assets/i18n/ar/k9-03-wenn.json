@@ -95,12 +95,8 @@
  "Wie viel Euro Rabatt gibt es auf die Jacke? Rechne in C4.": "كم يورو الخصم على السترة؟ احسب في C4.",
  "20 % ist für Calc schon 0,2. Teile nicht noch einmal durch 100.": "عند Calc، 20 % هي أصلًا 0,2. لا تقسم مرة أخرى على 100.",
  "80 € mal 20 % sind 16 €. Calc rechnet mit 0,2.": "80 € ضرب 20 % تساوي 16 €. Calc يحسب بـ 0,2.",
- "D5 zeigt 12,00 €. In der Eingabezeile steht nur 12. Was ist das Problem?": "D5 تُظهر 12,00 €. في Eingabezeile (سطر الإدخال) مكتوب فقط <code>12</code>. ما المشكلة؟",
  "Kein Problem, das Ergebnis stimmt": "لا مشكلة، النتيجة صحيحة",
  "Calc zeigt gleich #WERT!": "Calc يُظهر فورًا <code>#WERT!</code>",
- "Die Zahl ist getippt. Ändert sich der Preis, bleibt 12 stehen.": "الرقم مكتوب باليد. إذا تغير السعر، يبقى 12.",
- "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht mit.": "هذا خطأ صامت: يبدو صحيحًا، لكن Calc لا يحسب من جديد.",
- "Heute stimmt es. Aber wenn sich etwas ändert, rechnet Calc nicht neu.": "اليوم هو صحيح. لكن إذا تغير شيء، لا يحسب Calc من جديد.",
  "Calc meldet hier nichts. Darum heißt es stiller Fehler.": "Calc لا يُبلغ عن شيء هنا. لذلك اسمه خطأ صامت.",
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>يقارن</strong> – يفحص: هل الشيء يساوي أم أكبر أم أصغر؟",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>يساوي · لا يساوي</strong> – gleich: <code>=</code> · ungleich (لا يساوي): <code>&lt;&gt;</code>",
@@ -123,5 +119,9 @@
  "Ja/Nein-Frage": "سؤال نعم/لا",
  "Training": "تدريب",
  "Kurz-Check": "فحص سريع",
- "📋 Spicker: So schreibst du WENN": "📋 ورقة مساعدة: هكذا تكتب WENN"
+ "📋 Spicker: So schreibst du WENN": "📋 ورقة مساعدة: هكذا تكتب WENN",
+ "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "في D2 يجب أن يحسب Calc: الكمية ضرب السعر. D2 تعرض 12,00 €. لكن في سطر الإدخال يوجد فقط <code>12</code>. ما المشكلة؟",
+ "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "الرقم 12 مكتوب باليد. إذا تغيّرت الكمية أو السعر، يبقى 12.",
+ "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "هذا خطأ صامت: يبدو صحيحًا، لكن Calc لا يحسب. الصحيح هو <code>=B2*C2</code>.",
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "اليوم النتيجة صحيحة. لكن إذا تغيّرت الكمية أو السعر، لا يعيد Calc الحساب."
 }

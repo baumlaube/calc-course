@@ -95,12 +95,8 @@
  "Wie viel Euro Rabatt gibt es auf die Jacke? Rechne in C4.": "Ile euro rabatu jest na kurtkę? Policz w C4.",
  "20 % ist für Calc schon 0,2. Teile nicht noch einmal durch 100.": "Dla Calc 20 % to już 0,2. Nie dziel jeszcze raz przez 100.",
  "80 € mal 20 % sind 16 €. Calc rechnet mit 0,2.": "80 € razy 20 % to 16 €. Calc liczy z 0,2.",
- "D5 zeigt 12,00 €. In der Eingabezeile steht nur 12. Was ist das Problem?": "D5 pokazuje 12,00 €. W wierszu wprowadzania jest tylko <code>12</code>. W czym problem?",
  "Kein Problem, das Ergebnis stimmt": "Nie ma problemu, wynik się zgadza",
  "Calc zeigt gleich #WERT!": "Calc zaraz pokaże <code>#WERT!</code>",
- "Die Zahl ist getippt. Ändert sich der Preis, bleibt 12 stehen.": "Liczba jest wpisana ręcznie. Gdy cena się zmieni, 12 zostanie.",
- "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht mit.": "To cichy błąd: wygląda dobrze, ale Calc nie przelicza.",
- "Heute stimmt es. Aber wenn sich etwas ändert, rechnet Calc nicht neu.": "Dziś się zgadza. Ale gdy coś się zmieni, Calc nie przeliczy.",
  "Calc meldet hier nichts. Darum heißt es stiller Fehler.": "Calc nic tu nie zgłasza. Dlatego to się nazywa cichy błąd.",
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>porównywać</strong> – sprawdzić: czy coś jest równe, większe czy mniejsze?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>równe · nierówne</strong> – gleich: <code>=</code> · ungleich (nierówne): <code>&lt;&gt;</code>",
@@ -123,5 +119,9 @@
  "Ja/Nein-Frage": "Pytanie tak/nie",
  "Training": "Trening",
  "Kurz-Check": "Szybki test",
- "📋 Spicker: So schreibst du WENN": "📋 Ściąga: tak piszesz WENN"
+ "📋 Spicker: So schreibst du WENN": "📋 Ściąga: tak piszesz WENN",
+ "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "W D2 Calc ma policzyć: ilość razy cena. D2 pokazuje 12,00 €. Ale w wierszu wprowadzania jest tylko <code>12</code>. Na czym polega problem?",
+ "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "12 jest wpisane ręcznie. Gdy zmieni się ilość albo cena, zostaje 12.",
+ "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "To cichy błąd: wygląda dobrze, ale Calc nie liczy. Dobrze byłoby <code>=B2*C2</code>.",
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Dziś się zgadza. Ale gdy zmieni się ilość albo cena, Calc nie przelicza od nowa."
 }

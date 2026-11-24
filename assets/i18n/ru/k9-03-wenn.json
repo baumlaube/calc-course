@@ -95,12 +95,8 @@
  "Wie viel Euro Rabatt gibt es auf die Jacke? Rechne in C4.": "Сколько евро скидки на куртку? Посчитай в C4.",
  "20 % ist für Calc schon 0,2. Teile nicht noch einmal durch 100.": "Для Calc 20 % – это уже 0,2. Не дели ещё раз на 100.",
  "80 € mal 20 % sind 16 €. Calc rechnet mit 0,2.": "80 € умножить на 20 % – это 16 €. Calc считает с 0,2.",
- "D5 zeigt 12,00 €. In der Eingabezeile steht nur 12. Was ist das Problem?": "D5 показывает 12,00 €. В строке ввода стоит только <code>12</code>. В чём проблема?",
  "Kein Problem, das Ergebnis stimmt": "Проблемы нет, результат верный",
  "Calc zeigt gleich #WERT!": "Calc сейчас покажет <code>#WERT!</code>",
- "Die Zahl ist getippt. Ändert sich der Preis, bleibt 12 stehen.": "Число набрано вручную. Если цена изменится, 12 останется.",
- "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht mit.": "Это тихая ошибка: выглядит верно, но Calc не пересчитывает.",
- "Heute stimmt es. Aber wenn sich etwas ändert, rechnet Calc nicht neu.": "Сегодня всё верно. Но если что-то изменится, Calc не пересчитает.",
  "Calc meldet hier nichts. Darum heißt es stiller Fehler.": "Calc здесь ничего не сообщает. Поэтому это называют тихой ошибкой.",
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>сравнивать</strong> – проверить: это равно, больше или меньше?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>равно · не равно</strong> – gleich: <code>=</code> · ungleich (не равно): <code>&lt;&gt;</code>",
@@ -123,5 +119,9 @@
  "Ja/Nein-Frage": "Вопрос «да/нет»",
  "Training": "Тренировка",
  "Kurz-Check": "Быстрая проверка",
- "📋 Spicker: So schreibst du WENN": "📋 Шпаргалка: как писать WENN"
+ "📋 Spicker: So schreibst du WENN": "📋 Шпаргалка: как писать WENN",
+ "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "В D2 Calc должен посчитать: количество умножить на цену. D2 показывает 12,00 €. Но в строке ввода стоит только <code>12</code>. В чём проблема?",
+ "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "Число 12 введено вручную. Если изменится количество или цена, останется 12.",
+ "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "Это тихая ошибка: выглядит правильно, но Calc не считает. Правильно было бы <code>=B2*C2</code>.",
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Сегодня это верно. Но если изменится количество или цена, Calc не пересчитает."
 }

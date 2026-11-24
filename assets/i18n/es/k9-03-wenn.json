@@ -95,12 +95,8 @@
  "Wie viel Euro Rabatt gibt es auf die Jacke? Rechne in C4.": "¿Cuántos euros de descuento tiene la chaqueta? Calcula en C4.",
  "20 % ist für Calc schon 0,2. Teile nicht noch einmal durch 100.": "Para Calc, 20 % ya es 0,2. No dividas otra vez entre 100.",
  "80 € mal 20 % sind 16 €. Calc rechnet mit 0,2.": "80 € por 20 % son 16 €. Calc calcula con 0,2.",
- "D5 zeigt 12,00 €. In der Eingabezeile steht nur 12. Was ist das Problem?": "D5 muestra 12,00 €. En la línea de entrada solo pone <code>12</code>. ¿Cuál es el problema?",
  "Kein Problem, das Ergebnis stimmt": "Ningún problema, el resultado está bien",
  "Calc zeigt gleich #WERT!": "Calc mostrará <code>#WERT!</code>",
- "Die Zahl ist getippt. Ändert sich der Preis, bleibt 12 stehen.": "El número está escrito a mano. Si el precio cambia, el 12 se queda.",
- "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht mit.": "Es un error silencioso: parece correcto, pero Calc no recalcula.",
- "Heute stimmt es. Aber wenn sich etwas ändert, rechnet Calc nicht neu.": "Hoy está bien. Pero si algo cambia, Calc no recalcula.",
  "Calc meldet hier nichts. Darum heißt es stiller Fehler.": "Calc no avisa de nada aquí. Por eso se llama error silencioso.",
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>comparar</strong> – comprobar: ¿es igual, mayor o menor?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>igual · distinto</strong> – gleich: <code>=</code> · ungleich (no igual): <code>&lt;&gt;</code>",
@@ -123,5 +119,9 @@
  "Ja/Nein-Frage": "Pregunta de sí o no",
  "Training": "Entrenamiento",
  "Kurz-Check": "Comprobación rápida",
- "📋 Spicker: So schreibst du WENN": "📋 Chuleta: así se escribe WENN"
+ "📋 Spicker: So schreibst du WENN": "📋 Chuleta: así se escribe WENN",
+ "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "En D2, Calc debe calcular cantidad por precio. D2 muestra 12,00 €. Pero en la línea de entrada solo pone <code>12</code>. ¿Cuál es el problema?",
+ "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "El 12 está escrito a mano. Si cambia la cantidad o el precio, sigue siendo 12.",
+ "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "Es un error silencioso: parece correcto, pero Calc no calcula. Lo correcto sería <code>=B2*C2</code>.",
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Hoy está bien. Pero si cambia la cantidad o el precio, Calc no vuelve a calcular."
 }

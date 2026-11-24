@@ -95,12 +95,8 @@
  "Wie viel Euro Rabatt gibt es auf die Jacke? Rechne in C4.": "How many euros discount is there on the jacket? Calculate in C4.",
  "20 % ist für Calc schon 0,2. Teile nicht noch einmal durch 100.": "For Calc, 20 % is already 0,2. Do not divide by 100 again.",
  "80 € mal 20 % sind 16 €. Calc rechnet mit 0,2.": "80 € times 20 % is 16 €. Calc calculates with 0,2.",
- "D5 zeigt 12,00 €. In der Eingabezeile steht nur 12. Was ist das Problem?": "D5 shows 12,00 €. The input line contains only <code>12</code>. What is the problem?",
  "Kein Problem, das Ergebnis stimmt": "No problem, the result is right",
  "Calc zeigt gleich #WERT!": "Calc will show <code>#WERT!</code>",
- "Die Zahl ist getippt. Ändert sich der Preis, bleibt 12 stehen.": "The number is typed. If the price changes, 12 stays there.",
- "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht mit.": "That is a silent error: it looks right, but Calc does not recalculate.",
- "Heute stimmt es. Aber wenn sich etwas ändert, rechnet Calc nicht neu.": "Today it is right. But if something changes, Calc does not recalculate.",
  "Calc meldet hier nichts. Darum heißt es stiller Fehler.": "Calc reports nothing here. That is why it is called a silent error.",
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>to compare</strong> – to check: is something equal, greater or smaller?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>equal · not equal</strong> – gleich: <code>=</code> · ungleich (not equal): <code>&lt;&gt;</code>",
@@ -123,5 +119,9 @@
  "Ja/Nein-Frage": "Yes/no question",
  "Training": "Training",
  "Kurz-Check": "Quick check",
- "📋 Spicker: So schreibst du WENN": "📋 Cheat sheet: how to write WENN"
+ "📋 Spicker: So schreibst du WENN": "📋 Cheat sheet: how to write WENN",
+ "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "In D2, Calc should work out quantity times price. D2 shows 12,00 €. But the input line contains only <code>12</code>. What is the problem?",
+ "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "The 12 is typed. If the quantity or price changes, it stays 12.",
+ "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "That is a silent error: it looks right, but Calc doesn't calculate. Correct would be <code>=B2*C2</code>.",
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "It's right today. But if the quantity or price changes, Calc doesn't recalculate."
 }

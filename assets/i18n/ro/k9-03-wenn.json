@@ -95,12 +95,8 @@
  "Wie viel Euro Rabatt gibt es auf die Jacke? Rechne in C4.": "Câți euro reducere are geaca? Calculează în C4.",
  "20 % ist für Calc schon 0,2. Teile nicht noch einmal durch 100.": "Pentru Calc, 20 % este deja 0,2. Nu împărți încă o dată la 100.",
  "80 € mal 20 % sind 16 €. Calc rechnet mit 0,2.": "80 € ori 20 % fac 16 €. Calc calculează cu 0,2.",
- "D5 zeigt 12,00 €. In der Eingabezeile steht nur 12. Was ist das Problem?": "D5 arată 12,00 €. În linia de introducere scrie doar <code>12</code>. Care e problema?",
  "Kein Problem, das Ergebnis stimmt": "Nicio problemă, rezultatul e bun",
  "Calc zeigt gleich #WERT!": "Calc arată imediat <code>#WERT!</code>",
- "Die Zahl ist getippt. Ändert sich der Preis, bleibt 12 stehen.": "Numărul este tastat. Dacă prețul se schimbă, 12 rămâne.",
- "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht mit.": "Aceasta e o eroare tăcută: arată corect, dar Calc nu recalculează.",
- "Heute stimmt es. Aber wenn sich etwas ändert, rechnet Calc nicht neu.": "Azi e corect. Dar dacă se schimbă ceva, Calc nu recalculează.",
  "Calc meldet hier nichts. Darum heißt es stiller Fehler.": "Calc nu anunță nimic aici. De aceea se numește eroare tăcută.",
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>a compara</strong> – a verifica: e ceva egal, mai mare sau mai mic?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>egal · diferit</strong> – gleich: <code>=</code> · ungleich (nu e egal): <code>&lt;&gt;</code>",
@@ -123,5 +119,9 @@
  "Ja/Nein-Frage": "Întrebare cu da/nu",
  "Training": "Antrenament",
  "Kurz-Check": "Verificare rapidă",
- "📋 Spicker: So schreibst du WENN": "📋 Fițuică: așa scrii WENN"
+ "📋 Spicker: So schreibst du WENN": "📋 Fițuică: așa scrii WENN",
+ "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "În D2, Calc trebuie să calculeze cantitatea ori prețul. D2 arată 12,00 €. Dar în linia de introducere scrie doar <code>12</code>. Care e problema?",
+ "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "12 e tastat. Dacă se schimbă cantitatea sau prețul, rămâne 12.",
+ "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "E o greșeală tăcută: pare corect, dar Calc nu calculează. Corect ar fi <code>=B2*C2</code>.",
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Azi e corect. Dar dacă se schimbă cantitatea sau prețul, Calc nu recalculează."
 }

@@ -80,12 +80,8 @@
  "Wie viel Euro Rabatt gibt es auf die Jacke? Rechne in C4.": "Koliko eura popusta ima na jaknu? Računaj u C4.",
  "20 % ist für Calc schon 0,2. Teile nicht noch einmal durch 100.": "Za Calc je 20 % već 0,2. Ne dijeli još jednom sa 100.",
  "80 € mal 20 % sind 16 €. Calc rechnet mit 0,2.": "80 € puta 20 % je 16 €. Calc računa sa 0,2.",
- "D5 zeigt 12,00 €. In der Eingabezeile steht nur 12. Was ist das Problem?": "D5 pokazuje 12,00 €. U redu za unos stoji samo <code>12</code>. U čemu je problem?",
  "Kein Problem, das Ergebnis stimmt": "Nema problema, rezultat je tačan",
  "Calc zeigt gleich #WERT!": "Calc odmah pokazuje <code>#WERT!</code>",
- "Die Zahl ist getippt. Ändert sich der Preis, bleibt 12 stehen.": "Broj je ukucan. Ako se cijena promijeni, 12 ostaje.",
- "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht mit.": "To je tiha greška: izgleda tačno, ali Calc ne računa ponovo.",
- "Heute stimmt es. Aber wenn sich etwas ändert, rechnet Calc nicht neu.": "Danas je tačno. Ali ako se nešto promijeni, Calc ne računa ponovo.",
  "Calc meldet hier nichts. Darum heißt es stiller Fehler.": "Calc ovdje ništa ne javlja. Zato se zove tiha greška.",
  "prüfen: Ist etwas gleich, größer oder kleiner?": "<strong>porediti</strong> – provjeriti: Je li nešto jednako, veće ili manje?",
  "gleich: = · ungleich (nicht gleich): <>": "<strong>jednako · nije jednako</strong> – gleich: <code>=</code> · ungleich (nije jednako): <code>&lt;&gt;</code>",
@@ -108,5 +104,9 @@
  "Ja/Nein-Frage": "Pitanje da/ne",
  "Training": "Trening",
  "Kurz-Check": "Kratka provjera",
- "📋 Spicker: So schreibst du WENN": "📋 Podsjetnik: ovako pišeš WENN"
+ "📋 Spicker: So schreibst du WENN": "📋 Podsjetnik: ovako pišeš WENN",
+ "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "U D2 Calc treba izračunati: količina puta cijena. D2 pokazuje 12,00 €. Ali u redu za unos stoji samo <code>12</code>. U čemu je problem?",
+ "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "12 je ukucano. Ako se promijeni količina ili cijena, ostaje 12.",
+ "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "To je tiha greška: izgleda tačno, ali Calc ne računa. Tačno bi bilo <code>=B2*C2</code>.",
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Danas je tačno. Ali ako se promijeni količina ili cijena, Calc ne računa ponovo."
 }

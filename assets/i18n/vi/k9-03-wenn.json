@@ -76,12 +76,8 @@
  "Wie viel Euro Rabatt gibt es auf die Jacke? Rechne in C4.": "Chiếc áo khoác được giảm bao nhiêu euro? Hãy tính trong C4.",
  "20 % ist für Calc schon 0,2. Teile nicht noch einmal durch 100.": "Với Calc, 20 % đã là 0,2 rồi. Đừng chia cho 100 thêm lần nữa.",
  "80 € mal 20 % sind 16 €. Calc rechnet mit 0,2.": "80 € nhân 20 % là 16 €. Calc tính với 0,2.",
- "D5 zeigt 12,00 €. In der Eingabezeile steht nur 12. Was ist das Problem?": "D5 hiện 12,00 €. Trong dòng nhập chỉ có <code>12</code>. Vấn đề là gì?",
  "Kein Problem, das Ergebnis stimmt": "Không có vấn đề gì, kết quả đúng",
  "Calc zeigt gleich #WERT!": "Calc sắp hiện <code>#WERT!</code>",
- "Die Zahl ist getippt. Ändert sich der Preis, bleibt 12 stehen.": "Con số được gõ tay. Khi giá thay đổi, 12 vẫn nằm yên đó.",
- "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht mit.": "Đây là lỗi ngầm: trông thì đúng, nhưng Calc không tính lại theo.",
- "Heute stimmt es. Aber wenn sich etwas ändert, rechnet Calc nicht neu.": "Hôm nay thì đúng. Nhưng khi có gì thay đổi, Calc không tính lại.",
  "Calc meldet hier nichts. Darum heißt es stiller Fehler.": "Ở đây Calc không báo gì. Vì vậy nó được gọi là lỗi ngầm.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
  "=WENN(A2{}{};\"Ja\";\"Nein\")": "<code class=\"long\">=WENN(A2{}{};\"Ja\";\"Nein\")</code><br>",
@@ -121,5 +117,9 @@
  "Ja/Nein-Frage": "Câu hỏi có/không",
  "Training": "Luyện tập",
  "Kurz-Check": "Kiểm tra nhanh",
- "📋 Spicker: So schreibst du WENN": "📋 Phiếu nhắc nhanh: viết WENN như thế này"
+ "📋 Spicker: So schreibst du WENN": "📋 Phiếu nhắc nhanh: viết WENN như thế này",
+ "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "Trong D2, Calc phải tính: số lượng nhân giá. D2 hiện 12,00 €. Nhưng trong dòng nhập chỉ có <code>12</code>. Vấn đề là gì?",
+ "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "Số 12 được gõ tay. Nếu số lượng hoặc giá thay đổi, nó vẫn là 12.",
+ "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "Đây là một lỗi im lặng: trông thì đúng, nhưng Calc không tính. Đúng ra phải là <code>=B2*C2</code>.",
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Hôm nay thì đúng. Nhưng nếu số lượng hoặc giá thay đổi, Calc không tính lại."
 }
