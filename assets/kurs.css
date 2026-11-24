@@ -482,3 +482,7 @@ details.woerter td { text-align: start; }
 .bild-wrap { overflow-x: auto; }
 @keyframes mc-blink { 0%, 100% { background: transparent; } 40% { background: #fff3a8; } }
 .mc-blink td.mc-sel, .mc-blink .mc-blink-cell { animation: mc-blink 1s ease-in-out 2; }
+/* Lektionsnummer rechts im Reiterbalken (nicht am Handy) */
+.reg-nr { margin-left: auto; align-self: center; flex: none; padding: 4px 12px; border-radius: 10px; background: var(--navy); color: var(--surface);
+  font-size: 22px; font-weight: 800; letter-spacing: .02em; font-variant-numeric: tabular-nums; }
+@media (max-width: 640px) { .reg-nr { display: none; } }

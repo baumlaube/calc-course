@@ -10,7 +10,7 @@
 
   /**
    * box: Element mit den Schritt-Abschnitten (section.card) als Kindern
-   * opts: { key: Speicher-Schlüssel, after: id des Abschnitts nach dem letzten Schritt }
+   * opts: { key: Speicher-Schlüssel, after: id des Abschnitts nach dem letzten Schritt, nr: Lektionsnummer, z. B. "9.3" }
    */
   function Register(box, opts = {}) {
     const store = window.Kurs.store;
@@ -70,6 +70,13 @@
       return { b, nav, p };
     });
     bar.append(...tabs.map((t) => t.b));
+    if (opts.nr) {   // Lektionsnummer rechts im Balken: Die Lehrkraft sieht im Vorbeigehen, ob die richtige Lektion offen ist
+      const nr = document.createElement("span");
+      nr.className = "reg-nr";
+      nr.textContent = opts.nr;
+      nr.setAttribute("aria-hidden", "true");
+      bar.appendChild(nr);
+    }
     box.prepend(bar);
     box.classList.add("register");
 
