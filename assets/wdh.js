@@ -107,6 +107,12 @@
     const finish = (ok) => { if (!finished) { finished = true; onResult(ok); } };
 
     if (item.type === "wahl") {
+      if (item.table) {   // Kontext zum Anschauen: feste Tabelle, die Zelle aus table.select ist markiert (Eingabezeile zeigt ihren Inhalt)
+        const t = item.table, tb = el("div");
+        wrap.appendChild(tb);
+        new MiniCalc(tb, { cols: t.cols, rows: t.rows, cells: t.cells, styles: t.styles || {}, formats: t.formats || {},
+          decimal: "comma", editable: [], select: t.select || "A1" });
+      }
       const box = el("div", "choices");
       item.options.forEach((opt, oi) => {
         const b = el("button", "choice", T(opt));
@@ -196,7 +202,7 @@
    * box: Ziel-Element · items: [{ type, from, q, href, why, … }] · opts: { mode:"ueben"|"diagnose", key, done }
    *   tippen: { table:{cols,rows,cells,styles,formats}, cell, check:(calc, ROH, wert)=>true|Hinweis, solution }
    *   zelle:  { table, cell, miss:(adresse)=>Hinweis }
-   *   wahl:   { options:[…], right, miss:[…] }
+   *   wahl:   { options:[…], right, miss:[…], table?:{cols,rows,cells,styles,formats,select} }
    *   diagnose zusätzlich je Aufgabe: { title } (Name des Bausteins) und href (Link dorthin)
    */
   function Wdh(box, items, opts = {}) {
