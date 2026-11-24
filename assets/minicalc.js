@@ -383,6 +383,17 @@
 
   /* Touch-Geräte erkennen: Touchscreen vorhanden oder die erste Berührung kam vom Finger.
      Dann bekommt <html> die Klasse mc-touch und Knöpfe mit touch: true werden sichtbar. */
+  /* Wie Calc: Typografische Anführungszeichen (z. B. vom Tablet „…“) werden zu ", fehlende Klammern am Ende ergänzt. */
+  function fixFormula(f) {
+    f = f.replace(/[„“”‟″]/g, '"');
+    let depth = 0, inStr = false;
+    for (const ch of f) {
+      if (ch === '"') inStr = !inStr;
+      else if (!inStr && ch === "(") depth++;
+      else if (!inStr && ch === ")") depth--;
+    }
+    return !inStr && depth > 0 ? f + ")".repeat(depth) : f;
+  }
   let touch = false;
   const setTouch = (on) => { if (on && !touch) { touch = true; document.documentElement.classList.add("mc-touch"); } };
   if (window.matchMedia) {
@@ -613,6 +624,7 @@
     commit() {
       if (!this.editable.has(this.sel)) return;
       let v = this.input.value.trim();
+      if (v.startsWith("=")) v = fixFormula(v);
       if (this.numRe.test(v)) v = this.toNum(v);
       this.raw[this.sel] = v;
       this.render();
