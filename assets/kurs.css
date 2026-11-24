@@ -426,3 +426,8 @@ details.woerter td { text-align: start; }
 
 /* Zeugnis-Schnitt (8.3): viele schmale Notenspalten */
 #calcZeugnis .mc-grid td { min-width: 40px; padding: 4px 6px; }
+
+/* Calc-Block: Freiwillig als Kasten unter Pflicht und Plus */
+.frei-box { border: 2px solid var(--expedition); border-radius: 12px; padding: 4px 16px 8px; margin-top: 26px; }
+.frei-box .frei-titel { font-size: 18px; margin: 12px 0 6px; color: var(--expedition); display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.frei-box h3.sub { margin-top: 22px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
