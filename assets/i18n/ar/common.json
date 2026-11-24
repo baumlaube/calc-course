@@ -219,5 +219,6 @@
  "Du kannst eine andere Antwort wählen oder weitergehen.": "يمكنك أن تختار إجابة أخرى أو تتابع.",
  "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "ابدأ بهذه الثلاثة. نفّذ هناك الخطوتين 2 و3. بعد ذلك أعد الاختبار هنا.",
  "Eine zu große Zahl zeigt Calc als ###.": "العدد الكبير جدًا يعرضه Calc على شكل <code>###</code>.",
- "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "جزء Dann هو A5+15. A5 جزء منه."
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "جزء Dann هو A5+15. A5 جزء منه.",
+ "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> فحص سريع <span class=\"chip\">3 د</span>"
 }

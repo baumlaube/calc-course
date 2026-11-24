@@ -219,5 +219,6 @@
  "Du kannst eine andere Antwort wählen oder weitergehen.": "Puedes elegir otra respuesta o seguir.",
  "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "Empieza con estas tres. Haz allí los pasos 2 y 3. Después haz otra vez el test aquí.",
  "Eine zu große Zahl zeigt Calc als ###.": "Un número demasiado grande Calc lo muestra como <code>###</code>.",
- "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "La parte Dann es A5+15. A5 también forma parte."
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "La parte Dann es A5+15. A5 también forma parte.",
+ "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Comprobación rápida <span class=\"chip\">3 min</span>"
 }

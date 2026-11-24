@@ -27,7 +27,6 @@
  "Text steht immer in \"Anführungszeichen\". Zahlen ohne.": "Chữ luôn nằm trong <code>\"Anführungszeichen\"</code> (dấu ngoặc kép). Số thì không.",
  "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>Video ngắn (sắp có):</strong> Công thức WENN đầu tiên",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> Luyện đặt câu hỏi qua 4 cấp <span class=\"chip\">8 phút</span>",
- "ODS Übungsdateik9-03-wenn.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (tệp bài tập)<small>k9-03-wenn.ods</small></span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN đặt một câu hỏi mà chỉ có câu trả lời có hoặc không: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",
  "Beispiel: =WENN(A6=\"Katze\";\"Ja\";\"Nein\") – Steht in A6 Katze?": "Ví dụ: <code class=\"long\">=WENN(A6=\"Katze\";\"Ja\";\"Nein\")</code> – Trong A6 có Katze (con mèo) không?",
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "So sánh: <code>=</code> bằng · <code>&lt;&gt;</code> khác · <code>&lt;</code> nhỏ hơn · <code>&gt;</code> lớn hơn · <code>&lt;=</code> nhiều nhất · <code>&gt;=</code> ít nhất",
@@ -39,8 +38,6 @@
  "★ Expedition Quiz-Maker": "<span class=\"badge expedition\">★ Expedition</span> Tự làm câu đố",
  "Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll richtig stehen, wenn in B2 Paris steht, sonst falsch.": "Cột kiểm tra trong các tệp bài tập cũng chỉ là một công thức WENN! Hãy tự làm một cái: C2 phải hiện <strong>richtig</strong> (đúng) nếu trong B2 có Paris, nếu không thì hiện <strong>falsch</strong> (sai).",
  "ODS ★ Expedition: Quiz-Makerk9-03-wenn-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition: Tự làm câu đố</strong><small>k9-03-wenn-expedition.ods</small></span>",
- "← 2 · Prozentrechnung": "← 2 · Tính phần trăm",
- "4 · WENN 2 →": "4 · WENN 2 (NẾU 2) →",
  "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN đặt một câu hỏi: <strong>Trong A5 có „Bus“ không?</strong> Có! Vì vậy B5 hiện <strong>Ja</strong>.",
  "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "Ở hàng 6 có Fahrrad (xe đạp) – ở đó câu trả lời là Nein.",
  "Frage: Ist das Alter in A2 {} {}?": "Câu hỏi: Tuổi trong A2 có <strong>{} {}</strong> không?",
@@ -122,5 +119,14 @@
  "Genau umgedreht.": "Ngược hoàn toàn.",
  "Leer heißt A5=\"\".": "Trống nghĩa là <code>A5=\"\"</code>.",
  "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Với <code>WENN</code> (NẾU), Calc đặt một câu hỏi. Câu trả lời là có hoặc không. Tùy câu trả lời, Calc hiện ra điều khác nhau, ví dụ „bestanden“ (đạt) hoặc „nicht bestanden“ (không đạt). Bạn học <code>WENN</code> từng bước nhỏ.",
- "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 hiện lỗi: chữ luôn nằm trong dấu ngoặc kép: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 hiện lỗi: chữ luôn nằm trong dấu ngoặc kép: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>.",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Bốn câu hỏi. Bạn đã hiểu chưa? Nếu rồi thì tiếp tục trong Calc.",
+ "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Bây giờ trong LibreOffice Calc <span class=\"chip\">12 phút</span>",
+ "Jede Aufgabe ist eine eigene Datei. Oben in der Datei steht ✔ FERTIG!, wenn alles stimmt. Zeig es deiner Lehrkraft.": "Mỗi bài là một tệp riêng. Khi mọi thứ đều đúng, ở trên cùng của tệp sẽ hiện <strong>✔ FERTIG!</strong> (xong). Hãy cho thầy cô xem.",
+ "Pflicht Das machen alle": "<span class=\"badge basis\">Pflicht</span> Ai cũng làm phần này",
+ "ODS Aufgabe 1 · Ja-Nein-Fragenk9-03-wenn-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Bài 1 · Câu hỏi có-không</strong><small>k9-03-wenn-1.ods</small></span>",
+ "ODS Aufgabe 2 · Eigene Antwortenk9-03-wenn-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Bài 2 · Câu trả lời của riêng bạn</strong><small>k9-03-wenn-2.ods</small></span>",
+ "Plus Nur wenn du mit Pflicht fertig bist": "<span class=\"badge plus\">Plus</span> Chỉ khi bạn đã làm xong Pflicht",
+ "ODS Aufgabe 3 · Finde die Fragek9-03-wenn-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Bài 3 · Tìm câu hỏi</strong><small>k9-03-wenn-3.ods</small></span>",
+ "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> Dành cho ai muốn học thêm"
 }

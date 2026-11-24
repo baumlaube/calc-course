@@ -23,7 +23,6 @@
  "Text steht immer in \"Anführungszeichen\". Zahlen ohne.": "Textul stă mereu între <code>\"Anführungszeichen\"</code> (ghilimele). Numerele fără.",
  "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>Video scurt (în curând):</strong> Prima formulă WENN",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> Antrenament cu întrebări în 4 niveluri <span class=\"chip\">8 min</span>",
- "ODS Übungsdateik9-03-wenn.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (fișier de exerciții)<small>k9-03-wenn.ods</small></span>",
  "ExpeditionFreiwillig: Quiz-Maker – ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span><span><strong>Opțional:</strong> Creatorul de quiz – un quiz care se verifică singur.</span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN pune o întrebare care are doar răspunsul da sau nu: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",
  "Beispiel: =WENN(A6=\"Katze\";\"Ja\";\"Nein\") – Steht in A6 Katze?": "Exemplu: <code class=\"long\">=WENN(A6=\"Katze\";\"Ja\";\"Nein\")</code> – În A6 e Katze (pisică)?",
@@ -31,8 +30,6 @@
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "În loc de <code>\"Ja\"</code> și <code>\"Nein\"</code> poți folosi orice text, de exemplu <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Expediție: Creatorul de quiz <span class=\"badge expedition\">opțional</span>",
  "Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll richtig stehen, wenn in B2 Paris steht, sonst falsch.": "Și verificarea din fișierele de exerciții e doar o formulă WENN! Construiește tu una: C2 să arate <strong>richtig</strong> (corect) dacă în B2 e Paris, altfel <strong>falsch</strong> (greșit).",
- "← 2 · Prozentrechnung": "← 2 · Procente",
- "4 · WENN 2 →": "4 · WENN 2 (DACĂ 2) →",
  "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN pune o întrebare: <strong>În A5 e „Bus”?</strong> Da! De aceea B5 arată <strong>Ja</strong>.",
  "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "În rândul 6 e Fahrrad (bicicletă) – acolo răspunsul e Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
@@ -124,5 +121,14 @@
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>punct și virgulă</strong> – semnul <code>;</code>. Desparte cele trei părți ale lui WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>a afișa</strong> – a arăta. WENN afișează un răspuns.",
  "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Cu <code>WENN</code> (IF), Calc pune o întrebare. Răspunsul e da sau nu. În funcție de răspuns, Calc arată altceva, de exemplu „bestanden” (promovat) sau „nicht bestanden” (nepromovat). Înveți <code>WENN</code> în pași mici.",
- "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 arată o eroare: textul stă mereu între ghilimele: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 arată o eroare: textul stă mereu între ghilimele: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>.",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Patru întrebări. Ai înțeles? Atunci mergi mai departe în Calc.",
+ "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Acum în LibreOffice Calc <span class=\"chip\">12 min</span>",
+ "Jede Aufgabe ist eine eigene Datei. Oben in der Datei steht ✔ FERTIG!, wenn alles stimmt. Zeig es deiner Lehrkraft.": "Fiecare sarcină e un fișier separat. Sus în fișier scrie <strong>✔ FERTIG!</strong> (gata) când totul e corect. Arată-i profesorului.",
+ "Pflicht Das machen alle": "<span class=\"badge basis\">Pflicht</span> Asta o fac toți",
+ "ODS Aufgabe 1 · Ja-Nein-Fragenk9-03-wenn-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Sarcina 1 · Întrebări da-nu</strong><small>k9-03-wenn-1.ods</small></span>",
+ "ODS Aufgabe 2 · Eigene Antwortenk9-03-wenn-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Sarcina 2 · Răspunsuri proprii</strong><small>k9-03-wenn-2.ods</small></span>",
+ "Plus Nur wenn du mit Pflicht fertig bist": "<span class=\"badge plus\">Plus</span> Doar dacă ai terminat Pflicht",
+ "ODS Aufgabe 3 · Finde die Fragek9-03-wenn-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Sarcina 3 · Găsește întrebarea</strong><small>k9-03-wenn-3.ods</small></span>",
+ "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> Pentru toți cei care vor mai mult"
 }

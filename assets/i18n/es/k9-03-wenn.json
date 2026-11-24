@@ -23,7 +23,6 @@
  "Text steht immer in \"Anführungszeichen\". Zahlen ohne.": "El texto va siempre entre <code>\"Anführungszeichen\"</code> (comillas). Los números, sin ellas.",
  "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>Vídeo corto (próximamente):</strong> la primera fórmula WENN",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> Entrenamiento de preguntas en 4 niveles <span class=\"chip\">8 min</span>",
- "ODS Übungsdateik9-03-wenn.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (archivo de ejercicios)<small>k9-03-wenn.ods</small></span>",
  "ExpeditionFreiwillig: Quiz-Maker – ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span><span><strong>Opcional:</strong> creador de concursos – un concurso que se corrige solo.</span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN hace una pregunta que solo tiene respuesta sí o no: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",
  "Beispiel: =WENN(A6=\"Katze\";\"Ja\";\"Nein\") – Steht in A6 Katze?": "Ejemplo: <code class=\"long\">=WENN(A6=\"Katze\";\"Ja\";\"Nein\")</code> – ¿contiene A6 Katze (gato)?",
@@ -31,8 +30,6 @@
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "En lugar de <code>\"Ja\"</code> y <code>\"Nein\"</code> puedes usar cualquier texto, p. ej. <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Expedición: creador de concursos <span class=\"badge expedition\">opcional</span>",
  "Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll richtig stehen, wenn in B2 Paris steht, sonst falsch.": "¡La comprobación de los archivos de ejercicios también es solo una fórmula WENN! Construye una tú: C2 debe mostrar <strong>richtig</strong> (correcto) si B2 contiene Paris, si no <strong>falsch</strong> (incorrecto).",
- "← 2 · Prozentrechnung": "← 2 · Porcentajes",
- "4 · WENN 2 →": "4 · WENN 2 (SI 2) →",
  "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN hace una pregunta: <strong>¿contiene A5 „Bus“?</strong> ¡Sí! Por eso B5 muestra <strong>Ja</strong>.",
  "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "La fila 6 contiene Fahrrad (bici): ahí la respuesta es Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
@@ -124,5 +121,14 @@
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>punto y coma</strong> – el signo <code>;</code>. Separa las tres partes de WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>mostrar</strong> – enseñar. WENN muestra una respuesta.",
  "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Con <code>WENN</code> (SI), Calc hace una pregunta. La respuesta es sí o no. Según la respuesta, Calc muestra algo distinto, por ejemplo «bestanden» (aprobado) o «nicht bestanden» (suspenso). Aprendes <code>WENN</code> en pasos pequeños.",
- "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 muestra un error: el texto siempre va entre comillas: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 muestra un error: el texto siempre va entre comillas: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>.",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Cuatro preguntas. ¿Lo has entendido? Entonces sigue en Calc.",
+ "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Ahora en LibreOffice Calc <span class=\"chip\">12 min</span>",
+ "Jede Aufgabe ist eine eigene Datei. Oben in der Datei steht ✔ FERTIG!, wenn alles stimmt. Zeig es deiner Lehrkraft.": "Cada tarea es un archivo aparte. Arriba en el archivo pone <strong>✔ FERTIG!</strong> (terminado) cuando todo está bien. Enséñaselo a tu profesor.",
+ "Pflicht Das machen alle": "<span class=\"badge basis\">Pflicht</span> Esto lo hacen todos",
+ "ODS Aufgabe 1 · Ja-Nein-Fragenk9-03-wenn-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Tarea 1 · Preguntas de sí o no</strong><small>k9-03-wenn-1.ods</small></span>",
+ "ODS Aufgabe 2 · Eigene Antwortenk9-03-wenn-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Tarea 2 · Respuestas propias</strong><small>k9-03-wenn-2.ods</small></span>",
+ "Plus Nur wenn du mit Pflicht fertig bist": "<span class=\"badge plus\">Plus</span> Solo si ya has terminado Pflicht",
+ "ODS Aufgabe 3 · Finde die Fragek9-03-wenn-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Tarea 3 · Encuentra la pregunta</strong><small>k9-03-wenn-3.ods</small></span>",
+ "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> Para todos los que quieren más"
 }

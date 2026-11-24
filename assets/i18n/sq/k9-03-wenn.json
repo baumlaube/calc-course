@@ -23,7 +23,6 @@
  "Text steht immer in \"Anführungszeichen\". Zahlen ohne.": "Teksti shkon gjithmonë në <code>\"Anführungszeichen\"</code> (thonjëza). Numrat pa to.",
  "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>Video e shkurtër (së shpejti):</strong> Formula e parë WENN",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> Stërvitje pyetjesh në 4 nivele <span class=\"chip\">8 min</span>",
- "ODS Übungsdateik9-03-wenn.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (skedari i ushtrimeve)<small>k9-03-wenn.ods</small></span>",
  "ExpeditionFreiwillig: Quiz-Maker – ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span><span><strong>Fakultative:</strong> Krijuesi i kuizit – një kuiz që kontrollohet vetë.</span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN bën një pyetje që ka vetëm përgjigjen po ose jo: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",
  "Beispiel: =WENN(A6=\"Katze\";\"Ja\";\"Nein\") – Steht in A6 Katze?": "Shembull: <code class=\"long\">=WENN(A6=\"Katze\";\"Ja\";\"Nein\")</code> – A ka A6 Katze (mace)?",
@@ -31,8 +30,6 @@
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "Në vend të <code>\"Ja\"</code> dhe <code>\"Nein\"</code> mund të përdorësh çdo tekst, p.sh. <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Ekspeditë: Krijuesi i kuizit <span class=\"badge expedition\">fakultative</span>",
  "Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll richtig stehen, wenn in B2 Paris steht, sonst falsch.": "Edhe kontrolli në skedarët e ushtrimeve është thjesht një formulë WENN! Ndërto një vetë: C2 duhet të tregojë <strong>richtig</strong> (saktë) nëse B2 ka Paris, përndryshe <strong>falsch</strong> (gabim).",
- "← 2 · Prozentrechnung": "← 2 · Përqindjet",
- "4 · WENN 2 →": "4 · WENN 2 (NËSE 2) →",
  "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN bën një pyetje: <strong>A ka A5 „Bus”?</strong> Po! Prandaj B5 tregon <strong>Ja</strong>.",
  "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "Rreshti 6 ka Fahrrad (biçikletë) – aty përgjigja është Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
@@ -124,5 +121,14 @@
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>pikëpresje</strong> – shenja <code>;</code>. Ndan tri pjesët e WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>nxjerr, shfaq</strong> – tregoj. WENN shfaq një përgjigje.",
  "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Me <code>WENN</code> (IF) Calc bën një pyetje. Përgjigjja është po ose jo. Sipas përgjigjes Calc tregon diçka tjetër, për shembull „bestanden“ (kaloi) ose „nicht bestanden“ (nuk kaloi). <code>WENN</code> e mëson me hapa të vegjël.",
- "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 tregon një gabim: teksti shkon gjithmonë në thonjëza: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 tregon një gabim: teksti shkon gjithmonë në thonjëza: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>.",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Katër pyetje. E kuptove? Atëherë vazhdo në Calc.",
+ "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Tani në LibreOffice Calc <span class=\"chip\">12 min</span>",
+ "Jede Aufgabe ist eine eigene Datei. Oben in der Datei steht ✔ FERTIG!, wenn alles stimmt. Zeig es deiner Lehrkraft.": "Çdo detyrë është një skedar më vete. Lart në skedar shkruhet <strong>✔ FERTIG!</strong> (gati) kur gjithçka është në rregull. Tregoja mësuesit.",
+ "Pflicht Das machen alle": "<span class=\"badge basis\">Pflicht</span> Këtë e bëjnë të gjithë",
+ "ODS Aufgabe 1 · Ja-Nein-Fragenk9-03-wenn-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Detyra 1 · Pyetje po-jo</strong><small>k9-03-wenn-1.ods</small></span>",
+ "ODS Aufgabe 2 · Eigene Antwortenk9-03-wenn-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Detyra 2 · Përgjigje të tuat</strong><small>k9-03-wenn-2.ods</small></span>",
+ "Plus Nur wenn du mit Pflicht fertig bist": "<span class=\"badge plus\">Plus</span> Vetëm kur ke mbaruar Pflicht",
+ "ODS Aufgabe 3 · Finde die Fragek9-03-wenn-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Detyra 3 · Gjej pyetjen</strong><small>k9-03-wenn-3.ods</small></span>",
+ "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> Për të gjithë ata që duan më shumë"
 }

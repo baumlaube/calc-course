@@ -219,5 +219,6 @@
  "Du kannst eine andere Antwort wählen oder weitergehen.": "Başka bir cevap seçebilir ya da devam edebilirsin.",
  "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "Bu üçüyle başla. Orada 2. ve 3. adımı yap. Sonra buradaki testi bir daha yap.",
  "Eine zu große Zahl zeigt Calc als ###.": "Calc çok büyük bir sayıyı <code>###</code> olarak gösterir.",
- "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Dann kısmı A5+15'tir. A5 de buna dahil."
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Dann kısmı A5+15'tir. A5 de buna dahil.",
+ "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Kısa kontrol <span class=\"chip\">3 dk</span>"
 }

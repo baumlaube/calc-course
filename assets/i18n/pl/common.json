@@ -219,5 +219,6 @@
  "Du kannst eine andere Antwort wählen oder weitergehen.": "Możesz wybrać inną odpowiedź albo iść dalej.",
  "Fang mit diesen drei an. Mach dort Schritt 2 und 3. Danach mach den Test hier noch einmal.": "Zacznij od tych trzech. Zrób tam kroki 2 i 3. Potem zrób tu test jeszcze raz.",
  "Eine zu große Zahl zeigt Calc als ###.": "Za dużą liczbę Calc pokazuje jako <code>###</code>.",
- "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Część Dann to A5+15. A5 też do niej należy."
+ "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Część Dann to A5+15. A5 też do niej należy.",
+ "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Szybki test <span class=\"chip\">3 min</span>"
 }

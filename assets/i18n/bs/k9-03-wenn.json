@@ -22,7 +22,6 @@
  "höchstens? mindestens?": "najviše? najmanje?",
  "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>Kratki video (uskoro):</strong> Prva WENN formula",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> Trening pitanja u 4 nivoa <span class=\"chip\">8 min</span>",
- "ODS Übungsdateik9-03-wenn.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Datoteka s vježbama</strong><small>k9-03-wenn.ods</small></span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN postavlja pitanje na koje postoji samo da ili ne: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",
  "Beispiel: =WENN(A6=\"Katze\";\"Ja\";\"Nein\") – Steht in A6 Katze?": "Primjer: <code class=\"long\">=WENN(A6=\"Katze\";\"Ja\";\"Nein\")</code> – stoji li u A6 Katze (mačka)?",
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "Poređenje: <code>=</code> jednako · <code>&lt;&gt;</code> nije jednako · <code>&lt;</code> manje · <code>&gt;</code> veće · <code>&lt;=</code> najviše · <code>&gt;=</code> najmanje",
@@ -34,8 +33,6 @@
  "★ Expedition Quiz-Maker": "<span class=\"badge expedition\">★ Expedition</span> Pravljenje kviza",
  "Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll richtig stehen, wenn in B2 Paris steht, sonst falsch.": "Kontrola u datotekama s vježbama je isto samo WENN formula! Napravi i ti jednu: u C2 treba stajati <strong>richtig</strong> (tačno) kad u B2 stoji Paris, inače <strong>falsch</strong> (netačno).",
  "ODS ★ Expedition: Quiz-Makerk9-03-wenn-expedition.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>★ Expedition: pravljenje kviza</strong><small>k9-03-wenn-expedition.ods</small></span>",
- "← 2 · Prozentrechnung": "← 2 · Procenti",
- "4 · WENN 2 →": "4 · WENN 2 →",
  "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN postavlja pitanje: <strong>Stoji li u A5 „Bus“?</strong> Da! Zato B5 pokazuje <strong>Ja</strong>.",
  "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "U redu 6 stoji Fahrrad (bicikl) – tu je odgovor Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
@@ -109,5 +106,14 @@
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>tačka-zarez</strong> – znak <code>;</code>. Odvaja tri dijela WENN-a.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>ispisati</strong> – prikazati. WENN ispisuje odgovor.",
  "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "Sa <code>WENN</code> (IF) Calc postavlja pitanje. Odgovor je da ili ne. Zavisno od odgovora Calc pokazuje nešto drugo, na primjer „bestanden“ (položio) ili „nicht bestanden“ (pao). <code>WENN</code> učiš u malim koracima.",
- "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 pokazuje grešku: tekst uvijek stoji u navodnicima: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 pokazuje grešku: tekst uvijek stoji u navodnicima: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>.",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Četiri pitanja. Jesi li razumio/la? Onda nastavi u Calcu.",
+ "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Sada u LibreOffice Calcu <span class=\"chip\">12 min</span>",
+ "Jede Aufgabe ist eine eigene Datei. Oben in der Datei steht ✔ FERTIG!, wenn alles stimmt. Zeig es deiner Lehrkraft.": "Svaki zadatak je posebna datoteka. Gore u datoteci piše <strong>✔ FERTIG!</strong> (gotovo) kad je sve tačno. Pokaži to nastavniku.",
+ "Pflicht Das machen alle": "<span class=\"badge basis\">Pflicht</span> Ovo rade svi",
+ "ODS Aufgabe 1 · Ja-Nein-Fragenk9-03-wenn-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Zadatak 1 · Da-ne pitanja</strong><small>k9-03-wenn-1.ods</small></span>",
+ "ODS Aufgabe 2 · Eigene Antwortenk9-03-wenn-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Zadatak 2 · Vlastiti odgovori</strong><small>k9-03-wenn-2.ods</small></span>",
+ "Plus Nur wenn du mit Pflicht fertig bist": "<span class=\"badge plus\">Plus</span> Samo kad završiš Pflicht",
+ "ODS Aufgabe 3 · Finde die Fragek9-03-wenn-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Zadatak 3 · Pronađi pitanje</strong><small>k9-03-wenn-3.ods</small></span>",
+ "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> Za sve koji žele više"
 }

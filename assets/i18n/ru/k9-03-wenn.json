@@ -23,7 +23,6 @@
  "Text steht immer in \"Anführungszeichen\". Zahlen ohne.": "Текст всегда пишут в <code>\"Anführungszeichen\"</code> (кавычках). Числа – без.",
  "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>Короткое видео (скоро):</strong> первая формула с WENN",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> Тренировка вопросов: 4 уровня <span class=\"chip\">8 мин</span>",
- "ODS Übungsdateik9-03-wenn.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (файл с упражнениями)<small>k9-03-wenn.ods</small></span>",
  "ExpeditionFreiwillig: Quiz-Maker – ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span><span><strong>По желанию:</strong> конструктор викторины – викторина, которая проверяет себя сама.</span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN задаёт вопрос, на который есть только ответ «да» или «нет»: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",
  "Beispiel: =WENN(A6=\"Katze\";\"Ja\";\"Nein\") – Steht in A6 Katze?": "Пример: <code class=\"long\">=WENN(A6=\"Katze\";\"Ja\";\"Nein\")</code> – стоит ли в A6 Katze (кошка)?",
@@ -31,8 +30,6 @@
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "Вместо <code>\"Ja\"</code> и <code>\"Nein\"</code> можно взять любой текст, напр. <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Экспедиция: конструктор викторины <span class=\"badge expedition\">по желанию</span>",
  "Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll richtig stehen, wenn in B2 Paris steht, sonst falsch.": "Проверка в файлах с упражнениями – это тоже просто формула с WENN! Построй такую сам(а): C2 должна показывать <strong>richtig</strong> (правильно), если в B2 стоит Paris, иначе <strong>falsch</strong> (неправильно).",
- "← 2 · Prozentrechnung": "← 2 · Проценты",
- "4 · WENN 2 →": "4 · WENN 2 (ЕСЛИ 2) →",
  "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN задаёт вопрос: <strong>стоит ли в A5 „Bus“?</strong> Да! Поэтому B5 показывает <strong>Ja</strong>.",
  "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "В строке 6 стоит Fahrrad (велосипед) – там ответ Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
@@ -124,5 +121,14 @@
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>точка с запятой</strong> – знак <code>;</code>. Он разделяет три части WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>выводить</strong> – показывать. WENN выводит ответ.",
  "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "С <code>WENN</code> (ЕСЛИ) Calc задаёт вопрос. Ответ – да или нет. В зависимости от ответа Calc показывает разное, например «bestanden» (сдал) или «nicht bestanden» (не сдал). <code>WENN</code> ты изучаешь маленькими шагами.",
- "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 показывает ошибку: текст всегда стоит в кавычках: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>."
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 показывает ошибку: текст всегда стоит в кавычках: <code>\"Paris\"</code>, <code>\"richtig\"</code>, <code>\"falsch\"</code>.",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Четыре вопроса. Ты всё понял(а)? Тогда продолжай в Calc.",
+ "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Теперь в LibreOffice Calc <span class=\"chip\">12 мин</span>",
+ "Jede Aufgabe ist eine eigene Datei. Oben in der Datei steht ✔ FERTIG!, wenn alles stimmt. Zeig es deiner Lehrkraft.": "Каждое задание – отдельный файл. Вверху файла появляется <strong>✔ FERTIG!</strong> (готово), когда всё правильно. Покажи это учителю.",
+ "Pflicht Das machen alle": "<span class=\"badge basis\">Pflicht</span> Это делают все",
+ "ODS Aufgabe 1 · Ja-Nein-Fragenk9-03-wenn-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Задание 1 · Вопросы да-нет</strong><small>k9-03-wenn-1.ods</small></span>",
+ "ODS Aufgabe 2 · Eigene Antwortenk9-03-wenn-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Задание 2 · Свои ответы</strong><small>k9-03-wenn-2.ods</small></span>",
+ "Plus Nur wenn du mit Pflicht fertig bist": "<span class=\"badge plus\">Plus</span> Только если ты закончил(а) Pflicht",
+ "ODS Aufgabe 3 · Finde die Fragek9-03-wenn-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Задание 3 · Найди вопрос</strong><small>k9-03-wenn-3.ods</small></span>",
+ "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> Для всех, кто хочет больше"
 }

@@ -23,7 +23,6 @@
  "Text steht immer in \"Anführungszeichen\". Zahlen ohne.": "النص يُكتب دائمًا بين <code>\"Anführungszeichen\"</code> (علامتي تنصيص). الأرقام بدونها.",
  "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>فيديو قصير (قريبًا):</strong> أول صيغة WENN",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> تدريب الأسئلة في 4 مستويات <span class=\"chip\">8 د</span>",
- "ODS Übungsdateik9-03-wenn.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Übungsdatei</strong> (ملف التمارين)<small>k9-03-wenn.ods</small></span>",
  "ExpeditionFreiwillig: Quiz-Maker – ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span><span><strong>اختياري:</strong> صانع المسابقات – مسابقة تصحّح نفسها.</span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN تطرح سؤالًا جوابه فقط نعم أو لا: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",
  "Beispiel: =WENN(A6=\"Katze\";\"Ja\";\"Nein\") – Steht in A6 Katze?": "مثال: <code class=\"long\">=WENN(A6=\"Katze\";\"Ja\";\"Nein\")</code> – هل في A6 كلمة Katze (قطة)؟",
@@ -31,8 +30,6 @@
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "بدل <code>\"Ja\"</code> و<code>\"Nein\"</code> يمكنك استخدام أي نص، مثلًا <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> رحلة استكشاف: صانع المسابقات <span class=\"badge expedition\">اختياري</span>",
  "Die Kontrolle in den Übungsdateien ist auch nur eine WENN-Formel! Bau selbst eine: In C2 soll richtig stehen, wenn in B2 Paris steht, sonst falsch.": "التحقّق في ملفات التمارين هو أيضًا مجرد صيغة WENN! اصنع واحدة بنفسك: C2 يجب أن تُظهر <strong>richtig</strong> (صحيح) إذا كان في B2 كلمة Paris، وإلا <strong>falsch</strong> (خطأ).",
- "← 2 · Prozentrechnung": "← 2 · النسب المئوية",
- "4 · WENN 2 →": "4 · WENN 2 (إذا 2) →",
  "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN تطرح سؤالًا: <strong>هل في A5 كلمة „Bus“؟</strong> نعم! لذلك تُظهر B5 <strong>Ja</strong>.",
  "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "في الصف 6 توجد Fahrrad (درّاجة) – هناك الجواب Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
@@ -124,5 +121,14 @@
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>فاصلة منقوطة</strong> – العلامة <code>;</code>. تفصل الأجزاء الثلاثة في WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>يُخرج، يعرض</strong> – يُظهر. WENN تعرض جوابًا.",
  "Mit WENN stellt Calc eine Frage. Die Antwort ist Ja oder Nein. Je nach Antwort zeigt Calc etwas anderes, zum Beispiel „bestanden“ oder „nicht bestanden“. Du lernst WENN in kleinen Schritten.": "مع <code>WENN</code> (IF) يطرح Calc سؤالًا. الجواب نعم أو لا. حسب الجواب يُظهر Calc شيئًا مختلفًا، مثل «bestanden» (ناجح) أو «nicht bestanden» (راسب). تتعلم <code>WENN</code> بخطوات صغيرة.",
- "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 تعرض خطأ: النص يوضع دائمًا بين علامات تنصيص: <code>\"Paris\"</code>، <code>\"richtig\"</code>، <code>\"falsch\"</code>."
+ "C2 zeigt einen Fehler: Text steht immer in Anführungszeichen: \"Paris\", \"richtig\", \"falsch\".": "C2 تعرض خطأ: النص يوضع دائمًا بين علامات تنصيص: <code>\"Paris\"</code>، <code>\"richtig\"</code>، <code>\"falsch\"</code>.",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "أربعة أسئلة. هل فهمت؟ إذن تابع في Calc.",
+ "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> الآن في LibreOffice Calc <span class=\"chip\">12 د</span>",
+ "Jede Aufgabe ist eine eigene Datei. Oben in der Datei steht ✔ FERTIG!, wenn alles stimmt. Zeig es deiner Lehrkraft.": "كل مهمة ملف مستقل. في أعلى الملف يظهر <strong>✔ FERTIG!</strong> (انتهيت) عندما يكون كل شيء صحيحًا. أرِه لمعلّمك.",
+ "Pflicht Das machen alle": "<span class=\"badge basis\">Pflicht</span> هذا يفعله الجميع",
+ "ODS Aufgabe 1 · Ja-Nein-Fragenk9-03-wenn-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>المهمة 1 · أسئلة نعم ولا</strong><small>k9-03-wenn-1.ods</small></span>",
+ "ODS Aufgabe 2 · Eigene Antwortenk9-03-wenn-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>المهمة 2 · إجابات خاصة بك</strong><small>k9-03-wenn-2.ods</small></span>",
+ "Plus Nur wenn du mit Pflicht fertig bist": "<span class=\"badge plus\">Plus</span> فقط عندما تنتهي من Pflicht",
+ "ODS Aufgabe 3 · Finde die Fragek9-03-wenn-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>المهمة 3 · جد السؤال</strong><small>k9-03-wenn-3.ods</small></span>",
+ "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> لكل من يريد المزيد"
 }
