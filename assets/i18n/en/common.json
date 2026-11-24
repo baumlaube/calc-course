@@ -197,7 +197,6 @@
  "Datenschutz": "Datenschutz (Privacy policy)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Drag the small square at the bottom right of the cell with your finger. Or use the button <strong>■</strong>. In LibreOffice Calc you drag the <strong>Ausfüllkästchen</strong> (fill handle).",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (fill handle): drag to fill",
- "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 is correct! Now drag the <strong>Ausfüllkästchen</strong> (fill handle) from B2 down to B3.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "You can't drag here. Choose an answer first. Then the table shows you what happens.",
  "Die Spalte ist zu schmal.": "The column is too narrow.",
  "Prüfen": "Check",
@@ -221,5 +220,7 @@
  "Eine zu große Zahl zeigt Calc als ###.": "Calc shows a number that is too big as <code>###</code>.",
  "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "The Dann part is A5+15. A5 belongs to it.",
  "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Quick check <span class=\"chip\">3 min</span>",
- "Weiter zu den Übungen in Calc ↓": "On to the exercises in Calc ↓"
+ "Weiter zu den Übungen in Calc ↓": "On to the exercises in Calc ↓",
+ "B2 stimmt. Noch nicht fertig: Zieh jetzt das kleine Kästchen unten rechts an B2 nach unten bis B3.": "B2 is correct. <strong>Not finished yet:</strong> now drag the small square at the bottom right of B2 down to B3.",
+ "Danach: B2 am Kästchen unten rechts nach unten bis B3 ziehen.": "Then: drag B2 by the small square at the bottom right down to B3."
 }

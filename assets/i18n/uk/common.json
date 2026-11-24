@@ -197,7 +197,6 @@
  "Datenschutz": "Datenschutz (Захист даних)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Потягни пальцем маленький квадратик унизу праворуч у клітинці. Або натисни кнопку <strong>■</strong>. У LibreOffice Calc ти тягнеш за <strong>Ausfüllkästchen</strong> (маркер заповнення).",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (маркер заповнення): тягни, щоб заповнити",
- "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 правильно! Тепер потягни за <strong>Ausfüllkästchen</strong> (маркер заповнення) від B2 вниз до B3.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Тут не можна тягнути. Спочатку вибери відповідь. Потім таблиця покаже тобі, що станеться.",
  "Die Spalte ist zu schmal.": "Стовпець завузький.",
  "Prüfen": "Перевірити",
@@ -221,5 +220,7 @@
  "Eine zu große Zahl zeigt Calc als ###.": "Завелике число Calc показує як <code>###</code>.",
  "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Частина Dann – це A5+15. A5 теж належить сюди.",
  "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Коротка перевірка <span class=\"chip\">3 хв</span>",
- "Weiter zu den Übungen in Calc ↓": "Далі до вправ у Calc ↓"
+ "Weiter zu den Übungen in Calc ↓": "Далі до вправ у Calc ↓",
+ "B2 stimmt. Noch nicht fertig: Zieh jetzt das kleine Kästchen unten rechts an B2 nach unten bis B3.": "B2 правильно. <strong>Ще не готово:</strong> тепер потягни маленький квадратик унизу праворуч у B2 вниз до B3.",
+ "Danach: B2 am Kästchen unten rechts nach unten bis B3 ziehen.": "Потім: потягни B2 за квадратик унизу праворуч вниз до B3."
 }

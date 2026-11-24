@@ -197,7 +197,6 @@
  "Datenschutz": "Datenschutz (Protection des données)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Tire avec le doigt le petit carré en bas à droite de la cellule. Ou utilise le bouton <strong>■</strong>. Dans LibreOffice Calc, tu tires la <strong>Ausfüllkästchen</strong> (poignée de recopie).",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (poignée de recopie) : tirer pour recopier",
- "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 est juste ! Maintenant tire la <strong>Ausfüllkästchen</strong> (poignée de recopie) de B2 vers le bas jusqu'à B3.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Ici, tu ne peux pas tirer. Choisis d'abord une réponse. Ensuite, le tableau te montre ce qui se passe.",
  "Die Spalte ist zu schmal.": "La colonne est trop étroite.",
  "Prüfen": "Vérifier",
@@ -221,5 +220,7 @@
  "Eine zu große Zahl zeigt Calc als ###.": "Calc affiche un nombre trop grand sous la forme <code>###</code>.",
  "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "La partie Dann, c'est A5+15. A5 en fait partie.",
  "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Vérification rapide <span class=\"chip\">3 min</span>",
- "Weiter zu den Übungen in Calc ↓": "Vers les exercices dans Calc ↓"
+ "Weiter zu den Übungen in Calc ↓": "Vers les exercices dans Calc ↓",
+ "B2 stimmt. Noch nicht fertig: Zieh jetzt das kleine Kästchen unten rechts an B2 nach unten bis B3.": "B2 est juste. <strong>Pas encore fini :</strong> tire maintenant le petit carré en bas à droite de B2 vers le bas jusqu'à B3.",
+ "Danach: B2 am Kästchen unten rechts nach unten bis B3 ziehen.": "Ensuite : tire B2 par le petit carré en bas à droite vers le bas jusqu'à B3."
 }

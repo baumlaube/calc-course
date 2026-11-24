@@ -197,7 +197,6 @@
  "Datenschutz": "Datenschutz (Protección de datos)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Arrastra con el dedo el cuadradito de abajo a la derecha de la celda. O usa el botón <strong>■</strong>. En LibreOffice Calc arrastras el <strong>Ausfüllkästchen</strong> (controlador de relleno).",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (controlador de relleno): arrastra para rellenar",
- "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ ¡B2 está bien! Ahora arrastra el <strong>Ausfüllkästchen</strong> (controlador de relleno) de B2 hacia abajo hasta B3.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Aquí no puedes arrastrar. Elige primero una respuesta. Después la tabla te muestra lo que pasa.",
  "Die Spalte ist zu schmal.": "La columna es demasiado estrecha.",
  "Prüfen": "Comprobar",
@@ -221,5 +220,7 @@
  "Eine zu große Zahl zeigt Calc als ###.": "Un número demasiado grande Calc lo muestra como <code>###</code>.",
  "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "La parte Dann es A5+15. A5 también forma parte.",
  "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Comprobación rápida <span class=\"chip\">3 min</span>",
- "Weiter zu den Übungen in Calc ↓": "A los ejercicios en Calc ↓"
+ "Weiter zu den Übungen in Calc ↓": "A los ejercicios en Calc ↓",
+ "B2 stimmt. Noch nicht fertig: Zieh jetzt das kleine Kästchen unten rechts an B2 nach unten bis B3.": "B2 está bien. <strong>Todavía no has terminado:</strong> ahora arrastra el cuadradito de abajo a la derecha de B2 hacia abajo hasta B3.",
+ "Danach: B2 am Kästchen unten rechts nach unten bis B3 ziehen.": "Después: arrastra B2 desde el cuadradito de abajo a la derecha hacia abajo hasta B3."
 }

@@ -197,7 +197,6 @@
  "Datenschutz": "Datenschutz (Zaštita podataka)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Povuci prstom mali kvadratić dolje desno na ćeliji. Ili koristi dugme <strong>■</strong>. U LibreOffice Calcu povlačiš kvadratić za popunjavanje (Ausfüllkästchen).",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (kvadratić za popunjavanje): povuci da popuniš",
- "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 je tačno! Sada povuci kvadratić za popunjavanje (<strong>Ausfüllkästchen</strong>) od B2 nadolje do B3.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Ovdje ne možeš povlačiti. Prvo izaberi odgovor. Onda ti tabela pokaže šta se desi.",
  "Die Spalte ist zu schmal.": "Kolona je preuska.",
  "Prüfen": "Provjeri",
@@ -221,5 +220,7 @@
  "Eine zu große Zahl zeigt Calc als ###.": "Prevelik broj Calc pokazuje kao <code>###</code>.",
  "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Dio Dann je A5+15. I A5 pripada tome.",
  "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Kratka provjera <span class=\"chip\">3 min</span>",
- "Weiter zu den Übungen in Calc ↓": "Dalje na vježbe u Calcu ↓"
+ "Weiter zu den Übungen in Calc ↓": "Dalje na vježbe u Calcu ↓",
+ "B2 stimmt. Noch nicht fertig: Zieh jetzt das kleine Kästchen unten rechts an B2 nach unten bis B3.": "B2 je tačno. <strong>Još nije gotovo:</strong> sada povuci mali kvadratić dolje desno na B2 prema dolje do B3.",
+ "Danach: B2 am Kästchen unten rechts nach unten bis B3 ziehen.": "Onda: povuci B2 za kvadratić dolje desno prema dolje do B3."
 }

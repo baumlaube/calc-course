@@ -17,7 +17,6 @@
  "Fang mit =WENN( an.": "Bắt đầu bằng <code>=WENN(</code>.",
  "Da kommt Text heraus. Zahlen schreibst du ohne Anführungszeichen.": "Kết quả ra chữ. Số thì bạn viết <strong>không có</strong> dấu ngoặc kép.",
  "B2 passt noch nicht. Lies deine Formel als Frage.": "B2 chưa đúng. Hãy đọc công thức của bạn như một câu hỏi.",
- "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 đúng rồi! Bây giờ kéo <strong>Ausfüllkästchen</strong> (ô điền tự động) của B2 xuống tới B3.",
  "Du hast B2 geändert. Fülle noch einmal nach unten aus!": "Bạn đã thay đổi B2. Hãy điền xuống dưới một lần nữa!",
  "Zeile 3 stimmt noch nicht.": "Hàng 3 chưa đúng.",
  "✔ Stufe geschafft!": "✔ Xong cấp này rồi!",
@@ -221,5 +220,7 @@
  "Eine zu große Zahl zeigt Calc als ###.": "Số quá lớn thì Calc hiện thành <code>###</code>.",
  "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Phần Dann là A5+15. A5 cũng thuộc về nó.",
  "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Kiểm tra nhanh <span class=\"chip\">3 phút</span>",
- "Weiter zu den Übungen in Calc ↓": "Tiếp tục với bài tập trong Calc ↓"
+ "Weiter zu den Übungen in Calc ↓": "Tiếp tục với bài tập trong Calc ↓",
+ "B2 stimmt. Noch nicht fertig: Zieh jetzt das kleine Kästchen unten rechts an B2 nach unten bis B3.": "B2 đúng rồi. <strong>Chưa xong đâu:</strong> bây giờ kéo ô vuông nhỏ ở góc dưới bên phải của B2 xuống tới B3.",
+ "Danach: B2 am Kästchen unten rechts nach unten bis B3 ziehen.": "Sau đó: kéo B2 bằng ô vuông nhỏ ở góc dưới bên phải xuống tới B3."
 }

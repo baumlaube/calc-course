@@ -197,7 +197,6 @@
  "Datenschutz": "Datenschutz (Mbrojtja e të dhënave)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Tërhiq me gisht katrorin e vogël poshtë djathtas te qeliza. Ose përdor butonin <strong>■</strong>. Në LibreOffice Calc tërheq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit).",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (doreza e plotësimit): tërhiq për të plotësuar",
- "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 është në rregull! Tani tërhiq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) nga B2 poshtë deri në B3.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Këtu nuk mund të tërheqësh. Zgjidh fillimisht një përgjigje. Pastaj tabela të tregon çfarë ndodh.",
  "Die Spalte ist zu schmal.": "Kolona është shumë e ngushtë.",
  "Prüfen": "Kontrollo",
@@ -221,5 +220,7 @@
  "Eine zu große Zahl zeigt Calc als ###.": "Një numër shumë të madh Calc e tregon si <code>###</code>.",
  "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Pjesa Dann është A5+15. Edhe A5 bën pjesë.",
  "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Kontroll i shpejtë <span class=\"chip\">3 min</span>",
- "Weiter zu den Übungen in Calc ↓": "Vazhdo te ushtrimet në Calc ↓"
+ "Weiter zu den Übungen in Calc ↓": "Vazhdo te ushtrimet në Calc ↓",
+ "B2 stimmt. Noch nicht fertig: Zieh jetzt das kleine Kästchen unten rechts an B2 nach unten bis B3.": "B2 është në rregull. <strong>Ende nuk ke mbaruar:</strong> tani tërhiq katrorin e vogël poshtë djathtas te B2 poshtë deri te B3.",
+ "Danach: B2 am Kästchen unten rechts nach unten bis B3 ziehen.": "Pastaj: tërhiq B2 nga katrori poshtë djathtas poshtë deri te B3."
 }

@@ -197,7 +197,6 @@
  "Datenschutz": "Datenschutz (Protecția datelor)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Trage cu degetul pătrățelul din dreapta jos al celulei. Sau folosește butonul <strong>■</strong>. În LibreOffice Calc tragi de <strong>Ausfüllkästchen</strong> (mânerul de umplere).",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (mânerul de umplere): trage ca să umpli",
- "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 e corect! Acum trage de <strong>Ausfüllkästchen</strong> (mânerul de umplere) de la B2 în jos până la B3.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Aici nu poți trage. Alege întâi un răspuns. Apoi tabelul îți arată ce se întâmplă.",
  "Die Spalte ist zu schmal.": "Coloana este prea îngustă.",
  "Prüfen": "Verifică",
@@ -221,5 +220,7 @@
  "Eine zu große Zahl zeigt Calc als ###.": "Un număr prea mare Calc îl arată ca <code>###</code>.",
  "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Partea Dann este A5+15. A5 face parte din ea.",
  "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Verificare rapidă <span class=\"chip\">3 min</span>",
- "Weiter zu den Übungen in Calc ↓": "Mai departe la exercițiile din Calc ↓"
+ "Weiter zu den Übungen in Calc ↓": "Mai departe la exercițiile din Calc ↓",
+ "B2 stimmt. Noch nicht fertig: Zieh jetzt das kleine Kästchen unten rechts an B2 nach unten bis B3.": "B2 e corect. <strong>Încă nu e gata:</strong> acum trage pătrățelul mic din dreapta jos de la B2 în jos până la B3.",
+ "Danach: B2 am Kästchen unten rechts nach unten bis B3 ziehen.": "Apoi: trage B2 de pătrățelul din dreapta jos în jos până la B3."
 }

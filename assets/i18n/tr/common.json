@@ -197,7 +197,6 @@
  "Datenschutz": "Datenschutz (Gizlilik)",
  "📱 Zieh mit dem Finger am kleinen Quadrat unten rechts an der Zelle. Oder nimm den Knopf ■. In LibreOffice Calc ziehst du am Ausfüllkästchen.": "📱 Hücrenin sağ altındaki küçük kareyi parmağınla sürükle. Ya da <strong>■</strong> düğmesini kullan. LibreOffice Calc'ta <strong>Ausfüllkästchen</strong>'i (doldurma tutamacı) sürüklersin.",
  "Ausfüllkästchen: ziehen zum Ausfüllen": "Ausfüllkästchen (doldurma tutamacı): doldurmak için sürükle",
- "✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3.": "✔ B2 doğru! Şimdi <strong>Ausfüllkästchen</strong>'i (doldurma tutamacı) B2'den aşağı B3'e kadar sürükle.",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Burada sürükleyemezsin. Önce bir cevap seç. Sonra tablo sana ne olduğunu gösterir.",
  "Die Spalte ist zu schmal.": "Sütun çok dar.",
  "Prüfen": "Kontrol et",
@@ -221,5 +220,7 @@
  "Eine zu große Zahl zeigt Calc als ###.": "Calc çok büyük bir sayıyı <code>###</code> olarak gösterir.",
  "Der Dann-Teil heißt A5+15. A5 gehört dazu.": "Dann kısmı A5+15'tir. A5 de buna dahil.",
  "4 Kurz-Check 3 Min": "<span class=\"step-no\">4</span> Kısa kontrol <span class=\"chip\">3 dk</span>",
- "Weiter zu den Übungen in Calc ↓": "Calc'taki alıştırmalara geç ↓"
+ "Weiter zu den Übungen in Calc ↓": "Calc'taki alıştırmalara geç ↓",
+ "B2 stimmt. Noch nicht fertig: Zieh jetzt das kleine Kästchen unten rechts an B2 nach unten bis B3.": "B2 doğru. <strong>Henüz bitmedi:</strong> Şimdi B2'nin sağ altındaki küçük kareyi B3'e kadar aşağı çek.",
+ "Danach: B2 am Kästchen unten rechts nach unten bis B3 ziehen.": "Sonra: B2'yi sağ alttaki küçük kareden B3'e kadar aşağı çek."
 }
