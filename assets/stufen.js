@@ -33,6 +33,7 @@
     }
 
     function check(c, src) {
+      if (c.handle) c.handle.classList.remove("mc-pulse");
       if (src === "reset") return;
       if (src === "fill") filled = !!c.getRaw("B3");
       const L = levels[i];
@@ -60,7 +61,11 @@
         feedback(fbEl, T("Die Zahl in der Frage steht <strong>ohne</strong> Anführungszeichen, z. B. <code>A2&gt;=50</code>. Mit Anführungszeichen ist sie für Calc Text."), "hint"); return;
       }
       if (!same(v, L.want(c.get("A2")))) { feedback(fbEl, L.hint2 ? L.hint2(c) : T("B2 passt noch nicht. Lies deine Formel als Frage."), "hint"); return; }
-      if (!filled) { feedback(fbEl, T("✔ B2 stimmt! Jetzt zieh am Ausfüllkästchen von B2 nach unten bis B3."), "info"); return; }
+      if (!filled) {   // B2 richtig – aber fertig ist die Stufe erst mit B3 (ausfüllen). Kein ✔, das sah nach „fertig“ aus.
+        feedback(fbEl, T("B2 stimmt. <strong>Noch nicht fertig:</strong> Zieh jetzt das kleine Kästchen unten rechts an B2 nach unten bis B3."), "hint");
+        if (c.handle) c.handle.classList.add("mc-pulse");
+        return;
+      }
       if (src === "edit" && clean(c.getRaw("B3")) !== clean(MiniCalc.shiftFormula(c.getRaw("B2"), 1, 0))) {
         feedback(fbEl, T("Du hast B2 geändert. Fülle noch einmal nach unten aus!"), "info"); return;
       }
@@ -76,7 +81,7 @@
       i = k; filled = false; solved = false;
       const L = levels[i];
       chips();
-      qEl.innerHTML = L.q;
+      qEl.innerHTML = L.q + `<br><span class="stufen-zieh">${T("Danach: B2 am Kästchen unten rechts nach unten bis B3 ziehen.")}</span>`;
       tblBox.innerHTML = "";
       const el = document.createElement("div");
       tblBox.appendChild(el);
