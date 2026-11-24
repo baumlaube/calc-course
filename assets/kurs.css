@@ -431,3 +431,8 @@ details.woerter td { text-align: start; }
 .frei-box { border: 2px solid var(--expedition); border-radius: 12px; padding: 4px 16px 8px; margin-top: 26px; }
 .frei-box .frei-titel { font-size: 18px; margin: 12px 0 6px; color: var(--expedition); display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .frei-box h3.sub { margin-top: 22px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+/* Calc-Block: Knopffarbe = Gruppe (Pflicht grün, Plus orange, Freiwillig lila), Lösung grau */
+.calc-block .dl.plus a:not(.sol) .ico { background: var(--plus); }
+.calc-block .dl.frei a:not(.sol) .ico { background: var(--expedition); }
+.calc-block .dl a.sol .ico { background: #7a838e; }
+.frei-box .frei-titel + .dl { margin-top: 8px; }
