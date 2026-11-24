@@ -22,9 +22,9 @@
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="stylesheet" href="../assets/kurs.css?v=53fdb701cf">
+<link rel="stylesheet" href="../assets/kurs.css?v=2f3a5dcba3">
 <script src="../assets/i18n.js?v=831187eae3" data-page="k9-03-wenn" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
-<script src="../assets/kurs.js?v=0b82978985"></script>
+<script src="../assets/kurs.js?v=de9f405c1d"></script>
 <script src="../assets/minicalc.js?v=6833bbf1f4" defer></script>
 <script src="../assets/wdh.js?v=3d906a13f9" defer></script>
 <script src="../assets/register.js?v=c8ad38a753" defer></script>
@@ -94,9 +94,10 @@
   <!-- 1 · Vorhersage -->
   <section class="card" id="problem" data-tab="Das Problem" data-wait>
     <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
-    <div id="calc1"></div>
-    <p class="lead">💡 In B5 kommt diese Formel: <code class="long">=WENN(A5="Bus";"Ja";"Nein")</code></p>
-    <p><strong>Überleg:</strong> Was zeigt B5?</p>
+    <p class="lead">In B2 steht diese Formel. Du musst nichts eintippen.</p>
+    <div class="bild-wrap" id="bild1"></div>
+    <div id="calc1" hidden></div>
+    <p><strong>Überleg:</strong> Was zeigt Calc in B2, wenn man Enter drückt?</p>
     <div class="choices" id="predict">
       <button type="button" class="choice" data-v="ja">Ja</button>
       <button type="button" class="choice" data-v="nein">Nein</button>
@@ -264,13 +265,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const clean = (s) => s.replace(/\s/g, "").toUpperCase();
   const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-  /* ---------- 1 · Vorhersage ---------- */
+  /* ---------- 1 · Vorhersage: erst ein Bild mit der Formel, nach der Wahl die echte Tabelle ---------- */
   const fb1 = document.getElementById("fb1");
-  const calc1 = new MiniCalc(document.getElementById("calc1"), {
-    cols: 2, rows: 6,
-    cells: { A4: "Schulweg", B4: "Antwort", A5: "Bus", A6: "Fahrrad" },
-    styles: { A4: "head", B4: "head" }, select: "A5",
-  });
+  const cells1 = { A1: "Schulweg", B1: "Antwort", A2: "Bus", A3: "Fahrrad" };
+  Kurs.bild(document.getElementById("bild1"), { cols: 2, rows: 3, mark: "B2",
+    cells: Object.assign({ B2: '=WENN(A2="Bus";"Ja";"Nein")' }, cells1), styles: { A1: "head", B1: "head" } });
   const predict = document.getElementById("predict");
   predict.addEventListener("click", (ev) => {
     const b = ev.target.closest(".choice");
@@ -278,13 +277,19 @@ document.addEventListener("DOMContentLoaded", () => {
     predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
     predict.querySelector('[data-v="ja"]').classList.add("right");
     if (b.dataset.v !== "ja") b.classList.add("wrong");
-    calc1.set("B5", '=WENN(A5="Bus";"Ja";"Nein")');
-    calc1.set("B6", '=WENN(A6="Bus";"Ja";"Nein")');
-    calc1.select("B5");
+    document.getElementById("bild1").hidden = true;
+    const box1 = document.getElementById("calc1");
+    box1.hidden = false;
+    const calc1 = new MiniCalc(box1, { cols: 2, rows: 3, cells: cells1, styles: { A1: "head", B1: "head" }, select: "B2" });
+    calc1.set("B2", '=WENN(A2="Bus";"Ja";"Nein")');
+    calc1.set("B3", '=WENN(A3="Bus";"Ja";"Nein")');
+    calc1.select("B2");
+    if (calc1.tds && calc1.tds.B2) calc1.tds.B2.classList.add("mc-blink-cell");
     Register.done("problem");
     feedback(fb1, (b.dataset.v === "ja" ? T("✔ Genau!") + " " : "") +
-      T("WENN stellt eine Frage: <strong>Steht in A5 „Bus“?</strong> Ja! Darum zeigt B5 <strong>Ja</strong>.") + " " +
-      T("In Zeile 6 steht Fahrrad – da ist die Antwort Nein."), b.dataset.v === "ja" ? "ok" : "hint");
+      T("WENN stellt eine Frage: <strong>Steht in A2 „Bus“?</strong> Ja! Darum zeigt B2 <strong>Ja</strong>.") + " " +
+      T("In Zeile 3 steht Fahrrad – da ist die Antwort Nein.") + " " +
+      T("Schau oben: In der Zelle steht das Ergebnis, in der Eingabezeile die Formel."), b.dataset.v === "ja" ? "ok" : "hint");
   });
 
   /* ---------- 2 · Formel-Baukasten ---------- */

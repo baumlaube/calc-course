@@ -133,5 +133,26 @@
     }
   });
 
-  window.Kurs = { feedback, quiz, store };
+  /* Tabellen-Bild: eine feste Tabelle zum Anschauen (keine Eingabezeile, nichts anklickbar).
+     Formeln stehen sichtbar in der Zelle – wie ein Ausschnitt aus Calc.
+     opts: { cols, rows, cells: {A1: "…"}, styles: {A1: "head"}, mark: "B2" } */
+  function bild(el, { cols, rows, cells = {}, styles = {}, mark }) {
+    const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    let h = '<table class="bild"><thead><tr><th></th>';
+    for (let c = 0; c < cols; c++) h += `<th>${String.fromCharCode(65 + c)}</th>`;
+    h += "</tr></thead><tbody>";
+    for (let r = 1; r <= rows; r++) {
+      h += `<tr><th>${r}</th>`;
+      for (let c = 0; c < cols; c++) {
+        const a = String.fromCharCode(65 + c) + r, v = cells[a];
+        const f = typeof v === "string" && v.startsWith("=");
+        const cls = [styles[a] || "", f ? "f" : "", typeof v === "number" ? "num" : "", a === mark ? "mark" : ""].filter(Boolean).join(" ");
+        h += `<td${cls ? ` class="${cls}"` : ""}>${v === undefined ? "" : f ? `<code>${esc(v)}</code>` : esc(T(String(v)))}</td>`;
+      }
+      h += "</tr>";
+    }
+    el.innerHTML = h + "</tbody></table>";
+  }
+
+  window.Kurs = { feedback, quiz, store, bild };
 })();

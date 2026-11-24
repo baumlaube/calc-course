@@ -470,3 +470,15 @@ details.woerter td { text-align: start; }
 .spicker > summary { cursor: pointer; font-weight: 700; color: var(--navy); }
 .spicker ul { margin: 8px 0 2px; padding-left: 20px; }
 .spicker li { margin: 3px 0; }
+
+/* Tabellen-Bild (Kurs.bild): sieht aus wie Calc, ist aber nur zum Anschauen */
+.bild { border-collapse: collapse; font-size: 15px; margin: 10px 0; background: var(--surface); }
+.bild th { background: var(--surface-2); color: var(--muted); font-weight: 600; font-size: 13px; padding: 3px 8px; border: 1px solid var(--line); min-width: 30px; }
+.bild td { border: 1px solid var(--line); padding: 5px 10px; height: 32px; min-width: 90px; white-space: nowrap; }
+.bild td.head { font-weight: 700; background: var(--surface-2); }
+.bild td.num { text-align: right; }
+.bild td.f code { font-size: 14px; }
+.bild td.mark { outline: 3px solid var(--accent); outline-offset: -2px; }
+.bild-wrap { overflow-x: auto; }
+@keyframes mc-blink { 0%, 100% { background: transparent; } 40% { background: #fff3a8; } }
+.mc-blink td.mc-sel, .mc-blink .mc-blink-cell { animation: mc-blink 1s ease-in-out 2; }
