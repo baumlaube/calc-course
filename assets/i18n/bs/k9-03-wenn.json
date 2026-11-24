@@ -3,8 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (AKO 1) – Calc postavlja pitanje",
  "Klasse 9 · Baustein 3": "9. razred · Cjelina 3",
  "Teil 1 von 3 zu WENN": "1. dio od 3 o WENN",
- "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 U B5 ide ova formula: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Überleg: Was zeigt B5?": "<strong>Razmisli:</strong> Šta pokazuje B5?",
  "Nein": "Nein (ne)",
  "Bus": "Bus (autobus)",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN je pitanje da/ne <span class=\"chip\">7 min</span>",
@@ -26,8 +24,6 @@
  "Beispiel: =WENN(A6=\"Katze\";\"Ja\";\"Nein\") – Steht in A6 Katze?": "Primjer: <code class=\"long\">=WENN(A6=\"Katze\";\"Ja\";\"Nein\")</code> – stoji li u A6 Katze (mačka)?",
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "Poređenje: <code>=</code> jednako · <code>&lt;&gt;</code> nije jednako · <code>&lt;</code> manje · <code>&gt;</code> veće · <code>&lt;=</code> najviše · <code>&gt;=</code> najmanje",
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "Umjesto <code>\"Ja\"</code> i <code>\"Nein\"</code> smije stajati bilo koji tekst, npr. <code>\"bestanden\"</code>.",
- "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN postavlja pitanje: <strong>Stoji li u A5 „Bus“?</strong> Da! Zato B5 pokazuje <strong>Ja</strong>.",
- "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "U redu 6 stoji Fahrrad (bicikl) – tu je odgovor Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
  "=WENN(A2{}{};\"Ja\";\"Nein\")": "<code class=\"long\">=WENN(A2{}{};\"Ja\";\"Nein\")</code><br>",
  "Frage: Ist das Alter in A2 {} {}?": "Pitanje: Je li starost u A2 <strong>{} {}</strong>?",
@@ -108,5 +104,13 @@
  "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "U D2 Calc treba izračunati: količina puta cijena. D2 pokazuje 12,00 €. Ali u redu za unos stoji samo <code>12</code>. U čemu je problem?",
  "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "12 je ukucano. Ako se promijeni količina ili cijena, ostaje 12.",
  "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "To je tiha greška: izgleda tačno, ali Calc ne računa. Tačno bi bilo <code>=B2*C2</code>.",
- "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Danas je tačno. Ali ako se promijeni količina ili cijena, Calc ne računa ponovo."
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Danas je tačno. Ali ako se promijeni količina ili cijena, Calc ne računa ponovo.",
+ "In Zeile 3 steht Fahrrad – da ist die Antwort Nein.": "U redu 3 stoji Fahrrad (bicikl) – tu je odgovor Nein.",
+ "WENN stellt eine Frage: Steht in A2 „Bus“? Ja! Darum zeigt B2 Ja.": "WENN postavlja pitanje: <strong>Stoji li u A2 „Bus“?</strong> Da! Zato B2 pokazuje <strong>Ja</strong>.",
+ "Überleg: Was zeigt Calc in B2, wenn man Enter drückt?": "<strong>Razmisli:</strong> Šta pokazuje Calc u B2 kad pritisneš Enter?",
+ "In B2 steht diese Formel. Du musst nichts eintippen.": "U B2 stoji ova formula. Ne moraš ništa kucati.",
+ "Schau oben: In der Zelle steht das Ergebnis, in der Eingabezeile die Formel.": "Pogledaj gore: u ćeliji je rezultat, u redu za unos formula.",
+ "Schulweg": "Schulweg (put do škole)",
+ "Antwort": "Antwort (odgovor)",
+ "Fahrrad": "Fahrrad (bicikl)"
 }

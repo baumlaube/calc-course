@@ -3,8 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (إذا 1) – Calc يطرح سؤالًا",
  "Klasse 9 · Baustein 3": "الصف 9 · الوحدة 3",
  "Teil 1 von 3 zu WENN": "الجزء 1 من 3 عن WENN (إذا)",
- "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 تحصل على هذه الصيغة: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Überleg: Was zeigt B5?": "<strong>فكّر:</strong> ماذا تُظهر B5؟",
  "Nein": "Nein (لا)",
  "Bus": "Bus (حافلة)",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN سؤال جوابه نعم أو لا <span class=\"chip\">7 د</span>",
@@ -29,8 +27,6 @@
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "المقارنة: <code>=</code> يساوي · <code>&lt;&gt;</code> لا يساوي · <code>&lt;</code> أصغر · <code>&gt;</code> أكبر · <code>&lt;=</code> على الأكثر · <code>&gt;=</code> على الأقل",
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "بدل <code>\"Ja\"</code> و<code>\"Nein\"</code> يمكنك استخدام أي نص، مثلًا <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> رحلة استكشاف: صانع المسابقات <span class=\"badge expedition\">اختياري</span>",
- "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN تطرح سؤالًا: <strong>هل في A5 كلمة „Bus“؟</strong> نعم! لذلك تُظهر B5 <strong>Ja</strong>.",
- "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "في الصف 6 توجد Fahrrad (درّاجة) – هناك الجواب Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
  "=WENN(A2{}{};\"Ja\";\"Nein\")": "<code class=\"long\">=WENN(A2{}{};\"Ja\";\"Nein\")</code><br>",
  "Frage: Ist das Alter in A2 {} {}?": "السؤال: هل العمر في A2 <strong>{} {}</strong>؟",
@@ -123,5 +119,13 @@
  "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "في D2 يجب أن يحسب Calc: الكمية ضرب السعر. D2 تعرض 12,00 €. لكن في سطر الإدخال يوجد فقط <code>12</code>. ما المشكلة؟",
  "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "الرقم 12 مكتوب باليد. إذا تغيّرت الكمية أو السعر، يبقى 12.",
  "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "هذا خطأ صامت: يبدو صحيحًا، لكن Calc لا يحسب. الصحيح هو <code>=B2*C2</code>.",
- "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "اليوم النتيجة صحيحة. لكن إذا تغيّرت الكمية أو السعر، لا يعيد Calc الحساب."
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "اليوم النتيجة صحيحة. لكن إذا تغيّرت الكمية أو السعر، لا يعيد Calc الحساب.",
+ "In Zeile 3 steht Fahrrad – da ist die Antwort Nein.": "في الصف 3 توجد Fahrrad (درّاجة) – هناك الجواب Nein.",
+ "WENN stellt eine Frage: Steht in A2 „Bus“? Ja! Darum zeigt B2 Ja.": "WENN تطرح سؤالًا: <strong>هل في A2 كلمة „Bus“؟</strong> نعم! لذلك تُظهر B2 <strong>Ja</strong>.",
+ "Überleg: Was zeigt Calc in B2, wenn man Enter drückt?": "<strong>فكّر:</strong> ماذا يُظهر Calc في B2 عند الضغط على Enter؟",
+ "In B2 steht diese Formel. Du musst nichts eintippen.": "في B2 توجد هذه الصيغة. لا تحتاج إلى كتابة أي شيء.",
+ "Schau oben: In der Zelle steht das Ergebnis, in der Eingabezeile die Formel.": "انظر إلى الأعلى: في الخلية النتيجة، وفي سطر الإدخال الصيغة.",
+ "Schulweg": "Schulweg (الطريق إلى المدرسة)",
+ "Antwort": "Antwort (الجواب)",
+ "Fahrrad": "Fahrrad (درّاجة)"
 }

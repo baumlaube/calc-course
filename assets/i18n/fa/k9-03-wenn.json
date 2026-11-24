@@ -3,8 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (اگر 1) – Calc یک سؤال می‌پرسد",
  "Klasse 9 · Baustein 3": "کلاس 9 · واحد 3",
  "Teil 1 von 3 zu WENN": "بخش 1 از 3 دربارهٔ WENN (اگر)",
- "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 این فرمول را می‌گیرد: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Überleg: Was zeigt B5?": "<strong>فکر کن:</strong> B5 چه نشان می‌دهد؟",
  "Nein": "Nein (نه)",
  "Bus": "Bus (اتوبوس)",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN یک سؤال بله/نه است <span class=\"chip\">7 دقیقه</span>",
@@ -29,8 +27,6 @@
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "مقایسه: <code>=</code> مساوی · <code>&lt;&gt;</code> نامساوی · <code>&lt;</code> کوچک‌تر · <code>&gt;</code> بزرگ‌تر · <code>&lt;=</code> حداکثر · <code>&gt;=</code> حداقل",
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "به جای <code>\"Ja\"</code> و <code>\"Nein\"</code> می‌توانی هر متنی بنویسی، مثلاً <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> اکتشاف: سازندهٔ آزمونک <span class=\"badge expedition\">اختیاری</span>",
- "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN یک سؤال می‌پرسد: <strong>در A5 „Bus“ هست؟</strong> بله! برای همین B5 مقدار <strong>Ja</strong> را نشان می‌دهد.",
- "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "در ردیف 6 Fahrrad (دوچرخه) است – آنجا جواب Nein است.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
  "=WENN(A2{}{};\"Ja\";\"Nein\")": "<code class=\"long\">=WENN(A2{}{};\"Ja\";\"Nein\")</code><br>",
  "Frage: Ist das Alter in A2 {} {}?": "سؤال: سن در A2 <strong>{} {}</strong> است؟",
@@ -123,5 +119,13 @@
  "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "در D2 باید Calc حساب کند: مقدار ضرب در قیمت. D2 مقدار 12,00 € را نشان می‌دهد. ولی در خط ورودی فقط <code>12</code> هست. مشکل چیست؟",
  "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "عدد 12 با دست تایپ شده. اگر مقدار یا قیمت عوض شود، 12 می‌ماند.",
  "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "این یک خطای بی‌صداست: درست به نظر می‌رسد، ولی Calc حساب نمی‌کند. درستش <code>=B2*C2</code> است.",
- "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "امروز درست است. ولی اگر مقدار یا قیمت عوض شود، Calc دوباره حساب نمی‌کند."
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "امروز درست است. ولی اگر مقدار یا قیمت عوض شود، Calc دوباره حساب نمی‌کند.",
+ "In Zeile 3 steht Fahrrad – da ist die Antwort Nein.": "در ردیف 3 Fahrrad (دوچرخه) است – آنجا جواب Nein است.",
+ "WENN stellt eine Frage: Steht in A2 „Bus“? Ja! Darum zeigt B2 Ja.": "WENN یک سؤال می‌پرسد: <strong>در A2 „Bus“ هست؟</strong> بله! برای همین B2 مقدار <strong>Ja</strong> را نشان می‌دهد.",
+ "Überleg: Was zeigt Calc in B2, wenn man Enter drückt?": "<strong>فکر کن:</strong> وقتی Enter را بزنی، Calc در B2 چه نشان می‌دهد؟",
+ "In B2 steht diese Formel. Du musst nichts eintippen.": "در B2 این فرمول هست. لازم نیست چیزی تایپ کنی.",
+ "Schau oben: In der Zelle steht das Ergebnis, in der Eingabezeile die Formel.": "بالا را نگاه کن: در خانه نتیجه است، در خط ورودی فرمول.",
+ "Schulweg": "Schulweg (راه مدرسه)",
+ "Antwort": "Antwort (جواب)",
+ "Fahrrad": "Fahrrad (دوچرخه)"
 }

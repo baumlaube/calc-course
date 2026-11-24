@@ -3,8 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (EĞER 1) – Calc bir soru sorar",
  "Klasse 9 · Baustein 3": "9. sınıf · Ünite 3",
  "Teil 1 von 3 zu WENN": "WENN (EĞER) hakkında 3 bölümden 1. bölüm",
- "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 şu formülü alıyor: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Überleg: Was zeigt B5?": "<strong>Düşün:</strong> B5 ne gösterir?",
  "Nein": "Nein (hayır)",
  "Bus": "Bus (otobüs)",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN bir evet/hayır sorusudur <span class=\"chip\">7 dk</span>",
@@ -29,8 +27,6 @@
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "Karşılaştır: <code>=</code> eşit · <code>&lt;&gt;</code> eşit değil · <code>&lt;</code> küçük · <code>&gt;</code> büyük · <code>&lt;=</code> en fazla · <code>&gt;=</code> en az",
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "<code>\"Ja\"</code> ve <code>\"Nein\"</code> yerine istediğin metni kullanabilirsin, örneğin <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Keşif: Quiz yapıcı <span class=\"badge expedition\">isteğe bağlı</span>",
- "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN bir soru sorar: <strong>A5'te „Bus“ var mı?</strong> Evet! Bu yüzden B5 <strong>Ja</strong> gösteriyor.",
- "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "6. satırda Fahrrad (bisiklet) var – orada cevap Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
  "=WENN(A2{}{};\"Ja\";\"Nein\")": "<code class=\"long\">=WENN(A2{}{};\"Ja\";\"Nein\")</code><br>",
  "Frage: Ist das Alter in A2 {} {}?": "Soru: A2'deki yaş <strong>{} {}</strong> mi?",
@@ -123,5 +119,13 @@
  "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "D2'de Calc miktar çarpı fiyatı hesaplamalı. D2 12,00 € gösteriyor. Ama giriş satırında sadece <code>12</code> yazıyor. Sorun ne?",
  "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "12 elle yazılmış. Miktar veya fiyat değişirse 12 olarak kalır.",
  "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "Bu sessiz bir hata: Doğru görünüyor ama Calc hesaplamıyor. Doğrusu <code>=B2*C2</code> olurdu.",
- "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Bugün doğru. Ama miktar veya fiyat değişirse Calc yeniden hesaplamaz."
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Bugün doğru. Ama miktar veya fiyat değişirse Calc yeniden hesaplamaz.",
+ "In Zeile 3 steht Fahrrad – da ist die Antwort Nein.": "3. satırda Fahrrad (bisiklet) var – orada cevap Nein.",
+ "WENN stellt eine Frage: Steht in A2 „Bus“? Ja! Darum zeigt B2 Ja.": "WENN bir soru sorar: <strong>A2'de „Bus“ var mı?</strong> Evet! Bu yüzden B2 <strong>Ja</strong> gösteriyor.",
+ "Überleg: Was zeigt Calc in B2, wenn man Enter drückt?": "<strong>Düşün:</strong> Enter'a basınca Calc B2'de ne gösterir?",
+ "In B2 steht diese Formel. Du musst nichts eintippen.": "B2'de bu formül var. Bir şey yazman gerekmez.",
+ "Schau oben: In der Zelle steht das Ergebnis, in der Eingabezeile die Formel.": "Yukarı bak: Hücrede sonuç, giriş satırında formül görünür.",
+ "Schulweg": "Schulweg (okul yolu)",
+ "Antwort": "Antwort (cevap)",
+ "Fahrrad": "Fahrrad (bisiklet)"
 }

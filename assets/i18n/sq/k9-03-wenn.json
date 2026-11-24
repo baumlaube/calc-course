@@ -3,8 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (NËSE 1) – Calc bën një pyetje",
  "Klasse 9 · Baustein 3": "Klasa 9 · Njësia 3",
  "Teil 1 von 3 zu WENN": "Pjesa 1 nga 3 për WENN (NËSE)",
- "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 merr këtë formulë: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Überleg: Was zeigt B5?": "<strong>Mendo:</strong> Çfarë tregon B5?",
  "Nein": "Nein (jo)",
  "Bus": "Bus (autobus)",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN është një pyetje po/jo <span class=\"chip\">7 min</span>",
@@ -29,8 +27,6 @@
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "Krahaso: <code>=</code> i barabartë · <code>&lt;&gt;</code> jo i barabartë · <code>&lt;</code> më i vogël · <code>&gt;</code> më i madh · <code>&lt;=</code> më së shumti · <code>&gt;=</code> të paktën",
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "Në vend të <code>\"Ja\"</code> dhe <code>\"Nein\"</code> mund të përdorësh çdo tekst, p.sh. <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Ekspeditë: Krijuesi i kuizit <span class=\"badge expedition\">fakultative</span>",
- "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN bën një pyetje: <strong>A ka A5 „Bus”?</strong> Po! Prandaj B5 tregon <strong>Ja</strong>.",
- "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "Rreshti 6 ka Fahrrad (biçikletë) – aty përgjigja është Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
  "=WENN(A2{}{};\"Ja\";\"Nein\")": "<code class=\"long\">=WENN(A2{}{};\"Ja\";\"Nein\")</code><br>",
  "Frage: Ist das Alter in A2 {} {}?": "Pyetja: A është mosha në A2 <strong>{} {}</strong>?",
@@ -123,5 +119,13 @@
  "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "Te D2 Calc duhet të llogarisë: sasia herë çmimi. D2 tregon 12,00 €. Por në rreshtin e hyrjes shkruan vetëm <code>12</code>. Cili është problemi?",
  "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "12 është shkruar me dorë. Nëse ndryshon sasia ose çmimi, mbetet 12.",
  "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "Ky është një gabim i heshtur: duket saktë, por Calc nuk llogarit. E saktë do të ishte <code>=B2*C2</code>.",
- "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Sot është saktë. Por nëse ndryshon sasia ose çmimi, Calc nuk llogarit përsëri."
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Sot është saktë. Por nëse ndryshon sasia ose çmimi, Calc nuk llogarit përsëri.",
+ "In Zeile 3 steht Fahrrad – da ist die Antwort Nein.": "Rreshti 3 ka Fahrrad (biçikletë) – aty përgjigja është Nein.",
+ "WENN stellt eine Frage: Steht in A2 „Bus“? Ja! Darum zeigt B2 Ja.": "WENN bën një pyetje: <strong>A ka A2 „Bus”?</strong> Po! Prandaj B2 tregon <strong>Ja</strong>.",
+ "Überleg: Was zeigt Calc in B2, wenn man Enter drückt?": "<strong>Mendo:</strong> Çfarë tregon Calc te B2 kur shtyp Enter?",
+ "In B2 steht diese Formel. Du musst nichts eintippen.": "Te B2 është kjo formulë. Nuk ke nevojë të shkruash asgjë.",
+ "Schau oben: In der Zelle steht das Ergebnis, in der Eingabezeile die Formel.": "Shiko lart: në qelizë është rezultati, në rreshtin e hyrjes formula.",
+ "Schulweg": "Schulweg (rruga për në shkollë)",
+ "Antwort": "Antwort (përgjigje)",
+ "Fahrrad": "Fahrrad (biçikletë)"
 }

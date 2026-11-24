@@ -3,8 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (SI 1) – Calc hace una pregunta",
  "Klasse 9 · Baustein 3": "9.º curso · Unidad 3",
  "Teil 1 von 3 zu WENN": "Parte 1 de 3 sobre WENN (SI)",
- "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 recibe esta fórmula: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Überleg: Was zeigt B5?": "<strong>Piensa:</strong> ¿qué muestra B5?",
  "Nein": "Nein (no)",
  "Bus": "Bus (autobús)",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN es una pregunta de sí o no <span class=\"chip\">7 min</span>",
@@ -29,8 +27,6 @@
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "Comparar: <code>=</code> igual · <code>&lt;&gt;</code> distinto · <code>&lt;</code> menor · <code>&gt;</code> mayor · <code>&lt;=</code> como máximo · <code>&gt;=</code> como mínimo",
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "En lugar de <code>\"Ja\"</code> y <code>\"Nein\"</code> puedes usar cualquier texto, p. ej. <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Expedición: creador de concursos <span class=\"badge expedition\">opcional</span>",
- "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN hace una pregunta: <strong>¿contiene A5 „Bus“?</strong> ¡Sí! Por eso B5 muestra <strong>Ja</strong>.",
- "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "La fila 6 contiene Fahrrad (bici): ahí la respuesta es Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
  "=WENN(A2{}{};\"Ja\";\"Nein\")": "<code class=\"long\">=WENN(A2{}{};\"Ja\";\"Nein\")</code><br>",
  "Frage: Ist das Alter in A2 {} {}?": "Pregunta: ¿la edad de A2 es <strong>{} {}</strong>?",
@@ -123,5 +119,13 @@
  "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "En D2, Calc debe calcular cantidad por precio. D2 muestra 12,00 €. Pero en la línea de entrada solo pone <code>12</code>. ¿Cuál es el problema?",
  "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "El 12 está escrito a mano. Si cambia la cantidad o el precio, sigue siendo 12.",
  "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "Es un error silencioso: parece correcto, pero Calc no calcula. Lo correcto sería <code>=B2*C2</code>.",
- "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Hoy está bien. Pero si cambia la cantidad o el precio, Calc no vuelve a calcular."
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Hoy está bien. Pero si cambia la cantidad o el precio, Calc no vuelve a calcular.",
+ "In Zeile 3 steht Fahrrad – da ist die Antwort Nein.": "La fila 3 contiene Fahrrad (bici): ahí la respuesta es Nein.",
+ "WENN stellt eine Frage: Steht in A2 „Bus“? Ja! Darum zeigt B2 Ja.": "WENN hace una pregunta: <strong>¿contiene A2 „Bus“?</strong> ¡Sí! Por eso B2 muestra <strong>Ja</strong>.",
+ "Überleg: Was zeigt Calc in B2, wenn man Enter drückt?": "<strong>Piensa:</strong> ¿qué muestra Calc en B2 al pulsar Enter?",
+ "In B2 steht diese Formel. Du musst nichts eintippen.": "En B2 está esta fórmula. No tienes que escribir nada.",
+ "Schau oben: In der Zelle steht das Ergebnis, in der Eingabezeile die Formel.": "Mira arriba: en la celda está el resultado; en la línea de entrada, la fórmula.",
+ "Schulweg": "Schulweg (camino al colegio)",
+ "Antwort": "Antwort (respuesta)",
+ "Fahrrad": "Fahrrad (bici)"
 }

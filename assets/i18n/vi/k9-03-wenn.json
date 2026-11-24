@@ -7,8 +7,6 @@
  "gleich: = · ungleich (nicht gleich): <>": "<strong>bằng · khác</strong> – gleich (bằng): <code>=</code> · ungleich (khác, không bằng): <code>&lt;&gt;</code>",
  "das Zeichen ;. Es trennt die drei Teile von WENN.": "<strong>dấu chấm phẩy</strong> – ký hiệu <code>;</code>. Nó tách ba phần của WENN.",
  "anzeigen. WENN gibt eine Antwort aus.": "<strong>cho ra</strong> – hiện ra. WENN cho ra một câu trả lời.",
- "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 Vào B5 sẽ có công thức này: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Überleg: Was zeigt B5?": "<strong>Suy nghĩ:</strong> B5 hiện gì?",
  "Nein": "Nein (không)",
  "Bus": "Bus (xe buýt)",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN là một câu hỏi có/không <span class=\"chip\">7 phút</span>",
@@ -31,8 +29,6 @@
  "Beispiel: =WENN(A6=\"Katze\";\"Ja\";\"Nein\") – Steht in A6 Katze?": "Ví dụ: <code class=\"long\">=WENN(A6=\"Katze\";\"Ja\";\"Nein\")</code> – Trong A6 có Katze (con mèo) không?",
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "So sánh: <code>=</code> bằng · <code>&lt;&gt;</code> khác · <code>&lt;</code> nhỏ hơn · <code>&gt;</code> lớn hơn · <code>&lt;=</code> nhiều nhất · <code>&gt;=</code> ít nhất",
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "Thay vì <code>\"Ja\"</code> và <code>\"Nein\"</code> có thể là bất kỳ chữ nào, ví dụ <code>\"bestanden\"</code>.",
- "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN đặt một câu hỏi: <strong>Trong A5 có „Bus“ không?</strong> Có! Vì vậy B5 hiện <strong>Ja</strong>.",
- "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "Ở hàng 6 có Fahrrad (xe đạp) – ở đó câu trả lời là Nein.",
  "Frage: Ist das Alter in A2 {} {}?": "Câu hỏi: Tuổi trong A2 có <strong>{} {}</strong> không?",
  "Ja bei: {}.": "Ja ở: {}.",
  "Bei keiner Zeile Ja.": "Không hàng nào được Ja.",
@@ -121,5 +117,13 @@
  "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "Trong D2, Calc phải tính: số lượng nhân giá. D2 hiện 12,00 €. Nhưng trong dòng nhập chỉ có <code>12</code>. Vấn đề là gì?",
  "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "Số 12 được gõ tay. Nếu số lượng hoặc giá thay đổi, nó vẫn là 12.",
  "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "Đây là một lỗi im lặng: trông thì đúng, nhưng Calc không tính. Đúng ra phải là <code>=B2*C2</code>.",
- "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Hôm nay thì đúng. Nhưng nếu số lượng hoặc giá thay đổi, Calc không tính lại."
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Hôm nay thì đúng. Nhưng nếu số lượng hoặc giá thay đổi, Calc không tính lại.",
+ "In Zeile 3 steht Fahrrad – da ist die Antwort Nein.": "Ở hàng 3 có Fahrrad (xe đạp) – ở đó câu trả lời là Nein.",
+ "WENN stellt eine Frage: Steht in A2 „Bus“? Ja! Darum zeigt B2 Ja.": "WENN đặt một câu hỏi: <strong>Trong A2 có „Bus“ không?</strong> Có! Vì vậy B2 hiện <strong>Ja</strong>.",
+ "Überleg: Was zeigt Calc in B2, wenn man Enter drückt?": "<strong>Suy nghĩ:</strong> Khi bấm Enter, Calc hiện gì trong B2?",
+ "In B2 steht diese Formel. Du musst nichts eintippen.": "Trong B2 có công thức này. Bạn không cần gõ gì cả.",
+ "Schau oben: In der Zelle steht das Ergebnis, in der Eingabezeile die Formel.": "Nhìn lên trên: trong ô là kết quả, trong dòng nhập là công thức.",
+ "Schulweg": "Schulweg (đường đến trường)",
+ "Antwort": "Antwort (câu trả lời)",
+ "Fahrrad": "Fahrrad (xe đạp)"
 }

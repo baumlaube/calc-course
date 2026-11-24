@@ -3,8 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (SI 1) – Calc pose une question",
  "Klasse 9 · Baustein 3": "9e année · Unité 3",
  "Teil 1 von 3 zu WENN": "Partie 1 sur 3 sur WENN (SI)",
- "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 reçoit cette formule : <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Überleg: Was zeigt B5?": "<strong>Réfléchis :</strong> qu'affiche B5 ?",
  "Nein": "Nein (non)",
  "Bus": "Bus (bus)",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN est une question oui/non <span class=\"chip\">7 min</span>",
@@ -29,8 +27,6 @@
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "Comparer : <code>=</code> égal · <code>&lt;&gt;</code> différent · <code>&lt;</code> plus petit · <code>&gt;</code> plus grand · <code>&lt;=</code> au plus · <code>&gt;=</code> au moins",
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "Au lieu de <code>\"Ja\"</code> et <code>\"Nein\"</code>, tu peux utiliser n'importe quel texte, p. ex. <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Expédition : créateur de quiz <span class=\"badge expedition\">facultatif</span>",
- "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN pose une question : <strong>Est-ce que A5 contient „Bus“ ?</strong> Oui ! C'est pourquoi B5 affiche <strong>Ja</strong>.",
- "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "La ligne 6 contient Fahrrad (vélo) – là, la réponse est Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
  "=WENN(A2{}{};\"Ja\";\"Nein\")": "<code class=\"long\">=WENN(A2{}{};\"Ja\";\"Nein\")</code><br>",
  "Frage: Ist das Alter in A2 {} {}?": "Question : l'âge dans A2 est-il <strong>{} {}</strong> ?",
@@ -123,5 +119,13 @@
  "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "Dans D2, Calc doit calculer la quantité fois le prix. D2 affiche 12,00 €. Mais dans la ligne de saisie, il y a seulement <code>12</code>. Quel est le problème ?",
  "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "Le 12 est tapé. Si la quantité ou le prix change, ça reste 12.",
  "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "C'est une erreur silencieuse : ça a l'air juste, mais Calc ne calcule pas. Il faudrait <code>=B2*C2</code>.",
- "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Aujourd'hui c'est juste. Mais si la quantité ou le prix change, Calc ne recalcule pas."
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Aujourd'hui c'est juste. Mais si la quantité ou le prix change, Calc ne recalcule pas.",
+ "In Zeile 3 steht Fahrrad – da ist die Antwort Nein.": "La ligne 3 contient Fahrrad (vélo) – là, la réponse est Nein.",
+ "WENN stellt eine Frage: Steht in A2 „Bus“? Ja! Darum zeigt B2 Ja.": "WENN pose une question : <strong>Est-ce que A2 contient „Bus“ ?</strong> Oui ! C'est pourquoi B2 affiche <strong>Ja</strong>.",
+ "Überleg: Was zeigt Calc in B2, wenn man Enter drückt?": "<strong>Réfléchis :</strong> qu'affiche Calc dans B2 quand on appuie sur Entrée ?",
+ "In B2 steht diese Formel. Du musst nichts eintippen.": "B2 contient cette formule. Tu n'as rien à taper.",
+ "Schau oben: In der Zelle steht das Ergebnis, in der Eingabezeile die Formel.": "Regarde en haut : dans la cellule, il y a le résultat, dans la ligne de saisie, la formule.",
+ "Schulweg": "Schulweg (trajet de l'école)",
+ "Antwort": "Antwort (réponse)",
+ "Fahrrad": "Fahrrad (vélo)"
 }

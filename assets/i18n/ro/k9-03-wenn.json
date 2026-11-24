@@ -3,8 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (DACĂ 1) – Calc pune o întrebare",
  "Klasse 9 · Baustein 3": "Clasa a 9-a · Unitatea 3",
  "Teil 1 von 3 zu WENN": "Partea 1 din 3 despre WENN (DACĂ)",
- "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 primește această formulă: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Überleg: Was zeigt B5?": "<strong>Gândește-te:</strong> Ce arată B5?",
  "Nein": "Nein (nu)",
  "Bus": "Bus (autobuz)",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN e o întrebare cu da/nu <span class=\"chip\">7 min</span>",
@@ -29,8 +27,6 @@
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "Comparare: <code>=</code> egal · <code>&lt;&gt;</code> diferit · <code>&lt;</code> mai mic · <code>&gt;</code> mai mare · <code>&lt;=</code> cel mult · <code>&gt;=</code> cel puțin",
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "În loc de <code>\"Ja\"</code> și <code>\"Nein\"</code> poți folosi orice text, de exemplu <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Expediție: Creatorul de quiz <span class=\"badge expedition\">opțional</span>",
- "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN pune o întrebare: <strong>În A5 e „Bus”?</strong> Da! De aceea B5 arată <strong>Ja</strong>.",
- "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "În rândul 6 e Fahrrad (bicicletă) – acolo răspunsul e Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
  "=WENN(A2{}{};\"Ja\";\"Nein\")": "<code class=\"long\">=WENN(A2{}{};\"Ja\";\"Nein\")</code><br>",
  "Frage: Ist das Alter in A2 {} {}?": "Întrebare: Vârsta din A2 e <strong>{} {}</strong>?",
@@ -123,5 +119,13 @@
  "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "În D2, Calc trebuie să calculeze cantitatea ori prețul. D2 arată 12,00 €. Dar în linia de introducere scrie doar <code>12</code>. Care e problema?",
  "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "12 e tastat. Dacă se schimbă cantitatea sau prețul, rămâne 12.",
  "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "E o greșeală tăcută: pare corect, dar Calc nu calculează. Corect ar fi <code>=B2*C2</code>.",
- "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Azi e corect. Dar dacă se schimbă cantitatea sau prețul, Calc nu recalculează."
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Azi e corect. Dar dacă se schimbă cantitatea sau prețul, Calc nu recalculează.",
+ "In Zeile 3 steht Fahrrad – da ist die Antwort Nein.": "În rândul 3 e Fahrrad (bicicletă) – acolo răspunsul e Nein.",
+ "WENN stellt eine Frage: Steht in A2 „Bus“? Ja! Darum zeigt B2 Ja.": "WENN pune o întrebare: <strong>În A2 e „Bus”?</strong> Da! De aceea B2 arată <strong>Ja</strong>.",
+ "Überleg: Was zeigt Calc in B2, wenn man Enter drückt?": "<strong>Gândește-te:</strong> Ce arată Calc în B2 când apeși Enter?",
+ "In B2 steht diese Formel. Du musst nichts eintippen.": "În B2 e această formulă. Nu trebuie să tastezi nimic.",
+ "Schau oben: In der Zelle steht das Ergebnis, in der Eingabezeile die Formel.": "Uită-te sus: în celulă e rezultatul, în linia de introducere e formula.",
+ "Schulweg": "Schulweg (drumul la școală)",
+ "Antwort": "Antwort (răspuns)",
+ "Fahrrad": "Fahrrad (bicicletă)"
 }

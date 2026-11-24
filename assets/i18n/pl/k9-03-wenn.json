@@ -3,8 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (JEŻELI 1) – Calc zadaje pytanie",
  "Klasse 9 · Baustein 3": "Klasa 9 · Jednostka 3",
  "Teil 1 von 3 zu WENN": "Część 1 z 3 o WENN (JEŻELI)",
- "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 dostaje tę formułę: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Überleg: Was zeigt B5?": "<strong>Pomyśl:</strong> Co pokazuje B5?",
  "Nein": "Nein (nie)",
  "Bus": "Bus (autobus)",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN to pytanie tak/nie <span class=\"chip\">7 min</span>",
@@ -29,8 +27,6 @@
  "Vergleichen: = gleich · <> ungleich · < kleiner · > größer · <= höchstens · >= mindestens": "Porównania: <code>=</code> równe · <code>&lt;&gt;</code> różne · <code>&lt;</code> mniejsze · <code>&gt;</code> większe · <code>&lt;=</code> najwyżej · <code>&gt;=</code> co najmniej",
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "Zamiast <code>\"Ja\"</code> i <code>\"Nein\"</code> możesz użyć dowolnego tekstu, np. <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Wyprawa: Twórca quizu <span class=\"badge expedition\">nieobowiązkowo</span>",
- "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN zadaje pytanie: <strong>Czy w A5 jest „Bus”?</strong> Tak! Dlatego B5 pokazuje <strong>Ja</strong>.",
- "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "W wierszu 6 jest Fahrrad (rower) – tam odpowiedź to Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
  "=WENN(A2{}{};\"Ja\";\"Nein\")": "<code class=\"long\">=WENN(A2{}{};\"Ja\";\"Nein\")</code><br>",
  "Frage: Ist das Alter in A2 {} {}?": "Pytanie: Czy wiek w A2 jest <strong>{} {}</strong>?",
@@ -123,5 +119,13 @@
  "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "W D2 Calc ma policzyć: ilość razy cena. D2 pokazuje 12,00 €. Ale w wierszu wprowadzania jest tylko <code>12</code>. Na czym polega problem?",
  "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "12 jest wpisane ręcznie. Gdy zmieni się ilość albo cena, zostaje 12.",
  "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "To cichy błąd: wygląda dobrze, ale Calc nie liczy. Dobrze byłoby <code>=B2*C2</code>.",
- "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Dziś się zgadza. Ale gdy zmieni się ilość albo cena, Calc nie przelicza od nowa."
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Dziś się zgadza. Ale gdy zmieni się ilość albo cena, Calc nie przelicza od nowa.",
+ "In Zeile 3 steht Fahrrad – da ist die Antwort Nein.": "W wierszu 3 jest Fahrrad (rower) – tam odpowiedź to Nein.",
+ "WENN stellt eine Frage: Steht in A2 „Bus“? Ja! Darum zeigt B2 Ja.": "WENN zadaje pytanie: <strong>Czy w A2 jest „Bus”?</strong> Tak! Dlatego B2 pokazuje <strong>Ja</strong>.",
+ "Überleg: Was zeigt Calc in B2, wenn man Enter drückt?": "<strong>Pomyśl:</strong> Co pokaże Calc w B2 po naciśnięciu Enter?",
+ "In B2 steht diese Formel. Du musst nichts eintippen.": "W B2 jest ta formuła. Nie musisz nic wpisywać.",
+ "Schau oben: In der Zelle steht das Ergebnis, in der Eingabezeile die Formel.": "Spójrz w górę: w komórce jest wynik, w wierszu wprowadzania formuła.",
+ "Schulweg": "Schulweg (droga do szkoły)",
+ "Antwort": "Antwort (odpowiedź)",
+ "Fahrrad": "Fahrrad (rower)"
 }

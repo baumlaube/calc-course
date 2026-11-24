@@ -3,8 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (IF 1) – Calc asks a question",
  "Klasse 9 · Baustein 3": "Grade 9 · Unit 3",
  "Teil 1 von 3 zu WENN": "Part 1 of 3 about WENN (IF)",
- "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 B5 gets this formula: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Überleg: Was zeigt B5?": "<strong>Think:</strong> What does B5 show?",
  "Nein": "Nein (no)",
  "Bus": "Bus",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN is a yes/no question <span class=\"chip\">7 min</span>",
@@ -27,8 +25,6 @@
  "Beispiel: =WENN(A6=\"Katze\";\"Ja\";\"Nein\") – Steht in A6 Katze?": "Example: <code class=\"long\">=WENN(A6=\"Katze\";\"Ja\";\"Nein\")</code> – Does A6 contain Katze (cat)?",
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "Instead of <code>\"Ja\"</code> and <code>\"Nein\"</code> you can use any text, e.g. <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Expedition: Quiz maker <span class=\"badge expedition\">optional</span>",
- "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN asks a question: <strong>Does A5 contain „Bus“?</strong> Yes! That is why B5 shows <strong>Ja</strong>.",
- "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "Row 6 contains Fahrrad (bike) – there the answer is Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
  "=WENN(A2{}{};\"Ja\";\"Nein\")": "<code class=\"long\">=WENN(A2{}{};\"Ja\";\"Nein\")</code><br>",
  "Frage: Ist das Alter in A2 {} {}?": "Question: Is the age in A2 <strong>{} {}</strong>?",
@@ -123,5 +119,13 @@
  "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "In D2, Calc should work out quantity times price. D2 shows 12,00 €. But the input line contains only <code>12</code>. What is the problem?",
  "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "The 12 is typed. If the quantity or price changes, it stays 12.",
  "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "That is a silent error: it looks right, but Calc doesn't calculate. Correct would be <code>=B2*C2</code>.",
- "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "It's right today. But if the quantity or price changes, Calc doesn't recalculate."
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "It's right today. But if the quantity or price changes, Calc doesn't recalculate.",
+ "In Zeile 3 steht Fahrrad – da ist die Antwort Nein.": "Row 3 contains Fahrrad (bike) – there the answer is Nein.",
+ "WENN stellt eine Frage: Steht in A2 „Bus“? Ja! Darum zeigt B2 Ja.": "WENN asks a question: <strong>Does A2 contain „Bus“?</strong> Yes! That is why B2 shows <strong>Ja</strong>.",
+ "Überleg: Was zeigt Calc in B2, wenn man Enter drückt?": "<strong>Think:</strong> What does Calc show in B2 when you press Enter?",
+ "In B2 steht diese Formel. Du musst nichts eintippen.": "B2 contains this formula. You don't have to type anything.",
+ "Schau oben: In der Zelle steht das Ergebnis, in der Eingabezeile die Formel.": "Look at the top: the cell shows the result, the input line shows the formula.",
+ "Schulweg": "Schulweg (way to school)",
+ "Antwort": "Antwort (answer)",
+ "Fahrrad": "Fahrrad (bike)"
 }

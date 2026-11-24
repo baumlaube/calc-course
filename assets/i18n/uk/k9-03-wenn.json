@@ -3,8 +3,6 @@
  "WENN 1 – Calc stellt eine Frage": "WENN 1 (ЯКЩО 1) – Calc ставить запитання",
  "Klasse 9 · Baustein 3": "9 клас · Модуль 3",
  "Teil 1 von 3 zu WENN": "Частина 1 з 3 про WENN (ЯКЩО)",
- "💡 In B5 kommt diese Formel: =WENN(A5=\"Bus\";\"Ja\";\"Nein\")": "💡 У B5 пишемо таку формулу: <code class=\"long\">=WENN(A5=\"Bus\";\"Ja\";\"Nein\")</code>",
- "Überleg: Was zeigt B5?": "<strong>Подумай:</strong> що покаже B5?",
  "Nein": "Nein (ні)",
  "Bus": "Bus (автобус)",
  "2 WENN ist eine Ja/Nein-Frage 7 Min": "<span class=\"step-no\">2</span> WENN – це запитання «так/ні» <span class=\"chip\">7 хв</span>",
@@ -27,8 +25,6 @@
  "Beispiel: =WENN(A6=\"Katze\";\"Ja\";\"Nein\") – Steht in A6 Katze?": "Приклад: <code class=\"long\">=WENN(A6=\"Katze\";\"Ja\";\"Nein\")</code> – чи стоїть в A6 Katze (кішка)?",
  "Statt \"Ja\" und \"Nein\" darf jeder Text stehen, z. B. \"bestanden\".": "Замість <code>\"Ja\"</code> і <code>\"Nein\"</code> можна взяти будь-який текст, напр. <code>\"bestanden\"</code>.",
  "★ Expedition: Quiz-Maker freiwillig": "<span class=\"step-no\">★</span> Експедиція: конструктор вікторини <span class=\"badge expedition\">за бажанням</span>",
- "WENN stellt eine Frage: Steht in A5 „Bus“? Ja! Darum zeigt B5 Ja.": "WENN ставить запитання: <strong>чи стоїть в A5 „Bus“?</strong> Так! Тому B5 показує <strong>Ja</strong>.",
- "In Zeile 6 steht Fahrrad – da ist die Antwort Nein.": "У рядку 6 стоїть Fahrrad (велосипед) – там відповідь Nein.",
  "=WENN(A{}{}{};\"Ja\";\"Nein\")": "=WENN(A{}{}{};\"Ja\";\"Nein\")",
  "=WENN(A2{}{};\"Ja\";\"Nein\")": "<code class=\"long\">=WENN(A2{}{};\"Ja\";\"Nein\")</code><br>",
  "Frage: Ist das Alter in A2 {} {}?": "Запитання: вік в A2 <strong>{} {}</strong>?",
@@ -123,5 +119,13 @@
  "In D2 soll Calc ausrechnen: Menge mal Preis. D2 zeigt 12,00 €. Aber in der Eingabezeile steht nur 12. Was ist das Problem?": "У D2 Calc має обчислити: кількість помножити на ціну. D2 показує 12,00 €. Але в рядку введення стоїть тільки <code>12</code>. У чому проблема?",
  "Die 12 ist getippt. Ändert sich Menge oder Preis, bleibt 12 stehen.": "Число 12 введено вручну. Якщо зміниться кількість або ціна, залишиться 12.",
  "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht. Richtig wäre =B2*C2.": "Це тиха помилка: виглядає правильно, але Calc не рахує. Правильно було б <code>=B2*C2</code>.",
- "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Сьогодні це правильно. Але якщо зміниться кількість або ціна, Calc не перерахує."
+ "Heute stimmt es. Aber wenn sich Menge oder Preis ändern, rechnet Calc nicht neu.": "Сьогодні це правильно. Але якщо зміниться кількість або ціна, Calc не перерахує.",
+ "In Zeile 3 steht Fahrrad – da ist die Antwort Nein.": "У рядку 3 стоїть Fahrrad (велосипед) – там відповідь Nein.",
+ "WENN stellt eine Frage: Steht in A2 „Bus“? Ja! Darum zeigt B2 Ja.": "WENN ставить запитання: <strong>чи стоїть в A2 „Bus“?</strong> Так! Тому B2 показує <strong>Ja</strong>.",
+ "Überleg: Was zeigt Calc in B2, wenn man Enter drückt?": "<strong>Подумай:</strong> що покаже Calc у B2, якщо натиснути Enter?",
+ "In B2 steht diese Formel. Du musst nichts eintippen.": "У B2 стоїть ця формула. Тобі нічого не треба вводити.",
+ "Schau oben: In der Zelle steht das Ergebnis, in der Eingabezeile die Formel.": "Подивись угору: у клітинці – результат, у рядку введення – формула.",
+ "Schulweg": "Schulweg (дорога до школи)",
+ "Antwort": "Antwort (відповідь)",
+ "Fahrrad": "Fahrrad (велосипед)"
 }
