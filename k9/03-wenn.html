@@ -22,11 +22,12 @@
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="stylesheet" href="../assets/kurs.css?v=9c972cf821">
+<link rel="stylesheet" href="../assets/kurs.css?v=ba64008bc6">
 <script src="../assets/i18n.js?v=831187eae3" data-page="k9-03-wenn" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
-<script src="../assets/kurs.js?v=212bffdf00"></script>
+<script src="../assets/kurs.js?v=0b82978985"></script>
 <script src="../assets/minicalc.js?v=6501b0841f" defer></script>
-<script src="../assets/wdh.js?v=fb9881572e" defer></script>
+<script src="../assets/wdh.js?v=0e8e0a31a4" defer></script>
+<script src="../assets/register.js?v=c8ad38a753" defer></script>
 <script src="../assets/stufen.js?v=ec04fd49b4" defer></script>
 </head>
 <body>
@@ -81,15 +82,17 @@
     </table>
   </details>
 
+  <!-- Lernschritte als Register (register.js) -->
+  <div id="lernen">
   <!-- 0 · Weißt du noch? -->
-  <section class="card wdh" id="wdh">
+  <section class="card wdh" id="wdh" data-tab="Weißt du noch?" data-wait>
     <h2><span class="step-no">↺</span> Weißt du noch? <span class="chip">2 Min</span></h2>
     <p class="lead">Zwei Aufgaben zu früheren Bausteinen. Ohne Nachschauen!</p>
     <div id="wdh-box"></div>
   </section>
 
   <!-- 1 · Vorhersage -->
-  <section class="card" id="problem">
+  <section class="card" id="problem" data-tab="Das Problem" data-wait>
     <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
     <div id="calc1"></div>
     <p class="lead">💡 In B5 kommt diese Formel: <code class="long">=WENN(A5="Bus";"Ja";"Nein")</code></p>
@@ -103,7 +106,7 @@
   </section>
 
   <!-- 2 · Erklärung -->
-  <section class="card" id="erklaerung">
+  <section class="card" id="erklaerung" data-tab="Ja/Nein-Frage">
     <h2><span class="step-no">2</span> WENN ist eine Ja/Nein-Frage <span class="chip">7 Min</span></h2>
     <div class="rule"><code class="long">=WENN(Frage;"Ja";"Nein")</code><br>Calc stellt eine Frage. Die Antwort ist nur <strong>Ja</strong> oder <strong>Nein</strong>.</div>
 
@@ -147,18 +150,19 @@
   </section>
 
   <!-- 3 · Ausprobieren -->
-  <section class="card" id="ausprobieren">
+  <section class="card" id="ausprobieren" data-tab="Training" data-wait>
     <h2><span class="step-no">3</span> Frage-Training in 4 Stufen <span class="chip">8 Min</span></h2>
     <div id="calc2"></div>
     <p class="fb" id="fb2" aria-live="polite"></p>
   </section>
 
   <!-- 4 · Kurz-Check -->
-  <section class="card" id="check">
+  <section class="card" id="check" data-tab="Kurz-Check" data-wait>
     <h2><span class="step-no">4</span> Kurz-Check <span class="chip">3 Min</span></h2>
     <p class="lead">Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.</p>
     <div id="quiz"></div>
   </section>
+  </div>
 
   <!-- 5 · In Calc: Pflicht, Plus, Freiwillig – jede Aufgabe eine Datei -->
   <section class="card calc-block" id="ueben">
@@ -267,6 +271,7 @@ document.addEventListener("DOMContentLoaded", () => {
     calc1.set("B5", '=WENN(A5="Bus";"Ja";"Nein")');
     calc1.set("B6", '=WENN(A6="Bus";"Ja";"Nein")');
     calc1.select("B5");
+    Register.done("problem");
     feedback(fb1, (b.dataset.v === "ja" ? T("✔ Genau!") + " " : "") +
       T("WENN stellt eine Frage: <strong>Steht in A5 „Bus“?</strong> Ja! Darum zeigt B5 <strong>Ja</strong>.") + " " +
       T("In Zeile 6 steht Fahrrad – da ist die Antwort Nein."), b.dataset.v === "ja" ? "ok" : "hint");
@@ -319,7 +324,7 @@ document.addEventListener("DOMContentLoaded", () => {
       hint2: () => T("Statt <code>\"Ja\"</code> schreibst du <code>\"bestanden\"</code>, statt <code>\"Nein\"</code> schreibst du <code>\"durchgefallen\"</code>."),
       hint3: () => T("49 Punkte – durchgefallen. Prüfe die Sonst-Antwort."),
       done: T("🏆 Alle 4 Stufen geschafft! Du kannst jetzt WENN-Formeln schreiben.") },
-  ]);
+  ], { onDone: () => Register.done("ausprobieren") });
 
   /* ---------- 5 · Quiz ---------- */
   quiz(document.getElementById("quiz"), [
@@ -339,7 +344,7 @@ document.addEventListener("DOMContentLoaded", () => {
       options: ["Regnet es?", "Ist A5 leer?", "Ist das Wetter NICHT Regen?"], right: 2,
       why: "<> heißt ungleich. Bei Sonne kommt also Ja, bei Regen Nein.",
       miss: ["Genau umgedreht.", "Leer heißt <code>A5=\"\"</code>.", null] },
-  ]);
+  ], { onDone: () => Register.done("check") });
 
 });
 </script>
@@ -359,7 +364,13 @@ document.addEventListener("DOMContentLoaded", () => {
       options: ["Kein Problem, das Ergebnis stimmt", "Calc zeigt gleich <code>#WERT!</code>", "Die Zahl ist getippt. Ändert sich der Preis, bleibt 12 stehen."], right: 2,
       why: "Das ist ein stiller Fehler: Es sieht richtig aus, aber Calc rechnet nicht mit.",
       miss: ["Heute stimmt es. Aber wenn sich etwas ändert, rechnet Calc nicht neu.", "Calc meldet hier nichts. Darum heißt es stiller Fehler.", null] }
-  ]);
+  ], { onDone: () => Register.done("wdh") });
+});
+</script>
+<script>
+/* Register erst bauen, wenn alle Übungen fertig aufgebaut sind */
+document.addEventListener("DOMContentLoaded", () => {
+  Register(document.getElementById("lernen"), { key: "k9-03", after: "ueben" });
 });
 </script>
 </body>

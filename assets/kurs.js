@@ -34,7 +34,7 @@
    * Ablauf: Antworten wählen (änderbar) → „Prüfen“. Richtige werden fest, falsche bleiben offen
    * und können verbessert werden → „Nochmal prüfen“. Gezählt wird das erste Prüfen.
    */
-  function quiz(el, questions) {
+  function quiz(el, questions, opts = {}) {
     const pick = questions.map(() => null);
     const done = questions.map(() => false);
     let first = null;                       // Punkte beim ersten Prüfen
@@ -113,6 +113,7 @@
       if (first === null) first = correct;
       if (correct === n) {
         check.hidden = true;
+        if (opts.onDone) opts.onDone();
         score.innerHTML = T(first === n ? `🏆 ${n} von ${n} – stark!` : `✔ Jetzt stimmt alles. Beim ersten Prüfen: ${first} von ${n}.`);
       } else {
         check.textContent = T("Nochmal prüfen");

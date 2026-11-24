@@ -436,3 +436,26 @@ details.woerter td { text-align: start; }
 .calc-block .dl.frei a:not(.sol) .ico { background: var(--expedition); }
 .calc-block .dl a.sol .ico { background: #7a838e; }
 .frei-box .frei-titel + .dl { margin-top: 8px; }
+
+/* Register: Lernschritte als Reiter (register.js) */
+.register { margin: 22px 0; }
+.reg-tabs { display: flex; gap: 4px; overflow-x: auto; padding: 0 2px; scrollbar-width: none; }
+.reg-tabs::-webkit-scrollbar { display: none; }
+.reg-tab { flex: none; display: flex; align-items: center; gap: 8px; padding: 9px 14px 10px; font: inherit; font-weight: 700; font-size: 15px;
+  color: var(--navy); background: var(--surface-2, #eef1f5); border: 1px solid var(--line); border-bottom: none;
+  border-radius: 12px 12px 0 0; cursor: pointer; position: relative; top: 1px; }
+.reg-tab .reg-no { display: inline-grid; place-items: center; min-width: 26px; height: 26px; padding: 0 4px; border-radius: 8px;
+  background: var(--navy); color: var(--surface); font-size: 14px; }
+.reg-tab.passed .reg-no { background: var(--basis); }
+.reg-tab.active { background: var(--surface); z-index: 1; }
+.reg-tab.locked { color: var(--muted); opacity: .55; cursor: default; }
+.reg-tab.locked .reg-no { background: var(--muted); }
+.reg-tab:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+.register > .reg-panel { margin: 0; border-top-left-radius: 0; }
+.reg-panel > h2 .step-no { display: none; }
+.reg-next { display: flex; justify-content: flex-end; margin-top: 18px; }
+.reg-next .btn { font-size: 17px; padding: 12px 22px; }
+@media (max-width: 640px) {
+  .reg-tab:not(.active) .reg-label { display: none; }
+  .reg-tab { padding: 8px 10px 9px; }
+}

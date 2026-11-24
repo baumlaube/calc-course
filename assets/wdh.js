@@ -205,7 +205,10 @@
       let open = items.length;
       const end = el("p", "wdh-end");
       items.forEach((item) => renderItem(item, box, false, () => {
-        if (--open === 0) end.innerHTML = T(opts.done || "Weiter geht es mit Schritt 1.");
+        if (--open === 0) {
+          end.innerHTML = T(opts.done || "Weiter geht es mit Schritt 1.");
+          if (opts.onDone) opts.onDone();
+        }
       }));
       box.appendChild(end);
       return;
