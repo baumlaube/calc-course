@@ -28,6 +28,7 @@
 <script src="../assets/minicalc.js?v=6833bbf1f4" defer></script>
 <script src="../assets/wdh.js?v=3d906a13f9" defer></script>
 <script src="../assets/minichart.js?v=8eed7d4abd" defer></script>
+<script src="../assets/register.js?v=f5015f104c" defer></script>
 </head>
 <body>
 
@@ -81,15 +82,17 @@
     </table>
   </details>
 
+  <!-- Lernschritte als Register (register.js) -->
+  <div id="lernen">
   <!-- 0 · Weißt du noch? -->
-  <section class="card wdh" id="wdh">
+  <section class="card wdh" id="wdh" data-tab="Weißt du noch?" data-wait>
     <h2><span class="step-no">↺</span> Weißt du noch? <span class="chip">2 Min</span></h2>
     <p class="lead">Zwei Aufgaben zu früheren Bausteinen. Ohne Nachschauen!</p>
     <div id="wdh-box"></div>
   </section>
 
   <!-- 1 · Vorhersage -->
-  <section class="card" id="problem">
+  <section class="card" id="problem" data-tab="Das Problem" data-wait>
     <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
     <p class="lead">Jonas hat die Temperaturen einer Woche in ein Diagramm verwandelt. Irgendwas stimmt da nicht …</p>
     <div class="side">
@@ -106,7 +109,7 @@
   </section>
 
   <!-- 2 · Erklärung -->
-  <section class="card" id="erklaerung">
+  <section class="card" id="erklaerung" data-tab="Diagrammarten">
     <h2><span class="step-no">2</span> Welches Diagramm passt? <span class="chip">5 Min</span></h2>
     <div class="types">
       <div>
@@ -139,10 +142,10 @@
   </section>
 
   <!-- 3 · Ausprobieren -->
-  <section class="card" id="ausprobieren">
+  <section class="card" id="ausprobieren" data-tab="Ausprobieren" data-wait>
     <h2><span class="step-no">3</span> Selbst ausprobieren <span class="chip">5 Min</span></h2>
-    <div id="calc2"></div>
     <p class="lead">Umfrage in der 8b: Wie kommst du zur Schule? Probier alle drei Diagrammarten aus. Welche passen, welche nicht?</p>
+    <div id="calc2"></div>
     <div class="seg" id="types2">
       <button type="button" class="btn secondary" data-t="bar">Säule</button>
       <button type="button" class="btn secondary" data-t="pie">Kreis</button>
@@ -155,11 +158,12 @@
   </section>
 
   <!-- 4 · Kurz-Check -->
-  <section class="card" id="check">
+  <section class="card" id="check" data-tab="Kurz-Check" data-wait>
     <h2><span class="step-no">4</span> Kurz-Check <span class="chip">5 Min</span></h2>
-    <p class="lead">Vier Fragen. Hast du es verstanden?</p>
+    <p class="lead">Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.</p>
     <div id="quiz"></div>
   </section>
+  </div>
 
   <!-- 5 · In Calc: Pflicht, Plus, Freiwillig – eine Aufgabe = eine Datei mit FERTIG-Feld -->
   <section class="card calc-block" id="ueben">
@@ -267,6 +271,7 @@ document.addEventListener("DOMContentLoaded", () => {
     feedback(fb1, (b.dataset.v === "kreis" ? T("✔ Genau!") + " " : "") +
       T("Was sollen „11 % Montag“ bedeuten? Die Temperaturen ändern sich von Tag zu Tag. Das ist ein <strong>Verlauf</strong>, und dafür passt eine <strong>Linie</strong>.") + " " +
       T("Rechts siehst du sofort: Am Samstag war es am wärmsten."), b.dataset.v === "kreis" ? "ok" : "hint");
+    Register.done("problem");
   });
 
   /* ---------- 3 · Ausprobieren ---------- */
@@ -274,22 +279,23 @@ document.addEventListener("DOMContentLoaded", () => {
   const chart2 = document.getElementById("chart2");
   let type = null;
   const tried = new Set();
+  let fertig = false;
   const calc2 = new MiniCalc(document.getElementById("calc2"), {
-    cols: 2, rows: 9,
-    cells: { A4: "Schulweg", B4: "Anzahl", A5: "Bus", B5: 9, A6: "Fahrrad", B6: 7, A7: "zu Fuß", B7: 5, A8: "Auto", B8: 3, A9: "Zug", B9: 2 },
-    styles: { A4: "head", B4: "head" },
-    editable: ["B5", "B6", "B7", "B8", "B9"], select: "B5",
+    cols: 2, rows: 6,
+    cells: { A1: "Schulweg", B1: "Anzahl", A2: "Bus", B2: 9, A3: "Fahrrad", B3: 7, A4: "zu Fuß", B4: 5, A5: "Auto", B5: 3, A6: "Zug", B6: 2 },
+    styles: { A1: "head", B1: "head" },
+    editable: ["B2", "B3", "B4", "B5", "B6"], select: "B2",
   });
   const draw = () => {
     if (!type) return;
-    const rows = [5, 6, 7, 8, 9];
+    const rows = [2, 3, 4, 5, 6];
     C.render(chart2, { type, title: T("Wie kommst du zur Schule?"), labels: rows.map((r) => calc2.get("A" + r)),
       values: rows.map((r) => Number(calc2.get("B" + r)) || 0), yTitle: T("Anzahl") });
   };
   const msg = {
-    bar: "✔ <strong>Säule</strong> passt: Du kannst die Schulwege gut miteinander vergleichen.",
-    pie: "✔ <strong>Kreis</strong> passt auch: Alle 26 Kinder zusammen sind das Ganze. Jedes Stück zeigt einen Anteil davon.",
-    line: "✘ <strong>Linie</strong> passt nicht. Eine Linie verbindet Punkte und zeigt einen Verlauf. Aber zwischen „Bus“ und „Fahrrad“ verläuft nichts!",
+    bar: "<strong>Säule</strong> passt: Du kannst die Schulwege gut miteinander vergleichen.",
+    pie: "<strong>Kreis</strong> passt auch: Alle Kinder zusammen sind das Ganze. Jedes Stück zeigt einen Anteil davon.",
+    line: "<strong>Linie</strong> passt nicht. Eine Linie verbindet Punkte und zeigt einen Verlauf. Aber zwischen „Bus“ und „Fahrrad“ verläuft nichts!",
   };
   document.getElementById("types2").addEventListener("click", (ev) => {
     const b = ev.target.closest("button[data-t]");
@@ -299,14 +305,21 @@ document.addEventListener("DOMContentLoaded", () => {
     tried.add(type);
     draw();
     const all = tried.has("bar") && tried.has("pie") && tried.has("line");
-    feedback(fb2, msg[type] + (all ? "<br><strong>Jetzt:</strong> Ändere eine Zahl in der Tabelle. Was macht das Diagramm?" : ""), type === "line" ? "hint" : "ok");
+    if (fertig) { feedback(fb2, msg[type], type === "line" ? "hint" : "ok"); return; }
+    feedback(fb2, msg[type] + "<br>" + (all ? "<strong>Noch nicht fertig:</strong> Ändere eine Zahl in der Tabelle. Was macht das Diagramm?"
+      : "<strong>Noch nicht fertig:</strong> Probier alle drei Diagrammarten aus."), type === "line" ? "hint" : "info");
   });
   calc2.on((c, src) => {
     if (src === "reset") return;
     draw();
-    const text = ["B5", "B6", "B7", "B8", "B9"].find((x) => { const v = c.get(x); return v !== null && typeof v !== "number"; });
+    const text = ["B2", "B3", "B4", "B5", "B6"].find((x) => { const v = c.get(x); return v !== null && typeof v !== "number"; });
     if (text) { feedback(fb2, `In ${text} steht Text. Das Diagramm kann nur Zahlen zeichnen. Tippe eine Zahl.`, "hint"); return; }
-    if (type) feedback(fb2, "🎉 Das Diagramm hat sich sofort angepasst. So ist es in Calc auch: Tabelle ändern, Diagramm zieht mit.", "ok");
+    if (!type) return;
+    const all = tried.has("bar") && tried.has("pie") && tried.has("line");
+    if (!all) { feedback(fb2, "Das Diagramm hat sich sofort angepasst. <strong>Noch nicht fertig:</strong> Probier alle drei Diagrammarten aus.", "info"); return; }
+    feedback(fb2, "🎉 Das Diagramm hat sich sofort angepasst. So ist es in Calc auch: Tabelle ändern, Diagramm zieht mit.", "ok");
+    fertig = true;
+    Register.done("ausprobieren");
   });
 
   /* ---------- 5 · Quiz ---------- */
@@ -327,7 +340,7 @@ document.addEventListener("DOMContentLoaded", () => {
       options: ["Die Tabelle mit den Überschriften", "Nur die Zahlen", "Gar nichts"], right: 0,
       why: "Aus den Überschriften macht Calc die Beschriftungen, z. B. Bus, Fahrrad …",
       miss: [null, "Ohne Überschriften fehlen im Diagramm die Beschriftungen.", "Dann muss Calc raten, welche Daten du meinst. Das geht oft schief."] },
-  ]);
+  ], { onDone: () => Register.done("check") });
 });
 </script>
 <script>
@@ -344,7 +357,13 @@ document.addEventListener("DOMContentLoaded", () => {
       options: ["<code>=C5*D5</code>", "<code>=B6*C6</code>", "<code>=B5*C5</code>"], right: 0,
       why: "Eine Spalte weiter rechts wird aus B ein C und aus C ein D.",
       miss: [null, "Nach rechts ändern sich die Buchstaben, nicht die Zahlen.", "Beim Ziehen wandert die Formel mit. Sie bleibt nicht gleich."] }
-  ]);
+  ], { onDone: () => Register.done("wdh") });
+});
+</script>
+<script>
+/* Register erst bauen, wenn alle Übungen fertig aufgebaut sind */
+document.addEventListener("DOMContentLoaded", () => {
+  Register(document.getElementById("lernen"), { key: "k8-06", after: "ueben", nr: "8.6" });
 });
 </script>
 </body>
