@@ -306,8 +306,8 @@ document.addEventListener("DOMContentLoaded", () => {
     draw();
     const all = tried.has("bar") && tried.has("pie") && tried.has("line");
     if (fertig) { feedback(fb2, msg[type], type === "line" ? "hint" : "ok"); return; }
-    feedback(fb2, msg[type] + "<br>" + (all ? "<strong>Noch nicht fertig:</strong> Ändere eine Zahl in der Tabelle. Was macht das Diagramm?"
-      : "<strong>Noch nicht fertig:</strong> Probier alle drei Diagrammarten aus."), type === "line" ? "hint" : "info");
+    feedback(fb2, T(msg[type]) + "<br>" + (all ? T("<strong>Noch nicht fertig:</strong> Ändere eine Zahl in der Tabelle. Was macht das Diagramm?")
+      : T("<strong>Noch nicht fertig:</strong> Probier alle drei Diagrammarten aus.")), type === "line" ? "hint" : "info");
   });
   calc2.on((c, src) => {
     if (src === "reset") return;
