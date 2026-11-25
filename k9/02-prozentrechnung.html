@@ -130,27 +130,63 @@
     <p class="fb" id="fb2" aria-live="polite"></p>
   </section>
 
-  <!-- 4 · In Calc -->
-  <section class="card" id="ueben">
-    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">15 Min</span></h2>
-    <p class="lead">Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Die Spalte <strong>Kontrolle</strong> zeigt dir, was noch fehlt. Sie merkt auch, ob dein Ergebnis schon als % formatiert ist.</p>
-    <div class="dl">
-      <a href="../downloads/k9-02-prozentrechnung.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>Übungsdatei</strong><small>k9-02-prozentrechnung.ods</small></span>
-      </a>
-      <a class="sol" href="../downloads/k9-02-prozentrechnung-LOESUNG.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
-      </a>
-    </div>
-  </section>
-
-  <!-- 5 · Kurz-Check -->
+  <!-- 4 · Kurz-Check -->
   <section class="card" id="check">
-    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">3 Min</span></h2>
+    <h2><span class="step-no">4</span> Kurz-Check <span class="chip">3 Min</span></h2>
     <p class="lead">Vier Fragen. Hast du es verstanden?</p>
     <div id="quiz"></div>
+  </section>
+
+  <!-- 5 · In Calc: Pflicht, Plus, Freiwillig – eine Aufgabe = eine Datei mit FERTIG-Feld -->
+  <section class="card calc-block" id="ueben">
+    <h2><span class="step-no">5</span> Jetzt in LibreOffice Calc <span class="chip">15 Min</span></h2>
+    <p class="lead">Jede Aufgabe ist eine eigene Datei. Oben in der Datei steht <strong>✔ FERTIG!</strong>, wenn alles stimmt. Zeig es deiner Lehrkraft.</p>
+    <h3 class="sub"><span class="badge basis">Pflicht</span> Das machen alle</h3>
+    <div class="dl">
+      <a href="../downloads/k9-02-prozentrechnung-1.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Aufgabe 1 · Rabatt</strong><small>k9-02-prozentrechnung-1.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-02-prozentrechnung-1-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <div class="dl">
+      <a href="../downloads/k9-02-prozentrechnung-2.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Aufgabe 2 · Umfrage</strong><small>k9-02-prozentrechnung-2.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-02-prozentrechnung-2-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <h3 class="sub"><span class="badge plus">Plus</span> Nur wenn du mit Pflicht fertig bist</h3>
+    <div class="dl plus">
+      <a href="../downloads/k9-02-prozentrechnung-3.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Aufgabe 3 · Mehrwertsteuer</strong><small>k9-02-prozentrechnung-3.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-02-prozentrechnung-3-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <div class="frei-box" id="freiwillig">
+      <h3 class="frei-titel"><span class="badge expedition">Freiwillig</span> Für alle, die mehr wollen</h3>
+      <div class="dl frei">
+        <a href="../downloads/k9-02-prozentrechnung-expedition.ods" download>
+          <span class="ico" aria-hidden="true">ODS</span>
+          <span><strong>★ Expedition: Rabatt auf Rabatt</strong><small>k9-02-prozentrechnung-expedition.ods</small></span>
+        </a>
+        <a class="sol" href="../downloads/k9-02-prozentrechnung-expedition-LOESUNG.ods" download>
+          <span class="ico" aria-hidden="true">ODS</span>
+          <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+        </a>
+      </div>
+    </div>
   </section>
 
   <!-- Merke -->
@@ -165,32 +201,6 @@
     </ul>
     <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
   </section>
-
-  <!-- Freiwillig: Üben + ★ Expedition -->
-  <section class="card frei" id="freiwillig">
-    <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
-    <p class="lead"><span class="badge ueben">Üben</span> heißt: dasselbe wie oben, nur mehr davon. <span class="badge expedition">★ Expedition</span> heißt: etwas Neues für Profis.</p>
-    <h3 class="sub"><span class="badge expedition">★ Expedition</span> Rabatt auf Rabatt</h3>
-    <div id="calc3"></div>
-    <p class="lead">Die Jacke kostet 80 €. Im Sale gibt es 20 %, an der Kasse nochmal 10 % extra. Die Werbung sagt: „30 % sparen!“</p>
-    <p>Berechne in <strong>B5</strong> den Endpreis und in <strong>B6</strong>, wie viel Prozent du wirklich sparst.</p>
-    <p class="fb" id="fb3" aria-live="polite"></p>
-    <div class="dl">
-      <a href="../downloads/k9-02-prozentrechnung-expedition.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>★ Expedition: Rabatt auf Rabatt</strong><small>k9-02-prozentrechnung-expedition.ods</small></span>
-      </a>
-      <a class="sol" href="../downloads/k9-02-prozentrechnung-expedition-LOESUNG.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
-      </a>
-    </div>
-  </section>
-
-  <nav class="pager" aria-label="Weiter im Lernpfad">
-    <a href="01-fehlerdetektiv.html">← 1 · Fehlerdetektiv</a>
-    <a href="03-wenn.html">3 · WENN 1 →</a>
-  </nav>
 </main>
 
 <footer>
@@ -373,32 +383,6 @@ document.addEventListener("DOMContentLoaded", () => {
       why: "10 : 25 = 0,4. Im %-Format wird daraus 40 %.",
       miss: ["Das %-Format zeigt die Zahl mal 100.", null, "Das wäre falsch herum: 25 : 10. Die Formel teilt B5 durch B10."] },
   ]);
-
-  /* ---------- Expedition: Rabatt auf Rabatt ---------- */
-  const fb3 = document.getElementById("fb3");
-  const calc3 = new MiniCalc(document.getElementById("calc3"), {
-    cols: 2, rows: 6, decimal: "comma",
-    cells: { A1: "Jacke", B1: 80, A2: "Sale", B2: "20 %", A3: "Extra an der Kasse", B3: "10 %",
-             A5: "Endpreis", A6: "Gespart in %" },
-    styles: { B1: "fix", B2: "fix", B3: "fix", A5: "label", A6: "label" },
-    formats: { B1: "eur", B5: "eur", B6: "pct" }, editable: ["B5", "B6"], select: "B5",
-    actions: [{ label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fb3.className = "fb"; } }],
-  });
-  calc3.on((c, src) => {
-    if (src === "reset") return;
-    const end = c.get("B5"), spar = c.get("B6");
-    const r5 = clean(c.getRaw("B5"));
-    if (!r5) { feedback(fb3, T("Tippe in B5 eine Formel für den Endpreis."), "info"); return; }
-    if (!r5.startsWith("=") || isErr(end)) { feedback(fb3, T("B5 braucht eine Formel mit Zellbezügen, z. B. mit B1, B2 und B3."), "hint"); return; }
-    if (near(end, 56)) { feedback(fb3, T("56 € wären 30 % weniger. Aber die 10 % gehen vom <strong>Sale-Preis</strong> weg, nicht von 80 €. Erst B1*(1-B2), davon nochmal 10 % weg."), "hint"); return; }
-    if (!near(end, 57.6)) { feedback(fb3, T("Noch nicht. Tipp: <code>=B1*(1-B2)*(1-B3)</code> – erst 80 %, davon nochmal 90 %."), "hint"); return; }
-    if (!c.getRaw("B6")) { feedback(fb3, T("✔ Endpreis 57,60 €! Jetzt B6: Wie viel Prozent sind das gespart? Gespart ÷ alter Preis."), "info"); return; }
-    if (isErr(spar) || typeof spar !== "number") { feedback(fb3, T("B6 braucht eine Formel, z. B. mit B1 und B5."), "hint"); return; }
-    if (near(spar, 0.72)) { feedback(fb3, T("72 % ist der Anteil, den du noch zahlst. Gesucht ist, was du sparst: <code>=(B1-B5)/B1</code>"), "hint"); return; }
-    if (!near(spar, 0.28)) { feedback(fb3, T("Noch nicht. Gespart in % = (alter Preis − neuer Preis) ÷ alter Preis."), "hint"); return; }
-    feedback(fb3, T("🏆 Expedition geschafft! Du sparst nur <strong>28 %</strong>, nicht 30 %. Die 10 % gehen vom schon reduzierten Preis weg. Rabatte darf man nicht einfach addieren."), "ok");
-  });
-
 });
 </script>
 <script>

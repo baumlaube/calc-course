@@ -126,27 +126,73 @@
     <p class="fb" id="fb2" aria-live="polite"></p>
   </section>
 
-  <!-- 4 · In Calc -->
-  <section class="card" id="ueben">
-    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">12 Min</span></h2>
-    <p class="lead">Lade die Übungsdatei herunter und öffne sie mit LibreOffice Calc. Die Spalte <strong>Kontrolle</strong> zeigt dir, was noch fehlt.</p>
-    <div class="dl">
-      <a href="../downloads/k9-04-wenn-rechnen.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>Übungsdatei</strong><small>k9-04-wenn-rechnen.ods</small></span>
-      </a>
-      <a class="sol" href="../downloads/k9-04-wenn-rechnen-LOESUNG.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>Lösungsdatei</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
-      </a>
-    </div>
-  </section>
-
-  <!-- 5 · Kurz-Check -->
+  <!-- 4 · Kurz-Check -->
   <section class="card" id="check">
-    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">3 Min</span></h2>
+    <h2><span class="step-no">4</span> Kurz-Check <span class="chip">3 Min</span></h2>
     <p class="lead">Vier Fragen. Hast du es verstanden?</p>
     <div id="quiz"></div>
+  </section>
+
+  <!-- 5 · In Calc: Pflicht, Plus, Freiwillig – eine Aufgabe = eine Datei mit FERTIG-Feld -->
+  <section class="card calc-block" id="ueben">
+    <h2><span class="step-no">5</span> Jetzt in LibreOffice Calc <span class="chip">12 Min</span></h2>
+    <p class="lead">Jede Aufgabe ist eine eigene Datei. Oben in der Datei steht <strong>✔ FERTIG!</strong>, wenn alles stimmt. Zeig es deiner Lehrkraft.</p>
+    <h3 class="sub"><span class="badge basis">Pflicht</span> Das machen alle</h3>
+    <div class="dl">
+      <a href="../downloads/k9-04-wenn-rechnen-1.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Aufgabe 1 · Zahlen als Antwort</strong><small>k9-04-wenn-rechnen-1.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-04-wenn-rechnen-1-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <div class="dl">
+      <a href="../downloads/k9-04-wenn-rechnen-2.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Aufgabe 2 · Rechnen</strong><small>k9-04-wenn-rechnen-2.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-04-wenn-rechnen-2-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <h3 class="sub"><span class="badge plus">Plus</span> Nur wenn du mit Pflicht fertig bist</h3>
+    <div class="dl plus">
+      <a href="../downloads/k9-04-wenn-rechnen-3.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Aufgabe 3 · Klassenkasse</strong><small>k9-04-wenn-rechnen-3.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k9-04-wenn-rechnen-3-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <div class="frei-box" id="freiwillig">
+      <h3 class="frei-titel"><span class="badge expedition">Freiwillig</span> Für alle, die mehr wollen</h3>
+      <div class="dl frei">
+        <a href="../downloads/k9-04-wenn-rechnen-mehr-zinsen.ods" download>
+          <span class="ico" aria-hidden="true">ODS</span>
+          <span><strong>Üben: Zinsen bei der Bank</strong><small>k9-04-wenn-rechnen-mehr-zinsen.ods</small></span>
+        </a>
+        <a class="sol" href="../downloads/k9-04-wenn-rechnen-mehr-zinsen-LOESUNG.ods" download>
+          <span class="ico" aria-hidden="true">ODS</span>
+          <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+        </a>
+      </div>
+      <div class="dl frei">
+        <a href="../downloads/k9-04-wenn-rechnen-expedition.ods" download>
+          <span class="ico" aria-hidden="true">ODS</span>
+          <span><strong>★ Expedition: Rabatt ab 50 €</strong><small>k9-04-wenn-rechnen-expedition.ods</small></span>
+        </a>
+        <a class="sol" href="../downloads/k9-04-wenn-rechnen-expedition-LOESUNG.ods" download>
+          <span class="ico" aria-hidden="true">ODS</span>
+          <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+        </a>
+      </div>
+    </div>
   </section>
 
   <!-- Merke -->
@@ -161,47 +207,6 @@
     </ul>
     <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
   </section>
-
-  <!-- Freiwillig: Üben + ★ Expedition -->
-  <section class="card frei" id="freiwillig">
-    <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
-    <p class="lead"><span class="badge ueben">Üben</span> heißt: dasselbe wie oben, nur mehr davon. <span class="badge expedition">★ Expedition</span> heißt: etwas Neues für Profis.</p>
-    <h3 class="sub"><span class="badge ueben">Üben</span> Zinsen bei der Bank</h3>
-    <p>Wer mehr als 10.000 € auf dem Konto hat, bekommt 2,5 % Zinsen, alle anderen 1,75 %.
-      WENN liefert den Zinssatz. Mit ihm rechnest du die Zinsen und das neue Guthaben aus.</p>
-    <p><code class="long">=WENN(B5&gt;10000;2,5%;1,75%)</code></p>
-    <p class="note"><strong>Achtung:</strong> Prozent mit %-Zeichen schreiben. <code>2,5</code> ohne % wären 250 %!
-      Und Frau Huber hat <em>genau</em> 10.000 € – bekommt sie 2,5 %?</p>
-    <div class="dl">
-      <a href="../downloads/k9-04-wenn-rechnen-mehr-zinsen.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>Üben: Zinsen bei der Bank</strong><small>k9-04-wenn-rechnen-mehr-zinsen.ods</small></span>
-      </a>
-      <a class="sol" href="../downloads/k9-04-wenn-rechnen-mehr-zinsen-LOESUNG.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
-      </a>
-    </div>
-
-    <h3 class="sub"><span class="badge expedition">★ Expedition</span> Rabatt ab 50 €</h3>
-    <div id="calc3"></div>
-    <p class="fb" id="fb3" aria-live="polite"></p>
-    <div class="dl">
-      <a href="../downloads/k9-04-wenn-rechnen-expedition.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>★ Expedition: Rabatt ab 50 €</strong><small>k9-04-wenn-rechnen-expedition.ods</small></span>
-      </a>
-      <a class="sol" href="../downloads/k9-04-wenn-rechnen-expedition-LOESUNG.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
-      </a>
-    </div>
-  </section>
-
-  <nav class="pager" aria-label="Weiter im Lernpfad">
-    <a href="03-wenn.html">← 3 · WENN 1</a>
-    <a href="05-wenn-grenzen.html">5 · WENN 3 →</a>
-  </nav>
 </main>
 
 <footer>
@@ -299,17 +304,6 @@ document.addEventListener("DOMContentLoaded", () => {
       why: "Text in Anführungszeichen, Zellen ohne. \"A5\" wäre nur der Text A5.",
       miss: ["Genau verdreht: Der Text braucht Anführungszeichen, die Zelle nicht.", null, "<code>\"A5\"</code> zeigt nur die Buchstaben A5, nicht den Preis."] },
   ]);
-
-  /* ---------- Expedition: Rabatt ---------- */
-  Stufen(document.getElementById("calc3"), document.getElementById("fb3"), [
-    { title: "Rabatt ab 50 €", head: "Einkauf", ansHead: "zu zahlen", vals: [50, 38.5], fmt: "eur", ansFmt: "eur", textOnly: false,
-      q: "Ab 50 € gibt es <strong>10 % Rabatt</strong>, sonst zahlt man den vollen Betrag. Aus Baustein 2 weißt du: 10 % weniger heißt <code>*(1-10%)</code>.",
-      want: (v) => (v >= 50 ? v * 0.9 : v),
-      hint2: () => T("Genau 50 € – „ab 50 €“ heißt: 50 € zählt schon mit, also <code>&gt;=</code>. Dann-Teil: <code>A2*(1-10%)</code> = 45,00 €."),
-      hint3: () => T("38,50 € ist unter 50 € – Sonst-Teil: einfach <code>A2</code>."),
-      done: T("🏆 Expedition geschafft! WENN und Prozentrechnung zusammen – das kommt in der Übungsdatei noch einmal.") },
-  ]);
-
 });
 </script>
 <script>

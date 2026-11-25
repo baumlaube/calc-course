@@ -154,27 +154,73 @@
     <p class="fb" id="fb2" aria-live="polite"></p>
   </section>
 
-  <!-- 4 · In Calc -->
-  <section class="card" id="ueben">
-    <h2><span class="step-no">4</span> Jetzt in LibreOffice Calc <span class="chip">15 Min</span></h2>
-    <p class="lead">Lade die Übungsdatei herunter. Du erstellst selbst Diagramme und liest sie ab. In der Lösungsdatei findest du die fertigen Diagramme zum Vergleichen.</p>
-    <div class="dl">
-      <a href="../downloads/k8-06-diagramme.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>Übungsdatei</strong><small>k8-06-diagramme.ods</small></span>
-      </a>
-      <a class="sol" href="../downloads/k8-06-diagramme-LOESUNG.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>Lösungsdatei</strong><small>mit fertigen Diagrammen</small></span>
-      </a>
-    </div>
-  </section>
-
-  <!-- 5 · Kurz-Check -->
+  <!-- 4 · Kurz-Check -->
   <section class="card" id="check">
-    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">5 Min</span></h2>
+    <h2><span class="step-no">4</span> Kurz-Check <span class="chip">5 Min</span></h2>
     <p class="lead">Vier Fragen. Hast du es verstanden?</p>
     <div id="quiz"></div>
+  </section>
+
+  <!-- 5 · In Calc: Pflicht, Plus, Freiwillig – eine Aufgabe = eine Datei mit FERTIG-Feld -->
+  <section class="card calc-block" id="ueben">
+    <h2><span class="step-no">5</span> Jetzt in LibreOffice Calc <span class="chip">15 Min</span></h2>
+    <p class="lead">Jede Aufgabe ist eine eigene Datei. Oben in der Datei steht <strong>✔ FERTIG!</strong>, wenn alles stimmt. Zeig es deiner Lehrkraft.</p>
+    <h3 class="sub"><span class="badge basis">Pflicht</span> Das machen alle</h3>
+    <div class="dl">
+      <a href="../downloads/k8-06-diagramme-1.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Aufgabe 1 · Schulweg</strong><small>k8-06-diagramme-1.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-06-diagramme-1-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <div class="dl">
+      <a href="../downloads/k8-06-diagramme-2.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Aufgabe 2 · Wetterwoche</strong><small>k8-06-diagramme-2.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-06-diagramme-2-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+    <h3 class="sub"><span class="badge plus">Plus</span> Nur wenn du mit Pflicht fertig bist</h3>
+    <div class="dl plus">
+      <a href="../downloads/k8-06-diagramme-3.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Aufgabe 3 · Welches Diagramm?</strong><small>k8-06-diagramme-3.ods</small></span>
+      </a>
+      <a class="sol" href="../downloads/k8-06-diagramme-3-LOESUNG.ods" download>
+        <span class="ico" aria-hidden="true">ODS</span>
+        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+      </a>
+    </div>
+
+    <div class="frei-box" id="freiwillig">
+      <h3 class="frei-titel"><span class="badge expedition">Freiwillig</span> Für alle, die mehr wollen</h3>
+      <div class="dl frei">
+        <a href="../downloads/k8-06-diagramme-mehr-stromtarif-duell.ods" download>
+          <span class="ico" aria-hidden="true">ODS</span>
+          <span><strong>Üben: Stromtarif-Duell</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>
+        </a>
+        <a class="sol" href="../downloads/k8-06-diagramme-mehr-stromtarif-duell-LOESUNG.ods" download>
+          <span class="ico" aria-hidden="true">ODS</span>
+          <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+        </a>
+      </div>
+      <div class="dl frei">
+        <a href="../downloads/k8-06-diagramme-expedition.ods" download>
+          <span class="ico" aria-hidden="true">ODS</span>
+          <span><strong>★ Expedition: Lügen mit Diagrammen</strong><small>k8-06-diagramme-expedition.ods</small></span>
+        </a>
+        <a class="sol" href="../downloads/k8-06-diagramme-expedition-LOESUNG.ods" download>
+          <span class="ico" aria-hidden="true">ODS</span>
+          <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
+        </a>
+      </div>
+    </div>
   </section>
 
   <!-- Merke -->
@@ -188,54 +234,6 @@
     </ul>
     <div class="btn-row"><button class="btn secondary" type="button" onclick="window.print()">🖨 Merke drucken</button></div>
   </section>
-
-  <!-- Freiwillig: Üben + ★ Expedition -->
-  <section class="card frei" id="freiwillig">
-    <h2><span class="step-no">+</span> Freiwillig <span class="badge expedition">für alle, die mehr wollen</span></h2>
-    <p class="lead"><span class="badge ueben">Üben</span> heißt: dasselbe wie oben, nur mehr davon. <span class="badge expedition">★ Expedition</span> heißt: etwas Neues für Profis.</p>
-    <h3 class="sub"><span class="badge ueben">Üben</span> Das Stromtarif-Duell</h3>
-    <div id="calcStrom"></div>
-    <div id="chartStrom"></div>
-    <p class="lead">Strom kostet zweimal: einen <strong>Grundpreis</strong> jeden Monat und einen Preis für jede <strong>kWh</strong>.</p>
-    <p><strong>Jahreskosten = 12 × Grundpreis + kWh × Cent ÷ 100</strong>. Tipp die Formel in B6 und füll sie aus: erst nach rechts bis D6, dann die markierte Zeile nach unten bis D8. Das Diagramm zeichnet sich von selbst.</p>
-    <p class="fb" id="fbStrom" aria-live="polite"></p>
-    <div id="quizStrom"></div>
-    <div class="dl">
-      <a href="../downloads/k8-06-diagramme-mehr-stromtarif-duell.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>Üben: Stromtarif-Duell</strong><small>k8-06-diagramme-mehr-stromtarif-duell.ods</small></span>
-      </a>
-      <a class="sol" href="../downloads/k8-06-diagramme-mehr-stromtarif-duell-LOESUNG.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
-      </a>
-    </div>
-
-    <h3 class="sub"><span class="badge expedition">★ Expedition</span> Lügen mit Diagrammen</h3>
-    <p class="lead">Abstimmung über die Klassenfahrt: Berlin 48 Stimmen, München 52 Stimmen. Verschieb den Regler. Wo fängt die y-Achse an?</p>
-    <div class="slider">
-      <label for="ymin"><strong class="t">y-Achse beginnt bei:</strong> <span id="yminval">0</span></label>
-      <input type="range" id="ymin" min="0" max="47" step="1" value="0">
-    </div>
-    <div class="chart-box" id="chart3"></div>
-    <p class="fb show info" id="fb3" aria-live="polite"></p>
-    <div id="quiz3"></div>
-    <div class="dl">
-      <a href="../downloads/k8-06-diagramme-expedition.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>★ Expedition: Lügen mit Diagrammen</strong><small>k8-06-diagramme-expedition.ods</small></span>
-      </a>
-      <a class="sol" href="../downloads/k8-06-diagramme-expedition-LOESUNG.ods" download>
-        <span class="ico" aria-hidden="true">ODS</span>
-        <span><strong>Lösung</strong><small>Erst selbst probieren, dann vergleichen!</small></span>
-      </a>
-    </div>
-  </section>
-
-  <nav class="pager" aria-label="Weiter im Lernpfad">
-    <a href="05-absolute-bezuege.html">← 5 · Absolute Bezüge</a>
-    <a href="07-projekt-klassenfahrt.html">7 · Projekt →</a>
-  </nav>
 </main>
 
 <footer>
@@ -330,85 +328,6 @@ document.addEventListener("DOMContentLoaded", () => {
       why: "Aus den Überschriften macht Calc die Beschriftungen, z. B. Bus, Fahrrad …",
       miss: [null, "Ohne Überschriften fehlen im Diagramm die Beschriftungen.", "Dann muss Calc raten, welche Daten du meinst. Das geht oft schief."] },
   ]);
-
-  /* ---------- Expedition: Achse ---------- */
-  const slider = document.getElementById("ymin"), val = document.getElementById("yminval"), fb3 = document.getElementById("fb3");
-  const drawLie = () => {
-    const m = Number(slider.value);
-    val.textContent = m;
-    C.render(document.getElementById("chart3"), { type: "bar", title: T("Wohin geht die Klassenfahrt?"), labels: ["Berlin", "München"], values: [48, 52], yMin: m, yTitle: T("Stimmen") });
-    const factor = (52 - m) / (48 - m);
-    const f = factor.toLocaleString("de-DE", { maximumFractionDigits: 1 });
-    fb3.innerHTML = T(m === 0
-      ? "Ehrlich: Die Säulen sind fast gleich hoch. Der Unterschied ist ja auch nur <strong>4 Stimmen</strong>."
-      : `Die München-Säule sieht jetzt <strong>${f}-mal</strong> so hoch aus wie Berlin. Dabei sind es immer noch nur 4 Stimmen Unterschied!`);
-  };
-  slider.addEventListener("input", drawLie);
-  drawLie();
-  document.addEventListener("i18n-ready", () => { renderA(); drawLie(); draw(); });
-  quiz(document.getElementById("quiz3"), [
-    { q: "Eine Zeitung zeigt ein Diagramm mit riesigem Unterschied. Was prüfst du zuerst?",
-      options: ["Die Farben", "Wo die y-Achse anfängt", "Wie groß das Bild ist"], right: 1,
-      why: "Fängt die y-Achse nicht bei 0 an, wirken kleine Unterschiede riesig. Das ist ein beliebter Trick!" },
-  ]);
-
-  /* ---------- Mehr üben · Stromtarif-Duell ---------- */
-  const fbStrom = document.getElementById("fbStrom");
-  const anbieter = ["Stadtwerke", "Blitzstrom", "Ökostrom"];
-  const stromCells = { A1: "Anbieter", A2: "Grundpreis/Monat", B2: 12, C2: 0, D2: 6, A3: "Cent pro kWh", B3: 26, C3: 33, D3: 29,
-    A5: "kWh pro Jahr", A6: 1000, A7: 3000, A8: 5000 };
-  ["B", "C", "D"].forEach((k, i) => { stromCells[k + "1"] = anbieter[i]; stromCells[k + "5"] = anbieter[i]; });
-  const sBlk = ["B", "C", "D"].flatMap((k) => [6, 7, 8].map((r) => k + r));
-  const calcStrom = new MiniCalc(document.getElementById("calcStrom"), {
-    cols: 4, rows: 8, decimal: "comma", cells: stromCells,
-    styles: { A1: "head", B1: "head", C1: "head", D1: "head", A5: "head", B5: "head", C5: "head", D5: "head",
-              B2: "fix", C2: "fix", D2: "fix", B3: "fix", C3: "fix", D3: "fix" },
-    formats: { B2: "eur", C2: "eur", D2: "eur", A6: "plain", A7: "plain", A8: "plain",
-               B6: "eur", C6: "eur", D6: "eur", B7: "eur", C7: "eur", D7: "eur", B8: "eur", C8: "eur", D8: "eur" },
-    editable: sBlk, select: "B6", drag: true,
-    actions: [
-      { label: "■ B6 nach rechts ausfüllen (bis D6)", touch: true, onClick: (c) => {
-          if (!c.getRaw("B6")) { feedback(fbStrom, T("Erst eine Formel in B6 eintippen!"), "hint"); return; }
-          c.fillBy("right", 2, false, "button", { c1: 2, r1: 6, c2: 2, r2: 6 });
-        } },
-      { label: "■ B6 bis D6 nach unten ausfüllen (bis D8)", touch: true, onClick: (c) => {
-          if (!c.getRaw("D6")) { feedback(fbStrom, T("Erst nach rechts ausfüllen, bis D6!"), "hint"); return; }
-          c.fillBy("down", 2, false, "button", { c1: 2, r1: 6, c2: 4, r2: 6 });
-        } },
-      { label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fbStrom.className = "fb"; drawStrom(c); } },
-    ],
-  });
-  const drawStrom = (c) => C.render(document.getElementById("chartStrom"), {
-    type: "line", title: T("Jahreskosten in €"), labels: ["1000", "3000", "5000"],
-    series: ["B", "C", "D"].map((k, i) => ({ name: anbieter[i], values: [6, 7, 8].map((r) => {
-      const v = c.get(k + r); return typeof v === "number" ? v : null; }) })),
-  });
-  drawStrom(calcStrom);
-  const kosten = (c, a) => 12 * c.get(a[0] + "2") + c.get("A" + a.slice(1)) * c.get(a[0] + "3") / 100;
-  calcStrom.on((c, src) => {
-    drawStrom(c);
-    if (src === "reset") return;
-    if (!c.getRaw("B6")) return;
-    const b6 = c.get("B6");
-    if (typeof b6 === "number" && Math.abs(b6 - (12 * 12 + 1000 * 26)) < 0.01) { feedback(fbStrom, T("B6 ist viel zu groß: Die Cent musst du noch durch 100 teilen, dann sind es Euro."), "hint"); return; }
-    if (!(typeof b6 === "number" && Math.abs(b6 - kosten(c, "B6")) < 0.005)) { feedback(fbStrom, T("B6: <code>=12*B2+A6*B3/100</code>"), "hint"); return; }
-    const leer = sBlk.filter((a) => !c.getRaw(a)).length;
-    if (leer === 8) { feedback(fbStrom, T("✔ B6 stimmt: 404 € im Jahr. Jetzt ausfüllen. Tipp für eine Formel für alles: <code>=12*B$2+$A6*B$3/100</code>"), "info"); return; }
-    if (leer) { feedback(fbStrom, T(`Noch nicht fertig: ${leer} Zellen sind leer. Zieh den markierten Bereich weiter, bis alles bis D8 voll ist.`), "info"); return; }
-    const right = sBlk.filter((a) => typeof c.get(a) === "number" && Math.abs(c.get(a) - kosten(c, a)) < 0.005).length;
-    if (right < 9) { feedback(fbStrom, T(`${right} von 9 stimmen. Beim Ausfüllen wandern die Bezüge weg. Halt Zeile 2 und 3 fest (<code>B$2</code>, <code>B$3</code>) und die Spalte A (<code>$A6</code>).`), "hint"); return; }
-    feedback(fbStrom, T("🏆 Alle Kosten stimmen! Schau aufs Diagramm: Wo sich Linien kreuzen, wechselt der billigste Anbieter. Jetzt die Fragen unten."), "ok");
-  });
-  feedback(fbStrom, T("Klick B6 an und tipp die Formel für die Stadtwerke bei 1000 kWh."), "info");
-  quiz(document.getElementById("quizStrom"), [
-    { q: "Single-Wohnung, 1000 kWh im Jahr: Welcher Anbieter ist am billigsten?",
-      options: ["Stadtwerke", "Blitzstrom", "Ökostrom"], right: 1,
-      why: "Bei wenig Verbrauch gewinnt Blitzstrom: kein Grundpreis. Die hohen Cent pro kWh fallen kaum ins Gewicht." },
-    { q: "Familie mit 4 Personen, 5000 kWh: Welcher Anbieter ist am billigsten?",
-      options: ["Stadtwerke", "Blitzstrom", "Ökostrom"], right: 0,
-      why: "Bei viel Verbrauch gewinnen die Stadtwerke. Der Grundpreis ist hoch, aber jede kWh ist billig." },
-  ]);
-
 });
 </script>
 <script>
