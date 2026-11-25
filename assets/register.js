@@ -43,6 +43,7 @@
       b.setAttribute("aria-controls", p.id);
       const text = p.dataset.tab ? T(p.dataset.tab) : label.innerHTML.trim();   // data-tab: kurzer Reitername
       b.innerHTML = `<span class="reg-no">${no}</span><span class="reg-label">${text}</span>`;
+      b.title = b.querySelector(".reg-label").textContent.trim();   // voller Name, falls er gekürzt ist
       b.addEventListener("click", () => { if (i <= reached) show(i, false); });
 
       p.classList.add("reg-panel");
