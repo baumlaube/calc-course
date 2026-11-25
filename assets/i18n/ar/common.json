@@ -262,5 +262,6 @@
  "5 Selbst ausprobieren 5 Min": "<span class=\"step-no\">5</span> جرّب بنفسك <span class=\"chip\">5 د</span>",
  "6 Kurz-Check 5 Min": "<span class=\"step-no\">6</span> فحص سريع <span class=\"chip\">5 د</span>",
  "7 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">7</span> الآن في LibreOffice Calc <span class=\"chip\">15 د</span>",
- "Formel": "الصيغة"
+ "Formel": "الصيغة",
+ "Ausprobieren": "جرّب بنفسك"
 }
