@@ -43,5 +43,7 @@
  "Von rechts nach links": "من اليمين إلى اليسار",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "أولًا LINKS، ثم &amp;، وفي النهاية KLEIN.",
  "Gar nicht": "لا يمكن",
- "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "هل تكتب أسماء المستخدمين لـ 25 طالبًا باليد؟ هذا يأخذ وقتًا طويلًا ومن السهل أن تخطئ. Calc يبني هذه الأسماء بنفسه من الاسم الأول واسم العائلة، باستخدام <code>&amp;</code> و<code>LINKS</code> (LEFT) و<code>KLEIN</code> (LOWER). هكذا تفعل المدارس والشركات أيضًا."
+ "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "هل تكتب أسماء المستخدمين لـ 25 طالبًا باليد؟ هذا يأخذ وقتًا طويلًا ومن السهل أن تخطئ. Calc يبني هذه الأسماء بنفسه من الاسم الأول واسم العائلة، باستخدام <code>&amp;</code> و<code>LINKS</code> (LEFT) و<code>KLEIN</code> (LOWER). هكذا تفعل المدارس والشركات أيضًا.",
+ "Calc": "Calc",
+ "Lea & Müller": "Lea & Müller"
 }

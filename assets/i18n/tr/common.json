@@ -229,5 +229,9 @@
  "Das Problem": "Sorun",
  "Training": "Antrenman",
  "Kurz-Check": "Kısa kontrol",
- "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Dört soru. Anladın mı? O zaman Calc'ta devam et."
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Dört soru. Anladın mı? O zaman Calc'ta devam et.",
+ "Gar nicht": "Hiçbir şekilde",
+ "Nein": "Nein (hayır)",
+ "gelb": "sarı",
+ "rot": "kırmızı"
 }

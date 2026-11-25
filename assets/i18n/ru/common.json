@@ -229,5 +229,9 @@
  "Das Problem": "Проблема",
  "Training": "Тренировка",
  "Kurz-Check": "Быстрая проверка",
- "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Четыре вопроса. Ты всё понял(а)? Тогда продолжай в Calc."
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Четыре вопроса. Ты всё понял(а)? Тогда продолжай в Calc.",
+ "Gar nicht": "Никак",
+ "Nein": "Nein (нет)",
+ "gelb": "жёлтого",
+ "rot": "красного"
 }

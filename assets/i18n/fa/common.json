@@ -229,5 +229,9 @@
  "Das Problem": "مشکل",
  "Training": "تمرین",
  "Kurz-Check": "بررسی کوتاه",
- "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "چهار پرسش. فهمیدی؟ پس در Calc ادامه بده."
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "چهار پرسش. فهمیدی؟ پس در Calc ادامه بده.",
+ "Gar nicht": "به هیچ وجه",
+ "Nein": "Nein (نه)",
+ "gelb": "زرد",
+ "rot": "قرمز"
 }

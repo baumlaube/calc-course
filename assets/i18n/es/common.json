@@ -229,5 +229,9 @@
  "Das Problem": "El problema",
  "Training": "Entrenamiento",
  "Kurz-Check": "Comprobación rápida",
- "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Cuatro preguntas. ¿Lo has entendido? Entonces sigue en Calc."
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Cuatro preguntas. ¿Lo has entendido? Entonces sigue en Calc.",
+ "Gar nicht": "De ninguna manera",
+ "Nein": "Nein (no)",
+ "gelb": "amarillo",
+ "rot": "rojo"
 }

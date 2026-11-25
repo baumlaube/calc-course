@@ -43,5 +43,7 @@
  "Von rechts nach links": "Sağdan sola",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "Önce LINKS, sonra &amp;, en sonda KLEIN.",
  "Gar nicht": "Hiçbir şekilde",
- "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "25 öğrencinin kullanıcı adlarını elle mi yazacaksın? Bu uzun sürer ve kolayca yanlış yazarsın. Calc bu adları ad ve soyaddan kendisi oluşturur: <code>&amp;</code>, <code>LINKS</code> (SOLDAN) ve <code>KLEIN</code> (KÜÇÜKHARF) ile. Okullar ve şirketler de böyle yapar."
+ "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "25 öğrencinin kullanıcı adlarını elle mi yazacaksın? Bu uzun sürer ve kolayca yanlış yazarsın. Calc bu adları ad ve soyaddan kendisi oluşturur: <code>&amp;</code>, <code>LINKS</code> (SOLDAN) ve <code>KLEIN</code> (KÜÇÜKHARF) ile. Okullar ve şirketler de böyle yapar.",
+ "Calc": "Calc",
+ "Lea & Müller": "Lea & Müller"
 }

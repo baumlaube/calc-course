@@ -43,5 +43,7 @@
  "Von rechts nach links": "Từ phải sang trái",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "Trước là LINKS, rồi &amp;, cuối cùng là KLEIN.",
  "Gar nicht": "Hoàn toàn không",
- "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "Gõ tay tên người dùng cho 25 học sinh? Việc đó lâu và dễ gõ nhầm. Calc tự ghép những tên như vậy từ tên và họ, bằng <code>&amp;</code>, <code>LINKS</code> (TRÁI) và <code>KLEIN</code> (CHỮ THƯỜNG). Trường học và công ty cũng làm như vậy."
+ "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "Gõ tay tên người dùng cho 25 học sinh? Việc đó lâu và dễ gõ nhầm. Calc tự ghép những tên như vậy từ tên và họ, bằng <code>&amp;</code>, <code>LINKS</code> (TRÁI) và <code>KLEIN</code> (CHỮ THƯỜNG). Trường học và công ty cũng làm như vậy.",
+ "Calc": "Calc",
+ "Lea & Müller": "Lea & Müller"
 }

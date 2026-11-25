@@ -114,5 +114,9 @@
  "Klick auf die gelbe Zelle D2 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D2 nach unten bis D6, genau wie in Calc. Zum Schluss kommt in D7 die Summe.": "Клацни на жовту клітинку D2 і введи формулу вгорі. Підтверди клавішею <kbd>Enter</kbd>. Потім потягни за <strong>Ausfüllkästchen</strong> (маркер заповнення) від D2 униз до D6, точно як у Calc. Наприкінці в D7 буде сума.",
  "📋 Spicker: So füllst du aus": "📋 Шпаргалка: як заповнювати",
  "Ausfüllen: Perfekt! Jede Zeile rechnet mit ihren eigenen Zahlen.Noch nicht fertig: Berechne in D7 die Summe.": "Заповнення: чудово! Кожен рядок рахує зі своїми числами.<br><strong>Ще не все:</strong> порахуй суму в D7.",
- "Ausfüllen": "Заповнення"
+ "Ausfüllen": "Заповнення",
+ "Montag4": "Montag4",
+ "Quartal 4, Quartal 1": "Quartal 4, Quartal 1",
+ "Quartal 4, Quartal 5": "Quartal 4, Quartal 5",
+ "Quartal 3, Quartal 3": "Quartal 3, Quartal 3"
 }

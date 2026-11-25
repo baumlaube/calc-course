@@ -229,5 +229,9 @@
  "Das Problem": "The problem",
  "Training": "Training",
  "Kurz-Check": "Quick check",
- "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Four questions. Have you understood it? Then go on in Calc."
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Four questions. Have you understood it? Then go on in Calc.",
+ "Gar nicht": "Not at all",
+ "Nein": "Nein (no)",
+ "gelb": "yellow",
+ "rot": "red"
 }

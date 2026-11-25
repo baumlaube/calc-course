@@ -43,5 +43,7 @@
  "Von rechts nach links": "Справа наліво",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "Спочатку LINKS, потім &amp;, наприкінці KLEIN.",
  "Gar nicht": "Ніяк",
- "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "Вводити вручну імена користувачів для 25 учнів? Це довго, і легко помилитися. Calc сам складає такі імена з імені й прізвища за допомогою <code>&amp;</code>, <code>LINKS</code> (ЛІВСИМВ) і <code>KLEIN</code> (НИЖНІЙ). Так роблять і школи, і фірми."
+ "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "Вводити вручну імена користувачів для 25 учнів? Це довго, і легко помилитися. Calc сам складає такі імена з імені й прізвища за допомогою <code>&amp;</code>, <code>LINKS</code> (ЛІВСИМВ) і <code>KLEIN</code> (НИЖНІЙ). Так роблять і школи, і фірми.",
+ "Calc": "Calc",
+ "Lea & Müller": "Lea & Müller"
 }

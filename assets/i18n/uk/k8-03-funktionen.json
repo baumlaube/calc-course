@@ -108,5 +108,9 @@
  "In B2 steht 12 Stück ganz links. Was heißt das?": "У B2 зліва стоїть <strong>12 Stück</strong> (12 штук). Що це означає?",
  "Funktionen": "Функції",
  "Σ-Fallen": "Пастки Σ",
- "B5 geteilt durch B9": "B5 поділити на B9"
+ "B5 geteilt durch B9": "B5 поділити на B9",
+ "SUMME": "SUMME",
+ "MIN": "MIN",
+ "MAX": "MAX",
+ "Σ Summe": "Σ Summe"
 }

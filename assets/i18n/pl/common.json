@@ -229,5 +229,9 @@
  "Das Problem": "Problem",
  "Training": "Trening",
  "Kurz-Check": "Szybki test",
- "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Cztery pytania. Wszystko jasne? To dalej w Calc."
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Cztery pytania. Wszystko jasne? To dalej w Calc.",
+ "Gar nicht": "Nijak",
+ "Nein": "Nein (nie)",
+ "gelb": "żółty",
+ "rot": "czerwony"
 }

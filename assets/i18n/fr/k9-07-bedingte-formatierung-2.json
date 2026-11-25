@@ -83,5 +83,8 @@
  "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne Anführungszeichen erkennt Calc den Text nicht – und färbt nichts.": "Dans la boîte de dialogue, le texte est entre guillemets : <code>\"fehlt\"</code>. Sans guillemets, Calc ne reconnaît pas le texte – et ne colore rien.",
  "ODS Aufgabe 1 · Akku-Ampelk9-07-bedingte-formatierung-2-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Exercice 1 · Feu tricolore de la batterie</strong><small>k9-07-bedingte-formatierung-2-1.ods</small></span>",
  "ODS Aufgabe 2 · Hausaufgabenk9-07-bedingte-formatierung-2-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Exercice 2 · Devoirs</strong><small>k9-07-bedingte-formatierung-2-2.ods</small></span>",
- "ODS Aufgabe 3 · Grenze in Zellek9-07-bedingte-formatierung-2-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Exercice 3 · Limite dans une cellule</strong><small>k9-07-bedingte-formatierung-2-3.ods</small></span>"
+ "ODS Aufgabe 3 · Grenze in Zellek9-07-bedingte-formatierung-2-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Exercice 3 · Limite dans une cellule</strong><small>k9-07-bedingte-formatierung-2-3.ods</small></span>",
+ "fehlt": "fehlt",
+ "\"fehlt\"": "\"fehlt\"",
+ "=fehlt": "=fehlt"
 }

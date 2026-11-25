@@ -229,5 +229,9 @@
  "Das Problem": "Проблема",
  "Training": "Тренування",
  "Kurz-Check": "Коротка перевірка",
- "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Чотири запитання. Ти все зрозумів(-ла)? Тоді продовжуй у Calc."
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Чотири запитання. Ти все зрозумів(-ла)? Тоді продовжуй у Calc.",
+ "Gar nicht": "Ніяк",
+ "Nein": "Nein (ні)",
+ "gelb": "жовтого",
+ "rot": "червоного"
 }

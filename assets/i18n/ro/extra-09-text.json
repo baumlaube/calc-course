@@ -43,5 +43,7 @@
  "Von rechts nach links": "De la dreapta la stânga",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "Întâi LINKS, apoi &amp;, la sfârșit KLEIN.",
  "Gar nicht": "Deloc",
- "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "Să scrii de mână numele de utilizator pentru 25 de elevi? Durează mult și greșești ușor. Calc construiește singur aceste nume din prenume și nume, cu <code>&amp;</code>, <code>LINKS</code> (LEFT) și <code>KLEIN</code> (LOWER). Așa fac și școlile și firmele."
+ "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "Să scrii de mână numele de utilizator pentru 25 de elevi? Durează mult și greșești ușor. Calc construiește singur aceste nume din prenume și nume, cu <code>&amp;</code>, <code>LINKS</code> (LEFT) și <code>KLEIN</code> (LOWER). Așa fac și școlile și firmele.",
+ "Calc": "Calc",
+ "Lea & Müller": "Lea & Müller"
 }

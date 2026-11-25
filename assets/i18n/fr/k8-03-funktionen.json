@@ -108,5 +108,9 @@
  "In B2 steht 12 Stück ganz links. Was heißt das?": "Dans B2, il y a <strong>12 Stück</strong> (12 pièces) tout à gauche. Qu'est-ce que ça veut dire ?",
  "Funktionen": "Fonctions",
  "Σ-Fallen": "Pièges de Σ",
- "B5 geteilt durch B9": "B5 divisé par B9"
+ "B5 geteilt durch B9": "B5 divisé par B9",
+ "SUMME": "SUMME",
+ "MIN": "MIN",
+ "MAX": "MAX",
+ "Σ Summe": "Σ Summe"
 }

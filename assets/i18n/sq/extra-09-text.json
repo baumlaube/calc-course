@@ -43,5 +43,7 @@
  "Von rechts nach links": "Nga e djathta në të majtë",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "Fillimisht LINKS, pastaj &amp;, në fund KLEIN.",
  "Gar nicht": "Aspak",
- "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "T’i shkruash me dorë emrat e përdoruesve për 25 nxënës? Kjo zgjat shumë dhe gabon lehtë. Calc i ndërton vetë këta emra nga emri dhe mbiemri, me <code>&amp;</code>, <code>LINKS</code> (LEFT) dhe <code>KLEIN</code> (LOWER). Kështu bëjnë edhe shkollat dhe firmat."
+ "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "T’i shkruash me dorë emrat e përdoruesve për 25 nxënës? Kjo zgjat shumë dhe gabon lehtë. Calc i ndërton vetë këta emra nga emri dhe mbiemri, me <code>&amp;</code>, <code>LINKS</code> (LEFT) dhe <code>KLEIN</code> (LOWER). Kështu bëjnë edhe shkollat dhe firmat.",
+ "Calc": "Calc",
+ "Lea & Müller": "Lea & Müller"
 }

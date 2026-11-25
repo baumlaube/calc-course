@@ -114,5 +114,9 @@
  "Klick auf die gelbe Zelle D2 und tippe oben eine Formel ein. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen von D2 nach unten bis D6, genau wie in Calc. Zum Schluss kommt in D7 die Summe.": "Click the yellow cell D2 and type a formula at the top. Press <kbd>Enter</kbd> to confirm. Then drag the <strong>Ausfüllkästchen</strong> (fill handle) from D2 down to D6, just like in Calc. At the end, the total goes into D7.",
  "📋 Spicker: So füllst du aus": "📋 Cheat sheet: how to fill",
  "Ausfüllen: Perfekt! Jede Zeile rechnet mit ihren eigenen Zahlen.Noch nicht fertig: Berechne in D7 die Summe.": "Filling: Perfect! Every row calculates with its own numbers.<br><strong>Not finished yet:</strong> Calculate the total in D7.",
- "Ausfüllen": "Filling"
+ "Ausfüllen": "Filling",
+ "Montag4": "Montag4",
+ "Quartal 4, Quartal 1": "Quartal 4, Quartal 1",
+ "Quartal 4, Quartal 5": "Quartal 4, Quartal 5",
+ "Quartal 3, Quartal 3": "Quartal 3, Quartal 3"
 }

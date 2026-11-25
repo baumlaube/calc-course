@@ -43,5 +43,7 @@
  "Von rechts nach links": "From right to left",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "First LINKS, then &amp;, at the end KLEIN.",
  "Gar nicht": "Not at all",
- "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "Type user names for 25 students by hand? That takes a long time, and it’s easy to make typos. Calc builds such names itself from first name and surname, with <code>&amp;</code>, <code>LINKS</code> (LEFT) and <code>KLEIN</code> (LOWER). Schools and companies do it this way too."
+ "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "Type user names for 25 students by hand? That takes a long time, and it’s easy to make typos. Calc builds such names itself from first name and surname, with <code>&amp;</code>, <code>LINKS</code> (LEFT) and <code>KLEIN</code> (LOWER). Schools and companies do it this way too.",
+ "Calc": "Calc",
+ "Lea & Müller": "Lea & Müller"
 }

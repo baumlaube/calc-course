@@ -83,5 +83,8 @@
  "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne Anführungszeichen erkennt Calc den Text nicht – und färbt nichts.": "Në dritare teksti shkon në thonjëza: <code>\"fehlt\"</code>. Pa thonjëza Calc nuk e njeh tekstin – dhe nuk ngjyros asgjë.",
  "ODS Aufgabe 1 · Akku-Ampelk9-07-bedingte-formatierung-2-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Detyra 1 · Semafori i baterisë</strong><small>k9-07-bedingte-formatierung-2-1.ods</small></span>",
  "ODS Aufgabe 2 · Hausaufgabenk9-07-bedingte-formatierung-2-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Detyra 2 · Detyrat e shtëpisë</strong><small>k9-07-bedingte-formatierung-2-2.ods</small></span>",
- "ODS Aufgabe 3 · Grenze in Zellek9-07-bedingte-formatierung-2-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Detyra 3 · Kufi në qelizë</strong><small>k9-07-bedingte-formatierung-2-3.ods</small></span>"
+ "ODS Aufgabe 3 · Grenze in Zellek9-07-bedingte-formatierung-2-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Detyra 3 · Kufi në qelizë</strong><small>k9-07-bedingte-formatierung-2-3.ods</small></span>",
+ "fehlt": "fehlt",
+ "\"fehlt\"": "\"fehlt\"",
+ "=fehlt": "=fehlt"
 }

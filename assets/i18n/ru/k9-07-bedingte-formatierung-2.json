@@ -83,5 +83,8 @@
  "Text steht im Dialog in Anführungszeichen: \"fehlt\". Ohne Anführungszeichen erkennt Calc den Text nicht – und färbt nichts.": "В диалоге текст стоит в кавычках: <code>\"fehlt\"</code>. Без кавычек Calc не узнаёт текст – и ничего не окрашивает.",
  "ODS Aufgabe 1 · Akku-Ampelk9-07-bedingte-formatierung-2-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Задание 1 · Светофор батареи</strong><small>k9-07-bedingte-formatierung-2-1.ods</small></span>",
  "ODS Aufgabe 2 · Hausaufgabenk9-07-bedingte-formatierung-2-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Задание 2 · Домашние задания</strong><small>k9-07-bedingte-formatierung-2-2.ods</small></span>",
- "ODS Aufgabe 3 · Grenze in Zellek9-07-bedingte-formatierung-2-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Задание 3 · Граница в ячейке</strong><small>k9-07-bedingte-formatierung-2-3.ods</small></span>"
+ "ODS Aufgabe 3 · Grenze in Zellek9-07-bedingte-formatierung-2-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Задание 3 · Граница в ячейке</strong><small>k9-07-bedingte-formatierung-2-3.ods</small></span>",
+ "fehlt": "fehlt",
+ "\"fehlt\"": "\"fehlt\"",
+ "=fehlt": "=fehlt"
 }

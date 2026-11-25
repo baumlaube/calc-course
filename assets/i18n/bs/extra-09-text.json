@@ -42,5 +42,7 @@
  "Von innen nach außen": "Iznutra prema van",
  "Von rechts nach links": "Zdesna nalijevo",
  "Erst LINKS, dann &, zum Schluss KLEIN.": "Prvo LINKS, onda &amp;, na kraju KLEIN.",
- "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "Ručno kucati korisnička imena za 25 učenika? To dugo traje i lako se pogriješi. Calc sam pravi takva imena od imena i prezimena, pomoću <code>&amp;</code>, <code>LINKS</code> (LEFT) i <code>KLEIN</code> (LOWER). Tako rade i škole i firme."
+ "Benutzernamen für 25 Schüler von Hand tippen? Das dauert lange, und man vertippt sich leicht. Calc baut solche Namen selbst aus Vorname und Nachname, mit &, LINKS und KLEIN. So machen es auch Schulen und Firmen.": "Ručno kucati korisnička imena za 25 učenika? To dugo traje i lako se pogriješi. Calc sam pravi takva imena od imena i prezimena, pomoću <code>&amp;</code>, <code>LINKS</code> (LEFT) i <code>KLEIN</code> (LOWER). Tako rade i škole i firme.",
+ "Calc": "Calc",
+ "Lea & Müller": "Lea & Müller"
 }

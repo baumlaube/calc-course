@@ -108,5 +108,9 @@
  "In B2 steht 12 Stück ganz links. Was heißt das?": "B2 shows <strong>12 Stück</strong> (12 pieces) on the far left. What does that mean?",
  "Funktionen": "Functions",
  "Σ-Fallen": "Σ traps",
- "B5 geteilt durch B9": "B5 divided by B9"
+ "B5 geteilt durch B9": "B5 divided by B9",
+ "SUMME": "SUMME",
+ "MIN": "MIN",
+ "MAX": "MAX",
+ "Σ Summe": "Σ Summe"
 }
