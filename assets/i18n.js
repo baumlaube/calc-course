@@ -143,6 +143,11 @@
       setTimeout(() => {           // nach den Seitenskripten, damit auch Quiz & Co. schon da sind
         document.title = T(document.title);
         walk(document.body);
+        // Tooltips (z. B. Lektionsnamen im Lernpfad): Text ohne HTML, darum &amp; usw. zurückverwandeln
+        document.body.querySelectorAll("[title]").forEach((el) => {
+          const t = T(el.title);
+          if (t !== el.title) el.title = t.replace(/<[^>]*>/g, "").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">");
+        });
         menu();
         window.I18N.ready = true;
         document.dispatchEvent(new Event("i18n-ready"));
