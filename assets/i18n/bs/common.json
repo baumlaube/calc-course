@@ -259,5 +259,8 @@
  "8 · Fit für die Probe": "8 · Spreman za test",
  "9 · Text-Tricks": "9 · Trikovi s tekstom",
  "7 · Projekt": "7 · Projekat",
- "8 · Projekt": "8 · Projekat"
+ "8 · Projekt": "8 · Projekat",
+ "5 Selbst ausprobieren 5 Min": "<span class=\"step-no\">5</span> Probaj sam/a <span class=\"chip\">5 min</span>",
+ "6 Kurz-Check 5 Min": "<span class=\"step-no\">6</span> Kratka provjera <span class=\"chip\">5 min</span>",
+ "7 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">7</span> Sada u LibreOffice Calcu <span class=\"chip\">15 min</span>"
 }

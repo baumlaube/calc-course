@@ -259,5 +259,8 @@
  "8 · Fit für die Probe": "8 · Готов к контрольной",
  "9 · Text-Tricks": "9 · Хитрости с текстом",
  "7 · Projekt": "7 · Проект",
- "8 · Projekt": "8 · Проект"
+ "8 · Projekt": "8 · Проект",
+ "5 Selbst ausprobieren 5 Min": "<span class=\"step-no\">5</span> Попробуй сам(а) <span class=\"chip\">5 мин</span>",
+ "6 Kurz-Check 5 Min": "<span class=\"step-no\">6</span> Быстрая проверка <span class=\"chip\">5 мин</span>",
+ "7 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">7</span> Теперь в LibreOffice Calc <span class=\"chip\">15 мин</span>"
 }
