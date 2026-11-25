@@ -102,7 +102,6 @@
  "↺ Neu": "↺ Përsëri",
  "Fehler gefunden oder eine Idee? → Kurs auf GitHub": "Një gabim apo një ide? → <a href=\"https://github.com/baumlaube/calc-course\">Kursi në GitHub</a>",
  "+ Freiwillig für alle, die mehr wollen": "<span class=\"step-no\">+</span> Freiwillig (vullnetare) <span class=\"badge expedition\">për të gjithë ata që duan më shumë</span>",
- "Üben heißt: dasselbe wie oben, nur mehr davon. ★ Expedition heißt: etwas Neues für Profis.": "<span class=\"badge ueben\">Üben</span> do të thotë: e njëjta gjë si sipër, vetëm më shumë. <span class=\"badge expedition\">★ Expedition</span> do të thotë: diçka e re për profesionistët.",
  "ODS LösungErst selbst probieren, dann vergleichen!": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Lösung</strong> (zgjidhja)<small>Provo fillimisht vetë, pastaj krahaso!</small></span>",
  "Tippe keine Zahlen in die Formel. Nimm die Zellen, dann rechnet Calc neu.": "Mos shkruaj numra në formulë. Merr qelizat, atëherë Calc rillogarit.",
  "Mal ist in Calc das Sternchen *, nicht x.": "Herë në Calc është ylli <code>*</code>, jo x.",

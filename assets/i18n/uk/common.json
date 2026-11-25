@@ -102,7 +102,6 @@
  "<>ja": "<>ja",
  "Fehler gefunden oder eine Idee? → Kurs auf GitHub": "Знайшли помилку чи маєте ідею? → <a href=\"https://github.com/baumlaube/calc-course\">Курс на GitHub</a>",
  "+ Freiwillig für alle, die mehr wollen": "<span class=\"step-no\">+</span> Freiwillig (за бажанням) <span class=\"badge expedition\">для всіх, хто хоче більше</span>",
- "Üben heißt: dasselbe wie oben, nur mehr davon. ★ Expedition heißt: etwas Neues für Profis.": "<span class=\"badge ueben\">Üben</span> означає: те саме, що вгорі, тільки більше. <span class=\"badge expedition\">★ Expedition</span> означає: щось нове для профі.",
  "ODS LösungErst selbst probieren, dann vergleichen!": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Lösung</strong> (розв'язок)<small>Спочатку спробуй сам, потім порівняй!</small></span>",
  "Tippe keine Zahlen in die Formel. Nimm die Zellen, dann rechnet Calc neu.": "Не пиши числа у формулу. Бери клітинки, тоді Calc перерахує.",
  "Mal ist in Calc das Sternchen *, nicht x.": "Помножити в Calc – це зірочка <code>*</code>, а не x.",

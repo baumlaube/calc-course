@@ -102,7 +102,6 @@
  "↺ Neu": "↺ Yeniden",
  "Fehler gefunden oder eine Idee? → Kurs auf GitHub": "Bir hata ya da bir fikir mi? → <a href=\"https://github.com/baumlaube/calc-course\">GitHub'da kurs</a>",
  "+ Freiwillig für alle, die mehr wollen": "<span class=\"step-no\">+</span> Freiwillig (isteğe bağlı) <span class=\"badge expedition\">daha fazlasını isteyen herkes için</span>",
- "Üben heißt: dasselbe wie oben, nur mehr davon. ★ Expedition heißt: etwas Neues für Profis.": "<span class=\"badge ueben\">Üben</span> demek: yukarıdakinin aynısı, sadece daha fazla. <span class=\"badge expedition\">★ Expedition</span> demek: profiler için yeni bir şey.",
  "ODS LösungErst selbst probieren, dann vergleichen!": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Lösung</strong> (çözüm)<small>Önce kendin dene, sonra karşılaştır!</small></span>",
  "Tippe keine Zahlen in die Formel. Nimm die Zellen, dann rechnet Calc neu.": "Formüle sayı yazma. Hücreleri kullan, o zaman Calc yeniden hesaplar.",
  "Mal ist in Calc das Sternchen *, nicht x.": "Calc'ta çarpı, yıldız <code>*</code> işaretidir, x değil.",

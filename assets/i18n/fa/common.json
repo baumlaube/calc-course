@@ -102,7 +102,6 @@
  "↺ Neu": "↺ دوباره",
  "Fehler gefunden oder eine Idee? → Kurs auf GitHub": "اشتباه یا ایده‌ای دارید؟ ← <a href=\"https://github.com/baumlaube/calc-course\">دوره در GitHub</a>",
  "+ Freiwillig für alle, die mehr wollen": "<span class=\"step-no\">+</span> Freiwillig (اختیاری) <span class=\"badge expedition\">برای همه کسانی که بیشتر می‌خواهند</span>",
- "Üben heißt: dasselbe wie oben, nur mehr davon. ★ Expedition heißt: etwas Neues für Profis.": "<span class=\"badge ueben\">Üben</span> یعنی: همان چیزِ بالا، فقط بیشتر. <span class=\"badge expedition\">★ Expedition</span> یعنی: چیزی تازه برای حرفه‌ای‌ها.",
  "ODS LösungErst selbst probieren, dann vergleichen!": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Lösung</strong> (حل)<small>اول خودت امتحان کن، بعد مقایسه کن!</small></span>",
  "Tippe keine Zahlen in die Formel. Nimm die Zellen, dann rechnet Calc neu.": "در فرمول عدد ننویس. خانه‌ها را بگیر، آن وقت Calc دوباره حساب می‌کند.",
  "Mal ist in Calc das Sternchen *, nicht x.": "ضرب در Calc ستاره <code>*</code> است، نه x.",

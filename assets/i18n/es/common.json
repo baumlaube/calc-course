@@ -102,7 +102,6 @@
  "↺ Neu": "↺ Otra vez",
  "Fehler gefunden oder eine Idee? → Kurs auf GitHub": "¿Un error o una idea? → <a href=\"https://github.com/baumlaube/calc-course\">El curso en GitHub</a>",
  "+ Freiwillig für alle, die mehr wollen": "<span class=\"step-no\">+</span> Freiwillig (opcional) <span class=\"badge expedition\">para todos los que quieren más</span>",
- "Üben heißt: dasselbe wie oben, nur mehr davon. ★ Expedition heißt: etwas Neues für Profis.": "<span class=\"badge ueben\">Üben</span> significa: lo mismo que arriba, solo que más. <span class=\"badge expedition\">★ Expedition</span> significa: algo nuevo para profesionales.",
  "ODS LösungErst selbst probieren, dann vergleichen!": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Lösung</strong> (solución)<small>¡Primero inténtalo tú, luego compara!</small></span>",
  "Tippe keine Zahlen in die Formel. Nimm die Zellen, dann rechnet Calc neu.": "No escribas números en la fórmula. Usa las celdas, así Calc recalcula.",
  "Mal ist in Calc das Sternchen *, nicht x.": "En Calc, multiplicar es el asterisco <code>*</code>, no x.",

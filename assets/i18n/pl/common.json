@@ -102,7 +102,6 @@
  "↺ Neu": "↺ Jeszcze raz",
  "Fehler gefunden oder eine Idee? → Kurs auf GitHub": "Błąd albo pomysł? → <a href=\"https://github.com/baumlaube/calc-course\">Kurs na GitHubie</a>",
  "+ Freiwillig für alle, die mehr wollen": "<span class=\"step-no\">+</span> Freiwillig (dobrowolnie) <span class=\"badge expedition\">dla wszystkich, którzy chcą więcej</span>",
- "Üben heißt: dasselbe wie oben, nur mehr davon. ★ Expedition heißt: etwas Neues für Profis.": "<span class=\"badge ueben\">Üben</span> znaczy: to samo co wyżej, tylko więcej. <span class=\"badge expedition\">★ Expedition</span> znaczy: coś nowego dla profesjonalistów.",
  "ODS LösungErst selbst probieren, dann vergleichen!": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Lösung</strong> (rozwiązanie)<small>Najpierw spróbuj sam, potem porównaj!</small></span>",
  "Tippe keine Zahlen in die Formel. Nimm die Zellen, dann rechnet Calc neu.": "Nie wpisuj liczb do formuły. Weź komórki, wtedy Calc przeliczy.",
  "Mal ist in Calc das Sternchen *, nicht x.": "Razy to w Calc gwiazdka <code>*</code>, a nie x.",
