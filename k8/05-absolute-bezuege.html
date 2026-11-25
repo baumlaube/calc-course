@@ -26,6 +26,7 @@
 <script src="../assets/i18n.js?v=e2dd6b353a" data-page="k8-05-absolute-bezuege" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=2bce36b407"></script>
 <script src="../assets/minicalc.js?v=6833bbf1f4" defer></script>
+<script src="../assets/register.js?v=f5015f104c" defer></script>
 <script src="../assets/wdh.js?v=3d906a13f9" defer></script>
 </head>
 <body>
@@ -80,20 +81,22 @@
     </table>
   </details>
 
+  <!-- Lernschritte als Register (register.js) -->
+  <div id="lernen">
   <!-- 0 · Weißt du noch? -->
-  <section class="card wdh" id="wdh">
+  <section class="card wdh" id="wdh" data-tab="Weißt du noch?" data-wait>
     <h2><span class="step-no">↺</span> Weißt du noch? <span class="chip">2 Min</span></h2>
     <p class="lead">Zwei Aufgaben zu früheren Bausteinen. Ohne Nachschauen!</p>
     <div id="wdh-box"></div>
   </section>
 
   <!-- 1 · Vorhersage -->
-  <section class="card" id="problem">
+  <section class="card" id="problem" data-tab="Das Problem" data-wait>
     <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
-    <div id="calc1"></div>
-    <p class="lead">Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: <code>=B5*B2</code> → 4 × 11 € = 44 €.</p>
+    <p class="lead">Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: <code>=B5*B2</code> → 4 × 11 € = 44 €. Du musst nichts eintippen.</p>
+    <div class="bild-wrap" id="bild1"></div>
+    <div id="calc1" hidden></div>
     <p><strong>Überleg:</strong> Lena zieht die Formel nach unten bis C9. Was steht dann in <strong>C6</strong> (Dienstag)?</p>
-    <p class="note">Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.</p>
     <div class="choices" id="predict">
       <button type="button" class="choice" data-v="66">66,00 € (6 × 11 €)</button>
       <button type="button" class="choice" data-v="0">0,00 €</button>
@@ -104,7 +107,7 @@
   </section>
 
   <!-- 2 · Erklärung -->
-  <section class="card" id="erklaerung">
+  <section class="card" id="erklaerung" data-tab="Anker">
     <h2><span class="step-no">2</span> Die Lösung: das $-Zeichen <span class="chip">5 Min</span></h2>
     <div class="rule">⚓ Das <code>$</code> ist ein <strong>Anker</strong>.<br><code>$B$2</code> bleibt beim Ausfüllen immer <code>B2</code>.</div>
 
@@ -152,19 +155,28 @@
   </section>
 
   <!-- 3 · Ausprobieren -->
-  <section class="card" id="ausprobieren">
+  <section class="card" id="ausprobieren" data-tab="Training" data-wait>
     <h2><span class="step-no">3</span> Selbst ausprobieren <span class="chip">5 Min</span></h2>
     <div id="calc2"></div>
     <p class="lead">Klick auf die gelbe Zelle C5 und tippe oben in die Eingabezeile eine Formel, die du nach unten ziehen kannst. Mit <kbd>Enter</kbd> bestätigst du. Dann ziehst du am Ausfüllkästchen bis C9.</p>
     <p class="fb" id="fb2" aria-live="polite"></p>
+    <details class="spicker" open>
+      <summary><span class="t">📋 Spicker: So setzt du den Anker</span></summary>
+      <ul>
+        <li>Ein <code>$</code> hält fest: <code>$B$2</code> bleibt beim Ausfüllen immer B2. Das ist ein <strong>absoluter Bezug</strong>.</li>
+        <li>Schnell gesetzt: In der Formel auf den Bezug klicken und <kbd>Umschalt</kbd> + <kbd>F4</kbd> drücken.</li>
+        <li><strong>Faustregel:</strong> Zeigt die Formel auf EINE feste Zelle (Preis, Lohn, Anzahl …), braucht sie ein <code>$</code>.</li>
+      </ul>
+    </details>
   </section>
 
   <!-- 4 · Kurz-Check -->
-  <section class="card" id="check">
+  <section class="card" id="check" data-tab="Kurz-Check" data-wait>
     <h2><span class="step-no">4</span> Kurz-Check <span class="chip">5 Min</span></h2>
-    <p class="lead">Vier Fragen. Hast du es verstanden?</p>
+    <p class="lead">Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.</p>
     <div id="quiz"></div>
   </section>
+  </div>
 
   <!-- 5 · In Calc: Pflicht, Plus, Freiwillig – eine Aufgabe = eine Datei mit FERTIG-Feld -->
   <section class="card calc-block" id="ueben">
@@ -279,19 +291,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /* ---------- 1 · Vorhersage ---------- */
   const fb1 = document.getElementById("fb1");
-  const calc1 = new MiniCalc(document.getElementById("calc1"),
-    Object.assign(ferienjob("=B5*B2"), { select: "C5" }));
+  const f1 = ferienjob("=B5*B2");
+  Kurs.bild(document.getElementById("bild1"), { cols: 3, rows: 9, mark: "C5",
+    cells: Object.assign({}, f1.cells, { B2: "11,00 €" }), styles: Object.assign({ B2: "fix num" }, f1.styles) });
   const predict = document.getElementById("predict");
   predict.addEventListener("click", async (ev) => {
     const b = ev.target.closest(".choice");
     if (!b || b.disabled) return;
     predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
     b.classList.add("picked");
+    document.getElementById("bild1").hidden = true;
+    const box1 = document.getElementById("calc1");
+    box1.hidden = false;
+    const calc1 = new MiniCalc(box1, Object.assign(ferienjob("=B5*B2"), { select: "C5" }));
     feedback(fb1, "Calc füllt aus … schau auf Spalte C!", "info");
     await calc1.fill("C5", down, 450);
     predict.querySelector('[data-v="0"]').classList.add("right");
     if (b.dataset.v !== "0" && b.dataset.v !== "?") b.classList.add("wrong");
     calc1.select("C6");
+    Register.done("problem");
     const start = b.dataset.v === "0"
       ? T("✔ Stark vorhergesagt!") + " "
       : b.dataset.v === "66" ? T("Das hätte Lena auch gedacht, aber:") + " " : "";
@@ -340,7 +358,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
     if (!near(v, c.get("B5") * lohn)) { feedback(fb2, "C5 rechnet noch nicht richtig. Gesucht ist: Stunden (B5) × Stundenlohn (B2).", "hint"); return; }
-    if (!filled) { feedback(fb2, "✔ C5 stimmt! Jetzt der spannende Teil: Zieh am Ausfüllkästchen von C5 nach unten bis C9.", "info"); return; }
+    if (!filled) { feedback(fb2, "C5 stimmt. <strong>Noch nicht fertig:</strong> Jetzt der spannende Teil. Zieh am Ausfüllkästchen von C5 nach unten bis C9.", "info"); return; }
     const empty = down.filter((a) => !c.getRaw(a));
     if (empty.length) { feedback(fb2, `Noch nicht ganz unten. Leer sind noch: ${empty.join(", ")}. Zieh von C5 aus bis C9.`, "info"); return; }
     if (src === "edit" && c.getRaw("C6").replace(/\s/g, "") !== MiniCalc.shiftFormula(raw, 1, 0)) {
@@ -349,6 +367,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const allOk = ["C5", ...down].every((a, i) => near(c.get(a), c.get("B" + (5 + i)) * lohn));
     if (allOk) {
       solved = true;
+      Register.done("ausprobieren");
       const mixed = !/\$B\$2/i.test(raw);
       feedback(fb2, (mixed
         ? T("✔ Funktioniert! <code>B$2</code> hält die Zeile fest, und das reicht, wenn du nur nach unten ziehst. Mit <code>$B$2</code> bist du aber immer auf der sicheren Seite.")
@@ -381,7 +400,7 @@ document.addEventListener("DOMContentLoaded", () => {
       options: ["<kbd>F4</kbd>", "<kbd>Umschalt</kbd> + <kbd>F4</kbd>", "<kbd>Strg</kbd> + <kbd>$</kbd>"], right: 1,
       why: "In LibreOffice Calc ist es Umschalt+F4.",
       miss: ["Fast! Es fehlt eine Taste.", null, "Diese Kombination gibt es nicht."] },
-  ]);
+  ], { onDone: () => Register.done("check") });
 });
 </script>
 <script>
@@ -403,7 +422,13 @@ document.addEventListener("DOMContentLoaded", () => {
         MITTELWERT: "Das ist der Durchschnitt. Gesucht ist die kleinste Zahl.",
         SUMME: "SUMME zählt alles zusammen. Gesucht ist die kleinste Zahl." } }),
       why: "Die schnellste Zeit ist der kleinste Wert, also MIN." }
-  ]);
+  ], { onDone: () => Register.done("wdh") });
+});
+</script>
+<script>
+/* Register erst bauen, wenn alle Übungen fertig aufgebaut sind */
+document.addEventListener("DOMContentLoaded", () => {
+  Register(document.getElementById("lernen"), { key: "k8-05", after: "ueben", nr: "8.5" });
 });
 </script>
 </body>
