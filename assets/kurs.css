@@ -243,6 +243,9 @@ table.plain th { color: var(--muted); font-weight: 700; }
 /* Video-Platzhalter */
 .video-ph { display: flex; gap: 14px; align-items: center; border: 2px dashed var(--line); border-radius: 12px; padding: 14px; color: var(--muted); margin: 16px 0; }
 .video-ph .play { width: 46px; height: 46px; border-radius: 50%; background: var(--surface-2); display: grid; place-items: center; flex: none; font-size: 18px; }
+.video { margin: 16px 0; }
+.video video { display: block; width: 100%; max-width: 760px; aspect-ratio: 16 / 9; background: #000; border-radius: 12px; border: 2px solid var(--line); }
+.video figcaption { color: var(--muted); margin-top: 6px; }
 
 /* Downloads & Aufgabenliste */
 .dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; margin: 14px 0; }
@@ -321,7 +324,7 @@ html:not(.mc-touch) .mc-touch-only { display: none !important; }
 .mc-hint { flex-basis: 100%; margin: 2px 0 0; font-size: 14px; color: var(--muted); }
 
 @media print {
-  .top, .path, .pager, .btn, .btn-row, .theme-btn, .mc, .card.wdh, details.woerter, .video-ph, .choices, .fb, footer { display: none !important; }
+  .top, .path, .pager, .btn, .btn-row, .theme-btn, .mc, .card.wdh, details.woerter, .video-ph, .video, .choices, .fb, footer { display: none !important; }
   body { background: #fff; color: #000; font-size: 12pt; }
   .card { box-shadow: none; border: 0; padding: 0; }
   section:not(.print-keep) { display: none; }
