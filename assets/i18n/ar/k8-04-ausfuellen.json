@@ -18,7 +18,6 @@
  "D9März=SUMME(D5:D8) alle Ausgaben im März": "<span class=\"cell\">D9</span><span class=\"day\">مارس</span><code>=SUMME(<span class=\"ref-move\">D</span>5:<span class=\"ref-move\">D</span>8)</code> <span class=\"calc\">كل مصاريف مارس</span>",
  "Die Spaltenbuchstaben zählen mit. Jede Spalte rechnet mit ihren eigenen Zahlen.": "<strong>حروف الأعمدة</strong> تتغيّر معها. كل عمود يحسب بأرقامه الخاصة.",
  "Fachwort: So ein mitzählender Bezug heißt relativer Bezug.": "المصطلح: المرجع الذي يتغيّر معها يسمّى <strong>relativer Bezug</strong> (مرجع نسبي).",
- "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>فيديو قصير (قريبًا):</strong> مقبض التعبئة في 30 ثانية",
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen.": "<span class=\"badge basis\">Basis</span><span><strong>المهمة 2 · المصروف:</strong> عبّئ المجاميع إلى اليمين <em>و</em>إلى الأسفل.</span>",
  "ExpeditionFreiwillig: Sparplan fürs Fahrrad mit laufendem Kontostand.": "<span class=\"badge expedition\">Expedition</span><span><strong>اختياري:</strong> خطة ادّخار لدرّاجة مع رصيد جارٍ.</span>",
  "Ausfüllkästchen: das kleine Quadrat unten rechts an der markierten Zelle.": "<strong>Ausfüllkästchen</strong> (مقبض التعبئة): المربّع الصغير أسفل يمين الخلية المحدّدة.",
@@ -118,5 +117,6 @@
  "Montag4": "Montag4",
  "Quartal 4, Quartal 1": "Quartal 4, Quartal 1",
  "Quartal 4, Quartal 5": "Quartal 4, Quartal 5",
- "Quartal 3, Quartal 3": "Quartal 3, Quartal 3"
+ "Quartal 3, Quartal 3": "Quartal 3, Quartal 3",
+ "Kurzvideo: Das Ausfüllkästchen in 30 Sekunden": "<strong>فيديو قصير:</strong> مقبض التعبئة في 30 ثانية"
 }

@@ -18,7 +18,6 @@
  "D9März=SUMME(D5:D8) alle Ausgaben im März": "<span class=\"cell\">D9</span><span class=\"day\">март</span><code>=SUMME(<span class=\"ref-move\">D</span>5:<span class=\"ref-move\">D</span>8)</code> <span class=\"calc\">все расходы в марте</span>",
  "Die Spaltenbuchstaben zählen mit. Jede Spalte rechnet mit ihren eigenen Zahlen.": "<strong>Буквы столбцов</strong> считают вместе. Каждый столбец считает со своими числами.",
  "Fachwort: So ein mitzählender Bezug heißt relativer Bezug.": "Термин: ссылка, которая считает вместе, называется <strong>relativer Bezug</strong> (относительная ссылка).",
- "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>Короткое видео (скоро):</strong> маркер заполнения за 30 секунд",
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen.": "<span class=\"badge basis\">Basis</span><span><strong>Задание 2 · Карманные деньги:</strong> заполнить суммы вправо <em>и</em> вниз.</span>",
  "ExpeditionFreiwillig: Sparplan fürs Fahrrad mit laufendem Kontostand.": "<span class=\"badge expedition\">Expedition</span><span><strong>По желанию:</strong> план накоплений на велосипед с нарастающим итогом.</span>",
  "Ausfüllkästchen: das kleine Quadrat unten rechts an der markierten Zelle.": "<strong>Ausfüllkästchen</strong> (маркер заполнения): маленький квадратик справа внизу у выделенной ячейки.",
@@ -118,5 +117,6 @@
  "Montag4": "Montag4",
  "Quartal 4, Quartal 1": "Quartal 4, Quartal 1",
  "Quartal 4, Quartal 5": "Quartal 4, Quartal 5",
- "Quartal 3, Quartal 3": "Quartal 3, Quartal 3"
+ "Quartal 3, Quartal 3": "Quartal 3, Quartal 3",
+ "Kurzvideo: Das Ausfüllkästchen in 30 Sekunden": "<strong>Короткое видео:</strong> маркер заполнения за 30 секунд"
 }

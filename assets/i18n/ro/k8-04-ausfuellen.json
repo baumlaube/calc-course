@@ -18,7 +18,6 @@
  "D9März=SUMME(D5:D8) alle Ausgaben im März": "<span class=\"cell\">D9</span><span class=\"day\">martie</span><code>=SUMME(<span class=\"ref-move\">D</span>5:<span class=\"ref-move\">D</span>8)</code> <span class=\"calc\">toate cheltuielile din martie</span>",
  "Die Spaltenbuchstaben zählen mit. Jede Spalte rechnet mit ihren eigenen Zahlen.": "<strong>Literele coloanelor</strong> se mută odată cu ea. Fiecare coloană calculează cu numerele ei.",
  "Fachwort: So ein mitzählender Bezug heißt relativer Bezug.": "Termen tehnic: o referință care se mută se numește <strong>relativer Bezug</strong> (referință relativă).",
- "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>Video scurt (în curând):</strong> Mânerul de umplere în 30 de secunde",
  "BasisAufgabe 2 · Taschengeld: Summen nach rechts und nach unten ausfüllen.": "<span class=\"badge basis\">Basis</span><span><strong>Sarcina 2 · Bani de buzunar:</strong> Umple totalurile la dreapta <em>și</em> în jos.</span>",
  "ExpeditionFreiwillig: Sparplan fürs Fahrrad mit laufendem Kontostand.": "<span class=\"badge expedition\">Expedition</span><span><strong>Opțional:</strong> Plan de economii pentru o bicicletă cu sold curent.</span>",
  "Ausfüllkästchen: das kleine Quadrat unten rechts an der markierten Zelle.": "<strong>Ausfüllkästchen</strong> (mânerul de umplere): pătrățelul din dreapta jos al celulei selectate.",
@@ -118,5 +117,6 @@
  "Montag4": "Montag4",
  "Quartal 4, Quartal 1": "Quartal 4, Quartal 1",
  "Quartal 4, Quartal 5": "Quartal 4, Quartal 5",
- "Quartal 3, Quartal 3": "Quartal 3, Quartal 3"
+ "Quartal 3, Quartal 3": "Quartal 3, Quartal 3",
+ "Kurzvideo: Das Ausfüllkästchen in 30 Sekunden": "<strong>Video scurt:</strong> Mânerul de umplere în 30 de secunde"
 }

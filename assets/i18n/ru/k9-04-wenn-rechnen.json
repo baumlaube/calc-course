@@ -82,5 +82,6 @@
  "Überleg: Lisa ist 16. Was zeigt C2?": "<strong>Подумай:</strong> Лизе 16. Что покажет C2?",
  "💡 Du kennst schon: =WENN(B2<18;\"Ja\";\"Nein\") – Ist Lisa jünger als 18?Im Kino steht in C2 aber diese Formel. Du musst nichts eintippen.": "💡 <strong>Ты уже знаешь:</strong> <code class=\"long\">=WENN(B2&lt;18;\"Ja\";\"Nein\")</code> – Лиза младше 18?<br/>Но в кинотеатре в C2 стоит эта формула. Тебе ничего не нужно вводить.",
  "📋 Spicker: So rechnet WENN": "📋 Шпаргалка: как считает WENN",
- "Rechnen": "Вычисления"
+ "Rechnen": "Вычисления",
+ "Kurzvideo: Rechnen mit WENN": "<strong>Короткое видео:</strong> считать с WENN"
 }

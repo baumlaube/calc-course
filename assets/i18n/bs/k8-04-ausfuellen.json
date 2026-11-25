@@ -21,7 +21,6 @@
  "Vorsicht, Zwischenzeile! Ziehst du über eine Überschrift hinweg, landet die Formel auch dort. Lösch sie dort wieder (Entf).": "<strong>Pažnja, međuredovi!</strong> Ako povlačiš preko naslova, formula završi i tamo. Tamo je ponovo obriši (<kbd>Entf</kbd>).",
  "Calc zählt auch Wörter und Daten": "Calc broji i riječi i datume",
  "Das Ausfüllkästchen kann mehr als Formeln kopieren. Rate, was Calc daraus macht:": "Kvadratić za popunjavanje (Ausfüllkästchen) može više nego kopirati formule. Pogodi šta Calc od toga napravi:",
- "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>Kratki video (uskoro):</strong> Kvadratić za popunjavanje za 30 sekundi",
  "Ausfüllkästchen: das kleine Quadrat unten rechts an der markierten Zelle.": "<strong>Ausfüllkästchen (kvadratić za popunjavanje):</strong> mali kvadrat dolje desno na označenoj ćeliji.",
  "Nach rechts ziehen: Die Buchstaben zählen mit. =SUMME(B5:B8) wird zu =SUMME(C5:C8).": "Povlačenje <strong>udesno</strong>: slova broje dalje. <code>=SUMME(B5:B8)</code> postaje <code>=SUMME(C5:C8)</code>.",
  "Das heißt relativer Bezug: Jede Zeile rechnet mit ihren eigenen Zahlen.": "To se zove <strong>relativer Bezug</strong> (relativna referenca): svaki red računa sa svojim brojevima.",
@@ -115,5 +114,6 @@
  "Montag4": "Montag4",
  "Quartal 4, Quartal 1": "Quartal 4, Quartal 1",
  "Quartal 4, Quartal 5": "Quartal 4, Quartal 5",
- "Quartal 3, Quartal 3": "Quartal 3, Quartal 3"
+ "Quartal 3, Quartal 3": "Quartal 3, Quartal 3",
+ "Kurzvideo: Das Ausfüllkästchen in 30 Sekunden": "<strong>Kratki video:</strong> Kvadratić za popunjavanje za 30 sekundi"
 }

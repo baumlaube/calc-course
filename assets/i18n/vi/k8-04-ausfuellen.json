@@ -26,7 +26,6 @@
  "Vorsicht, Zwischenzeile! Ziehst du über eine Überschrift hinweg, landet die Formel auch dort. Lösch sie dort wieder (Entf).": "<strong>Cẩn thận, hàng xen giữa!</strong> Nếu bạn kéo qua một tiêu đề, công thức cũng nằm ở đó. Hãy xóa nó đi (<kbd>Entf</kbd>).",
  "Calc zählt auch Wörter und Daten": "Calc cũng đếm được chữ và ngày tháng",
  "Das Ausfüllkästchen kann mehr als Formeln kopieren. Rate, was Calc daraus macht:": "Ô điền tự động làm được nhiều hơn là sao chép công thức. Hãy đoán xem Calc làm gì từ đây:",
- "Kurzvideo (folgt): Das Ausfüllkästchen in 30 Sekunden": "<strong>Video ngắn (sắp có):</strong> Ô điền tự động trong 30 giây",
  "Ausfüllkästchen: das kleine Quadrat unten rechts an der markierten Zelle.": "<strong>Ausfüllkästchen</strong> (ô điền tự động): ô vuông nhỏ ở góc dưới bên phải của ô đang chọn.",
  "Nach rechts ziehen: Die Buchstaben zählen mit. =SUMME(B5:B8) wird zu =SUMME(C5:C8).": "Kéo <strong>sang phải</strong>: chữ cái đếm tiếp. <code>=SUMME(B5:B8)</code> thành <code>=SUMME(C5:C8)</code>.",
  "Das heißt relativer Bezug: Jede Zeile rechnet mit ihren eigenen Zahlen.": "Điều này gọi là <strong>relativer Bezug</strong> (địa chỉ tương đối): mỗi hàng tính với các số của chính nó.",
@@ -115,5 +114,6 @@
  "Montag4": "Montag4",
  "Quartal 4, Quartal 1": "Quartal 4, Quartal 1",
  "Quartal 4, Quartal 5": "Quartal 4, Quartal 5",
- "Quartal 3, Quartal 3": "Quartal 3, Quartal 3"
+ "Quartal 3, Quartal 3": "Quartal 3, Quartal 3",
+ "Kurzvideo: Das Ausfüllkästchen in 30 Sekunden": "<strong>Video ngắn:</strong> Ô điền tự động trong 30 giây"
 }

@@ -82,5 +82,6 @@
  "Überleg: Lisa ist 16. Was zeigt C2?": "<strong>فکر کن:</strong> لیزا 16 ساله است. C2 چه نشان می‌دهد؟",
  "💡 Du kennst schon: =WENN(B2<18;\"Ja\";\"Nein\") – Ist Lisa jünger als 18?Im Kino steht in C2 aber diese Formel. Du musst nichts eintippen.": "💡 <strong>از قبل می‌دانی:</strong> <code class=\"long\">=WENN(B2&lt;18;\"Ja\";\"Nein\")</code> – لیزا کمتر از 18 سال دارد؟<br/>اما در سینما در C2 این فرمول هست. لازم نیست چیزی تایپ کنی.",
  "📋 Spicker: So rechnet WENN": "📋 برگهٔ یادآوری: WENN این‌طور حساب می‌کند",
- "Rechnen": "حساب کردن"
+ "Rechnen": "حساب کردن",
+ "Kurzvideo: Rechnen mit WENN": "<strong>ویدیوی کوتاه:</strong> حساب کردن با WENN"
 }
