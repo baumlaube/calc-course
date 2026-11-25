@@ -27,6 +27,7 @@
 <script src="../assets/kurs.js?v=2bce36b407"></script>
 <script src="../assets/minicalc.js?v=6833bbf1f4" defer></script>
 <script src="../assets/wdh.js?v=3d906a13f9" defer></script>
+<script src="../assets/register.js?v=f5015f104c" defer></script>
 <script src="../assets/stufen.js?v=ba3941b765" defer></script>
 </head>
 <body>
@@ -81,19 +82,22 @@
     </table>
   </details>
 
+  <!-- Lernschritte als Register (register.js) -->
+  <div id="lernen">
   <!-- 0 · Weißt du noch? -->
-  <section class="card wdh" id="wdh">
+  <section class="card wdh" id="wdh" data-tab="Weißt du noch?" data-wait>
     <h2><span class="step-no">↺</span> Weißt du noch? <span class="chip">2 Min</span></h2>
     <p class="lead">Zwei Aufgaben zu früheren Bausteinen. Ohne Nachschauen!</p>
     <div id="wdh-box"></div>
   </section>
 
   <!-- 1 · Vorhersage -->
-  <section class="card" id="problem">
+  <section class="card" id="problem" data-tab="Das Problem" data-wait>
     <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
-    <div id="calc1"></div>
-    <p class="lead">💡 <strong>Du kennst schon:</strong> <code class="long">=WENN(B5&lt;18;"Ja";"Nein")</code> – Ist Lisa jünger als 18?<br>Im Kino steht in C5 aber: <code class="long">=WENN(B5&lt;18;8;10)</code></p>
-    <p><strong>Überleg:</strong> Lisa ist 16. Was zeigt C5?</p>
+    <p class="lead">💡 <strong>Du kennst schon:</strong> <code class="long">=WENN(B2&lt;18;"Ja";"Nein")</code> – Ist Lisa jünger als 18?<br>Im Kino steht in C2 aber diese Formel. Du musst nichts eintippen.</p>
+    <div class="bild-wrap" id="bild1"></div>
+    <div id="calc1" hidden></div>
+    <p><strong>Überleg:</strong> Lisa ist 16. Was zeigt C2?</p>
     <div class="choices" id="predict">
       <button type="button" class="choice" data-v="ja">Ja</button>
       <button type="button" class="choice" data-v="8">8</button>
@@ -103,13 +107,13 @@
   </section>
 
   <!-- 2 · Erklärung -->
-  <section class="card" id="erklaerung">
+  <section class="card" id="erklaerung" data-tab="Rechnen">
     <h2><span class="step-no">2</span> Statt Ja und Nein: rechnen <span class="chip">7 Min</span></h2>
     <div class="rule">Statt <code>"Ja"</code> und <code>"Nein"</code> darf eine <strong>Zahl</strong> oder eine <strong>Rechnung</strong> stehen.<br>Zahlen und Rechnungen <strong>ohne</strong> Anführungszeichen.</div>
 
     <h3 class="sub">Beispiel: Gesamtpreis im Online-Shop</h3>
     <div id="calcBsp"></div>
-    <p><strong>Klick B5 und B6 an.</strong> Ändere auch mal einen Warenwert in Spalte A.</p>
+    <p><strong>Klick B2 und B3 an.</strong> Ändere auch mal einen Warenwert in Spalte A.</p>
     <p class="fb" id="fbBsp" aria-live="polite"></p>
     <p class="note">⚠ <code>"4,95"</code> in Anführungszeichen wäre Text. Damit kann Calc nicht weiterrechnen.</p>
 
@@ -120,18 +124,29 @@
   </section>
 
   <!-- 3 · Ausprobieren -->
-  <section class="card" id="ausprobieren">
+  <section class="card" id="ausprobieren" data-tab="Training" data-wait>
     <h2><span class="step-no">3</span> Rechen-Training in 3 Stufen <span class="chip">8 Min</span></h2>
     <div id="calc2"></div>
     <p class="fb" id="fb2" aria-live="polite"></p>
+    <details class="spicker" open>
+      <summary><span class="t">📋 Spicker: So rechnet WENN</span></summary>
+      <ul>
+        <li>Statt <code>"Ja"</code> und <code>"Nein"</code> darf eine Zahl oder eine Rechnung stehen.</li>
+        <li>Zahl als Antwort: <code class="long">=WENN(A2&gt;=29;0;4,95)</code></li>
+        <li>Rechnung als Antwort: <code class="long">=WENN(A2&lt;29;A2+4,95;A2)</code></li>
+        <li>Text in <code>"Anführungszeichen"</code> – Zahlen und Rechnungen ohne!</li>
+        <li>Lies jede Formel als Satz: Wenn …, dann …, sonst …</li>
+      </ul>
+    </details>
   </section>
 
   <!-- 4 · Kurz-Check -->
-  <section class="card" id="check">
+  <section class="card" id="check" data-tab="Kurz-Check" data-wait>
     <h2><span class="step-no">4</span> Kurz-Check <span class="chip">3 Min</span></h2>
-    <p class="lead">Vier Fragen. Hast du es verstanden?</p>
+    <p class="lead">Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.</p>
     <div id="quiz"></div>
   </section>
+  </div>
 
   <!-- 5 · In Calc: Pflicht, Plus, Freiwillig – eine Aufgabe = eine Datei mit FERTIG-Feld -->
   <section class="card calc-block" id="ueben">
@@ -200,8 +215,8 @@
     <h2>Merke (Hefteintrag)</h2>
     <ul>
       <li>Statt <code>"Ja"</code> und <code>"Nein"</code> darf eine Zahl oder eine Rechnung stehen.</li>
-      <li>Zahl als Antwort: <code class="long">=WENN(A6&gt;=29;0;4,95)</code></li>
-      <li>Rechnung als Antwort: <code class="long">=WENN(A6&lt;29;A6+4,95;A6)</code></li>
+      <li>Zahl als Antwort: <code class="long">=WENN(A2&gt;=29;0;4,95)</code></li>
+      <li>Rechnung als Antwort: <code class="long">=WENN(A2&lt;29;A2+4,95;A2)</code></li>
       <li>Text in <code>"Anführungszeichen"</code> – Zahlen und Rechnungen ohne!</li>
       <li>Lies jede Formel als Satz: Wenn …, dann …, sonst …</li>
     </ul>
@@ -220,13 +235,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const { feedback, quiz } = window.Kurs;
   const T = (x) => (window.T ? window.T(x) : x);
 
-  /* ---------- 1 · Vorhersage ---------- */
+  /* ---------- 1 · Vorhersage: erst ein Bild mit der Formel, nach der Wahl die echte Tabelle ---------- */
   const fb1 = document.getElementById("fb1");
-  const calc1 = new MiniCalc(document.getElementById("calc1"), {
-    cols: 3, rows: 6, decimal: "comma",
-    cells: { A4: "Name", B4: "Alter", C4: "Preis", A5: "Lisa", B5: 16, A6: "Tom", B6: 18 },
-    styles: { A4: "head", B4: "head", C4: "head" }, formats: { C: "eur" }, select: "B5",
-  });
+  const cells1 = { A1: "Name", B1: "Alter", C1: "Preis", A2: "Lisa", B2: 16, A3: "Tom", B3: 18 };
+  const styles1 = { A1: "head", B1: "head", C1: "head" };
+  Kurs.bild(document.getElementById("bild1"), { cols: 3, rows: 3, mark: "C2",
+    cells: Object.assign({ C2: "=WENN(B2<18;8;10)" }, cells1), styles: styles1 });
   const predict = document.getElementById("predict");
   predict.addEventListener("click", (ev) => {
     const b = ev.target.closest(".choice");
@@ -234,9 +248,15 @@ document.addEventListener("DOMContentLoaded", () => {
     predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
     predict.querySelector('[data-v="8"]').classList.add("right");
     if (b.dataset.v !== "8") b.classList.add("wrong");
-    calc1.set("C5", "=WENN(B5<18;8;10)");
-    calc1.set("C6", "=WENN(B6<18;8;10)");
-    calc1.select("C5");
+    document.getElementById("bild1").hidden = true;
+    const box1 = document.getElementById("calc1");
+    box1.hidden = false;
+    const calc1 = new MiniCalc(box1, { cols: 3, rows: 3, decimal: "comma", cells: cells1, styles: styles1, formats: { C: "eur" }, select: "C2" });
+    calc1.set("C2", "=WENN(B2<18;8;10)");
+    calc1.set("C3", "=WENN(B3<18;8;10)");
+    calc1.select("C2");
+    if (calc1.tds && calc1.tds.C2) calc1.tds.C2.classList.add("mc-blink-cell");
+    Register.done("problem");
     feedback(fb1, (b.dataset.v === "8" ? T("✔ Genau!") + " " : "") +
       T("Die Frage ist dieselbe wie bei WENN 1: <strong>Ist Lisa jünger als 18?</strong> Ja – aber statt „Ja“ steht im Dann-Teil die Zahl <strong>8</strong>.") + " " +
       T("Tom ist 18, nicht jünger. Für ihn kommt der Sonst-Teil: 10 €."), b.dataset.v === "8" ? "ok" : "hint");
@@ -245,23 +265,23 @@ document.addEventListener("DOMContentLoaded", () => {
   /* ---------- 2 · Beispiel Versand ---------- */
   const fbBsp = document.getElementById("fbBsp");
   const explain = (c, a) => {
-    const m = /^([AB])([56])$/.exec(a);
+    const m = /^([AB])([23])$/.exec(a);
     if (!m) return;
     const r = m[2], w = c.get("A" + r);
     if (typeof w !== "number") { feedback(fbBsp, T(`In A${r} steht kein Warenwert.`), "info"); return; }
-    const f = (x) => c.format("B5", x);
+    const f = (x) => c.format("B2", x);
     feedback(fbBsp, `<code class="long">=WENN(A${r}&lt;29;A${r}+4,95;A${r})</code><br>` + (w < 29
       ? T(`Frage: Ist ${f(w)} unter 29 €? <strong>Ja</strong> → Dann-Teil: A${r}+4,95 = ${f(w)} + 4,95 € = <strong>${f(w + 4.95)}</strong>`)
       : T(`Frage: Ist ${f(w)} unter 29 €? <strong>Nein</strong> → Sonst-Teil: A${r} = <strong>${f(w)}</strong> (versandkostenfrei)`)), "info");
   };
   const calcBsp = new MiniCalc(document.getElementById("calcBsp"), {
-    cols: 2, rows: 6, decimal: "comma",
-    cells: { A4: "Warenwert", B4: "Gesamt", A5: 12.5, B5: "=WENN(A5<29;A5+4,95;A5)", A6: 34.9, B6: "=WENN(A6<29;A6+4,95;A6)" },
-    styles: { A4: "head", B4: "head" }, formats: { A: "eur", B: "eur" }, editable: ["A5", "A6"], select: "B5",
+    cols: 2, rows: 3, decimal: "comma",
+    cells: { A1: "Warenwert", B1: "Gesamt", A2: 12.5, B2: "=WENN(A2<29;A2+4,95;A2)", A3: 34.9, B3: "=WENN(A3<29;A3+4,95;A3)" },
+    styles: { A1: "head", B1: "head" }, formats: { A: "eur", B: "eur" }, editable: ["A2", "A3"], select: "B2",
     onSelect: explain,
   });
   calcBsp.on((c, src) => { if (src === "edit") explain(c, "B" + c.sel.slice(1)); });
-  explain(calcBsp, "B5");
+  explain(calcBsp, "B2");
 
   /* ---------- 3 · Rechen-Training ---------- */
   Stufen(document.getElementById("calc2"), document.getElementById("fb2"), [
@@ -283,7 +303,7 @@ document.addEventListener("DOMContentLoaded", () => {
       hint2: () => T("3,20 € ist unter 5 € – dann 3,20 € + 15 € = 18,20 €. Lies deine Formel als Satz: Wenn …, dann …, sonst …"),
       hint3: () => T("12 € ist nicht unter 5 € – das Guthaben bleibt 12 €."),
       done: T("🏆 Alle 3 Stufen geschafft! Du kannst mit WENN rechnen.") },
-  ]);
+  ], { onDone: () => Register.done("ausprobieren") });
 
   /* ---------- 5 · Quiz ---------- */
   quiz(document.getElementById("quiz"), [
@@ -303,7 +323,7 @@ document.addEventListener("DOMContentLoaded", () => {
       options: ["<code>=WENN(A5&lt;1;gratis;\"A5\")</code>", "<code>=WENN(A5&lt;1;\"gratis\";A5)</code>", "<code>=WENN(A5&lt;1;\"gratis\";\"A5\")</code>"], right: 1,
       why: "Text in Anführungszeichen, Zellen ohne. \"A5\" wäre nur der Text A5.",
       miss: ["Genau verdreht: Der Text braucht Anführungszeichen, die Zelle nicht.", null, "<code>\"A5\"</code> zeigt nur die Buchstaben A5, nicht den Preis."] },
-  ]);
+  ], { onDone: () => Register.done("check") });
 });
 </script>
 <script>
@@ -317,11 +337,19 @@ document.addEventListener("DOMContentLoaded", () => {
       check: Wdh.checks.wenn({ cell: "A2", at: "B2", cases: [["Regen", "Ja"], ["Sonne", "Nein"]] }),
       why: "Erst die Frage, dann die Antwort für Ja, dann die Antwort für Nein." },
     { type: "wahl", from: "aus Baustein 2", href: "02-prozentrechnung.html",
-      q: "In B2 steht 20 % Rabatt. Ein Pulli kostet 40 € (B5). Welche Formel rechnet den <strong>neuen Preis</strong>?",
-      options: ["<code>=B5*(1-$B$2)</code>", "<code>=B5*$B$2</code>", "<code>=B5-$B$2</code>"], right: 0,
+      q: "In B1 steht 20 % Rabatt. Ein Pulli kostet 40 € (B3). Welche Formel rechnet den <strong>neuen Preis</strong>?",
+      table: { cols: 2, rows: 3, cells: { A1: "Rabatt", B1: 0.2, A2: "Artikel", B2: "Preis", A3: "Pulli", B3: 40 },
+        styles: { A1: "label", A2: "head", B2: "head" }, formats: { B1: "pct", B3: "eur" }, select: "B3" },
+      options: ["<code>=B3*(1-$B$1)</code>", "<code>=B3*$B$1</code>", "<code>=B3-$B$1</code>"], right: 0,
       why: "1 − 0,2 = 0,8. Der Pulli kostet noch 80 % vom Preis: 32 €.",
       miss: [null, "Das ist nur der Rabatt: 8 €. Der neue Preis fehlt noch.", "20 % ist für Calc 0,2. Du ziehst nur 0,20 € ab."] }
-  ]);
+  ], { onDone: () => Register.done("wdh") });
+});
+</script>
+<script>
+/* Register erst bauen, wenn alle Übungen fertig aufgebaut sind */
+document.addEventListener("DOMContentLoaded", () => {
+  Register(document.getElementById("lernen"), { key: "k9-04", after: "ueben", nr: "9.4" });
 });
 </script>
 </body>
