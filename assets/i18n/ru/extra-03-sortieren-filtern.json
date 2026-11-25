@@ -61,5 +61,7 @@
  "alphabetisch": "по алфавиту",
  "größte oben": "наибольшее сверху",
  "kleinste oben": "наименьшее сверху",
- "Eine Tabelle hat hundert Zeilen. Du suchst nicht jede Zeile ab. Du sortierst die Tabelle, zum Beispiel nach Punkten. Oder du filterst: Dann siehst du nur die Zeilen, die du brauchst. Das kennst du aus Online-Shops: sortieren nach Preis, filtern nach Größe.": "В таблице сто строк. Ты не просматриваешь каждую строку. Ты сортируешь таблицу, например по баллам. Или фильтруешь: тогда видишь только нужные строки. Это ты знаешь по интернет-магазинам: сортировать по цене, фильтровать по размеру."
+ "Eine Tabelle hat hundert Zeilen. Du suchst nicht jede Zeile ab. Du sortierst die Tabelle, zum Beispiel nach Punkten. Oder du filterst: Dann siehst du nur die Zeilen, die du brauchst. Das kennst du aus Online-Shops: sortieren nach Preis, filtern nach Größe.": "В таблице сто строк. Ты не просматриваешь каждую строку. Ты сортируешь таблицу, например по баллам. Или фильтруешь: тогда видишь только нужные строки. Это ты знаешь по интернет-магазинам: сортировать по цене, фильтровать по размеру.",
+ "↑ Aufsteigend sortieren": "↑ Aufsteigend sortieren (по возрастанию)",
+ "↓ Absteigend sortieren": "↓ Absteigend sortieren (по убыванию)"
 }
