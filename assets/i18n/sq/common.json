@@ -49,7 +49,6 @@
  "✔ Genau!": "✔ Pikërisht!",
  "Calc meldet einen Fehler": "Calc tregon një gabim",
  "Keine Ahnung – zeig's mir!": "Nuk e di – më trego!",
- "Erst eine Formel in D5 eintippen!": "Shkruaj fillimisht një formulë në D5!",
  "Du hast eine Zahl getippt. Die Tabelle soll aber selbst rechnen! Eine Formel beginnt mit =.": "Shkrove një <strong>numër</strong>. Por tabela duhet të llogarisë vetë! Një formulë fillon me <code>=</code>.",
  "#WERT!": "#WERT! (#VLERË!)",
  "Erst eine Formel in C5 eintippen!": "Shkruaj fillimisht një formulë në C5!",
@@ -222,5 +221,13 @@
  "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> Për të gjithë ata që duan më shumë",
  "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Tani në LibreOffice Calc <span class=\"chip\">12 min</span>",
  "5 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">5</span> Tani në LibreOffice Calc <span class=\"chip\">15 min</span>",
- "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Kontroll i shpejtë <span class=\"chip\">5 min</span>"
+ "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Kontroll i shpejtë <span class=\"chip\">5 min</span>",
+ "5 Kurz-Check 5 Min": "<span class=\"step-no\">5</span> Kontroll i shpejtë <span class=\"chip\">5 min</span>",
+ "6 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">6</span> Tani në LibreOffice Calc <span class=\"chip\">15 min</span>",
+ "4 Selbst ausprobieren 5 Min": "<span class=\"step-no\">4</span> Provo vetë <span class=\"chip\">5 min</span>",
+ "Weißt du noch?": "A të kujtohet?",
+ "Das Problem": "Problemi",
+ "Training": "Stërvitje",
+ "Kurz-Check": "Kontroll i shpejtë",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Katër pyetje. E kuptove? Atëherë vazhdo në Calc."
 }

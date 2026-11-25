@@ -49,7 +49,6 @@
  "✔ Genau!": "✔ Aynen öyle!",
  "Calc meldet einen Fehler": "Calc bir hata gösterir",
  "Keine Ahnung – zeig's mir!": "Bilmiyorum – göster!",
- "Erst eine Formel in D5 eintippen!": "Önce D5'e bir formül yaz!",
  "Du hast eine Zahl getippt. Die Tabelle soll aber selbst rechnen! Eine Formel beginnt mit =.": "Bir <strong>sayı</strong> yazdın. Ama tablo kendisi hesaplamalı! Formül <code>=</code> ile başlar.",
  "#WERT!": "#WERT! (#DEĞER!)",
  "Erst eine Formel in C5 eintippen!": "Önce C5'e bir formül yaz!",
@@ -222,5 +221,13 @@
  "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> Daha fazlasını isteyen herkes için",
  "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Şimdi LibreOffice Calc'ta <span class=\"chip\">12 dk</span>",
  "5 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">5</span> Şimdi LibreOffice Calc'ta <span class=\"chip\">15 dk</span>",
- "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Kısa kontrol <span class=\"chip\">5 dk</span>"
+ "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Kısa kontrol <span class=\"chip\">5 dk</span>",
+ "5 Kurz-Check 5 Min": "<span class=\"step-no\">5</span> Kısa kontrol <span class=\"chip\">5 dk</span>",
+ "6 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">6</span> Şimdi LibreOffice Calc'ta <span class=\"chip\">15 dk</span>",
+ "4 Selbst ausprobieren 5 Min": "<span class=\"step-no\">4</span> Kendin dene <span class=\"chip\">5 dk</span>",
+ "Weißt du noch?": "Hatırlıyor musun?",
+ "Das Problem": "Sorun",
+ "Training": "Antrenman",
+ "Kurz-Check": "Kısa kontrol",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Dört soru. Anladın mı? O zaman Calc'ta devam et."
 }

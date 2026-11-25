@@ -49,7 +49,6 @@
  "✔ Genau!": "✔ دقیقاً!",
  "Calc meldet einen Fehler": "Calc یک خطا نشان می‌دهد",
  "Keine Ahnung – zeig's mir!": "نمی‌دانم – نشانم بده!",
- "Erst eine Formel in D5 eintippen!": "اول یک فرمول در D5 بنویس!",
  "Du hast eine Zahl getippt. Die Tabelle soll aber selbst rechnen! Eine Formel beginnt mit =.": "یک <strong>عدد</strong> نوشتی. ولی جدول باید خودش حساب کند! فرمول با <code>=</code> شروع می‌شود.",
  "#WERT!": "#WERT! (#مقدار!)",
  "Erst eine Formel in C5 eintippen!": "اول یک فرمول در C5 بنویس!",
@@ -222,5 +221,13 @@
  "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> برای همه کسانی که بیشتر می‌خواهند",
  "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> حالا در LibreOffice Calc <span class=\"chip\">12 دقیقه</span>",
  "5 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">5</span> حالا در LibreOffice Calc <span class=\"chip\">15 دقیقه</span>",
- "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> بررسی کوتاه <span class=\"chip\">5 دقیقه</span>"
+ "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> بررسی کوتاه <span class=\"chip\">5 دقیقه</span>",
+ "5 Kurz-Check 5 Min": "<span class=\"step-no\">5</span> بررسی کوتاه <span class=\"chip\">5 دقیقه</span>",
+ "6 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">6</span> حالا در LibreOffice Calc <span class=\"chip\">15 دقیقه</span>",
+ "4 Selbst ausprobieren 5 Min": "<span class=\"step-no\">4</span> خودت امتحان کن <span class=\"chip\">5 دقیقه</span>",
+ "Weißt du noch?": "یادت هست؟",
+ "Das Problem": "مشکل",
+ "Training": "تمرین",
+ "Kurz-Check": "بررسی کوتاه",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "چهار پرسش. فهمیدی؟ پس در Calc ادامه بده."
 }

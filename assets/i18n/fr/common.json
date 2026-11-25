@@ -49,7 +49,6 @@
  "✔ Genau!": "✔ Exactement !",
  "Calc meldet einen Fehler": "Calc affiche une erreur",
  "Keine Ahnung – zeig's mir!": "Je ne sais pas – montre-moi !",
- "Erst eine Formel in D5 eintippen!": "Écris d'abord une formule dans D5 !",
  "Du hast eine Zahl getippt. Die Tabelle soll aber selbst rechnen! Eine Formel beginnt mit =.": "Tu as écrit un <strong>nombre</strong>. Mais le tableau doit calculer tout seul ! Une formule commence par <code>=</code>.",
  "#WERT!": "#WERT! (#VALEUR!)",
  "Erst eine Formel in C5 eintippen!": "Écris d'abord une formule dans C5 !",
@@ -222,5 +221,13 @@
  "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> Pour tous ceux qui en veulent plus",
  "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Maintenant dans LibreOffice Calc <span class=\"chip\">12 min</span>",
  "5 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">5</span> Maintenant dans LibreOffice Calc <span class=\"chip\">15 min</span>",
- "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Vérification rapide <span class=\"chip\">5 min</span>"
+ "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Vérification rapide <span class=\"chip\">5 min</span>",
+ "5 Kurz-Check 5 Min": "<span class=\"step-no\">5</span> Vérification rapide <span class=\"chip\">5 min</span>",
+ "6 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">6</span> Maintenant dans LibreOffice Calc <span class=\"chip\">15 min</span>",
+ "4 Selbst ausprobieren 5 Min": "<span class=\"step-no\">4</span> Essaie toi-même <span class=\"chip\">5 min</span>",
+ "Weißt du noch?": "Tu te souviens ?",
+ "Das Problem": "Le problème",
+ "Training": "Entraînement",
+ "Kurz-Check": "Vérification rapide",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Quatre questions. Tu as compris ? Alors continue dans Calc."
 }

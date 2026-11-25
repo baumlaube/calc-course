@@ -49,7 +49,6 @@
  "✔ Genau!": "✔ Точно!",
  "Calc meldet einen Fehler": "Calc показывает ошибку",
  "Keine Ahnung – zeig's mir!": "Не знаю – покажи!",
- "Erst eine Formel in D5 eintippen!": "Сначала введи формулу в D5!",
  "Du hast eine Zahl getippt. Die Tabelle soll aber selbst rechnen! Eine Formel beginnt mit =.": "Ты ввёл(а) <strong>число</strong>. Но таблица должна считать сама! Формула начинается с <code>=</code>.",
  "#WERT!": "#WERT! (#ЗНАЧ!)",
  "Erst eine Formel in C5 eintippen!": "Сначала введи формулу в C5!",
@@ -222,5 +221,13 @@
  "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> Для всех, кто хочет больше",
  "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Теперь в LibreOffice Calc <span class=\"chip\">12 мин</span>",
  "5 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">5</span> Теперь в LibreOffice Calc <span class=\"chip\">15 мин</span>",
- "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Быстрая проверка <span class=\"chip\">5 мин</span>"
+ "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Быстрая проверка <span class=\"chip\">5 мин</span>",
+ "5 Kurz-Check 5 Min": "<span class=\"step-no\">5</span> Быстрая проверка <span class=\"chip\">5 мин</span>",
+ "6 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">6</span> Теперь в LibreOffice Calc <span class=\"chip\">15 мин</span>",
+ "4 Selbst ausprobieren 5 Min": "<span class=\"step-no\">4</span> Попробуй сам(а) <span class=\"chip\">5 мин</span>",
+ "Weißt du noch?": "Помнишь?",
+ "Das Problem": "Проблема",
+ "Training": "Тренировка",
+ "Kurz-Check": "Быстрая проверка",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Четыре вопроса. Ты всё понял(а)? Тогда продолжай в Calc."
 }

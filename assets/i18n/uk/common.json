@@ -29,7 +29,6 @@
  "Zeichen": "Знак",
  "Beispiel": "Приклад",
  "Calc meldet einen Fehler": "Calc показує помилку",
- "Erst eine Formel in D5 eintippen!": "Спочатку введи формулу в D5!",
  "#WERT!": "#WERT! (#ЗНАЧ!)",
  "Erst eine Formel in C5 eintippen!": "Спочатку введи формулу в C5!",
  "Du hast C5 geändert. Fülle noch einmal nach unten aus!": "Ти змінив/змінила C5. Заповни вниз ще раз!",
@@ -222,5 +221,13 @@
  "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> Для всіх, хто хоче більше",
  "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Тепер у LibreOffice Calc <span class=\"chip\">12 хв</span>",
  "5 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">5</span> Тепер у LibreOffice Calc <span class=\"chip\">15 хв</span>",
- "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Коротка перевірка <span class=\"chip\">5 хв</span>"
+ "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Коротка перевірка <span class=\"chip\">5 хв</span>",
+ "5 Kurz-Check 5 Min": "<span class=\"step-no\">5</span> Коротка перевірка <span class=\"chip\">5 хв</span>",
+ "6 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">6</span> Тепер у LibreOffice Calc <span class=\"chip\">15 хв</span>",
+ "4 Selbst ausprobieren 5 Min": "<span class=\"step-no\">4</span> Спробуй сам <span class=\"chip\">5 хв</span>",
+ "Weißt du noch?": "Пам'ятаєш?",
+ "Das Problem": "Проблема",
+ "Training": "Тренування",
+ "Kurz-Check": "Коротка перевірка",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Чотири запитання. Ти все зрозумів(-ла)? Тоді продовжуй у Calc."
 }

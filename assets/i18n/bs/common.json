@@ -52,7 +52,6 @@
  "✔ Genau!": "✔ Tako je!",
  "Calc meldet einen Fehler": "Calc javlja grešku",
  "Keine Ahnung – zeig's mir!": "Nemam pojma – pokaži mi!",
- "Erst eine Formel in D5 eintippen!": "Prvo upiši formulu u D5!",
  "Du hast eine Zahl getippt. Die Tabelle soll aber selbst rechnen! Eine Formel beginnt mit =.": "Upisao/la si <strong>broj</strong>. Ali tabela treba sama računati! Formula počinje sa <code>=</code>.",
  "#WERT!": "#WERT! (#VALUE!)",
  "Erst eine Formel in C5 eintippen!": "Prvo upiši formulu u C5!",
@@ -222,5 +221,13 @@
  "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> Za sve koji žele više",
  "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Sada u LibreOffice Calcu <span class=\"chip\">12 min</span>",
  "5 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">5</span> Sada u LibreOffice Calcu <span class=\"chip\">15 min</span>",
- "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Kratka provjera <span class=\"chip\">5 min</span>"
+ "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Kratka provjera <span class=\"chip\">5 min</span>",
+ "5 Kurz-Check 5 Min": "<span class=\"step-no\">5</span> Kratka provjera <span class=\"chip\">5 min</span>",
+ "6 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">6</span> Sada u LibreOffice Calcu <span class=\"chip\">15 min</span>",
+ "4 Selbst ausprobieren 5 Min": "<span class=\"step-no\">4</span> Probaj sam/a <span class=\"chip\">5 min</span>",
+ "Weißt du noch?": "Sjećaš li se?",
+ "Das Problem": "Problem",
+ "Training": "Trening",
+ "Kurz-Check": "Kratka provjera",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Četiri pitanja. Jesi li razumio/la? Onda nastavi u Calcu."
 }

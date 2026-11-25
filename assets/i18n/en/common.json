@@ -51,7 +51,6 @@
  "Zeichen": "Sign",
  "Beispiel": "Example",
  "Calc meldet einen Fehler": "Calc shows an error",
- "Erst eine Formel in D5 eintippen!": "First type a formula in D5!",
  "#WERT!": "#WERT! (#VALUE!)",
  "Erst eine Formel in C5 eintippen!": "First type a formula in C5!",
  "Du hast C5 geändert. Fülle noch einmal nach unten aus!": "You changed C5. Fill down again!",
@@ -222,5 +221,13 @@
  "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> For everyone who wants more",
  "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Now in LibreOffice Calc <span class=\"chip\">12 min</span>",
  "5 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">5</span> Now in LibreOffice Calc <span class=\"chip\">15 min</span>",
- "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Quick check <span class=\"chip\">5 min</span>"
+ "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Quick check <span class=\"chip\">5 min</span>",
+ "5 Kurz-Check 5 Min": "<span class=\"step-no\">5</span> Quick check <span class=\"chip\">5 min</span>",
+ "6 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">6</span> Now in LibreOffice Calc <span class=\"chip\">15 min</span>",
+ "4 Selbst ausprobieren 5 Min": "<span class=\"step-no\">4</span> Try it yourself <span class=\"chip\">5 min</span>",
+ "Weißt du noch?": "Do you remember?",
+ "Das Problem": "The problem",
+ "Training": "Training",
+ "Kurz-Check": "Quick check",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Four questions. Have you understood it? Then go on in Calc."
 }

@@ -49,7 +49,6 @@
  "✔ Genau!": "✔ Exact!",
  "Calc meldet einen Fehler": "Calc arată o eroare",
  "Keine Ahnung – zeig's mir!": "Habar n-am – arată-mi!",
- "Erst eine Formel in D5 eintippen!": "Scrie mai întâi o formulă în D5!",
  "Du hast eine Zahl getippt. Die Tabelle soll aber selbst rechnen! Eine Formel beginnt mit =.": "Ai scris un <strong>număr</strong>. Dar tabelul ar trebui să calculeze singur! O formulă începe cu <code>=</code>.",
  "#WERT!": "#WERT! (#VALOARE!)",
  "Erst eine Formel in C5 eintippen!": "Scrie mai întâi o formulă în C5!",
@@ -222,5 +221,13 @@
  "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> Pentru toți cei care vor mai mult",
  "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Acum în LibreOffice Calc <span class=\"chip\">12 min</span>",
  "5 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">5</span> Acum în LibreOffice Calc <span class=\"chip\">15 min</span>",
- "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Verificare rapidă <span class=\"chip\">5 min</span>"
+ "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Verificare rapidă <span class=\"chip\">5 min</span>",
+ "5 Kurz-Check 5 Min": "<span class=\"step-no\">5</span> Verificare rapidă <span class=\"chip\">5 min</span>",
+ "6 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">6</span> Acum în LibreOffice Calc <span class=\"chip\">15 min</span>",
+ "4 Selbst ausprobieren 5 Min": "<span class=\"step-no\">4</span> Încearcă singur <span class=\"chip\">5 min</span>",
+ "Weißt du noch?": "Mai știi?",
+ "Das Problem": "Problema",
+ "Training": "Antrenament",
+ "Kurz-Check": "Verificare rapidă",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Patru întrebări. Ai înțeles? Atunci mergi mai departe în Calc."
 }

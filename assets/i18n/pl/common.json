@@ -49,7 +49,6 @@
  "✔ Genau!": "✔ Dokładnie!",
  "Calc meldet einen Fehler": "Calc pokazuje błąd",
  "Keine Ahnung – zeig's mir!": "Nie wiem – pokaż mi!",
- "Erst eine Formel in D5 eintippen!": "Najpierw wpisz formułę w D5!",
  "Du hast eine Zahl getippt. Die Tabelle soll aber selbst rechnen! Eine Formel beginnt mit =.": "W komórce jest wpisana <strong>liczba</strong>. Ale arkusz ma liczyć sam! Formuła zaczyna się od <code>=</code>.",
  "#WERT!": "#WERT! (#ARG!)",
  "Erst eine Formel in C5 eintippen!": "Najpierw wpisz formułę w C5!",
@@ -222,5 +221,13 @@
  "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> Dla wszystkich, którzy chcą więcej",
  "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Teraz w LibreOffice Calc <span class=\"chip\">12 min</span>",
  "5 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">5</span> Teraz w LibreOffice Calc <span class=\"chip\">15 min</span>",
- "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Szybki test <span class=\"chip\">5 min</span>"
+ "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Szybki test <span class=\"chip\">5 min</span>",
+ "5 Kurz-Check 5 Min": "<span class=\"step-no\">5</span> Szybki test <span class=\"chip\">5 min</span>",
+ "6 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">6</span> Teraz w LibreOffice Calc <span class=\"chip\">15 min</span>",
+ "4 Selbst ausprobieren 5 Min": "<span class=\"step-no\">4</span> Spróbuj samodzielnie <span class=\"chip\">5 min</span>",
+ "Weißt du noch?": "Pamiętasz?",
+ "Das Problem": "Problem",
+ "Training": "Trening",
+ "Kurz-Check": "Szybki test",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Cztery pytania. Wszystko jasne? To dalej w Calc."
 }

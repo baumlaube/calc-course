@@ -49,7 +49,6 @@
  "✔ Genau!": "✔ بالضبط!",
  "Calc meldet einen Fehler": "Calc يُظهر خطأ",
  "Keine Ahnung – zeig's mir!": "لا أعرف – أرني!",
- "Erst eine Formel in D5 eintippen!": "اكتب أولًا صيغة في D5!",
  "Du hast eine Zahl getippt. Die Tabelle soll aber selbst rechnen! Eine Formel beginnt mit =.": "لقد كتبت <strong>رقمًا</strong>. لكن الجدول يجب أن يحسب بنفسه! الصيغة تبدأ بـ <code>=</code>.",
  "#WERT!": "#WERT! (#قيمة!)",
  "Erst eine Formel in C5 eintippen!": "اكتب أولًا صيغة في C5!",
@@ -222,5 +221,13 @@
  "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> لكل من يريد المزيد",
  "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> الآن في LibreOffice Calc <span class=\"chip\">12 د</span>",
  "5 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">5</span> الآن في LibreOffice Calc <span class=\"chip\">15 د</span>",
- "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> فحص سريع <span class=\"chip\">5 د</span>"
+ "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> فحص سريع <span class=\"chip\">5 د</span>",
+ "5 Kurz-Check 5 Min": "<span class=\"step-no\">5</span> فحص سريع <span class=\"chip\">5 د</span>",
+ "6 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">6</span> الآن في LibreOffice Calc <span class=\"chip\">15 د</span>",
+ "4 Selbst ausprobieren 5 Min": "<span class=\"step-no\">4</span> جرّب بنفسك <span class=\"chip\">5 د</span>",
+ "Weißt du noch?": "هل تتذكر؟",
+ "Das Problem": "المشكلة",
+ "Training": "تدريب",
+ "Kurz-Check": "فحص سريع",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "أربعة أسئلة. هل فهمت؟ إذن تابع في Calc."
 }

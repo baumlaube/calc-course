@@ -98,7 +98,6 @@
  "ein Bezug ohne $. Er wandert beim Ausfüllen mit: aus B5 wird B6": "<strong>địa chỉ tương đối</strong> – địa chỉ không có <code>$</code>. Khi điền, nó di chuyển theo: <code>B5</code> thành <code>B6</code>",
  "Hier kannst du nicht ziehen. Wähl zuerst eine Antwort. Danach zeigt dir die Tabelle, was passiert.": "Ở đây bạn chưa kéo được. Hãy chọn một câu trả lời trước. Sau đó bảng sẽ cho bạn thấy điều gì xảy ra.",
  "Keine Ahnung – zeig's mir!": "Không biết – chỉ cho mình xem!",
- "Erst eine Formel in D5 eintippen!": "Trước tiên hãy gõ công thức vào D5!",
  "Du hast eine Zahl getippt. Die Tabelle soll aber selbst rechnen! Eine Formel beginnt mit =.": "Bạn đã gõ một <strong>con số</strong>. Nhưng bảng tính phải tự tính! Công thức bắt đầu bằng <code>=</code>.",
  "Beim Ziehen wandert die Formel mit. Sie bleibt nicht gleich.": "Khi kéo, công thức di chuyển theo. Nó không giữ nguyên.",
  "Nach rechts ändern sich die Buchstaben, nicht die Zahlen.": "Sang phải thì chữ cái thay đổi, không phải số.",
@@ -222,5 +221,13 @@
  "Freiwillig Für alle, die mehr wollen": "<span class=\"badge expedition\">Freiwillig</span> Dành cho ai muốn học thêm",
  "5 Jetzt in LibreOffice Calc 12 Min": "<span class=\"step-no\">5</span> Bây giờ trong LibreOffice Calc <span class=\"chip\">12 phút</span>",
  "5 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">5</span> Bây giờ trong LibreOffice Calc <span class=\"chip\">15 phút</span>",
- "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Kiểm tra nhanh <span class=\"chip\">5 phút</span>"
+ "4 Kurz-Check 5 Min": "<span class=\"step-no\">4</span> Kiểm tra nhanh <span class=\"chip\">5 phút</span>",
+ "5 Kurz-Check 5 Min": "<span class=\"step-no\">5</span> Kiểm tra nhanh <span class=\"chip\">5 phút</span>",
+ "6 Jetzt in LibreOffice Calc 15 Min": "<span class=\"step-no\">6</span> Bây giờ trong LibreOffice Calc <span class=\"chip\">15 phút</span>",
+ "4 Selbst ausprobieren 5 Min": "<span class=\"step-no\">4</span> Tự thử <span class=\"chip\">5 phút</span>",
+ "Weißt du noch?": "Bạn còn nhớ không?",
+ "Das Problem": "Vấn đề",
+ "Training": "Luyện tập",
+ "Kurz-Check": "Kiểm tra nhanh",
+ "Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.": "Bốn câu hỏi. Bạn đã hiểu chưa? Nếu rồi thì tiếp tục trong Calc."
 }
