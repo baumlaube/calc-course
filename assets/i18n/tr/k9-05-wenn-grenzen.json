@@ -19,7 +19,6 @@
  "über / unter": "üstünde / altında",
  "gleich / ungleich": "eşit / eşit değil",
  "Text steht in \"Anführungszeichen\". Zahlen und Zellen ohne.": "Metin <code>\"Anführungszeichen\"</code> (tırnak işaretleri) içine yazılır. Sayılar ve hücreler tırnaksız.",
- "Kurzvideo (folgt): Grenzen mit $ festhalten": "<strong>Kısa video (yakında):</strong> Sınırları $ ile sabitle",
  "3 Akku-Check 5 Min": "<span class=\"step-no\">3</span> Pil kontrolü <span class=\"chip\">5 dk</span>",
  "Unter 20 % soll in Spalte C laden! stehen, sonst ok. Schreib die Formel in C5 und füll sie nach unten aus.": "%20'nin altında C sütunu <strong>laden!</strong> (şarj et!) göstermeli, değilse <strong>ok</strong>. Formülü C5'e yaz ve aşağı doldur.",
  "ExpeditionFreiwillig: Notenrechner mit WENN in WENN und Lob-Brief mit UND.": "<span class=\"badge expedition\">Expedition</span><span><strong>İsteğe bağlı:</strong> WENN içinde WENN ile not hesaplayıcı ve UND (VE) ile takdir mektubu.</span>",

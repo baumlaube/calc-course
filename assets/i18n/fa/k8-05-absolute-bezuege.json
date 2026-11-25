@@ -20,7 +20,6 @@
  "Klick in der Formel auf B2.": "در فرمول روی <code>B2</code> کلیک کن.",
  "Drück Umschalt + F4.": "<kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd> را بزن.",
  "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "در بعضی لپ‌تاپ‌ها: <kbd>Fn</kbd> را هم بزن. علامت <code>$</code> را خودت هم می‌توانی تایپ کنی: <kbd>Umschalt</kbd> (Shift) + <kbd>4</kbd>.",
- "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>ویدیوی کوتاه (به زودی):</strong> $ در 30 ثانیه",
  "ExpeditionFreiwillig: Das ganze Einmaleins mit einer einzigen Formel.": "<span class=\"badge expedition\">Expedition</span><span><strong>اختیاری:</strong> کل جدول ضرب با یک فرمول تنها.</span>",
  "Beim Ausfüllen wandern Zellbezüge mit: Aus B5 wird B6, B7, … Das ist ein relativer Bezug.": "موقع پر کردن ارجاع‌های خانه جابه‌جا می‌شوند: <code>B5</code> می‌شود <code>B6</code>، <code>B7</code>، … این یک <strong>relativer Bezug</strong> (ارجاع نسبی) است.",
  "Ein $ hält fest: $B$2 bleibt beim Ausfüllen immer B2. Das ist ein absoluter Bezug.": "یک <code>$</code> آن را سر جایش نگه می‌دارد: <code>$B$2</code> موقع پر کردن همیشه B2 می‌ماند. این یک <strong>absoluter Bezug</strong> (ارجاع مطلق) است.",

@@ -8,7 +8,6 @@
  "=SUMME( tippen.": "<code>=SUMME(</code> را بنویس.",
  ") tippen und Enter.": "<code>)</code> را بنویس و <kbd>Enter</kbd> را بزن.",
  "Abkürzung in Calc: der Knopf Σ links neben der Eingabezeile.": "میان‌بر در Calc: دکمهٔ <strong>Σ</strong> سمت چپ <strong>Eingabezeile</strong> (خط ورودی).",
- "Kurzvideo (folgt): SUMME mit der Maus": "<strong>ویدیوی کوتاه (به زودی):</strong> SUMME با موس",
  "ExpeditionFreiwillig: 100 Mal würfeln mit Calc.": "<span class=\"badge expedition\">Expedition</span><span><strong>اختیاری:</strong> با Calc صد بار تاس بینداز.</span>",
  "SUMME zählt zusammen · MITTELWERT = Durchschnitt · MIN = kleinster Wert · MAX = größter Wert.": "<strong>SUMME</strong> جمع می‌زند · <strong>MITTELWERT</strong> = میانگین · <strong>MIN</strong> = کوچک‌ترین مقدار · <strong>MAX</strong> = بزرگ‌ترین مقدار.",
  "Bereich markieren: Nach =SUMME( mit gedrückter Maustaste von B5 bis B9 ziehen.": "انتخاب محدوده: بعد از <code>=SUMME(</code> دکمهٔ موس را نگه دار و از B5 تا B9 بکش.",

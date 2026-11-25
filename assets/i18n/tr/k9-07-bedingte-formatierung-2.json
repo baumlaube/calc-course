@@ -12,7 +12,6 @@
  "② Text im Dialog in Anführungszeichen: \"fehlt\" – wie bei WENN.": "<strong>②</strong> Penceredeki metin tırnak içine yazılır: <code>\"fehlt\"</code> – WENN'deki gibi.",
  "③ Grenze aus einer Zelle: als Wert $B$1 eintragen – mit $, wie bei WENN 3.": "<strong>③</strong> Hücreden sınır: değer olarak <code>$B$1</code> gir – <code>$</code> ile, WENN 3'teki gibi.",
  "Falsche Reihenfolge? Format → Bedingt → Verwalten … → Bearbeiten. Dort kannst du Bedingungen nach oben und unten schieben.": "Sıra yanlış mı? <strong>Format → Bedingt → Verwalten … → Bearbeiten</strong> (yönet → düzenle). Orada koşulları yukarı ve aşağı taşıyabilirsin.",
- "Kurzvideo (folgt): Die Akku-Ampel": "<strong>Kısa video (yakında):</strong> Pil trafik ışığı",
  "3 Regel-Labor in 3 Stufen 10 Min": "<span class=\"step-no\">3</span> 3 seviyede kural laboratuvarı <span class=\"chip\">10 dk</span>",
  "ExpeditionFreiwillig: Ganze Zeilen färben mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span><span><strong>İsteğe bağlı:</strong> „Formel ist“ (formül) ile bütün satırları boya.</span>",
  "Mehrere Bedingungen: Calc nimmt die erste, die passt. Darum die strengste Bedingung zuerst.": "Birkaç koşul: Calc uyan <strong>ilk</strong> koşulu alır. Bu yüzden en sıkı koşulu başa koy.",

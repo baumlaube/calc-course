@@ -19,7 +19,6 @@
  "über / unter": "більше / менше",
  "gleich / ungleich": "дорівнює / не дорівнює",
  "Text steht in \"Anführungszeichen\". Zahlen und Zellen ohne.": "Текст пишуть у <code>\"Anführungszeichen\"</code> (лапках). Числа й клітинки – без.",
- "Kurzvideo (folgt): Grenzen mit $ festhalten": "<strong>Коротке відео (буде пізніше):</strong> закріпити межі знаком $",
  "3 Akku-Check 5 Min": "<span class=\"step-no\">3</span> Перевірка батареї <span class=\"chip\">5 хв</span>",
  "Unter 20 % soll in Spalte C laden! stehen, sonst ok. Schreib die Formel in C5 und füll sie nach unten aus.": "Якщо менше 20 %, стовпець C має показувати <strong>laden!</strong> (зарядити!), інакше <strong>ok</strong>. Напиши формулу в C5 і заповни вниз.",
  "ExpeditionFreiwillig: Notenrechner mit WENN in WENN und Lob-Brief mit UND.": "<span class=\"badge expedition\">Expedition</span><span><strong>За бажанням:</strong> калькулятор оцінок із WENN у WENN і похвальний лист з UND (І).</span>",

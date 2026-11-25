@@ -22,7 +22,6 @@
  "Klick in der Formel auf B2.": "У формулі клацни на <code>B2</code>.",
  "Drück Umschalt + F4.": "Натисни <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd>.",
  "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "На деяких ноутбуках: додатково натисни <kbd>Fn</kbd>. Знак <code>$</code> можна також ввести самому: <kbd>Umschalt</kbd> (Shift) + <kbd>4</kbd>.",
- "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>Коротке відео (буде пізніше):</strong> $ за 30 секунд",
  "ExpeditionFreiwillig: Das ganze Einmaleins mit einer einzigen Formel.": "<span class=\"badge expedition\">Expedition</span><span><strong>За бажанням:</strong> уся таблиця множення однією-єдиною формулою.</span>",
  "Beim Ausfüllen wandern Zellbezüge mit: Aus B5 wird B6, B7, … Das ist ein relativer Bezug.": "При заповненні посилання «мандрують»: <code>B5</code> стає <code>B6</code>, <code>B7</code>, … Це <strong>relativer Bezug</strong> (відносне посилання).",
  "Ein $ hält fest: $B$2 bleibt beim Ausfüllen immer B2. Das ist ein absoluter Bezug.": "Знак <code>$</code> закріплює: <code>$B$2</code> при заповненні завжди залишається B2. Це <strong>absoluter Bezug</strong> (абсолютне посилання).",

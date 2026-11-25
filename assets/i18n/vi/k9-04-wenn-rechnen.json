@@ -12,7 +12,6 @@
  "Statt \"Ja\" und \"Nein\" darf eine Zahl oder eine Rechnung stehen.Zahlen und Rechnungen ohne Anführungszeichen.": "Thay vì <code>\"Ja\"</code> và <code>\"Nein\"</code> có thể là một <strong>con số</strong> hoặc một <strong>phép tính</strong>.<br/>Số và phép tính viết <strong>không có</strong> dấu ngoặc kép.",
  "Beispiel: Gesamtpreis im Online-Shop": "Ví dụ: tổng giá trong cửa hàng trực tuyến",
  "⚠ \"4,95\" in Anführungszeichen wäre Text. Damit kann Calc nicht weiterrechnen.": "⚠ <code>\"4,95\"</code> trong dấu ngoặc kép sẽ là chữ. Calc không tính tiếp được với nó.",
- "Kurzvideo (folgt): Rechnen mit WENN": "<strong>Video ngắn (sắp có):</strong> Tính toán với WENN",
  "3 Rechen-Training in 3 Stufen 8 Min": "<span class=\"step-no\">3</span> Luyện tính toán qua 3 cấp <span class=\"chip\">8 phút</span>",
  "Statt \"Ja\" und \"Nein\" darf eine Zahl oder eine Rechnung stehen.": "Thay vì <code>\"Ja\"</code> và <code>\"Nein\"</code> có thể là một con số hoặc một phép tính.",
  "Text in \"Anführungszeichen\" – Zahlen und Rechnungen ohne!": "Chữ trong <code>\"Anführungszeichen\"</code> (dấu ngoặc kép) – số và phép tính thì không!",

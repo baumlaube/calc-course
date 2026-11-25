@@ -7,7 +7,6 @@
  "Statt \"Ja\" und \"Nein\" darf eine Zahl oder eine Rechnung stehen.Zahlen und Rechnungen ohne Anführungszeichen.": "En lugar de <code>\"Ja\"</code> y <code>\"Nein\"</code> puede haber un <strong>número</strong> o un <strong>cálculo</strong>.<br/>Números y cálculos <strong>sin</strong> comillas.",
  "Beispiel: Gesamtpreis im Online-Shop": "Ejemplo: precio total en una tienda online",
  "⚠ \"4,95\" in Anführungszeichen wäre Text. Damit kann Calc nicht weiterrechnen.": "⚠ <code>\"4,95\"</code> entre comillas sería texto. Calc no puede calcular con él.",
- "Kurzvideo (folgt): Rechnen mit WENN": "<strong>Vídeo corto (próximamente):</strong> calcular con WENN",
  "3 Rechen-Training in 3 Stufen 8 Min": "<span class=\"step-no\">3</span> Entrenamiento de cálculo en 3 niveles <span class=\"chip\">8 min</span>",
  "ExpeditionFreiwillig: Rabatt ab 50 € – WENN trifft Prozentrechnung.": "<span class=\"badge expedition\">Expedition</span><span><strong>Opcional:</strong> descuento a partir de 50 € – WENN se encuentra con los porcentajes.</span>",
  "Statt \"Ja\" und \"Nein\" darf eine Zahl oder eine Rechnung stehen.": "En lugar de <code>\"Ja\"</code> y <code>\"Nein\"</code> puede haber un número o un cálculo.",

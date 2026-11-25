@@ -20,7 +20,6 @@
  "Klick in der Formel auf B2.": "В формуле щёлкни по <code>B2</code>.",
  "Drück Umschalt + F4.": "Нажми <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd>.",
  "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "На некоторых ноутбуках: дополнительно нажми <kbd>Fn</kbd>. Знак <code>$</code> можно напечатать и самому: <kbd>Umschalt</kbd> (Shift) + <kbd>4</kbd>.",
- "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>Короткое видео (скоро):</strong> $ за 30 секунд",
  "ExpeditionFreiwillig: Das ganze Einmaleins mit einer einzigen Formel.": "<span class=\"badge expedition\">Expedition</span><span><strong>По желанию:</strong> вся таблица умножения одной-единственной формулой.</span>",
  "Beim Ausfüllen wandern Zellbezüge mit: Aus B5 wird B6, B7, … Das ist ein relativer Bezug.": "При заполнении ссылки на ячейки сдвигаются: <code>B5</code> становится <code>B6</code>, <code>B7</code>, … Это <strong>relativer Bezug</strong> (относительная ссылка).",
  "Ein $ hält fest: $B$2 bleibt beim Ausfüllen immer B2. Das ist ein absoluter Bezug.": "<code>$</code> закрепляет: <code>$B$2</code> при заполнении всегда остаётся B2. Это <strong>absoluter Bezug</strong> (абсолютная ссылка).",

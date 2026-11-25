@@ -19,7 +19,6 @@
  "kleiner? größer?": "کوچک‌تر؟ بزرگ‌تر؟",
  "höchstens? mindestens?": "حداکثر؟ حداقل؟",
  "Text steht immer in \"Anführungszeichen\". Zahlen ohne.": "متن همیشه داخل <code>\"Anführungszeichen\"</code> (گیومه) است. عددها بدون آن.",
- "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>ویدیوی کوتاه (به زودی):</strong> اولین فرمول WENN",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> تمرین سؤال در 4 مرحله <span class=\"chip\">8 دقیقه</span>",
  "ExpeditionFreiwillig: Quiz-Maker – ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span><span><strong>اختیاری:</strong> سازندهٔ آزمونک – آزمونکی که خودش را بررسی می‌کند.</span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN سؤالی می‌پرسد که فقط جواب بله یا نه دارد: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",

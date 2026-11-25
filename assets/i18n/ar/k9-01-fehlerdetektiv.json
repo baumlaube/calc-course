@@ -28,7 +28,6 @@
  "Einen Wert testweise ändern. Rechnet alles mit?": "غيّر قيمة للتجربة. هل يُعاد حساب كل شيء؟",
  "Ansicht → Formel anzeigen zeigt alle Formeln auf einmal.": "<strong>Ansicht → Formel anzeigen</strong> (عرض → إظهار الصيغ) يُظهر كل الصيغ دفعة واحدة.",
  "Typische stille Fehler kennst du aus Klasse 8: getippte Zahl statt Formel, fehlendes $, zu kurzer Bereich in SUMME.": "الأخطاء الصامتة النموذجية تعرفها من الصف 8: رقم مكتوب بدل صيغة، <code>$</code> ناقصة، نطاق قصير جدًا في SUMME.",
- "Kurzvideo (folgt): Fehler finden in 60 Sekunden": "<strong>فيديو قصير (قريبًا):</strong> اعثر على الأخطاء في 60 ثانية",
  "3 Das Fehler-Labor 5 Min": "<span class=\"step-no\">3</span> مختبر الأخطاء <span class=\"chip\">5 د</span>",
  "Die Kiosk-Abrechnung ist voller Fehler. Repariere die gelben Zellen, bis nichts mehr rot leuchtet. Verkauft wurde an 2 Tagen.": "جدول مبيعات الكشك مليء بالأخطاء. أصلح الخلايا الصفراء حتى لا يبقى شيء أحمر. تمّ البيع في <strong>يومين</strong>.",
  "ExpeditionFreiwillig: Fehler elegant verstecken mit WENNFEHLER.": "<span class=\"badge expedition\">Expedition</span><span><strong>اختياري:</strong> أخفِ الأخطاء بأناقة باستخدام WENNFEHLER (إذا كان خطأ).</span>",

@@ -12,7 +12,6 @@
  "Klick C5 und D5 an. Hier unter der Tabelle steht dann, was Calc rechnet.": "<strong>Klikni na C5 i D5.</strong> Ovdje ispod tabele onda piše šta Calc računa.",
  "Beispiel: Anteil und der %-Knopf": "Primjer: udio i dugme %",
  "Klick auf % Als Prozent formatieren. In Calc: Symbolleiste % oder Strg + Umschalt + 5.": "<strong>Klikni na % Als Prozent formatieren</strong> (formatiraj kao procenat). U Calcu: traka sa alatima <strong>%</strong> ili <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>5</kbd>.",
- "Kurzvideo (folgt): Rabatt berechnen in 60 Sekunden": "<strong>Kratki video (uskoro):</strong> Izračunaj popust za 60 sekundi",
  "3 Sale-Labor 5 Min": "<span class=\"step-no\">3</span> Laboratorija rasprodaje <span class=\"chip\">5 min</span>",
  "20 % ist für Calc die Zahl 0,2. Prozente immer mit %-Zeichen eintippen: 20%": "<strong>20 % je za Calc broj 0,2.</strong> Procente uvijek upisuj sa znakom %: <code>20%</code>",
  "Prozentwert: =B5*$B$2 – kein /100 nötig.": "Procentualni iznos: <code>=B5*$B$2</code> – <code>/100</code> nije potrebno.",

@@ -18,7 +18,6 @@
  "Enter.": "<kbd>Enter</kbd>.",
  "So rechnet Calc beim Schulbedarf": "هكذا يحسب Calc الأدوات المدرسية",
  "Ändert sich eine Zahl, rechnet Calc alles von selbst neu.": "إذا تغيّر رقم، يعيد Calc حساب كل شيء بنفسه.",
- "Kurzvideo (folgt): Eine Formel mit Klicks bauen": "<strong>فيديو قصير (قريبًا):</strong> ابنِ صيغة بالنقر",
  "ExpeditionFreiwillig: Punkt vor Strich und Klammern.": "<span class=\"badge expedition\">Expedition</span><span><strong>اختياري:</strong> ترتيب العمليات والأقواس.</span>",
  "Rechenzeichen: + plus · - minus · * mal · / geteilt.": "علامات الحساب: <code>+</code> زائد · <code>-</code> ناقص · <code>*</code> ضرب · <code>/</code> قسمة.",
  "Zellen einfügen: Beim Tippen der Formel die Zelle einfach anklicken.": "إدراج الخلايا: أثناء كتابة الصيغة <strong>انقر</strong> ببساطة على الخلية.",

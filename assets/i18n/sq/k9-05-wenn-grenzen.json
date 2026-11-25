@@ -19,7 +19,6 @@
  "über / unter": "mbi / nën",
  "gleich / ungleich": "i barabartë / jo i barabartë",
  "Text steht in \"Anführungszeichen\". Zahlen und Zellen ohne.": "Teksti në <code>\"Anführungszeichen\"</code> (thonjëza). Numrat dhe qelizat pa to.",
- "Kurzvideo (folgt): Grenzen mit $ festhalten": "<strong>Video e shkurtër (së shpejti):</strong> Fikso kufijtë me $",
  "3 Akku-Check 5 Min": "<span class=\"step-no\">3</span> Kontrolli i baterisë <span class=\"chip\">5 min</span>",
  "Unter 20 % soll in Spalte C laden! stehen, sonst ok. Schreib die Formel in C5 und füll sie nach unten aus.": "Nën 20 % kolona C duhet të tregojë <strong>laden!</strong> (karikoje!), përndryshe <strong>ok</strong>. Shkruaje formulën në C5 dhe plotësoje poshtë.",
  "ExpeditionFreiwillig: Notenrechner mit WENN in WENN und Lob-Brief mit UND.": "<span class=\"badge expedition\">Expedition</span><span><strong>Fakultative:</strong> Llogaritës notash me WENN brenda WENN dhe letër lavdërimi me UND (DHE).</span>",

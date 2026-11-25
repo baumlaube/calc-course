@@ -12,7 +12,6 @@
  "② Text im Dialog in Anführungszeichen: \"fehlt\" – wie bei WENN.": "<strong>②</strong> Текст у діалозі пишуть у лапках: <code>\"fehlt\"</code> – як у WENN.",
  "③ Grenze aus einer Zelle: als Wert $B$1 eintragen – mit $, wie bei WENN 3.": "<strong>③</strong> Межа з клітинки: як значення введи <code>$B$1</code> – зі знаком <code>$</code>, як у WENN 3.",
  "Falsche Reihenfolge? Format → Bedingt → Verwalten … → Bearbeiten. Dort kannst du Bedingungen nach oben und unten schieben.": "Неправильний порядок? <strong>Format → Bedingt → Verwalten … → Bearbeiten</strong> (керувати → редагувати). Там умови можна пересувати вгору і вниз.",
- "Kurzvideo (folgt): Die Akku-Ampel": "<strong>Коротке відео (буде пізніше):</strong> світлофор батареї",
  "3 Regel-Labor in 3 Stufen 10 Min": "<span class=\"step-no\">3</span> Лабораторія правил: 3 рівні <span class=\"chip\">10 хв</span>",
  "ExpeditionFreiwillig: Ganze Zeilen färben mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span><span><strong>За бажанням:</strong> фарбувати цілі рядки за допомогою „Formel ist“ (формула).</span>",
  "Mehrere Bedingungen: Calc nimmt die erste, die passt. Darum die strengste Bedingung zuerst.": "Кілька умов: Calc бере <strong>першу</strong>, яка підходить. Тому найсуворішу умову став першою.",

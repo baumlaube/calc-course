@@ -18,7 +18,6 @@
  "Enter.": "<kbd>Enter</kbd>.",
  "So rechnet Calc beim Schulbedarf": "Jak Calc liczy przybory szkolne",
  "Ändert sich eine Zahl, rechnet Calc alles von selbst neu.": "Jeśli zmieni się liczba, Calc sam wszystko przelicza.",
- "Kurzvideo (folgt): Eine Formel mit Klicks bauen": "<strong>Krótki film (wkrótce):</strong> Budowanie formuły kliknięciami",
  "ExpeditionFreiwillig: Punkt vor Strich und Klammern.": "<span class=\"badge expedition\">Expedition</span><span><strong>Nieobowiązkowo:</strong> Kolejność działań i nawiasy.</span>",
  "Rechenzeichen: + plus · - minus · * mal · / geteilt.": "Znaki działań: <code>+</code> plus · <code>-</code> minus · <code>*</code> razy · <code>/</code> podzielić przez.",
  "Zellen einfügen: Beim Tippen der Formel die Zelle einfach anklicken.": "Wstawianie komórek: podczas pisania formuły po prostu <strong>kliknij</strong> komórkę.",

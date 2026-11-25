@@ -16,7 +16,6 @@
  "Bei Vorlage anwenden eine Farbe wählen → OK.": "At <strong>Vorlage anwenden</strong> (apply style) choose a colour → <strong>OK</strong>.",
  "Die drei wichtigsten Vorlagen:": "The three most important styles:",
  "Weitere Bedingungen für dieselben Zellen: im Dialog auf Hinzufügen. Ändern oder löschen: Format → Bedingt → Verwalten …": "More conditions for the same cells: click <strong>Hinzufügen</strong> (add) in the dialog. Change or delete: <strong>Format → Bedingt → Verwalten …</strong> (manage)",
- "Kurzvideo (folgt): Bedingte Formatierung in 60 Sekunden": "<strong>Short video (coming soon):</strong> Conditional formatting in 60 seconds",
  "3 Regel-Labor 8 Min": "<span class=\"step-no\">3</span> Rule lab <span class=\"chip\">8 min</span>",
  "ExpeditionFreiwillig: Spendenlauf mit Datenbalken und Farbskala.": "<span class=\"badge expedition\">Expedition</span><span><strong>Optional:</strong> Charity run with data bars and colour scale.</span>",
  "Bedingte Formatierung ist WENN für Farben: Wenn der Zellwert … ist, dann färbe die Zelle.": "Conditional formatting is WENN for colours: if the cell value is …, colour the cell.",

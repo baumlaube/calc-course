@@ -19,7 +19,6 @@
  "über / unter": "больше / меньше",
  "gleich / ungleich": "равно / не равно",
  "Text steht in \"Anführungszeichen\". Zahlen und Zellen ohne.": "Текст пишут в <code>\"Anführungszeichen\"</code> (кавычках). Числа и ячейки – без.",
- "Kurzvideo (folgt): Grenzen mit $ festhalten": "<strong>Короткое видео (скоро):</strong> закрепить границы знаком $",
  "3 Akku-Check 5 Min": "<span class=\"step-no\">3</span> Проверка батареи <span class=\"chip\">5 мин</span>",
  "Unter 20 % soll in Spalte C laden! stehen, sonst ok. Schreib die Formel in C5 und füll sie nach unten aus.": "Если меньше 20 %, столбец C должен показывать <strong>laden!</strong> (зарядить!), иначе <strong>ok</strong>. Напиши формулу в C5 и заполни вниз.",
  "ExpeditionFreiwillig: Notenrechner mit WENN in WENN und Lob-Brief mit UND.": "<span class=\"badge expedition\">Expedition</span><span><strong>По желанию:</strong> калькулятор оценок с WENN в WENN и похвальное письмо с UND (И).</span>",

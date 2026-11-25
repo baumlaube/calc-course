@@ -20,7 +20,6 @@
  "Klick in der Formel auf B2.": "Formülde <code>B2</code>'ye tıkla.",
  "Drück Umschalt + F4.": "<kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd>'e bas.",
  "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "Bazı dizüstü bilgisayarlarda: <kbd>Fn</kbd> tuşuna da bas. <code>$</code> işaretini kendin de yazabilirsin: <kbd>Umschalt</kbd> (Shift) + <kbd>4</kbd>.",
- "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>Kısa video (yakında):</strong> 30 saniyede $",
  "ExpeditionFreiwillig: Das ganze Einmaleins mit einer einzigen Formel.": "<span class=\"badge expedition\">Expedition</span><span><strong>İsteğe bağlı:</strong> Tek bir formülle bütün çarpım tablosu.</span>",
  "Beim Ausfüllen wandern Zellbezüge mit: Aus B5 wird B6, B7, … Das ist ein relativer Bezug.": "Doldururken hücre başvuruları birlikte kayar: <code>B5</code>, <code>B6</code>, <code>B7</code>, … olur. Bu bir <strong>relativer Bezug</strong> (göreli başvuru).",
  "Ein $ hält fest: $B$2 bleibt beim Ausfüllen immer B2. Das ist ein absoluter Bezug.": "Bir <code>$</code> onu yerinde tutar: <code>$B$2</code> doldururken hep B2 kalır. Bu bir <strong>absoluter Bezug</strong> (mutlak başvuru).",

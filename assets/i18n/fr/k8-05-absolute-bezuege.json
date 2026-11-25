@@ -20,7 +20,6 @@
  "Klick in der Formel auf B2.": "Dans la formule, clique sur <code>B2</code>.",
  "Drück Umschalt + F4.": "Appuie sur <kbd>Umschalt</kbd> (Maj) + <kbd>F4</kbd>.",
  "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "Sur certains ordinateurs portables : appuie aussi sur <kbd>Fn</kbd>. Tu peux aussi taper le <code>$</code> toi-même : <kbd>Umschalt</kbd> (Maj) + <kbd>4</kbd>.",
- "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>Courte vidéo (bientôt) :</strong> le $ en 30 secondes",
  "ExpeditionFreiwillig: Das ganze Einmaleins mit einer einzigen Formel.": "<span class=\"badge expedition\">Expedition</span><span><strong>Facultatif :</strong> toute la table de multiplication avec une seule formule.</span>",
  "Beim Ausfüllen wandern Zellbezüge mit: Aus B5 wird B6, B7, … Das ist ein relativer Bezug.": "Pendant la recopie, les références de cellules se déplacent : <code>B5</code> devient <code>B6</code>, <code>B7</code>, … C'est une <strong>relativer Bezug</strong> (référence relative).",
  "Ein $ hält fest: $B$2 bleibt beim Ausfüllen immer B2. Das ist ein absoluter Bezug.": "Un <code>$</code> fixe : <code>$B$2</code> reste toujours B2 pendant la recopie. C'est une <strong>absoluter Bezug</strong> (référence absolue).",

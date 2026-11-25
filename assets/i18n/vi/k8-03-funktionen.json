@@ -18,7 +18,6 @@
  "Abkürzung in Calc: der Knopf Σ links neben der Eingabezeile.": "Lối tắt trong Calc: nút <strong>Σ</strong> bên trái <strong>Eingabezeile</strong> (dòng nhập).",
  "Der Σ-Knopf rät den Bereich. Meistens stimmt er. Hier sind zwei Fallen versteckt!": "Nút Σ <strong>đoán</strong> vùng ô. Thường thì đúng. Ở đây có hai cái bẫy!",
  "Klick B8 an und dann auf Σ Summe. Schau dir den farbigen Rahmen an, bevor du Enter drückst. Stimmt der Bereich nicht, verbessere ihn in der Eingabezeile. Dann dasselbe für C8.": "Bấm vào B8 rồi bấm <strong>Σ Summe</strong>. Hãy nhìn khung màu <strong>trước khi</strong> nhấn <kbd>Enter</kbd>. Nếu vùng ô không đúng, hãy sửa nó trong Eingabezeile (dòng nhập). Rồi làm tương tự cho C8.",
- "Kurzvideo (folgt): SUMME mit der Maus": "<strong>Video ngắn (sắp có):</strong> SUMME bằng chuột",
  "SUMME zählt zusammen · MITTELWERT = Durchschnitt · MIN = kleinster Wert · MAX = größter Wert.": "<strong>SUMME</strong> cộng lại · <strong>MITTELWERT</strong> = trung bình · <strong>MIN</strong> = giá trị nhỏ nhất · <strong>MAX</strong> = giá trị lớn nhất.",
  "Der Σ-Knopf rät den Bereich. Rahmen prüfen, dann erst Enter.": "Nút Σ đoán vùng ô. <strong>Kiểm tra khung</strong>, rồi mới nhấn <kbd>Enter</kbd>.",
  "Leere Zellen zählen nicht mit.": "Ô trống không được tính.",

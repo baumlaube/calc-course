@@ -20,7 +20,6 @@
  "Klick in der Formel auf B2.": "În formulă, dă clic pe <code>B2</code>.",
  "Drück Umschalt + F4.": "Apasă <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd>.",
  "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "Pe unele laptopuri: apasă și <kbd>Fn</kbd>. Poți scrie și singur semnul <code>$</code>: <kbd>Umschalt</kbd> (Shift) + <kbd>4</kbd>.",
- "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>Video scurt (în curând):</strong> $ în 30 de secunde",
  "ExpeditionFreiwillig: Das ganze Einmaleins mit einer einzigen Formel.": "<span class=\"badge expedition\">Expedition</span><span><strong>Opțional:</strong> Toată tabla înmulțirii cu o singură formulă.</span>",
  "Beim Ausfüllen wandern Zellbezüge mit: Aus B5 wird B6, B7, … Das ist ein relativer Bezug.": "La umplere, referințele la celule se mută: <code>B5</code> devine <code>B6</code>, <code>B7</code>, … Aceasta e o <strong>relativer Bezug</strong> (referință relativă).",
  "Ein $ hält fest: $B$2 bleibt beim Ausfüllen immer B2. Das ist ein absoluter Bezug.": "Un <code>$</code> o ține pe loc: <code>$B$2</code> rămâne mereu B2 la umplere. Aceasta e o <strong>absoluter Bezug</strong> (referință absolută).",

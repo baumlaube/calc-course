@@ -20,7 +20,6 @@
  "Enter.": "<kbd>Enter</kbd>.",
  "So rechnet Calc beim Schulbedarf": "Як Calc рахує шкільне приладдя",
  "Ändert sich eine Zahl, rechnet Calc alles von selbst neu.": "Якщо змінюється число, Calc сам усе перераховує.",
- "Kurzvideo (folgt): Eine Formel mit Klicks bauen": "<strong>Коротке відео (буде пізніше):</strong> будуємо формулу клацаннями",
  "ExpeditionFreiwillig: Punkt vor Strich und Klammern.": "<span class=\"badge expedition\">Expedition</span><span><strong>За бажанням:</strong> порядок дій і дужки.</span>",
  "Rechenzeichen: + plus · - minus · * mal · / geteilt.": "Знаки дій: <code>+</code> плюс · <code>-</code> мінус · <code>*</code> помножити · <code>/</code> поділити.",
  "Zellen einfügen: Beim Tippen der Formel die Zelle einfach anklicken.": "Вставляти клітинки: під час введення формули просто <strong>клацни</strong> на клітинку.",

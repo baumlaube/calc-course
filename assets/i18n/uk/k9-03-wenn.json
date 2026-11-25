@@ -18,7 +18,6 @@
  "kleiner? größer?": "менше? більше?",
  "höchstens? mindestens?": "щонайбільше? щонайменше?",
  "Text steht immer in \"Anführungszeichen\". Zahlen ohne.": "Текст завжди пишуть у <code>\"Anführungszeichen\"</code> (лапках). Числа – без.",
- "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>Коротке відео (буде пізніше):</strong> перша формула з WENN",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> Тренування запитань: 4 рівні <span class=\"chip\">8 хв</span>",
  "ExpeditionFreiwillig: Quiz-Maker – ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span><span><strong>За бажанням:</strong> Конструктор вікторини – вікторина, яка перевіряє себе сама.</span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN ставить запитання, на яке є лише відповідь «так» або «ні»: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",

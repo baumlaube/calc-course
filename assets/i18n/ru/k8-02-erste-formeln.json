@@ -18,7 +18,6 @@
  "Enter.": "<kbd>Enter</kbd>.",
  "So rechnet Calc beim Schulbedarf": "Как Calc считает школьные покупки",
  "Ändert sich eine Zahl, rechnet Calc alles von selbst neu.": "Если число меняется, Calc сам всё пересчитывает.",
- "Kurzvideo (folgt): Eine Formel mit Klicks bauen": "<strong>Короткое видео (скоро):</strong> собрать формулу щелчками",
  "ExpeditionFreiwillig: Punkt vor Strich und Klammern.": "<span class=\"badge expedition\">Expedition</span><span><strong>По желанию:</strong> порядок действий и скобки.</span>",
  "Rechenzeichen: + plus · - minus · * mal · / geteilt.": "Знаки действий: <code>+</code> плюс · <code>-</code> минус · <code>*</code> умножить · <code>/</code> разделить.",
  "Zellen einfügen: Beim Tippen der Formel die Zelle einfach anklicken.": "Вставить ячейки: при вводе формулы просто <strong>щёлкни</strong> по ячейке.",

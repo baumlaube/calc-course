@@ -20,7 +20,6 @@
  "Klick in der Formel auf B2.": "W formule kliknij <code>B2</code>.",
  "Drück Umschalt + F4.": "Naciśnij <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd>.",
  "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "Na niektórych laptopach: naciśnij też <kbd>Fn</kbd>. Znak <code>$</code> możesz też wpisać ręcznie: <kbd>Umschalt</kbd> (Shift) + <kbd>4</kbd>.",
- "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>Krótki film (wkrótce):</strong> $ w 30 sekund",
  "ExpeditionFreiwillig: Das ganze Einmaleins mit einer einzigen Formel.": "<span class=\"badge expedition\">Expedition</span><span><strong>Nieobowiązkowo:</strong> Cała tabliczka mnożenia jedną formułą.</span>",
  "Beim Ausfüllen wandern Zellbezüge mit: Aus B5 wird B6, B7, … Das ist ein relativer Bezug.": "Przy wypełnianiu odwołania do komórek się przesuwają: <code>B5</code> staje się <code>B6</code>, <code>B7</code>, … To jest <strong>relativer Bezug</strong> (odwołanie względne).",
  "Ein $ hält fest: $B$2 bleibt beim Ausfüllen immer B2. Das ist ein absoluter Bezug.": "<code>$</code> trzyma je w miejscu: <code>$B$2</code> przy wypełnianiu zawsze zostaje B2. To jest <strong>absoluter Bezug</strong> (odwołanie bezwzględne).",

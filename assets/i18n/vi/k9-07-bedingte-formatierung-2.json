@@ -17,7 +17,6 @@
  "② Text im Dialog in Anführungszeichen: \"fehlt\" – wie bei WENN.": "<strong>②</strong> Chữ trong hộp thoại nằm trong dấu ngoặc kép: <code>\"fehlt\"</code> – giống như ở WENN.",
  "③ Grenze aus einer Zelle: als Wert $B$1 eintragen – mit $, wie bei WENN 3.": "<strong>③</strong> Mốc lấy từ một ô: điền giá trị là <code>$B$1</code> – có <code>$</code>, giống như ở WENN 3.",
  "Falsche Reihenfolge? Format → Bedingt → Verwalten … → Bearbeiten. Dort kannst du Bedingungen nach oben und unten schieben.": "Sai thứ tự? <strong>Format → Bedingt → Verwalten … → Bearbeiten</strong> (quản lý → sửa). Ở đó bạn di chuyển được các điều kiện lên trên và xuống dưới.",
- "Kurzvideo (folgt): Die Akku-Ampel": "<strong>Video ngắn (sắp có):</strong> Đèn giao thông cho pin",
  "3 Regel-Labor in 3 Stufen 10 Min": "<span class=\"step-no\">3</span> Phòng thí nghiệm quy tắc qua 3 cấp <span class=\"chip\">10 phút</span>",
  "Nächste Stufe →": "Nächste Stufe → (cấp tiếp theo)",
  "Mehrere Bedingungen: Calc nimmt die erste, die passt. Darum die strengste Bedingung zuerst.": "Nhiều điều kiện: Calc lấy điều kiện <strong>đầu tiên</strong> khớp. Vì vậy điều kiện chặt nhất đặt trước.",

@@ -7,7 +7,6 @@
  "Statt \"Ja\" und \"Nein\" darf eine Zahl oder eine Rechnung stehen.Zahlen und Rechnungen ohne Anführungszeichen.": "Вместо <code>\"Ja\"</code> и <code>\"Nein\"</code> может стоять <strong>число</strong> или <strong>вычисление</strong>.<br/>Числа и вычисления – <strong>без</strong> кавычек.",
  "Beispiel: Gesamtpreis im Online-Shop": "Пример: общая цена в интернет-магазине",
  "⚠ \"4,95\" in Anführungszeichen wäre Text. Damit kann Calc nicht weiterrechnen.": "⚠ <code>\"4,95\"</code> в кавычках было бы текстом. С ним Calc не может считать.",
- "Kurzvideo (folgt): Rechnen mit WENN": "<strong>Короткое видео (скоро):</strong> считать с WENN",
  "3 Rechen-Training in 3 Stufen 8 Min": "<span class=\"step-no\">3</span> Тренировка вычислений: 3 уровня <span class=\"chip\">8 мин</span>",
  "ExpeditionFreiwillig: Rabatt ab 50 € – WENN trifft Prozentrechnung.": "<span class=\"badge expedition\">Expedition</span><span><strong>По желанию:</strong> скидка от 50 € – WENN встречает проценты.</span>",
  "Statt \"Ja\" und \"Nein\" darf eine Zahl oder eine Rechnung stehen.": "Вместо <code>\"Ja\"</code> и <code>\"Nein\"</code> может стоять число или вычисление.",

@@ -12,7 +12,6 @@
  "② Text im Dialog in Anführungszeichen: \"fehlt\" – wie bei WENN.": "<strong>②</strong> النص في مربع الحوار بين علامتي تنصيص: <code>\"fehlt\"</code> – كما في WENN.",
  "③ Grenze aus einer Zelle: als Wert $B$1 eintragen – mit $, wie bei WENN 3.": "<strong>③</strong> حدّ من خلية: أدخل كقيمة <code>$B$1</code> – مع <code>$</code>، كما في WENN 3.",
  "Falsche Reihenfolge? Format → Bedingt → Verwalten … → Bearbeiten. Dort kannst du Bedingungen nach oben und unten schieben.": "ترتيب خاطئ؟ <strong>Format → Bedingt → Verwalten … → Bearbeiten</strong> (إدارة → تحرير). هناك يمكنك تحريك الشروط إلى الأعلى والأسفل.",
- "Kurzvideo (folgt): Die Akku-Ampel": "<strong>فيديو قصير (قريبًا):</strong> إشارة مرور البطارية",
  "3 Regel-Labor in 3 Stufen 10 Min": "<span class=\"step-no\">3</span> مختبر القواعد في 3 مستويات <span class=\"chip\">10 د</span>",
  "ExpeditionFreiwillig: Ganze Zeilen färben mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span><span><strong>اختياري:</strong> لوّن صفوفًا كاملة مع „Formel ist“ (الصيغة هي).</span>",
  "Mehrere Bedingungen: Calc nimmt die erste, die passt. Darum die strengste Bedingung zuerst.": "عدة شروط: Calc يأخذ <strong>أول</strong> شرط يناسب. لذلك ضع الشرط الأشدّ أولًا.",

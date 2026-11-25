@@ -8,7 +8,6 @@
  "=SUMME( tippen.": "Scrie <code>=SUMME(</code>.",
  ") tippen und Enter.": "Scrie <code>)</code> și apasă <kbd>Enter</kbd>.",
  "Abkürzung in Calc: der Knopf Σ links neben der Eingabezeile.": "Scurtătură în Calc: butonul <strong>Σ</strong> din stânga <strong>Eingabezeile</strong> (linia de introducere).",
- "Kurzvideo (folgt): SUMME mit der Maus": "<strong>Video scurt (în curând):</strong> SUMME cu mouse-ul",
  "ExpeditionFreiwillig: 100 Mal würfeln mit Calc.": "<span class=\"badge expedition\">Expedition</span><span><strong>Opțional:</strong> Aruncă zarul de 100 de ori cu Calc.</span>",
  "SUMME zählt zusammen · MITTELWERT = Durchschnitt · MIN = kleinster Wert · MAX = größter Wert.": "<strong>SUMME</strong> adună · <strong>MITTELWERT</strong> = media · <strong>MIN</strong> = cea mai mică valoare · <strong>MAX</strong> = cea mai mare valoare.",
  "Bereich markieren: Nach =SUMME( mit gedrückter Maustaste von B5 bis B9 ziehen.": "Selectarea zonei: după <code>=SUMME(</code> ține apăsat butonul mouse-ului și trage de la B5 la B9.",

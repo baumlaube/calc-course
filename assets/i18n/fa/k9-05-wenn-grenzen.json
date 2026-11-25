@@ -19,7 +19,6 @@
  "über / unter": "بیشتر از / کمتر از",
  "gleich / ungleich": "مساوی / نامساوی",
  "Text steht in \"Anführungszeichen\". Zahlen und Zellen ohne.": "متن داخل <code>\"Anführungszeichen\"</code> (گیومه). عددها و خانه‌ها بدون آن.",
- "Kurzvideo (folgt): Grenzen mit $ festhalten": "<strong>ویدیوی کوتاه (به زودی):</strong> مرزها را با $ ثابت کن",
  "3 Akku-Check 5 Min": "<span class=\"step-no\">3</span> بررسی باتری <span class=\"chip\">5 دقیقه</span>",
  "Unter 20 % soll in Spalte C laden! stehen, sonst ok. Schreib die Formel in C5 und füll sie nach unten aus.": "زیر 20 % ستون C باید <strong>laden!</strong> (شارژ کن!) نشان بدهد، وگرنه <strong>ok</strong>. فرمول را در C5 بنویس و به پایین پر کن.",
  "ExpeditionFreiwillig: Notenrechner mit WENN in WENN und Lob-Brief mit UND.": "<span class=\"badge expedition\">Expedition</span><span><strong>اختیاری:</strong> محاسبه‌گر نمره با WENN داخل WENN و تقدیرنامه با UND (و).</span>",

@@ -21,7 +21,6 @@
  "Drück Umschalt + F4.": "Pritisni <kbd>Umschalt</kbd> + <kbd>F4</kbd> (Shift + F4).",
  "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "Na nekim laptopima: dodatno pritisni <kbd>Fn</kbd>. Znak <code>$</code> možeš i sam otkucati: <kbd>Umschalt</kbd> (Shift) + <kbd>4</kbd>.",
  "Profi-Trick: ein Name statt $. Klick B2 an, tipp oben links ins Namenfeld Lohn und drück Enter. Jetzt geht auch =B5*Lohn. Ein Name bleibt beim Ausfüllen immer fest.": "<strong>Profi trik: ime umjesto $.</strong> Klikni na B2, gore lijevo u <strong>Namenfeld</strong> (polje za ime) upiši <code>Lohn</code> (plata) i pritisni <kbd>Enter</kbd>. Sada radi i <code>=B5*Lohn</code>. Ime pri popunjavanju uvijek ostaje fiksno.",
- "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>Kratki video (uskoro):</strong> $ za 30 sekundi",
  "Beim Ausfüllen wandern Zellbezüge mit: Aus B5 wird B6, B7, … Das ist ein relativer Bezug.": "Pri popunjavanju reference ćelija putuju: od <code>B5</code> postaje <code>B6</code>, <code>B7</code>, … To je <strong>relativer Bezug</strong> (relativna referenca).",
  "Ein $ hält fest: $B$2 bleibt beim Ausfüllen immer B2. Das ist ein absoluter Bezug.": "<code>$</code> drži fiksno: <code>$B$2</code> pri popunjavanju uvijek ostaje B2. To je <strong>absoluter Bezug</strong> (apsolutna referenca).",
  "Schnell gesetzt: In der Formel auf den Bezug klicken und Umschalt + F4 drücken.": "Brzo postavljeno: u formuli klikni na referencu i pritisni <kbd>Umschalt</kbd> + <kbd>F4</kbd>.",

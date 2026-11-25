@@ -8,7 +8,6 @@
  "=SUMME( tippen.": "<code>=SUMME(</code> yaz.",
  ") tippen und Enter.": "<code>)</code> yaz ve <kbd>Enter</kbd>'a bas.",
  "Abkürzung in Calc: der Knopf Σ links neben der Eingabezeile.": "Calc'ta kısa yol: <strong>Eingabezeile</strong> (giriş satırı) solundaki <strong>Σ</strong> düğmesi.",
- "Kurzvideo (folgt): SUMME mit der Maus": "<strong>Kısa video (yakında):</strong> Fareyle SUMME",
  "ExpeditionFreiwillig: 100 Mal würfeln mit Calc.": "<span class=\"badge expedition\">Expedition</span><span><strong>İsteğe bağlı:</strong> Calc ile 100 kez zar at.</span>",
  "SUMME zählt zusammen · MITTELWERT = Durchschnitt · MIN = kleinster Wert · MAX = größter Wert.": "<strong>SUMME</strong> toplar · <strong>MITTELWERT</strong> = ortalama · <strong>MIN</strong> = en küçük değer · <strong>MAX</strong> = en büyük değer.",
  "Bereich markieren: Nach =SUMME( mit gedrückter Maustaste von B5 bis B9 ziehen.": "Aralık seçmek: <code>=SUMME(</code> yazdıktan sonra fare tuşunu basılı tut ve B5'ten B9'a sürükle.",

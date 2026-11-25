@@ -19,7 +19,6 @@
  "kleiner? größer?": "küçük mü? büyük mü?",
  "höchstens? mindestens?": "en fazla mı? en az mı?",
  "Text steht immer in \"Anführungszeichen\". Zahlen ohne.": "Metin her zaman <code>\"Anführungszeichen\"</code> (tırnak işaretleri) içine yazılır. Sayılar tırnaksız.",
- "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>Kısa video (yakında):</strong> İlk WENN formülü",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> 4 seviyede soru antrenmanı <span class=\"chip\">8 dk</span>",
  "ExpeditionFreiwillig: Quiz-Maker – ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span><span><strong>İsteğe bağlı:</strong> Quiz yapıcı – kendini kontrol eden bir quiz.</span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN sadece evet veya hayır cevabı olan bir soru sorar: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",

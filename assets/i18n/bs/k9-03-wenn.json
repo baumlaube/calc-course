@@ -18,7 +18,6 @@
  "✔ A5<>\"Bus\"": "✔ <code>A5&lt;&gt;\"Bus\"</code>",
  "kleiner? größer?": "manje? veće?",
  "höchstens? mindestens?": "najviše? najmanje?",
- "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>Kratki video (uskoro):</strong> Prva WENN formula",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> Trening pitanja u 4 nivoa <span class=\"chip\">8 min</span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN postavlja pitanje na koje postoji samo da ili ne: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",
  "Beispiel: =WENN(A6=\"Katze\";\"Ja\";\"Nein\") – Steht in A6 Katze?": "Primjer: <code class=\"long\">=WENN(A6=\"Katze\";\"Ja\";\"Nein\")</code> – stoji li u A6 Katze (mačka)?",

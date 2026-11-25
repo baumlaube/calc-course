@@ -23,7 +23,6 @@
  "über / unter": "trên / dưới",
  "gleich / ungleich": "bằng / khác",
  "Text steht in \"Anführungszeichen\". Zahlen und Zellen ohne.": "Chữ nằm trong <code>\"Anführungszeichen\"</code> (dấu ngoặc kép). Số và ô thì không.",
- "Kurzvideo (folgt): Grenzen mit $ festhalten": "<strong>Video ngắn (sắp có):</strong> Giữ cố định mốc bằng $",
  "3 Akku-Check 5 Min": "<span class=\"step-no\">3</span> Kiểm tra pin <span class=\"chip\">5 phút</span>",
  "Unter 20 % soll in Spalte C laden! stehen, sonst ok. Schreib die Formel in C5 und füll sie nach unten aus.": "Dưới 20 % thì cột C phải hiện <strong>laden!</strong> (sạc đi!), nếu không thì <strong>ok</strong>. Viết công thức vào C5 rồi điền xuống dưới.",
  "=WENN(Frage; Dann; Sonst) – z. B. =WENN(B5>=$B$2;\"bestanden\";\"nicht bestanden\")": "<code>=WENN(Frage; Dann; Sonst)</code> (câu hỏi; thì; nếu không) – ví dụ <code class=\"long\">=WENN(B5&gt;=$B$2;\"bestanden\";\"nicht bestanden\")</code>",

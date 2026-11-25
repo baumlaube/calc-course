@@ -39,7 +39,6 @@
  "Eine Zahl wurde gezogen. Calc zählt dann hoch.": "Povučen je broj. Calc onda broji dalje.",
  "Nur Formeln ziehen. Zahlen kopieren.": "Povlači samo formule. Brojeve kopiraj.",
  "Aus still wird laut: Wandert ein Bezug ohne $ auf eine leere Zelle oder auf Text, zeigt Calc weiter unten #DIV/0! oder #WERT!. Der Fehler steckt dann oben in der ersten Formel.": "<strong>Od tihe postaje glasna:</strong> Ako referenca bez <code>$</code> otputuje na praznu ćeliju ili na tekst, Calc niže pokazuje <code>#DIV/0!</code> ili <code>#WERT!</code>. Greška je onda gore u prvoj formuli.",
- "Kurzvideo (folgt): Fehler finden in 60 Sekunden": "<strong>Kratki video (uskoro):</strong> Pronađi greške za 60 sekundi",
  "3 Das Fehler-Labor 5 Min": "<span class=\"step-no\">3</span> Laboratorija grešaka <span class=\"chip\">5 min</span>",
  "Die Kiosk-Abrechnung ist voller Fehler. Repariere die gelben Zellen, bis nichts mehr rot leuchtet. Verkauft wurde an 2 Tagen.": "Obračun kioska je pun grešaka. Popravljaj žute ćelije dok ništa više ne svijetli crveno. Prodavalo se <strong>2 dana</strong>.",
  "Laute Fehler zeigt Calc an: ### Spalte zu schmal · #WERT! mit Text gerechnet · #DIV/0! durch 0 geteilt · #NAME? Tippfehler.": "<strong>Glasne greške</strong> Calc pokazuje: <code>###</code> kolona preuska · <code>#WERT!</code> računato s tekstom · <code>#DIV/0!</code> dijeljeno sa 0 · <code>#NAME?</code> greška u kucanju.",

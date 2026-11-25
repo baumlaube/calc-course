@@ -19,7 +19,6 @@
  "über / unter": "iznad / ispod",
  "gleich / ungleich": "jednako / nije jednako",
  "Text steht in \"Anführungszeichen\". Zahlen und Zellen ohne.": "Tekst stoji pod navodnicima: <code>\"Anführungszeichen\"</code>. Brojevi i ćelije bez.",
- "Kurzvideo (folgt): Grenzen mit $ festhalten": "<strong>Kratki video (uskoro):</strong> Zadrži granice sa $",
  "3 Akku-Check 5 Min": "<span class=\"step-no\">3</span> Provjera baterije <span class=\"chip\">5 min</span>",
  "Unter 20 % soll in Spalte C laden! stehen, sonst ok. Schreib die Formel in C5 und füll sie nach unten aus.": "Ispod 20 % u koloni C treba stajati <strong>laden!</strong> (napuni!), inače <strong>ok</strong>. Napiši formulu u C5 i popuni je nadolje.",
  "=WENN(Frage; Dann; Sonst) – z. B. =WENN(B5>=$B$2;\"bestanden\";\"nicht bestanden\")": "<code>=WENN(Frage; Dann; Sonst)</code> (pitanje; onda; inače) – npr. <code class=\"long\">=WENN(B5&gt;=$B$2;\"bestanden\";\"nicht bestanden\")</code>",

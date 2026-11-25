@@ -21,7 +21,6 @@
  "Klick in der Formel auf B2.": "In the formula, click on <code>B2</code>.",
  "Drück Umschalt + F4.": "Press <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd>.",
  "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "On some laptops: also press <kbd>Fn</kbd>. You can also type the <code>$</code> yourself: <kbd>Umschalt</kbd> (Shift) + <kbd>4</kbd>.",
- "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>Short video (coming soon):</strong> The $ in 30 seconds",
  "ExpeditionFreiwillig: Das ganze Einmaleins mit einer einzigen Formel.": "<span class=\"badge expedition\">Expedition</span><span><strong>Optional:</strong> The whole times table with one single formula.</span>",
  "Beim Ausfüllen wandern Zellbezüge mit: Aus B5 wird B6, B7, … Das ist ein relativer Bezug.": "When filling, cell references move along: <code>B5</code> becomes <code>B6</code>, <code>B7</code>, … This is a <strong>relativer Bezug</strong> (relative reference).",
  "Ein $ hält fest: $B$2 bleibt beim Ausfüllen immer B2. Das ist ein absoluter Bezug.": "A <code>$</code> holds it in place: <code>$B$2</code> always stays B2 when filling. This is an <strong>absoluter Bezug</strong> (absolute reference).",

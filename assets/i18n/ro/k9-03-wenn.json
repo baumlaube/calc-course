@@ -19,7 +19,6 @@
  "kleiner? größer?": "mai mic? mai mare?",
  "höchstens? mindestens?": "cel mult? cel puțin?",
  "Text steht immer in \"Anführungszeichen\". Zahlen ohne.": "Textul stă mereu între <code>\"Anführungszeichen\"</code> (ghilimele). Numerele fără.",
- "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>Video scurt (în curând):</strong> Prima formulă WENN",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> Antrenament cu întrebări în 4 niveluri <span class=\"chip\">8 min</span>",
  "ExpeditionFreiwillig: Quiz-Maker – ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span><span><strong>Opțional:</strong> Creatorul de quiz – un quiz care se verifică singur.</span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN pune o întrebare care are doar răspunsul da sau nu: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",

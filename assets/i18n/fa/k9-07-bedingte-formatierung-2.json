@@ -12,7 +12,6 @@
  "② Text im Dialog in Anführungszeichen: \"fehlt\" – wie bei WENN.": "<strong>②</strong> متن در پنجره داخل گیومه است: <code>\"fehlt\"</code> – مثل WENN.",
  "③ Grenze aus einer Zelle: als Wert $B$1 eintragen – mit $, wie bei WENN 3.": "<strong>③</strong> مرز از یک خانه: به عنوان مقدار <code>$B$1</code> را وارد کن – با <code>$</code>، مثل WENN 3.",
  "Falsche Reihenfolge? Format → Bedingt → Verwalten … → Bearbeiten. Dort kannst du Bedingungen nach oben und unten schieben.": "ترتیب غلط است؟ <strong>Format → Bedingt → Verwalten … → Bearbeiten</strong> (مدیریت → ویرایش). آنجا می‌توانی شرط‌ها را بالا و پایین ببری.",
- "Kurzvideo (folgt): Die Akku-Ampel": "<strong>ویدیوی کوتاه (به زودی):</strong> چراغ راهنمای باتری",
  "3 Regel-Labor in 3 Stufen 10 Min": "<span class=\"step-no\">3</span> آزمایشگاه قانون در 3 مرحله <span class=\"chip\">10 دقیقه</span>",
  "ExpeditionFreiwillig: Ganze Zeilen färben mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span><span><strong>اختیاری:</strong> ردیف‌های کامل را با „Formel ist“ (فرمول است) رنگ کن.</span>",
  "Mehrere Bedingungen: Calc nimmt die erste, die passt. Darum die strengste Bedingung zuerst.": "چند شرط: Calc <strong>اولین</strong> شرطی را که جور است می‌گیرد. پس سخت‌گیرترین شرط را اول بگذار.",

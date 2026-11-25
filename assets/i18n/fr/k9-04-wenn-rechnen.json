@@ -7,7 +7,6 @@
  "Statt \"Ja\" und \"Nein\" darf eine Zahl oder eine Rechnung stehen.Zahlen und Rechnungen ohne Anführungszeichen.": "À la place de <code>\"Ja\"</code> et <code>\"Nein\"</code>, il peut y avoir un <strong>nombre</strong> ou un <strong>calcul</strong>.<br/>Nombres et calculs <strong>sans</strong> guillemets.",
  "Beispiel: Gesamtpreis im Online-Shop": "Exemple : prix total dans une boutique en ligne",
  "⚠ \"4,95\" in Anführungszeichen wäre Text. Damit kann Calc nicht weiterrechnen.": "⚠ <code>\"4,95\"</code> entre guillemets serait du texte. Calc ne peut pas calculer avec.",
- "Kurzvideo (folgt): Rechnen mit WENN": "<strong>Courte vidéo (bientôt) :</strong> calculer avec WENN",
  "3 Rechen-Training in 3 Stufen 8 Min": "<span class=\"step-no\">3</span> Entraînement au calcul en 3 niveaux <span class=\"chip\">8 min</span>",
  "ExpeditionFreiwillig: Rabatt ab 50 € – WENN trifft Prozentrechnung.": "<span class=\"badge expedition\">Expedition</span><span><strong>Facultatif :</strong> remise à partir de 50 € – WENN rencontre les pourcentages.</span>",
  "Statt \"Ja\" und \"Nein\" darf eine Zahl oder eine Rechnung stehen.": "À la place de <code>\"Ja\"</code> et <code>\"Nein\"</code>, il peut y avoir un nombre ou un calcul.",

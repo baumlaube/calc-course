@@ -26,7 +26,6 @@
  "📝 Blitzschlange (Abenteuerland Nord) – 32 Meter hoch, 80 km/h schnell": "📝 Blitzschlange (Abenteuerland Nord) – visoka 32 metra, brza 80 km/h",
  "Zwei Achterbahn-Notizen, total durcheinander. Bring sie in die Tabelle: eine Angabe pro Zelle.": "Dvije bilješke o rolerkosterima, potpuno izmiješane. Prenesi ih u tabelu: <strong>jedan podatak po ćeliji</strong>.",
  "Bei Höhe und Tempo tippst du nur die Zahl. Die Einheit kommt in die Überschrift: Ändere C1 in Höhe in m und D1 in Tempo in km/h.": "Kod visine i brzine pišeš <strong>samo broj</strong>. Jedinica ide u naslov: promijeni C1 u <code>Höhe in m</code> i D1 u <code>Tempo in km/h</code>.",
- "Kurzvideo (folgt): Calc in 60 Sekunden": "<strong>Kratki video (uskoro):</strong> Calc za 60 sekundi",
  "Was gibt es beim Pausenverkauf? Klick auf eine gelbe Zelle und tipp oben ein: drei Artikel in Spalte A und ihre Preise in Spalte B. Mit Enter bestätigst du.": "Šta se prodaje na odmoru? Klikni na žutu ćeliju i upiši gore: tri artikla u kolonu A i njihove cijene u kolonu B. Sa <kbd>Enter</kbd> potvrđuješ.",
  "Achte darauf: Wo landen die Wörter in der Zelle, wo die Preise? Probier auch mal 0.85 mit Punkt.": "<strong>Obrati pažnju:</strong> Gdje u ćeliji završe riječi, a gdje cijene? Probaj i <code>0.85</code> sa tačkom.",
  "Jede Zelle hat eine Adresse: erst die Spalte (Buchstabe), dann die Zeile (Zahl). Beispiel: C4.": "Svaka ćelija ima <strong>adresu</strong>: prvo kolona (slovo), onda red (broj). Primjer: <code>C4</code>.",

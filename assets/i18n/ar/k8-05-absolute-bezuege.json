@@ -20,7 +20,6 @@
  "Klick in der Formel auf B2.": "في الصيغة، انقر على <code>B2</code>.",
  "Drück Umschalt + F4.": "اضغط <kbd>Umschalt</kbd> (Shift) + <kbd>F4</kbd>.",
  "Auf manchen Laptops: zusätzlich Fn drücken. Du kannst das $ auch selbst tippen: Umschalt + 4.": "في بعض الحواسيب المحمولة: اضغط أيضًا <kbd>Fn</kbd>. يمكنك أيضًا أن تكتب <code>$</code> بنفسك: <kbd>Umschalt</kbd> (Shift) + <kbd>4</kbd>.",
- "Kurzvideo (folgt): Das $ in 30 Sekunden": "<strong>فيديو قصير (قريبًا):</strong> الـ $ في 30 ثانية",
  "ExpeditionFreiwillig: Das ganze Einmaleins mit einer einzigen Formel.": "<span class=\"badge expedition\">Expedition</span><span><strong>اختياري:</strong> جدول الضرب كاملًا بصيغة واحدة فقط.</span>",
  "Beim Ausfüllen wandern Zellbezüge mit: Aus B5 wird B6, B7, … Das ist ein relativer Bezug.": "عند التعبئة تنتقل مراجع الخلايا معها: <code>B5</code> تصبح <code>B6</code>، <code>B7</code>، … هذا <strong>relativer Bezug</strong> (مرجع نسبي).",
  "Ein $ hält fest: $B$2 bleibt beim Ausfüllen immer B2. Das ist ein absoluter Bezug.": "الـ <code>$</code> تُثبّته: <code>$B$2</code> تبقى دائمًا B2 عند التعبئة. هذا <strong>absoluter Bezug</strong> (مرجع مطلق).",

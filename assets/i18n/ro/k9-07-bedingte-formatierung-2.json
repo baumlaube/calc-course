@@ -12,7 +12,6 @@
  "② Text im Dialog in Anführungszeichen: \"fehlt\" – wie bei WENN.": "<strong>②</strong> Textul din fereastră stă între ghilimele: <code>\"fehlt\"</code> – ca la WENN.",
  "③ Grenze aus einer Zelle: als Wert $B$1 eintragen – mit $, wie bei WENN 3.": "<strong>③</strong> Limită dintr-o celulă: introdu ca valoare <code>$B$1</code> – cu <code>$</code>, ca la WENN 3.",
  "Falsche Reihenfolge? Format → Bedingt → Verwalten … → Bearbeiten. Dort kannst du Bedingungen nach oben und unten schieben.": "Ordine greșită? <strong>Format → Bedingt → Verwalten … → Bearbeiten</strong> (gestionare → editare). Acolo poți muta condițiile în sus și în jos.",
- "Kurzvideo (folgt): Die Akku-Ampel": "<strong>Video scurt (în curând):</strong> Semaforul bateriei",
  "3 Regel-Labor in 3 Stufen 10 Min": "<span class=\"step-no\">3</span> Laboratorul de reguli în 3 niveluri <span class=\"chip\">10 min</span>",
  "ExpeditionFreiwillig: Ganze Zeilen färben mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span><span><strong>Opțional:</strong> Colorează rânduri întregi cu „Formel ist” (formula este).</span>",
  "Mehrere Bedingungen: Calc nimmt die erste, die passt. Darum die strengste Bedingung zuerst.": "Mai multe condiții: Calc ia <strong>prima</strong> care se potrivește. Deci pune cea mai strictă condiție la început.",

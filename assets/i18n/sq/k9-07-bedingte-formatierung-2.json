@@ -12,7 +12,6 @@
  "② Text im Dialog in Anführungszeichen: \"fehlt\" – wie bei WENN.": "<strong>②</strong> Teksti në dritare shkon në thonjëza: <code>\"fehlt\"</code> – si te WENN.",
  "③ Grenze aus einer Zelle: als Wert $B$1 eintragen – mit $, wie bei WENN 3.": "<strong>③</strong> Kufi nga një qelizë: fut si vlerë <code>$B$1</code> – me <code>$</code>, si te WENN 3.",
  "Falsche Reihenfolge? Format → Bedingt → Verwalten … → Bearbeiten. Dort kannst du Bedingungen nach oben und unten schieben.": "Radhë e gabuar? <strong>Format → Bedingt → Verwalten … → Bearbeiten</strong> (menaxho → redakto). Aty mund t'i lëvizësh kushtet lart e poshtë.",
- "Kurzvideo (folgt): Die Akku-Ampel": "<strong>Video e shkurtër (së shpejti):</strong> Semafori i baterisë",
  "3 Regel-Labor in 3 Stufen 10 Min": "<span class=\"step-no\">3</span> Laboratori i rregullave në 3 nivele <span class=\"chip\">10 min</span>",
  "ExpeditionFreiwillig: Ganze Zeilen färben mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span><span><strong>Fakultative:</strong> Ngjyros rreshta të tërë me „Formel ist” (formula është).</span>",
  "Mehrere Bedingungen: Calc nimmt die erste, die passt. Darum die strengste Bedingung zuerst.": "Disa kushte: Calc merr të <strong>parin</strong> që përshtatet. Prandaj vendose kushtin më të rreptë në fillim.",

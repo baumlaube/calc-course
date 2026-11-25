@@ -7,7 +7,6 @@
  "Statt \"Ja\" und \"Nein\" darf eine Zahl oder eine Rechnung stehen.Zahlen und Rechnungen ohne Anführungszeichen.": "<code>\"Ja\"</code> ve <code>\"Nein\"</code> yerine bir <strong>sayı</strong> veya bir <strong>hesap</strong> olabilir.<br/>Sayılar ve hesaplar tırnak <strong>olmadan</strong>.",
  "Beispiel: Gesamtpreis im Online-Shop": "Örnek: internet mağazasında toplam fiyat",
  "⚠ \"4,95\" in Anführungszeichen wäre Text. Damit kann Calc nicht weiterrechnen.": "⚠ Tırnak içinde <code>\"4,95\"</code> metin olurdu. Calc onunla hesap yapamaz.",
- "Kurzvideo (folgt): Rechnen mit WENN": "<strong>Kısa video (yakında):</strong> WENN ile hesaplamak",
  "3 Rechen-Training in 3 Stufen 8 Min": "<span class=\"step-no\">3</span> 3 seviyede hesap antrenmanı <span class=\"chip\">8 dk</span>",
  "ExpeditionFreiwillig: Rabatt ab 50 € – WENN trifft Prozentrechnung.": "<span class=\"badge expedition\">Expedition</span><span><strong>İsteğe bağlı:</strong> 50 €'dan itibaren indirim – WENN yüzde hesabıyla buluşuyor.</span>",
  "Statt \"Ja\" und \"Nein\" darf eine Zahl oder eine Rechnung stehen.": "<code>\"Ja\"</code> ve <code>\"Nein\"</code> yerine bir sayı veya bir hesap olabilir.",

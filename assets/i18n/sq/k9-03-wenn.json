@@ -19,7 +19,6 @@
  "kleiner? größer?": "më i vogël? më i madh?",
  "höchstens? mindestens?": "më së shumti? të paktën?",
  "Text steht immer in \"Anführungszeichen\". Zahlen ohne.": "Teksti shkon gjithmonë në <code>\"Anführungszeichen\"</code> (thonjëza). Numrat pa to.",
- "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>Video e shkurtër (së shpejti):</strong> Formula e parë WENN",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> Stërvitje pyetjesh në 4 nivele <span class=\"chip\">8 min</span>",
  "ExpeditionFreiwillig: Quiz-Maker – ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span><span><strong>Fakultative:</strong> Krijuesi i kuizit – një kuiz që kontrollohet vetë.</span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN bën një pyetje që ka vetëm përgjigjen po ose jo: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",

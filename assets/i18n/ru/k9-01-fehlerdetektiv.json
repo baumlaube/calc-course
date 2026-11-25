@@ -28,7 +28,6 @@
  "Einen Wert testweise ändern. Rechnet alles mit?": "Для проверки измени значение. Всё пересчитывается?",
  "Ansicht → Formel anzeigen zeigt alle Formeln auf einmal.": "<strong>Ansicht → Formel anzeigen</strong> (Вид → Показать формулы) показывает все формулы сразу.",
  "Typische stille Fehler kennst du aus Klasse 8: getippte Zahl statt Formel, fehlendes $, zu kurzer Bereich in SUMME.": "Типичные тихие ошибки ты знаешь из 8 класса: введённое вручную число вместо формулы, не хватает <code>$</code>, слишком короткий диапазон в SUMME.",
- "Kurzvideo (folgt): Fehler finden in 60 Sekunden": "<strong>Короткое видео (скоро):</strong> найти ошибки за 60 секунд",
  "3 Das Fehler-Labor 5 Min": "<span class=\"step-no\">3</span> Лаборатория ошибок <span class=\"chip\">5 мин</span>",
  "Die Kiosk-Abrechnung ist voller Fehler. Repariere die gelben Zellen, bis nichts mehr rot leuchtet. Verkauft wurde an 2 Tagen.": "Таблица продаж киоска полна ошибок. Исправляй жёлтые ячейки, пока ничего не будет красным. Продавали <strong>2 дня</strong>.",
  "ExpeditionFreiwillig: Fehler elegant verstecken mit WENNFEHLER.": "<span class=\"badge expedition\">Expedition</span><span><strong>По желанию:</strong> красиво спрячь ошибки с помощью WENNFEHLER (ЕСЛИОШИБКА).</span>",

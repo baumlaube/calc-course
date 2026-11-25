@@ -19,7 +19,6 @@
  "über / unter": "peste / sub",
  "gleich / ungleich": "egal / diferit",
  "Text steht in \"Anführungszeichen\". Zahlen und Zellen ohne.": "Textul între <code>\"Anführungszeichen\"</code> (ghilimele). Numerele și celulele fără.",
- "Kurzvideo (folgt): Grenzen mit $ festhalten": "<strong>Video scurt (în curând):</strong> Fixează limitele cu $",
  "3 Akku-Check 5 Min": "<span class=\"step-no\">3</span> Verificarea bateriei <span class=\"chip\">5 min</span>",
  "Unter 20 % soll in Spalte C laden! stehen, sonst ok. Schreib die Formel in C5 und füll sie nach unten aus.": "Sub 20 %, coloana C trebuie să arate <strong>laden!</strong> (încarcă!), altfel <strong>ok</strong>. Scrie formula în C5 și umple-o în jos.",
  "ExpeditionFreiwillig: Notenrechner mit WENN in WENN und Lob-Brief mit UND.": "<span class=\"badge expedition\">Expedition</span><span><strong>Opțional:</strong> Calculator de note cu WENN în WENN și diplomă de laudă cu UND (ȘI).</span>",

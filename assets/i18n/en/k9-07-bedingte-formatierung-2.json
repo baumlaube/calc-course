@@ -12,7 +12,6 @@
  "② Text im Dialog in Anführungszeichen: \"fehlt\" – wie bei WENN.": "<strong>②</strong> Text in the dialog goes in quotation marks: <code>\"fehlt\"</code> – like with WENN.",
  "③ Grenze aus einer Zelle: als Wert $B$1 eintragen – mit $, wie bei WENN 3.": "<strong>③</strong> Limit from a cell: enter <code>$B$1</code> as the value – with <code>$</code>, like in WENN 3.",
  "Falsche Reihenfolge? Format → Bedingt → Verwalten … → Bearbeiten. Dort kannst du Bedingungen nach oben und unten schieben.": "Wrong order? <strong>Format → Bedingt → Verwalten … → Bearbeiten</strong> (manage → edit). There you can move conditions up and down.",
- "Kurzvideo (folgt): Die Akku-Ampel": "<strong>Short video (coming soon):</strong> The battery traffic light",
  "3 Regel-Labor in 3 Stufen 10 Min": "<span class=\"step-no\">3</span> Rule lab in 3 levels <span class=\"chip\">10 min</span>",
  "ExpeditionFreiwillig: Ganze Zeilen färben mit „Formel ist“.": "<span class=\"badge expedition\">Expedition</span><span><strong>Optional:</strong> Colour whole rows with „Formel ist“ (formula is).</span>",
  "Mehrere Bedingungen: Calc nimmt die erste, die passt. Darum die strengste Bedingung zuerst.": "Several conditions: Calc takes the <strong>first</strong> one that fits. So put the strictest condition first.",

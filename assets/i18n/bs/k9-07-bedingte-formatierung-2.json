@@ -12,7 +12,6 @@
  "② Text im Dialog in Anführungszeichen: \"fehlt\" – wie bei WENN.": "<strong>②</strong> Tekst u dijalogu pod navodnicima: <code>\"fehlt\"</code> – kao kod WENN.",
  "③ Grenze aus einer Zelle: als Wert $B$1 eintragen – mit $, wie bei WENN 3.": "<strong>③</strong> Granica iz ćelije: kao vrijednost upiši <code>$B$1</code> – sa <code>$</code>, kao kod WENN 3.",
  "Falsche Reihenfolge? Format → Bedingt → Verwalten … → Bearbeiten. Dort kannst du Bedingungen nach oben und unten schieben.": "Pogrešan redoslijed? <strong>Format → Bedingt → Verwalten … → Bearbeiten</strong> (upravljaj → uredi). Tamo možeš uslove pomjerati gore i dolje.",
- "Kurzvideo (folgt): Die Akku-Ampel": "<strong>Kratki video (uskoro):</strong> Semafor za bateriju",
  "3 Regel-Labor in 3 Stufen 10 Min": "<span class=\"step-no\">3</span> Laboratorija pravila u 3 nivoa <span class=\"chip\">10 min</span>",
  "Nächste Stufe →": "Nächste Stufe → (sljedeći nivo)",
  "Mehrere Bedingungen: Calc nimmt die erste, die passt. Darum die strengste Bedingung zuerst.": "Više uslova: Calc uzima <strong>prvi</strong> koji odgovara. Zato najstroži uslov ide prvi.",

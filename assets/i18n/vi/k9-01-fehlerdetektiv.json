@@ -48,7 +48,6 @@
  "Eine Zahl wurde gezogen. Calc zählt dann hoch.": "Một con số đã bị kéo. Khi đó Calc đếm tăng lên.",
  "Nur Formeln ziehen. Zahlen kopieren.": "Chỉ kéo công thức. Số thì sao chép.",
  "Aus still wird laut: Wandert ein Bezug ohne $ auf eine leere Zelle oder auf Text, zeigt Calc weiter unten #DIV/0! oder #WERT!. Der Fehler steckt dann oben in der ersten Formel.": "<strong>Lỗi ngầm thành lỗi hiện:</strong> Nếu một địa chỉ không có <code>$</code> di chuyển tới một ô trống hoặc tới chữ, Calc sẽ hiện <code>#DIV/0!</code> hoặc <code>#WERT!</code> ở phía dưới. Khi đó lỗi nằm ở công thức đầu tiên phía trên.",
- "Kurzvideo (folgt): Fehler finden in 60 Sekunden": "<strong>Video ngắn (sắp có):</strong> Tìm lỗi trong 60 giây",
  "3 Das Fehler-Labor 5 Min": "<span class=\"step-no\">3</span> Phòng thí nghiệm lỗi <span class=\"chip\">5 phút</span>",
  "Die Kiosk-Abrechnung ist voller Fehler. Repariere die gelben Zellen, bis nichts mehr rot leuchtet. Verkauft wurde an 2 Tagen.": "Bảng tính tiền của quầy bán hàng đầy lỗi. Sửa các ô màu vàng cho tới khi không còn gì sáng màu đỏ. Hàng được bán trong <strong>2 ngày</strong>.",
  "Laute Fehler zeigt Calc an: ### Spalte zu schmal · #WERT! mit Text gerechnet · #DIV/0! durch 0 geteilt · #NAME? Tippfehler.": "<strong>Lỗi hiện</strong> thì Calc báo ra: <code>###</code> cột quá hẹp · <code>#WERT!</code> tính với chữ · <code>#DIV/0!</code> chia cho 0 · <code>#NAME?</code> lỗi đánh máy.",

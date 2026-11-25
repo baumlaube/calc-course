@@ -19,7 +19,6 @@
  "über / unter": "over / under",
  "gleich / ungleich": "equal / not equal",
  "Text steht in \"Anführungszeichen\". Zahlen und Zellen ohne.": "Text goes in <code>\"Anführungszeichen\"</code> (quotation marks). Numbers and cells without.",
- "Kurzvideo (folgt): Grenzen mit $ festhalten": "<strong>Short video (coming soon):</strong> Fix limits with $",
  "3 Akku-Check 5 Min": "<span class=\"step-no\">3</span> Battery check <span class=\"chip\">5 min</span>",
  "Unter 20 % soll in Spalte C laden! stehen, sonst ok. Schreib die Formel in C5 und füll sie nach unten aus.": "Below 20 %, column C should show <strong>laden!</strong> (charge!), otherwise <strong>ok</strong>. Write the formula in C5 and fill it down.",
  "ExpeditionFreiwillig: Notenrechner mit WENN in WENN und Lob-Brief mit UND.": "<span class=\"badge expedition\">Expedition</span><span><strong>Optional:</strong> Grade calculator with WENN inside WENN and a praise letter with UND (AND).</span>",

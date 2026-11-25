@@ -19,7 +19,6 @@
  "über / unter": "أكثر من / أقل من",
  "gleich / ungleich": "يساوي / لا يساوي",
  "Text steht in \"Anführungszeichen\". Zahlen und Zellen ohne.": "النص بين <code>\"Anführungszeichen\"</code> (علامتي تنصيص). الأرقام والخلايا بدونها.",
- "Kurzvideo (folgt): Grenzen mit $ festhalten": "<strong>فيديو قصير (قريبًا):</strong> ثبّت الحدود بـ $",
  "3 Akku-Check 5 Min": "<span class=\"step-no\">3</span> فحص البطارية <span class=\"chip\">5 د</span>",
  "Unter 20 % soll in Spalte C laden! stehen, sonst ok. Schreib die Formel in C5 und füll sie nach unten aus.": "إذا كانت أقل من 20 % يجب أن يُظهر العمود C كلمة <strong>laden!</strong> (اشحن!)، وإلا <strong>ok</strong>. اكتب الصيغة في C5 وعبّئها إلى الأسفل.",
  "ExpeditionFreiwillig: Notenrechner mit WENN in WENN und Lob-Brief mit UND.": "<span class=\"badge expedition\">Expedition</span><span><strong>اختياري:</strong> حاسبة العلامات بـ WENN داخل WENN ورسالة مديح مع UND (و).</span>",

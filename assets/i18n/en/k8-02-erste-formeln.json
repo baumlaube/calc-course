@@ -20,7 +20,6 @@
  "Enter.": "<kbd>Enter</kbd>.",
  "So rechnet Calc beim Schulbedarf": "How Calc calculates the school supplies",
  "Ändert sich eine Zahl, rechnet Calc alles von selbst neu.": "If a number changes, Calc recalculates everything by itself.",
- "Kurzvideo (folgt): Eine Formel mit Klicks bauen": "<strong>Short video (coming soon):</strong> Build a formula with clicks",
  "ExpeditionFreiwillig: Punkt vor Strich und Klammern.": "<span class=\"badge expedition\">Expedition</span><span><strong>Optional:</strong> Order of operations and brackets.</span>",
  "Rechenzeichen: + plus · - minus · * mal · / geteilt.": "Operation signs: <code>+</code> plus · <code>-</code> minus · <code>*</code> times · <code>/</code> divided by.",
  "Zellen einfügen: Beim Tippen der Formel die Zelle einfach anklicken.": "Inserting cells: while typing the formula, simply <strong>click</strong> the cell.",

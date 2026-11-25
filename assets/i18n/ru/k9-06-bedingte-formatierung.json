@@ -16,7 +16,6 @@
  "Bei Vorlage anwenden eine Farbe wählen → OK.": "В <strong>Vorlage anwenden</strong> (применить стиль) выбери цвет → <strong>OK</strong>.",
  "Die drei wichtigsten Vorlagen:": "Три самых важных стиля:",
  "Weitere Bedingungen für dieselben Zellen: im Dialog auf Hinzufügen. Ändern oder löschen: Format → Bedingt → Verwalten …": "Больше условий для тех же ячеек: нажми в диалоге <strong>Hinzufügen</strong> (добавить). Изменить или удалить: <strong>Format → Bedingt → Verwalten …</strong> (управление)",
- "Kurzvideo (folgt): Bedingte Formatierung in 60 Sekunden": "<strong>Короткое видео (скоро):</strong> условное форматирование за 60 секунд",
  "3 Regel-Labor 8 Min": "<span class=\"step-no\">3</span> Лаборатория правил <span class=\"chip\">8 мин</span>",
  "ExpeditionFreiwillig: Spendenlauf mit Datenbalken und Farbskala.": "<span class=\"badge expedition\">Expedition</span><span><strong>По желанию:</strong> благотворительный забег с гистограммами и цветовой шкалой.</span>",
  "Bedingte Formatierung ist WENN für Farben: Wenn der Zellwert … ist, dann färbe die Zelle.": "Условное форматирование – это WENN для цветов: если значение ячейки …, раскрась ячейку.",

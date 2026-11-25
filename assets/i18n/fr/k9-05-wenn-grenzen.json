@@ -19,7 +19,6 @@
  "über / unter": "plus de / moins de",
  "gleich / ungleich": "égal / différent",
  "Text steht in \"Anführungszeichen\". Zahlen und Zellen ohne.": "Le texte se met entre <code>\"Anführungszeichen\"</code> (guillemets). Les nombres et les cellules, sans.",
- "Kurzvideo (folgt): Grenzen mit $ festhalten": "<strong>Courte vidéo (bientôt) :</strong> fixer les limites avec $",
  "3 Akku-Check 5 Min": "<span class=\"step-no\">3</span> Contrôle de batterie <span class=\"chip\">5 min</span>",
  "Unter 20 % soll in Spalte C laden! stehen, sonst ok. Schreib die Formel in C5 und füll sie nach unten aus.": "En dessous de 20 %, la colonne C doit afficher <strong>laden!</strong> (charger !), sinon <strong>ok</strong>. Écris la formule dans C5 et recopie-la vers le bas.",
  "ExpeditionFreiwillig: Notenrechner mit WENN in WENN und Lob-Brief mit UND.": "<span class=\"badge expedition\">Expedition</span><span><strong>Facultatif :</strong> calculateur de notes avec WENN dans WENN et lettre de félicitations avec UND (ET).</span>",

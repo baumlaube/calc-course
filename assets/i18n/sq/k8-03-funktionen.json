@@ -8,7 +8,6 @@
  "=SUMME( tippen.": "Shkruaj <code>=SUMME(</code>.",
  ") tippen und Enter.": "Shkruaj <code>)</code> dhe shtyp <kbd>Enter</kbd>.",
  "Abkürzung in Calc: der Knopf Σ links neben der Eingabezeile.": "Shkurtore në Calc: butoni <strong>Σ</strong> në të majtë të <strong>Eingabezeile</strong> (rreshti i hyrjes).",
- "Kurzvideo (folgt): SUMME mit der Maus": "<strong>Video e shkurtër (së shpejti):</strong> SUMME me maus",
  "ExpeditionFreiwillig: 100 Mal würfeln mit Calc.": "<span class=\"badge expedition\">Expedition</span><span><strong>Fakultative:</strong> Hidh zarin 100 herë me Calc.</span>",
  "SUMME zählt zusammen · MITTELWERT = Durchschnitt · MIN = kleinster Wert · MAX = größter Wert.": "<strong>SUMME</strong> mbledh · <strong>MITTELWERT</strong> = mesatarja · <strong>MIN</strong> = vlera më e vogël · <strong>MAX</strong> = vlera më e madhe.",
  "Bereich markieren: Nach =SUMME( mit gedrückter Maustaste von B5 bis B9 ziehen.": "Zgjedhja e zonës: pas <code>=SUMME(</code> mbaj të shtypur butonin e mausit dhe tërhiq nga B5 te B9.",

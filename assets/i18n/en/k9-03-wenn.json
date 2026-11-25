@@ -18,7 +18,6 @@
  "kleiner? größer?": "less? greater?",
  "höchstens? mindestens?": "at most? at least?",
  "Text steht immer in \"Anführungszeichen\". Zahlen ohne.": "Text always goes in <code>\"Anführungszeichen\"</code> (quotation marks). Numbers without.",
- "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>Short video (coming soon):</strong> The first WENN formula",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> Question training in 4 levels <span class=\"chip\">8 min</span>",
  "ExpeditionFreiwillig: Quiz-Maker – ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span><span><strong>Optional:</strong> Quiz maker – a quiz that checks itself.</span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN asks a question that only has the answer yes or no: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",

@@ -19,7 +19,6 @@
  "kleiner? größer?": "mniejsze? większe?",
  "höchstens? mindestens?": "najwyżej? co najmniej?",
  "Text steht immer in \"Anführungszeichen\". Zahlen ohne.": "Tekst zawsze jest w <code>\"Anführungszeichen\"</code> (cudzysłów). Liczby bez.",
- "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>Krótki film (wkrótce):</strong> Pierwsza formuła WENN",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> Trening pytań w 4 poziomach <span class=\"chip\">8 min</span>",
  "ExpeditionFreiwillig: Quiz-Maker – ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span><span><strong>Nieobowiązkowo:</strong> Twórca quizu – quiz, który sam się sprawdza.</span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN zadaje pytanie, na które jest tylko odpowiedź tak albo nie: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",

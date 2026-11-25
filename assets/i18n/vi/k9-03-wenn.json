@@ -23,7 +23,6 @@
  "kleiner? größer?": "nhỏ hơn? lớn hơn?",
  "höchstens? mindestens?": "nhiều nhất? ít nhất?",
  "Text steht immer in \"Anführungszeichen\". Zahlen ohne.": "Chữ luôn nằm trong <code>\"Anführungszeichen\"</code> (dấu ngoặc kép). Số thì không.",
- "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>Video ngắn (sắp có):</strong> Công thức WENN đầu tiên",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> Luyện đặt câu hỏi qua 4 cấp <span class=\"chip\">8 phút</span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN đặt một câu hỏi mà chỉ có câu trả lời có hoặc không: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",
  "Beispiel: =WENN(A6=\"Katze\";\"Ja\";\"Nein\") – Steht in A6 Katze?": "Ví dụ: <code class=\"long\">=WENN(A6=\"Katze\";\"Ja\";\"Nein\")</code> – Trong A6 có Katze (con mèo) không?",

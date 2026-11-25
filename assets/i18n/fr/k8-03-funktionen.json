@@ -8,7 +8,6 @@
  "=SUMME( tippen.": "Tape <code>=SUMME(</code>.",
  ") tippen und Enter.": "Tape <code>)</code> et appuie sur <kbd>Enter</kbd>.",
  "Abkürzung in Calc: der Knopf Σ links neben der Eingabezeile.": "Raccourci dans Calc : le bouton <strong>Σ</strong> à gauche de la <strong>Eingabezeile</strong> (ligne de saisie).",
- "Kurzvideo (folgt): SUMME mit der Maus": "<strong>Courte vidéo (bientôt) :</strong> SUMME avec la souris",
  "ExpeditionFreiwillig: 100 Mal würfeln mit Calc.": "<span class=\"badge expedition\">Expedition</span><span><strong>Facultatif :</strong> lancer un dé 100 fois avec Calc.</span>",
  "SUMME zählt zusammen · MITTELWERT = Durchschnitt · MIN = kleinster Wert · MAX = größter Wert.": "<strong>SUMME</strong> additionne · <strong>MITTELWERT</strong> = moyenne · <strong>MIN</strong> = plus petite valeur · <strong>MAX</strong> = plus grande valeur.",
  "Bereich markieren: Nach =SUMME( mit gedrückter Maustaste von B5 bis B9 ziehen.": "Sélectionner une plage : après <code>=SUMME(</code>, garde le bouton de la souris enfoncé et tire de B5 à B9.",

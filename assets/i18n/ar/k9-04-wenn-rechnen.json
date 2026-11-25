@@ -7,7 +7,6 @@
  "Statt \"Ja\" und \"Nein\" darf eine Zahl oder eine Rechnung stehen.Zahlen und Rechnungen ohne Anführungszeichen.": "بدل <code>\"Ja\"</code> و<code>\"Nein\"</code> يمكن أن يوجد <strong>رقم</strong> أو <strong>عملية حسابية</strong>.<br/>الأرقام والعمليات الحسابية <strong>بدون</strong> علامات تنصيص.",
  "Beispiel: Gesamtpreis im Online-Shop": "مثال: السعر الكلي في متجر إلكتروني",
  "⚠ \"4,95\" in Anführungszeichen wäre Text. Damit kann Calc nicht weiterrechnen.": "⚠ <code>\"4,95\"</code> بين علامتي تنصيص سيكون نصًا. Calc لا يستطيع الحساب به.",
- "Kurzvideo (folgt): Rechnen mit WENN": "<strong>فيديو قصير (قريبًا):</strong> الحساب مع WENN",
  "3 Rechen-Training in 3 Stufen 8 Min": "<span class=\"step-no\">3</span> تدريب الحساب في 3 مستويات <span class=\"chip\">8 د</span>",
  "ExpeditionFreiwillig: Rabatt ab 50 € – WENN trifft Prozentrechnung.": "<span class=\"badge expedition\">Expedition</span><span><strong>اختياري:</strong> خصم ابتداءً من 50 € – WENN تلتقي بالنسب المئوية.</span>",
  "Statt \"Ja\" und \"Nein\" darf eine Zahl oder eine Rechnung stehen.": "بدل <code>\"Ja\"</code> و<code>\"Nein\"</code> يمكن أن يوجد رقم أو عملية حسابية.",

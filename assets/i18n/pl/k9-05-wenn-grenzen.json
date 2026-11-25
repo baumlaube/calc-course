@@ -19,7 +19,6 @@
  "über / unter": "powyżej / poniżej",
  "gleich / ungleich": "równe / różne",
  "Text steht in \"Anführungszeichen\". Zahlen und Zellen ohne.": "Tekst w <code>\"Anführungszeichen\"</code> (cudzysłów). Liczby i komórki bez.",
- "Kurzvideo (folgt): Grenzen mit $ festhalten": "<strong>Krótki film (wkrótce):</strong> Unieruchom progi za pomocą $",
  "3 Akku-Check 5 Min": "<span class=\"step-no\">3</span> Sprawdzanie baterii <span class=\"chip\">5 min</span>",
  "Unter 20 % soll in Spalte C laden! stehen, sonst ok. Schreib die Formel in C5 und füll sie nach unten aus.": "Poniżej 20 % kolumna C ma pokazywać <strong>laden!</strong> (ładuj!), w przeciwnym razie <strong>ok</strong>. Wpisz formułę w C5 i wypełnij w dół.",
  "ExpeditionFreiwillig: Notenrechner mit WENN in WENN und Lob-Brief mit UND.": "<span class=\"badge expedition\">Expedition</span><span><strong>Nieobowiązkowo:</strong> Kalkulator ocen z WENN w WENN i list pochwalny z UND (ORAZ).</span>",

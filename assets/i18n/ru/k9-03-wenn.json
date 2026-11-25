@@ -19,7 +19,6 @@
  "kleiner? größer?": "меньше? больше?",
  "höchstens? mindestens?": "не больше? не меньше?",
  "Text steht immer in \"Anführungszeichen\". Zahlen ohne.": "Текст всегда пишут в <code>\"Anführungszeichen\"</code> (кавычках). Числа – без.",
- "Kurzvideo (folgt): Die erste WENN-Formel": "<strong>Короткое видео (скоро):</strong> первая формула с WENN",
  "3 Frage-Training in 4 Stufen 8 Min": "<span class=\"step-no\">3</span> Тренировка вопросов: 4 уровня <span class=\"chip\">8 мин</span>",
  "ExpeditionFreiwillig: Quiz-Maker – ein Quiz, das sich selbst auswertet.": "<span class=\"badge expedition\">Expedition</span><span><strong>По желанию:</strong> конструктор викторины – викторина, которая проверяет себя сама.</span>",
  "WENN stellt eine Frage, auf die es nur Ja oder Nein gibt: =WENN(Frage;\"Ja\";\"Nein\")": "WENN задаёт вопрос, на который есть только ответ «да» или «нет»: <code class=\"long\">=WENN(Frage;\"Ja\";\"Nein\")</code>",

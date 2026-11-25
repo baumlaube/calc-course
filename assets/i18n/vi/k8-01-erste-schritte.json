@@ -33,7 +33,6 @@
  "📝 Blitzschlange (Abenteuerland Nord) – 32 Meter hoch, 80 km/h schnell": "📝 Blitzschlange (Abenteuerland Nord) – cao 32 mét, nhanh 80 km/h",
  "Zwei Achterbahn-Notizen, total durcheinander. Bring sie in die Tabelle: eine Angabe pro Zelle.": "Hai ghi chú về tàu lượn siêu tốc, lộn xộn hết cả. Hãy đưa chúng vào bảng: <strong>mỗi ô một thông tin</strong>.",
  "Bei Höhe und Tempo tippst du nur die Zahl. Die Einheit kommt in die Überschrift: Ändere C1 in Höhe in m und D1 in Tempo in km/h.": "Với chiều cao và tốc độ, bạn <strong>chỉ gõ số</strong>. Đơn vị nằm ở tiêu đề: đổi C1 thành <code>Höhe in m</code> và D1 thành <code>Tempo in km/h</code>.",
- "Kurzvideo (folgt): Calc in 60 Sekunden": "<strong>Video ngắn (sắp có):</strong> Calc trong 60 giây",
  "Was gibt es beim Pausenverkauf? Klick auf eine gelbe Zelle und tipp oben ein: drei Artikel in Spalte A und ihre Preise in Spalte B. Mit Enter bestätigst du.": "Căng tin trường bán gì? Bấm vào một ô màu vàng rồi gõ ở trên: ba món hàng ở cột A và giá của chúng ở cột B. Nhấn <kbd>Enter</kbd> để xác nhận.",
  "Achte darauf: Wo landen die Wörter in der Zelle, wo die Preise? Probier auch mal 0.85 mit Punkt.": "<strong>Hãy để ý:</strong> Trong ô, chữ nằm ở đâu, giá nằm ở đâu? Thử cả <code>0.85</code> với dấu chấm.",
  "Jede Zelle hat eine Adresse: erst die Spalte (Buchstabe), dann die Zeile (Zahl). Beispiel: C4.": "Mỗi ô có một <strong>địa chỉ</strong>: trước là <strong>Spalte</strong> (cột, chữ cái), sau là <strong>Zeile</strong> (hàng, số). Ví dụ: <code>C4</code>.",

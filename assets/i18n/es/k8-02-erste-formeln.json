@@ -18,7 +18,6 @@
  "Enter.": "<kbd>Enter</kbd>.",
  "So rechnet Calc beim Schulbedarf": "Así calcula Calc el material escolar",
  "Ändert sich eine Zahl, rechnet Calc alles von selbst neu.": "Si un número cambia, Calc lo recalcula todo solo.",
- "Kurzvideo (folgt): Eine Formel mit Klicks bauen": "<strong>Vídeo corto (próximamente):</strong> construir una fórmula con clics",
  "ExpeditionFreiwillig: Punkt vor Strich und Klammern.": "<span class=\"badge expedition\">Expedition</span><span><strong>Opcional:</strong> orden de las operaciones y paréntesis.</span>",
  "Rechenzeichen: + plus · - minus · * mal · / geteilt.": "Signos de operación: <code>+</code> más · <code>-</code> menos · <code>*</code> por · <code>/</code> entre.",
  "Zellen einfügen: Beim Tippen der Formel die Zelle einfach anklicken.": "Insertar celdas: mientras escribes la fórmula, <strong>haz clic</strong> en la celda.",
