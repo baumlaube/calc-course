@@ -25,6 +25,7 @@
 <link rel="stylesheet" href="../assets/kurs.css?v=ebab5081fe">
 <script src="../assets/i18n.js?v=e2dd6b353a" data-page="k8-01-erste-schritte" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=2bce36b407"></script>
+<script src="../assets/register.js?v=f5015f104c" defer></script>
 <script src="../assets/minicalc.js?v=6833bbf1f4" defer></script>
 </head>
 <body>
@@ -79,8 +80,10 @@
     </table>
   </details>
 
+  <!-- Lernschritte als Register (register.js) -->
+  <div id="lernen">
   <!-- 1 · Zellen-Jagd -->
-  <section class="card" id="problem">
+  <section class="card" id="problem" data-tab="Zellen-Jagd" data-wait>
     <h2><span class="step-no">1</span> Zellen-Jagd <span class="chip">5 Min</span></h2>
     <div id="calc1"></div>
     <p class="lead">Eine Tabelle ist wie das Spielfeld bei „Schiffe versenken“: Jedes Kästchen hat eine Adresse. Findest du sie?</p>
@@ -89,7 +92,7 @@
   </section>
 
   <!-- 2 · Erklärung -->
-  <section class="card" id="erklaerung">
+  <section class="card" id="erklaerung" data-tab="Aufbau">
     <h2><span class="step-no">2</span> So ist Calc aufgebaut <span class="chip">5 Min</span></h2>
     <div class="rule">Jede Zelle hat eine <strong>Adresse</strong>:<br>erst die <strong>Spalte</strong> (Buchstabe), dann die <strong>Zeile</strong> (Zahl). → <code>C4</code></div>
 
@@ -120,13 +123,24 @@
     </ol>
     <p class="note">Zahlen tippst du mit Komma und ohne €: <code>0,85</code></p>
 
-    <h3 class="sub">Wo sind die Cent?</h3>
+    <div class="video-ph">
+      <span class="play" aria-hidden="true">▶</span>
+      <span class="t"><strong>Kurzvideo (folgt):</strong> Calc in 60 Sekunden</span>
+    </div>
+  </section>
+
+  <!-- 3 · Wo sind die Cent? -->
+  <section class="card" id="cent" data-tab="Cent" data-wait>
+    <h2><span class="step-no">3</span> Wo sind die Cent? <span class="chip">3 Min</span></h2>
     <p>Manchmal zeigt eine Zelle <strong>1</strong>, obwohl du <code>0,85</code> getippt hast. Klick B2 an und schau in die Eingabezeile. Dann probier die Knöpfe aus.</p>
     <div id="calcDez"></div>
     <p class="fb" id="fbDez" aria-live="polite"></p>
     <p class="note">In Calc: Rechtsklick → Zellen formatieren … → <strong>Zahlen</strong> → Nachkommastellen. Oder die Knöpfe „Nachkommastelle hinzufügen / löschen“ in der Symbolleiste.</p>
+  </section>
 
-    <h3 class="sub">Wohin mit der Einheit?</h3>
+  <!-- 4 · Wohin mit der Einheit? -->
+  <section class="card" id="einheit" data-tab="Einheit" data-wait>
+    <h2><span class="step-no">4</span> Wohin mit der Einheit? <span class="chip">5 Min</span></h2>
     <div class="rule">Eine Angabe pro Zelle. Die Einheit kommt in die <strong>Überschrift</strong>: <code>Höhe in m</code>.</div>
     <div id="calcAuf"></div>
     <div class="notes" aria-label="Notizzettel">
@@ -136,32 +150,36 @@
     <p>Zwei Achterbahn-Notizen, total durcheinander. Bring sie in die Tabelle: <strong>eine Angabe pro Zelle</strong>.</p>
     <p>Bei Höhe und Tempo tippst du <strong>nur die Zahl</strong>. Die Einheit kommt in die Überschrift: Ändere C1 in <code>Höhe in m</code> und D1 in <code>Tempo in km/h</code>.</p>
     <p class="fb" id="fbAuf" aria-live="polite"></p>
-
-    <div class="video-ph">
-      <span class="play" aria-hidden="true">▶</span>
-      <span class="t"><strong>Kurzvideo (folgt):</strong> Calc in 60 Sekunden</span>
-    </div>
   </section>
 
-  <!-- 3 · Ausprobieren -->
-  <section class="card" id="ausprobieren">
-    <h2><span class="step-no">3</span> Selbst ausprobieren <span class="chip">5 Min</span></h2>
+  <!-- 5 · Ausprobieren -->
+  <section class="card" id="ausprobieren" data-tab="Training" data-wait>
+    <h2><span class="step-no">5</span> Selbst ausprobieren <span class="chip">5 Min</span></h2>
     <div id="calc2"></div>
     <p class="lead">Was gibt es beim Pausenverkauf? Klick auf eine gelbe Zelle und tipp oben ein: drei Artikel in Spalte A und ihre Preise in Spalte B. Mit <kbd>Enter</kbd> bestätigst du.</p>
     <p><strong>Achte darauf:</strong> Wo landen die Wörter in der Zelle, wo die Preise? Probier auch mal <code>0.85</code> mit Punkt.</p>
     <p class="fb" id="fb2" aria-live="polite"></p>
+    <details class="spicker" open>
+      <summary><span class="t">📋 Spicker: So gibst du etwas ein</span></summary>
+      <ul>
+        <li><strong>Eingeben:</strong> Zelle anklicken, tippen, <kbd>Enter</kbd> (nach unten) oder <kbd>Tab</kbd> (nach rechts).</li>
+        <li><strong>Text steht links, Zahlen stehen rechts.</strong> Steht eine Zahl links, ist sie Text, und damit rechnet Calc nicht.</li>
+        <li>Zahlen <strong>ohne €</strong> und mit <strong>Komma</strong> tippen: <code>1,49</code>. Das € kommt durch Formatieren.</li>
+      </ul>
+    </details>
   </section>
 
-  <!-- 4 · Kurz-Check -->
-  <section class="card" id="check">
-    <h2><span class="step-no">4</span> Kurz-Check <span class="chip">5 Min</span></h2>
-    <p class="lead">Vier Fragen. Hast du es verstanden?</p>
+  <!-- 6 · Kurz-Check -->
+  <section class="card" id="check" data-tab="Kurz-Check" data-wait>
+    <h2><span class="step-no">6</span> Kurz-Check <span class="chip">5 Min</span></h2>
+    <p class="lead">Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.</p>
     <div id="quiz"></div>
   </section>
+  </div>
 
-  <!-- 5 · In Calc: Pflicht, Plus, Freiwillig – eine Aufgabe = eine Datei mit FERTIG-Feld -->
+  <!-- 7 · In Calc: Pflicht, Plus, Freiwillig – eine Aufgabe = eine Datei mit FERTIG-Feld -->
   <section class="card calc-block" id="ueben">
-    <h2><span class="step-no">5</span> Jetzt in LibreOffice Calc <span class="chip">15 Min</span></h2>
+    <h2><span class="step-no">7</span> Jetzt in LibreOffice Calc <span class="chip">15 Min</span></h2>
     <p class="lead">Jede Aufgabe ist eine eigene Datei. Oben in der Datei steht <strong>✔ FERTIG!</strong>, wenn alles stimmt. Zeig es deiner Lehrkraft.</p>
     <h3 class="sub"><span class="badge basis">Pflicht</span> Das machen alle</h3>
     <div class="dl">
@@ -285,6 +303,7 @@ document.addEventListener("DOMContentLoaded", () => {
       round++;
       if (round === targets.length) {
         targetEl.textContent = "✔";
+        Register.done("problem");
         roundEl.textContent = "";
         feedback(fb1, misses === 0
           ? "🏆 Alle 6 ohne Fehler! Du kannst Adressen lesen wie ein Profi. Schau mal oben links ins <strong>Namenfeld</strong>: Dort steht immer die Adresse der Zelle, die du gerade angeklickt hast."
@@ -293,25 +312,25 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       targetEl.textContent = targets[round];
       roundEl.textContent = T(`Runde ${round + 1} von ${targets.length}`);
-      feedback(fb1, `✔ Richtig, das war ${got}!`, "ok");
+      feedback(fb1, `Richtig, das war ${got}! Weiter mit der nächsten Zelle.`, "ok");
     } else {
       misses++;
       feedback(fb1, `Das war <strong>${got}</strong>. Gesucht ist <strong>${want}</strong>: Erst die Spalte <strong>${want[0]}</strong> oben suchen, dann in dieser Spalte nach unten bis Zeile <strong>${want.slice(1)}</strong>.`, "hint");
     }
   });
 
-  /* ---------- 3 · Ausprobieren ---------- */
+  /* ---------- 5 · Ausprobieren ---------- */
   const fb2 = document.getElementById("fb2");
   const calc2 = new MiniCalc(document.getElementById("calc2"), {
-    cols: 2, rows: 8, decimal: "comma",
-    cells: { A1: "Pausenverkauf", A4: "Artikel", B4: "Preis" },
-    styles: { A1: "label", A4: "head", B4: "head" },
-    editable: ["A5", "B5", "A6", "B6", "A7", "B7"], select: "A5",
+    cols: 2, rows: 4, decimal: "comma",
+    cells: { A1: "Artikel", B1: "Preis" },
+    styles: { A1: "head", B1: "head" },
+    editable: ["A2", "B2", "A3", "B3", "A4", "B4"], select: "A2",
     actions: [{ label: "↺ Zurücksetzen", secondary: true, onClick: (c) => { c.reset(); fb2.className = "fb"; } }],
   });
   calc2.on((c, src) => {
     if (src === "reset") return;
-    const rows = [5, 6, 7];
+    const rows = [2, 3, 4];
     for (const r of rows) {
       const p = c.getRaw("B" + r).trim();
       if (!p) continue;
@@ -322,11 +341,12 @@ document.addEventListener("DOMContentLoaded", () => {
       feedback(fb2, `In B${r} gehört ein Preis, also eine Zahl.`, "hint"); return;
     }
     const filled = rows.filter((r) => c.getRaw("A" + r).trim() && typeof c.get("B" + r) === "number").length;
+    if (filled === 3) Register.done("ausprobieren");
     if (filled === 3) feedback(fb2, "✔ Super! Schau genau hin: Die Artikel stehen <strong>links</strong> (Text), die Preise <strong>rechts</strong> (Zahlen). So erkennst du immer, ob Calc eine Zahl verstanden hat.", "ok");
     else feedback(fb2, `${filled} von 3 Zeilen fertig. Weiter so!`, "info");
   });
 
-  /* ---------- 2 · Wo sind die Cent? ---------- */
+  /* ---------- 3 · Wo sind die Cent? ---------- */
   const fbDez = document.getElementById("fbDez");
   let dez = 0;
   const calcDez = new MiniCalc(document.getElementById("calcDez"), {
@@ -339,6 +359,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   const setDez = (c, n) => {
     dez = n; c.o.formats.B2 = "dec" + n; c.render(); c.select("B2");
+    if (n === 2) Register.done("cent");
     feedback(fbDez, n === 2 ? "✔ Jetzt siehst du die Cent: <strong>0,85</strong>. Für Preise passen 2 Nachkommastellen."
       : n === 0 ? "Die Zelle zeigt <strong>1</strong>. Calc rundet nur die Anzeige. In der Eingabezeile steht weiter 0,85."
       : `Die Zelle zeigt jetzt <strong>${c.tds.B2.textContent}</strong>. Der gespeicherte Wert bleibt immer 0,85.`, n === 2 ? "ok" : "info");
@@ -365,9 +386,9 @@ document.addEventListener("DOMContentLoaded", () => {
       options: ["<kbd>Tab</kbd>", "<kbd>Enter</kbd>", "<kbd>Leertaste</kbd>"], right: 0,
       why: "Tab geht nach rechts, Enter nach unten.",
       miss: [null, "Enter springt nach unten.", "Die Leertaste schreibt ein Leerzeichen in die Zelle. Sie springt nicht weiter."] },
-  ]);
+  ], { onDone: () => Register.done("check") });
 
-  /* ---------- 2 · Wohin mit der Einheit? ---------- */
+  /* ---------- 4 · Wohin mit der Einheit? ---------- */
   const fbAuf = document.getElementById("fbAuf");
   const bahnen = [["Donnerdrache", "Sonnental", 48, 95], ["Blitzschlange", "Abenteuerland Nord", 32, 80]];
   const calcAuf = new MiniCalc(document.getElementById("calcAuf"), {
@@ -399,11 +420,18 @@ document.addEventListener("DOMContentLoaded", () => {
       if (raw.every(Boolean)) done++;
     }
     const kopf = /^höhe\s*(in\s*m(eter)?|\(m\))$/i.test(c.getRaw("C1").trim()) && /^tempo\s*(in\s*km\/h|\(km\/h\))$/i.test(c.getRaw("D1").trim());
+    if (done === 2 && kopf) Register.done("einheit");
     if (done === 2 && kopf) feedback(fbAuf, T("🏆 Aufgeräumt! Jetzt sind Höhe und Tempo echte Zahlen (rechtsbündig). Damit kann Calc rechnen, sortieren und Diagramme zeichnen."), "ok");
-    else if (done === 2) feedback(fbAuf, T("✔ Die Zeilen stimmen. Fehlt noch: die Einheiten in die Überschrift, also <code>Höhe in m</code> in C1 und <code>Tempo in km/h</code> in D1."), "info");
+    else if (done === 2) feedback(fbAuf, T("Die Zeilen stimmen. <strong>Noch nicht fertig:</strong> Die Einheiten kommen in die Überschrift, also <code>Höhe in m</code> in C1 und <code>Tempo in km/h</code> in D1."), "info");
     else feedback(fbAuf, T(`${done} von 2 Zeilen fertig. Weiter so!`), "info");
   });
   feedback(fbAuf, T("Klick A2 an und tipp den Namen der ersten Achterbahn."), "info");
+});
+</script>
+<script>
+/* Register erst bauen, wenn alle Übungen fertig aufgebaut sind */
+document.addEventListener("DOMContentLoaded", () => {
+  Register(document.getElementById("lernen"), { key: "k8-01", after: "ueben", nr: "8.1" });
 });
 </script>
 </body>
