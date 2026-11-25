@@ -24,7 +24,10 @@
 
   /** Rückmeldung in einem .fb-Element anzeigen. kind: ok | hint | info */
   function feedback(el, html, kind) {
-    el.className = "fb show " + kind;
+    const neu = el.innerHTML !== T(html) || !el.classList.contains(kind);
+    el.className = "fb " + kind;
+    if (neu) void el.offsetWidth;   // Animation neu starten: neue Meldung leuchtet kurz auf
+    el.classList.add("show");
     el.innerHTML = T(html);
   }
 

@@ -17,6 +17,8 @@
   --ok-fg: #1b5e20;
   --hint-bg: #ffe9cf;
   --hint-fg: #8a4200;
+  --info-bg: #dcebfc;
+  --info-fg: #0d3c78;
   --input-bg: #fff4c2;
   --input-line: #c9a400;
   --fix-bg: #d6e6ff;
@@ -32,7 +34,7 @@
   :root:not([data-theme="light"]) {
     --bg: #11161d; --surface: #19202a; --surface-2: #222b37; --text: #e6ebf1; --muted: #9aa6b4;
     --line: #313c4a; --navy: #9cc3ef; --accent: #7fb0ec; --basis: #5cb860; --plus: #ff9a45;
-    --expedition: #c48ae0; --mehr: #4db6ac; --ok-bg: #1f3d22; --ok-fg: #a6e3a9; --hint-bg: #43301b; --hint-fg: #ffcf99;
+    --expedition: #c48ae0; --mehr: #4db6ac; --ok-bg: #1f3d22; --ok-fg: #a6e3a9; --hint-bg: #43301b; --hint-fg: #ffcf99; --info-bg: #1a2f4a; --info-fg: #b9d6f7;
     --input-bg: #3d3618; --input-line: #b39400; --fix-bg: #1d3253; --fix-line: #5b8bd6;
     --merke-bg: #1c3320; --code-bg: #232c38; --shadow: none; color-scheme: dark;
     --ch1: #6fa8ec; --ch2: #f5a25d; --ch3: #63c98d; --ch4: #c08ae6; --ch5: #f07b78; --ch6: #5cc9d6; --ch7: #a9b3bf;
@@ -41,7 +43,7 @@
 :root[data-theme="dark"] {
   --bg: #11161d; --surface: #19202a; --surface-2: #222b37; --text: #e6ebf1; --muted: #9aa6b4;
   --line: #313c4a; --navy: #9cc3ef; --accent: #7fb0ec; --basis: #5cb860; --plus: #ff9a45;
-  --expedition: #c48ae0; --mehr: #4db6ac; --ok-bg: #1f3d22; --ok-fg: #a6e3a9; --hint-bg: #43301b; --hint-fg: #ffcf99;
+  --expedition: #c48ae0; --mehr: #4db6ac; --ok-bg: #1f3d22; --ok-fg: #a6e3a9; --hint-bg: #43301b; --hint-fg: #ffcf99; --info-bg: #1a2f4a; --info-fg: #b9d6f7;
   --input-bg: #3d3618; --input-line: #b39400; --fix-bg: #1d3253; --fix-line: #5b8bd6;
   --merke-bg: #1c3320; --code-bg: #232c38; --shadow: none; color-scheme: dark;
     --ch1: #6fa8ec; --ch2: #f5a25d; --ch3: #63c98d; --ch4: #c08ae6; --ch5: #f07b78; --ch6: #5cc9d6; --ch7: #a9b3bf;
@@ -135,11 +137,16 @@ kbd {
 .quiz-score { font-weight: 800; margin-top: 16px; }
 
 /* Rückmeldungen */
-.fb { border-radius: 10px; padding: 10px 14px; margin: 12px 0 0; display: none; }
-.fb.show { display: block; }
-.fb.ok { background: var(--ok-bg); color: var(--ok-fg); }
-.fb.hint { background: var(--hint-bg); color: var(--hint-fg); }
-.fb.info { background: var(--surface-2); }
+/* Rückmeldungen: kräftig farbig mit Balken links, damit die Schüler sie wirklich lesen. Neue Meldung leuchtet kurz auf. */
+.fb { border-radius: 10px; padding: 12px 16px; margin: 14px 0 0; display: none; font-weight: 600; line-height: 1.5;
+  border: 2px solid transparent; border-left-width: 8px; }
+.fb.show { display: block; animation: fb-pop .45s ease-out; }
+.fb.ok { background: var(--ok-bg); color: var(--ok-fg); border-color: var(--basis); }
+.fb.hint { background: var(--hint-bg); color: var(--hint-fg); border-color: var(--plus); }
+.fb.info { background: var(--info-bg); color: var(--info-fg); border-color: var(--accent); }
+.fb code { font-weight: 700; }
+@keyframes fb-pop { 0% { transform: scale(.97); box-shadow: 0 0 0 0 rgba(31, 95, 168, .45); } 60% { transform: scale(1.01); box-shadow: 0 0 0 8px rgba(31, 95, 168, 0); } 100% { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .fb.show { animation: none; } }
 
 /* Buttons */
 [hidden] { display: none !important; }   /* sonst zeigt display von .btn u. a. versteckte Knöpfe */
