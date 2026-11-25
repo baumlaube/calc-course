@@ -56,7 +56,6 @@
  "Eine getippte Zahl sieht richtig aus, rechnet aber bei Änderungen nicht mit. Calc warnt nicht davor.": "Un número escrito parece correcto, pero no se recalcula cuando algo cambia. Calc no te avisa.",
  "Noch {} von 4 Fehlern.": "Faltan {} de 4 errores.",
  "Steckbriefe: stille Fehler aus der Probe": "Se busca: errores silenciosos del examen",
- "Formel": "Fórmula",
  "Richtig": "Correcto",
  "Bereich zu groß: Der Preis in B5 wird mitgezählt.": "Rango demasiado grande: el precio de B5 también se cuenta.",
  "Bereich zu kurz: Die letzte Zeile fehlt.": "Rango demasiado corto: falta la última fila.",

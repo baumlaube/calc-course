@@ -56,7 +56,6 @@
  "Eine getippte Zahl sieht richtig aus, rechnet aber bei Änderungen nicht mit. Calc warnt nicht davor.": "Введённое вручную число выглядит правильно, но не пересчитывается, когда что-то меняется. Calc не предупреждает.",
  "Noch {} von 4 Fehlern.": "Осталось исправить {} из 4 ошибок.",
  "Steckbriefe: stille Fehler aus der Probe": "Ориентировки: тихие ошибки из контрольной",
- "Formel": "Формула",
  "Richtig": "Правильно",
  "Bereich zu groß: Der Preis in B5 wird mitgezählt.": "Диапазон слишком большой: цена в B5 тоже посчитана.",
  "Bereich zu kurz: Die letzte Zeile fehlt.": "Диапазон слишком короткий: не хватает последней строки.",

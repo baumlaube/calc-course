@@ -56,7 +56,6 @@
  "Eine getippte Zahl sieht richtig aus, rechnet aber bei Änderungen nicht mit. Calc warnt nicht davor.": "A typed number looks right but does not recalculate when something changes. Calc does not warn you.",
  "Noch {} von 4 Fehlern.": "{} of 4 errors still to fix.",
  "Steckbriefe: stille Fehler aus der Probe": "Wanted posters: silent errors from the test",
- "Formel": "Formula",
  "Richtig": "Correct",
  "Bereich zu groß: Der Preis in B5 wird mitgezählt.": "Range too big: the price in B5 is counted too.",
  "Bereich zu kurz: Die letzte Zeile fehlt.": "Range too short: the last row is missing.",
