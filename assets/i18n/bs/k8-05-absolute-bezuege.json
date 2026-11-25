@@ -3,7 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Apsolutne reference – $ kao sidro",
  "Klasse 8 · Baustein 5": "8. razred · Cjelina 5",
  "Vorwissen: Formeln ausfüllen": "Predznanje: popunjavanje formula",
- "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena za vrijeme raspusta radi u slastičarni i dobija 11 € po satu. U C5 je izračunala svoju zaradu za ponedjeljak: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Rješenje: znak $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> je <strong>sidro</strong>.<br/><code>$B$2</code> pri popunjavanju uvijek ostaje <code>B2</code>.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>Ovo već znaš:</strong> Kad povlačiš formulu nadolje, Calc broji brojeve redova dalje: 5 → 6 → 7.<br/>Za sate to odgovara. Za platu u <strong>B2</strong> to <strong>ne</strong> odgovara.",
@@ -80,11 +79,14 @@
  "ein Bezug mit $. $B$2 bleibt immer B2.": "<strong>apsolutna referenca</strong> – referenca sa <code>$</code>. <code>$B$2</code> uvijek ostaje B2.",
  "eine einfache Regel, die fast immer stimmt": "<strong>jednostavno pravilo</strong> – lako pravilo koje skoro uvijek vrijedi",
  "Klick auf die gelbe Zelle C5 und tippe oben in die Eingabezeile eine Formel, die du nach unten ziehen kannst. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen bis C9.": "Klikni na žutu ćeliju C5 i gore u red za unos upiši formulu koju možeš povući nadolje. Potvrdi sa <kbd>Enter</kbd>. Onda povuci kvadratić za popunjavanje (<strong>Ausfüllkästchen</strong>) do C9.",
- "✔ C5 stimmt! Jetzt der spannende Teil: Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "✔ C5 je tačno! Sada ono napeto: povuci kvadratić za popunjavanje (<strong>Ausfüllkästchen</strong>) od C5 nadolje do C9.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C9.": "Još nije skroz dolje. Još su prazne: {}. Povuci od C5 do C9.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Razmisli:</strong> Lena povlači formulu nadolje do C9. Šta onda stoji u <strong>C6</strong> (utorak)?",
  "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Kad povlačiš, formula se pomjera. Uglavnom je to ispravno. Ali neke ćelije trebaju važiti za sve redove, na primjer satnica. Sa <code>$</code> fiksiraš takvu ćeliju.",
  "ODS Aufgabe 1 · Ferienjobk8-05-absolute-bezuege-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Zadatak 1 · Posao za raspust</strong><small>k8-05-absolute-bezuege-1.ods</small></span>",
  "ODS Aufgabe 2 · Klassenfahrtk8-05-absolute-bezuege-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Zadatak 2 · Razredna ekskurzija</strong><small>k8-05-absolute-bezuege-2.ods</small></span>",
- "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Zadatak 3 · Detektiv za greške</strong><small>k8-05-absolute-bezuege-3.ods</small></span>"
+ "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Zadatak 3 · Detektiv za greške</strong><small>k8-05-absolute-bezuege-3.ods</small></span>",
+ "📋 Spicker: So setzt du den Anker": "📋 Podsjetnik: ovako postavljaš sidro",
+ "C5 stimmt. Noch nicht fertig: Jetzt der spannende Teil. Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "C5 je tačno. <strong>Još nije gotovo:</strong> sada dolazi zanimljivi dio. Povuci <strong>Ausfüllkästchen</strong> (ručicu za popunjavanje) od C5 dolje do C9.",
+ "Anker": "Sidro",
+ "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €. Du musst nichts eintippen.": "Lena za vrijeme raspusta radi u slastičarni i dobija 11 € po satu. U C5 je izračunala svoju zaradu za ponedjeljak: <code>=B5*B2</code> → 4 × 11 € = 44 €. Ne moraš ništa kucati."
 }

@@ -3,7 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Références absolues – le $ comme ancre",
  "Klasse 8 · Baustein 5": "8e année · Unité 5",
  "Vorwissen: Formeln ausfüllen": "Prérequis : recopier des formules",
- "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena a un job d'été chez un glacier et gagne 11 € de l'heure. Dans C5, elle a calculé son salaire du lundi : <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> La solution : le signe $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ Le <code>$</code> est une <strong>ancre</strong>.<br/><code>$B$2</code> reste toujours <code>B2</code> pendant la recopie.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>Tu connais déjà ça :</strong> quand tu tires une formule vers le bas, Calc fait avancer les numéros de ligne : 5 → 6 → 7.<br/>Pour les heures, c'est bien. Pour le salaire dans <strong>B2</strong>, <strong>non</strong>.",
@@ -83,11 +82,14 @@
  "ein Bezug mit $. $B$2 bleibt immer B2.": "<strong>référence absolue</strong> – une référence avec <code>$</code>. <code>$B$2</code> reste toujours B2.",
  "eine einfache Regel, die fast immer stimmt": "<strong>règle simple</strong> – une règle facile qui est presque toujours juste",
  "Klick auf die gelbe Zelle C5 und tippe oben in die Eingabezeile eine Formel, die du nach unten ziehen kannst. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen bis C9.": "Clique sur la cellule jaune C5 et tape en haut, dans la ligne de saisie, une formule que tu peux tirer vers le bas. Tu valides avec <kbd>Enter</kbd>. Puis tu tires la <strong>Ausfüllkästchen</strong> (poignée de recopie) jusqu'à C9.",
- "✔ C5 stimmt! Jetzt der spannende Teil: Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "✔ C5 est juste ! Maintenant le moment passionnant : tire la <strong>Ausfüllkästchen</strong> (poignée de recopie) de C5 vers le bas jusqu'à C9.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C9.": "Pas encore tout en bas. Encore vides : {}. Tire de C5 jusqu'à C9.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Réfléchis :</strong> Lena tire la formule vers le bas jusqu'à C9. Qu'y a-t-il alors dans <strong>C6</strong> (mardi) ?",
  "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Quand tu tires, la formule se déplace avec. La plupart du temps, c’est juste. Mais certaines cellules doivent valoir pour toutes les lignes, par exemple le salaire horaire. Avec le <code>$</code>, tu bloques une telle cellule.",
  "ODS Aufgabe 1 · Ferienjobk8-05-absolute-bezuege-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Exercice 1 · Job d'été</strong><small>k8-05-absolute-bezuege-1.ods</small></span>",
  "ODS Aufgabe 2 · Klassenfahrtk8-05-absolute-bezuege-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Exercice 2 · Voyage de classe</strong><small>k8-05-absolute-bezuege-2.ods</small></span>",
- "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Exercice 3 · Détective des erreurs</strong><small>k8-05-absolute-bezuege-3.ods</small></span>"
+ "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Exercice 3 · Détective des erreurs</strong><small>k8-05-absolute-bezuege-3.ods</small></span>",
+ "📋 Spicker: So setzt du den Anker": "📋 Antisèche : comment poser l'ancre",
+ "C5 stimmt. Noch nicht fertig: Jetzt der spannende Teil. Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "C5 est juste. <strong>Pas encore fini :</strong> maintenant, la partie passionnante. Tire la <strong>Ausfüllkästchen</strong> (poignée de recopie) de C5 jusqu'à C9.",
+ "Anker": "Ancre",
+ "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €. Du musst nichts eintippen.": "Lena a un job d'été chez un glacier et gagne 11 € de l'heure. Dans C5, elle a calculé son salaire du lundi : <code>=B5*B2</code> → 4 × 11 € = 44 €. Tu n'as rien à taper."
 }

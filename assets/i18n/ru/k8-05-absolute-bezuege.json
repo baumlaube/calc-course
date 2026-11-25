@@ -3,7 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Абсолютные ссылки – $ как якорь",
  "Klasse 8 · Baustein 5": "8 класс · Модуль 5",
  "Vorwissen: Formeln ausfüllen": "Нужно знать: заполнение формул",
- "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Лена на каникулах работает в кафе-мороженом и получает 11 € в час. В C5 она посчитала заработок за понедельник: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Решение: знак $ <span class=\"chip\">5 мин</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> – это <strong>якорь</strong>.<br/><code>$B$2</code> при заполнении всегда остаётся <code>B2</code>.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>Ты это уже знаешь:</strong> когда протягиваешь формулу вниз, Calc считает номера строк дальше: 5 → 6 → 7.<br/>Для часов это подходит. Для зарплаты в <strong>B2</strong> – <strong>нет</strong>.",
@@ -83,11 +82,14 @@
  "ein Bezug mit $. $B$2 bleibt immer B2.": "<strong>абсолютная ссылка</strong> – ссылка с <code>$</code>. <code>$B$2</code> всегда остаётся B2.",
  "eine einfache Regel, die fast immer stimmt": "<strong>простое правило</strong> – лёгкое правило, которое почти всегда верно",
  "Klick auf die gelbe Zelle C5 und tippe oben in die Eingabezeile eine Formel, die du nach unten ziehen kannst. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen bis C9.": "Щёлкни на жёлтую ячейку C5 и введи вверху в строке ввода формулу, которую можно протянуть вниз. Подтверди клавишей <kbd>Enter</kbd>. Потом потяни за <strong>Ausfüllkästchen</strong> (маркер заполнения) до C9.",
- "✔ C5 stimmt! Jetzt der spannende Teil: Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "✔ C5 верно! Теперь самое интересное: потяни за <strong>Ausfüllkästchen</strong> (маркер заполнения) от C5 вниз до C9.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C9.": "Ещё не до конца. Пустые ещё: {}. Тяни от C5 до C9.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Подумай:</strong> Лена протягивает формулу вниз до C9. Что тогда стоит в <strong>C6</strong> (вторник)?",
  "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Когда тянешь, формула сдвигается. Обычно это правильно. Но некоторые ячейки должны действовать для всех строк, например почасовая оплата. Знаком <code>$</code> ты закрепляешь такую ячейку.",
  "ODS Aufgabe 1 · Ferienjobk8-05-absolute-bezuege-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Задание 1 · Подработка на каникулах</strong><small>k8-05-absolute-bezuege-1.ods</small></span>",
  "ODS Aufgabe 2 · Klassenfahrtk8-05-absolute-bezuege-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Задание 2 · Классная поездка</strong><small>k8-05-absolute-bezuege-2.ods</small></span>",
- "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Задание 3 · Детектив ошибок</strong><small>k8-05-absolute-bezuege-3.ods</small></span>"
+ "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Задание 3 · Детектив ошибок</strong><small>k8-05-absolute-bezuege-3.ods</small></span>",
+ "📋 Spicker: So setzt du den Anker": "📋 Шпаргалка: как ставить якорь",
+ "C5 stimmt. Noch nicht fertig: Jetzt der spannende Teil. Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "C5 верно. <strong>Ещё не всё:</strong> теперь самое интересное. Потяни <strong>Ausfüllkästchen</strong> (маркер заполнения) от C5 вниз до C9.",
+ "Anker": "Якорь",
+ "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €. Du musst nichts eintippen.": "Лена на каникулах работает в кафе-мороженом и получает 11 € в час. В C5 она посчитала заработок за понедельник: <code>=B5*B2</code> → 4 × 11 € = 44 €. Тебе ничего не нужно вводить."
 }

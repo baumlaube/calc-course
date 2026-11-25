@@ -3,7 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Абсолютні посилання – $ як якір",
  "Klasse 8 · Baustein 5": "8 клас · Модуль 5",
  "Vorwissen: Formeln ausfüllen": "Попередні знання: заповнення формул",
- "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Лена на канікулах підробляє в кафе-морозиві і отримує 11 € за годину. У C5 вона порахувала заробіток за понеділок: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "#WERT!": "#WERT! (#ЗНАЧ!)",
  "66,00 € (6 × 11 €)": "66,00 € (6 × 11 €)",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Рішення: знак $ <span class=\"chip\">5 хв</span>",
@@ -87,11 +86,14 @@
  "ein Bezug mit $. $B$2 bleibt immer B2.": "<strong>абсолютне посилання</strong> – посилання з <code>$</code>. <code>$B$2</code> завжди залишається B2.",
  "eine einfache Regel, die fast immer stimmt": "<strong>просте правило</strong> – легке правило, яке майже завжди правильне",
  "Klick auf die gelbe Zelle C5 und tippe oben in die Eingabezeile eine Formel, die du nach unten ziehen kannst. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen bis C9.": "Клацни на жовту клітинку C5 і введи вгорі в рядок введення формулу, яку можна протягнути вниз. Підтверди клавішею <kbd>Enter</kbd>. Потім потягни за <strong>Ausfüllkästchen</strong> (маркер заповнення) до C9.",
- "✔ C5 stimmt! Jetzt der spannende Teil: Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "✔ C5 правильно! Тепер найцікавіше: потягни за <strong>Ausfüllkästchen</strong> (маркер заповнення) від C5 вниз до C9.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C9.": "Ще не до кінця. Порожні ще: {}. Тягни від C5 до C9.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Подумай:</strong> Лена протягує формулу вниз до C9. Що тоді буде в <strong>C6</strong> (вівторок)?",
  "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Коли тягнеш, формула зсувається. Здебільшого це правильно. Але деякі клітинки мають діяти для всіх рядків, наприклад погодинна оплата. Знаком <code>$</code> ти закріплюєш таку клітинку.",
  "ODS Aufgabe 1 · Ferienjobk8-05-absolute-bezuege-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Завдання 1 · Підробіток на канікулах</strong><small>k8-05-absolute-bezuege-1.ods</small></span>",
  "ODS Aufgabe 2 · Klassenfahrtk8-05-absolute-bezuege-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Завдання 2 · Шкільна поїздка</strong><small>k8-05-absolute-bezuege-2.ods</small></span>",
- "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Завдання 3 · Детектив помилок</strong><small>k8-05-absolute-bezuege-3.ods</small></span>"
+ "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Завдання 3 · Детектив помилок</strong><small>k8-05-absolute-bezuege-3.ods</small></span>",
+ "📋 Spicker: So setzt du den Anker": "📋 Шпаргалка: як ставити якір",
+ "C5 stimmt. Noch nicht fertig: Jetzt der spannende Teil. Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "C5 правильно. <strong>Ще не все:</strong> тепер найцікавіше. Потягни <strong>Ausfüllkästchen</strong> (маркер заповнення) від C5 вниз до C9.",
+ "Anker": "Якір",
+ "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €. Du musst nichts eintippen.": "Лена на канікулах підробляє в кафе-морозиві і отримує 11 € за годину. У C5 вона порахувала заробіток за понеділок: <code>=B5*B2</code> → 4 × 11 € = 44 €. Тобі нічого не треба вводити."
 }

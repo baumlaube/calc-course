@@ -3,7 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Referencat absolute – $ si spirancë",
  "Klasse 8 · Baustein 5": "Klasa 8 · Njësia 5",
  "Vorwissen: Formeln ausfüllen": "Njohuri paraprake: plotësimi i formulave",
- "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena ka një punë verore në një akulloreri dhe fiton 11 € në orë. Në C5 llogariti pagën për të hënën: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Zgjidhja: shenja $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> është një <strong>spirancë</strong>.<br/><code>$B$2</code> mbetet gjithmonë <code>B2</code> gjatë plotësimit.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>Këtë e di tashmë:</strong> Kur tërheq një formulë poshtë, Calc i rrit numrat e rreshtave: 5 → 6 → 7.<br/>Për orët kjo është saktë. Për pagën në <strong>B2</strong> <strong>jo</strong>.",
@@ -83,11 +82,14 @@
  "ein Bezug mit $. $B$2 bleibt immer B2.": "<strong>referencë absolute</strong> – referencë me <code>$</code>. <code>$B$2</code> mbetet gjithmonë B2.",
  "eine einfache Regel, die fast immer stimmt": "<strong>rregull i thjeshtë</strong> – një rregull i lehtë që vlen pothuajse gjithmonë",
  "Klick auf die gelbe Zelle C5 und tippe oben in die Eingabezeile eine Formel, die du nach unten ziehen kannst. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen bis C9.": "Kliko qelizën e verdhë C5 dhe shkruaj sipër në rreshtin e hyrjes një formulë që mund ta tërheqësh poshtë. Konfirmo me <kbd>Enter</kbd>. Pastaj tërhiq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) deri në C9.",
- "✔ C5 stimmt! Jetzt der spannende Teil: Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "✔ C5 është në rregull! Tani pjesa interesante: tërhiq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) nga C5 poshtë deri në C9.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C9.": "Ende jo deri në fund. Ende bosh: {}. Tërhiq nga C5 deri në C9.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Mendo:</strong> Lena e tërheq formulën poshtë deri te C9. Çfarë ka atëherë në <strong>C6</strong> (e martë)?",
  "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Kur tërheq, formula lëviz bashkë. Zakonisht kjo është e saktë. Por disa qeliza duhet të vlejnë për të gjitha rreshtat, për shembull paga për orë. Me <code>$</code> e fikson një qelizë të tillë.",
  "ODS Aufgabe 1 · Ferienjobk8-05-absolute-bezuege-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Detyra 1 · Puna verore</strong><small>k8-05-absolute-bezuege-1.ods</small></span>",
  "ODS Aufgabe 2 · Klassenfahrtk8-05-absolute-bezuege-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Detyra 2 · Ekskursioni i klasës</strong><small>k8-05-absolute-bezuege-2.ods</small></span>",
- "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Detyra 3 · Detektivi i gabimeve</strong><small>k8-05-absolute-bezuege-3.ods</small></span>"
+ "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Detyra 3 · Detektivi i gabimeve</strong><small>k8-05-absolute-bezuege-3.ods</small></span>",
+ "📋 Spicker: So setzt du den Anker": "📋 Fletë ndihmëse: kështu vendos spirancën",
+ "C5 stimmt. Noch nicht fertig: Jetzt der spannende Teil. Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "C5 është e saktë. <strong>Ende jo gati:</strong> Tani pjesa interesante. Tërhiq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) nga C5 poshtë deri te C9.",
+ "Anker": "Spiranca",
+ "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €. Du musst nichts eintippen.": "Lena ka një punë verore në një akulloreri dhe fiton 11 € në orë. Në C5 llogariti pagën për të hënën: <code>=B5*B2</code> → 4 × 11 € = 44 €. Nuk ke nevojë të shkruash asgjë."
 }

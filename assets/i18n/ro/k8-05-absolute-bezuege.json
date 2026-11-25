@@ -3,7 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Referințe absolute – $ ca ancoră",
  "Klasse 8 · Baustein 5": "Clasa a 8-a · Unitatea 5",
  "Vorwissen: Formeln ausfüllen": "Cunoștințe anterioare: umplerea formulelor",
- "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena are un job de vacanță la o gelaterie și câștigă 11 € pe oră. În C5 și-a calculat plata pentru luni: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Soluția: semnul $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ <code>$</code> e o <strong>ancoră</strong>.<br/><code>$B$2</code> rămâne mereu <code>B2</code> la umplere.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>Știi deja asta:</strong> Când tragi o formulă în jos, Calc mută numerele rândurilor: 5 → 6 → 7.<br/>Pentru ore e corect. Pentru salariul din <strong>B2</strong> <strong>nu</strong>.",
@@ -83,11 +82,14 @@
  "ein Bezug mit $. $B$2 bleibt immer B2.": "<strong>referință absolută</strong> – o referință cu <code>$</code>. <code>$B$2</code> rămâne mereu B2.",
  "eine einfache Regel, die fast immer stimmt": "<strong>regulă simplă</strong> – o regulă ușoară care e aproape mereu adevărată",
  "Klick auf die gelbe Zelle C5 und tippe oben in die Eingabezeile eine Formel, die du nach unten ziehen kannst. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen bis C9.": "Dă clic pe celula galbenă C5 și scrie sus în linia de introducere o formulă pe care o poți trage în jos. Confirmi cu <kbd>Enter</kbd>. Apoi tragi de <strong>Ausfüllkästchen</strong> (mânerul de umplere) până la C9.",
- "✔ C5 stimmt! Jetzt der spannende Teil: Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "✔ C5 e corect! Acum partea interesantă: trage de <strong>Ausfüllkästchen</strong> (mânerul de umplere) de la C5 în jos până la C9.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C9.": "Încă nu ai ajuns jos. Mai sunt goale: {}. Trage de la C5 până la C9.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Gândește-te:</strong> Lena trage formula în jos până la C9. Ce e atunci în <strong>C6</strong> (marți)?",
  "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Când tragi, formula se mută odată cu tine. De obicei e corect. Dar unele celule trebuie să fie valabile pentru toate rândurile, de exemplu salariul pe oră. Cu <code>$</code> fixezi o astfel de celulă.",
  "ODS Aufgabe 1 · Ferienjobk8-05-absolute-bezuege-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Sarcina 1 · Job de vacanță</strong><small>k8-05-absolute-bezuege-1.ods</small></span>",
  "ODS Aufgabe 2 · Klassenfahrtk8-05-absolute-bezuege-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Sarcina 2 · Excursia clasei</strong><small>k8-05-absolute-bezuege-2.ods</small></span>",
- "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Sarcina 3 · Detectivul de erori</strong><small>k8-05-absolute-bezuege-3.ods</small></span>"
+ "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Sarcina 3 · Detectivul de erori</strong><small>k8-05-absolute-bezuege-3.ods</small></span>",
+ "📋 Spicker: So setzt du den Anker": "📋 Fițuică: așa pui ancora",
+ "C5 stimmt. Noch nicht fertig: Jetzt der spannende Teil. Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "C5 e corect. <strong>Încă nu ai terminat:</strong> Acum partea interesantă. Trage de <strong>Ausfüllkästchen</strong> (mânerul de umplere) de la C5 în jos până la C9.",
+ "Anker": "Ancora",
+ "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €. Du musst nichts eintippen.": "Lena are un job de vacanță la o gelaterie și câștigă 11 € pe oră. În C5 și-a calculat plata pentru luni: <code>=B5*B2</code> → 4 × 11 € = 44 €. Nu trebuie să tastezi nimic."
 }

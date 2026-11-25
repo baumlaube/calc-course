@@ -3,7 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "المراجع المطلقة – الـ $ كمرساة",
  "Klasse 8 · Baustein 5": "الصف 8 · الوحدة 5",
  "Vorwissen: Formeln ausfüllen": "المعرفة المسبقة: تعبئة الصيغ",
- "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "لينا تعمل في عطلتها في محلّ مثلّجات وتكسب 11 € في الساعة. في C5 حسبت أجرها ليوم الإثنين: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> الحل: علامة $ <span class=\"chip\">5 د</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ الـ <code>$</code> هي <strong>مرساة</strong>.<br/><code>$B$2</code> تبقى دائمًا <code>B2</code> عند التعبئة.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>أنت تعرف هذا:</strong> عندما تسحب صيغة إلى الأسفل، يغيّر Calc أرقام الصفوف معها: 5 → 6 → 7.<br/>هذا صحيح للساعات. أما للأجر في <strong>B2</strong> فـ<strong>لا</strong>.",
@@ -83,11 +82,14 @@
  "ein Bezug mit $. $B$2 bleibt immer B2.": "<strong>مرجع مطلق</strong> – مرجع مع <code>$</code>. <code>$B$2</code> تبقى دائمًا B2.",
  "eine einfache Regel, die fast immer stimmt": "<strong>قاعدة بسيطة</strong> – قاعدة سهلة صحيحة في أغلب الأحيان",
  "Klick auf die gelbe Zelle C5 und tippe oben in die Eingabezeile eine Formel, die du nach unten ziehen kannst. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen bis C9.": "انقر على الخلية الصفراء C5 واكتب في سطر الإدخال في الأعلى صيغة يمكنك سحبها إلى الأسفل. أكّد بـ <kbd>Enter</kbd>. ثم اسحب <strong>Ausfüllkästchen</strong> (مقبض التعبئة) حتى C9.",
- "✔ C5 stimmt! Jetzt der spannende Teil: Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "✔ C5 صحيحة! الآن الجزء المثير: اسحب <strong>Ausfüllkästchen</strong> (مقبض التعبئة) من C5 إلى الأسفل حتى C9.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C9.": "لم تصل إلى الأسفل بعد. ما زالت فارغة: {}. اسحب من C5 حتى C9.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>فكّر:</strong> لينا تسحب الصيغة إلى الأسفل حتى C9. ماذا يوجد عندها في <strong>C6</strong> (الثلاثاء)؟",
  "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "عند السحب تنتقل الصيغة معك. غالبًا هذا صحيح. لكن بعض الخلايا يجب أن تصلح لكل الصفوف، مثل أجر الساعة. بعلامة <code>$</code> تثبّت هذه الخلية.",
  "ODS Aufgabe 1 · Ferienjobk8-05-absolute-bezuege-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>المهمة 1 · عمل العطلة</strong><small>k8-05-absolute-bezuege-1.ods</small></span>",
  "ODS Aufgabe 2 · Klassenfahrtk8-05-absolute-bezuege-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>المهمة 2 · رحلة الصف</strong><small>k8-05-absolute-bezuege-2.ods</small></span>",
- "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>المهمة 3 · محقّق الأخطاء</strong><small>k8-05-absolute-bezuege-3.ods</small></span>"
+ "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>المهمة 3 · محقّق الأخطاء</strong><small>k8-05-absolute-bezuege-3.ods</small></span>",
+ "📋 Spicker: So setzt du den Anker": "📋 ورقة مساعدة: هكذا تضع المرساة",
+ "C5 stimmt. Noch nicht fertig: Jetzt der spannende Teil. Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "C5 صحيحة. <strong>لم تنتهِ بعد:</strong> الآن الجزء المثير. اسحب <strong>Ausfüllkästchen</strong> (مقبض التعبئة) من C5 إلى الأسفل حتى C9.",
+ "Anker": "المرساة",
+ "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €. Du musst nichts eintippen.": "لينا تعمل في عطلتها في محلّ مثلّجات وتكسب 11 € في الساعة. في C5 حسبت أجرها ليوم الإثنين: <code>=B5*B2</code> → 4 × 11 € = 44 €. لا تحتاج إلى كتابة أي شيء."
 }

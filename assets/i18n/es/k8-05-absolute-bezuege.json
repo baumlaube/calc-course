@@ -3,7 +3,6 @@
  "Absolute Bezüge – das $ als Anker": "Referencias absolutas – el $ como ancla",
  "Klasse 8 · Baustein 5": "8.º curso · Unidad 5",
  "Vorwissen: Formeln ausfüllen": "Conocimientos previos: rellenar fórmulas",
- "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena trabaja en vacaciones en una heladería y gana 11 € por hora. En C5 calculó lo que ganó el lunes: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> La solución: el signo $ <span class=\"chip\">5 min</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ El <code>$</code> es un <strong>ancla</strong>.<br/><code>$B$2</code> siempre sigue siendo <code>B2</code> al rellenar.",
  "💡 Du kennst das schon: Ziehst du eine Formel nach unten, zählt Calc die Zeilennummern mit: 5 → 6 → 7.Für die Stunden passt das. Für den Lohn in B2 passt es nicht.": "💡 <strong>Ya lo conoces:</strong> cuando arrastras una fórmula hacia abajo, Calc avanza los números de fila: 5 → 6 → 7.<br/>Para las horas está bien. Para el sueldo de <strong>B2</strong>, <strong>no</strong>.",
@@ -83,11 +82,14 @@
  "ein Bezug mit $. $B$2 bleibt immer B2.": "<strong>referencia absoluta</strong> – una referencia con <code>$</code>. <code>$B$2</code> siempre sigue siendo B2.",
  "eine einfache Regel, die fast immer stimmt": "<strong>regla práctica</strong> – una regla sencilla que casi siempre funciona",
  "Klick auf die gelbe Zelle C5 und tippe oben in die Eingabezeile eine Formel, die du nach unten ziehen kannst. Mit Enter bestätigst du. Dann ziehst du am Ausfüllkästchen bis C9.": "Haz clic en la celda amarilla C5 y escribe arriba, en la línea de entrada, una fórmula que puedas arrastrar hacia abajo. Confirma con <kbd>Enter</kbd>. Luego arrastra el <strong>Ausfüllkästchen</strong> (controlador de relleno) hasta C9.",
- "✔ C5 stimmt! Jetzt der spannende Teil: Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "✔ ¡C5 está bien! Ahora la parte emocionante: arrastra el <strong>Ausfüllkästchen</strong> (controlador de relleno) de C5 hacia abajo hasta C9.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C9.": "Todavía no llegas abajo. Siguen vacías: {}. Arrastra desde C5 hasta C9.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Piensa:</strong> Lena arrastra la fórmula hacia abajo hasta C9. ¿Qué hay entonces en <strong>C6</strong> (martes)?",
  "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Al arrastrar, la fórmula se desplaza. Casi siempre es lo correcto. Pero algunas celdas deben valer para todas las filas, por ejemplo el sueldo por hora. Con el <code>$</code> fijas esa celda.",
  "ODS Aufgabe 1 · Ferienjobk8-05-absolute-bezuege-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Tarea 1 · Trabajo de verano</strong><small>k8-05-absolute-bezuege-1.ods</small></span>",
  "ODS Aufgabe 2 · Klassenfahrtk8-05-absolute-bezuege-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Tarea 2 · Viaje de clase</strong><small>k8-05-absolute-bezuege-2.ods</small></span>",
- "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Tarea 3 · Detective de errores</strong><small>k8-05-absolute-bezuege-3.ods</small></span>"
+ "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Tarea 3 · Detective de errores</strong><small>k8-05-absolute-bezuege-3.ods</small></span>",
+ "📋 Spicker: So setzt du den Anker": "📋 Chuleta: así se pone el ancla",
+ "C5 stimmt. Noch nicht fertig: Jetzt der spannende Teil. Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "C5 está bien. <strong>Aún no has terminado:</strong> ahora viene lo interesante. Arrastra el <strong>Ausfüllkästchen</strong> (controlador de relleno) desde C5 hacia abajo hasta C9.",
+ "Anker": "Ancla",
+ "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €. Du musst nichts eintippen.": "Lena trabaja en vacaciones en una heladería y gana 11 € por hora. En C5 calculó lo que ganó el lunes: <code>=B5*B2</code> → 4 × 11 € = 44 €. No tienes que escribir nada."
 }

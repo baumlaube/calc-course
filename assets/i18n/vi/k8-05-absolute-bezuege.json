@@ -8,7 +8,6 @@
  "Ein Anker hält ein Schiff fest. Das $ hält eine Zelle fest.": "<strong>cái neo</strong> – Cái neo giữ con tàu đứng yên. Dấu <code>$</code> giữ một ô đứng yên.",
  "ein Bezug mit $. $B$2 bleibt immer B2.": "<strong>địa chỉ tuyệt đối</strong> – địa chỉ có <code>$</code>. <code>$B$2</code> luôn luôn là B2.",
  "eine einfache Regel, die fast immer stimmt": "<strong>quy tắc đơn giản</strong> – một quy tắc dễ nhớ, gần như lúc nào cũng đúng",
- "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €.": "Lena làm thêm trong kỳ nghỉ ở một tiệm kem và được 11 € mỗi giờ. Trong C5, bạn ấy đã tính tiền công ngày thứ Hai: <code>=B5*B2</code> → 4 × 11 € = 44 €.",
  "Überleg: Lena zieht die Formel nach unten bis C9. Was steht dann in C6 (Dienstag)?": "<strong>Suy nghĩ:</strong> Lena kéo công thức xuống tới C9. Khi đó trong <strong>C6</strong> (thứ Ba) có gì?",
  "2 Die Lösung: das $-Zeichen 5 Min": "<span class=\"step-no\">2</span> Cách giải: dấu $ <span class=\"chip\">5 phút</span>",
  "⚓ Das $ ist ein Anker.$B$2 bleibt beim Ausfüllen immer B2.": "⚓ Dấu <code>$</code> là một <strong>cái neo</strong>.<br/><code>$B$2</code> luôn luôn là <code>B2</code> khi điền.",
@@ -50,7 +49,6 @@
  "In C5 steht der Fehler {}. Prüfe die Schreibweise, z. B. ob ein Rechenzeichen fehlt.": "Trong C5 có lỗi <strong>{}</strong>. Hãy kiểm tra cách viết, ví dụ có thiếu dấu phép tính không.",
  "In deiner Formel steht eine feste Zahl. Was passiert, wenn Lena eine Lohnerhöhung bekommt? Nimm statt der Zahl die Zelle B2.": "Trong công thức của bạn có một <strong>số cố định</strong>. Nếu Lena được tăng lương thì sao? Hãy dùng ô <code>B2</code> thay vì con số.",
  "C5 rechnet noch nicht richtig. Gesucht ist: Stunden (B5) × Stundenlohn (B2).": "C5 chưa tính đúng. Cần: số giờ (B5) × tiền công mỗi giờ (B2).",
- "✔ C5 stimmt! Jetzt der spannende Teil: Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "✔ C5 đúng rồi! Bây giờ đến phần hấp dẫn: kéo <strong>Ausfüllkästchen</strong> (ô điền tự động) từ C5 xuống tới C9.",
  "Noch nicht ganz unten. Leer sind noch: {}. Zieh von C5 aus bis C9.": "Chưa tới cuối. Còn trống: {}. Hãy kéo từ C5 tới C9.",
  "✔ Funktioniert! B$2 hält die Zeile fest, und das reicht, wenn du nur nach unten ziehst. Mit $B$2 bist du aber immer auf der sicheren Seite.": "✔ Được rồi! <code>B$2</code> giữ cố định hàng, và như vậy là đủ khi bạn chỉ kéo xuống dưới. Nhưng với <code>$B$2</code> bạn luôn an toàn.",
  "✔ Perfekt! Der Anker $B$2 hält, alle fünf Tage sind richtig.": "✔ Hoàn hảo! Cái neo <code>$B$2</code> giữ chắc, cả năm ngày đều đúng.",
@@ -87,5 +85,9 @@
  "Beim Ziehen wandert die Formel mit. Meistens ist das richtig. Aber manche Zellen sollen für alle Zeilen gelten, zum Beispiel der Stundenlohn. Mit dem $ hältst du so eine Zelle fest.": "Khi kéo, công thức di chuyển theo. Thường thì như vậy là đúng. Nhưng có những ô phải áp dụng cho tất cả các hàng, ví dụ tiền công mỗi giờ. Với dấu <code>$</code> bạn giữ cố định một ô như vậy.",
  "ODS Aufgabe 1 · Ferienjobk8-05-absolute-bezuege-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Bài 1 · Việc làm kỳ nghỉ</strong><small>k8-05-absolute-bezuege-1.ods</small></span>",
  "ODS Aufgabe 2 · Klassenfahrtk8-05-absolute-bezuege-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Bài 2 · Chuyến đi của lớp</strong><small>k8-05-absolute-bezuege-2.ods</small></span>",
- "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Bài 3 · Thám tử tìm lỗi</strong><small>k8-05-absolute-bezuege-3.ods</small></span>"
+ "ODS Aufgabe 3 · Fehlerdetektivk8-05-absolute-bezuege-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Bài 3 · Thám tử tìm lỗi</strong><small>k8-05-absolute-bezuege-3.ods</small></span>",
+ "📋 Spicker: So setzt du den Anker": "📋 Phiếu nhắc nhanh: đặt mỏ neo như thế này",
+ "C5 stimmt. Noch nicht fertig: Jetzt der spannende Teil. Zieh am Ausfüllkästchen von C5 nach unten bis C9.": "C5 đúng rồi. <strong>Chưa xong:</strong> Bây giờ đến phần thú vị. Kéo <strong>Ausfüllkästchen</strong> (nút điền) từ C5 xuống đến C9.",
+ "Anker": "Mỏ neo",
+ "Lena jobbt in den Ferien in einer Eisdiele und bekommt 11 € pro Stunde. In C5 hat sie ihren Verdienst für Montag ausgerechnet: =B5*B2 → 4 × 11 € = 44 €. Du musst nichts eintippen.": "Lena làm thêm trong kỳ nghỉ ở một tiệm kem và được 11 € mỗi giờ. Trong C5, bạn ấy đã tính tiền công ngày thứ Hai: <code>=B5*B2</code> → 4 × 11 € = 44 €. Bạn không cần gõ gì cả."
 }
