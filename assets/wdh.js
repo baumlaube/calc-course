@@ -244,6 +244,7 @@
       again.type = "button";
       again.addEventListener("click", () => { store.set(key, ""); step(0, []); });
       box.appendChild(again);
+      if (opts.onDone) opts.onDone();
     };
     const step = (i, wrong) => {
       box.innerHTML = "";
