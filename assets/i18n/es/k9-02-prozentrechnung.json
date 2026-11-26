@@ -89,5 +89,6 @@
  "Zeile 5 stimmt. Noch nicht fertig: Markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "La fila 5 está bien. <strong>Todavía no has terminado:</strong> Selecciona C5 y D5 juntas y arrastra las dos con el <strong>Ausfüllkästchen</strong> (controlador de relleno) hacia abajo hasta la fila 7.",
  "Rabatt": "Rabatt (descuento)",
  "%-Knopf": "Botón %",
- "Sale-Labor": "Laboratorio de rebajas"
+ "Sale-Labor": "Laboratorio de rebajas",
+ "Rabatt rechnen": "Calcular el descuento"
 }
