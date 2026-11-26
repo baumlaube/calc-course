@@ -29,7 +29,6 @@
  "% Als Prozent formatieren": "% Als Prozent formatieren (قالب‌بندی به صورت درصد)",
  "Tippe in C2 eine Zahl oder die Formel =B2/B3.": "در C2 یک عدد یا فرمول <code>=B2/B3</code> را بنویس.",
  "=B2/B3 → 10 von 25 = {}. Klick jetzt auf % Als Prozent formatieren.": "<code>=B2/B3</code> → 10 از 25 = <strong>{}</strong>. حالا روی <strong>% Als Prozent formatieren</strong> کلیک کن.",
- "Aha! Aus 40 wird 4.000 %, weil Calc 40 · 100 rechnet. Merke: Erst rechnen, dann formatieren – oder gleich 40% mit Zeichen tippen.": "آها! 40 می‌شود <strong>4.000 %</strong>، چون Calc حساب می‌کند 40 · 100. یادت باشد: <strong>اول حساب کن، بعد قالب‌بندی</strong> – یا از اول با علامت <code>40%</code> بنویس.",
  "✔ Aus 0,4 wird 40 %. Die Zahl bleibt gleich, nur die Anzeige ändert sich.": "✔ 0,4 می‌شود <strong>40 %</strong>. عدد همان می‌ماند، فقط نمایش تغییر می‌کند.",
  "Und jetzt ein Experiment: Tipp in C2 einfach 40 ein.": "حالا یک آزمایش: در C2 فقط <code>40</code> بنویس.",
  "Das %-Format zeigt jede Zahl mal 100 an.": "قالب % هر عدد را ضرب در 100 نشان می‌دهد.",
@@ -81,9 +80,10 @@
  "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "هنوز همه چیز پر نشده. C5 و D5 را <strong>با هم</strong> انتخاب کن و <strong>Ausfüllkästchen</strong> (دستگیرهٔ پر کردن) را به پایین تا ردیف 7 بکش.",
  "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ ردیف 5 درست است! حالا C5 و D5 را با هم انتخاب کن و هر دو را با <strong>Ausfüllkästchen</strong> (دستگیرهٔ پر کردن) به پایین تا ردیف 7 بکش.",
  "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "درصد را از ریاضی می‌شناسی. حالا درصد را با Calc حساب می‌کنی. این‌طور سریع حساب می‌کنی یک شلوار با ۳۰ ٪ تخفیف چقدر می‌شود. یا چقدر مالیات بر ارزش افزوده روی رسید نوشته شده.",
- "🏆 Genau! 40% mit Zeichen ist für Calc 0,4 – angezeigt als 40 %. Experiment geschafft.": "🏆 دقیقاً! <code>40%</code> با علامت برای Calc یعنی 0,4 – و به شکل 40 % نشان داده می‌شود. آزمایش موفق بود.",
  "ODS Aufgabe 1 · Rabattk9-02-prozentrechnung-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>تمرین 1 · تخفیف</strong><small>k9-02-prozentrechnung-1.ods</small></span>",
  "ODS Aufgabe 2 · Umfragek9-02-prozentrechnung-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>تمرین 2 · نظرسنجی</strong><small>k9-02-prozentrechnung-2.ods</small></span>",
  "ODS Aufgabe 3 · Mehrwertsteuerk9-02-prozentrechnung-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>تمرین 3 · مالیات</strong><small>k9-02-prozentrechnung-3.ods</small></span>",
- "Kurzvideo: Rabatt berechnen in 60 Sekunden": "<strong>ویدیوی کوتاه:</strong> حساب کردن تخفیف در 60 ثانیه"
+ "Kurzvideo: Rabatt berechnen in 60 Sekunden": "<strong>ویدیوی کوتاه:</strong> حساب کردن تخفیف در 60 ثانیه",
+ "Aha! Aus {} wird {}, weil Calc {} · 100 rechnet. Merke: Erst rechnen, dann formatieren – oder gleich {}% mit Zeichen tippen.": "آها! {0} می‌شود <strong>{1}</strong>، چون Calc حساب می‌کند {0} · 100. یادت باشد: <strong>اول حساب کن، بعد قالب‌بندی</strong> – یا از اول با علامت <code>{0}%</code> بنویس.",
+ "🏆 Genau! {} mit Zeichen ist für Calc {} – angezeigt als {}. Experiment geschafft.": "🏆 دقیقاً! <code>{0}</code> با علامت برای Calc یعنی {1} – و به شکل {2} نشان داده می‌شود. آزمایش موفق بود."
 }

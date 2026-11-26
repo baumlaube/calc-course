@@ -29,7 +29,6 @@
  "% Als Prozent formatieren": "% Als Prozent formatieren (formato si përqindje)",
  "Tippe in C2 eine Zahl oder die Formel =B2/B3.": "Shkruaj në C2 një numër ose formulën <code>=B2/B3</code>.",
  "=B2/B3 → 10 von 25 = {}. Klick jetzt auf % Als Prozent formatieren.": "<code>=B2/B3</code> → 10 nga 25 = <strong>{}</strong>. Tani kliko <strong>% Als Prozent formatieren</strong>.",
- "Aha! Aus 40 wird 4.000 %, weil Calc 40 · 100 rechnet. Merke: Erst rechnen, dann formatieren – oder gleich 40% mit Zeichen tippen.": "Aha! 40 bëhet <strong>4.000 %</strong>, sepse Calc llogarit 40 · 100. Mbaje mend: <strong>fillimisht llogarit, pastaj formato</strong> – ose shkruaj menjëherë <code>40%</code> me shenjë.",
  "✔ Aus 0,4 wird 40 %. Die Zahl bleibt gleich, nur die Anzeige ändert sich.": "✔ 0,4 bëhet <strong>40 %</strong>. Numri mbetet i njëjtë, ndryshon vetëm shfaqja.",
  "Und jetzt ein Experiment: Tipp in C2 einfach 40 ein.": "Dhe tani një eksperiment: shkruaj vetëm <code>40</code> në C2.",
  "Das %-Format zeigt jede Zahl mal 100 an.": "Formati % e tregon çdo numër herë 100.",
@@ -81,9 +80,10 @@
  "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "Ende nuk është plotësuar gjithçka. Shëno C5 dhe D5 <strong>bashkë</strong> dhe tërhiq <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) poshtë deri në rreshtin 7.",
  "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ Rreshti 5 është në rregull! Tani shëno C5 dhe D5 bashkë dhe tërhiqi të dyja me <strong>Ausfüllkästchen</strong> (dorezën e plotësimit) poshtë deri në rreshtin 7.",
  "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "Përqindjet i njeh nga matematika. Tani i llogarit përqindjet me Calc. Kështu llogarit shpejt sa kushton një palë pantallona me 30 % zbritje. Ose sa TVSH shkruhet në faturë.",
- "🏆 Genau! 40% mit Zeichen ist für Calc 0,4 – angezeigt als 40 %. Experiment geschafft.": "🏆 Saktë! <code>40%</code> me shenjë për Calc është 0,4 – shfaqet si 40 %. Eksperimenti u krye.",
  "ODS Aufgabe 1 · Rabattk9-02-prozentrechnung-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Detyra 1 · Zbritja</strong><small>k9-02-prozentrechnung-1.ods</small></span>",
  "ODS Aufgabe 2 · Umfragek9-02-prozentrechnung-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Detyra 2 · Anketa</strong><small>k9-02-prozentrechnung-2.ods</small></span>",
  "ODS Aufgabe 3 · Mehrwertsteuerk9-02-prozentrechnung-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Detyra 3 · TVSH</strong><small>k9-02-prozentrechnung-3.ods</small></span>",
- "Kurzvideo: Rabatt berechnen in 60 Sekunden": "<strong>Video e shkurtër:</strong> Llogarit zbritjen në 60 sekonda"
+ "Kurzvideo: Rabatt berechnen in 60 Sekunden": "<strong>Video e shkurtër:</strong> Llogarit zbritjen në 60 sekonda",
+ "Aha! Aus {} wird {}, weil Calc {} · 100 rechnet. Merke: Erst rechnen, dann formatieren – oder gleich {}% mit Zeichen tippen.": "Aha! {0} bëhet <strong>{1}</strong>, sepse Calc llogarit {0} · 100. Mbaje mend: <strong>fillimisht llogarit, pastaj formato</strong> – ose shkruaj menjëherë <code>{0}%</code> me shenjë.",
+ "🏆 Genau! {} mit Zeichen ist für Calc {} – angezeigt als {}. Experiment geschafft.": "🏆 Saktë! <code>{0}</code> me shenjë për Calc është {1} – shfaqet si {2}. Eksperimenti u krye."
 }

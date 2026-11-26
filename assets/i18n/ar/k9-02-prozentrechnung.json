@@ -29,7 +29,6 @@
  "% Als Prozent formatieren": "% Als Prozent formatieren (تنسيق كنسبة مئوية)",
  "Tippe in C2 eine Zahl oder die Formel =B2/B3.": "اكتب في C2 رقمًا أو الصيغة <code>=B2/B3</code>.",
  "=B2/B3 → 10 von 25 = {}. Klick jetzt auf % Als Prozent formatieren.": "<code>=B2/B3</code> → 10 من 25 = <strong>{}</strong>. الآن انقر على <strong>% Als Prozent formatieren</strong>.",
- "Aha! Aus 40 wird 4.000 %, weil Calc 40 · 100 rechnet. Merke: Erst rechnen, dann formatieren – oder gleich 40% mit Zeichen tippen.": "آها! 40 تصبح <strong>4000 %</strong>، لأن Calc يحسب 40 · 100. تذكّر: <strong>احسب أولًا، ثم نسّق</strong> – أو اكتب مباشرة <code>40%</code> مع العلامة.",
  "✔ Aus 0,4 wird 40 %. Die Zahl bleibt gleich, nur die Anzeige ändert sich.": "✔ 0,4 تصبح <strong>40 %</strong>. الرقم يبقى نفسه، يتغيّر العرض فقط.",
  "Und jetzt ein Experiment: Tipp in C2 einfach 40 ein.": "والآن تجربة: اكتب في C2 فقط <code>40</code>.",
  "Das %-Format zeigt jede Zahl mal 100 an.": "تنسيق % يعرض كل رقم مضروبًا في 100.",
@@ -81,9 +80,10 @@
  "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "لم تتم تعبئة كل شيء بعد. حدّد C5 وD5 <strong>معًا</strong> واسحب <strong>Ausfüllkästchen</strong> (مقبض التعبئة) إلى الأسفل حتى السطر 7.",
  "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ السطر 5 صحيح! الآن حدّد C5 وD5 معًا واسحب الاثنين بـ <strong>Ausfüllkästchen</strong> (مقبض التعبئة) إلى الأسفل حتى السطر 7.",
  "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "النسب المئوية تعرفها من الرياضيات. الآن تحسب النسب باستخدام Calc. هكذا تحسب بسرعة كم يكلّف بنطال عليه خصم 30 %. أو كم ضريبة القيمة المضافة المكتوبة على الإيصال.",
- "🏆 Genau! 40% mit Zeichen ist für Calc 0,4 – angezeigt als 40 %. Experiment geschafft.": "🏆 تمامًا! <code>40%</code> مع العلامة هي 0,4 بالنسبة إلى Calc – وتظهر 40 %. نجحت التجربة.",
  "ODS Aufgabe 1 · Rabattk9-02-prozentrechnung-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>المهمة 1 · الخصم</strong><small>k9-02-prozentrechnung-1.ods</small></span>",
  "ODS Aufgabe 2 · Umfragek9-02-prozentrechnung-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>المهمة 2 · استطلاع</strong><small>k9-02-prozentrechnung-2.ods</small></span>",
  "ODS Aufgabe 3 · Mehrwertsteuerk9-02-prozentrechnung-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>المهمة 3 · ضريبة القيمة المضافة</strong><small>k9-02-prozentrechnung-3.ods</small></span>",
- "Kurzvideo: Rabatt berechnen in 60 Sekunden": "<strong>فيديو قصير:</strong> احسب الخصم في 60 ثانية"
+ "Kurzvideo: Rabatt berechnen in 60 Sekunden": "<strong>فيديو قصير:</strong> احسب الخصم في 60 ثانية",
+ "Aha! Aus {} wird {}, weil Calc {} · 100 rechnet. Merke: Erst rechnen, dann formatieren – oder gleich {}% mit Zeichen tippen.": "آها! {0} تصبح <strong>{1}</strong>، لأن Calc يحسب {0} · 100. تذكّر: <strong>احسب أولًا، ثم نسّق</strong> – أو اكتب مباشرة <code>{0}%</code> مع العلامة.",
+ "🏆 Genau! {} mit Zeichen ist für Calc {} – angezeigt als {}. Experiment geschafft.": "🏆 تمامًا! <code>{0}</code> مع العلامة هي {1} بالنسبة إلى Calc – وتظهر {2}. نجحت التجربة."
 }

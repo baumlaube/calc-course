@@ -29,7 +29,6 @@
  "% Als Prozent formatieren": "% Als Prozent formatieren (formatare ca procent)",
  "Tippe in C2 eine Zahl oder die Formel =B2/B3.": "Scrie în C2 un număr sau formula <code>=B2/B3</code>.",
  "=B2/B3 → 10 von 25 = {}. Klick jetzt auf % Als Prozent formatieren.": "<code>=B2/B3</code> → 10 din 25 = <strong>{}</strong>. Acum dă clic pe <strong>% Als Prozent formatieren</strong>.",
- "Aha! Aus 40 wird 4.000 %, weil Calc 40 · 100 rechnet. Merke: Erst rechnen, dann formatieren – oder gleich 40% mit Zeichen tippen.": "Aha! 40 devine <strong>4.000 %</strong>, pentru că Calc calculează 40 · 100. Ține minte: <strong>întâi calculezi, apoi formatezi</strong> – sau scrii direct <code>40%</code> cu semnul.",
  "✔ Aus 0,4 wird 40 %. Die Zahl bleibt gleich, nur die Anzeige ändert sich.": "✔ 0,4 devine <strong>40 %</strong>. Numărul rămâne același, se schimbă doar afișarea.",
  "Und jetzt ein Experiment: Tipp in C2 einfach 40 ein.": "Și acum un experiment: scrie doar <code>40</code> în C2.",
  "Das %-Format zeigt jede Zahl mal 100 an.": "Formatul % arată orice număr înmulțit cu 100.",
@@ -81,9 +80,10 @@
  "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "Încă nu e totul umplut. Selectează C5 și D5 <strong>împreună</strong> și trage de <strong>Ausfüllkästchen</strong> (mânerul de umplere) în jos până la rândul 7.",
  "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ Rândul 5 e corect! Acum selectează C5 și D5 împreună și trage-le pe amândouă cu <strong>Ausfüllkästchen</strong> (mânerul de umplere) în jos până la rândul 7.",
  "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "Procentele le știi de la matematică. Acum calculezi procente cu Calc. Așa calculezi repede cât costă o pereche de pantaloni cu 30 % reducere. Sau cât TVA scrie pe bon.",
- "🏆 Genau! 40% mit Zeichen ist für Calc 0,4 – angezeigt als 40 %. Experiment geschafft.": "🏆 Exact! <code>40%</code> cu semn e pentru Calc 0,4 – afișat ca 40 %. Experiment reușit.",
  "ODS Aufgabe 1 · Rabattk9-02-prozentrechnung-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Sarcina 1 · Reducere</strong><small>k9-02-prozentrechnung-1.ods</small></span>",
  "ODS Aufgabe 2 · Umfragek9-02-prozentrechnung-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Sarcina 2 · Sondaj</strong><small>k9-02-prozentrechnung-2.ods</small></span>",
  "ODS Aufgabe 3 · Mehrwertsteuerk9-02-prozentrechnung-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Sarcina 3 · TVA</strong><small>k9-02-prozentrechnung-3.ods</small></span>",
- "Kurzvideo: Rabatt berechnen in 60 Sekunden": "<strong>Video scurt:</strong> Calculează o reducere în 60 de secunde"
+ "Kurzvideo: Rabatt berechnen in 60 Sekunden": "<strong>Video scurt:</strong> Calculează o reducere în 60 de secunde",
+ "Aha! Aus {} wird {}, weil Calc {} · 100 rechnet. Merke: Erst rechnen, dann formatieren – oder gleich {}% mit Zeichen tippen.": "Aha! {0} devine <strong>{1}</strong>, pentru că Calc calculează {0} · 100. Ține minte: <strong>întâi calculezi, apoi formatezi</strong> – sau scrii direct <code>{0}%</code> cu semnul.",
+ "🏆 Genau! {} mit Zeichen ist für Calc {} – angezeigt als {}. Experiment geschafft.": "🏆 Exact! <code>{0}</code> cu semn e pentru Calc {1} – afișat ca {2}. Experiment reușit."
 }

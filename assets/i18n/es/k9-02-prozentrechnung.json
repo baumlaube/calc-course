@@ -29,7 +29,6 @@
  "% Als Prozent formatieren": "% Als Prozent formatieren (formato de porcentaje)",
  "Tippe in C2 eine Zahl oder die Formel =B2/B3.": "Escribe un número o la fórmula <code>=B2/B3</code> en C2.",
  "=B2/B3 → 10 von 25 = {}. Klick jetzt auf % Als Prozent formatieren.": "<code>=B2/B3</code> → 10 de 25 = <strong>{}</strong>. Ahora haz clic en <strong>% Als Prozent formatieren</strong>.",
- "Aha! Aus 40 wird 4.000 %, weil Calc 40 · 100 rechnet. Merke: Erst rechnen, dann formatieren – oder gleich 40% mit Zeichen tippen.": "¡Ajá! 40 se convierte en <strong>4.000 %</strong>, porque Calc calcula 40 · 100. Recuerda: <strong>primero calcular, luego dar formato</strong>, o escribe directamente <code>40%</code> con el signo.",
  "✔ Aus 0,4 wird 40 %. Die Zahl bleibt gleich, nur die Anzeige ändert sich.": "✔ 0,4 se convierte en <strong>40 %</strong>. El número sigue siendo el mismo; solo cambia cómo se ve.",
  "Und jetzt ein Experiment: Tipp in C2 einfach 40 ein.": "Y ahora un experimento: escribe solo <code>40</code> en C2.",
  "Das %-Format zeigt jede Zahl mal 100 an.": "El formato % muestra cada número por 100.",
@@ -81,9 +80,10 @@
  "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "Todavía no está todo relleno. Selecciona C5 y D5 <strong>juntas</strong> y arrastra el <strong>Ausfüllkästchen</strong> (controlador de relleno) hacia abajo hasta la fila 7.",
  "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ ¡La fila 5 está bien! Ahora selecciona C5 y D5 juntas y arrastra las dos con el <strong>Ausfüllkästchen</strong> (controlador de relleno) hacia abajo hasta la fila 7.",
  "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "Los porcentajes los conoces de mates. Ahora calculas porcentajes con Calc. Así calculas rápido cuánto cuestan unos pantalones con un 30 % de descuento. O cuánto IVA aparece en el tique.",
- "🏆 Genau! 40% mit Zeichen ist für Calc 0,4 – angezeigt als 40 %. Experiment geschafft.": "🏆 ¡Exacto! <code>40%</code> con el signo es 0,4 para Calc, y se muestra como 40 %. Experimento conseguido.",
  "ODS Aufgabe 1 · Rabattk9-02-prozentrechnung-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Tarea 1 · Descuento</strong><small>k9-02-prozentrechnung-1.ods</small></span>",
  "ODS Aufgabe 2 · Umfragek9-02-prozentrechnung-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Tarea 2 · Encuesta</strong><small>k9-02-prozentrechnung-2.ods</small></span>",
  "ODS Aufgabe 3 · Mehrwertsteuerk9-02-prozentrechnung-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Tarea 3 · IVA</strong><small>k9-02-prozentrechnung-3.ods</small></span>",
- "Kurzvideo: Rabatt berechnen in 60 Sekunden": "<strong>Vídeo corto:</strong> calcular un descuento en 60 segundos"
+ "Kurzvideo: Rabatt berechnen in 60 Sekunden": "<strong>Vídeo corto:</strong> calcular un descuento en 60 segundos",
+ "Aha! Aus {} wird {}, weil Calc {} · 100 rechnet. Merke: Erst rechnen, dann formatieren – oder gleich {}% mit Zeichen tippen.": "¡Ajá! {0} se convierte en <strong>{1}</strong>, porque Calc calcula {0} · 100. Recuerda: <strong>primero calcular, luego dar formato</strong>, o escribe directamente <code>{0}%</code> con el signo.",
+ "🏆 Genau! {} mit Zeichen ist für Calc {} – angezeigt als {}. Experiment geschafft.": "🏆 ¡Exacto! <code>{0}</code> con el signo es {1} para Calc, y se muestra como {2}. Experimento conseguido."
 }

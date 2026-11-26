@@ -28,7 +28,6 @@
  "% Als Prozent formatieren": "% Als Prozent formatieren (форматувати як відсоток)",
  "Tippe in C2 eine Zahl oder die Formel =B2/B3.": "Введи в C2 число або формулу <code>=B2/B3</code>.",
  "=B2/B3 → 10 von 25 = {}. Klick jetzt auf % Als Prozent formatieren.": "<code>=B2/B3</code> → 10 з 25 = <strong>{}</strong>. Тепер натисни <strong>% Als Prozent formatieren</strong>.",
- "Aha! Aus 40 wird 4.000 %, weil Calc 40 · 100 rechnet. Merke: Erst rechnen, dann formatieren – oder gleich 40% mit Zeichen tippen.": "Ага! 40 стає <strong>4000 %</strong>, бо Calc рахує 40 · 100. Запам'ятай: <strong>спочатку порахувати, потім форматувати</strong> – або одразу вводь <code>40%</code> зі знаком.",
  "✔ Aus 0,4 wird 40 %. Die Zahl bleibt gleich, nur die Anzeige ändert sich.": "✔ 0,4 стає <strong>40 %</strong>. Число те саме, змінюється лише вигляд.",
  "Und jetzt ein Experiment: Tipp in C2 einfach 40 ein.": "А тепер експеримент: просто введи в C2 <code>40</code>.",
  "Das %-Format zeigt jede Zahl mal 100 an.": "Формат % показує кожне число, помножене на 100.",
@@ -81,9 +80,10 @@
  "Noch nicht alles ausgefüllt. Markier C5 und D5 zusammen und zieh am Ausfüllkästchen nach unten bis Zeile 7.": "Ще не все заповнено. Виділи C5 і D5 <strong>разом</strong> і потягни за <strong>Ausfüllkästchen</strong> (маркер заповнення) вниз до рядка 7.",
  "✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.": "✔ Рядок 5 правильний! Тепер виділи C5 і D5 разом і потягни обидві за <strong>Ausfüllkästchen</strong> (маркер заповнення) вниз до рядка 7.",
  "Prozentrechnen kennst du aus Mathe. Jetzt rechnest du Prozente mit Calc. So rechnest du schnell aus, was eine Hose mit 30 % Rabatt kostet. Oder wie viel Mehrwertsteuer auf dem Kassenzettel steht.": "Відсотки ти знаєш з математики. Тепер ти рахуєш відсотки в Calc. Так ти швидко обчислиш, скільки коштують штани зі знижкою 30 %. Або скільки ПДВ указано в чеку.",
- "🏆 Genau! 40% mit Zeichen ist für Calc 0,4 – angezeigt als 40 %. Experiment geschafft.": "🏆 Точно! <code>40%</code> зі знаком для Calc – це 0,4, показано як 40 %. Експеримент вдався.",
  "ODS Aufgabe 1 · Rabattk9-02-prozentrechnung-1.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Завдання 1 · Знижка</strong><small>k9-02-prozentrechnung-1.ods</small></span>",
  "ODS Aufgabe 2 · Umfragek9-02-prozentrechnung-2.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Завдання 2 · Опитування</strong><small>k9-02-prozentrechnung-2.ods</small></span>",
  "ODS Aufgabe 3 · Mehrwertsteuerk9-02-prozentrechnung-3.ods": "<span aria-hidden=\"true\" class=\"ico\">ODS</span> <span><strong>Завдання 3 · ПДВ</strong><small>k9-02-prozentrechnung-3.ods</small></span>",
- "Kurzvideo: Rabatt berechnen in 60 Sekunden": "<strong>Коротке відео:</strong> порахувати знижку за 60 секунд"
+ "Kurzvideo: Rabatt berechnen in 60 Sekunden": "<strong>Коротке відео:</strong> порахувати знижку за 60 секунд",
+ "Aha! Aus {} wird {}, weil Calc {} · 100 rechnet. Merke: Erst rechnen, dann formatieren – oder gleich {}% mit Zeichen tippen.": "Ага! {0} стає <strong>{1}</strong>, бо Calc рахує {0} · 100. Запам'ятай: <strong>спочатку порахувати, потім форматувати</strong> – або одразу вводь <code>{0}%</code> зі знаком.",
+ "🏆 Genau! {} mit Zeichen ist für Calc {} – angezeigt als {}. Experiment geschafft.": "🏆 Точно! <code>{0}</code> зі знаком для Calc – це {1}, показано як {2}. Експеримент вдався."
 }
