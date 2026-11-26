@@ -26,6 +26,7 @@
 <script src="../assets/i18n.js?v=e2dd6b353a" data-page="k9-02-prozentrechnung" data-langs="de,en,uk,ar,ru,tr,fa,ro,sq,pl,vi,fr,es,bs"></script>
 <script src="../assets/kurs.js?v=2bce36b407"></script>
 <script src="../assets/minicalc.js?v=6833bbf1f4" defer></script>
+<script src="../assets/register.js?v=f5015f104c" defer></script>
 <script src="../assets/wdh.js?v=5e83a5da7d" defer></script>
 </head>
 <body>
@@ -80,18 +81,21 @@
     </table>
   </details>
 
+  <!-- Lernschritte als Register (register.js) -->
+  <div id="lernen">
   <!-- 0 · Weißt du noch? -->
-  <section class="card wdh" id="wdh">
+  <section class="card wdh" id="wdh" data-tab="Weißt du noch?" data-wait>
     <h2><span class="step-no">↺</span> Weißt du noch? <span class="chip">2 Min</span></h2>
     <p class="lead">Zwei Aufgaben zu früheren Bausteinen. Ohne Nachschauen!</p>
     <div id="wdh-box"></div>
   </section>
 
   <!-- 1 · Vorhersage -->
-  <section class="card" id="problem">
+  <section class="card" id="problem" data-tab="Das Problem" data-wait>
     <h2><span class="step-no">1</span> Das Problem <span class="chip">5 Min</span></h2>
-    <div id="calc1"></div>
-    <p class="lead">💡 <strong>Aus Mathe kennst du:</strong> 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 <strong>20 %</strong>.</p>
+    <div class="bild-wrap" id="bild1"></div>
+    <div id="calc1" hidden></div>
+    <p class="lead">💡 <strong>Aus Mathe kennst du:</strong> 20 % von 50 € = 50 € · 20 : 100 = 10 €. In der Tabelle oben zeigt B2 <strong>20 %</strong>. Du musst nichts eintippen.</p>
     <p><strong>Überleg:</strong> Welche Zahl steht für Calc wirklich in B2?</p>
     <div class="choices" id="predict">
       <button type="button" class="choice" data-v="20">20</button>
@@ -102,8 +106,8 @@
   </section>
 
   <!-- 2 · Erklärung -->
-  <section class="card" id="erklaerung">
-    <h2><span class="step-no">2</span> So rechnet Calc mit Prozent <span class="chip">7 Min</span></h2>
+  <section class="card" id="erklaerung" data-tab="Rabatt">
+    <h2><span class="step-no">2</span> So rechnet Calc mit Prozent <span class="chip">4 Min</span></h2>
     <figure class="video">
       <video controls playsinline muted preload="metadata" src="../videos/k9-02-prozentrechnung.mp4"></video>
       <figcaption><strong>Kurzvideo:</strong> Rabatt berechnen in 60 Sekunden</figcaption>
@@ -114,32 +118,43 @@
     <div id="calcBsp"></div>
     <p><strong>Klick C5 und D5 an.</strong> Hier unter der Tabelle steht dann, was Calc rechnet.</p>
     <p class="fb" id="fbBsp" aria-live="polite"></p>
+  </section>
 
-    <h3 class="sub">Beispiel: Anteil und der %-Knopf</h3>
+  <!-- 3 · %-Knopf -->
+  <section class="card" id="pct" data-tab="%-Knopf" data-wait>
+    <h2><span class="step-no">3</span> Anteil und der %-Knopf <span class="chip">3 Min</span></h2>
     <div id="calcPct"></div>
     <p><strong>Klick auf % Als Prozent formatieren.</strong> In Calc: Symbolleiste <strong>%</strong> oder <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>5</kbd>.</p>
     <p class="fb" id="fbPct" aria-live="polite"></p>
-
   </section>
 
   <!-- 3 · Ausprobieren -->
-  <section class="card" id="ausprobieren">
-    <h2><span class="step-no">3</span> Sale-Labor <span class="chip">5 Min</span></h2>
+  <section class="card" id="ausprobieren" data-tab="Sale-Labor" data-wait>
+    <h2><span class="step-no">4</span> Sale-Labor <span class="chip">5 Min</span></h2>
     <div id="calc2"></div>
     <p class="lead">Alles 20 % billiger! Schreib in <strong>C5</strong> den Rabatt in € und in <strong>D5</strong> den neuen Preis. Dann markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7.</p>
     <p class="fb" id="fb2" aria-live="polite"></p>
+    <details class="spicker" open>
+      <summary><span class="t">📋 Spicker: So rechnest du mit Prozent</span></summary>
+      <ul>
+        <li><strong>20 % ist für Calc die Zahl 0,2.</strong> Prozente immer mit %-Zeichen eintippen: <code>20%</code></li>
+        <li>Prozentwert: <code>=B5*$B$2</code> – kein <code>/100</code> nötig.</li>
+        <li>Neuer Preis nach Rabatt: <code>=B5-C5</code> oder <code>=B5*(1-$B$2)</code></li>
+      </ul>
+    </details>
   </section>
 
-  <!-- 4 · Kurz-Check -->
-  <section class="card" id="check">
-    <h2><span class="step-no">4</span> Kurz-Check <span class="chip">3 Min</span></h2>
-    <p class="lead">Vier Fragen. Hast du es verstanden?</p>
+  <!-- 5 · Kurz-Check -->
+  <section class="card" id="check" data-tab="Kurz-Check" data-wait>
+    <h2><span class="step-no">5</span> Kurz-Check <span class="chip">3 Min</span></h2>
+    <p class="lead">Vier Fragen. Hast du es verstanden? Dann geht es weiter in Calc.</p>
     <div id="quiz"></div>
   </section>
+  </div>
 
   <!-- 5 · In Calc: Pflicht, Plus, Freiwillig – eine Aufgabe = eine Datei mit FERTIG-Feld -->
   <section class="card calc-block" id="ueben">
-    <h2><span class="step-no">5</span> Jetzt in LibreOffice Calc <span class="chip">15 Min</span></h2>
+    <h2><span class="step-no">6</span> Jetzt in LibreOffice Calc <span class="chip">15 Min</span></h2>
     <p class="lead">Jede Aufgabe ist eine eigene Datei. Oben in der Datei steht <strong>✔ FERTIG!</strong>, wenn alles stimmt. Zeig es deiner Lehrkraft.</p>
     <h3 class="sub"><span class="badge basis">Pflicht</span> Das machen alle</h3>
     <div class="dl">
@@ -221,11 +236,12 @@ document.addEventListener("DOMContentLoaded", () => {
   /* ---------- 1 · Vorhersage ---------- */
   const fb1 = document.getElementById("fb1");
   const box1 = document.getElementById("calc1");
-  const calc1 = new MiniCalc(box1, {
-    cols: 3, rows: 3,
+  const p1 = {
+    cols: 3, rows: 2,
     cells: { A2: "Rabatt", B2: "20 %", B1: "mit %-Format" },
     styles: { B1: "head", C1: "head", A2: "label" }, formats: { C2: "dec1" }, select: "B2",
-  });
+  };
+  Kurs.bild(document.getElementById("bild1"), { cols: 3, rows: 2, cells: p1.cells, styles: Object.assign({ B2: "num" }, p1.styles), mark: "B2" });
   const predict = document.getElementById("predict");
   predict.addEventListener("click", (ev) => {
     const b = ev.target.closest(".choice");
@@ -233,12 +249,16 @@ document.addEventListener("DOMContentLoaded", () => {
     predict.querySelectorAll(".choice").forEach((x) => { x.disabled = true; });
     predict.querySelector('[data-v="0.2"]').classList.add("right");
     if (b.dataset.v !== "0.2") b.classList.add("wrong");
+    document.getElementById("bild1").hidden = true;
+    box1.hidden = false;
+    const calc1 = new MiniCalc(box1, p1);
     calc1.set("C1", "ohne %-Format");
     calc1.set("C2", "=B2");
     calc1.select("C2");
     feedback(fb1, (b.dataset.v === "0.2" ? T("✔ Genau!") + " " : "") +
       T("C2 zeigt dieselbe Zahl ohne %-Format: <strong>0,2</strong>. Das %-Format zeigt die Zahl nur mal 100 an und hängt ein % an.") + " " +
       T("Darum rechnest du in Calc einfach <code>=B5*B2</code>. Das /100 steckt schon im Prozent."), b.dataset.v === "0.2" ? "ok" : "hint");
+    Register.done("problem");
   });
 
   /* ---------- 2 · Beispiel Rabatt ---------- */
@@ -289,11 +309,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     if (tried40 && /%\s*$/.test(c.getRaw("C2"))) {
       feedback(fbPct, T(`🏆 Genau! <code>${c.getRaw("C2").trim()}</code> mit Zeichen ist für Calc ${zahl} – angezeigt als ${c.format("C2", v)}. Experiment geschafft.`), "ok");
+      Register.done("pct");
       return;
     }
     if (near(v, 0.4)) {
-      feedback(fbPct, T("✔ Aus 0,4 wird <strong>40 %</strong>. Die Zahl bleibt gleich, nur die Anzeige ändert sich.") + " " +
-        T("Und jetzt ein Experiment: Tipp in C2 einfach <code>40</code> ein."), "ok");
+      feedback(fbPct, T("Aus 0,4 wird <strong>40 %</strong>. Die Zahl bleibt gleich, nur die Anzeige ändert sich.") + " " +
+        T("<strong>Noch nicht fertig:</strong> Jetzt ein Experiment: Tipp in C2 einfach <code>40</code> ein."), "info");
       return;
     }
     feedback(fbPct, T("Das %-Format zeigt jede Zahl mal 100 an."), "info");
@@ -340,14 +361,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (/\/100/.test(rc)) { feedback(fb2, T("Das <code>/100</code> ist zu viel! B2 enthält schon 0,2. Rechne einfach Preis · B2."), "hint"); return; }
     if (hasNumber(rc)) { feedback(fb2, T("In der Formel steht eine Zahl. Nimm die Zelle <code>B2</code> – dann kannst du den Rabatt später ändern."), "hint"); return; }
     if (!near(c.get("C5"), c.get("B5") * p)) { feedback(fb2, T("C5 stimmt noch nicht. Rabatt = Preis (B5) · Prozentsatz (B2)."), "hint"); return; }
-    if (!rd) { feedback(fb2, T("✔ C5 stimmt! Jetzt D5: neuer Preis = Preis − Rabatt."), "info"); return; }
+    if (!rd) { feedback(fb2, T("C5 stimmt. <strong>Noch nicht fertig:</strong> Jetzt D5: neuer Preis = Preis − Rabatt."), "info"); return; }
     if (!rd.startsWith("=") || isErr(c.get("D5")) || !near(c.get("D5"), c.get("B5") * (1 - p))) {
       feedback(fb2, T("D5 stimmt noch nicht. Neuer Preis = <code>=B5-C5</code>."), "hint"); return;
     }
     if (!filled) {
       feedback(fb2, src === "fill"
         ? T("Noch nicht alles ausgefüllt. Markier C5 und D5 <strong>zusammen</strong> und zieh am Ausfüllkästchen nach unten bis Zeile 7.")
-        : T("✔ Zeile 5 stimmt! Jetzt markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7."), "info");
+        : T("Zeile 5 stimmt. <strong>Noch nicht fertig:</strong> Markier C5 und D5 zusammen und zieh beide am Ausfüllkästchen nach unten bis Zeile 7."), "info");
       return;
     }
     if (src === "edit" && (c.getRaw("C6").replace(/\s/g, "") !== MiniCalc.shiftFormula(c.getRaw("C5"), 1, 0).replace(/\s/g, "") ||
@@ -360,6 +381,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
     solved = true;
+    Register.done("ausprobieren");
     feedback(fb2, T("✔ Perfekt! Alle Preise stimmen.") + " " + T("<strong>Bonus:</strong> Klick B2 an und tippe <code>30%</code>. Was passiert?"), "ok");
   };
   calc2.on(sale);
@@ -383,7 +405,7 @@ document.addEventListener("DOMContentLoaded", () => {
       options: ["0,4 %", "40 %", "250 %"], right: 1,
       why: "10 : 25 = 0,4. Im %-Format wird daraus 40 %.",
       miss: ["Das %-Format zeigt die Zahl mal 100.", null, "Das wäre falsch herum: 25 : 10. Die Formel teilt B5 durch B10."] },
-  ]);
+  ], { onDone: () => Register.done("check") });
 });
 </script>
 <script>
@@ -400,7 +422,13 @@ document.addEventListener("DOMContentLoaded", () => {
       table: { cols: 3, rows: 6, cells: { A1: "Versand", B1: 4, A3: "Artikel", B3: "Preis", C3: "mit Versand", A4: "Buch", B4: 12, A5: "Spiel", B5: 25, A6: "Ball", B6: 9 }, styles: { A1: "label", A3: "head", B3: "head", C3: "head" }, formats: { B: "eur", C: "eur" } },
       cell: "C4", solution: "=B4+$B$1", check: Wdh.checks.dollar({ fix: "B1", move: "B4", value: 16 }),
       why: "B4 wandert beim Ziehen mit. <code>$B$1</code> bleibt fest." }
-  ]);
+  ], { onDone: () => Register.done("wdh") });
+});
+</script>
+<script>
+/* Register erst bauen, wenn alle Übungen fertig aufgebaut sind */
+document.addEventListener("DOMContentLoaded", () => {
+  Register(document.getElementById("lernen"), { key: "k9-02", after: "ueben", nr: "9.2" });
 });
 </script>
 </body>
