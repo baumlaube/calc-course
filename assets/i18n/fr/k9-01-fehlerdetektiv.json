@@ -4,7 +4,6 @@
  "Klasse 9 · Baustein 1": "9e année · Unité 1",
  "Überleg: Warum?": "<strong>Réfléchis :</strong> pourquoi ?",
  "Die Punktzahl ist zu hoch.": "Le score est trop élevé.",
- "B6 ist leer – Calc teilt durch 0.": "B6 est vide – Calc divise par 0.",
  "Die Formel ist falsch geschrieben.": "La formule est mal écrite.",
  "Laute Fehler zeigt Calc an.Stille Fehler musst du selbst finden.": "Les <strong>erreurs bruyantes</strong>, Calc les montre.<br/>Les <strong>erreurs silencieuses</strong>, tu dois les trouver toi-même.",
  "Steckbriefe: laute Fehler": "Fiches : erreurs bruyantes",
@@ -132,5 +131,6 @@
  "Start-Check": "Test de départ",
  "Laute Fehler": "Erreurs bruyantes",
  "Stille Fehler": "Erreurs silencieuses",
- "Fehler-Labor": "Labo des erreurs"
+ "Fehler-Labor": "Labo des erreurs",
+ "B3 ist leer – Calc teilt durch 0.": "B3 est vide – Calc divise par 0."
 }

@@ -4,7 +4,6 @@
  "Klasse 9 · Baustein 1": "Klasa 9 · Njësia 1",
  "Überleg: Warum?": "<strong>Mendo:</strong> Pse?",
  "Die Punktzahl ist zu hoch.": "Pikët janë shumë të larta.",
- "B6 ist leer – Calc teilt durch 0.": "B6 është bosh – Calc pjesëton me 0.",
  "Die Formel ist falsch geschrieben.": "Formula është shkruar gabim.",
  "Laute Fehler zeigt Calc an.Stille Fehler musst du selbst finden.": "<strong>Gabimet e zhurmshme</strong> i tregon Calc.<br/><strong>Gabimet e heshtura</strong> duhet t'i gjesh vetë.",
  "Steckbriefe: laute Fehler": "Kartela: gabimet e zhurmshme",
@@ -132,5 +131,6 @@
  "Start-Check": "Testi i fillimit",
  "Laute Fehler": "Gabime të zhurmshme",
  "Stille Fehler": "Gabime të heshtura",
- "Fehler-Labor": "Laboratori i gabimeve"
+ "Fehler-Labor": "Laboratori i gabimeve",
+ "B3 ist leer – Calc teilt durch 0.": "B3 është bosh – Calc pjesëton me 0."
 }

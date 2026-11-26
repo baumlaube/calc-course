@@ -4,7 +4,6 @@
  "Klasse 9 · Baustein 1": "Grade 9 · Unit 1",
  "Überleg: Warum?": "<strong>Think:</strong> Why?",
  "Die Punktzahl ist zu hoch.": "The score is too high.",
- "B6 ist leer – Calc teilt durch 0.": "B6 is empty – Calc divides by 0.",
  "Die Formel ist falsch geschrieben.": "The formula is spelled wrong.",
  "Laute Fehler zeigt Calc an.Stille Fehler musst du selbst finden.": "<strong>Loud errors</strong> are shown by Calc.<br/><strong>Silent errors</strong> you have to find yourself.",
  "Steckbriefe: laute Fehler": "Profiles: loud errors",
@@ -132,5 +131,6 @@
  "Start-Check": "Start check",
  "Laute Fehler": "Loud errors",
  "Stille Fehler": "Silent errors",
- "Fehler-Labor": "Error lab"
+ "Fehler-Labor": "Error lab",
+ "B3 ist leer – Calc teilt durch 0.": "B3 is empty – Calc divides by 0."
 }

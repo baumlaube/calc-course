@@ -4,7 +4,6 @@
  "Klasse 9 · Baustein 1": "9. sınıf · Ünite 1",
  "Überleg: Warum?": "<strong>Düşün:</strong> Neden?",
  "Die Punktzahl ist zu hoch.": "Puan çok yüksek.",
- "B6 ist leer – Calc teilt durch 0.": "B6 boş – Calc 0'a bölüyor.",
  "Die Formel ist falsch geschrieben.": "Formül yanlış yazılmış.",
  "Laute Fehler zeigt Calc an.Stille Fehler musst du selbst finden.": "<strong>Gürültülü hataları</strong> Calc gösterir.<br/><strong>Sessiz hataları</strong> kendin bulman gerekir.",
  "Steckbriefe: laute Fehler": "Profiller: gürültülü hatalar",
@@ -132,5 +131,6 @@
  "Start-Check": "Başlangıç testi",
  "Laute Fehler": "Gürültülü hatalar",
  "Stille Fehler": "Sessiz hatalar",
- "Fehler-Labor": "Hata laboratuvarı"
+ "Fehler-Labor": "Hata laboratuvarı",
+ "B3 ist leer – Calc teilt durch 0.": "B3 boş – Calc 0'a bölüyor."
 }

@@ -4,7 +4,6 @@
  "Klasse 9 · Baustein 1": "9 класс · Модуль 1",
  "Überleg: Warum?": "<strong>Подумай:</strong> почему?",
  "Die Punktzahl ist zu hoch.": "Балл слишком большой.",
- "B6 ist leer – Calc teilt durch 0.": "B6 пустая – Calc делит на 0.",
  "Die Formel ist falsch geschrieben.": "Формула написана с ошибкой.",
  "Laute Fehler zeigt Calc an.Stille Fehler musst du selbst finden.": "<strong>Громкие ошибки</strong> Calc показывает сам.<br/><strong>Тихие ошибки</strong> надо найти самому.",
  "Steckbriefe: laute Fehler": "Профили: громкие ошибки",
@@ -132,5 +131,6 @@
  "Start-Check": "Стартовая проверка",
  "Laute Fehler": "Громкие ошибки",
  "Stille Fehler": "Тихие ошибки",
- "Fehler-Labor": "Лаборатория ошибок"
+ "Fehler-Labor": "Лаборатория ошибок",
+ "B3 ist leer – Calc teilt durch 0.": "B3 пустая – Calc делит на 0."
 }

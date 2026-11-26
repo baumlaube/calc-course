@@ -4,7 +4,6 @@
  "Klasse 9 · Baustein 1": "9. razred · Cjelina 1",
  "Überleg: Warum?": "<strong>Razmisli:</strong> Zašto?",
  "Die Punktzahl ist zu hoch.": "Broj bodova je prevelik.",
- "B6 ist leer – Calc teilt durch 0.": "B6 je prazno – Calc dijeli sa 0.",
  "Die Formel ist falsch geschrieben.": "Formula je pogrešno napisana.",
  "Laute Fehler zeigt Calc an.Stille Fehler musst du selbst finden.": "<strong>Glasne greške</strong> Calc pokazuje.<br/><strong>Tihe greške</strong> moraš sam/a pronaći.",
  "Steckbriefe: laute Fehler": "Poternice: glasne greške",
@@ -127,5 +126,6 @@
  "Start-Check": "Početna provjera",
  "Laute Fehler": "Glasne greške",
  "Stille Fehler": "Tihe greške",
- "Fehler-Labor": "Laboratorija grešaka"
+ "Fehler-Labor": "Laboratorija grešaka",
+ "B3 ist leer – Calc teilt durch 0.": "B3 je prazno – Calc dijeli sa 0."
 }

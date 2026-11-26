@@ -4,7 +4,6 @@
  "Klasse 9 · Baustein 1": "کلاس 9 · واحد 1",
  "Überleg: Warum?": "<strong>فکر کن:</strong> چرا؟",
  "Die Punktzahl ist zu hoch.": "امتیاز خیلی زیاد است.",
- "B6 ist leer – Calc teilt durch 0.": "B6 خالی است – Calc بر 0 تقسیم می‌کند.",
  "Die Formel ist falsch geschrieben.": "فرمول غلط نوشته شده.",
  "Laute Fehler zeigt Calc an.Stille Fehler musst du selbst finden.": "<strong>خطاهای پرسروصدا</strong> را Calc نشان می‌دهد.<br/><strong>خطاهای بی‌صدا</strong> را باید خودت پیدا کنی.",
  "Steckbriefe: laute Fehler": "پرونده‌ها: خطاهای پرسروصدا",
@@ -132,5 +131,6 @@
  "Start-Check": "آزمون شروع",
  "Laute Fehler": "خطاهای پرسروصدا",
  "Stille Fehler": "خطاهای بی‌صدا",
- "Fehler-Labor": "آزمایشگاه خطا"
+ "Fehler-Labor": "آزمایشگاه خطا",
+ "B3 ist leer – Calc teilt durch 0.": "B3 خالی است – Calc بر 0 تقسیم می‌کند."
 }

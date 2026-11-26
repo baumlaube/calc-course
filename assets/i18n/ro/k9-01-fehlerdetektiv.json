@@ -4,7 +4,6 @@
  "Klasse 9 · Baustein 1": "Clasa a 9-a · Unitatea 1",
  "Überleg: Warum?": "<strong>Gândește-te:</strong> De ce?",
  "Die Punktzahl ist zu hoch.": "Punctajul e prea mare.",
- "B6 ist leer – Calc teilt durch 0.": "B6 e gol – Calc împarte la 0.",
  "Die Formel ist falsch geschrieben.": "Formula e scrisă greșit.",
  "Laute Fehler zeigt Calc an.Stille Fehler musst du selbst finden.": "<strong>Erorile zgomotoase</strong> le arată Calc.<br/><strong>Erorile tăcute</strong> trebuie să le găsești singur.",
  "Steckbriefe: laute Fehler": "Fișe: erori zgomotoase",
@@ -132,5 +131,6 @@
  "Start-Check": "Test de start",
  "Laute Fehler": "Erori zgomotoase",
  "Stille Fehler": "Erori tăcute",
- "Fehler-Labor": "Laboratorul de erori"
+ "Fehler-Labor": "Laboratorul de erori",
+ "B3 ist leer – Calc teilt durch 0.": "B3 e gol – Calc împarte la 0."
 }

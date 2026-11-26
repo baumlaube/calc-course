@@ -4,7 +4,6 @@
  "Klasse 9 · Baustein 1": "Klasa 9 · Jednostka 1",
  "Überleg: Warum?": "<strong>Pomyśl:</strong> Dlaczego?",
  "Die Punktzahl ist zu hoch.": "Wynik jest za wysoki.",
- "B6 ist leer – Calc teilt durch 0.": "B6 jest puste – Calc dzieli przez 0.",
  "Die Formel ist falsch geschrieben.": "Formuła jest źle napisana.",
  "Laute Fehler zeigt Calc an.Stille Fehler musst du selbst finden.": "<strong>Głośne błędy</strong> pokazuje Calc.<br/><strong>Ciche błędy</strong> trzeba znaleźć samemu.",
  "Steckbriefe: laute Fehler": "Kartoteka: głośne błędy",
@@ -132,5 +131,6 @@
  "Start-Check": "Test na start",
  "Laute Fehler": "Głośne błędy",
  "Stille Fehler": "Ciche błędy",
- "Fehler-Labor": "Laboratorium błędów"
+ "Fehler-Labor": "Laboratorium błędów",
+ "B3 ist leer – Calc teilt durch 0.": "B3 jest puste – Calc dzieli przez 0."
 }

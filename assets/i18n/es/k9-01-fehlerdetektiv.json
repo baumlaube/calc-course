@@ -4,7 +4,6 @@
  "Klasse 9 · Baustein 1": "9.º curso · Unidad 1",
  "Überleg: Warum?": "<strong>Piensa:</strong> ¿por qué?",
  "Die Punktzahl ist zu hoch.": "La puntuación es demasiado alta.",
- "B6 ist leer – Calc teilt durch 0.": "B6 está vacía: Calc divide entre 0.",
  "Die Formel ist falsch geschrieben.": "La fórmula está mal escrita.",
  "Laute Fehler zeigt Calc an.Stille Fehler musst du selbst finden.": "Los <strong>errores ruidosos</strong> los muestra Calc.<br/>Los <strong>errores silenciosos</strong> tienes que encontrarlos tú.",
  "Steckbriefe: laute Fehler": "Fichas: errores ruidosos",
@@ -132,5 +131,6 @@
  "Start-Check": "Prueba inicial",
  "Laute Fehler": "Errores ruidosos",
  "Stille Fehler": "Errores silenciosos",
- "Fehler-Labor": "Laboratorio de errores"
+ "Fehler-Labor": "Laboratorio de errores",
+ "B3 ist leer – Calc teilt durch 0.": "B3 está vacía: Calc divide entre 0."
 }
