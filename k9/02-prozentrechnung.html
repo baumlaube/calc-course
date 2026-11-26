@@ -281,13 +281,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const v = c.get("C2");
     if (typeof v !== "number") { feedback(fbPct, T("Tippe in C2 eine Zahl oder die Formel <code>=B2/B3</code>."), "info"); return; }
     if (!pctOn) { feedback(fbPct, T(`<code>=B2/B3</code> → 10 von 25 = <strong>${c.format("C2", v)}</strong>. Klick jetzt auf <strong>% Als Prozent formatieren</strong>.`), "info"); return; }
+    const zahl = String(v).replace(".", ",");
     if (v > 1) {
       tried40 = true;
-      feedback(fbPct, T("Aha! Aus 40 wird <strong>4.000 %</strong>, weil Calc 40 · 100 rechnet. Merke: <strong>Erst rechnen, dann formatieren</strong> – oder gleich <code>40%</code> mit Zeichen tippen."), "hint");
+      feedback(fbPct, T(`Aha! Aus ${zahl} wird <strong>${c.format("C2", v)}</strong>, weil Calc ${zahl} · 100 rechnet. Merke: <strong>Erst rechnen, dann formatieren</strong> – oder gleich <code>${zahl}%</code> mit Zeichen tippen.`), "hint");
       return;
     }
-    if (near(v, 0.4) && tried40 && !c.getRaw("C2").startsWith("=")) {
-      feedback(fbPct, T("🏆 Genau! <code>40%</code> mit Zeichen ist für Calc 0,4 – angezeigt als 40 %. Experiment geschafft."), "ok");
+    if (tried40 && /%\s*$/.test(c.getRaw("C2"))) {
+      feedback(fbPct, T(`🏆 Genau! <code>${c.getRaw("C2").trim()}</code> mit Zeichen ist für Calc ${zahl} – angezeigt als ${c.format("C2", v)}. Experiment geschafft.`), "ok");
       return;
     }
     if (near(v, 0.4)) {
